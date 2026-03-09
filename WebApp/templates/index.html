@@ -61,11 +61,8 @@
             <div class="title-container">
                 <h1 class="title">Tracksy</h1>
             </div>
-            <button class="icon-btn" onclick="showHelp()">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <circle cx="12" cy="12" r="10"/>
-                    <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3M12 17h.01"/>
-                </svg>
+            <button class="icon-btn" onclick="showHelp()" title="How to play">
+                <span class="icon-info-circle">i</span>
             </button>
         </header>
 
@@ -85,13 +82,8 @@
             <button class="debug-reset-btn" onclick="resetGame()">Reset Game</button>
         </div>
 
-        <!-- Guesses List -->
-        <div class="guesses-container" id="guessesContainer">
-            <!-- Guesses will be inserted here -->
-        </div>
-
-        <!-- Bottom Action -->
-        <div class="bottom-action">
+        <!-- Make a Guess (stays at top) -->
+        <div class="bottom-action bottom-action-sticky">
             <button class="action-btn" id="actionBtn" onclick="showSearch()">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <circle cx="11" cy="11" r="8"/>
@@ -99,6 +91,11 @@
                 </svg>
                 <span>Make a Guess</span>
             </button>
+        </div>
+
+        <!-- Guesses List (scrolls below the button) -->
+        <div class="guesses-container" id="guessesContainer">
+            <!-- Guesses will be inserted here -->
         </div>
         </div>
     </div>

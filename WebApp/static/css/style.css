@@ -287,6 +287,20 @@ body {
     background: var(--bg-card);
 }
 
+.icon-info-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 2px solid currentColor;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 1;
+}
+
 /* ============================================================
    Guess Counter (Dots)
    ============================================================ */
@@ -519,6 +533,12 @@ body {
     padding: 16px;
     padding-bottom: 32px;
     border-top: 1px solid var(--bg-card-border);
+}
+
+.bottom-action-sticky {
+    flex-shrink: 0;
+    border-top: none;
+    border-bottom: 1px solid var(--bg-card-border);
 }
 
 .action-btn {
