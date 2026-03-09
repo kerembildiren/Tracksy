@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.env
+.env.local
+*.egg-info/
+
+# DataCollection cache
+DataCollection/.cache/
+
+# IDE / OS
+.idea/
+.DS_Store
+Thumbs.db
+
+# Optional: uncomment if you don't want to commit the large JSON to git
+# DataCollection/output/artists_raw.json
+# WebApp/data/artists_raw.json

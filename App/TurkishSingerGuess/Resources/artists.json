@@ -1,0 +1,3628 @@
+[
+  {
+    "id": "0V2oXYR7DtrZAEFeILRW2r",
+    "name": "Lvbel C5",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 1,
+    "debut": "2001",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 8745594,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb81262eb337ac9865d7c4ff5d"
+  },
+  {
+    "id": "1GMwSpFzrLd12jUX15bHB6",
+    "name": "BLOK3",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 2,
+    "debut": "2002",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 8100896,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebe7fa9e9863e296150e76e49d"
+  },
+  {
+    "id": "17EAWIoXAMU9Vo9xRrdZQ0",
+    "name": "AKDO",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 3,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 7176228,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb41f658bdefab10511c6a29e2"
+  },
+  {
+    "id": "2yMN0IP20GOaN6q0p0zL5k",
+    "name": "Tarkan",
+    "gender": "Male",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 4,
+    "debut": "1972",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 6696691,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb9c5050e9882dd7513b83d250"
+  },
+  {
+    "id": "64d1rUxfizSAOE9UbMnUZd",
+    "name": "Sezen Aksu",
+    "gender": "Female",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 5,
+    "debut": "1954",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 6494805,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebd32dbe03236eda653b1a2bd0"
+  },
+  {
+    "id": "1CcZoULzFHa8Uhwo6OlQcp",
+    "name": "Semicenk",
+    "gender": "Male",
+    "genres": [
+      "Arabesk"
+    ],
+    "popularity": 6,
+    "debut": "1998",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 6484680,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb8a1875571bb42c9c8569d2d1"
+  },
+  {
+    "id": "5AboYJAlMb9FGadTTDKRoN",
+    "name": "Ebru Gündeş",
+    "gender": "Female",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 7,
+    "debut": "1974",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 6432524,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb089611d35599d38b83d1dcf8"
+  },
+  {
+    "id": "6bGOmNBU1AOgttgOjh0ldf",
+    "name": "Ati242",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 8,
+    "debut": "1997",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 5825179,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebc7545923a2c33f92fce13bae"
+  },
+  {
+    "id": "4UW9Hdsrx9kX2HdJ90jRKM",
+    "name": "Era7capone",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 9,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 5678988,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb289d5cbedf641de53fe915ee"
+  },
+  {
+    "id": "51DevdOxIJin6DB1FXJpD1",
+    "name": "UZI",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 10,
+    "debut": "1985",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 5565281,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebfa27f66f319b25d81452b876"
+  },
+  {
+    "id": "46zuW8tHxwahYn7VNMgYTa",
+    "name": "Yalın",
+    "gender": "Male",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 11,
+    "debut": "1980",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 5296397,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb67bf1f428e3ce4d5ed71215a"
+  },
+  {
+    "id": "5PRW6j58xEEWL4DDVEITKT",
+    "name": "Dedublüman",
+    "gender": "Mixed",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 12,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": "group",
+    "spotify_monthly_streams": 4982796,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb6935936bfde4c6997f7d8284"
+  },
+  {
+    "id": "1F2v33FQTavJyaD7ZsyhdA",
+    "name": "Gülşen",
+    "gender": "Female",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 13,
+    "debut": "1976",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 4934450,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebf753342d107655a0e882b3fc"
+  },
+  {
+    "id": "6h5P3J0j1x2lhiDk9w4deZ",
+    "name": "Eypio",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 14,
+    "debut": "1983",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 4907232,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb728a190f51e7cb2f46a9a617"
+  },
+  {
+    "id": "53oeVgECSa18dkHBQ9X6Eh",
+    "name": "Murat Boz",
+    "gender": "Male",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 15,
+    "debut": "1980",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 4883600,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb7886cc63b30714ddf49db2a7"
+  },
+  {
+    "id": "6sBSLIunx1Je0Y2T77wpkP",
+    "name": "Motive",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 16,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 4827069,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb7052deefe1e3b168231d3149"
+  },
+  {
+    "id": "250LLR8V4fFq1XFzAB1ZN5",
+    "name": "Poizi",
+    "gender": "Male",
+    "genres": [
+      "Arabesk"
+    ],
+    "popularity": 17,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 4789630,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eba32a702eed262b8da23bdaf7"
+  },
+  {
+    "id": "4StjyzjcmZ7a9QncHVf0pu",
+    "name": "Simge",
+    "gender": "Female",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 18,
+    "debut": "1981",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 4766027,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebfd2cb7719539190ff0da90af"
+  },
+  {
+    "id": "5wyWp867LWGjFmYZXVSFnZ",
+    "name": "MERO",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 19,
+    "debut": "2000",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 4750011,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb1cf0499490df321722ac1691"
+  },
+  {
+    "id": "4W31XN2JH8mC54NkHdh04s",
+    "name": "Sertab Erener",
+    "gender": "Female",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 20,
+    "debut": "1964",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 4732775,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb89575a82f0e41e7130a942ab"
+  },
+  {
+    "id": "2y1VzMKAa5nmfXKtJL9jnj",
+    "name": "Murda",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 21,
+    "debut": "1984",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 4671814,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb7aaa77d0959b147098a2c733"
+  },
+  {
+    "id": "7BJjzi0JHyDHAsmVe21dGa",
+    "name": "Serdar Ortaç",
+    "gender": "Male",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 22,
+    "debut": "1970",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 4604381,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebede6e2c2886ad29725a9ebf5"
+  },
+  {
+    "id": "08mjMUUjyTchMHCW7evc3R",
+    "name": "Hande Yener",
+    "gender": "Female",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 23,
+    "debut": "1973",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 4565886,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb6dd34eee639d084090666f05"
+  },
+  {
+    "id": "1dpqJqIuNqideTvmxBsSku",
+    "name": "Mabel Matiz",
+    "gender": "Male",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 24,
+    "debut": "1985",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 4562575,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb61bbcbf13e5c22b2d8573f4a"
+  },
+  {
+    "id": "4cMwyqmHCwJjRZ3frIVHTr",
+    "name": "Müslüm Gürses",
+    "gender": "Male",
+    "genres": [
+      "Arabesk"
+    ],
+    "popularity": 25,
+    "debut": "1953",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 4503235,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb27b3b0e9154e12899b9ff22e"
+  },
+  {
+    "id": "1U449OOb70EZlElNjLMwCM",
+    "name": "Demet Akalın",
+    "gender": "Female",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 26,
+    "debut": "1972",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 4497392,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb7a1ad5e83d9a5444c71b28a9"
+  },
+  {
+    "id": "74xBVPWYoSf5pvo5IkePRO",
+    "name": "Şebnem Ferah",
+    "gender": "Female",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 27,
+    "debut": "1972",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 4464259,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebe3c728daf2ff8af8a518239b"
+  },
+  {
+    "id": "6wxh9aTFgTS4OiyYlnQBq6",
+    "name": "Bengü",
+    "gender": "Female",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 28,
+    "debut": "1979",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 4396075,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb053af0a0e80094a51472035d"
+  },
+  {
+    "id": "2RQ8NtUmg5y6tfbvCwX8jI",
+    "name": "Kenan Doğulu",
+    "gender": "Male",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 29,
+    "debut": "1974",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 4303784,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb522e0170157d4433e1721edc"
+  },
+  {
+    "id": "0gPgE6wLLiPnrakh9WcsdQ",
+    "name": "İbrahim Tatlıses",
+    "gender": "Male",
+    "genres": [
+      "Arabesk"
+    ],
+    "popularity": 30,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 4296107,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb3c18a1aa50b5bbae720ed890"
+  },
+  {
+    "id": "1ITjgqpqMDJlqZGAK3mlPQ",
+    "name": "Sefo",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 31,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 4022778,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb86f5ad0ad4cbf69c50395eef"
+  },
+  {
+    "id": "4525TiJDbBD4mZJ7EZArT0",
+    "name": "Yıldız Tilbe",
+    "gender": "Female",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 32,
+    "debut": "1966",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 4021969,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb9dca7a4849a5d3c4ac20bc3d"
+  },
+  {
+    "id": "4ckLjJztj53Ifid7WHweBn",
+    "name": "Aleyna Tilki",
+    "gender": "Female",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 33,
+    "debut": "2000",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 4002044,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb269e20c09f0f023465495cfc"
+  },
+  {
+    "id": "2WjzL05RyqIk5n53sZc9nf",
+    "name": "manifest",
+    "gender": "Mixed",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 34,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": "group",
+    "spotify_monthly_streams": 3995450,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebba0eea4c3802b140ead6780f"
+  },
+  {
+    "id": "5ixQSDvAMa5O758xG8MWXT",
+    "name": "mor ve ötesi",
+    "gender": "Mixed",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 35,
+    "debut": "1995",
+    "nationality": "Turkey",
+    "group_size": "group",
+    "spotify_monthly_streams": 3930659,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb32c198a198e8efe489b8948a"
+  },
+  {
+    "id": "6dDaXbE1caD65TONToYXYx",
+    "name": "Murat Dalkılıç",
+    "gender": "Male",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 36,
+    "debut": "1983",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 3915130,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb5ca012e342687e7cda75a6d0"
+  },
+  {
+    "id": "1nFJWl30l3PAHei86OxN0i",
+    "name": "Oğuzhan Koç",
+    "gender": "Male",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 37,
+    "debut": "1985",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 3891946,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb09d1649f57b77db3682a8a42"
+  },
+  {
+    "id": "747jtvVsxwzOLCJeOOz3oT",
+    "name": "Wegh",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 38,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 3812337,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebfd8fba06901f177c0c99fd7a"
+  },
+  {
+    "id": "58H98oCs7wfe6XZOgIaT0q",
+    "name": "SNOW",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 39,
+    "debut": "1968",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 3796795,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb5dd436d508b1e26bc15fb573"
+  },
+  {
+    "id": "15AZJFNrXtIN4Nk8BIOnS2",
+    "name": "Batuflex",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 40,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 3796762,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb90d2970be2164ff750df9797"
+  },
+  {
+    "id": "1GyfNm3xj64IZR4rKnzNti",
+    "name": "Şam",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 41,
+    "debut": "1931",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 3664035,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb54778113c49b2832f4e5dbcd"
+  },
+  {
+    "id": "6LnJKrtFnTEGdbWQ2riWCL",
+    "name": "Ezhel",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 42,
+    "debut": "1991",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 3630150,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb9450a4efe117513d3ba47ded"
+  },
+  {
+    "id": "3S6gaE89XewFAvZqsMuJDJ",
+    "name": "Norm Ender",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 43,
+    "debut": "1985",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 3573898,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb1a446a4941768741604a3590"
+  },
+  {
+    "id": "1mpOD8ZwHnbsryIuXWq0R1",
+    "name": "Zeynep Bastık",
+    "gender": "Female",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 44,
+    "debut": "1993",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 3565051,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb6a3b5332a54b378b1b488b5e"
+  },
+  {
+    "id": "5gFPi3KWXEwA9bLEO47Ow0",
+    "name": "Sıla",
+    "gender": "Female",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 45,
+    "debut": "1980",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 3551687,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb0fce08172c1256e98bd8451e"
+  },
+  {
+    "id": "0mkH5jj3goQ51JtPKVodTo",
+    "name": "Mustafa Sandal",
+    "gender": "Male",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 46,
+    "debut": "1970",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 3537509,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb67a9caed1f960b056049799d"
+  },
+  {
+    "id": "1nXS8JvKsTNSGw75Axv6rm",
+    "name": "Mansur",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 47,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 3414658,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb0f29cd01e48baa0ace8ec772"
+  },
+  {
+    "id": "23xJQJM7peht77DF6YNEoq",
+    "name": "Model",
+    "gender": "Mixed",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 48,
+    "debut": "2005",
+    "nationality": "Turkey",
+    "group_size": "group",
+    "spotify_monthly_streams": 3344454,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb6bb20ec51cb89f7e2225cbb4"
+  },
+  {
+    "id": "5pVRwX5ZQR7hfJ18w8ZYkl",
+    "name": "Ufo361",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 49,
+    "debut": "1988",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 3325374,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb2d29da5c868bc5a81d545b79"
+  },
+  {
+    "id": "1Fg19vpUJpAAPFjnKaVYVW",
+    "name": "Reynmen",
+    "gender": "Male",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 50,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 3313803,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb08fad1214379b74219e14f23"
+  },
+  {
+    "id": "4i4ALRtQQmFxn3BCIB6iC0",
+    "name": "Göksel",
+    "gender": "Female",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 51,
+    "debut": "1971",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 3293453,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebc290487c8a04d3d1a60de9ea"
+  },
+  {
+    "id": "5W2dGRPmYetOpUIpErUtD3",
+    "name": "Organize",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 52,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 3285843,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb8c780f5f7a17fc21f5ad5188"
+  },
+  {
+    "id": "5JJc8is4VzgOz8ZanDj18J",
+    "name": "Arem Ozguc",
+    "gender": "Male",
+    "genres": [
+      "Electronic"
+    ],
+    "popularity": 53,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 3285160,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebcd4a1469e8c86fa4c3b38ac6"
+  },
+  {
+    "id": "74IYRdqa9EFKMMXUIjGyxM",
+    "name": "Merve Özbey",
+    "gender": "Female",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 54,
+    "debut": "1988",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 3277860,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb634c8600b6bc064562d0c85b"
+  },
+  {
+    "id": "3drqpTL4sQOckmAfF9i1wg",
+    "name": "Summer Cem",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 55,
+    "debut": "1983",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 3252644,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb8aba85c40eb3ab9a1fbe9c0c"
+  },
+  {
+    "id": "3Z814BstLaKbLqKHXsht8O",
+    "name": "Gripin",
+    "gender": "Mixed",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 56,
+    "debut": "1999",
+    "nationality": "Turkey",
+    "group_size": "group",
+    "spotify_monthly_streams": 3224712,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb3df479605d05be4a69474c6a"
+  },
+  {
+    "id": "2a2YSCx78HHWVOsCuMpeXz",
+    "name": "Burak Bulut",
+    "gender": "Male",
+    "genres": [
+      "Arabesk"
+    ],
+    "popularity": 57,
+    "debut": "1990",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 3125507,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebea9390b3ae17534d03efb576"
+  },
+  {
+    "id": "0PhqM7UAxtvWYi5j4MwxSl",
+    "name": "Dolu Kadehi Ters Tut",
+    "gender": "Mixed",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 58,
+    "debut": "2014",
+    "nationality": "Turkey",
+    "group_size": "group",
+    "spotify_monthly_streams": 3056654,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb0ccb0dd69f722ea633cdfd10"
+  },
+  {
+    "id": "4uGB0nZ5d1iCXS3sHR3pzm",
+    "name": "Gökhan Türkmen",
+    "gender": "Male",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 59,
+    "debut": "1983",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 3048100,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebecc4a1c2a6a66ac658f71e2c"
+  },
+  {
+    "id": "6CPZWzcKiOKkHn4L2XI4i2",
+    "name": "cakal",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 60,
+    "debut": "2001",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 3018468,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb8f4be6522e0a596d0978efd8"
+  },
+  {
+    "id": "4XP7cGw4t8BqZ8Du5q3bHg",
+    "name": "Emir Can İğrek",
+    "gender": "Male",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 61,
+    "debut": "1993",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2998352,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebb8e22583e734db284de948c8"
+  },
+  {
+    "id": "27XMnTLvCO7t3qGlQyTMkF",
+    "name": "Ajda Pekkan",
+    "gender": "Female",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 62,
+    "debut": "1946",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2968484,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb5caaba2758b19a5116c70489"
+  },
+  {
+    "id": "6RTC1abMgBC7Krg6qJQHJh",
+    "name": "Duman",
+    "gender": "Mixed",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 63,
+    "debut": "1999",
+    "nationality": "Turkey",
+    "group_size": "group",
+    "spotify_monthly_streams": 2965549,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb5eedfda3da66eb4591be4fa7"
+  },
+  {
+    "id": "0KOSzgkMlkeowt1tgIg6ca",
+    "name": "Heijan",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 64,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2942964,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb1b789af3a47d615cfe0fc638"
+  },
+  {
+    "id": "0wCKNMsqYasJBFVagjay49",
+    "name": "Hadise",
+    "gender": "Female",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 65,
+    "debut": "1985",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2932587,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebdcdc7b5ed959e96475dae2cc"
+  },
+  {
+    "id": "6YapGsI8u59kfewJjjJ2LJ",
+    "name": "Hande Ünsal",
+    "gender": "Female",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 66,
+    "debut": "1992",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2932375,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebbc53399c3f70b9dea9fd148e"
+  },
+  {
+    "id": "7p71hjdN4GlGgIsmCQIvuC",
+    "name": "Sıla Şahin",
+    "gender": "Female",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 67,
+    "debut": "1980",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2888384,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb83828a1ffb694f8f50b50f70"
+  },
+  {
+    "id": "3eVuump9qyK0YCQQo4mKbc",
+    "name": "Barış Manço",
+    "gender": "Male",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 68,
+    "debut": "1943",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2826780,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb9ba87ad4475b7f4e31309962"
+  },
+  {
+    "id": "6g7GF7BLC41JTHJwgB4wQW",
+    "name": "Funda Arar",
+    "gender": "Female",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 69,
+    "debut": "1975",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2818459,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb0844c3dc805daa50a8986d9d"
+  },
+  {
+    "id": "50AOA3aPd6tc928KEYaljF",
+    "name": "Yaşar",
+    "gender": "Male",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 70,
+    "debut": "1979",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2815163,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb8f0edcbd2a1312b786052fb2"
+  },
+  {
+    "id": "6xLv41SHPrVVfvyGd1M7ut",
+    "name": "Ozan Doğulu",
+    "gender": "Male",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 71,
+    "debut": "1972",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2800781,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb05e920fc3b82c8e3b034862f"
+  },
+  {
+    "id": "7zVYyYhGZxvPHPuhzReYHP",
+    "name": "Ziynet Sali",
+    "gender": "Female",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 72,
+    "debut": "1975",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2799527,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb0b762d6dca7b97fefffcde09"
+  },
+  {
+    "id": "16GyR4WfCnIT2XST4ZLl2B",
+    "name": "Melike Şahin",
+    "gender": "Female",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 73,
+    "debut": "1989",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2794992,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb6ecccd6879348415669721af"
+  },
+  {
+    "id": "2E7qpjo4NUBhV8tEUdPVkJ",
+    "name": "Azer Bülbül",
+    "gender": "Male",
+    "genres": [
+      "Arabesk"
+    ],
+    "popularity": 74,
+    "debut": "1967",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2790992,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebb6eece7bb6ef85d2ac1248a4"
+  },
+  {
+    "id": "1KXTegXtnCPKXjRaX1llcD",
+    "name": "Sagopa Kajmer",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 75,
+    "debut": "1978",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2786504,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb6eb76d24f4d5055fbf2642c3"
+  },
+  {
+    "id": "4MUb8ilmrxyePXwSkG31lC",
+    "name": "Canozan",
+    "gender": "Male",
+    "genres": [
+      "Indie"
+    ],
+    "popularity": 76,
+    "debut": "1990",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2696714,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb3ca091dd9cf352780423ead3"
+  },
+  {
+    "id": "3iVIrcJmrV7GawrxVWsBUF",
+    "name": "Nilüfer",
+    "gender": "Female",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 77,
+    "debut": "1955",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2692265,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebf5f505d1e93a9d046c6d90eb"
+  },
+  {
+    "id": "7gobcoscOfsY0nOeqqFzvU",
+    "name": "Yüzyüzeyken Konuşuruz",
+    "gender": "Mixed",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 78,
+    "debut": "2011",
+    "nationality": "Turkey",
+    "group_size": "group",
+    "spotify_monthly_streams": 2684665,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb245d6eec4e995c39cc7c482d"
+  },
+  {
+    "id": "2bZXmEbQuj9XcGwgyIGuit",
+    "name": "Ferdi Özbeğen",
+    "gender": "Male",
+    "genres": [
+      "Arabesk"
+    ],
+    "popularity": 79,
+    "debut": "1941",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2677125,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eba06cbbe2649dd4abae52e945"
+  },
+  {
+    "id": "4sldxVDeyb0J8OMoYApqfV",
+    "name": "Kalben",
+    "gender": "Female",
+    "genres": [
+      "Indie"
+    ],
+    "popularity": 80,
+    "debut": "1986",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2664257,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb77f78b487397f9135371592b"
+  },
+  {
+    "id": "2IiSMrjpXiteqhISWXkdUG",
+    "name": "Sibel Can",
+    "gender": "Female",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 81,
+    "debut": "1970",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2641252,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebba93ba031dc75cfffb35a6fc"
+  },
+  {
+    "id": "7A6T0nTpXnPXDUGM1yEjEj",
+    "name": "Derya Uluğ",
+    "gender": "Female",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 82,
+    "debut": "1986",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2552539,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebd161bd0c0cc139ff6c217c47"
+  },
+  {
+    "id": "2QslFlDyZVpLYwfqyRDkNs",
+    "name": "Onur Can Özcan",
+    "gender": "Male",
+    "genres": [
+      "Alternative"
+    ],
+    "popularity": 83,
+    "debut": "1997",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2529919,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb006d614155ba29bf9fcab012"
+  },
+  {
+    "id": "1AM52XHXnWAEqnQwpxTLWm",
+    "name": "EDIS",
+    "gender": "Male",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 84,
+    "debut": "1990",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2483447,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebf48d3ffe95a05f3f24d64da9"
+  },
+  {
+    "id": "6eBKQVpzyvlMoQaR7buvX8",
+    "name": "Derya Bedavacı",
+    "gender": "Female",
+    "genres": [
+      "Arabesk"
+    ],
+    "popularity": 85,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2479570,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb8c37f99cd3b4d432a2cda01f"
+  },
+  {
+    "id": "40KlwpvpKEQtZTJgbml8lT",
+    "name": "Teoman",
+    "gender": "Male",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 86,
+    "debut": "1967",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2424915,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb29dd9e6f9584afd24a3c05be"
+  },
+  {
+    "id": "4otJVkrLLqDF8OxFJOigme",
+    "name": "Mavi Gri",
+    "gender": "Mixed",
+    "genres": [
+      "Indie"
+    ],
+    "popularity": 87,
+    "debut": "2016",
+    "nationality": "Turkey",
+    "group_size": "group",
+    "spotify_monthly_streams": 2405204,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebbaf91062b91327a45041f178"
+  },
+  {
+    "id": "6xqA7u7TxHUYJp6Ww1XgNx",
+    "name": "Jeff Redd",
+    "gender": "Male",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 88,
+    "debut": "1967",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2370685,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb9423e64a23f6a404af7f81f8"
+  },
+  {
+    "id": "1EPZusBDP8yewhsaKtwktz",
+    "name": "ALIZADE",
+    "gender": "Female",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 89,
+    "debut": "2000",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2349543,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebe853ba5e30eb9e56cec724d7"
+  },
+  {
+    "id": "1kRAeenoDZ5jBdzboZQuKa",
+    "name": "Emre Fel",
+    "gender": "Male",
+    "genres": [
+      "Alternative"
+    ],
+    "popularity": 90,
+    "debut": "1998",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2339679,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb6753d3fa606cfdd7b84ee614"
+  },
+  {
+    "id": "2boacFGRX1WIo7NFS8B0F2",
+    "name": "Gazapizm",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 91,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2331017,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebd9d83936f9836fe140f53fad"
+  },
+  {
+    "id": "1hWI1MD4Pe3cgDsgk4eLfR",
+    "name": "Kamuran Akkor",
+    "gender": "Female",
+    "genres": [
+      "Arabesk"
+    ],
+    "popularity": 92,
+    "debut": "1947",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2322460,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb96d0c8000c49228e42fcac11"
+  },
+  {
+    "id": "28Qbi9jTj2eej21P2mImZI",
+    "name": "Ceza",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 93,
+    "debut": "1977",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2293158,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebb828bbcfba35f4322dbe78e1"
+  },
+  {
+    "id": "1hgaXjbAcED2p80Lj8dzXT",
+    "name": "Canbay & Wolker",
+    "gender": "Mixed",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 94,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": "group",
+    "spotify_monthly_streams": 2283128,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eba87c9e38e7ba652200ccdb06"
+  },
+  {
+    "id": "2aZlYOswKNlrwqpuTsckKd",
+    "name": "Madrigal",
+    "gender": "Mixed",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 95,
+    "debut": "1977",
+    "nationality": "Turkey",
+    "group_size": "group",
+    "spotify_monthly_streams": 2266343,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebebe3f35d8a4d060b3da361ce"
+  },
+  {
+    "id": "6hypPYDPSsgioRRfBXve38",
+    "name": "Gülben Ergen",
+    "gender": "Female",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 96,
+    "debut": "1972",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2264677,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebfc81867e6dd63b102478fe78"
+  },
+  {
+    "id": "66vIaZFb8okZH0npc4eQ5q",
+    "name": "emre aydın",
+    "gender": "Male",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 97,
+    "debut": "1981",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2264189,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb373af20d0a5d65467fb6359c"
+  },
+  {
+    "id": "7IgzsWd4tWIn70uh6dAq8d",
+    "name": "Seksendört",
+    "gender": "Mixed",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 98,
+    "debut": "1999",
+    "nationality": "Turkey",
+    "group_size": "group",
+    "spotify_monthly_streams": 2252972,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb1843f8b0e0c7398082a61266"
+  },
+  {
+    "id": "76gCQtIoyzxs0HDKIyQC66",
+    "name": "Keskin",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 99,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2247665,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb30581bb35a8012cfb43b191d"
+  },
+  {
+    "id": "3cNwyF5SboOs9icz2XyotE",
+    "name": "Mustafa Ceceli",
+    "gender": "Male",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 100,
+    "debut": "1980",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2238713,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb49be1476dc5ca12b7573b31b"
+  },
+  {
+    "id": "1Zj4GtouAnxHq4qw7ooLfm",
+    "name": "Mert Demir",
+    "gender": "Male",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 101,
+    "debut": "1993",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2236261,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb503c238e918aa930995fd243"
+  },
+  {
+    "id": "31TJIzpuFOgX8owcV3nTrE",
+    "name": "Linet",
+    "gender": "Female",
+    "genres": [
+      "Arabesk"
+    ],
+    "popularity": 102,
+    "debut": "1975",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2228287,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb5ae11f13e98f22263f046a9a"
+  },
+  {
+    "id": "0L3wrFI3QcbXAvFL7IaPQX",
+    "name": "Güneş",
+    "gender": "Female",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 103,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2226904,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb6c1a36597f580ec8ad6d96ef"
+  },
+  {
+    "id": "4Bdqzh78prwuqwInMb555P",
+    "name": "Pinhani",
+    "gender": "Mixed",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 104,
+    "debut": "2004",
+    "nationality": "Turkey",
+    "group_size": "group",
+    "spotify_monthly_streams": 2173221,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb4ddd595c78914a1e09ff6688"
+  },
+  {
+    "id": "4fR3W8XFXsqHB8f8IqEr1y",
+    "name": "No.1",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 105,
+    "debut": "1988",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2172700,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb411422110634da0cd958b719"
+  },
+  {
+    "id": "3t8WiyalpvnB9AObcMufiE",
+    "name": "Mahmut Orhan",
+    "gender": "Male",
+    "genres": [
+      "Electronic"
+    ],
+    "popularity": 106,
+    "debut": "1993",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2170213,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb92cd4c91cbed2402cf001230"
+  },
+  {
+    "id": "18hpynG63scJYxOSDYHUVN",
+    "name": "Burak King",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 107,
+    "debut": "1947",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2169845,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb702778db1b61d25571163cea"
+  },
+  {
+    "id": "7CLojerj7StFcAX03tA8Pc",
+    "name": "M Lisa",
+    "gender": "Female",
+    "genres": [
+      "Alternative"
+    ],
+    "popularity": 108,
+    "debut": "1987",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2163007,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb6e7a9f49bd9a7cc1fb017a75"
+  },
+  {
+    "id": "1qZ684TB9E1BjH58btdtYd",
+    "name": "Buray",
+    "gender": "Male",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 109,
+    "debut": "1984",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2143903,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebde5853ee177796f37866942f"
+  },
+  {
+    "id": "5h2jTdwf4p0dM34aBykPzZ",
+    "name": "İrem Derici",
+    "gender": "Female",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 110,
+    "debut": "1987",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2112507,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb19676ab29f3cda63747ed0a5"
+  },
+  {
+    "id": "1QZYklqR55tZ6b5mK4LD41",
+    "name": "Kolpa",
+    "gender": "Mixed",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 111,
+    "debut": "2005",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2105061,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebbb339c7e96bc1cd613b95cc7"
+  },
+  {
+    "id": "7J7IAR4rkzo4FcZTDid3Jk",
+    "name": "Cash Flow",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 112,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2099920,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb623e333066d446a1ceb7538f"
+  },
+  {
+    "id": "1dsKaRPU3HFSdlNyMmH5QI",
+    "name": "Fatma Turgut",
+    "gender": "Female",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 113,
+    "debut": "1984",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2067027,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb2e0508eea07404bc99df460f"
+  },
+  {
+    "id": "7CW2eGwAuElNq09rVtZYsM",
+    "name": "Sena Şener",
+    "gender": "Female",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 114,
+    "debut": "1998",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2055737,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb6507c09a26a940452a2fefeb"
+  },
+  {
+    "id": "63RFns47gk00mnHIQ8zTR1",
+    "name": "Pilli Bebek",
+    "gender": "Mixed",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 115,
+    "debut": "1993",
+    "nationality": "Turkey",
+    "group_size": "group",
+    "spotify_monthly_streams": 2053019,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebb60e05d1e9033f89abb5a2f2"
+  },
+  {
+    "id": "50z4meqYMvVCXEv2jDneDN",
+    "name": "Tuğçe Kandemir",
+    "gender": "Female",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 116,
+    "debut": "1996",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2044493,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebed243f67bb49edd19e4cb0a5"
+  },
+  {
+    "id": "3BVPc9s4JXzM6O1InlLxED",
+    "name": "Mavi",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 117,
+    "debut": "1999",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 2016869,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb0bc98fb4c8729e64fb3ad8ac"
+  },
+  {
+    "id": "1g4J8P1JWwanNyyXckRX5W",
+    "name": "Adamlar",
+    "gender": "Mixed",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 118,
+    "debut": "2013",
+    "nationality": "Turkey",
+    "group_size": "group",
+    "spotify_monthly_streams": 2003180,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb255fc5aa8ee8170cff4ab47e"
+  },
+  {
+    "id": "1btod3aNfVEYNrEzIQgx90",
+    "name": "Kibariye",
+    "gender": "Female",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 119,
+    "debut": "1959",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1956251,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebff04c430d5d5555fd374b5b2"
+  },
+  {
+    "id": "3SrFQDUN5DXQDZc3kygriW",
+    "name": "Yüksek Sadakat",
+    "gender": "Mixed",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 120,
+    "debut": "1997",
+    "nationality": "Turkey",
+    "group_size": "group",
+    "spotify_monthly_streams": 1947410,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebb19fee222d98095186b96242"
+  },
+  {
+    "id": "2aNkBNOpoEwJlRpDLzJ6hZ",
+    "name": "Seda Tripkolic",
+    "gender": "Female",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 121,
+    "debut": "1962",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1859310,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebc8336f051de752a60bd16f11"
+  },
+  {
+    "id": "1hWfWJvstJQPgjZ2vDFY0P",
+    "name": "Sufle",
+    "gender": "Mixed",
+    "genres": [
+      "Indie"
+    ],
+    "popularity": 122,
+    "debut": "2012",
+    "nationality": "Turkey",
+    "group_size": "group",
+    "spotify_monthly_streams": 1846148,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebc743c3129df73857a65d8bf9"
+  },
+  {
+    "id": "7FvMAbdiffitFmbuJN3Vsk",
+    "name": "Emrah Karaduman",
+    "gender": "Male",
+    "genres": [
+      "Electronic"
+    ],
+    "popularity": 123,
+    "debut": "1992",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1837227,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb5c4b74c00bb5b6cc0262516d"
+  },
+  {
+    "id": "5IAxUWLiTMsvc1oWPrczNj",
+    "name": "Melek Mosso",
+    "gender": "Female",
+    "genres": [
+      "Alternative"
+    ],
+    "popularity": 124,
+    "debut": "1988",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1783498,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eba8059ca92c1da09be6617687"
+  },
+  {
+    "id": "5juVQV1lGuA4o5IrLwpZar",
+    "name": "Berkay",
+    "gender": "Male",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 125,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1758487,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb5caac7f517d77d039c1a828d"
+  },
+  {
+    "id": "6p4UYgBKfV1XMDvD9KrtTv",
+    "name": "Manuş Baba",
+    "gender": "Male",
+    "genres": [
+      "Folk"
+    ],
+    "popularity": 126,
+    "debut": "1986",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1758036,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb44e13bd909d16a1ecc3fb8af"
+  },
+  {
+    "id": "2kS0jWMkkFBL0mrl0VotD0",
+    "name": "Ben Fero",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 127,
+    "debut": "1991",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1732871,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebd6ce36a01e255383dbcc4a86"
+  },
+  {
+    "id": "2rNgr1pkSDfxQTYhqCT45D",
+    "name": "Tan Taşçı",
+    "gender": "Female",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 128,
+    "debut": "1952",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1705449,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb068556a885749d2f86559d09"
+  },
+  {
+    "id": "4T83el9VQDI0zOyU9zcYNq",
+    "name": "Soner Sarıkabadayı",
+    "gender": "Male",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 129,
+    "debut": "1978",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1696511,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb1e7e003bb9d8dcd63be056e8"
+  },
+  {
+    "id": "7bchfd9ZihGesFniE7tM71",
+    "name": "Velet",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 130,
+    "debut": "1991",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1690008,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb8d48592b824c82423c80fdad"
+  },
+  {
+    "id": "3JAjt6oAXVTMvCYHsc0tIC",
+    "name": "Pamela",
+    "gender": "Female",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 131,
+    "debut": "1973",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1674750,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebe30e3a0709278279962b1002"
+  },
+  {
+    "id": "2pbct1ni3yLLAfzrSXQDrH",
+    "name": "Kubilay Karça",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 132,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1661012,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebab4bb2714e20d649e682fe9b"
+  },
+  {
+    "id": "2fYdUIUPS7aDdWCzb8Aw2k",
+    "name": "Aşkın Nur Yengi",
+    "gender": "Female",
+    "genres": [
+      "Arabesk"
+    ],
+    "popularity": 133,
+    "debut": "1970",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1654197,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb3f64327e993df13b73598a13"
+  },
+  {
+    "id": "6q1sTU51oryTTcWTPTd0VC",
+    "name": "BEGE",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 134,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1636379,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb9b12e76ddacd997280d9f5fa"
+  },
+  {
+    "id": "03cvjFEHz8eGwYHq1L0Pp2",
+    "name": "Kaan Boşnak",
+    "gender": "Male",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 135,
+    "debut": "1992",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1623494,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eba032b32976dab48e38e9ee12"
+  },
+  {
+    "id": "7JrZbwBSIfKcc2gn1Xa4Bd",
+    "name": "Jabbar",
+    "gender": "Male",
+    "genres": [
+      "Electronic"
+    ],
+    "popularity": 136,
+    "debut": "1978",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1615906,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eba8c9593cae243ae7c07f410d"
+  },
+  {
+    "id": "4XYD8wP6f1sfLtWfrY1luF",
+    "name": "Kıraç",
+    "gender": "Male",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 137,
+    "debut": "1972",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1607442,
+    "image_url": "https://i.scdn.co/image/adefe617fe9bc1735f5e36c1aea24be6b157a8c3"
+  },
+  {
+    "id": "5rBUMBV7L6zPsEKnlgiOm9",
+    "name": "Yener Çevik",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 138,
+    "debut": "1979",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1599943,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb624d4ce8be6d25d7e4ca5073"
+  },
+  {
+    "id": "7rEIUw67hRTgievwuKQGSj",
+    "name": "maNga",
+    "gender": "Mixed",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 139,
+    "debut": "2001",
+    "nationality": "Turkey",
+    "group_size": "group",
+    "spotify_monthly_streams": 1585418,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb8cceee3942367e3490b1eb2f"
+  },
+  {
+    "id": "2NGRETzxjeN4b9o3OGY6Yn",
+    "name": "Selda Bağcan",
+    "gender": "Female",
+    "genres": [
+      "Folk"
+    ],
+    "popularity": 140,
+    "debut": "1948",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1582958,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebc1eb3a14a60cbf2944de46bc"
+  },
+  {
+    "id": "4aCS0WLLZ3070ZDBOFJlHB",
+    "name": "Erdem Kınay",
+    "gender": "Male",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 141,
+    "debut": "1978",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1543776,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb18db802ae8a6caa33a961106"
+  },
+  {
+    "id": "4hjJDrv2KkIEW1AslTEtv3",
+    "name": "İkilem",
+    "gender": "Mixed",
+    "genres": [
+      "Classical"
+    ],
+    "popularity": 142,
+    "debut": "1952",
+    "nationality": "Turkey",
+    "group_size": "group",
+    "spotify_monthly_streams": 1542661,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb0c446bd3dab3d7b16293b4dd"
+  },
+  {
+    "id": "0ZRQKFaYGEtbLc8NbyICoe",
+    "name": "Deeperise",
+    "gender": "Male",
+    "genres": [
+      "Elektronik"
+    ],
+    "popularity": 143,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1531597,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebf96f624766a09d38223dbe4e"
+  },
+  {
+    "id": "2ekGsQEkeMtYFA16Jjes2M",
+    "name": "İlyas Yalçıntaş",
+    "gender": "Male",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 144,
+    "debut": "1989",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1529956,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb8bbbdd0e0783032bff1ad0fa"
+  },
+  {
+    "id": "17fJCykpa2EqIioh0zamN9",
+    "name": "Fettah Can",
+    "gender": "Male",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 145,
+    "debut": "1975",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1526578,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb3091ff804d3b35944c7492e1"
+  },
+  {
+    "id": "70Ya7DKJEo20SAkxjirYnu",
+    "name": "Zakkum",
+    "gender": "Mixed",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 146,
+    "debut": "1999",
+    "nationality": "Turkey",
+    "group_size": "group",
+    "spotify_monthly_streams": 1515272,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebb6cec021c468702b6882a531"
+  },
+  {
+    "id": "0OjAaymO59uGiFmfpJrQpl",
+    "name": "Bergen",
+    "gender": "Female",
+    "genres": [
+      "Arabesk"
+    ],
+    "popularity": 147,
+    "debut": "1959",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1511170,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb1313d9fb37f93823a73926e3"
+  },
+  {
+    "id": "1PpRPZXSS5ka7m5NW2TO7q",
+    "name": "Nil Karaibrahimgil",
+    "gender": "Female",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 148,
+    "debut": "1976",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1510341,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb7c19868c559990364140a28b"
+  },
+  {
+    "id": "2qW4eDZVrF6mlcuaTBEMjh",
+    "name": "DEHA INC.",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 149,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1489642,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebc32f0aa77b88b61191f8ad43"
+  },
+  {
+    "id": "56g1u3Bu0S5072aksxyBei",
+    "name": "Atiye",
+    "gender": "Female",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 150,
+    "debut": "1988",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1483592,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebe698b6ad0722e3050461836e"
+  },
+  {
+    "id": "2wioAsnSZ6JmA6I7Y7PDkc",
+    "name": "Gülden Karaböcek",
+    "gender": "Female",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 151,
+    "debut": "1953",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1476380,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebf8abf9bb006d8415200aba44"
+  },
+  {
+    "id": "2u4xMsh0M2B7R8Wb3pEWae",
+    "name": "Anıl Piyancı",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 152,
+    "debut": "1990",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1474580,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebfa74db13d5f7981cf7b1351f"
+  },
+  {
+    "id": "23Q5T7JtqekFJMbC0XKxnh",
+    "name": "Diyar Pala",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 153,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1458617,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb68799885769d7560eb54778e"
+  },
+  {
+    "id": "51YBtWvwOP37hIGmnxf4yC",
+    "name": "Candan Erçetin",
+    "gender": "Female",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 154,
+    "debut": "1963",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1426408,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebdb32d3dc8b4eed958a89a2eb"
+  },
+  {
+    "id": "1lIbZfJvMQRqzhtCQsg5EI",
+    "name": "Cem Karaca",
+    "gender": "Male",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 155,
+    "debut": "1945",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1396673,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb59ee2d0db7a09d786a2901f3"
+  },
+  {
+    "id": "0oFiWQjHNvksJlD0aWzBZM",
+    "name": "Edip Akbayram",
+    "gender": "Male",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 156,
+    "debut": "1950",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1396071,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb1833d5a2d4bac417b2ebec46"
+  },
+  {
+    "id": "2Cusk8DpjH8r3BDvuN3ufo",
+    "name": "Ümit Besen",
+    "gender": "Male",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 157,
+    "debut": "1956",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1394426,
+    "image_url": "https://i.scdn.co/image/ab67616d0000b2734ff51dce536ea19aae563e88"
+  },
+  {
+    "id": "1dp13r1d5Mp119KCR4BQvw",
+    "name": "Ragga Oktay",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 158,
+    "debut": "1976",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1369041,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebcbce6f4fe3e486c7f2bed916"
+  },
+  {
+    "id": "4jF4tHJlYKS5Z9xdEatCfq",
+    "name": "Kurtuluş Kuş",
+    "gender": "Male",
+    "genres": [
+      "Arabesk"
+    ],
+    "popularity": 159,
+    "debut": "1990",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1367846,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb4167586d8db64df6ee8dcaa9"
+  },
+  {
+    "id": "4Vr0nv4nM4aqWfj76zDTTp",
+    "name": "Yaşlı Amca",
+    "gender": "Mixed",
+    "genres": [
+      "Alternative"
+    ],
+    "popularity": 160,
+    "debut": "2012",
+    "nationality": "Turkey",
+    "group_size": "group",
+    "spotify_monthly_streams": 1361103,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb0dd79c2292d8c097e36c489f"
+  },
+  {
+    "id": "1lMEWvvUlwzQ5OKB4w1HTn",
+    "name": "Perdenin Ardındakiler",
+    "gender": "Mixed",
+    "genres": [
+      "Indie"
+    ],
+    "popularity": 161,
+    "debut": "2017",
+    "nationality": "Turkey",
+    "group_size": "group",
+    "spotify_monthly_streams": 1359503,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb3caaf7833bae918e0266d3b8"
+  },
+  {
+    "id": "2TUYtKan3NuDy9JexzL4db",
+    "name": "Murat Göğebakan",
+    "gender": "Male",
+    "genres": [
+      "Arabesk"
+    ],
+    "popularity": 162,
+    "debut": "1968",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1354742,
+    "image_url": "https://i.scdn.co/image/ab67616d0000b2734d3eb479c97ddc630e2d2fa9"
+  },
+  {
+    "id": "5chlGLYjNChbXjDbojObt5",
+    "name": "EGE!",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 163,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1347502,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebf6cee85f92fc70b7d2f2d474"
+  },
+  {
+    "id": "03YhQQYWzaAU3HAQAJzIHG",
+    "name": "Kâzım Koyuncu",
+    "gender": "Male",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 164,
+    "debut": "1971",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1336006,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebef25846da7b29f160f42b4f6"
+  },
+  {
+    "id": "2h1EEQ0lD01lPKDRGisvL4",
+    "name": "Tuğkan",
+    "gender": "Male",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 165,
+    "debut": "1996",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1328583,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb45f2523b0618bfa63972fea9"
+  },
+  {
+    "id": "5gs9qloTR5m6dM0ScMty3H",
+    "name": "Rafet El Roman",
+    "gender": "Male",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 166,
+    "debut": "1968",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1322388,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebfff9c4e847e52a3c037cea10"
+  },
+  {
+    "id": "5UqZ7BXoccyvTHyXLk1Pk3",
+    "name": "Kayra",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 167,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1317019,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb130c24bc510cd7ccfaab000d"
+  },
+  {
+    "id": "7xD3PtnXEsJeqsPtJ3N3si",
+    "name": "Bedo",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 168,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1316060,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebbdd6c88bc351e764a809c1fe"
+  },
+  {
+    "id": "1UV3ii5FWWXF3jkZVeA2bb",
+    "name": "Haluk Levent",
+    "gender": "Male",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 169,
+    "debut": "1968",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1309212,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebdeea1c481a92aec177cf2bde"
+  },
+  {
+    "id": "4aZml6ud70cnHUDhcdHIqC",
+    "name": "Irem",
+    "gender": "Female",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 170,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1292920,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb21de1feae4c67b3be0ff56cc"
+  },
+  {
+    "id": "1oR56GSDAFgtdKmSl6qU1r",
+    "name": "Halodayı",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 171,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1287372,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb011b457a97cf582c0a454c21"
+  },
+  {
+    "id": "6XJtmq30U5RDBwnLbcN33E",
+    "name": "Çağatay Akman",
+    "gender": "Male",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 172,
+    "debut": "1998",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1277676,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebd1fd364b010f2f80460e261d"
+  },
+  {
+    "id": "1063YgLGlWU0JM26pOnrnv",
+    "name": "Tuğba Yurt",
+    "gender": "Female",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 173,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1264205,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb5acf4b568b5000a9ef66b99f"
+  },
+  {
+    "id": "27TH57uXZezzxdlmbbyWQU",
+    "name": "Aynur Aydın",
+    "gender": "Female",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 174,
+    "debut": "1987",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1247240,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb1e5bd6c5cfb391e8475e343c"
+  },
+  {
+    "id": "4q2SZIdLq6YTc9cZLCclWc",
+    "name": "Son Feci Bisiklet",
+    "gender": "Mixed",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 175,
+    "debut": "2011",
+    "nationality": "Turkey",
+    "group_size": "group",
+    "spotify_monthly_streams": 1242776,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb5f77d26f9642feefbdae1f44"
+  },
+  {
+    "id": "3vJJGsSAF5zQegZo5sJEh6",
+    "name": "Can Bonomo",
+    "gender": "Male",
+    "genres": [
+      "Jazz"
+    ],
+    "popularity": 176,
+    "debut": "1987",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1233902,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb2dbe19089ce637f18fae10d7"
+  },
+  {
+    "id": "3OVWvBHwlq5w8iRJEBoCp2",
+    "name": "Levent Yüksel",
+    "gender": "Male",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 177,
+    "debut": "1964",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1229546,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb03f0599986eee2aff78c5b40"
+  },
+  {
+    "id": "799GDxXgsUDuGSbh5HJ3Kv",
+    "name": "Tuna Kiremitçi",
+    "gender": "Male",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 178,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1227566,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebd4be8e67ad3809c10a7e96cf"
+  },
+  {
+    "id": "0FUsrstJwmg4WVHQMTYuUA",
+    "name": "Şehinşah",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 179,
+    "debut": "1986",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1226914,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb317910433fe174b8bb36ab46"
+  },
+  {
+    "id": "4DG2pTwQBor7a6wtoEABau",
+    "name": "Ozbi",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 180,
+    "debut": "1986",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1216701,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebb78c5f9f38c659149aad00ce"
+  },
+  {
+    "id": "2jbrqAuwSdvwcMTbtvncND",
+    "name": "MFÖ",
+    "gender": "Mixed",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 181,
+    "debut": "1971",
+    "nationality": "Turkey",
+    "group_size": "group",
+    "spotify_monthly_streams": 1209604,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb22160d23ce04035188bb3948"
+  },
+  {
+    "id": "3ZKkHPTZTq8z8pokwZiInd",
+    "name": "KÖFN",
+    "gender": "Mixed",
+    "genres": [
+      "Alternative"
+    ],
+    "popularity": 182,
+    "debut": "2018",
+    "nationality": "Turkey",
+    "group_size": "group",
+    "spotify_monthly_streams": 1201159,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb00a6e6a741c73c0b6c077c70"
+  },
+  {
+    "id": "0U8sdaBYsYld98xOIX1nYB",
+    "name": "Ahiyan",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 183,
+    "debut": "1998",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1200101,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebcd4a4aed78951797704f0c63"
+  },
+  {
+    "id": "2FkaZzzDTwnz1l1mK9DoT6",
+    "name": "TUANA",
+    "gender": "Female",
+    "genres": [
+      "Indie"
+    ],
+    "popularity": 184,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1192058,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebd2060f1d60b17f3af33913a9"
+  },
+  {
+    "id": "2AhmWHekrahJri4f5e08Tf",
+    "name": "Hakan Altun",
+    "gender": "Male",
+    "genres": [
+      "Arabesk"
+    ],
+    "popularity": 185,
+    "debut": "1972",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1188570,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb4e421b9f77f06c7fa9a09244"
+  },
+  {
+    "id": "0Aoou2kIWXrzTOfhFzmNqa",
+    "name": "Halil Sezai",
+    "gender": "Male",
+    "genres": [
+      "Jazz"
+    ],
+    "popularity": 186,
+    "debut": "1979",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1181638,
+    "image_url": "https://i.scdn.co/image/ab67616d0000b2730172fc203352205212bbae6b"
+  },
+  {
+    "id": "2r8iLFeSTuOiZualHmSXxS",
+    "name": "Patron",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 187,
+    "debut": "1988",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1180198,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebc725315dada5bce84a252b9a"
+  },
+  {
+    "id": "31czVneIywpUwJTNOVviJx",
+    "name": "Sinan Akçıl",
+    "gender": "Male",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 188,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1170043,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb5ce894269c19aa0b2006d4c1"
+  },
+  {
+    "id": "691svprNZf0oJTi1L0eYy6",
+    "name": "Özdemir Erdoğan",
+    "gender": "Male",
+    "genres": [
+      "Arabesk"
+    ],
+    "popularity": 189,
+    "debut": "1940",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1158780,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb68a1131ada2ca70f914cf85d"
+  },
+  {
+    "id": "1kOoLMi8Z7nDeIa0bSfM3N",
+    "name": "Hepsi",
+    "gender": "Mixed",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 190,
+    "debut": "2004",
+    "nationality": "Turkey",
+    "group_size": "group",
+    "spotify_monthly_streams": 1107704,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb775b17ec212ff869be379e70"
+  },
+  {
+    "id": "3QLMLmISoZnFxUdzSoT6JB",
+    "name": "Gökhan Özen",
+    "gender": "Male",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 191,
+    "debut": "1979",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1107560,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb41cf96c95c5a8680abdaa30a"
+  },
+  {
+    "id": "7Gx2wDVHyW5HJh7dc2t5h7",
+    "name": "Lil Zey",
+    "gender": "Female",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 192,
+    "debut": "1994",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1100441,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eba6ebb38642af82d38d0f6fd4"
+  },
+  {
+    "id": "4o3Nv2BAyoZkyGaRXv4rT3",
+    "name": "Erkin Koray",
+    "gender": "Male",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 193,
+    "debut": "1941",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1097502,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb43b0da326712059728753e2d"
+  },
+  {
+    "id": "1Hy8tdpH9ygqoohumHZqVl",
+    "name": "Athena",
+    "gender": "Mixed",
+    "genres": [
+      "Punk"
+    ],
+    "popularity": 194,
+    "debut": "1987",
+    "nationality": "Turkey",
+    "group_size": "group",
+    "spotify_monthly_streams": 1088172,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb0c10dd4d5318adea5a1d694d"
+  },
+  {
+    "id": "2CleFSxMoxkm2RduyMwcrm",
+    "name": "Zerrin Özer",
+    "gender": "Female",
+    "genres": [
+      "Arabesk"
+    ],
+    "popularity": 195,
+    "debut": "1957",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1028014,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb77ea07a012eaa7b35e1d9472"
+  },
+  {
+    "id": "5LUxu287CsPM7jy3yS3l86",
+    "name": "Şanışer",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 196,
+    "debut": "1987",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1007254,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb1572f3fd5e4dd44441196b26"
+  },
+  {
+    "id": "1HsQw7SuwmxSH4r2aqF9DB",
+    "name": "İkiye On Kala",
+    "gender": "Male",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 197,
+    "debut": "2014",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1005924,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebd5a095838b1fbf445a9c2859"
+  },
+  {
+    "id": "3hzijSzD6IwOV4SY2SiWQp",
+    "name": "Hayko Cepkin",
+    "gender": "Male",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 198,
+    "debut": "1978",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 1005025,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb231f96eae7457aaa7cf20fc4"
+  },
+  {
+    "id": "5FqTuN42w2zGw4Pzd50yaS",
+    "name": "Reckol",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 199,
+    "debut": "2000",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 985640,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb846a14fe526ef67b5cc18389"
+  },
+  {
+    "id": "1bzmtVU7jf2rRZJALkZA3j",
+    "name": "Pera",
+    "gender": "Mixed",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 200,
+    "debut": "2008",
+    "nationality": "Turkey",
+    "group_size": "group",
+    "spotify_monthly_streams": 961839,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb3e69dcf8bb775dbdcf2f66c0"
+  },
+  {
+    "id": "1Jx9NS6PLxRIVCCv0NxGjA",
+    "name": "Ayna",
+    "gender": "Mixed",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 201,
+    "debut": "1996",
+    "nationality": "Turkey",
+    "group_size": "group",
+    "spotify_monthly_streams": 953640,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb72e2deb0b5d5e8649fcc01ec"
+  },
+  {
+    "id": "0rHmlPHC63IGBTrtQEdDw6",
+    "name": "Barış Akarsu",
+    "gender": "Male",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 202,
+    "debut": "1979",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 952344,
+    "image_url": "https://i.scdn.co/image/ab67616d0000b2732dfd879b5d8c4cae5f47abdb"
+  },
+  {
+    "id": "6hxb4rGrYXtrAZbUK7uzt9",
+    "name": "Sansar Salvo",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 203,
+    "debut": "1989",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 952331,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebc441826f3855e540525d07e2"
+  },
+  {
+    "id": "21ppfKgGToa81HQE0kET5P",
+    "name": "Gece Yolcuları",
+    "gender": "Mixed",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 204,
+    "debut": "1993",
+    "nationality": "Turkey",
+    "group_size": "group",
+    "spotify_monthly_streams": 949942,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb93cab705a4ff3b2a6f1a3741"
+  },
+  {
+    "id": "7pTztLjOOA9VWk2E0rYQkJ",
+    "name": "Pınar Soykan",
+    "gender": "Female",
+    "genres": [
+      "Arabesk"
+    ],
+    "popularity": 205,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 932762,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebaf1e42f4d470ddcb6268acf1"
+  },
+  {
+    "id": "5KrXBHAY7uhALwg4SPz9F8",
+    "name": "Vega",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 206,
+    "debut": "1985",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 921584,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb616e12e2afe9de1d8ed1ec98"
+  },
+  {
+    "id": "4Fn5clYETVpCxnIcFSZhr9",
+    "name": "Massaka",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 207,
+    "debut": "2002",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 892276,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb7b0cf8ea74e72d69df26890e"
+  },
+  {
+    "id": "5Ip3Eje7dzsa2I38I1izYO",
+    "name": "Skapova",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 208,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 888756,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb605abb283e71d4a04bdfe215"
+  },
+  {
+    "id": "40ic8Y3x4vmLUGXXpk7bVq",
+    "name": "Yedinci Ev",
+    "gender": "Mixed",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 209,
+    "debut": "1981",
+    "nationality": "Turkey",
+    "group_size": "group",
+    "spotify_monthly_streams": 879105,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebade8a9da1024fb0198b5d4f9"
+  },
+  {
+    "id": "323ysKBS0xK1kqrXXK3JJS",
+    "name": "GNG",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 210,
+    "debut": "1997",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 875958,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebf8080375b33caaaf70a22b3c"
+  },
+  {
+    "id": "2OWh9iyVeIqJm04kwcaArP",
+    "name": "İdo Tatlıses",
+    "gender": "Male",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 211,
+    "debut": "1952",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 869044,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb91df0905079dc178e774b9f8"
+  },
+  {
+    "id": "1B4KdcJA6Dh1MlAiezqc08",
+    "name": "Zara",
+    "gender": "Female",
+    "genres": [
+      "Arabesk"
+    ],
+    "popularity": 212,
+    "debut": "1976",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 866003,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb8070804745a8fc70b25569b5"
+  },
+  {
+    "id": "1qKIiOyjWNYf1xshikhwQE",
+    "name": "Jefe",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 213,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 859991,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb46423c4dcfd40aac8909e2c0"
+  },
+  {
+    "id": "6EkoCL5oWSht8mekRNBWAn",
+    "name": "Gökçe",
+    "gender": "Female",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 214,
+    "debut": "1979",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 844496,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb84bae13b9d26b114c9bec230"
+  },
+  {
+    "id": "3VooEK5HkkcSc4Tv7FCBzb",
+    "name": "Yung Ouzo",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 215,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 826129,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb98ba550d4266a7b274b1669f"
+  },
+  {
+    "id": "3yzGegJHrOW1CndMVFoo3m",
+    "name": "Hidra",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 216,
+    "debut": "1993",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 803788,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb18c9028a9ff19486f9fd8899"
+  },
+  {
+    "id": "3eedpDhV8pocvTvTHLGq9R",
+    "name": "Kargo",
+    "gender": "Mixed",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 217,
+    "debut": "1993",
+    "nationality": "Turkey",
+    "group_size": "group",
+    "spotify_monthly_streams": 800512,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb7999a57db638a91ad4991330"
+  },
+  {
+    "id": "1OLLBdj6zsFJ2GUMpk8trl",
+    "name": "Çelik",
+    "gender": "Male",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 218,
+    "debut": "1966",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 788250,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb8a30ffba04b5eef37b065f41"
+  },
+  {
+    "id": "2sjnyyL9NXijL3Fr2eLikf",
+    "name": "Aspova",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 219,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 759875,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb561261ff065befded7f69725"
+  },
+  {
+    "id": "3uW8VB9ixiNMAJBm7ZsBVT",
+    "name": "Redd",
+    "gender": "Mixed",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 220,
+    "debut": "1996",
+    "nationality": "Turkey",
+    "group_size": "group",
+    "spotify_monthly_streams": 759640,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb6d6ce86c7befae9762d4e1ec"
+  },
+  {
+    "id": "3tJELJoPZ4VTKmL0vppqLj",
+    "name": "Contra",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 221,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 749022,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebc8072a6266aa6a3a6c8821ca"
+  },
+  {
+    "id": "7GaMopkesD4KK9dNbgyO5D",
+    "name": "Eko Fresh",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 222,
+    "debut": "1983",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 736495,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebdc513bba9c84f65c09c5f7d7"
+  },
+  {
+    "id": "1Xwze1G0zfRnxqBDfmWVVf",
+    "name": "Özlem Tekin",
+    "gender": "Female",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 223,
+    "debut": "1971",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 725476,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb1fe8810de98b69cf99eda1a5"
+  },
+  {
+    "id": "7MZj0XxqxlCZPj6JsMQq0Z",
+    "name": "Feridun Düzağaç",
+    "gender": "Male",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 224,
+    "debut": "1968",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 695014,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb3cbf66cdccad8629cb73b9f8"
+  },
+  {
+    "id": "4m53kPdPFJpnF0qcJqfwNB",
+    "name": "Rota",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 225,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 681591,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb6154920515fe61ba7ff98220"
+  },
+  {
+    "id": "0YHObPo0wpyvS1VLHfwuVz",
+    "name": "AYDEED",
+    "gender": "Female",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 226,
+    "debut": "1999",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 668411,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb6321fb3b745bb428eaac8c99"
+  },
+  {
+    "id": "2QU0UNvQvEZ2fuRUhkUNq4",
+    "name": "Artz",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 227,
+    "debut": "1990",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 636368,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebc893106130718c2cde2bdb55"
+  },
+  {
+    "id": "1iJrQKRh5aJnp6cG5lpITr",
+    "name": "Khontkar",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 228,
+    "debut": "1991",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 636023,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb014c0d1661f557e7d20711d9"
+  },
+  {
+    "id": "6pLClLDuEeB6KdfvPblHSq",
+    "name": "Ogün Sanlısoy",
+    "gender": "Male",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 229,
+    "debut": "1971",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 627801,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb8cdd308d20ce7c17c04a58e6"
+  },
+  {
+    "id": "6RXvZtTyld421VPmJtLqkL",
+    "name": "Fikret Kızılok",
+    "gender": "Male",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 230,
+    "debut": "1946",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 622328,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb3feae6f6ea4be9575632c3be"
+  },
+  {
+    "id": "3R27mVPp04i87RNmvysZfY",
+    "name": "Stap",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 231,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 593504,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb87f00cdc1745626ac6f46a53"
+  },
+  {
+    "id": "3O6mcOK5C1hkMfwrSkNPMM",
+    "name": "Can Koç",
+    "gender": "Male",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 232,
+    "debut": "1996",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 586436,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb5a08564117988b4085d70f62"
+  },
+  {
+    "id": "4KQnCYDy1CQpfViAK1QCZL",
+    "name": "Mavi Işıklar",
+    "gender": "Mixed",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 233,
+    "debut": "1964",
+    "nationality": "Turkey",
+    "group_size": "group",
+    "spotify_monthly_streams": 584287,
+    "image_url": "https://i.scdn.co/image/ab67616d0000b273ff8971cca2d2207e313befb8"
+  },
+  {
+    "id": "5piE2MZ1wGpBjpDud8kTOS",
+    "name": "Defkhan",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 234,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 583215,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb489601991d38af5523f9f118"
+  },
+  {
+    "id": "27sJOP3QjNbw349IrcROwj",
+    "name": "Badem",
+    "gender": "Mixed",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 235,
+    "debut": "1995",
+    "nationality": "Turkey",
+    "group_size": "group",
+    "spotify_monthly_streams": 581928,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb51b63ff84d9b300a40721fc9"
+  },
+  {
+    "id": "2WrrDGOjPL1QFuLB45DZ7Q",
+    "name": "Kolera",
+    "gender": "Female",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 236,
+    "debut": "1983",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 532625,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb93819df2a65db5a2c6388718"
+  },
+  {
+    "id": "1gta8KxWev006kmzUCM0a5",
+    "name": "ATE",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 237,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 515446,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebd1b4571d2ec1d789f70d6d3a"
+  },
+  {
+    "id": "32d21ZV2sLX2sGdjefVMJg",
+    "name": "Çağrı Sinci",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 238,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 504199,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb0d9d6b24169e793f39fd62d4"
+  },
+  {
+    "id": "25FdziPY37yQIRXSk7ZUmS",
+    "name": "Allame",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 239,
+    "debut": "1989",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 478734,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb955275b7814cb24a2a0b3709"
+  },
+  {
+    "id": "6F9lYsXc6Z7WMX3DtSXDLa",
+    "name": "Haramiler",
+    "gender": "Mixed",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 240,
+    "debut": "1991",
+    "nationality": "Turkey",
+    "group_size": "group",
+    "spotify_monthly_streams": 472678,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebe2a2a874433be26a61c5408d"
+  },
+  {
+    "id": "1X8IDE7vOMFmhR8Hg32EGA",
+    "name": "Tanerman",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 241,
+    "debut": "1990",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 472351,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eba26f6842eefccae3e0133b30"
+  },
+  {
+    "id": "2QDHxmDObOuv9MCeBYiFtq",
+    "name": "Ceg",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 242,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 451111,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb339e007aaa3b41d99a7f0c56"
+  },
+  {
+    "id": "7HLErdUiPhh7mg5AxVEAX0",
+    "name": "Killa Hakan",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 243,
+    "debut": "1973",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 443122,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb925ea1a56e702ed09d6f5303"
+  },
+  {
+    "id": "0rRu3Co1oQ6Ce3yz7btJzB",
+    "name": "Karsu",
+    "gender": "Female",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 244,
+    "debut": "1990",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 387942,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebdc860688a89af1fa56637771"
+  },
+  {
+    "id": "7pUjWNH0hKYpRzWDdNLzAi",
+    "name": "Büyük Ev Ablukada",
+    "gender": "Mixed",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 245,
+    "debut": "2008",
+    "nationality": "Turkey",
+    "group_size": "group",
+    "spotify_monthly_streams": 352111,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebc9e1450035ada194880d46d0"
+  },
+  {
+    "id": "1eQzZsJAtBVhN9WP62oXM2",
+    "name": "Xir",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 246,
+    "debut": "1990",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 338575,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb4f040290666796679a6360e6"
+  },
+  {
+    "id": "2KPINxWCVBb9yxO8xKtdFh",
+    "name": "Abugat",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 247,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 297022,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb63d69824147e4481fa0f387f"
+  },
+  {
+    "id": "5DtQ3MpxpzAyDvgMNFWN1r",
+    "name": "Tepki",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 248,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 295355,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb62768630f40aa2b1a1eeaa51"
+  },
+  {
+    "id": "1x59izw7Q1MpfZyzJpTfb4",
+    "name": "Bulutsuzluk Özlemi",
+    "gender": "Mixed",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 249,
+    "debut": "1986",
+    "nationality": "Turkey",
+    "group_size": "group",
+    "spotify_monthly_streams": 235513,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb2666c101c2f38af4e3098a0d"
+  },
+  {
+    "id": "1Ff0dxz94grKP7s4p3ANlp",
+    "name": "Bedük",
+    "gender": "Male",
+    "genres": [
+      "Pop"
+    ],
+    "popularity": 250,
+    "debut": "1979",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 222659,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb6d880f4be1a02fa94d08d469"
+  },
+  {
+    "id": "2Fu5huGG8iXC85P9akyYrr",
+    "name": "Joker",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 251,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 212342,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb7bbbea78c8f7adc84849060e"
+  },
+  {
+    "id": "1Xz8iP9Dvl5uI88iraOhs7",
+    "name": "Pentagram",
+    "gender": "Mixed",
+    "genres": [
+      "Metal"
+    ],
+    "popularity": 252,
+    "debut": "1971",
+    "nationality": "Turkey",
+    "group_size": "group",
+    "spotify_monthly_streams": 199625,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb04ffe7847c4fe6f506cc05e0"
+  },
+  {
+    "id": "0ONcicRZwAgDDZyeWrLia3",
+    "name": "Demir Demirkan",
+    "gender": "Male",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 253,
+    "debut": "1972",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 196815,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb076bdc4feb4623581b7f297c"
+  },
+  {
+    "id": "5Pd3tsRa9fj2Q3JPQ0tYEv",
+    "name": "Keişan",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 254,
+    "debut": null,
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 184825,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebdffd602232da18da7150212e"
+  },
+  {
+    "id": "6tRmpYzDIjWoRHzbJO7Cpx",
+    "name": "Fuat",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 255,
+    "debut": "1972",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 147756,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb2c01ffbcf5e026275ec56b7a"
+  },
+  {
+    "id": "441Mk7JKv8WtAsaR9REPGX",
+    "name": "Palmiyeler",
+    "gender": "Mixed",
+    "genres": [
+      "Rock"
+    ],
+    "popularity": 256,
+    "debut": "2013",
+    "nationality": "Turkey",
+    "group_size": "group",
+    "spotify_monthly_streams": 145020,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb363d558f25bc19a0e1348f23"
+  },
+  {
+    "id": "63f9vjw52BL5c3f5TSlg72",
+    "name": "Beta Berk Bayındır",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 257,
+    "debut": "1989",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 141612,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebdbc020784e92f9da919eafed"
+  },
+  {
+    "id": "4ESPwgMOkNWv8mZIfe2mdO",
+    "name": "Tankurt Manas",
+    "gender": "Male",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 258,
+    "debut": "1991",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 109642,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5ebd9e99d3ee3fce87eb45e2f66"
+  },
+  {
+    "id": "4B744cRUGT2IOu9Uuh7Ad7",
+    "name": "Ayben",
+    "gender": "Female",
+    "genres": [
+      "Rap"
+    ],
+    "popularity": 259,
+    "debut": "1982",
+    "nationality": "Turkey",
+    "group_size": 1,
+    "spotify_monthly_streams": 60172,
+    "image_url": "https://i.scdn.co/image/ab6761610000e5eb7605782a485ae6bd634961f1"
+  }
+]
