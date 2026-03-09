@@ -348,11 +348,13 @@ def api_next_reset():
 
 if __name__ == '__main__':
     load_artists()
+    port = int(os.environ.get('PORT', 5000))
+    debug = os.environ.get('FLASK_DEBUG', 'false').lower() in ('1', 'true', 'yes')
     print(f"\n{'='*50}")
     print("Tracksy - Web App")
     print(f"{'='*50}")
     print(f"Loaded {len(ARTISTS)} artists")
     print(f"Today's artist: {get_daily_artist()['name']}")
-    print(f"\nOpen in browser: http://localhost:5000")
+    print(f"\nOpen in browser: http://localhost:{port}")
     print(f"{'='*50}\n")
-    app.run(debug=True, port=5000)
+    app.run(host='0.0.0.0', port=port, debug=debug)
