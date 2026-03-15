@@ -70,13 +70,14 @@ def load_artists():
 def _artist_payload_from_raw(raw):
     """
     Build the artist dict we send to the client, using only the raw JSON.
-    The file has 'genres' (array); we send that as 'genres' and set 'genre' to first for compatibility.
+    The file has 'genres' (array); we always send 'genres' and set 'genre' to first for compatibility.
     """
     if not raw:
         return {}
     genres = raw.get('genres')
     if not isinstance(genres, list):
         genres = []
+    genres = list(genres)  # copy so response has its own list
     return {
         'id': raw.get('id'),
         'name': raw.get('name'),
@@ -86,7 +87,7 @@ def _artist_payload_from_raw(raw):
         'group_size': raw.get('group_size'),
         'gender': raw.get('gender'),
         'genre': genres[0] if genres else None,
-        'genres': genres,
+        'genres': genres,  # always present for frontend multi-genre display
         'image_url': raw.get('image_url'),
         'top_track_id': raw.get('top_track_id'),
         'top_track_name': raw.get('top_track_name'),
@@ -284,6 +285,12 @@ def get_game_state():
         aid = g.get('artist_id')
         raw = RAW_ARTISTS_BY_ID.get(aid) if aid else None
         artist_payload = _artist_payload_from_raw(raw) if raw else artist_for_api(ARTISTS_BY_ID.get(aid)) if aid else (g.get('artist') or {})
+        if 'genres' not in artist_payload or not isinstance(artist_payload.get('genres'), list):
+            if raw and isinstance(raw.get('genres'), list):
+                artist_payload['genres'] = list(raw['genres'])
+                artist_payload['genre'] = raw['genres'][0] if raw['genres'] else None
+            else:
+                artist_payload['genres'] = [artist_payload['genre']] if artist_payload.get('genre') else []
         guess_copy['artist'] = artist_payload
         guesses.append(guess_copy)
     return {
@@ -415,6 +422,16 @@ def api_guess():
     data = request.get_json()
     artist_id = data.get('artist_id')
     result = make_guess(artist_id)
+    # Ensure artist always has 'genres' array (from raw JSON) for multi-genre display
+    if 'guess' in result and 'artist' in result['guess']:
+        artist = result['guess']['artist']
+        if 'genres' not in artist or not isinstance(artist.get('genres'), list):
+            raw = RAW_ARTISTS_BY_ID.get(artist_id)
+            if raw and isinstance(raw.get('genres'), list):
+                artist['genres'] = list(raw['genres'])
+                artist['genre'] = raw['genres'][0] if raw['genres'] else None
+            else:
+                artist['genres'] = [artist['genre']] if artist.get('genre') else []
     return jsonify(result)
 
 @app.route('/api/answer')
