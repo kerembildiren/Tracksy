@@ -7,6 +7,7 @@ Then open: http://localhost:5000
 from flask import Flask, render_template, jsonify, request, session, send_from_directory, send_file, redirect
 import json
 import os
+import re
 from datetime import datetime, timedelta
 from functools import wraps
 import pytz
@@ -45,7 +46,10 @@ def load_artists():
     
     ARTISTS = []
     for raw in raw_artists:
-        genres_list = raw.get('genres') or []
+        genres_list = raw.get('genres') if isinstance(raw.get('genres'), list) else []
+        if not genres_list and (raw.get('genre') or raw.get('Genre')):
+            s = (raw.get('genre') or raw.get('Genre')) or ''
+            genres_list = [x.strip() for x in re.split(r'[;,/]', str(s)) if x and x.strip()]
         artist = {
             'id': raw['id'],
             'name': raw['name'],
@@ -83,6 +87,19 @@ def _raw_artist_from_file(artist_id):
     return None
 
 
+def _genres_list_from_raw(raw):
+    """Build a list of genre strings from raw file dict (handles 'genres' array or 'genre' string)."""
+    if not raw:
+        return []
+    gs = raw.get('genres')
+    if isinstance(gs, list):
+        return [str(g).strip() for g in gs if g and str(g).strip()]
+    s = raw.get('genre') or raw.get('Genre')
+    if isinstance(s, str) and s.strip():
+        return [x.strip() for x in re.split(r'[;,/]', s) if x and x.strip()]
+    return []
+
+
 def artist_for_api(a):
     """Return artist dict with all fields the client needs (debut_year, genres, etc.)."""
     if not a:
@@ -92,6 +109,8 @@ def artist_for_api(a):
     genres = a.get('genres')
     if genres is None:
         genres = []
+    if not genres and a.get('genre'):
+        genres = [a['genre']]
     return {
         'id': a.get('id'),
         'name': a.get('name'),
@@ -274,10 +293,14 @@ def get_game_state():
         full_artist = ARTISTS_BY_ID.get(g.get('artist_id')) if g.get('artist_id') else None
         guess_copy = dict(g)
         artist_payload = artist_for_api(full_artist) if full_artist else (g.get('artist') or {})
-        if not artist_payload.get('debut_year'):
-            raw = _raw_artist_from_file(g.get('artist_id')) if g.get('artist_id') else None
-            if raw:
+        raw = _raw_artist_from_file(g.get('artist_id')) if g.get('artist_id') else None
+        if raw:
+            if not artist_payload.get('debut_year'):
                 artist_payload['debut_year'] = raw.get('debut') or raw.get('Debut')
+            genres_from_file = _genres_list_from_raw(raw)
+            if genres_from_file:
+                artist_payload['genres'] = genres_from_file
+                artist_payload['genre'] = genres_from_file[0]
         guess_copy['artist'] = artist_payload
         guesses.append(guess_copy)
     return {
@@ -306,13 +329,20 @@ def make_guess(artist_id):
     hints = compare_artists(guessed, correct)
     is_correct = guessed['id'] == correct['id']
     
-    # Ensure debut_year is set from file when missing (fixes display when in-memory copy lacks it)
-    if not guessed.get('debut_year'):
-        raw = _raw_artist_from_file(artist_id)
-        if raw and (raw.get('debut') or raw.get('Debut')):
+    raw = _raw_artist_from_file(artist_id)
+    if raw:
+        if not guessed.get('debut_year') and (raw.get('debut') or raw.get('Debut')):
             guessed['debut_year'] = raw.get('debut') or raw.get('Debut')
     
     artist_payload = artist_for_api(guessed)
+    
+    # Prefer genres from file so API always returns full list (handles both 'genres' array and 'genre' string)
+    if raw:
+        genres_from_file = _genres_list_from_raw(raw)
+        if genres_from_file:
+            artist_payload['genres'] = genres_from_file
+            artist_payload['genre'] = genres_from_file[0]
+    
     guess_record = {
         'artist_id': artist_id,
         'artist': artist_payload,

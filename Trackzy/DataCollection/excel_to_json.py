@@ -8,7 +8,7 @@ Usage:
   python excel_to_json.py path/to/edited.xlsx path/to/artists_raw.json  # custom paths
 
 Expects the same columns as produced by json_to_excel.py; sheet name "Artists".
-Genre(s) column: use semicolon to separate multiple (e.g. "Rap; Pop"). Empty = no genre.
+Genre(s) column: use semicolon, comma, or slash to separate multiple (e.g. "Rap; Pop" or "Arabesk/Rap"). Empty = no genre.
 """
 import json
 import os
@@ -57,7 +57,7 @@ def parse_cell(value, key):
         s = str(value).strip()
         if not s:
             return []
-        parts = [p.strip() for p in re.split(r"[;,]", s) if p.strip()]
+        parts = [p.strip() for p in re.split(r"[;,/]", s) if p.strip()]
         return parts
     if key in ("popularity", "spotify_monthly_streams"):
         try:
