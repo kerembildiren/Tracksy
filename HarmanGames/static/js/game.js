@@ -461,7 +461,6 @@ function formatGenres(artist) {
     if (!artist) return '?';
     const g = artist.genres;
     if (Array.isArray(g) && g.length) return g.join(', ');
-    if (artist.genre) return artist.genre;
     return '?';
 }
 

@@ -73,7 +73,7 @@ def load_artists():
 
 
 def _artist_payload_from_raw(raw):
-    """Build artist dict for API from raw JSON so response always has full 'genres' array."""
+    """Build artist dict for API from raw JSON. Only 'genres' (list); no 'genre'."""
     if not raw:
         return {}
     genres = raw.get('genres')
@@ -88,7 +88,6 @@ def _artist_payload_from_raw(raw):
         'debut_year': raw.get('debut'),
         'group_size': raw.get('group_size'),
         'gender': raw.get('gender'),
-        'genre': genres[0] if genres else None,
         'genres': genres,
         'image_url': raw.get('image_url'),
         'top_track_id': raw.get('top_track_id'),
@@ -233,7 +232,8 @@ def get_game_state():
         g_copy['artist'] = _artist_payload_from_raw(raw) if raw else g.get('artist') or ARTISTS_BY_ID.get(aid) or {}
         if 'genres' not in g_copy['artist'] or not isinstance(g_copy['artist'].get('genres'), list):
             a = ARTISTS_BY_ID.get(aid)
-            g_copy['artist']['genres'] = list(a.get('genres') or []) if a else (g_copy['artist'].get('genre') and [g_copy['artist']['genre']]) or []
+            g_copy['artist']['genres'] = list(a.get('genres') or []) if a else []
+        g_copy['artist'].pop('genre', None)
         guesses.append(g_copy)
     return {
         'date': session['game_date'],
@@ -322,9 +322,8 @@ def api_guess():
             raw = RAW_ARTISTS_BY_ID.get(artist_id)
             if raw and isinstance(raw.get('genres'), list):
                 artist['genres'] = list(raw['genres'])
-                artist['genre'] = raw['genres'][0] if raw['genres'] else None
             else:
-                artist['genres'] = [artist['genre']] if artist.get('genre') else []
+                artist['genres'] = []
     return jsonify(result)
 
 @app.route('/api/answer')
