@@ -313,11 +313,16 @@ def sportsguesser_static(subpath):
     return send_from_directory(SPORTSGUESSER_WEB, subpath)
 
 # ============================================================
+# Load data (must run on import so gunicorn has artist data)
+# ============================================================
+
+load_artists()
+
+# ============================================================
 # Main
 # ============================================================
 
 if __name__ == '__main__':
-    load_artists()
     port = int(os.environ.get('PORT', 5000))
     debug = os.environ.get('FLASK_DEBUG', 'false').lower() in ('1', 'true', 'yes')
     print(f"\n{'='*50}")
