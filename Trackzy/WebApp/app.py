@@ -25,16 +25,27 @@ ARTISTS_BY_NAME = {}
 def load_artists():
     global ARTISTS, ARTISTS_BY_ID, ARTISTS_BY_NAME
     
-    base = os.path.dirname(__file__)
-    # Prefer WebApp/data/ for self-contained deploy (e.g. GitHub, server)
-    filepath = os.path.join(base, 'data', 'artists_raw.json')
-    if not os.path.isfile(filepath):
-        filepath = os.path.join(base, '..', 'DataCollection', 'output', 'artists_raw.json')
-    with open(filepath, 'r', encoding='utf-8') as f:
+    # Resolve paths relative to this file so they work regardless of current working directory
+    base = os.path.dirname(os.path.abspath(__file__))
+    # Prefer DataCollection/output (source of truth) so the game always uses the updated JSON
+    data_collection_path = os.path.abspath(os.path.join(base, '..', 'DataCollection', 'output', 'artists_raw.json'))
+    webapp_data_path = os.path.abspath(os.path.join(base, 'data', 'artists_raw.json'))
+    if os.path.isfile(data_collection_path):
+        filepath = data_collection_path
+    elif os.path.isfile(webapp_data_path):
+        filepath = webapp_data_path
+    else:
+        raise FileNotFoundError(
+            f"Artist data not found. Put artists_raw.json in DataCollection/output/ or WebApp/data/. "
+            f"Tried: {data_collection_path!r} and {webapp_data_path!r}"
+        )
+    with open(filepath, 'r', encoding='utf-8-sig') as f:
         raw_artists = json.load(f)
+    load_artists._loaded_from = filepath
     
     ARTISTS = []
     for raw in raw_artists:
+        genres_list = raw.get('genres') or []
         artist = {
             'id': raw['id'],
             'name': raw['name'],
@@ -43,7 +54,8 @@ def load_artists():
             'debut_year': raw.get('debut'),
             'group_size': raw.get('group_size'),
             'gender': raw.get('gender'),
-            'genre': raw['genres'][0] if raw.get('genres') else None,
+            'genre': genres_list[0] if genres_list else None,
+            'genres': genres_list,
             'image_url': raw.get('image_url'),
             'top_track_id': raw.get('top_track_id'),
             'top_track_name': raw.get('top_track_name'),
@@ -53,6 +65,48 @@ def load_artists():
     
     ARTISTS_BY_ID = {a['id']: a for a in ARTISTS}
     ARTISTS_BY_NAME = {a['name'].lower(): a for a in ARTISTS}
+
+
+def _raw_artist_from_file(artist_id):
+    """Return the raw artist dict from the JSON file for this id, or None."""
+    filepath = getattr(load_artists, '_loaded_from', None)
+    if not filepath or not os.path.isfile(filepath):
+        return None
+    try:
+        with open(filepath, 'r', encoding='utf-8-sig') as f:
+            raw_list = json.load(f)
+    except Exception:
+        return None
+    for raw in raw_list:
+        if raw.get('id') == artist_id:
+            return raw
+    return None
+
+
+def artist_for_api(a):
+    """Return artist dict with all fields the client needs (debut_year, genres, etc.)."""
+    if not a:
+        return {}
+    # Support both 'debut_year' (our in-memory key) and 'debut' (raw JSON key)
+    debut = a.get('debut_year') if a.get('debut_year') is not None else a.get('debut')
+    genres = a.get('genres')
+    if genres is None:
+        genres = []
+    return {
+        'id': a.get('id'),
+        'name': a.get('name'),
+        'nationality': a.get('nationality'),
+        'popularity': a.get('popularity', 0),
+        'debut_year': debut,
+        'group_size': a.get('group_size'),
+        'gender': a.get('gender'),
+        'genre': a.get('genre'),
+        'genres': genres,
+        'image_url': a.get('image_url'),
+        'top_track_id': a.get('top_track_id'),
+        'top_track_name': a.get('top_track_name'),
+        'top_track_uri': a.get('top_track_uri'),
+    }
 
 # ============================================================
 # Daily Artist Selection (Deterministic - Turkey Timezone)
@@ -118,7 +172,7 @@ def compare_artists(guessed, correct):
         'debut_year': compare_numeric(guessed.get('debut_year'), correct.get('debut_year'), 10, False),
         'group_size': compare_exact(guessed.get('group_size'), correct.get('group_size')),
         'gender': compare_exact(guessed.get('gender'), correct.get('gender')),
-        'genre': compare_exact_ci(guessed.get('genre'), correct.get('genre')),
+        'genre': compare_genres(guessed.get('genres'), correct.get('genres')),
         'nationality': compare_exact_ci(guessed.get('nationality'), correct.get('nationality')),
         # Popularity = rank (1 = most streams). Lower number = more popular. "Close" = within 15 ranks.
         'popularity': compare_popularity(guessed.get('popularity'), correct.get('popularity'), 15),
@@ -179,6 +233,21 @@ def compare_exact_ci(guessed, correct):
         return {'result': 'unknown'}
     return {'result': 'correct' if guessed.lower() == correct.lower() else 'incorrect'}
 
+
+def compare_genres(guessed_genres, correct_genres):
+    """Compare genre lists: correct = exact match (same set), close = at least one genre in common."""
+    guessed_set = {g.strip().lower() for g in (guessed_genres or []) if g and str(g).strip()}
+    correct_set = {g.strip().lower() for g in (correct_genres or []) if g and str(g).strip()}
+    if not correct_set and not guessed_set:
+        return {'result': 'unknown'}
+    if not correct_set or not guessed_set:
+        return {'result': 'incorrect'}
+    if guessed_set == correct_set:
+        return {'result': 'correct'}
+    if guessed_set & correct_set:
+        return {'result': 'close'}
+    return {'result': 'incorrect'}
+
 # ============================================================
 # Game State Management
 # ============================================================
@@ -200,9 +269,20 @@ def get_game_state():
         session['correct_artist_id'] = correct_artist['id']
         session['guesses'] = []
         session['status'] = 'playing'
+    guesses = []
+    for g in session.get('guesses', []):
+        full_artist = ARTISTS_BY_ID.get(g.get('artist_id')) if g.get('artist_id') else None
+        guess_copy = dict(g)
+        artist_payload = artist_for_api(full_artist) if full_artist else (g.get('artist') or {})
+        if not artist_payload.get('debut_year'):
+            raw = _raw_artist_from_file(g.get('artist_id')) if g.get('artist_id') else None
+            if raw:
+                artist_payload['debut_year'] = raw.get('debut') or raw.get('Debut')
+        guess_copy['artist'] = artist_payload
+        guesses.append(guess_copy)
     return {
         'date': session['game_date'],
-        'guesses': session['guesses'],
+        'guesses': guesses,
         'status': session['status'],
         'remaining': 10 - len(session['guesses'])
     }
@@ -226,9 +306,16 @@ def make_guess(artist_id):
     hints = compare_artists(guessed, correct)
     is_correct = guessed['id'] == correct['id']
     
+    # Ensure debut_year is set from file when missing (fixes display when in-memory copy lacks it)
+    if not guessed.get('debut_year'):
+        raw = _raw_artist_from_file(artist_id)
+        if raw and (raw.get('debut') or raw.get('Debut')):
+            guessed['debut_year'] = raw.get('debut') or raw.get('Debut')
+    
+    artist_payload = artist_for_api(guessed)
     guess_record = {
         'artist_id': artist_id,
-        'artist': guessed,
+        'artist': artist_payload,
         'hints': hints,
         'is_correct': is_correct
     }
@@ -297,6 +384,16 @@ def trackzy():
 def api_state():
     state = get_game_state()
     return jsonify(state)
+
+@app.route('/api/genres')
+def api_genres():
+    """Return sorted list of all unique genres in the dataset (for reference)."""
+    genres = set()
+    for a in ARTISTS:
+        for g in (a.get('genres') or []):
+            if g and str(g).strip():
+                genres.add(str(g).strip())
+    return jsonify(sorted(genres))
 
 @app.route('/api/search')
 def api_search():
@@ -403,11 +500,14 @@ if __name__ == '__main__':
     load_artists()
     port = int(os.environ.get('PORT', 5000))
     debug = os.environ.get('FLASK_DEBUG', 'false').lower() in ('1', 'true', 'yes')
+    loaded_from = getattr(load_artists, '_loaded_from', 'unknown')
     print(f"\n{'='*50}")
     print("Tracksy - Web App")
     print(f"{'='*50}")
+    print(f"Data file: {loaded_from}")
     print(f"Loaded {len(ARTISTS)} artists")
     print(f"Today's artist: {get_daily_artist()['name']}")
     print(f"\nOpen in browser: http://localhost:{port}")
+    print("(Restart the server after updating artists_raw.json to see changes)")
     print(f"{'='*50}\n")
     app.run(host='0.0.0.0', port=port, debug=debug)

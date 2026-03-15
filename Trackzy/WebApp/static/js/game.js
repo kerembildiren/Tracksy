@@ -344,10 +344,10 @@ function createGuessCard(guess) {
             ${guess.is_correct ? '<span class="check-icon">✓</span>' : ''}
         </div>
         <div class="hint-grid">
-            ${createHintCell('BIRTH YEAR', formatYear(artist.debut_year), hints.debut_year)}
+            ${createHintCell('BIRTH YEAR', formatYear(artist), hints.debut_year)}
             ${createHintCell('GROUP SIZE', formatGroupSize(artist.group_size), hints.group_size)}
             ${createHintCell('GENDER', formatGender(artist.gender), hints.gender)}
-            ${createHintCell('GENRE', artist.genre || '?', hints.genre)}
+            ${createHintCell('GENRE', formatGenre(artist), hints.genre)}
             ${createHintCell('NATION', formatNationality(artist.nationality), hints.nationality)}
             ${createHintCell('POPULARITY', formatPopularity(artist.popularity), hints.popularity)}
         </div>
@@ -429,8 +429,18 @@ function updateActionButton() {
 // Formatting Helpers
 // ============================================================
 
-function formatYear(year) {
-    return year ? String(year) : '?';
+function formatYear(yearOrArtist) {
+    // Accept either a year value or an artist object (for debut_year / debut)
+    let year;
+    if (typeof yearOrArtist === 'object' && yearOrArtist !== null) {
+        year = yearOrArtist.debut_year !== undefined && yearOrArtist.debut_year !== null && yearOrArtist.debut_year !== ''
+            ? yearOrArtist.debut_year
+            : yearOrArtist.debut;
+    } else {
+        year = yearOrArtist;
+    }
+    if (year === undefined || year === null || year === '') return '?';
+    return String(year);
 }
 
 function formatGender(gender) {
@@ -455,6 +465,12 @@ function formatPopularity(rank) {
 function formatGroupSize(size) {
     if (!size) return '?';
     return size === 1 ? 'Solo' : 'Group';
+}
+
+function formatGenre(artist) {
+    if (!artist) return '?';
+    if (Array.isArray(artist.genres) && artist.genres.length) return artist.genres.join(', ');
+    return artist.genre || '?';
 }
 
 // ============================================================
