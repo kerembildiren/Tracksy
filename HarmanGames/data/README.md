@@ -5,18 +5,25 @@
 
 ## Updating artist data (artists_raw.json)
 
-When you change the artist data (e.g. genres, debut year, new artists):
+**Important:** The live site (e.g. harmangaming.com/trackzy) loads `artists_raw.json` from **this folder** (`HarmanGames/data/`). It does **not** read from `Trackzy/DataCollection/output/` on the server. So after you edit the source file, you must **copy it here and push both** for the live app to see the change.
 
-1. **Edit the source file:** `Trackzy/DataCollection/output/artists_raw.json`
-2. **Copy into this folder** so the live app (e.g. Render) gets the update:
+### Standard procedure (e.g. monthly updates)
+
+1. **Edit the source file only:**  
+   `Trackzy/DataCollection/output/artists_raw.json`
+
+2. **Copy into this folder** (so the deploy uses it):
    ```bash
    # From repo root (Cursor_Projects or Tracksy)
    cp Trackzy/DataCollection/output/artists_raw.json HarmanGames/data/artists_raw.json
    ```
-3. **Push and redeploy:**
+   (PowerShell: `Copy-Item Trackzy\DataCollection\output\artists_raw.json HarmanGames\data\artists_raw.json -Force`)
+
+3. **Push both files:**
    ```bash
    git add Trackzy/DataCollection/output/artists_raw.json HarmanGames/data/artists_raw.json
    git commit -m "Update artist data (artists_raw.json)"
    git push
    ```
-   Then trigger a redeploy on Render (or wait for auto-deploy). The app loads the JSON at startup, so the new data is used immediately after redeploy.
+
+4. **Redeploy** on Render (or wait for auto-deploy). The app loads the JSON **once at startup**; the new data is used after the new deploy finishes.
