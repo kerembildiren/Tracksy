@@ -347,7 +347,7 @@ function createGuessCard(guess) {
             ${createHintCell('BIRTH YEAR', formatYear(artist.debut_year), hints.debut_year)}
             ${createHintCell('GROUP SIZE', formatGroupSize(artist.group_size), hints.group_size)}
             ${createHintCell('GENDER', formatGender(artist.gender), hints.gender)}
-            ${createHintCell('GENRE', artist.genre || '?', hints.genre)}
+            ${createHintCell('GENRE', formatGenres(artist), hints.genre)}
             ${createHintCell('NATION', formatNationality(artist.nationality), hints.nationality)}
             ${createHintCell('POPULARITY', formatPopularity(artist.popularity), hints.popularity)}
         </div>
@@ -455,6 +455,14 @@ function formatPopularity(rank) {
 function formatGroupSize(size) {
     if (!size) return '?';
     return size === 1 ? 'Solo' : 'Group';
+}
+
+function formatGenres(artist) {
+    if (!artist) return '?';
+    const g = artist.genres;
+    if (Array.isArray(g) && g.length) return g.join(', ');
+    if (artist.genre) return artist.genre;
+    return '?';
 }
 
 // ============================================================

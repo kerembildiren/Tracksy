@@ -173,6 +173,31 @@ def compare_exact_ci(guessed, correct):
         return {'result': 'unknown'}
     return {'result': 'correct' if guessed.lower() == correct.lower() else 'incorrect'}
 
+
+def _normalize_genres(genres):
+    """Return a set of lowercased non-empty genre strings from list or None."""
+    if not genres:
+        return set()
+    if isinstance(genres, list):
+        return {str(g).strip().lower() for g in genres if g and str(g).strip()}
+    return {str(genres).strip().lower()} if str(genres).strip() else set()
+
+
+def compare_genres(guessed_genres, correct_genres):
+    """Compare genre lists: correct = exact match, close = at least one in common, incorrect = no overlap."""
+    g_set = _normalize_genres(guessed_genres)
+    c_set = _normalize_genres(correct_genres)
+    if not g_set and not c_set:
+        return {'result': 'unknown'}
+    if not g_set or not c_set:
+        return {'result': 'incorrect'}
+    if g_set == c_set:
+        return {'result': 'correct'}
+    if g_set & c_set:
+        return {'result': 'close'}
+    return {'result': 'incorrect'}
+
+
 def compare_artists(guessed, correct):
     if guessed['id'] == correct['id']:
         return {k: {'result': 'correct'} for k in ('debut_year', 'group_size', 'gender', 'genre', 'nationality', 'popularity')}
@@ -180,7 +205,7 @@ def compare_artists(guessed, correct):
         'debut_year': compare_numeric(guessed.get('debut_year'), correct.get('debut_year'), 10, False),
         'group_size': compare_exact(guessed.get('group_size'), correct.get('group_size')),
         'gender': compare_exact(guessed.get('gender'), correct.get('gender')),
-        'genre': compare_exact_ci(guessed.get('genre'), correct.get('genre')),
+        'genre': compare_genres(guessed.get('genres'), correct.get('genres')),
         'nationality': compare_exact_ci(guessed.get('nationality'), correct.get('nationality')),
         'popularity': compare_popularity(guessed.get('popularity'), correct.get('popularity'), 15),
     }
