@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harman Gaming — Pick a game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/hub.css') }}?v=7">
+</head>
+<body>
+    <div class="hub">
+        <div class="hub-bg" aria-hidden="true"></div>
+        <header class="hub-header">
+            <h1 class="hub-title">
+                <span class="hub-title-line">Harman</span>
+                <span class="hub-title-line hub-title-accent">Gaming</span>
+            </h1>
+            <p class="hub-tagline">Pick a game</p>
+        </header>
+
+        <main class="hub-games">
+            <a href="{{ url_for('trackzy') }}" class="hub-card hub-card-trackzy" data-delay="0">
+                <span class="hub-card-glow" aria-hidden="true"></span>
+                <span class="hub-card-body">
+                    <h2 class="hub-card-title">Trackzy</h2>
+                    <p class="hub-card-desc">Guess the Turkish artist of the day. Use hints, 10 tries.</p>
+                    <span class="hub-card-arrow" aria-hidden="true">→</span>
+                </span>
+            </a>
+
+            {% if sportsguesser_available %}
+            <a href="{{ url_for('sportsguesser_index') }}" class="hub-card hub-card-sports" data-delay="1">
+                <span class="hub-card-glow" aria-hidden="true"></span>
+                <span class="hub-card-body">
+                    <h2 class="hub-card-title">SportsGuesser</h2>
+                    <p class="hub-card-desc">Guess players and stats. Basketball and more.</p>
+                    <span class="hub-card-arrow" aria-hidden="true">→</span>
+                </span>
+            </a>
+            {% else %}
+            <div class="hub-card hub-card-disabled" data-delay="1">
+                <span class="hub-card-body">
+                    <h2 class="hub-card-title">SportsGuesser</h2>
+                    <p class="hub-card-desc">Coming soon.</p>
+                    <span class="hub-card-badge">Soon</span>
+                </span>
+            </div>
+            {% endif %}
+        </main>
+
+        <footer class="hub-footer">
+            <p>One new puzzle every day. No sign‑up.</p>
+        </footer>
+    </div>
+    <script src="{{ url_for('static', filename='js/hub.js') }}"></script>
+</body>
+</html>

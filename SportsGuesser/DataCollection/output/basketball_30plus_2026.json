@@ -1,0 +1,530 @@
+[
+  {
+    "id": "Shai Gilgeous-Alexander",
+    "30plus_games": 36
+  },
+  {
+    "id": "Luka Doncic",
+    "30plus_games": 33
+  },
+  {
+    "id": "Anthony Edwards",
+    "30plus_games": 30
+  },
+  {
+    "id": "Donovan Mitchell",
+    "30plus_games": 30
+  },
+  {
+    "id": "Jaylen Brown",
+    "30plus_games": 28
+  },
+  {
+    "id": "Tyrese Maxey",
+    "30plus_games": 27
+  },
+  {
+    "id": "Kevin Durant",
+    "30plus_games": 24
+  },
+  {
+    "id": "Jalen Brunson",
+    "30plus_games": 22
+  },
+  {
+    "id": "Nikola Jokic",
+    "30plus_games": 20
+  },
+  {
+    "id": "Kawhi Leonard",
+    "30plus_games": 17
+  },
+  {
+    "id": "Jamal Murray",
+    "30plus_games": 17
+  },
+  {
+    "id": "Giannis Antetokounmpo",
+    "30plus_games": 15
+  },
+  {
+    "id": "Devin Booker",
+    "30plus_games": 15
+  },
+  {
+    "id": "Stephen Curry",
+    "30plus_games": 14
+  },
+  {
+    "id": "Keyonte George",
+    "30plus_games": 14
+  },
+  {
+    "id": "Michael Porter Jr.",
+    "30plus_games": 14
+  },
+  {
+    "id": "Lauri Markkanen",
+    "30plus_games": 13
+  },
+  {
+    "id": "Deni Avdija",
+    "30plus_games": 12
+  },
+  {
+    "id": "Cade Cunningham",
+    "30plus_games": 12
+  },
+  {
+    "id": "Joel Embiid",
+    "30plus_games": 12
+  },
+  {
+    "id": "James Harden",
+    "30plus_games": 12
+  },
+  {
+    "id": "Jalen Johnson",
+    "30plus_games": 12
+  },
+  {
+    "id": "Desmond Bane",
+    "30plus_games": 11
+  },
+  {
+    "id": "Pascal Siakam",
+    "30plus_games": 11
+  },
+  {
+    "id": "Victor Wembanyama",
+    "30plus_games": 11
+  },
+  {
+    "id": "Trey Murphy III",
+    "30plus_games": 10
+  },
+  {
+    "id": "Julius Randle",
+    "30plus_games": 10
+  },
+  {
+    "id": "Paolo Banchero",
+    "30plus_games": 9
+  },
+  {
+    "id": "Brandon Ingram",
+    "30plus_games": 9
+  },
+  {
+    "id": "Austin Reaves",
+    "30plus_games": 9
+  },
+  {
+    "id": "Zach LaVine",
+    "30plus_games": 8
+  },
+  {
+    "id": "Nickeil Alexander-Walker",
+    "30plus_games": 7
+  },
+  {
+    "id": "Cooper Flagg",
+    "30plus_games": 7
+  },
+  {
+    "id": "Alperen Sengun",
+    "30plus_games": 7
+  },
+  {
+    "id": "DeMar DeRozan",
+    "30plus_games": 6
+  },
+  {
+    "id": "Norman Powell",
+    "30plus_games": 6
+  },
+  {
+    "id": "Karl-Anthony Towns",
+    "30plus_games": 6
+  },
+  {
+    "id": "LaMelo Ball",
+    "30plus_games": 5
+  },
+  {
+    "id": "Miles Bridges",
+    "30plus_games": 5
+  },
+  {
+    "id": "Jimmy Butler",
+    "30plus_games": 5
+  },
+  {
+    "id": "Kon Knueppel",
+    "30plus_games": 5
+  },
+  {
+    "id": "Naji Marshall",
+    "30plus_games": 5
+  },
+  {
+    "id": "Brandon Miller",
+    "30plus_games": 5
+  },
+  {
+    "id": "Payton Pritchard",
+    "30plus_games": 5
+  },
+  {
+    "id": "Shaedon Sharpe",
+    "30plus_games": 5
+  },
+  {
+    "id": "Zion Williamson",
+    "30plus_games": 5
+  },
+  {
+    "id": "Scottie Barnes",
+    "30plus_games": 4
+  },
+  {
+    "id": "Saddiq Bey",
+    "30plus_games": 4
+  },
+  {
+    "id": "Dillon Brooks",
+    "30plus_games": 4
+  },
+  {
+    "id": "Jalen Duren",
+    "30plus_games": 4
+  },
+  {
+    "id": "Jerami Grant",
+    "30plus_games": 4
+  },
+  {
+    "id": "Jaren Jackson Jr.",
+    "30plus_games": 4
+  },
+  {
+    "id": "LeBron James",
+    "30plus_games": 4
+  },
+  {
+    "id": "Cam Thomas",
+    "30plus_games": 4
+  },
+  {
+    "id": "Peyton Watson",
+    "30plus_games": 4
+  },
+  {
+    "id": "Bam Adebayo",
+    "30plus_games": 3
+  },
+  {
+    "id": "Anthony Davis",
+    "30plus_games": 3
+  },
+  {
+    "id": "De'Aaron Fox",
+    "30plus_games": 3
+  },
+  {
+    "id": "C.J. McCollum",
+    "30plus_games": 3
+  },
+  {
+    "id": "Kevin Porter Jr.",
+    "30plus_games": 3
+  },
+  {
+    "id": "Immanuel Quickley",
+    "30plus_games": 3
+  },
+  {
+    "id": "Derrick White",
+    "30plus_games": 3
+  },
+  {
+    "id": "Santi Aldama",
+    "30plus_games": 2
+  },
+  {
+    "id": "Grayson Allen",
+    "30plus_games": 2
+  },
+  {
+    "id": "Jarrett Allen",
+    "30plus_games": 2
+  },
+  {
+    "id": "Anthony Black",
+    "30plus_games": 2
+  },
+  {
+    "id": "Mikal Bridges",
+    "30plus_games": 2
+  },
+  {
+    "id": "Stephon Castle",
+    "30plus_games": 2
+  },
+  {
+    "id": "Paul George",
+    "30plus_games": 2
+  },
+  {
+    "id": "Jrue Holiday",
+    "30plus_games": 2
+  },
+  {
+    "id": "Kyle Kuzma",
+    "30plus_games": 2
+  },
+  {
+    "id": "Bennedict Mathurin",
+    "30plus_games": 2
+  },
+  {
+    "id": "Ja Morant",
+    "30plus_games": 2
+  },
+  {
+    "id": "Andrew Nembhard",
+    "30plus_games": 2
+  },
+  {
+    "id": "Onyeka Okongwu",
+    "30plus_games": 2
+  },
+  {
+    "id": "Derik Queen",
+    "30plus_games": 2
+  },
+  {
+    "id": "Ryan Rollins",
+    "30plus_games": 2
+  },
+  {
+    "id": "Alex Sarr",
+    "30plus_games": 2
+  },
+  {
+    "id": "Reed Sheppard",
+    "30plus_games": 2
+  },
+  {
+    "id": "Jabari Smith Jr.",
+    "30plus_games": 2
+  },
+  {
+    "id": "Amen Thompson",
+    "30plus_games": 2
+  },
+  {
+    "id": "Franz Wagner",
+    "30plus_games": 2
+  },
+  {
+    "id": "Trae Young",
+    "30plus_games": 2
+  },
+  {
+    "id": "Ivica Zubac",
+    "30plus_games": 2
+  },
+  {
+    "id": "OG Anunoby",
+    "30plus_games": 1
+  },
+  {
+    "id": "Ace Bailey",
+    "30plus_games": 1
+  },
+  {
+    "id": "Harrison Barnes",
+    "30plus_games": 1
+  },
+  {
+    "id": "RJ Barrett",
+    "30plus_games": 1
+  },
+  {
+    "id": "Matas Buzelis",
+    "30plus_games": 1
+  },
+  {
+    "id": "Toumani Camara",
+    "30plus_games": 1
+  },
+  {
+    "id": "Julian Champagnie",
+    "30plus_games": 1
+  },
+  {
+    "id": "Nique Clifford",
+    "30plus_games": 1
+  },
+  {
+    "id": "Noah Clowney",
+    "30plus_games": 1
+  },
+  {
+    "id": "Zach Edey",
+    "30plus_games": 1
+  },
+  {
+    "id": "VJ Edgecombe",
+    "30plus_games": 1
+  },
+  {
+    "id": "Darius Garland",
+    "30plus_games": 1
+  },
+  {
+    "id": "Kyshawn George",
+    "30plus_games": 1
+  },
+  {
+    "id": "Josh Giddey",
+    "30plus_games": 1
+  },
+  {
+    "id": "Collin Gillespie",
+    "30plus_games": 1
+  },
+  {
+    "id": "Aaron Gordon",
+    "30plus_games": 1
+  },
+  {
+    "id": "Tim Hardaway Jr.",
+    "30plus_games": 1
+  },
+  {
+    "id": "Isaiah Hartenstein",
+    "30plus_games": 1
+  },
+  {
+    "id": "Sam Hauser",
+    "30plus_games": 1
+  },
+  {
+    "id": "Tyler Herro",
+    "30plus_games": 1
+  },
+  {
+    "id": "Chet Holmgren",
+    "30plus_games": 1
+  },
+  {
+    "id": "Jett Howard",
+    "30plus_games": 1
+  },
+  {
+    "id": "Jaime Jaquez Jr.",
+    "30plus_games": 1
+  },
+  {
+    "id": "Tre Jones",
+    "30plus_games": 1
+  },
+  {
+    "id": "Corey Kispert",
+    "30plus_games": 1
+  },
+  {
+    "id": "Brook Lopez",
+    "30plus_games": 1
+  },
+  {
+    "id": "Jaden McDaniels",
+    "30plus_games": 1
+  },
+  {
+    "id": "Sam Merrill",
+    "30plus_games": 1
+  },
+  {
+    "id": "Malik Monk",
+    "30plus_games": 1
+  },
+  {
+    "id": "Moses Moody",
+    "30plus_games": 1
+  },
+  {
+    "id": "Aaron Nesmith",
+    "30plus_games": 1
+  },
+  {
+    "id": "Jordan Poole",
+    "30plus_games": 1
+  },
+  {
+    "id": "Kristaps Porzingis",
+    "30plus_games": 1
+  },
+  {
+    "id": "Naz Reid",
+    "30plus_games": 1
+  },
+  {
+    "id": "Will Richard",
+    "30plus_games": 1
+  },
+  {
+    "id": "D'Angelo Russell",
+    "30plus_games": 1
+  },
+  {
+    "id": "Domantas Sabonis",
+    "30plus_games": 1
+  },
+  {
+    "id": "Brice Sensabaugh",
+    "30plus_games": 1
+  },
+  {
+    "id": "Collin Sexton",
+    "30plus_games": 1
+  },
+  {
+    "id": "Landry Shamet",
+    "30plus_games": 1
+  },
+  {
+    "id": "Anfernee Simons",
+    "30plus_games": 1
+  },
+  {
+    "id": "Isaiah Stewart",
+    "30plus_games": 1
+  },
+  {
+    "id": "Myles Turner",
+    "30plus_games": 1
+  },
+  {
+    "id": "Jaylon Tyson",
+    "30plus_games": 1
+  },
+  {
+    "id": "Devin Vassell",
+    "30plus_games": 1
+  },
+  {
+    "id": "Nikola Vucevic",
+    "30plus_games": 1
+  },
+  {
+    "id": "Andrew Wiggins",
+    "30plus_games": 1
+  },
+  {
+    "id": "Jaylin Williams",
+    "30plus_games": 1
+  }
+]

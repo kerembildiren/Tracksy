@@ -1,0 +1,15 @@
+<svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Vintage studio mic: oval head with grille, U-yoke, vertical stand, flat base -->
+  <!-- Oval head -->
+  <ellipse cx="60" cy="38" rx="22" ry="18" stroke="rgba(255,255,255,0.9)" stroke-width="2.5" fill="none"/>
+  <!-- Grille bars inside head -->
+  <line x1="45" y1="35" x2="75" y2="35" stroke="rgba(255,255,255,0.9)" stroke-width="1.5"/>
+  <line x1="44" y1="38" x2="76" y2="38" stroke="rgba(255,255,255,0.9)" stroke-width="1.5"/>
+  <line x1="45" y1="41" x2="75" y2="41" stroke="rgba(255,255,255,0.9)" stroke-width="1.5"/>
+  <!-- U-shaped yoke (arm from head to stand) -->
+  <path d="M 38 42 Q 38 65 60 68 Q 82 65 82 42" stroke="rgba(255,255,255,0.9)" stroke-width="2.5" fill="none"/>
+  <!-- Vertical stand -->
+  <line x1="60" y1="68" x2="60" y2="92" stroke="rgba(255,255,255,0.9)" stroke-width="2.5"/>
+  <!-- Flat base with rounded corners -->
+  <rect x="45" y="92" width="30" height="8" rx="3" stroke="rgba(255,255,255,0.9)" stroke-width="2.5" fill="none"/>
+</svg>

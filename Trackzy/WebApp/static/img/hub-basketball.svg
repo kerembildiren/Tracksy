@@ -1,0 +1,11 @@
+<svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outline basketball: circle + two main curved seams intersecting (classic panel look) -->
+  <circle cx="60" cy="60" r="50" stroke="rgba(255,255,255,0.9)" stroke-width="3" fill="none"/>
+  <!-- Vertical curved seam (slightly left of center) -->
+  <path d="M 55 12 Q 88 40 58 60 Q 28 80 55 108" stroke="rgba(255,255,255,0.9)" stroke-width="2.5" fill="none"/>
+  <!-- Horizontal curved seam (slightly below center) -->
+  <path d="M 12 62 Q 38 88 60 62 Q 82 36 108 62" stroke="rgba(255,255,255,0.9)" stroke-width="2.5" fill="none"/>
+  <!-- Short curves for panel edges (left and right of center) -->
+  <path d="M 22 32 Q 55 45 55 60 Q 55 75 22 88" stroke="rgba(255,255,255,0.9)" stroke-width="2" fill="none"/>
+  <path d="M 98 32 Q 65 45 65 60 Q 65 75 98 88" stroke="rgba(255,255,255,0.9)" stroke-width="2" fill="none"/>
+</svg>

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Trackzy</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Home Screen (shown first) -->
+        <div class="home-screen" id="homeScreen">
+            <div class="home-top">
+                <a href="/" class="home-back-to-games" title="All games">← All games</a>
+                <div class="home-logo" aria-hidden="true">
+                    <img src="{{ url_for('static', filename='img/logo.png') }}" alt="Trackzy" class="home-logo-img">
+                </div>
+            </div>
+            <div class="home-modes">
+                <button type="button" class="home-mode-btn disabled" id="btnModeAll" onclick="showComingSoon('all')">
+                    <span class="home-mode-icon">🌐</span>
+                    <span class="home-mode-text">
+                        <strong>All</strong>
+                        <em>All nationalities</em>
+                    </span>
+                    <span class="home-mode-badge">Soon</span>
+                </button>
+                <button type="button" class="home-mode-btn primary" id="btnModeTurkish" onclick="startTurkish()">
+                    <span class="home-mode-icon">🎤</span>
+                    <span class="home-mode-text">
+                        <strong>Turkish</strong>
+                        <em>Guess from Turkish singers</em>
+                    </span>
+                    <span class="home-mode-arrow">→</span>
+                </button>
+                <button type="button" class="home-mode-btn" id="btnModeCreate" onclick="showCreateModal()">
+                    <span class="home-mode-icon">🔗</span>
+                    <span class="home-mode-text">
+                        <strong>Create</strong>
+                        <em>Pick an artist, share a link</em>
+                    </span>
+                    <span class="home-mode-arrow">→</span>
+                </button>
+            </div>
+            <div class="home-secondary">
+                <button type="button" class="home-link" onclick="showHelp()">How to Play</button>
+            </div>
+        </div>
+
+        <!-- Game Screen (after choosing Turkish) -->
+        <div class="game-screen screen-hidden" id="gameScreen">
+        <!-- Header -->
+        <header class="header">
+            <button class="icon-btn" onclick="goBackToHome()" title="Back to home">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M19 12H5M12 19l-7-7 7-7"/>
+                </svg>
+            </button>
+            <div class="title-container">
+                <h1 class="title">Trackzy</h1>
+            </div>
+            <button class="icon-btn" onclick="showHelp()" title="How to play">
+                <span class="icon-info-circle">i</span>
+            </button>
+        </header>
+
+        <!-- Guess Counter -->
+        <div class="guess-counter">
+            <div class="dots" id="guessDots"></div>
+            <div class="countdown" id="countdown">
+                <span class="countdown-label">Next artist in:</span>
+                <span class="countdown-time" id="countdownTime">--:--:--</span>
+            </div>
+        </div>
+
+        <!-- Debug: Show Answer (for testing) -->
+        <div class="debug-panel">
+            <div class="debug-answer" id="debugAnswer"></div>
+            <button class="debug-reset-btn" onclick="revealDebugAnswer()">Reveal</button>
+            <button class="debug-reset-btn" onclick="resetGame()">Reset Game</button>
+        </div>
+
+        <!-- Make a Guess (stays at top) -->
+        <div class="bottom-action bottom-action-sticky">
+            <button class="action-btn" id="actionBtn" onclick="showSearch()">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"/>
+                    <path d="m21 21-4.35-4.35"/>
+                </svg>
+                <span>Make a Guess</span>
+            </button>
+        </div>
+
+        <!-- Guesses List (scrolls below the button) -->
+        <div class="guesses-container" id="guessesContainer">
+            <!-- Guesses will be inserted here -->
+        </div>
+        </div>
+    </div>
+
+    <!-- Coming Soon Modal -->
+    <div class="modal" id="comingSoonModal">
+        <div class="modal-content coming-soon-modal">
+            <div class="modal-header">
+                <span class="modal-title">Coming soon</span>
+                <button class="text-btn" onclick="hideComingSoon()">OK</button>
+            </div>
+            <p class="coming-soon-message" id="comingSoonMessage"></p>
+        </div>
+    </div>
+
+    <!-- Create Puzzle Modal -->
+    <div class="modal" id="createModal">
+        <div class="modal-content create-modal">
+            <div class="modal-header">
+                <button class="text-btn" onclick="hideCreateModal()">Cancel</button>
+                <span class="modal-title">Create puzzle</span>
+                <div style="width: 60px;"></div>
+            </div>
+            <p class="create-modal-hint">Pick the artist that will be the correct answer. Share the link so others can guess.</p>
+            <div class="search-input-container">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"/>
+                    <path d="m21 21-4.35-4.35"/>
+                </svg>
+                <input type="text" id="createSearchInput" placeholder="Search artist..." autocomplete="off">
+                <button class="clear-btn" id="createClearBtn" onclick="clearCreateSearch()">×</button>
+            </div>
+            <div class="create-results" id="createSearchResults">
+                <div class="empty-state">
+                    <p>Type to search and pick an artist</p>
+                </div>
+            </div>
+            <div class="create-link-section screen-hidden" id="createLinkSection">
+                <div class="create-selected-label" id="createSelectedLabel"></div>
+                <div class="create-link-box">
+                    <input type="text" id="createLinkInput" readonly>
+                    <button type="button" class="text-btn create-copy-btn" onclick="copyCreateLink()">Copy</button>
+                </div>
+                <button type="button" class="action-btn create-play-btn" onclick="playCreatePuzzle()">
+                    <span>Play this puzzle</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Search Modal -->
+    <div class="modal" id="searchModal">
+        <div class="modal-content search-modal">
+            <div class="modal-header">
+                <button class="text-btn" onclick="hideSearch()">Cancel</button>
+                <span class="modal-title">Search Artist</span>
+                <div style="width: 60px;"></div>
+            </div>
+            <div class="search-input-container">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"/>
+                    <path d="m21 21-4.35-4.35"/>
+                </svg>
+                <input type="text" id="searchInput" placeholder="Type artist name..." autocomplete="off">
+                <button class="clear-btn" id="clearBtn" onclick="clearSearch()">×</button>
+            </div>
+            <div class="search-results" id="searchResults">
+                <div class="empty-state">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M12 18.5a6.5 6.5 0 1 0 0-13 6.5 6.5 0 0 0 0 13ZM12 8v4M12 14h.01"/>
+                    </svg>
+                    <p>Start typing to search</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Result Modal -->
+    <div class="modal" id="resultModal">
+        <div class="modal-content result-modal">
+            <button class="close-btn" onclick="hideResult()">×</button>
+            <div class="result-icon" id="resultIcon"></div>
+            <h2 class="result-title" id="resultTitle"></h2>
+            <p class="result-subtitle" id="resultSubtitle"></p>
+            <div class="correct-artist-card" id="correctArtistCard"></div>
+            <div class="result-audio" id="resultAudio"></div>
+            <button class="action-btn share-btn" onclick="shareResults()">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8M16 6l-4-4-4 4M12 2v13"/>
+                </svg>
+                <span>Share Results</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Help Modal -->
+    <div class="modal" id="helpModal">
+        <div class="modal-content help-modal">
+            <div class="modal-header">
+                <div style="width: 60px;"></div>
+                <span class="modal-title">How to Play</span>
+                <button class="text-btn" onclick="hideHelp()">Done</button>
+            </div>
+            <div class="help-content">
+                <div class="help-section">
+                    <h3>Rules</h3>
+                    <ol>
+                        <li>Guess the artist of the day</li>
+                        <li>You have 10 attempts</li>
+                        <li>After each guess, hints show how close you are</li>
+                        <li>Everyone gets the same artist each day</li>
+                    </ol>
+                </div>
+                <div class="help-section">
+                    <h3>Hint Colors</h3>
+                    <div class="hint-legend">
+                        <div class="hint-item">
+                            <span class="hint-box correct"></span>
+                            <span>Correct match</span>
+                        </div>
+                        <div class="hint-item">
+                            <span class="hint-box close"></span>
+                            <span>Very close</span>
+                        </div>
+                        <div class="hint-item">
+                            <span class="hint-box wrong"></span>
+                            <span>Not a match</span>
+                        </div>
+                        <div class="hint-item">
+                            <span class="hint-box unknown"></span>
+                            <span>Unknown</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="help-section">
+                    <h3>Arrows</h3>
+                    <p>↑ = Correct answer is <strong>higher</strong></p>
+                    <p>↓ = Correct answer is <strong>lower</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://open.spotify.com/embed/iframe-api/v1" async></script>
+    <script src="{{ url_for('static', filename='js/game.js') }}"></script>
+</body>
+</html>

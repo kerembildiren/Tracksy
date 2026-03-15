@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SportsGuesser</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Home: sport selection -->
+    <section id="screen-home" class="screen active">
+      <header class="header">
+        <h1>SportsGuesser</h1>
+      </header>
+      <div class="sport-grid">
+        <button type="button" class="sport-card" data-sport="basketball">
+          <span class="sport-icon">🏀</span>
+          <span class="sport-name">Basketball</span>
+        </button>
+        <button type="button" class="sport-card disabled" data-sport="football" disabled>
+          <span class="sport-icon">⚽</span>
+          <span class="sport-name">Football</span>
+          <span class="sport-badge">Coming soon</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Basketball: game selection -->
+    <section id="screen-basketball" class="screen">
+      <header class="header">
+        <button type="button" class="back-btn" data-back="home" aria-label="Back">←</button>
+        <h1>Basketball</h1>
+      </header>
+      <div class="game-list">
+        <button type="button" class="game-card" data-game="dart">
+          <span class="game-name">Dart</span>
+          <span class="game-desc">Guess players’ 30+ point games. First to zero from 501 wins.</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Dart game -->
+    <section id="screen-dart" class="screen">
+      <header class="header">
+        <button type="button" class="back-btn" data-back="basketball" aria-label="Back">←</button>
+        <h1>Dart</h1>
+      </header>
+      <div class="dart-board">
+        <div class="scores">
+          <div class="player-score" data-player="1">
+            <span class="player-label">Player 1</span>
+            <span class="score-value" id="score-p1">501</span>
+          </div>
+          <div class="player-score" data-player="2">
+            <span class="player-label">Player 2</span>
+            <span class="score-value" id="score-p2">501</span>
+          </div>
+        </div>
+        <p class="turn-indicator" id="turn-indicator">Player 1’s turn</p>
+        <div class="guess-area-wrapper">
+          <div class="guess-area">
+            <input type="text" id="dart-guess" class="guess-input" placeholder="Type to search players…" autocomplete="off" aria-autocomplete="list" aria-expanded="false" aria-controls="dart-suggestions">
+            <button type="button" id="dart-submit" class="guess-btn">Submit</button>
+          </div>
+          <ul id="dart-suggestions" class="dart-suggestions" role="listbox" aria-label="Matching players"></ul>
+        </div>
+        <div class="dart-feedback" id="dart-feedback" aria-live="polite"></div>
+        <p class="dart-rules">Valid guess: player’s 30+ games ≤ 180 and ≤ your current score. First to 0 wins.</p>
+      </div>
+    </section>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
