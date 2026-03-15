@@ -35,12 +35,51 @@
     box-sizing: border-box;
 }
 
+/* Same background as Harman Gaming homepage (hub) */
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-    background: var(--bg-primary);
+    background: #1a0f2e;
     color: var(--text-primary);
     min-height: 100vh;
     min-height: 100dvh;
+    position: relative;
+    overflow-x: hidden;
+}
+body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    background: linear-gradient(
+        135deg,
+        #1e1025 0%,
+        #2d1b4e 25%,
+        #1a0f2e 50%,
+        #3b2463 75%,
+        #1e1025 100%
+    );
+    background-size: 400% 400%;
+    animation: trackzy-bg-gradient 12s ease-in-out infinite;
+}
+body::after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    background:
+        radial-gradient(ellipse 100% 80% at 20% 20%, rgba(139, 92, 246, 0.25) 0%, transparent 50%),
+        radial-gradient(ellipse 80% 100% at 80% 80%, rgba(232, 121, 249, 0.2) 0%, transparent 50%),
+        radial-gradient(ellipse 60% 60% at 50% 50%, rgba(99, 102, 241, 0.12) 0%, transparent 60%);
+    animation: trackzy-bg-orbs 16s ease-in-out infinite alternate;
+    pointer-events: none;
+}
+@keyframes trackzy-bg-gradient {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+}
+@keyframes trackzy-bg-orbs {
+    0% { opacity: 1; transform: scale(1) translate(0, 0) rotate(0deg); }
+    100% { opacity: 1; transform: scale(1.15) translate(2%, 1%) rotate(2deg); }
 }
 
 /* ============================================================
@@ -55,6 +94,7 @@ body {
     display: flex;
     flex-direction: column;
     position: relative;
+    z-index: 1;
 }
 
 .screen-hidden {
