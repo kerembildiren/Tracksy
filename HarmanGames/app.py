@@ -39,16 +39,18 @@ def sportsguesser_available():
 ARTISTS = []
 ARTISTS_BY_ID = {}
 ARTISTS_BY_NAME = {}
+RAW_ARTISTS_BY_ID = {}
 
 def load_artists():
-    global ARTISTS, ARTISTS_BY_ID, ARTISTS_BY_NAME
+    global ARTISTS, ARTISTS_BY_ID, ARTISTS_BY_NAME, RAW_ARTISTS_BY_ID
     filepath = TRACKZY_ARTISTS_LOCAL if os.path.isfile(TRACKZY_ARTISTS_LOCAL) else TRACKZY_ARTISTS
     if not os.path.isfile(filepath):
         raise FileNotFoundError(f"Artist data not found. Add data/artists_raw.json or run from repo with Trackzy/DataCollection.")
-    with open(filepath, 'r', encoding='utf-8') as f:
+    with open(filepath, 'r', encoding='utf-8-sig') as f:
         raw_artists = json.load(f)
     ARTISTS = []
     for raw in raw_artists:
+        genres_list = raw.get('genres') if isinstance(raw.get('genres'), list) else []
         artist = {
             'id': raw['id'],
             'name': raw['name'],
@@ -57,7 +59,8 @@ def load_artists():
             'debut_year': raw.get('debut'),
             'group_size': raw.get('group_size'),
             'gender': raw.get('gender'),
-            'genre': raw['genres'][0] if raw.get('genres') else None,
+            'genre': genres_list[0] if genres_list else None,
+            'genres': list(genres_list),
             'image_url': raw.get('image_url'),
             'top_track_id': raw.get('top_track_id'),
             'top_track_name': raw.get('top_track_name'),
@@ -66,6 +69,33 @@ def load_artists():
         ARTISTS.append(artist)
     ARTISTS_BY_ID = {a['id']: a for a in ARTISTS}
     ARTISTS_BY_NAME = {a['name'].lower(): a for a in ARTISTS}
+    RAW_ARTISTS_BY_ID = {r['id']: r for r in raw_artists}
+
+
+def _artist_payload_from_raw(raw):
+    """Build artist dict for API from raw JSON so response always has full 'genres' array."""
+    if not raw:
+        return {}
+    genres = raw.get('genres')
+    if not isinstance(genres, list):
+        genres = []
+    genres = list(genres)
+    return {
+        'id': raw.get('id'),
+        'name': raw.get('name'),
+        'nationality': raw.get('nationality'),
+        'popularity': raw.get('popularity', 0),
+        'debut_year': raw.get('debut'),
+        'group_size': raw.get('group_size'),
+        'gender': raw.get('gender'),
+        'genre': genres[0] if genres else None,
+        'genres': genres,
+        'image_url': raw.get('image_url'),
+        'top_track_id': raw.get('top_track_id'),
+        'top_track_name': raw.get('top_track_name'),
+        'top_track_uri': raw.get('top_track_uri'),
+    }
+
 
 # ============================================================
 # Trackzy: Daily artist, search, hints, game state
@@ -170,9 +200,19 @@ def get_game_state():
         session['correct_artist_id'] = correct_artist['id']
         session['guesses'] = []
         session['status'] = 'playing'
+    guesses = []
+    for g in session.get('guesses', []):
+        g_copy = dict(g)
+        aid = g.get('artist_id')
+        raw = RAW_ARTISTS_BY_ID.get(aid) if aid else None
+        g_copy['artist'] = _artist_payload_from_raw(raw) if raw else g.get('artist') or ARTISTS_BY_ID.get(aid) or {}
+        if 'genres' not in g_copy['artist'] or not isinstance(g_copy['artist'].get('genres'), list):
+            a = ARTISTS_BY_ID.get(aid)
+            g_copy['artist']['genres'] = list(a.get('genres') or []) if a else (g_copy['artist'].get('genre') and [g_copy['artist']['genre']]) or []
+        guesses.append(g_copy)
     return {
         'date': session['game_date'],
-        'guesses': session['guesses'],
+        'guesses': guesses,
         'status': session['status'],
         'remaining': 10 - len(session['guesses'])
     }
@@ -190,7 +230,9 @@ def make_guess(artist_id):
         return {'error': 'Artist not found'}
     hints = compare_artists(guessed, correct)
     is_correct = guessed['id'] == correct['id']
-    guess_record = {'artist_id': artist_id, 'artist': guessed, 'hints': hints, 'is_correct': is_correct}
+    raw = RAW_ARTISTS_BY_ID.get(artist_id)
+    artist_payload = _artist_payload_from_raw(raw) if raw else guessed
+    guess_record = {'artist_id': artist_id, 'artist': artist_payload, 'hints': hints, 'is_correct': is_correct}
     session['guesses'] = session.get('guesses', []) + [guess_record]
     if is_correct:
         session['status'] = 'won'
@@ -247,7 +289,18 @@ def api_search():
 @app.route('/api/guess', methods=['POST'])
 def api_guess():
     data = request.get_json()
-    return jsonify(make_guess(data.get('artist_id')))
+    artist_id = data.get('artist_id')
+    result = make_guess(artist_id)
+    if 'guess' in result and 'artist' in result['guess']:
+        artist = result['guess']['artist']
+        if 'genres' not in artist or not isinstance(artist.get('genres'), list):
+            raw = RAW_ARTISTS_BY_ID.get(artist_id)
+            if raw and isinstance(raw.get('genres'), list):
+                artist['genres'] = list(raw['genres'])
+                artist['genre'] = raw['genres'][0] if raw['genres'] else None
+            else:
+                artist['genres'] = [artist['genre']] if artist.get('genre') else []
+    return jsonify(result)
 
 @app.route('/api/answer')
 def api_answer():
