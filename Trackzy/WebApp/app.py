@@ -7,7 +7,6 @@ Then open: http://localhost:5000
 from flask import Flask, render_template, jsonify, request, session, send_from_directory, send_file, redirect
 import json
 import os
-import re
 from datetime import datetime, timedelta
 from functools import wraps
 import pytz
@@ -16,19 +15,19 @@ app = Flask(__name__)
 app.secret_key = 'turkish-singer-guess-secret-key-change-in-production'
 
 # ============================================================
-# Data Loading
+# Data Loading (source: artists_raw.json only)
 # ============================================================
 
 ARTISTS = []
 ARTISTS_BY_ID = {}
 ARTISTS_BY_NAME = {}
+# Raw dicts from JSON keyed by id — used to build API responses so client gets exact file data (e.g. full genres array)
+RAW_ARTISTS_BY_ID = {}
 
 def load_artists():
-    global ARTISTS, ARTISTS_BY_ID, ARTISTS_BY_NAME
-    
-    # Resolve paths relative to this file so they work regardless of current working directory
+    """Load all artists from artists_raw.json. This is the only data source; run once at startup."""
+    global ARTISTS, ARTISTS_BY_ID, ARTISTS_BY_NAME, RAW_ARTISTS_BY_ID
     base = os.path.dirname(os.path.abspath(__file__))
-    # Prefer DataCollection/output (source of truth) so the game always uses the updated JSON
     data_collection_path = os.path.abspath(os.path.join(base, '..', 'DataCollection', 'output', 'artists_raw.json'))
     webapp_data_path = os.path.abspath(os.path.join(base, 'data', 'artists_raw.json'))
     if os.path.isfile(data_collection_path):
@@ -43,13 +42,10 @@ def load_artists():
     with open(filepath, 'r', encoding='utf-8-sig') as f:
         raw_artists = json.load(f)
     load_artists._loaded_from = filepath
-    
     ARTISTS = []
     for raw in raw_artists:
+        # JSON has 'genres' (array); keep it as-is for game logic and API
         genres_list = raw.get('genres') if isinstance(raw.get('genres'), list) else []
-        if not genres_list and (raw.get('genre') or raw.get('Genre')):
-            s = (raw.get('genre') or raw.get('Genre')) or ''
-            genres_list = [x.strip() for x in re.split(r'[;,/]', str(s)) if x and x.strip()]
         artist = {
             'id': raw['id'],
             'name': raw['name'],
@@ -59,56 +55,50 @@ def load_artists():
             'group_size': raw.get('group_size'),
             'gender': raw.get('gender'),
             'genre': genres_list[0] if genres_list else None,
-            'genres': genres_list,
+            'genres': list(genres_list),
             'image_url': raw.get('image_url'),
             'top_track_id': raw.get('top_track_id'),
             'top_track_name': raw.get('top_track_name'),
             'top_track_uri': raw.get('top_track_uri'),
         }
         ARTISTS.append(artist)
-    
     ARTISTS_BY_ID = {a['id']: a for a in ARTISTS}
     ARTISTS_BY_NAME = {a['name'].lower(): a for a in ARTISTS}
+    RAW_ARTISTS_BY_ID = {r['id']: r for r in raw_artists}
 
 
-def _raw_artist_from_file(artist_id):
-    """Return the raw artist dict from the JSON file for this id, or None."""
-    filepath = getattr(load_artists, '_loaded_from', None)
-    if not filepath or not os.path.isfile(filepath):
-        return None
-    try:
-        with open(filepath, 'r', encoding='utf-8-sig') as f:
-            raw_list = json.load(f)
-    except Exception:
-        return None
-    for raw in raw_list:
-        if raw.get('id') == artist_id:
-            return raw
-    return None
-
-
-def _genres_list_from_raw(raw):
-    """Build a list of genre strings from raw file dict (handles 'genres' array or 'genre' string)."""
+def _artist_payload_from_raw(raw):
+    """
+    Build the artist dict we send to the client, using only the raw JSON.
+    The file has 'genres' (array); we send that as 'genres' and set 'genre' to first for compatibility.
+    """
     if not raw:
-        return []
-    gs = raw.get('genres')
-    if isinstance(gs, list):
-        return [str(g).strip() for g in gs if g and str(g).strip()]
-    s = raw.get('genre') or raw.get('Genre')
-    if isinstance(s, str) and s.strip():
-        return [x.strip() for x in re.split(r'[;,/]', s) if x and x.strip()]
-    return []
+        return {}
+    genres = raw.get('genres')
+    if not isinstance(genres, list):
+        genres = []
+    return {
+        'id': raw.get('id'),
+        'name': raw.get('name'),
+        'nationality': raw.get('nationality'),
+        'popularity': raw.get('popularity', 0),
+        'debut_year': raw.get('debut'),
+        'group_size': raw.get('group_size'),
+        'gender': raw.get('gender'),
+        'genre': genres[0] if genres else None,
+        'genres': genres,
+        'image_url': raw.get('image_url'),
+        'top_track_id': raw.get('top_track_id'),
+        'top_track_name': raw.get('top_track_name'),
+        'top_track_uri': raw.get('top_track_uri'),
+    }
 
 
 def artist_for_api(a):
-    """Return artist dict with all fields the client needs (debut_year, genres, etc.)."""
+    """Build artist dict for client from in-memory artist (fallback when raw file read fails)."""
     if not a:
         return {}
-    # Support both 'debut_year' (our in-memory key) and 'debut' (raw JSON key)
-    debut = a.get('debut_year') if a.get('debut_year') is not None else a.get('debut')
-    genres = a.get('genres')
-    if genres is None:
-        genres = []
+    genres = a.get('genres') if isinstance(a.get('genres'), list) else []
     if not genres and a.get('genre'):
         genres = [a['genre']]
     return {
@@ -116,10 +106,10 @@ def artist_for_api(a):
         'name': a.get('name'),
         'nationality': a.get('nationality'),
         'popularity': a.get('popularity', 0),
-        'debut_year': debut,
+        'debut_year': a.get('debut_year') if a.get('debut_year') is not None else a.get('debut'),
         'group_size': a.get('group_size'),
         'gender': a.get('gender'),
-        'genre': a.get('genre'),
+        'genre': genres[0] if genres else a.get('genre'),
         'genres': genres,
         'image_url': a.get('image_url'),
         'top_track_id': a.get('top_track_id'),
@@ -290,17 +280,10 @@ def get_game_state():
         session['status'] = 'playing'
     guesses = []
     for g in session.get('guesses', []):
-        full_artist = ARTISTS_BY_ID.get(g.get('artist_id')) if g.get('artist_id') else None
         guess_copy = dict(g)
-        artist_payload = artist_for_api(full_artist) if full_artist else (g.get('artist') or {})
-        raw = _raw_artist_from_file(g.get('artist_id')) if g.get('artist_id') else None
-        if raw:
-            if not artist_payload.get('debut_year'):
-                artist_payload['debut_year'] = raw.get('debut') or raw.get('Debut')
-            genres_from_file = _genres_list_from_raw(raw)
-            if genres_from_file:
-                artist_payload['genres'] = genres_from_file
-                artist_payload['genre'] = genres_from_file[0]
+        aid = g.get('artist_id')
+        raw = RAW_ARTISTS_BY_ID.get(aid) if aid else None
+        artist_payload = _artist_payload_from_raw(raw) if raw else artist_for_api(ARTISTS_BY_ID.get(aid)) if aid else (g.get('artist') or {})
         guess_copy['artist'] = artist_payload
         guesses.append(guess_copy)
     return {
@@ -329,19 +312,9 @@ def make_guess(artist_id):
     hints = compare_artists(guessed, correct)
     is_correct = guessed['id'] == correct['id']
     
-    raw = _raw_artist_from_file(artist_id)
-    if raw:
-        if not guessed.get('debut_year') and (raw.get('debut') or raw.get('Debut')):
-            guessed['debut_year'] = raw.get('debut') or raw.get('Debut')
-    
-    artist_payload = artist_for_api(guessed)
-    
-    # Prefer genres from file so API always returns full list (handles both 'genres' array and 'genre' string)
-    if raw:
-        genres_from_file = _genres_list_from_raw(raw)
-        if genres_from_file:
-            artist_payload['genres'] = genres_from_file
-            artist_payload['genre'] = genres_from_file[0]
+    # Build response artist from data we loaded from JSON at startup (full genres array)
+    raw = RAW_ARTISTS_BY_ID.get(artist_id)
+    artist_payload = _artist_payload_from_raw(raw) if raw else artist_for_api(guessed)
     
     guess_record = {
         'artist_id': artist_id,
