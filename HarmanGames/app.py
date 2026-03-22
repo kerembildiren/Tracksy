@@ -5,6 +5,7 @@ Run from HarmanGames: python app.py → http://localhost:5000
 """
 
 from flask import Flask, render_template, jsonify, request, session, send_from_directory, send_file, redirect
+import importlib.util
 import json
 import os
 from datetime import datetime, timedelta
@@ -19,6 +20,56 @@ app.secret_key = os.environ.get('SECRET_KEY', 'harman-games-secret-key-change-in
 
 HARMAN_ROOT = os.path.dirname(os.path.abspath(__file__))
 PROJECTS_ROOT = os.path.dirname(HARMAN_ROOT)  # Cursor_Projects
+
+
+def _register_football_grid_blueprint():
+    """Süper Lig grid at /sportsguesser/football/ (register before static /sportsguesser/<path>)."""
+    grid_app_path = os.path.join(
+        PROJECTS_ROOT,
+        'SportsGuesser',
+        'DataCollection',
+        'football',
+        'grid_game',
+        'app.py',
+    )
+    if not os.path.isfile(grid_app_path):
+        return
+    spec = importlib.util.spec_from_file_location('sportsguesser_football_grid', grid_app_path)
+    if spec is None or spec.loader is None:
+        return
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    bp = getattr(mod, 'football_grid_bp', None)
+    if bp is not None:
+        app.register_blueprint(bp, url_prefix='/sportsguesser/football')
+
+
+_register_football_grid_blueprint()
+
+
+def _register_derby_challenge_blueprint():
+    """Derbi Challenge at /sportsguesser/football/derby/."""
+    derby_path = os.path.join(
+        PROJECTS_ROOT,
+        'SportsGuesser',
+        'DataCollection',
+        'football',
+        'derby_challenge',
+        'app.py',
+    )
+    if not os.path.isfile(derby_path):
+        return
+    spec = importlib.util.spec_from_file_location('sportsguesser_derby_challenge', derby_path)
+    if spec is None or spec.loader is None:
+        return
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    bp = getattr(mod, 'derby_bp', None)
+    if bp is not None:
+        app.register_blueprint(bp, url_prefix='/sportsguesser/football/derby')
+
+
+_register_derby_challenge_blueprint()
 
 # Trackzy (sub-content): artist data lives in Trackzy project
 TRACKZY_ARTISTS = os.path.join(PROJECTS_ROOT, 'Trackzy', 'DataCollection', 'output', 'artists_raw.json')
@@ -332,20 +383,10 @@ def api_answer():
         return jsonify({'error': 'Game still in progress'}), 403
     return jsonify(ARTISTS_BY_ID.get(session['correct_artist_id']))
 
-@app.route('/api/debug/answer')
-def api_debug_answer():
-    correct = ARTISTS_BY_ID.get(session.get('correct_artist_id')) or get_daily_artist()
-    return jsonify(correct)
-
 @app.route('/api/reset', methods=['POST'])
 def api_reset():
     session.clear()
     return jsonify({'message': 'Game reset', 'status': 'ok'})
-
-@app.route('/api/debug/artist/<artist_id>')
-def api_debug_artist(artist_id):
-    artist = ARTISTS_BY_ID.get(artist_id)
-    return jsonify(artist if artist else {'error': 'Not found'})
 
 @app.route('/api/next-reset')
 def api_next_reset():
@@ -382,8 +423,20 @@ def sportsguesser_api_allplayers():
 
 @app.route('/sportsguesser/<path:subpath>')
 def sportsguesser_static(subpath):
+    """Sadece SportsGuesser/web altındaki statik dosyalar (css, js, …).
+
+    /sportsguesser/football/ ve /sportsguesser/football/derby/ ayrı blueprint'lerde;
+    burada 'football/…' için dosya aranırsa yanlışlıkla web/football yok diye 404
+    veya yanlış içerik riski oluşur — football altını bu handler'a düşmeyi reddet.
+    """
     if not sportsguesser_available():
         return jsonify({'error': 'Not found'}), 404
+    norm = (subpath or '').replace('\\', '/').lstrip('/')
+    if norm.startswith('football/'):
+        return jsonify({
+            'error': 'Not found',
+            'hint': 'Football oyunları blueprint ile sunulur; SportsGuesser/web içinde football/ yolu yok.',
+        }), 404
     path = os.path.join(SPORTSGUESSER_WEB, subpath)
     if not os.path.isfile(path):
         return jsonify({'error': 'Not found'}), 404
@@ -408,5 +461,7 @@ if __name__ == '__main__':
     print(f"Hub: http://localhost:{port}/")
     print(f"Trackzy: http://localhost:{port}/trackzy")
     print(f"SportsGuesser: http://localhost:{port}/sportsguesser/")
+    print(f"Football grid: http://localhost:{port}/sportsguesser/football/")
+    print(f"Derbi Challenge: http://localhost:{port}/sportsguesser/football/derby/")
     print(f"{'='*50}\n")
     app.run(host='0.0.0.0', port=port, debug=debug)

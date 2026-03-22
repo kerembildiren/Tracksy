@@ -17,8 +17,16 @@
   const screens = {
     home: document.getElementById('screen-home'),
     basketball: document.getElementById('screen-basketball'),
+    football: document.getElementById('screen-football'),
+    ticTacToe: document.getElementById('screen-tic-tac-toe'),
+    derbyChallenge: document.getElementById('screen-derby-challenge'),
     dart: document.getElementById('screen-dart')
   };
+
+  const footballFrame = document.getElementById('football-game-frame');
+  const derbyFrame = document.getElementById('derby-game-frame');
+  const FOOTBALL_GAME_URL = '/sportsguesser/football/';
+  const DERBY_GAME_URL = '/sportsguesser/football/derby/';
 
   const scoreEls = {
     1: document.getElementById('score-p1'),
@@ -35,6 +43,20 @@
   let currentSuggestions = [];
 
   function showScreen(id) {
+    if (
+      screens.ticTacToe &&
+      screens.ticTacToe.classList.contains('active') &&
+      id !== 'ticTacToe'
+    ) {
+      clearFootballFrame();
+    }
+    if (
+      screens.derbyChallenge &&
+      screens.derbyChallenge.classList.contains('active') &&
+      id !== 'derbyChallenge'
+    ) {
+      clearDerbyFrame();
+    }
     Object.values(screens).forEach(s => s && s.classList.remove('active'));
     const el = screens[id];
     if (el) el.classList.add('active');
@@ -224,17 +246,48 @@
     });
   }
 
+  function loadFootballGameFrame() {
+    if (!footballFrame) return;
+    const url = new URL(FOOTBALL_GAME_URL, window.location.origin);
+    footballFrame.src = url.href;
+  }
+
+  function loadDerbyGameFrame() {
+    if (!derbyFrame) return;
+    const url = new URL(DERBY_GAME_URL, window.location.origin);
+    derbyFrame.src = url.href;
+  }
+
+  function clearFootballFrame() {
+    if (footballFrame) footballFrame.src = 'about:blank';
+  }
+
+  function clearDerbyFrame() {
+    if (derbyFrame) derbyFrame.src = 'about:blank';
+  }
+
   function initNavigation() {
     document.querySelectorAll('.sport-card:not(.disabled)').forEach(btn => {
       btn.addEventListener('click', () => {
-        if (btn.dataset.sport === 'basketball') showScreen('basketball');
+        const sport = btn.dataset.sport;
+        if (sport === 'basketball') showScreen('basketball');
+        if (sport === 'football') showScreen('football');
       });
     });
     document.querySelectorAll('.game-card').forEach(btn => {
       btn.addEventListener('click', () => {
-        if (btn.dataset.game === 'dart') {
+        const game = btn.dataset.game;
+        if (game === 'dart') {
           initDart();
           showScreen('dart');
+        }
+        if (game === 'tic-tac-toe') {
+          loadFootballGameFrame();
+          showScreen('ticTacToe');
+        }
+        if (game === 'derby-challenge') {
+          loadDerbyGameFrame();
+          showScreen('derbyChallenge');
         }
       });
     });

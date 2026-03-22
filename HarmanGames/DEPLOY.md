@@ -5,6 +5,8 @@ Your site should behave like local:
 - **Hub:** https://harmangaming.com/
 - **Trackzy:** https://harmangaming.com/trackzy
 - **SportsGuesser:** https://harmangaming.com/sportsguesser/
+- **Football (Süper Lig grid):** https://harmangaming.com/sportsguesser/football/
+- **Football (Derbi Challenge):** https://harmangaming.com/sportsguesser/football/derby/
 
 ---
 
@@ -38,6 +40,8 @@ Make sure in the repo you have:
 - `HarmanGames/app.py`, `requirements.txt`, `templates/`, `static/`
 - `Trackzy/DataCollection/output/artists_raw.json` (the game needs this file)
 - `SportsGuesser/web/` (e.g. `index.html`, `css/`, `js/`) and `SportsGuesser/DataCollection/output/allplayers.json`
+- `SportsGuesser/DataCollection/football/superlig_data/` — **required** for the Süper Lig grid (`/sportsguesser/football/`) and for **player name autocomplete** in Derbi Challenge (same player index as the grid). The app loads CSVs from this folder (or set `SUPERLIG_DATA` on the server to an absolute path). Without it, the football grid may error when building the player index; Derbi may load match data but suggestions can fail.
+- `SportsGuesser/DataCollection/football/derby_challenge/bundled/derbies.json` — **commit this file** in the repo. It is pre-built public match stats (scores, goals, cards, substitutions) for FB–GS–BJK–TS derbies; the game reads it at runtime (no CSV scan). It contains no API keys or secrets. To regenerate after updating `superlig_data`, run `python build_derby_bundle.py` inside `derby_challenge/`.
 
 If `artists_raw.json` or `allplayers.json` are in `.gitignore`, either remove them from `.gitignore` for this repo or add a build step that creates them (e.g. copy from another source); otherwise the deployed app will not find the data.
 
@@ -76,4 +80,4 @@ If `artists_raw.json` or `allplayers.json` are in `.gitignore`, either remove th
 - **Trackzy:** https://harmangaming.com/trackzy  
 - **SportsGuesser:** https://harmangaming.com/sportsguesser/
 
-If the hub loads but Trackzy fails (e.g. “Artist data not found”), check that `Trackzy/DataCollection/output/artists_raw.json` is in the repo and not ignored. If SportsGuesser fails, check that `SportsGuesser/web/` and `allplayers.json` are present and not ignored.
+If the hub loads but Trackzy fails (e.g. “Artist data not found”), check that `Trackzy/DataCollection/output/artists_raw.json` is in the repo and not ignored. If SportsGuesser fails, check that `SportsGuesser/web/` and `allplayers.json` are present and not ignored. If the football grid fails on first load, ensure `SportsGuesser/DataCollection/football/superlig_data/` is deployed (or `SUPERLIG_DATA` points to it). If Derbi Challenge returns “Derbi verisi yok”, ensure `bundled/derbies.json` is in the repo and deployed. **Flask URL routing:** `HarmanGames/app.py` registers blueprints for `/sportsguesser/football/` and `/sportsguesser/football/derby/` before the catch-all `sportsguesser/<path>` static handler; keep that order so the hub and games are not served from the wrong folder.
