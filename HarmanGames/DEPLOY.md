@@ -38,7 +38,7 @@ Create a new repo and push **only** these three folders (and an optional root RE
 Make sure in the repo you have:
 
 - `HarmanGames/app.py`, `requirements.txt`, `templates/`, `static/`
-- `Trackzy/DataCollection/output/artists_raw.json` (the game needs this file)
+- Trackzy artist JSON: **`HarmanGames/data/artists_raw.json` takes precedence** if that file exists in the repo; otherwise `Trackzy/DataCollection/output/artists_raw.json` (see `HarmanGames/data/README.md`). At least one must be present.
 - `SportsGuesser/web/` (e.g. `index.html`, `css/`, `js/`) and `SportsGuesser/DataCollection/output/allplayers.json`
 - `SportsGuesser/DataCollection/football/superlig_data/` — **required** for the Süper Lig grid (`/sportsguesser/football/`) and for **player name autocomplete** in Derbi Challenge (same player index as the grid). The app loads CSVs from this folder (or set `SUPERLIG_DATA` on the server to an absolute path). Without it, the football grid may error when building the player index; Derbi may load match data but suggestions can fail.
 - `SportsGuesser/DataCollection/football/derby_challenge/bundled/derbies.json` — **commit this file** in the repo. It is pre-built public match stats (scores, goals, cards, substitutions) for FB–GS–BJK–TS derbies; the game reads it at runtime (no CSV scan). It contains no API keys or secrets. To regenerate after updating `superlig_data`, run `python build_derby_bundle.py` inside `derby_challenge/`.
