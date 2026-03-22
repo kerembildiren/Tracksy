@@ -1,0 +1,3024 @@
+match_id,minute,player_in,player_in_id,player_out,player_out_id,is_home
+12528189,87,Yunus Akgün,857738,Hakim Ziyech,249437,True
+12528189,87,Jonathan Okoronkwo,1188543,Joelson Fernandes,1032547,False
+12528189,87,Berkan Kutlu,992912,Derrick Köhn,886737,True
+12528189,84,Armin Hodžić,928333,Rui Pedro,862672,False
+12528189,70,Michy Batshuayi,147745,Léo Dubois,552680,True
+12528189,70,Kerem Aktürkoğlu,903324,Dries Mertens,32493,True
+12528189,66,Rigoberto Rivas,837742,Funsho Bamgboye,822469,False
+12528189,57,Gabriel Sara,913593,Kerem Demirbay,142619,True
+12528188,90,Adem Eren Kabak,1016473,Umut Nayir,284767,False
+12528188,87,Gökhan Gül,797820,Loret Sadiku,143356,True
+12528188,78,Louka Prip,976127,Alassane Ndao,1016033,False
+12528188,78,Oğulcan Ülgün,1063942,Ufuk Akyol,859546,False
+12528188,62,Danijel Aleksić,45377,Yusuf Erdoğan,256663,False
+12528191,85,Emrecan Uzunhan,997684,Veysel Sarı,98276,True
+12528191,85,Ramzi Safuri,186949,Moussa Djenepo,869910,True
+12528191,82,İsmail Köybaşı,43605,Djalma,973933,False
+12528191,72,Jakub Kałuziński,1019026,Erdal Rakip,319871,True
+12528191,68,Lasse Nielsen,21547,Nazım Sangaré,169425,False
+12528191,68,Taha Altıkardeş,1101279,Koray Günter,138165,False
+12528191,64,Doğan Erdoğan,257407,Isaac Solet,1606478,False
+12528191,64,David Tijanič,827369,Yalçın Kayan,945548,False
+12528191,64,Braian Samudio,892933,Sam Larsson,229800,True
+12528191,63,Emre Uzun,1212159,Sander van de Streek,220155,True
+12528186,90,Oğuz Aydın,999396,İrfan Can Kahveci,226986,True
+12528186,88,Çağlar Söyüncü,758608,Ferdi Kadıoğlu,825844,True
+12528186,87,Ali Yavuz Kol,910091,Édouard Michut,1048011,False
+12528186,77,Nabil Alioui,873049,Tayfun Aydoğan,816435,False
+12528186,77,Abdulsamet Burak,900798,José Rodríguez,138394,False
+12528186,77,Breyton Fougeu,1545020,Jovan Manev,1111781,False
+12528186,76,Youssef En-Nesyri,846470,Edin Džeko,14990,True
+12528186,76,Mert Müldür,836683,Bright Osayi-Samuel,791616,True
+12528186,76,Bartuğ Elmaz,997165,Allan Saint-Maximin,347010,True
+12528186,65,Bunyamin Balat,996317,Yusuf Sarı,896364,False
+12528185,90,Ziya Erdal,138312,Charis Charisis,317297,True
+12528185,90,Alaaddin Okumuş,844640,Murat Paluli,893014,True
+12528185,87,Enis Destan,1012480,Enis Bardhi,355024,False
+12528185,82,Achilleas Poungouras,783466,Azizbek Turgunboev,971572,True
+12528185,82,Bekir Turaç Böke,997681,Alex Pritchard,180009,True
+12528185,76,Ozan Tufan,251907,Denis Drăguş,841199,False
+12528185,69,Queensy Menig,232318,Emrah Başsan,174141,True
+12528185,62,Anthony Nwakaeme,139455,Cihan Çanak,1127335,False
+12528185,61,John Lundstram,149815,Okay Yokuşlu,97967,False
+12528185,46,Batista Mendy,859021,Stefan Savić,76265,False
+12528190,87,Furkan Bayır,1003161,Sergio Córdova,881222,True
+12528190,80,Anastasios Chatzigiovanis,850770,Ahmed Kutucu,906049,False
+12528190,80,Tayfur Bingöl,255957,Emre Akbaba,343527,False
+12528190,66,Gaius Makouta,847013,Nicolas Janvier,802150,True
+12528190,66,Serdar Dursun,123917,Yusuf Özdemir,1084884,True
+12528190,62,Taşkın Ilter,171911,Fredrik Midtsjø,98198,False
+12528190,62,Umut Meraş,609746,Caner Erkin,15680,False
+12528190,36,Samu Sáiz,99527,Recep Niyaz,116944,False
+12528192,89,Onur Bulut,142494,Milot Rashica,800411,False
+12528192,87,Bedirhan Çetin,1215897,Ľubomír Šatka,187231,True
+12528192,79,Jackson Muleka,927649,Ciro Immobile,45923,False
+12528192,78,Emirhan Topçu,895009,Rafa Silva,252577,False
+12528192,74,Ercan Kara,843039,Marius Mouandilmadji,943593,True
+12528192,74,Soner Aydoğdu,69351,Carlo Holse,837012,True
+12528192,71,Jean Onana,978301,Semih Kılıçsoy,1142606,False
+12528192,62,Gaëtan Laura,1004042,Arbnor Muja,890695,True
+12528192,62,Landry Dimata,826944,Kingsley Schindler,169113,True
+12528192,46,Necip Uysal,43394,Gabriel Paulista,124737,False
+12528193,90,İlker Karakaş,921406,Kenan Kodro,591140,False
+12528193,87,Ahmet Aslan,1134098,Fredy,845281,True
+12528193,82,Furkan Soyalp,226992,Mustafa Eskihellaç,899069,False
+12528193,79,Zdravko Dimitrov,871342,Pedro Brazão,981535,True
+12528193,79,Celal Dumanli,903334,Gökdeniz Bayrakdar,952564,True
+12528193,60,Haqi Osman,1126525,Samet Yalçın,789102,True
+12528193,60,Kenan Özer,146364,Burak Çoban,804197,True
+12528193,60,Enric Saborit,253303,Kacper Kozłowski,984602,False
+12528193,59,Godfrey Bitok Stephen,988050,Salem M'Bakata,940367,False
+12528193,59,Deian Sorescu,797602,Alexandru Maxim,180511,False
+12528187,90,Mithat Pala,1016393,Ibrahim Olawoyin,1008173,True
+12528187,78,Krzysztof Piątek,558738,Philippe Keny,988909,False
+12528187,78,Deniz Türüç,252207,João Figueiredo,841012,False
+12528187,71,Halil Ibrahim Pehlivan,777291,Casper Højer,281233,True
+12528187,71,Martin Minchev,878699,Altin Zeqiri,991742,True
+12528187,64,Amir Hadžiahmetović,795421,Dal Varešanović,979109,True
+12528187,57,Onur Ergün,893009,Berat Ayberk Özdemir,876857,False
+12528187,46,Davidson,814334,Serdar Gürler,96520,False
+12528187,29,Hamza Güreler,1562294,Jerome Opoku,920514,False
+12528199,90,Yunus Akgün,857738,Barış Alper Yılmaz,904096,False
+12528199,90,Berkan Kutlu,992912,Léo Dubois,552680,False
+12528199,88,Emrehan Gedikli,997130,Oğulcan Ülgün,1063942,True
+12528199,84,Elias Jelert,1126433,Kerem Aktürkoğlu,903324,False
+12528199,83,Michy Batshuayi,147745,Dries Mertens,32493,False
+12528199,78,Sokol Cikalleshi,81138,Yusuf Erdoğan,256663,True
+12528199,78,Melih İbrahimoğlu,998462,Danijel Aleksić,45377,True
+12528199,72,Louka Prip,976127,Alassane Ndao,1016033,True
+12528199,66,Kerem Demirbay,142619,Gabriel Sara,913593,False
+12528196,90,Bekir Turaç Böke,997681,Rey Manaj,587882,False
+12528196,90,Ziya Erdal,138312,Charis Charisis,317297,False
+12528196,84,Samba Camara,837301,Emirhan Başyiğit,1149004,False
+12528196,84,Talha Sariarslan,1088715,Mehdi Bourabia,98003,True
+12528196,80,Achilleas Poungouras,783466,Emrah Başsan,174141,False
+12528196,80,Jan Biegański,935966,Alex Pritchard,180009,False
+12528196,78,Ali Karimi,803869,Mehmet Eray Özbek,1011955,True
+12528196,62,Stéphane Bahoken,153220,Carlos Mané,859748,True
+12528196,62,Aylton Boa Morte,883918,Ramazan Civelek,781408,True
+12528194,90,Seyfettin Anıl Yaşar,999646,Ibrahim Olawoyin,1008173,False
+12528194,90,Martin Minchev,878699,Babajide David Akintola,798676,False
+12528194,82,Ali Yavuz Kol,910091,Édouard Michut,1048011,True
+12528194,76,Bunyamin Balat,996317,Yusuf Sarı,896364,True
+12528194,76,Emrecan Bulut,1480663,Altin Zeqiri,991742,False
+12528194,76,Abdulsamet Burak,900798,Jovan Manev,1111781,True
+12528194,67,Abat Aimbetov,189193,José Rodríguez,138394,True
+12528194,64,Amir Hadžiahmetović,795421,Dal Varešanović,979109,False
+12528194,46,Nabil Alioui,873049,Tayfun Aydoğan,816435,True
+12528201,90,Taha Altıkardeş,1101279,Lasse Nielsen,21547,True
+12528201,88,Cenk Tosun,72127,Youssef En-Nesyri,846470,False
+12528201,87,Rade Krunić,155449,Dušan Tadić,38560,False
+12528201,74,Ferdi Kadıoğlu,825844,Allan Saint-Maximin,347010,False
+12528201,74,Mert Müldür,836683,Bright Osayi-Samuel,791616,False
+12528201,66,David Tijanič,827369,Isaac Solet,1606478,True
+12528201,65,Ahmed Ildız,849329,Doğan Erdoğan,257407,True
+12528201,56,Malcom Bokele,1122632,Djalma,973933,True
+12528201,56,Juan Santos da Silva,1009928,Kubilay Kanatsızkuş,828953,True
+12528202,80,Dimitrios Pelkas,139304,Krzysztof Piątek,558738,True
+12528202,80,Philippe Keny,988909,João Figueiredo,841012,True
+12528202,79,Rony Lopes,190147,Sergio Córdova,881222,False
+12528202,65,Serdar Gürler,96520,Davidson,814334,True
+12528202,65,Hamza Güreler,1562294,Ousseynou Ba,889430,True
+12528202,64,Gaius Makouta,847013,Nicolas Janvier,802150,False
+12528202,63,Serdar Dursun,123917,Yusuf Özdemir,1084884,False
+12528202,60,Berat Ayberk Özdemir,876857,Onur Ergün,893009,True
+12528202,43,Furkan Bayır,1003161,Nuno Lima,1133301,False
+12528198,88,Ernest Muçi,924670,Rafa Silva,252577,True
+12528198,84,Adolfo Gaich,940692,Soner Dikmen,847782,False
+12528198,84,Emre Uzun,1212159,Emrecan Uzunhan,997684,False
+12528198,83,Mustafa Hekimoğlu,1524303,Ciro Immobile,45923,True
+12528198,82,Burak Ingenç,1417030,Erdal Rakip,319871,False
+12528198,67,Arthur Masuaku,174975,Emirhan Topçu,895009,True
+12528198,67,Cher Ndour,1114422,Semih Kılıçsoy,1142606,True
+12528198,66,Jakub Kałuziński,1019026,Sam Larsson,229800,False
+12528198,46,Ramzi Safuri,186949,Sander van de Streek,220155,False
+12528200,90,Ercan Kara,843039,Marius Mouandilmadji,943593,False
+12528200,90,Soner Aydoğdu,69351,Arbnor Muja,890695,False
+12528200,90,Gaëtan Laura,1004042,Olivier Ntcham,352676,False
+12528200,84,İlker Karakaş,921406,Godfrey Bitok Stephen,988050,True
+12528200,79,Celil Yüksel,806972,Carlo Holse,837012,False
+12528200,69,Emre Taşdemir,190191,Kacper Kozłowski,984602,True
+12528200,60,Landry Dimata,826944,Kingsley Schindler,169113,False
+12528200,46,Salem M'Bakata,940367,Ömürcan Artan,1016384,True
+12528200,46,Furkan Soyalp,226992,Cyril Mandouki,821461,True
+12528200,46,Enric Saborit,253303,Ertuğrul Ersoy,355004,True
+12528197,90,Dorukhan Toköz,796133,Fredrik Midtsjø,98198,True
+12528197,87,Svit Sešlar,946291,Ahmed Kutucu,906049,True
+12528197,83,Ege Bilsel,1011244,Fredy,845281,False
+12528197,76,Haqi Osman,1126525,Zdravko Dimitrov,871342,False
+12528197,76,Tugay Kaçar,152437,Tayfur Bingöl,255957,True
+12528197,75,Halil Akbunar,217782,Gianni Bruno,100680,True
+12528197,75,Samu Sáiz,99527,Emre Akbaba,343527,True
+12528197,63,Ahmet Aslan,1134098,Samet Yalçın,789102,False
+12528197,63,George Pușcaș,190319,Pedro Brazão,981535,False
+12528195,82,Kenneth Omeruo,158293,Nicholas Opoku,885683,False
+12528195,82,Cafú,110956,Aytaç Kara,128196,False
+12528195,81,Cengiz Demir,1015360,Recep Burak Yılmaz,904172,True
+12528195,78,Rigoberto Rivas,837742,Joelson Fernandes,1032547,True
+12528195,78,Kerim Alıcı,758870,Kamil Ahmet Çörekçi,124728,True
+12528195,76,Gökhan Gül,797820,Loret Sadiku,143356,False
+12528195,65,Kévin Rodrigues,234232,Yasin Özcan,1392102,False
+12528195,62,Jonathan Okoronkwo,1188543,Carlos Strandberg,333423,True
+12528195,62,Armin Hodžić,928333,Rui Pedro,862672,True
+12528208,87,Nicolas Janvier,802150,Efecan Karaca,60510,True
+12528208,81,Nuno Lima,1133301,Furkan Bayır,1003161,True
+12528208,79,Kuryu Matsuki,1154637,Isaac Solet,1606478,False
+12528208,79,Taha Altıkardeş,1101279,Koray Günter,138165,False
+12528208,59,Juan Santos da Silva,1009928,Kubilay Kanatsızkuş,828953,False
+12528208,59,Malcom Bokele,1122632,Novatus Miroshi,1103597,False
+12528208,57,Serdar Dursun,123917,Rony Lopes,190147,True
+12528208,20,Doğan Erdoğan,257407,David Tijanič,827369,False
+12528203,81,Achilleas Poungouras,783466,Jan Biegański,935966,True
+12528203,81,Bekir Turaç Böke,997681,Samba Camara,837301,True
+12528203,79,Tugay Kaçar,152437,Umut Meraş,609746,False
+12528203,72,Samu Sáiz,99527,Emre Akbaba,343527,False
+12528203,72,Anastasios Chatzigiovanis,850770,Ahmed Kutucu,906049,False
+12528203,70,Samuel Moutoussamy,892624,Alex Pritchard,180009,True
+12528203,70,Keita Baldé,317699,Emrah Başsan,174141,True
+12528203,59,Halil Akbunar,217782,Gianni Bruno,100680,False
+12528203,59,Tayfur Bingöl,255957,Caner Erkin,15680,False
+12528211,83,Ondřej Čelůstka,45764,Gökdeniz Bayrakdar,952564,True
+12528211,83,Gabriel Obekpa,1481257,Samet Yalçın,789102,True
+12528211,83,Kenan Özer,146364,Zdravko Dimitrov,871342,True
+12528211,79,Emrehan Gedikli,997130,Oğulcan Ülgün,1063942,False
+12528211,77,Ege Bilsel,1011244,Uzeyir Ergun,996122,True
+12528211,74,Celal Dumanli,903334,George Pușcaș,190319,True
+12528211,65,Alassane Ndao,1016033,Danijel Aleksić,45377,False
+12528211,65,Melih İbrahimoğlu,998462,Yusuf Erdoğan,256663,False
+12528211,46,Emmanuel Boateng,943485,Filip Damjanović,851666,False
+12528206,90,Kenneth Omeruo,158293,Haris Hajradinović,254979,True
+12528206,86,İzzet Çelik,826836,Yusuf Barası,1000187,False
+12528206,77,Salih Kavrazlı,964233,Abdulsamet Burak,900798,False
+12528206,73,Cafú,110956,Aytaç Kara,128196,True
+12528206,73,Loret Sadiku,143356,Gökhan Gül,797820,True
+12528206,63,Ali Yavuz Kol,910091,Yusuf Sarı,896364,False
+12528206,63,Tayfun Aydoğan,816435,Abat Aimbetov,189193,False
+12528209,90,Bahadır Öztürk,790783,Moussa Djenepo,869910,True
+12528209,90,Efecan Gülerce,1212154,Erdal Rakip,319871,True
+12528209,87,Armin Hodžić,928333,Funsho Bamgboye,822469,False
+12528209,87,Kerim Alıcı,758870,Kamil Ahmet Çörekçi,124728,False
+12528209,72,Jonathan Okoronkwo,1188543,Carlos Strandberg,333423,False
+12528209,72,Rigoberto Rivas,837742,Joelson Fernandes,1032547,False
+12528209,55,Cengiz Demir,1015360,Abdulkadir Parmak,344225,False
+12528209,46,Adolfo Gaich,940692,Emre Uzun,1212159,True
+12528209,46,Sander van de Streek,220155,Soner Dikmen,847782,True
+12528209,46,Jakub Kałuziński,1019026,Ramzi Safuri,186949,True
+12528205,81,Levent Mercan,1085938,Fred,243623,False
+12528205,79,Mithat Pala,1016393,Halil Ibrahim Pehlivan,777291,True
+12528205,78,Cengiz Ünder,758876,Dušan Tadić,38560,False
+12528205,70,İrfan Can Kahveci,226986,Allan Saint-Maximin,347010,False
+12528205,70,Youssef En-Nesyri,846470,Edin Džeko,14990,False
+12528205,70,Rodrigo Becão,880207,Çağlar Söyüncü,758608,False
+12528205,67,Seyfettin Anıl Yaşar,999646,Dal Varešanović,979109,True
+12528205,67,Eray Korkmaz,1145620,Taha Şahin,1394729,True
+12528205,61,Amir Hadžiahmetović,795421,Giannis Papanikolaou,856988,True
+12528205,61,Martin Minchev,878699,Altin Zeqiri,991742,True
+12725034,86,Ogün Özçiçek,859783,Deian Sorescu,797602,False
+12725034,82,Efe Akman,1215206,Barış Alper Yılmaz,904096,True
+12725034,79,Furkan Soyalp,226992,Alexandru Maxim,180511,False
+12725034,77,Elias Jelert,1126433,Kaan Ayhan,138152,True
+12725034,77,Victor Nelsson,846148,Davinson Sánchez,566102,True
+12725034,72,Kerem Demirbay,142619,Dries Mertens,32493,True
+12725034,72,Yusuf Demir,962283,Yunus Akgün,857738,True
+12725034,70,İlker Karakaş,921406,Kenan Kodro,591140,False
+12725034,46,Salem M'Bakata,940367,Emre Taşdemir,190191,False
+12725034,46,Cyril Mandouki,821461,Mirza Cihan,909289,False
+12725853,88,Soner Gönül,867727,Emre Kılınç,202032,True
+12725853,87,Landry Dimata,826944,Marius Mouandilmadji,943593,True
+12725853,75,Matchoi Djaló,989599,Onur Ergün,893009,False
+12725853,75,Berat Ayberk Özdemir,876857,Berkay Özcan,806964,False
+12725853,75,Kingsley Schindler,169113,Zeki Yavru,140735,True
+12725853,69,João Figueiredo,841012,Miguel Crespo,972410,False
+12725853,69,Serdar Gürler,96520,Davidson,814334,False
+12725853,64,Arbnor Muja,890695,Olivier Ntcham,352676,True
+12725853,51,Olivier Kemen,280447,Léo Duarte,839982,False
+12745313,90,Yaw Ackah,984096,Duckens Nazon,796023,False
+12745313,90,Baran Ali Gezek,1215110,Aylton Boa Morte,883918,False
+12745313,86,Ramazan Civelek,781408,Lionel Carole,122922,False
+12745313,81,Umut Bozok,869839,Denis Drăguş,841199,True
+12745313,75,Mehmet Eray Özbek,1011955,Hasan Ali Kaldırım,39847,False
+12745313,64,John Lundstram,149815,Okay Yokuşlu,97967,True
+12745313,46,Dimitris Kolovetsios,68228,Julian Jeanvier,250477,False
+12745313,46,Anthony Nwakaeme,139455,Enis Bardhi,355024,True
+12745313,46,Poyraz Efe Yıldırım,1195797,Mislav Oršić,88645,True
+12745313,14,Ozan Tufan,251907,Stefan Savić,76265,True
+12528213,89,Bera Ceken,1568920,Serdar Dursun,123917,False
+12528213,83,Cenk Tosun,72127,Dušan Tadić,38560,True
+12528213,83,Mert Hakan Yandaş,856849,Sebastian Szymański,847983,True
+12528213,78,Buluthan Bulut,1046689,Richard,897617,False
+12528213,74,Rony Lopes,190147,Sergio Córdova,881222,False
+12528213,73,Juan Christian,1412631,Yusuf Özdemir,1084884,False
+12528213,73,Nicolas Janvier,802150,Efecan Karaca,60510,False
+12528213,73,Youssef En-Nesyri,846470,Edin Džeko,14990,True
+12528213,61,Rodrigo Becão,880207,Alexander Djiku,289977,True
+12528213,61,İrfan Can Kahveci,226986,Allan Saint-Maximin,347010,True
+12528217,85,Muhammet Tunahan Taşçı,980612,Marko Jevtović,310068,True
+12528217,85,Ramazan Civelek,781408,Carlos Mané,859748,False
+12528217,80,Ali Karimi,803869,Kartal Kayra Yılmaz,966811,False
+12528217,78,Alassane Ndao,1016033,Pedrinho,1015939,True
+12528217,78,Louka Prip,976127,Yusuf Erdoğan,256663,True
+12528217,68,Mehmet Eray Özbek,1011955,Duckens Nazon,796023,False
+12528217,66,Emmanuel Boateng,943485,Danijel Aleksić,45377,True
+12528217,66,Melih İbrahimoğlu,998462,Oğulcan Ülgün,1063942,True
+12528214,90,Kenneth Omeruo,158293,Haris Hajradinović,254979,False
+12528214,89,Sadık Çiftpınar,111811,Aytaç Kara,128196,False
+12528214,87,Mithat Pala,1016393,Husniddin Alikulov,1121174,True
+12528214,77,Cafú,110956,Loret Sadiku,143356,False
+12528214,74,Amir Hadžiahmetović,795421,Martin Minchev,878699,True
+12528214,46,Altin Zeqiri,991742,Dal Varešanović,979109,True
+12528212,82,Yusuf Demir,962283,Barış Alper Yılmaz,904096,False
+12528212,82,Efe Akman,1215206,Kaan Ayhan,138152,False
+12528212,73,Ozan Demirbağ,1654166,Ali Yavuz Kol,910091,True
+12528212,71,Berkan Kutlu,992912,Lucas Torreira,754794,False
+12528212,70,Yunus Akgün,857738,Kerem Aktürkoğlu,903324,False
+12528212,68,Salih Kavrazlı,964233,Tayfun Aydoğan,816435,True
+12528212,67,Tolga Kalender,903851,Nabil Alioui,873049,True
+12528212,51,Yusuf Sarı,896364,Abat Aimbetov,189193,True
+12528212,46,Breyton Fougeu,1545020,Abdulsamet Burak,900798,True
+12528212,25,Michy Batshuayi,147745,Mauro Icardi,233114,False
+12528219,90,İsmail Köybaşı,43605,Nazım Sangaré,169425,True
+12528219,90,Koray Günter,138165,Rômulo,1133743,True
+12528219,81,Ahmed Ildız,849329,David Tijanič,827369,True
+12528219,78,Celal Dumanli,903334,George Pușcaș,190319,False
+12528219,77,Haqi Osman,1126525,Fredy,845281,False
+12528219,73,Kubilay Kanatsızkuş,828953,Juan Santos da Silva,1009928,True
+12528219,73,Doğan Erdoğan,257407,Isaac Solet,1606478,True
+12528219,56,Kenan Özer,146364,Gökdeniz Bayrakdar,952564,False
+12528219,46,Gabriel Obekpa,1481257,Samet Yalçın,789102,False
+12528219,19,Ondřej Čelůstka,45764,Christophe Herelle,225092,False
+12528220,87,Onur Ergün,893009,Berat Ayberk Özdemir,876857,True
+12528220,83,Davidson,814334,Serdar Gürler,96520,True
+12528220,83,Miguel Crespo,972410,João Figueiredo,841012,True
+12528220,83,Sander van de Streek,220155,Moussa Djenepo,869910,False
+12528220,83,Soner Dikmen,847782,Ramzi Safuri,186949,False
+12528220,67,Adolfo Gaich,940692,Erdal Rakip,319871,False
+12528220,46,Berkay Özcan,806964,Dimitrios Pelkas,139304,True
+12528220,46,Krzysztof Piątek,558738,Philippe Keny,988909,True
+12528215,90,Muhammed-Cham Saračević,958901,Enis Destan,1012480,False
+12528215,87,Poyraz Efe Yıldırım,1195797,Mislav Oršić,88645,False
+12528215,85,Tugay Kaçar,152437,Melih Kabasakal,828872,True
+12528215,85,Anastasios Chatzigiovanis,850770,Mame Thiam,180981,True
+12528215,76,Enis Bardhi,355024,Cihan Çanak,1127335,False
+12528215,73,Svit Sešlar,946291,Samu Sáiz,99527,True
+12528215,73,Dorukhan Toköz,796133,Tayfur Bingöl,255957,True
+12528215,54,Gianni Bruno,100680,Emre Akbaba,343527,True
+12528216,90,Onur Bulut,142494,Milot Rashica,800411,True
+12528216,90,Emirhan Topçu,895009,Rafa Silva,252577,True
+12528216,89,Bekir Turaç Böke,997681,Uroš Radaković,151900,False
+12528216,89,Emrah Başsan,174141,Alex Pritchard,180009,False
+12528216,78,Samuel Moutoussamy,892624,Jan Biegański,935966,False
+12528216,73,Mustafa Hekimoğlu,1524303,Ciro Immobile,45923,True
+12528216,73,Cher Ndour,1114422,Mutassim Al-Musrati,868958,True
+12528216,67,Keita Baldé,317699,Azizbek Turgunboev,971572,False
+12528216,62,Semih Kılıçsoy,1142606,Ernest Muçi,924670,True
+12528218,90,Gaëtan Laura,1004042,Marius Mouandilmadji,943593,False
+12528218,84,Soner Gönül,867727,Olivier Ntcham,352676,False
+12528218,84,Soner Aydoğdu,69351,Arbnor Muja,890695,False
+12528218,77,Landry Dimata,826944,Zeki Yavru,140735,False
+12528218,74,Rui Pedro,862672,Joelson Fernandes,1032547,True
+12528218,56,Jonathan Okoronkwo,1188543,Abdulkadir Parmak,344225,True
+12528218,46,Celil Yüksel,806972,Youssef Aït Bennasser,802850,False
+12528218,46,Rigoberto Rivas,837742,Funsho Bamgboye,822469,True
+12528218,46,Görkem Sağlam,795001,Armin Hodžić,928333,True
+12528244,87,Filip Damjanović,851666,Alassane Ndao,1016033,False
+12528244,87,Uğurcan Yazğılı,904303,Marko Jevtović,310068,False
+12528244,86,Flavien Tait,312388,Olivier Ntcham,352676,True
+12528244,79,Oğulcan Ülgün,1063942,Pedrinho,1015939,False
+12528244,76,Soner Aydoğdu,69351,Carlo Holse,837012,True
+12528244,73,Blaž Kramer,804405,Umut Nayir,284767,False
+12528244,73,Hamidou Keyta,829610,Danijel Aleksić,45377,False
+12528244,63,Gaëtan Laura,1004042,Emre Kılınç,202032,True
+12528244,63,Kingsley Schindler,169113,Arbnor Muja,890695,True
+12528244,63,Marius Mouandilmadji,943593,Landry Dimata,826944,True
+12528221,85,İlker Karakaş,921406,Christophe Lungoyi,883355,False
+12528221,85,Mirza Cihan,909289,Cyril Mandouki,821461,False
+12528221,84,Samba Camara,837301,Samuel Moutoussamy,892624,True
+12528221,84,Bengali-Fodé Koita,51407,Bekir Turaç Böke,997681,True
+12528221,76,Jan Biegański,935966,Alex Pritchard,180009,True
+12528221,73,Deian Sorescu,797602,Ertuğrul Ersoy,355004,False
+12528221,67,Badou Ndiaye,228342,Ogün Özçiçek,859783,False
+12528221,66,Kacper Kozłowski,984602,Alexandru Maxim,180511,False
+12528221,42,Bekir Turaç Böke,997681,Rey Manaj,587882,True
+12528245,86,Léo Duarte,839982,Olivier Kemen,280447,False
+12528245,85,Haqi Osman,1126525,Zdravko Dimitrov,871342,True
+12528245,76,Miguel Crespo,972410,Berkay Özcan,806964,False
+12528245,76,Davidson,814334,Serdar Gürler,96520,False
+12528245,66,Dimitrios Pelkas,139304,João Figueiredo,841012,False
+12528245,64,Ahmet Aslan,1134098,George Pușcaș,190319,True
+12528245,42,Taulant Seferi,279487,Ege Bilsel,1011244,True
+12528241,84,Muhamed Buljubašić,1134586,Ibrahim Olawoyin,1008173,False
+12528241,83,Yusuf Demir,962283,Barış Alper Yılmaz,904096,True
+12528241,73,Elias Jelert,1126433,Ismail Jakobs,897291,True
+12528241,68,Berkan Kutlu,992912,Lucas Torreira,754794,True
+12528241,67,Victor Nelsson,846148,Davinson Sánchez,566102,True
+12528241,67,Michy Batshuayi,147745,Dries Mertens,32493,True
+12528241,67,Kerem Demirbay,142619,Gabriel Sara,913593,True
+12528241,59,Altin Zeqiri,991742,Babajide David Akintola,798676,False
+12528241,59,Eray Korkmaz,1145620,Taha Şahin,1394729,False
+12528241,59,Václav Jurečka,225850,Ali Sowe,238394,False
+12528241,46,Emrecan Bulut,1480663,Giannis Papanikolaou,856988,False
+12528241,38,Amir Hadžiahmetović,795421,Husniddin Alikulov,1121174,False
+12528240,87,Mert Hakan Yandaş,856849,Fred,243623,False
+12528240,81,Sofyan Amrabat,359272,Dušan Tadić,38560,False
+12528240,80,Yusuf Akçiçek,1479523,Mert Müldür,836683,False
+12528240,80,Cafú,110956,Gökhan Gül,797820,True
+12528240,80,Jhon Espinoza,929098,Cláudio Winck,155998,True
+12528240,66,Antonín Barák,330705,Haris Hajradinović,254979,True
+12528240,63,Edin Džeko,14990,Youssef En-Nesyri,846470,False
+12528240,63,İrfan Can Kahveci,226986,Allan Saint-Maximin,347010,False
+12528240,46,Aytaç Kara,128196,Loret Sadiku,143356,True
+12528239,90,Joseph Attamah,332963,Arif Kocaman,1173638,True
+12528239,88,Gianni Bruno,100680,Mame Thiam,180981,False
+12528239,73,Anastasios Chatzigiovanis,850770,Samu Sáiz,99527,False
+12528239,73,Jonjo Shelvey,36465,Ahmed Kutucu,906049,False
+12528239,64,Talha Sariarslan,1088715,Mehmet Eray Özbek,1011955,True
+12528239,60,Halil Akbunar,217782,Emre Akbaba,343527,False
+12528239,60,Léo Dubois,552680,Caner Erkin,15680,False
+12528239,41,Duckens Nazon,796023,Aylton Boa Morte,883918,True
+12528239,41,Ali Karimi,803869,Mehdi Bourabia,98003,True
+12528239,41,Hasan Ali Kaldırım,39847,Ramazan Civelek,781408,True
+12528242,87,Cengiz Demir,1015360,Cemali Sertel,929956,False
+12528242,87,Funsho Bamgboye,822469,Rigoberto Rivas,837742,False
+12528242,79,Nicolas Janvier,802150,Gaius Makouta,847013,True
+12528242,79,Rony Lopes,190147,Yusuf Özdemir,1084884,True
+12528242,77,Bilal Boutobba,769163,Joelson Fernandes,1032547,False
+12528242,71,Juan Christian,1412631,Loide Augusto,1110708,True
+12528242,61,Sergio Córdova,881222,Ui-Jo Hwang,791314,True
+12528242,61,Serdar Dursun,123917,Efecan Karaca,60510,True
+12528242,59,Vincent Aboubakar,116869,Carlos Strandberg,333423,False
+12528222,90,Arif Boşluk,1138095,Eren Elmalı,981483,True
+12528222,90,John Lundstram,149815,Denis Drăguş,841199,True
+12528222,90,Ozan Tufan,251907,Cihan Çanak,1127335,True
+12528222,88,Salih Uçan,135695,Gedson Fernandes,862055,False
+12528222,79,Muhammed-Cham Saračević,958901,Simon Banza,825945,True
+12528222,79,Onur Bulut,142494,Jonas Svensson,98199,False
+12528222,79,Mustafa Hekimoğlu,1524303,Ciro Immobile,45923,False
+12528222,67,Semih Kılıçsoy,1142606,Milot Rashica,800411,False
+12528222,67,Ernest Muçi,924670,Mutassim Al-Musrati,868958,False
+12528222,46,Cihan Çanak,1127335,Mislav Oršić,88645,True
+12528222,46,Denis Drăguş,841199,Enis Bardhi,355024,True
+12528243,90,Breyton Fougeu,1545020,Yusuf Sarı,896364,False
+12528243,90,Aksel Aktaş,863172,Bunyamin Balat,996317,False
+12528243,77,Ozan Demirbağ,1654166,Ali Yavuz Kol,910091,False
+12528243,77,Burak Ingenç,1417030,Erdal Rakip,319871,True
+12528243,66,Soner Dikmen,847782,Jakub Kałuziński,1019026,True
+12528243,66,Adolfo Gaich,940692,Andros Townsend,47992,True
+12528243,66,Ramzi Safuri,186949,Sam Larsson,229800,True
+12528243,66,Tayfun Aydoğan,816435,Yusuf Barası,1000187,False
+12528243,65,Salih Kavrazlı,964233,Nabil Alioui,873049,False
+12528243,11,Erdoğan Yeşilyurt,142541,Emrecan Uzunhan,997684,True
+12528254,90,Celal Dumanli,903334,Taulant Seferi,279487,False
+12528254,90,Enes Ogruce,1395595,Ahmet Aslan,1134098,False
+12528254,87,Bilal Boutobba,769163,Görkem Sağlam,795001,True
+12528254,80,Kenan Özer,146364,George Pușcaș,190319,False
+12528254,78,Carlos Strandberg,333423,Rigoberto Rivas,837742,True
+12528254,63,Funsho Bamgboye,822469,Joelson Fernandes,1032547,True
+12528254,55,Samet Yalçın,789102,Musah Mohammed,1105505,False
+12528254,46,Rui Pedro,862672,Lamine Diack,982317,True
+12528251,90,Ziya Erdal,138312,Samuel Moutoussamy,892624,False
+12528251,90,Samba Camara,837301,Emrah Başsan,174141,False
+12528251,87,Melih İbrahimoğlu,998462,Marko Jevtović,310068,True
+12528251,76,Queensy Menig,232318,Garry Rodrigues,787429,False
+12528251,76,Jan Biegański,935966,Alex Pritchard,180009,False
+12528251,68,Yusuf Erdoğan,256663,Alassane Ndao,1016033,True
+12528251,68,Blaž Kramer,804405,Umut Nayir,284767,True
+12528251,61,Bekir Turaç Böke,997681,Azizbek Turgunboev,971572,False
+12528251,46,Oğulcan Ülgün,1063942,Ufuk Akyol,859546,True
+12528251,46,Hamidou Keyta,829610,Danijel Aleksić,45377,True
+12528247,86,Victor Nelsson,846148,Kaan Ayhan,138152,False
+12528247,84,Kerem Demirbay,142619,Gabriel Sara,913593,False
+12528247,84,Berkan Kutlu,992912,Lucas Torreira,754794,False
+12528247,83,Elias Jelert,1126433,Barış Alper Yılmaz,904096,False
+12528247,80,Cengiz Ünder,758876,Allan Saint-Maximin,347010,True
+12528247,80,Mert Hakan Yandaş,856849,Fred,243623,True
+12528247,75,Roland Sallai,355088,Dries Mertens,32493,False
+12528247,67,Youssef En-Nesyri,846470,Alexander Djiku,289977,True
+12528247,61,İrfan Can Kahveci,226986,Dušan Tadić,38560,True
+12528247,46,Sofyan Amrabat,359272,İsmail Yüksek,952600,True
+12528249,82,Adolfo Gaich,940692,Andros Townsend,47992,False
+12528249,82,Soner Dikmen,847782,Erdal Rakip,319871,False
+12528249,74,Jhon Espinoza,929098,Cláudio Winck,155998,True
+12528249,74,Gökhan Gül,797820,Cafú,110956,True
+12528249,63,Sander van de Streek,220155,Sam Larsson,229800,False
+12528249,59,Haris Hajradinović,254979,Antonín Barák,330705,True
+12528249,46,Oleksandr Petrusenko,906673,Moussa Djenepo,869910,False
+12528249,32,Mamadou Fall,822228,Kévin Rodrigues,234232,True
+12528248,90,Soner Aydoğdu,69351,Olivier Ntcham,352676,False
+12528248,78,Ercan Kara,843039,Marius Mouandilmadji,943593,False
+12528248,73,Václav Jurečka,225850,Ali Sowe,238394,True
+12528248,72,Rachid Ghezzal,123228,Altin Zeqiri,991742,True
+12528248,62,Emre Kılınç,202032,Arbnor Muja,890695,False
+12528248,62,Kingsley Schindler,169113,Carlo Holse,837012,False
+12528248,57,Dal Varešanović,979109,Amir Hadžiahmetović,795421,True
+12528248,57,Emrecan Bulut,1480663,Babajide David Akintola,798676,True
+12528246,90,Serdar Dursun,123917,Nicolas Janvier,802150,False
+12528246,86,Aksel Aktaş,863172,Jovan Manev,1111781,True
+12528246,73,Efecan Karaca,60510,Loide Augusto,1110708,False
+12528246,73,Yusuf Özdemir,1084884,Ui-Jo Hwang,791314,False
+12528246,69,Motez Nourani,1640310,Nabil Alioui,873049,True
+12528246,69,Salih Kavrazlı,964233,Ali Yavuz Kol,910091,True
+12528246,61,Juan Christian,1412631,Sergio Córdova,881222,False
+12528246,46,Arda Kurtulan,1063395,Abdulsamet Burak,900798,True
+12528250,90,Onur Bulut,142494,Milot Rashica,800411,True
+12528250,90,Jean Onana,978301,Ciro Immobile,45923,True
+12528250,90,Emirhan Topçu,895009,Rafa Silva,252577,True
+12528250,81,Tayfur Bingöl,255957,Caner Erkin,15680,False
+12528250,81,Prince Ampem,923888,Ahmed Kutucu,906049,False
+12528250,72,Umut Meraş,609746,Léo Dubois,552680,False
+12528250,68,Jonjo Shelvey,36465,Samu Sáiz,99527,False
+12528250,68,Halil Akbunar,217782,Emre Akbaba,343527,False
+12528250,66,Semih Kılıçsoy,1142606,Mutassim Al-Musrati,868958,True
+12528252,88,Salem M'Bakata,940367,David Okereke,831290,True
+12528252,87,Halil Dervişoğlu,930775,Ömürcan Artan,1016384,True
+12528252,79,Alexandru Maxim,180511,Furkan Soyalp,226992,True
+12528252,76,Umut Bozok,869839,Anthony Nwakaeme,139455,False
+12528252,76,Borna Barišić,335301,Eren Elmalı,981483,False
+12528252,73,Ogün Özçiçek,859783,Kacper Kozłowski,984602,True
+12528252,73,Kenan Kodro,591140,Christophe Lungoyi,883355,True
+12528252,46,Denis Drăguş,841199,Cihan Çanak,1127335,False
+12528252,46,John Lundstram,149815,Okay Yokuşlu,97967,False
+12528253,85,Victor Hugo,1170954,Rômulo,1133743,True
+12528253,85,Doğan Erdoğan,257407,David Tijanič,827369,True
+12528253,85,Ahmed Ildız,849329,Isaac Solet,1606478,True
+12528253,79,Mehmet Eray Özbek,1011955,Miguel Cardoso,344009,False
+12528253,69,Talha Sariarslan,1088715,Hasan Ali Kaldırım,39847,False
+12528253,68,Nazım Sangaré,169425,Ogün Bayrak,903999,True
+12528253,68,Baran Ali Gezek,1215110,Mehdi Bourabia,98003,False
+12528253,65,Kuryu Matsuki,1154637,Juan Santos da Silva,1009928,True
+12528253,46,Carlos Mané,859748,Dimitris Kolovetsios,68228,False
+12528253,46,Stéphane Bahoken,153220,Ramazan Civelek,781408,False
+12528255,90,Ziya Erdal,138312,Murat Paluli,893014,True
+12528255,89,Ömer Faruk Beyaz,1022881,Deniz Türüç,252207,False
+12528255,89,Philippe Keny,988909,Krzysztof Piątek,558738,False
+12528255,78,Hamza Güreler,1562294,Jerome Opoku,920514,False
+12528255,76,Bekir Turaç Böke,997681,Garry Rodrigues,787429,True
+12528255,76,Queensy Menig,232318,Keita Baldé,317699,True
+12528255,72,Davidson,814334,Serdar Gürler,96520,False
+12528255,72,Berkay Özcan,806964,João Figueiredo,841012,False
+12528255,46,Azizbek Turgunboev,971572,Jan Biegański,935966,True
+12528262,90,Landry Dimata,826944,Marius Mouandilmadji,943593,True
+12528262,84,Victor Hugo,1170954,Rômulo,1133743,False
+12528262,84,İsmail Köybaşı,43605,Djalma,973933,False
+12528262,77,David Datro Fofana,1090458,Juan Santos da Silva,1009928,False
+12528262,77,David Tijanič,827369,Kuryu Matsuki,1154637,False
+12528262,74,Kingsley Schindler,169113,Emre Kılınç,202032,True
+12528262,74,Soner Gönül,867727,Marc Bola,862083,True
+12528262,66,Nazım Sangaré,169425,Ogün Bayrak,903999,False
+12528262,59,Arbnor Muja,890695,Gaëtan Laura,1004042,True
+12528262,5,Kuryu Matsuki,1154637,Isaac Solet,1606478,False
+12528260,88,Buluthan Bulut,1046689,Loide Augusto,1110708,True
+12528260,82,Mithat Pala,1016393,Amir Hadžiahmetović,795421,False
+12528260,69,Efecan Karaca,60510,Nicolas Janvier,802150,True
+12528260,66,Václav Jurečka,225850,Dal Varešanović,979109,False
+12528260,66,Halil Ibrahim Pehlivan,777291,Casper Højer,281233,False
+12528260,66,Rachid Ghezzal,123228,Giannis Papanikolaou,856988,False
+12528260,58,Emrecan Bulut,1480663,Altin Zeqiri,991742,False
+12528260,16,Sergio Córdova,881222,Ui-Jo Hwang,791314,True
+12528259,90,Sadık Çiftpınar,111811,Nuno Da Costa,209374,False
+12528259,74,Jhon Espinoza,929098,Antonín Barák,330705,False
+12528259,74,Michy Batshuayi,147745,Mauro Icardi,233114,True
+12528259,63,Kaan Ayhan,138152,Yunus Akgün,857738,True
+12528259,63,Berkan Kutlu,992912,Gabriel Sara,913593,True
+12528259,46,Gökhan Gül,797820,Cafú,110956,False
+12528259,46,Barış Alper Yılmaz,904096,Roland Sallai,355088,True
+12528259,46,Dries Mertens,32493,Victor Osimhen,822471,True
+12528259,30,Kenneth Omeruo,158293,Mortadha Ben Ouanes,919225,False
+12528258,85,Dorukhan Toköz,796133,Samu Sáiz,99527,True
+12528258,83,Cyril Mandouki,821461,Deian Sorescu,797602,False
+12528258,82,Rúben Vezo,233180,Umut Meraş,609746,True
+12528258,70,Emre Taşdemir,190191,Arda Kızıldağ,904228,False
+12528258,70,Kenan Kodro,591140,Christophe Lungoyi,883355,False
+12528258,70,Jonjo Shelvey,36465,Léo Dubois,552680,True
+12528258,70,Halil Dervişoğlu,930775,Furkan Soyalp,226992,False
+12528258,70,Anastasios Chatzigiovanis,850770,Emre Akbaba,343527,True
+12528258,70,Umut Meraş,609746,Caner Erkin,15680,True
+12528258,59,Ogün Özçiçek,859783,Alexandru Maxim,180511,False
+12528256,90,Denis Drăguş,841199,Simon Banza,825945,True
+12528256,90,Mislav Oršić,88645,Edin Višća,109779,True
+12528256,84,Serdar Saatçı,1084880,Anthony Nwakaeme,139455,True
+12528256,74,Filip Damjanović,851666,Riechedly Bazoer,227196,False
+12528256,68,Melih İbrahimoğlu,998462,Yusuf Erdoğan,256663,False
+12528256,68,Umut Nayir,284767,Marko Jevtović,310068,False
+12528256,58,Hamidou Keyta,829610,Uğurcan Yazğılı,904303,False
+12528256,57,Danijel Aleksić,45377,Alassane Ndao,1016033,False
+12528256,46,John Lundstram,149815,Enis Bardhi,355024,True
+12528256,37,Muhammed-Cham Saračević,958901,Ozan Tufan,251907,True
+12528261,85,Mert Hakan Yandaş,856849,Sebastian Szymański,847983,False
+12528261,82,Ramzi Safuri,186949,Oleksandr Petrusenko,906673,True
+12528261,79,Youssef En-Nesyri,846470,Edin Džeko,14990,False
+12528261,75,Amar Gerxhaliu,1123371,Veysel Sarı,98276,True
+12528261,74,Sander van de Streek,220155,Andros Townsend,47992,True
+12528261,74,Adolfo Gaich,940692,Jakub Kałuziński,1019026,True
+12528261,69,Rodrigo Becão,880207,Allan Saint-Maximin,347010,False
+12528261,50,Soner Dikmen,847782,Erdal Rakip,319871,True
+12528261,46,Filip Kostić,126588,Alexander Djiku,289977,False
+12528261,46,Fred,243623,İsmail Yüksek,952600,False
+12528263,90,Enes Ogruce,1395595,Musah Mohammed,1105505,True
+12528263,88,Ozan Demirbağ,1654166,Abdulsamet Burak,900798,False
+12528263,88,Celal Dumanli,903334,George Pușcaș,190319,True
+12528263,87,Kenan Özer,146364,Taulant Seferi,279487,True
+12528263,87,Haqi Osman,1126525,Zdravko Dimitrov,871342,True
+12528263,82,İzzet Çelik,826836,Ali Yavuz Kol,910091,False
+12528263,68,Motez Nourani,1640310,Nabil Alioui,873049,False
+12528263,65,Samet Yalçın,789102,Pedro Brazão,981535,True
+12528263,46,Bunyamin Balat,996317,Salih Kavrazlı,964233,False
+12528263,46,Yusuf Barası,1000187,Abat Aimbetov,189193,False
+12528257,90,Tayyip Talha Sanuç,851909,Gabriel Paulista,124737,False
+12528257,90,Salih Uçan,135695,Rafa Silva,252577,False
+12528257,90,Bakhtiyar Zaynutdinov,887382,Ciro Immobile,45923,False
+12528257,79,Stéphane Bahoken,153220,Miguel Cardoso,344009,True
+12528257,79,Talha Sariarslan,1088715,Aylton Boa Morte,883918,True
+12528257,72,Carlos Mané,859748,Mehdi Bourabia,98003,True
+12528257,65,Semih Kılıçsoy,1142606,Ernest Muçi,924670,False
+12528257,65,Jean Onana,978301,Gedson Fernandes,862055,False
+12528257,65,Ali Karimi,803869,Baran Ali Gezek,1215110,True
+12528257,65,Arif Kocaman,1173638,Hasan Ali Kaldırım,39847,True
+12528266,89,Seyfettin Anıl Yaşar,999646,Dal Varešanović,979109,True
+12528266,71,Mithat Pala,1016393,Giannis Papanikolaou,856988,True
+12528266,71,Ali Sowe,238394,Václav Jurečka,225850,True
+12528266,61,Abdurrahim Dursun,883275,Oleksandr Petrusenko,906673,False
+12528266,61,Altin Zeqiri,991742,Emrecan Bulut,1480663,True
+12528266,61,Martin Minchev,878699,Babajide David Akintola,798676,True
+12528266,60,Ramzi Safuri,186949,Andros Townsend,47992,False
+12528266,60,Soner Dikmen,847782,Sam Larsson,229800,False
+12528266,55,Sander van de Streek,220155,Jakub Kałuziński,1019026,False
+12528266,55,Adolfo Gaich,940692,Moussa Djenepo,869910,False
+12528267,90,Haqi Osman,1126525,Zdravko Dimitrov,871342,False
+12528267,89,Erdem Çetinkaya,993902,Yasin Özcan,1392102,True
+12528267,76,Samet Yalçın,789102,Ondřej Čelůstka,45764,False
+12528267,73,Jhon Espinoza,929098,Aytaç Kara,128196,True
+12528267,63,Celal Dumanli,903334,George Pușcaș,190319,False
+12528267,63,Pedro Brazão,981535,Fredy,845281,False
+12528267,46,Uzeyir Ergun,996122,Cenk Şen,957359,False
+12528267,46,Cafú,110956,Gökhan Gül,797820,True
+12528271,90,Victor Hugo,1170954,Anthony Junior Dennis,1484438,True
+12528271,82,Jan Biegański,935966,Samuel Moutoussamy,892624,False
+12528271,74,Lasse Nielsen,21547,Isaac Solet,1606478,True
+12528271,74,Ahmed Ildız,849329,İsmail Köybaşı,43605,True
+12528271,73,David Datro Fofana,1090458,Juan Santos da Silva,1009928,True
+12528271,62,Azizbek Turgunboev,971572,Uroš Radaković,151900,False
+12528271,59,Kuryu Matsuki,1154637,David Tijanič,827369,True
+12528271,46,Bekir Turaç Böke,997681,Murat Paluli,893014,False
+12528271,46,Queensy Menig,232318,Keita Baldé,317699,False
+12528271,25,Alex Pritchard,180009,Bengali-Fodé Koita,51407,False
+12528272,88,Ömer Faruk Beyaz,1022881,Deniz Türüç,252207,True
+12528272,85,Kartal Kayra Yılmaz,966811,Baran Ali Gezek,1215110,False
+12528272,85,Hasan Ali Kaldırım,39847,Lionel Carole,122922,False
+12528272,84,Nurettin Korkmaz,976993,Miguel Cardoso,344009,False
+12528272,82,Matchoi Djaló,989599,Berkay Özcan,806964,True
+12528272,75,Yaw Ackah,984096,Ali Karimi,803869,False
+12528272,68,João Figueiredo,841012,Dimitrios Pelkas,139304,True
+12528272,68,Mehmet Eray Özbek,1011955,Carlos Mané,859748,False
+12528272,46,Serdar Gürler,96520,Davidson,814334,True
+12528272,46,Onur Ergün,893009,Berat Ayberk Özdemir,876857,True
+12528265,85,Ali Şahin Yılmaz,1145980,Serdar Saatçı,1084880,False
+12528265,73,Carlos Strandberg,333423,Funsho Bamgboye,822469,True
+12528265,73,Umut Güneş,876782,Enis Bardhi,355024,False
+12528265,73,Mislav Oršić,88645,Edin Višća,109779,False
+12528265,65,Recep Burak Yılmaz,904172,Rui Pedro,862672,True
+12528265,64,Joelson Fernandes,1032547,Rigoberto Rivas,837742,True
+12528265,46,Muhammed-Cham Saračević,958901,Okay Yokuşlu,97967,False
+12528269,90,Dorukhan Toköz,796133,Ahmed Kutucu,906049,False
+12528269,87,Marko Jevtović,310068,Riechedly Bazoer,227196,True
+12528269,79,Jonjo Shelvey,36465,Fredrik Midtsjø,98198,False
+12528269,79,Rúben Vezo,233180,Léo Dubois,552680,False
+12528269,75,Anastasios Chatzigiovanis,850770,Gianni Bruno,100680,False
+12528269,75,Emre Akbaba,343527,Samu Sáiz,99527,False
+12528269,69,Danijel Aleksić,45377,Pedrinho,1015939,True
+12528269,69,Louka Prip,976127,Melih İbrahimoğlu,998462,True
+12528269,69,Umut Nayir,284767,Hamidou Keyta,829610,True
+12528269,59,Yusuf Erdoğan,256663,Oğulcan Ülgün,1063942,True
+12528264,87,Florent Shehu,1009692,Yusuf Barası,1000187,True
+12528264,86,Soner Gönül,867727,Arbnor Muja,890695,False
+12528264,86,Soner Aydoğdu,69351,Carlo Holse,837012,False
+12528264,76,Jovan Manev,1111781,Ali Yavuz Kol,910091,True
+12528264,71,Celil Yüksel,806972,Youssef Aït Bennasser,802850,False
+12528264,65,Breyton Fougeu,1545020,Salih Kavrazlı,964233,True
+12528264,65,Abat Aimbetov,189193,İzzet Çelik,826836,True
+12528264,64,Kingsley Schindler,169113,Zeki Yavru,140735,False
+12528264,64,Landry Dimata,826944,Emre Kılınç,202032,False
+12528268,90,Metehan Baltacı,997155,Kaan Ayhan,138152,True
+12528268,90,Elias Jelert,1126433,Barış Alper Yılmaz,904096,True
+12528268,90,Juan Christian,1412631,Loide Augusto,1110708,False
+12528268,81,Kerem Demirbay,142619,Yunus Akgün,857738,True
+12528268,81,Michy Batshuayi,147745,Mauro Icardi,233114,True
+12528268,65,Roland Sallai,355088,Dries Mertens,32493,True
+12528268,64,Rony Lopes,190147,Yusuf Özdemir,1084884,False
+12528268,64,Serdar Dursun,123917,Sergio Córdova,881222,False
+12528268,57,Nicolas Janvier,802150,Efecan Karaca,60510,False
+12528270,86,Bakhtiyar Zaynutdinov,887382,Rafa Silva,252577,False
+12528270,86,Tayyip Talha Sanuç,851909,Ernest Muçi,924670,False
+12528270,85,Halil Dervişoğlu,930775,Christophe Lungoyi,883355,True
+12528270,67,Kenan Kodro,591140,Kacper Kozłowski,984602,True
+12528270,67,Milot Rashica,800411,João Mário,97001,False
+12528270,67,Mustafa Hekimoğlu,1524303,Ciro Immobile,45923,False
+12528270,63,Mustafa Eskihellaç,899069,Ertuğrul Ersoy,355004,True
+12528270,21,Emirhan Topçu,895009,Gabriel Paulista,124737,False
+12528275,90,Arda Kızıldağ,904228,Kacper Kozłowski,984602,False
+12528275,88,Ramazan Civelek,781408,Carlos Mané,859748,True
+12528275,85,Kenan Kodro,591140,Deian Sorescu,797602,False
+12528275,76,Yaw Ackah,984096,Aylton Boa Morte,883918,True
+12528275,68,Furkan Soyalp,226992,Alexandru Maxim,180511,False
+12528275,68,Mustafa Eskihellaç,899069,Christophe Lungoyi,883355,False
+12528275,46,Mehdi Bourabia,98003,Ali Karimi,803869,True
+12528275,46,Ömürcan Artan,1016384,Ertuğrul Ersoy,355004,False
+12528275,46,Duckens Nazon,796023,Stéphane Bahoken,153220,True
+12528274,90,Borna Barišić,335301,Edin Višća,109779,True
+12528274,90,Onur Ergün,893009,Miguel Crespo,972410,False
+12528274,89,Philippe Keny,988909,Krzysztof Piątek,558738,False
+12528274,82,Cihan Çanak,1127335,Denis Drăguş,841199,True
+12528274,75,Berkay Özcan,806964,Deniz Türüç,252207,False
+12528274,75,João Figueiredo,841012,Olivier Kemen,280447,False
+12528274,74,Serdar Saatçı,1084880,Okay Yokuşlu,97967,True
+12528274,74,Enis Bardhi,355024,Muhammed-Cham Saračević,958901,True
+12528274,31,Davidson,814334,Serdar Gürler,96520,False
+12530886,87,Emre Uzun,1212159,Veysel Sarı,98276,True
+12530886,78,Michy Batshuayi,147745,Yunus Akgün,857738,False
+12530886,78,Victor Osimhen,822471,Mauro Icardi,233114,False
+12530886,71,Hakim Ziyech,249437,Dries Mertens,32493,False
+12530886,71,Barış Alper Yılmaz,904096,Kaan Ayhan,138152,False
+12530886,64,Jakub Kałuziński,1019026,Erdal Rakip,319871,True
+12530886,46,Adolfo Gaich,940692,Sander van de Streek,220155,True
+12530886,46,Moussa Djenepo,869910,Andros Townsend,47992,True
+12530886,30,Erdoğan Yeşilyurt,142541,Mert Yilmaz,881966,True
+12530886,23,Berkan Kutlu,992912,Ismail Jakobs,897291,False
+12528276,90,Gianni Bruno,100680,Mame Thiam,180981,True
+12528276,90,Taşkın Ilter,171911,Emre Akbaba,343527,True
+12528276,90,Halil Akbunar,217782,Ahmed Kutucu,906049,True
+12528276,86,İsmail Köybaşı,43605,Djalma,973933,False
+12528276,81,David Tijanič,827369,Ahmed Ildız,849329,False
+12528276,70,David Datro Fofana,1090458,Juan Santos da Silva,1009928,False
+12528276,70,Lasse Nielsen,21547,Ogün Bayrak,903999,False
+12528276,69,Dorukhan Toköz,796133,Jonjo Shelvey,36465,True
+12528276,69,Prince Ampem,923888,Samu Sáiz,99527,True
+12528276,46,Victor Hugo,1170954,Kuryu Matsuki,1154637,False
+12528273,85,Carlos Strandberg,333423,Rui Pedro,862672,False
+12528273,85,Bilal Boutobba,769163,Rigoberto Rivas,837742,False
+12528273,83,Emrah Başsan,174141,Samuel Moutoussamy,892624,True
+12528273,82,Achilleas Poungouras,783466,Noah Sonko Sundberg,279541,True
+12528273,73,Kerim Alıcı,758870,Kamil Ahmet Çörekçi,124728,False
+12528273,68,Queensy Menig,232318,Garry Rodrigues,787429,True
+12528273,68,Keita Baldé,317699,Bengali-Fodé Koita,51407,True
+12528273,58,Joelson Fernandes,1032547,Funsho Bamgboye,822469,False
+12528273,58,Recep Burak Yılmaz,904172,Lamine Diack,982317,False
+12528273,10,Azizbek Turgunboev,971572,Alex Pritchard,180009,True
+12530887,86,João Mário,97001,Gedson Fernandes,862055,True
+12530887,86,Onur Bulut,142494,Rafa Silva,252577,True
+12530887,86,Melih Bostan,1133195,Danijel Aleksić,45377,False
+12530887,86,Marko Jevtović,310068,Riechedly Bazoer,227196,False
+12530887,74,Melih İbrahimoğlu,998462,Emmanuel Boateng,943485,False
+12530887,68,Mutassim Al-Musrati,868958,Semih Kılıçsoy,1142606,True
+12530887,66,Louka Prip,976127,Pedrinho,1015939,False
+12530887,66,Hamidou Keyta,829610,Yusuf Erdoğan,256663,False
+12530888,83,Sadık Çiftpınar,111811,Kévin Rodrigues,234232,False
+12530888,80,Rony Lopes,190147,Nicolas Janvier,802150,True
+12530888,76,Mamadou Fall,822228,Josip Brekalo,357598,False
+12530888,67,Antonín Barák,330705,Cafú,110956,False
+12530888,64,Nuno Lima,1133301,Fatih Aksoy,827922,True
+12530888,64,Ui-Jo Hwang,791314,Yusuf Özdemir,1084884,True
+12530888,46,Sergio Córdova,881222,Efecan Karaca,60510,True
+12530884,84,Soner Aydoğdu,69351,Marc Bola,862083,True
+12530884,84,Soner Gönül,867727,Carlo Holse,837012,True
+12530884,81,Youssef En-Nesyri,846470,Edin Džeko,14990,False
+12530884,76,Samet Akaydın,863600,Jayden Oosterwolde,1048324,False
+12530884,70,Gaëtan Laura,1004042,Zeki Yavru,140735,True
+12530884,70,Landry Dimata,826944,Emre Kılınç,202032,True
+12530884,58,İrfan Can Kahveci,226986,Filip Kostić,126588,False
+12530884,58,Çağlar Söyüncü,758608,Rodrigo Becão,880207,False
+12530884,58,Allan Saint-Maximin,347010,Fred,243623,False
+12530884,45,Kingsley Schindler,169113,Arbnor Muja,890695,True
+12530885,86,Celal Dumanli,903334,Ahmet Aslan,1134098,True
+12530885,86,Samet Yalçın,789102,Musah Mohammed,1105505,True
+12530885,81,Seyfettin Anıl Yaşar,999646,Husniddin Alikulov,1121174,False
+12530885,81,Kenan Özer,146364,Pedro Brazão,981535,True
+12530885,80,Ege Bilsel,1011244,Zdravko Dimitrov,871342,True
+12530885,72,Mithat Pala,1016393,Halil Ibrahim Pehlivan,777291,False
+12530885,72,Rachid Ghezzal,123228,Dal Varešanović,979109,False
+12530885,60,Taylan Antalyalı,190197,Fredy,845281,True
+12530885,46,Ali Sowe,238394,Václav Jurečka,225850,False
+12530885,46,Altin Zeqiri,991742,Emrecan Bulut,1480663,False
+12530877,90,Oguzhan Aksoy,1640657,Rey Manaj,587882,False
+12530877,87,Noah Sonko Sundberg,279541,Bengali-Fodé Koita,51407,False
+12530877,87,Keita Baldé,317699,Samba Camara,837301,False
+12530877,85,Ozan Demirbağ,1654166,Tayfun Aydoğan,816435,True
+12530877,68,Nabil Alioui,873049,İzzet Çelik,826836,True
+12530877,68,Yusuf Sarı,896364,Ali Yavuz Kol,910091,True
+12530877,46,Garry Rodrigues,787429,Queensy Menig,232318,False
+12530877,46,Jan Biegański,935966,Azizbek Turgunboev,971572,False
+12530877,12,Breyton Fougeu,1545020,Salih Kavrazlı,964233,True
+12530883,87,Yaw Ackah,984096,Kartal Kayra Yılmaz,966811,False
+12530883,86,Dimitris Kolovetsios,68228,Miguel Cardoso,344009,False
+12530883,86,Jonathan Okoronkwo,1188543,Lamine Diack,982317,True
+12530883,74,Abdulkadir Parmak,344225,Rui Pedro,862672,True
+12530883,73,Funsho Bamgboye,822469,Carlos Strandberg,333423,True
+12530883,72,Stéphane Bahoken,153220,Mehdi Bourabia,98003,False
+12530883,72,Ali Karimi,803869,Baran Ali Gezek,1215110,False
+12530883,63,Joelson Fernandes,1032547,Kerim Alıcı,758870,True
+12530883,62,Carlos Mané,859748,Duckens Nazon,796023,False
+12530881,89,Soner Gönül,867727,Marc Bola,862083,False
+12530881,89,Haluk Mustafa Tan,1605311,Emre Kılınç,202032,False
+12530881,82,Sinan Alkas,1548530,Nuno Da Costa,209374,True
+12530881,80,Flavien Tait,312388,Soner Aydoğdu,69351,False
+12530881,75,Antonín Barák,330705,Haris Hajradinović,254979,True
+12530881,75,Cafú,110956,Aytaç Kara,128196,True
+12530881,71,Sadık Çiftpınar,111811,Josip Brekalo,357598,True
+12530881,61,Gaëtan Laura,1004042,Kingsley Schindler,169113,False
+12530881,60,Landry Dimata,826944,Marius Mouandilmadji,943593,False
+12530876,90,İsmail Köybaşı,43605,Isaac Solet,1606478,True
+12530876,90,Victor Hugo,1170954,David Tijanič,827369,True
+12530876,88,Borna Barišić,335301,Eren Elmalı,981483,False
+12530876,78,Umut Bozok,869839,Ozan Tufan,251907,False
+12530876,70,Kuryu Matsuki,1154637,Juan Santos da Silva,1009928,True
+12530876,65,Lasse Nielsen,21547,Ogün Bayrak,903999,True
+12530876,65,Ahmed Ildız,849329,David Datro Fofana,1090458,True
+12530876,46,Muhammed-Cham Saračević,958901,Enis Bardhi,355024,False
+12530876,46,Stefano Denswil,97404,Pedro Malheiro,1131249,False
+12530876,46,Anthony Nwakaeme,139455,Denis Drăguş,841199,False
+12530879,88,Cyril Mandouki,821461,Christophe Lungoyi,883355,True
+12530879,88,Mirza Cihan,909289,Deian Sorescu,797602,True
+12530879,76,Quentin Daubin,826605,Alexandru Maxim,180511,True
+12530879,75,Hamidou Keyta,829610,Alassane Ndao,1016033,False
+12530879,75,Arda Kızıldağ,904228,Bruno Viana,804703,True
+12530879,75,Umut Nayir,284767,Emmanuel Boateng,943485,False
+12530879,65,Marko Jevtović,310068,Riechedly Bazoer,227196,False
+12530879,56,Halil Dervişoğlu,930775,Kenan Kodro,591140,True
+12530882,90,Amar Gerxhaliu,1123371,Sam Larsson,229800,False
+12530882,84,Sander van de Streek,220155,Moussa Djenepo,869910,False
+12530882,78,Rony Lopes,190147,Sergio Córdova,881222,True
+12530882,78,Serdar Dursun,123917,Nicolas Janvier,802150,True
+12530882,70,Efecan Karaca,60510,Richard,897617,True
+12530882,62,Andros Townsend,47992,Braian Samudio,892933,False
+12530882,46,Adolfo Gaich,940692,Jakub Kałuziński,1019026,False
+12530878,86,Mert Hakan Yandaş,856849,Edin Džeko,14990,True
+12530878,78,Haqi Osman,1126525,Taulant Seferi,279487,False
+12530878,70,Sebastian Szymański,847983,İsmail Yüksek,952600,True
+12530878,70,Dušan Tadić,38560,Allan Saint-Maximin,347010,True
+12530878,69,Oğuz Aydın,999396,İrfan Can Kahveci,226986,True
+12530878,69,Cenk Tosun,72127,Youssef En-Nesyri,846470,True
+12530878,69,Pedro Brazão,981535,Zdravko Dimitrov,871342,False
+12530878,69,Gökdeniz Bayrakdar,952564,George Pușcaș,190319,False
+12530878,46,Taylan Antalyalı,190197,Samet Yalçın,789102,False
+12530878,46,Fredy,845281,Ahmet Aslan,1134098,False
+12530874,87,Gianni Bruno,100680,Mame Thiam,180981,False
+12530874,81,Berkay Özcan,806964,João Figueiredo,841012,True
+12530874,80,Berat Ayberk Özdemir,876857,Onur Ergün,893009,True
+12530874,79,Halil Akbunar,217782,Emre Akbaba,343527,False
+12530874,69,Krzysztof Piątek,558738,Dimitrios Pelkas,139304,True
+12530874,63,Dorukhan Toköz,796133,Jonjo Shelvey,36465,False
+12530874,62,Samu Sáiz,99527,Ahmed Kutucu,906049,False
+12530880,90,Metehan Baltacı,997155,Barış Alper Yılmaz,904096,True
+12530880,90,Michy Batshuayi,147745,Mauro Icardi,233114,True
+12530880,85,Tayyip Talha Sanuç,851909,Emirhan Topçu,895009,False
+12530880,85,Onur Bulut,142494,Jonas Svensson,98199,False
+12530880,83,Kerem Demirbay,142619,Lucas Torreira,754794,True
+12530880,82,Dries Mertens,32493,Victor Osimhen,822471,True
+12530880,68,Ernest Muçi,924670,João Mário,97001,False
+12530880,51,Elias Jelert,1126433,Kaan Ayhan,138152,True
+12530867,90,Salem M'Bakata,940367,Mustafa Eskihellaç,899069,True
+12530867,88,Lasse Nielsen,21547,Nazım Sangaré,169425,False
+12530867,86,Quentin Daubin,826605,Halil Dervişoğlu,930775,True
+12530867,86,Cyril Mandouki,821461,Kacper Kozłowski,984602,True
+12530867,85,Novatus Miroshi,1103597,Victor Hugo,1170954,False
+12530867,85,Taha Altıkardeş,1101279,Koray Günter,138165,False
+12530867,85,İsmail Köybaşı,43605,Ahmed Ildız,849329,False
+12530867,72,Kenan Kodro,591140,Ertuğrul Ersoy,355004,True
+12530867,72,Mirza Cihan,909289,Alexandru Maxim,180511,True
+12530867,59,Kuryu Matsuki,1154637,David Datro Fofana,1090458,False
+12530875,88,Samba Camara,837301,Garry Rodrigues,787429,True
+12530875,84,Emrecan Bulut,1480663,Dal Varešanović,979109,False
+12530875,76,Azizbek Turgunboev,971572,Keita Baldé,317699,True
+12530875,70,Václav Jurečka,225850,Ali Sowe,238394,False
+12530875,56,Babajide David Akintola,798676,Halil Ibrahim Pehlivan,777291,False
+12530875,56,Altin Zeqiri,991742,Rachid Ghezzal,123228,False
+12530875,56,Mithat Pala,1016393,Giannis Papanikolaou,856988,False
+12530872,88,Nabil Alioui,873049,Yusuf Barası,1000187,False
+12530872,84,Yaw Ackah,984096,Carlos Mané,859748,True
+12530872,84,Ramazan Civelek,781408,Mehdi Bourabia,98003,True
+12530872,79,Abat Aimbetov,189193,Ali Yavuz Kol,910091,False
+12530872,73,Aylton Boa Morte,883918,Kartal Kayra Yılmaz,966811,True
+12530872,64,Florent Shehu,1009692,İzzet Çelik,826836,False
+12530872,63,Stéphane Bahoken,153220,Duckens Nazon,796023,True
+12530872,46,Yusuf Sarı,896364,Breyton Fougeu,1545020,False
+12530869,84,Gökhan Gül,797820,Haris Hajradinović,254979,False
+12530869,81,Salih Uçan,135695,Emirhan Topçu,895009,True
+12530869,80,Can Keleş,918408,Cher Ndour,1114422,True
+12530869,78,Josip Brekalo,357598,Mortadha Ben Ouanes,919225,False
+12530869,69,Cafú,110956,Antonín Barák,330705,False
+12530869,69,Aytaç Kara,128196,Loret Sadiku,143356,False
+12530869,68,João Mário,97001,Ernest Muçi,924670,True
+12530869,46,Mustafa Hekimoğlu,1524303,Ciro Immobile,45923,True
+12530870,88,Nikola Boranijašević,150667,Uğurcan Yazğılı,904303,True
+12530870,88,Hamidou Keyta,829610,Yusuf Erdoğan,256663,True
+12530870,78,Davidson,814334,Serdar Gürler,96520,False
+12530870,78,Lucas Lima,248529,Olivier Kemen,280447,False
+12530870,76,Umut Nayir,284767,Blaž Kramer,804405,True
+12530870,75,Melih İbrahimoğlu,998462,Pedrinho,1015939,True
+12530870,73,Oğulcan Ülgün,1063942,Danijel Aleksić,45377,True
+12530870,71,Matchoi Djaló,989599,Miguel Crespo,972410,False
+12530870,61,Dimitrios Pelkas,139304,João Figueiredo,841012,False
+12530870,61,Berat Ayberk Özdemir,876857,Onur Ergün,893009,False
+12530868,82,Haqi Osman,1126525,Taulant Seferi,279487,True
+12530868,82,Celal Dumanli,903334,George Pușcaș,190319,True
+12530868,76,Yusuf Özdemir,1084884,Serdar Dursun,123917,False
+12530868,71,Ui-Jo Hwang,791314,Efecan Karaca,60510,False
+12530868,65,Ahmet Aslan,1134098,Zdravko Dimitrov,871342,True
+12530868,60,Fredy,845281,Taylan Antalyalı,190197,True
+12530868,60,Gökdeniz Bayrakdar,952564,Pedro Brazão,981535,True
+12530868,55,Nuno Lima,1133301,Fatih Aksoy,827922,False
+12530868,55,Nicolas Janvier,802150,Buluthan Bulut,1046689,False
+12530871,90,Tayfur Bingöl,255957,Prince Ampem,923888,True
+12530871,86,Selimcan Temel,1003319,Görkem Sağlam,795001,False
+12530871,85,Halil Akbunar,217782,Emre Akbaba,343527,True
+12530871,85,Sinan Gümüş,169165,Ahmed Kutucu,906049,True
+12530871,67,Bilal Boutobba,769163,Joelson Fernandes,1032547,False
+12530871,67,Recep Burak Yılmaz,904172,Guy-Marcelin Kilama,944222,False
+12530871,67,Abdulkadir Parmak,344225,Rui Pedro,862672,False
+12530871,58,Taşkın Ilter,171911,Samu Sáiz,99527,True
+12530871,55,Funsho Bamgboye,822469,Kerim Alıcı,758870,False
+12530871,46,Rúben Vezo,233180,Umut Meraş,609746,True
+12530873,90,Muhammed-Cham Saračević,958901,Edin Višća,109779,True
+12530873,89,Borna Barišić,335301,Eren Elmalı,981483,True
+12530873,89,Enis Destan,1012480,Anthony Nwakaeme,139455,True
+12530873,88,Cihan Çanak,1127335,Ozan Tufan,251907,True
+12530873,85,İsmail Yüksek,952600,Fred,243623,False
+12530873,66,İrfan Can Kahveci,226986,Allan Saint-Maximin,347010,False
+12530873,66,Edin Džeko,14990,Sebastian Szymański,847983,False
+12530873,66,Filip Kostić,126588,Bright Osayi-Samuel,791616,False
+12530873,59,Rodrigo Becão,880207,Alexander Djiku,289977,False
+12530866,88,Soner Gönül,867727,Emre Kılınç,202032,True
+12530866,87,Flavien Tait,312388,Carlo Holse,837012,True
+12530866,87,Soner Aydoğdu,69351,Olivier Ntcham,352676,True
+12530866,77,Ramzi Safuri,186949,Moussa Djenepo,869910,False
+12530866,76,Braian Samudio,892933,Adolfo Gaich,940692,False
+12530866,71,Arbnor Muja,890695,Landry Dimata,826944,True
+12530866,64,Jakub Kałuziński,1019026,Erdal Rakip,319871,False
+12530866,64,Deni Milošević,190403,Soner Dikmen,847782,False
+12530866,58,Andros Townsend,47992,Amar Gerxhaliu,1123371,False
+12530866,46,Kingsley Schindler,169113,Zeki Yavru,140735,True
+12530859,87,Aylton Boa Morte,883918,Kartal Kayra Yılmaz,966811,False
+12530859,86,Duckens Nazon,796023,Miguel Cardoso,344009,False
+12530859,80,Erdem Çetinkaya,993902,Mortadha Ben Ouanes,919225,True
+12530859,76,Carlos Mané,859748,Stéphane Bahoken,153220,False
+12530859,76,Ali Karimi,803869,Baran Ali Gezek,1215110,False
+12530859,70,Jhon Espinoza,929098,Cláudio Winck,155998,True
+12530859,64,Yaw Ackah,984096,Mehdi Bourabia,98003,False
+12530859,46,Aytaç Kara,128196,Antonín Barák,330705,True
+12530859,46,Cafú,110956,Loret Sadiku,143356,True
+12530857,90,Amar Gerxhaliu,1123371,Adolfo Gaich,940692,True
+12530857,85,Celal Dumanli,903334,Ege Bilsel,1011244,False
+12530857,78,Enes Ogruce,1395595,Fredy,845281,False
+12530857,78,Andros Townsend,47992,Sam Larsson,229800,True
+12530857,78,Ramzi Safuri,186949,Soner Dikmen,847782,True
+12530857,68,Pedro Brazão,981535,Gökdeniz Bayrakdar,952564,False
+12530857,67,Samet Yalçın,789102,Ahmet Aslan,1134098,False
+12530857,65,Sander van de Streek,220155,Braian Samudio,892933,True
+12530857,46,Zdravko Dimitrov,871342,Taylan Antalyalı,190197,False
+12530857,46,Jakub Kałuziński,1019026,Erdal Rakip,319871,True
+12530860,90,Mirza Cihan,909289,Christophe Lungoyi,883355,False
+12530860,78,Kenan Kodro,591140,Halil Dervişoğlu,930775,False
+12530860,77,Furkan Soyalp,226992,Mustafa Eskihellaç,899069,False
+12530860,77,Cemali Sertel,929956,Cengiz Demir,1015360,True
+12530860,66,Emre Taşdemir,190191,Ertuğrul Ersoy,355004,False
+12530860,66,David Okereke,831290,Badou Ndiaye,228342,False
+12530860,63,Selimcan Temel,1003319,Rui Pedro,862672,True
+12530860,63,Carlos Strandberg,333423,Vincent Aboubakar,116869,True
+12530860,18,Funsho Bamgboye,822469,Kamil Ahmet Çörekçi,124728,True
+12530864,89,Breyton Fougeu,1545020,Ali Yavuz Kol,910091,True
+12530864,89,Umut Meraş,609746,Mame Thiam,180981,False
+12530864,82,Abat Aimbetov,189193,Tayfun Aydoğan,816435,True
+12530864,77,Dorukhan Toköz,796133,Taşkın Ilter,171911,False
+12530864,72,Samu Sáiz,99527,Emre Akbaba,343527,False
+12530864,72,Gianni Bruno,100680,Prince Ampem,923888,False
+12530864,66,Ozan Demirbağ,1654166,Yusuf Barası,1000187,True
+12530864,65,Nabil Alioui,873049,İzzet Çelik,826836,True
+12530864,46,Halil Akbunar,217782,Ahmed Kutucu,906049,False
+12530861,90,Emrecan Bulut,1480663,Babajide David Akintola,798676,True
+12530861,90,Seyfettin Anıl Yaşar,999646,Ibrahim Olawoyin,1008173,True
+12530861,90,Eray Korkmaz,1145620,Rachid Ghezzal,123228,True
+12530861,90,Václav Jurečka,225850,Ali Sowe,238394,True
+12530861,84,Umut Bozok,869839,Edin Višća,109779,False
+12530861,79,Muhammed-Cham Saračević,958901,Stefano Denswil,97404,False
+12530861,69,Muhamed Buljubašić,1134586,Dal Varešanović,979109,True
+12530861,59,Denis Drăguş,841199,Enis Destan,1012480,False
+12530861,59,Cihan Çanak,1127335,Ozan Tufan,251907,False
+12530862,90,Koray Günter,138165,Rômulo,1133743,True
+12530862,88,Filip Damjanović,851666,Riechedly Bazoer,227196,False
+12530862,82,Melih İbrahimoğlu,998462,Pedrinho,1015939,False
+12530862,82,Hamidou Keyta,829610,Yusuf Erdoğan,256663,False
+12530862,74,Victor Hugo,1170954,Ahmed Ildız,849329,True
+12530862,74,İsmail Köybaşı,43605,Djalma,973933,True
+12530862,70,Oğulcan Ülgün,1063942,Danijel Aleksić,45377,False
+12530862,70,Umut Nayir,284767,Blaž Kramer,804405,False
+12530862,62,Kuryu Matsuki,1154637,David Tijanič,827369,True
+12530862,62,Juan Santos da Silva,1009928,David Datro Fofana,1090458,True
+12530858,89,Flavien Tait,312388,Olivier Ntcham,352676,False
+12530858,88,Elias Jelert,1126433,Yunus Akgün,857738,True
+12530858,82,Hakim Ziyech,249437,Victor Osimhen,822471,True
+12530858,80,Soner Aydoğdu,69351,Carlo Holse,837012,False
+12530858,79,Arbnor Muja,890695,Zeki Yavru,140735,False
+12530858,75,Berkan Kutlu,992912,Barış Alper Yılmaz,904096,True
+12530858,75,Michy Batshuayi,147745,Dries Mertens,32493,True
+12530858,65,Gaëtan Laura,1004042,Emre Kılınç,202032,False
+12530858,65,Kingsley Schindler,169113,Landry Dimata,826944,False
+12530858,46,Victor Nelsson,846148,Ismail Jakobs,897291,True
+12530856,86,Salih Uçan,135695,João Mário,97001,False
+12530856,86,Mustafa Hekimoğlu,1524303,Ernest Muçi,924670,False
+12530856,84,Philippe Keny,988909,Krzysztof Piątek,558738,True
+12530856,83,João Figueiredo,841012,Serdar Gürler,96520,True
+12530856,77,Olivier Kemen,280447,Berat Ayberk Özdemir,876857,True
+12530856,66,Milot Rashica,800411,Semih Kılıçsoy,1142606,False
+12530856,63,Berkay Özcan,806964,Miguel Crespo,972410,True
+12530856,62,Onur Ergün,893009,Ömer Ali Şahiner,103912,True
+12530863,90,Yilmaz Cin,1990563,Samuel Moutoussamy,892624,False
+12530863,88,Rodrigo Becão,880207,Alexander Djiku,289977,True
+12530863,88,Bartuğ Elmaz,997165,Sofyan Amrabat,359272,True
+12530863,78,Jan Biegański,935966,Achilleas Poungouras,783466,False
+12530863,78,Emrah Başsan,174141,Garry Rodrigues,787429,False
+12530863,71,Edin Džeko,14990,Youssef En-Nesyri,846470,True
+12530863,71,Fred,243623,Mert Hakan Yandaş,856849,True
+12530863,62,Queensy Menig,232318,Keita Baldé,317699,False
+12530863,62,Emirhan Başyiğit,1149004,Azizbek Turgunboev,971572,False
+12530863,12,Alexander Djiku,289977,Çağlar Söyüncü,758608,True
+12530852,90,Ayberk Karapo,1395701,Ibrahim Olawoyin,1008173,False
+12530852,90,Václav Jurečka,225850,Rachid Ghezzal,123228,False
+12530852,90,Giannis Papanikolaou,856988,Ali Sowe,238394,False
+12530852,88,Emrecan Bulut,1480663,Babajide David Akintola,798676,False
+12530852,80,Tayfur Bingöl,255957,Rúben Vezo,233180,True
+12530852,80,Caner Erkin,15680,Emre Akbaba,343527,True
+12530852,71,Samu Sáiz,99527,Taşkın Ilter,171911,True
+12530852,71,Gianni Bruno,100680,Prince Ampem,923888,True
+12530852,71,Muhamed Buljubašić,1134586,Dal Varešanović,979109,False
+12530852,57,Luccas Claro,998209,Umut Meraş,609746,True
+12530849,90,Furkan Soyalp,226992,Alexandru Maxim,180511,True
+12530849,89,Kenan Kodro,591140,Christophe Lungoyi,883355,True
+12530849,84,Ogün Özçiçek,859783,Kacper Kozłowski,984602,True
+12530849,84,Cyril Mandouki,821461,Badou Ndiaye,228342,True
+12530849,76,Philippe Keny,988909,Serdar Gürler,96520,False
+12530849,70,David Okereke,831290,Halil Dervişoğlu,930775,True
+12530849,46,Miguel Crespo,972410,Berat Ayberk Özdemir,876857,False
+12530849,46,Olivier Kemen,280447,Berkay Özcan,806964,False
+12530849,46,Dimitrios Pelkas,139304,Ömer Faruk Beyaz,1022881,False
+12530849,32,João Figueiredo,841012,Deniz Türüç,252207,False
+12530854,89,Levent Mercan,1085938,Oğuz Aydın,999396,False
+12530854,89,İsmail Yüksek,952600,Sofyan Amrabat,359272,False
+12530854,75,Mert Müldür,836683,Bright Osayi-Samuel,791616,False
+12530854,70,Duckens Nazon,796023,Stéphane Bahoken,153220,True
+12530854,64,Edin Džeko,14990,Youssef En-Nesyri,846470,False
+12530854,64,Sebastian Szymański,847983,Mert Hakan Yandaş,856849,False
+12530854,46,Aylton Boa Morte,883918,Ramazan Civelek,781408,True
+12530854,46,Ali Karimi,803869,Baran Ali Gezek,1215110,True
+12530848,90,Victor Nelsson,846148,Kaan Ayhan,138152,False
+12530848,90,Kerem Demirbay,142619,Gabriel Sara,913593,False
+12530848,80,Pedro Brazão,981535,Taylan Antalyalı,190197,True
+12530848,80,Celal Dumanli,903334,George Pușcaș,190319,True
+12530848,72,Elias Jelert,1126433,Dries Mertens,32493,False
+12530848,62,Hakim Ziyech,249437,Yunus Akgün,857738,False
+12530848,62,Ahmet Aslan,1134098,Uzeyir Ergun,996122,True
+12530848,62,Taulant Seferi,279487,Samet Yalçın,789102,True
+12530848,46,Michy Batshuayi,147745,Metehan Baltacı,997155,False
+12530848,30,Diogo Sousa,882110,Gökhan Akkan,225012,True
+12530855,90,Antonín Barák,330705,Gökhan Gül,797820,False
+12530855,79,Loret Sadiku,143356,Aytaç Kara,128196,False
+12530855,78,Rey Manaj,587882,Garry Rodrigues,787429,True
+12530855,78,Ziya Erdal,138312,Charis Charisis,317297,True
+12530855,68,Josip Brekalo,357598,Mamadou Fall,822228,False
+12530855,64,Emrah Başsan,174141,Samuel Moutoussamy,892624,True
+12530855,46,Cafú,110956,Haris Hajradinović,254979,False
+12530855,46,Achilleas Poungouras,783466,Azizbek Turgunboev,971572,True
+12530855,46,Bekir Turaç Böke,997681,Alex Pritchard,180009,True
+12530847,87,Uğurcan Yazğılı,904303,Alassane Ndao,1016033,True
+12530847,87,Jonathan Okoronkwo,1188543,Carlos Strandberg,333423,False
+12530847,77,Ufuk Akyol,859546,Danijel Aleksić,45377,True
+12530847,75,Bilal Boutobba,769163,Funsho Bamgboye,822469,False
+12530847,68,Vincent Aboubakar,116869,Abdulkadir Parmak,344225,False
+12530847,66,Blaž Kramer,804405,Umut Nayir,284767,True
+12530847,66,Hamidou Keyta,829610,Yusuf Erdoğan,256663,True
+12530847,66,Melih İbrahimoğlu,998462,Pedrinho,1015939,True
+12530845,90,Rony Lopes,190147,Gaius Makouta,847013,False
+12530845,83,Soner Gönül,867727,Landry Dimata,826944,True
+12530845,79,Fatih Aksoy,827922,Nicolas Janvier,802150,False
+12530845,76,Kingsley Schindler,169113,Zeki Yavru,140735,True
+12530845,76,Arbnor Muja,890695,Emre Kılınç,202032,True
+12530845,69,Ui-Jo Hwang,791314,Efecan Karaca,60510,False
+12530845,69,Gaëtan Laura,1004042,Marius Mouandilmadji,943593,True
+12530850,77,Novatus Miroshi,1103597,İsmail Köybaşı,43605,False
+12530850,77,Nazım Sangaré,169425,Ogün Bayrak,903999,False
+12530850,72,David Tijanič,827369,Kuryu Matsuki,1154637,False
+12530850,72,David Datro Fofana,1090458,Juan Santos da Silva,1009928,False
+12530850,59,Ciro Immobile,45923,Emirhan Topçu,895009,True
+12530850,59,Cher Ndour,1114422,Mutassim Al-Musrati,868958,True
+12530850,43,Victor Hugo,1170954,Isaac Solet,1606478,False
+12530853,90,Aksel Aktaş,863172,Tayfun Aydoğan,816435,False
+12530853,89,Ahmet Yilmaz,1983995,Yusuf Sarı,896364,False
+12530853,87,Ali Şahin Yılmaz,1145980,Serkan Asan,952726,True
+12530853,83,Florent Shehu,1009692,Nabil Alioui,873049,False
+12530853,83,Osman Kaynak,1170288,Yusuf Barası,1000187,False
+12530853,82,Poyraz Efe Yıldırım,1195797,Simon Banza,825945,True
+12530853,82,Salih Malkoçoğlu,1499364,Umut Güneş,876782,True
+12530853,67,Serdar Saatçı,1084880,Hüseyin Türkmen,913994,True
+12530853,67,Enis Destan,1012480,Edin Višća,109779,True
+12530853,46,Ozan Demirbağ,1654166,Ali Yavuz Kol,910091,False
+12530839,90,Bekir Turaç Böke,997681,Charis Charisis,317297,False
+12530839,90,Mert Yilmaz,881966,Soner Dikmen,847782,True
+12530839,90,Emre Uzun,1212159,Ramzi Safuri,186949,True
+12530839,86,Queensy Menig,232318,Alaaddin Okumuş,844640,False
+12530839,67,Azizbek Turgunboev,971572,Alex Pritchard,180009,False
+12530839,67,Keita Baldé,317699,Garry Rodrigues,787429,False
+12530839,63,Andros Townsend,47992,Oleksandr Petrusenko,906673,True
+12530839,24,Sander van de Streek,220155,Braian Samudio,892933,True
+12530840,87,Kenan Özer,146364,Taulant Seferi,279487,False
+12530840,87,Yusuf Sertkaya,1216154,Fredy,845281,False
+12530840,85,Flavien Tait,312388,Carlo Holse,837012,True
+12530840,78,Soner Gönül,867727,Marc Bola,862083,True
+12530840,78,Arbnor Muja,890695,Landry Dimata,826944,True
+12530840,68,Enes Ogruce,1395595,Zdravko Dimitrov,871342,False
+12530840,68,Kingsley Schindler,169113,Zeki Yavru,140735,True
+12530840,68,Cenk Şen,957359,Pedro Brazão,981535,False
+12530840,67,Soner Aydoğdu,69351,Olivier Ntcham,352676,True
+12530840,54,Gabriel Obekpa,1481257,Arlind Ajeti,111746,False
+12530843,85,Ufuk Akyol,859546,Oğulcan Ülgün,1063942,False
+12530843,84,Danijel Aleksić,45377,Pedrinho,1015939,False
+12530843,84,Blaž Kramer,804405,Umut Nayir,284767,False
+12530843,81,Ozan Demirbağ,1654166,Tayfun Aydoğan,816435,True
+12530843,76,Yusuf Erdoğan,256663,Muhammet Tunahan Taşçı,980612,False
+12530843,71,Louka Prip,976127,Hamidou Keyta,829610,False
+12530843,70,Motez Nourani,1640310,Ali Yavuz Kol,910091,True
+12530843,69,Abat Aimbetov,189193,Yusuf Barası,1000187,True
+12530843,59,Nabil Alioui,873049,İzzet Çelik,826836,True
+12530843,58,Tolga Kalender,903851,Jovan Manev,1111781,True
+12530842,86,Fatih Aksoy,827922,Sergio Córdova,881222,True
+12530842,84,Poyraz Efe Yıldırım,1195797,Batista Mendy,859021,False
+12530842,72,Jure Balkovec,171625,Nicolas Janvier,802150,True
+12530842,64,Eren Elmalı,981483,Arif Boşluk,1138095,False
+12530842,63,Ui-Jo Hwang,791314,Efecan Karaca,60510,True
+12530842,62,Enis Destan,1012480,Denis Drăguş,841199,False
+12530842,62,John Lundstram,149815,Umut Güneş,876782,False
+12530842,46,Edin Višća,109779,Cihan Çanak,1127335,False
+12530838,88,Dimitrios Pelkas,139304,Onur Ergün,893009,True
+12530838,88,Berat Ayberk Özdemir,876857,Olivier Kemen,280447,True
+12530838,83,Nazım Sangaré,169425,Ogün Bayrak,903999,False
+12530838,82,Philippe Keny,988909,Krzysztof Piątek,558738,True
+12530838,82,Patryk Szysz,831930,Deniz Türüç,252207,True
+12530838,77,João Figueiredo,841012,Davidson,814334,True
+12530838,70,Novatus Miroshi,1103597,Victor Hugo,1170954,False
+12530838,70,David Datro Fofana,1090458,Juan Santos da Silva,1009928,False
+12530838,46,Djalma,973933,İsmail Köybaşı,43605,False
+12530838,46,David Tijanič,827369,Kuryu Matsuki,1154637,False
+12530846,87,Eray Korkmaz,1145620,Mithat Pala,1016393,True
+12530846,84,Benhur Keser,899402,Rachid Ghezzal,123228,True
+12530846,84,Václav Jurečka,225850,Ali Sowe,238394,True
+12530846,84,Altin Zeqiri,991742,Emrecan Bulut,1480663,True
+12530846,70,Yaw Ackah,984096,Ali Karimi,803869,False
+12530846,70,Duckens Nazon,796023,Aylton Boa Morte,883918,False
+12530846,69,Muhamed Buljubašić,1134586,Dal Varešanović,979109,True
+12530846,46,Carlos Mané,859748,Gökhan Sazdağı,595396,False
+12530846,46,Baran Ali Gezek,1215110,Mehdi Bourabia,98003,False
+12530841,90,Hüseyin Maldar,1618510,Halil Akbunar,217782,False
+12530841,90,Sinan Gümüş,169165,Taşkın Ilter,171911,False
+12530841,85,Kerem Demirbay,142619,Gabriel Sara,913593,True
+12530841,85,Hakim Ziyech,249437,Dries Mertens,32493,True
+12530841,85,Elias Jelert,1126433,Barış Alper Yılmaz,904096,True
+12530841,73,Michy Batshuayi,147745,Yunus Akgün,857738,True
+12530841,64,Prince Ampem,923888,Gianni Bruno,100680,False
+12530841,55,Samu Sáiz,99527,Léo Dubois,552680,False
+12530841,39,Berkan Kutlu,992912,Abdülkerim Bardakcı,178963,True
+12530851,85,Halil Dervişoğlu,930775,Alexandru Maxim,180511,False
+12530851,85,Furkan Soyalp,226992,Badou Ndiaye,228342,False
+12530851,80,Mert Müldür,836683,Dušan Tadić,38560,True
+12530851,74,Cyril Mandouki,821461,Ogün Özçiçek,859783,False
+12530851,66,Sebastian Szymański,847983,Bright Osayi-Samuel,791616,True
+12530851,66,Edin Džeko,14990,Youssef En-Nesyri,846470,True
+12530851,60,Quentin Daubin,826605,Kenan Kodro,591140,False
+12530851,46,Sofyan Amrabat,359272,İsmail Yüksek,952600,True
+12530851,46,Allan Saint-Maximin,347010,İrfan Can Kahveci,226986,True
+12530844,87,Bilal Boutobba,769163,Joelson Fernandes,1032547,True
+12530844,84,Can Keleş,918408,Salih Uçan,135695,False
+12530844,84,Bakhtiyar Zaynutdinov,887382,Tayyip Talha Sanuç,851909,False
+12530844,78,Alex Oxlade-Chamberlain,10577,Semih Kılıçsoy,1142606,False
+12530844,78,Carlos Strandberg,333423,Vincent Aboubakar,116869,True
+12530844,73,Recep Burak Yılmaz,904172,Rigoberto Rivas,837742,True
+12530844,73,Funsho Bamgboye,822469,Kamil Ahmet Çörekçi,124728,True
+12530844,72,Abdulkadir Parmak,344225,Rui Pedro,862672,True
+12530844,65,Mutassim Al-Musrati,868958,Milot Rashica,800411,False
+12530835,90,Ozan Tufan,251907,Pedro Malheiro,1131249,True
+12530835,85,Sadık Çiftpınar,111811,Nicholas Opoku,885683,False
+12530835,85,Antonín Barák,330705,Gökhan Gül,797820,False
+12530835,85,Josip Brekalo,357598,Kévin Rodrigues,234232,False
+12530835,69,Loret Sadiku,143356,Cafú,110956,False
+12530835,46,Anthony Nwakaeme,139455,Denis Drăguş,841199,True
+12530835,46,Enis Destan,1012480,John Lundstram,149815,True
+12530832,90,Abdurrahim Dursun,883275,Adolfo Gaich,940692,False
+12530832,90,Deni Milošević,190403,Jakub Kałuziński,1019026,False
+12530832,90,Melih Bostan,1133195,Alassane Ndao,1016033,True
+12530832,90,Adem Eren Kabak,1016473,Danijel Aleksić,45377,True
+12530832,82,Melih İbrahimoğlu,998462,Pedrinho,1015939,True
+12530832,82,Blaž Kramer,804405,Umut Nayir,284767,True
+12530832,77,Mert Yilmaz,881966,Güray Vural,43559,False
+12530832,72,Louka Prip,976127,Yusuf Erdoğan,256663,True
+12530832,65,Andros Townsend,47992,Oleksandr Petrusenko,906673,False
+12530832,46,Ramzi Safuri,186949,Sander van de Streek,220155,False
+12530828,90,Burhan Ersoy,1640309,Abdulsamet Burak,900798,False
+12530828,90,Osman Kaynak,1170288,Yusuf Sarı,896364,False
+12530828,85,Ozan Demirbağ,1654166,Yusuf Barası,1000187,False
+12530828,82,İsmail Köybaşı,43605,Djalma,973933,True
+12530828,82,Nazım Sangaré,169425,Victor Hugo,1170954,True
+12530828,71,Novatus Miroshi,1103597,David Datro Fofana,1090458,True
+12530828,63,Kuryu Matsuki,1154637,David Tijanič,827369,True
+12530828,63,David Datro Fofana,1090458,Juan Santos da Silva,1009928,True
+12530828,56,Abat Aimbetov,189193,İzzet Çelik,826836,False
+12530828,46,Nabil Alioui,873049,Tayfun Aydoğan,816435,False
+12530830,90,Ernest Muçi,924670,Rafa Silva,252577,True
+12530830,82,Bright Osayi-Samuel,791616,Mert Müldür,836683,False
+12530830,82,Cenk Tosun,72127,Fred,243623,False
+12530830,82,İrfan Can Kahveci,226986,Filip Kostić,126588,False
+12530830,78,Semih Kılıçsoy,1142606,Ciro Immobile,45923,True
+12530830,78,Cher Ndour,1114422,Milot Rashica,800411,True
+12530830,70,Bakhtiyar Zaynutdinov,887382,Tayyip Talha Sanuç,851909,True
+12530830,70,Alex Oxlade-Chamberlain,10577,Salih Uçan,135695,True
+12530830,67,Youssef En-Nesyri,846470,Edin Džeko,14990,False
+12530830,67,Sebastian Szymański,847983,Allan Saint-Maximin,347010,False
+12530837,90,Gianni Bruno,100680,Mame Thiam,180981,True
+12530837,90,Dorukhan Toköz,796133,Ahmed Kutucu,906049,True
+12530837,87,Umut Meraş,609746,Tayfur Bingöl,255957,True
+12530837,83,Kingsley Schindler,169113,Zeki Yavru,140735,False
+12530837,83,Arbnor Muja,890695,Emre Kılınç,202032,False
+12530837,83,Samu Sáiz,99527,Emre Akbaba,343527,True
+12530837,83,Sinan Gümüş,169165,Halil Akbunar,217782,True
+12530837,77,Soner Aydoğdu,69351,Olivier Ntcham,352676,False
+12530837,77,Soner Gönül,867727,Marc Bola,862083,False
+12530837,76,Ercan Kara,843039,Marius Mouandilmadji,943593,False
+12530834,90,Ramazan Civelek,781408,Aylton Boa Morte,883918,True
+12530834,87,Julian Jeanvier,250477,Miguel Cardoso,344009,True
+12530834,82,Serdar Dursun,123917,Efecan Karaca,60510,False
+12530834,76,Hasan Ali Kaldırım,39847,Lionel Carole,122922,True
+12530834,76,Yaw Ackah,984096,Carlos Mané,859748,True
+12530834,71,Buluthan Bulut,1046689,Richard,897617,False
+12530834,57,Rony Lopes,190147,Ui-Jo Hwang,791314,False
+12530836,90,Kerem Demirbay,142619,Gabriel Sara,913593,False
+12530836,90,Efe Akman,1215206,Lucas Torreira,754794,False
+12530836,74,Michy Batshuayi,147745,Yunus Akgün,857738,False
+12530836,74,Victor Nelsson,846148,Victor Osimhen,822471,False
+12530836,73,Keita Baldé,317699,Garry Rodrigues,787429,True
+12530836,73,Bekir Turaç Böke,997681,Uroš Radaković,151900,True
+12530836,64,Elias Jelert,1126433,Dries Mertens,32493,False
+12530836,64,Özkan Yigiter,1131626,Charis Charisis,317297,True
+12530836,58,Alex Pritchard,180009,Emirhan Başyiğit,1149004,True
+12530836,46,Ali Şaşal Vural,94540,Đorđe Nikolić,797144,True
+12530831,90,Emre Kaplan,1009308,Deniz Türüç,252207,True
+12530831,90,Dimitrios Pelkas,139304,João Figueiredo,841012,True
+12530831,89,Philippe Keny,988909,Krzysztof Piątek,558738,True
+12530831,78,Berat Ayberk Özdemir,876857,Miguel Crespo,972410,True
+12530831,71,Bilal Boutobba,769163,Funsho Bamgboye,822469,False
+12530831,71,Abdulkadir Parmak,344225,Rui Pedro,862672,False
+12530831,71,João Figueiredo,841012,Davidson,814334,True
+12530831,65,Kerim Alıcı,758870,Recep Burak Yılmaz,904172,False
+12530831,65,Cengiz Demir,1015360,Cemali Sertel,929956,False
+12530833,88,Ertuğrul Ersoy,355004,David Okereke,831290,True
+12530833,82,Cyril Mandouki,821461,Ogün Özçiçek,859783,True
+12530833,79,Muhamed Buljubašić,1134586,Taha Şahin,1394729,False
+12530833,79,Benhur Keser,899402,Ali Sowe,238394,False
+12530833,72,Kenan Kodro,591140,Halil Dervişoğlu,930775,True
+12530833,70,Václav Jurečka,225850,Dal Varešanović,979109,False
+12530833,62,Casper Højer,281233,Babajide David Akintola,798676,False
+12530833,62,Altin Zeqiri,991742,Amir Hadžiahmetović,795421,False
+12530833,46,Mustafa Burak Bozan,934201,Sokratis Dioudis,173933,True
+12530833,46,Quentin Daubin,826605,Deian Sorescu,797602,True
+12530823,90,Haqi Osman,1126525,Taulant Seferi,279487,True
+12530823,90,Pedro Brazão,981535,Gökdeniz Bayrakdar,952564,True
+12530823,90,Oguzhan Aksoy,1640657,Azizbek Turgunboev,971572,False
+12530823,90,Bekir Turaç Böke,997681,Bengali-Fodé Koita,51407,False
+12530823,90,Enes Ogruce,1395595,Fredy,845281,True
+12530823,82,Ege Bilsel,1011244,Uzeyir Ergun,996122,True
+12530823,77,Emrah Başsan,174141,Garry Rodrigues,787429,False
+12530823,46,Zdravko Dimitrov,871342,George Pușcaș,190319,True
+12530825,90,Sadık Çiftpınar,111811,Josip Brekalo,357598,True
+12530825,90,Loret Sadiku,143356,Gökhan Gül,797820,True
+12530825,87,Cafú,110956,Haris Hajradinović,254979,True
+12530825,81,Gianni Bruno,100680,Tayfur Bingöl,255957,False
+12530825,71,Erdem Çetinkaya,993902,Nuno Da Costa,209374,True
+12530825,71,Antonín Barák,330705,Aytaç Kara,128196,True
+12530825,63,Emre Mor,826258,Halil Akbunar,217782,False
+12530825,63,Samu Sáiz,99527,Emre Akbaba,343527,False
+12530825,46,Rúben Vezo,233180,Prince Ampem,923888,False
+12530825,45,Muhammed Birkan Tetik,788087,Berke Özer,847494,False
+12530826,87,Benhur Keser,899402,Rachid Ghezzal,123228,True
+12530826,87,Emmanuel Boateng,943485,Danijel Aleksić,45377,False
+12530826,77,Václav Jurečka,225850,Ali Sowe,238394,True
+12530826,76,Dal Varešanović,979109,Giannis Papanikolaou,856988,True
+12530826,70,Melih İbrahimoğlu,998462,Yusuf Erdoğan,256663,False
+12530826,46,Uğurcan Yazğılı,904303,Riechedly Bazoer,227196,False
+12530826,46,Umut Nayir,284767,Blaž Kramer,804405,False
+12530826,46,Louka Prip,976127,Alassane Ndao,1016033,False
+12530824,89,Buluthan Bulut,1046689,Fatih Aksoy,827922,True
+12530824,83,Mirza Cihan,909289,Salem M'Bakata,940367,False
+12530824,83,Ui-Jo Hwang,791314,Loide Augusto,1110708,True
+12530824,74,Rony Lopes,190147,Efecan Karaca,60510,True
+12530824,74,Richard,897617,Nicolas Janvier,802150,True
+12530824,65,Kenan Kodro,591140,Ogün Özçiçek,859783,False
+12530824,64,Ertuğrul Ersoy,355004,Arda Kızıldağ,904228,False
+12530824,34,Emre Taşdemir,190191,Christophe Lungoyi,883355,False
+12530820,90,Carlos Strandberg,333423,Joelson Fernandes,1032547,True
+12530820,86,İsmail Köybaşı,43605,Anthony Junior Dennis,1484438,False
+12530820,85,Doğan Erdoğan,257407,Victor Hugo,1170954,False
+12530820,85,Lasse Nielsen,21547,Nazım Sangaré,169425,False
+12530820,80,Cengiz Demir,1015360,Rigoberto Rivas,837742,True
+12530820,77,Funsho Bamgboye,822469,Recep Burak Yılmaz,904172,True
+12530820,76,Kuryu Matsuki,1154637,Juan Santos da Silva,1009928,False
+12530820,67,Koray Günter,138165,Taha Altıkardeş,1101279,False
+12530821,87,Talha Sariarslan,1088715,Mehdi Bourabia,98003,False
+12530821,84,Andros Townsend,47992,Sam Larsson,229800,True
+12530821,84,Erdal Rakip,319871,Soner Dikmen,847782,True
+12530821,84,Abdurrahim Dursun,883275,Erdoğan Yeşilyurt,142541,True
+12530821,76,Ramzi Safuri,186949,Sander van de Streek,220155,True
+12530821,71,Ramazan Civelek,781408,Hasan Ali Kaldırım,39847,False
+12530821,71,Yaw Ackah,984096,Stéphane Bahoken,153220,False
+12530821,64,Braian Samudio,892933,Adolfo Gaich,940692,True
+12530821,64,Duckens Nazon,796023,Baran Ali Gezek,1215110,False
+12530827,87,Patryk Szysz,831930,Davidson,814334,False
+12530827,87,Dimitrios Pelkas,139304,Berat Ayberk Özdemir,876857,False
+12530827,63,Mert Müldür,836683,Bright Osayi-Samuel,791616,True
+12530827,63,Youssef En-Nesyri,846470,Sofyan Amrabat,359272,True
+12530827,55,Dušan Tadić,38560,İrfan Can Kahveci,226986,True
+12530827,55,Allan Saint-Maximin,347010,Oğuz Aydın,999396,True
+12530827,46,Hamza Güreler,1562294,Deniz Türüç,252207,False
+12530827,32,Osman Ertuğrul Çetin,1023481,Dominik Livaković,190419,True
+12530829,90,Burhan Ersoy,1640309,Yusuf Sarı,896364,True
+12530829,90,Bunyamin Balat,996317,Ali Yavuz Kol,910091,True
+12530829,90,Ozan Demirbağ,1654166,Yusuf Barası,1000187,True
+12530829,85,João Mário,97001,Salih Uçan,135695,False
+12530829,82,Florent Shehu,1009692,Abat Aimbetov,189193,True
+12530829,81,Tayfun Aydoğan,816435,İzzet Çelik,826836,True
+12530829,73,Mustafa Hekimoğlu,1524303,Can Keleş,918408,False
+12530829,46,Ernest Muçi,924670,Alex Oxlade-Chamberlain,10577,False
+12530829,46,Bakhtiyar Zaynutdinov,887382,Arthur Masuaku,174975,False
+12530822,90,Borna Barišić,335301,Eren Elmalı,981483,False
+12530822,90,Umut Güneş,876782,Muhammed-Cham Saračević,958901,False
+12530822,90,Ali Şahin Yılmaz,1145980,Serdar Saatçı,1084880,False
+12530822,89,Yusuf Demir,962283,Barış Alper Yılmaz,904096,True
+12530822,89,Kerem Demirbay,142619,Lucas Torreira,754794,True
+12530822,75,Ismail Jakobs,897291,Berkan Kutlu,992912,True
+12530822,75,Victor Osimhen,822471,Yunus Akgün,857738,True
+12530822,59,Michy Batshuayi,147745,Elias Jelert,1126433,True
+12530822,46,Denis Drăguş,841199,Edin Višća,109779,False
+12530816,84,Gianni Bruno,100680,Ahmed Kutucu,906049,True
+12530816,82,Cengiz Ünder,758876,Fred,243623,False
+12530816,82,Mert Müldür,836683,Bright Osayi-Samuel,791616,False
+12530816,82,İsmail Yüksek,952600,Dušan Tadić,38560,False
+12530816,79,Tayfur Bingöl,255957,Robin Yalçın,138154,True
+12530816,79,Emre Mor,826258,Dorukhan Toköz,796133,True
+12530816,69,Umut Meraş,609746,Caner Erkin,15680,True
+12530816,69,Allan Saint-Maximin,347010,İrfan Can Kahveci,226986,False
+12530816,69,Edin Džeko,14990,Sebastian Szymański,847983,False
+12530816,69,Prince Ampem,923888,Halil Akbunar,217782,True
+12530818,85,Soner Aydoğdu,69351,Olivier Ntcham,352676,False
+12530818,85,Bengali-Fodé Koita,51407,Emrah Başsan,174141,True
+12530818,73,Celil Yüksel,806972,Youssef Aït Bennasser,802850,False
+12530818,73,Queensy Menig,232318,Alex Pritchard,180009,True
+12530818,67,Gaëtan Laura,1004042,Arbnor Muja,890695,False
+12530818,67,Kingsley Schindler,169113,Landry Dimata,826944,False
+12530818,67,Soner Gönül,867727,Marc Bola,862083,False
+12530808,88,Mustafa Hekimoğlu,1524303,Mutassim Al-Musrati,868958,True
+12530808,86,Buluthan Bulut,1046689,Nicolas Janvier,802150,False
+12530808,86,Rony Lopes,190147,Loide Augusto,1110708,False
+12530808,74,Ui-Jo Hwang,791314,Efecan Karaca,60510,False
+12530808,70,Arthur Masuaku,174975,Bakhtiyar Zaynutdinov,887382,True
+12530808,70,Alex Oxlade-Chamberlain,10577,Ernest Muçi,924670,True
+12530808,56,Richard,897617,Fatih Aksoy,827922,False
+12530808,46,Cher Ndour,1114422,Salih Uçan,135695,True
+12530811,88,Quentin Daubin,826605,Alexandru Maxim,180511,True
+12530811,87,Kenan Kodro,591140,Halil Dervişoğlu,930775,True
+12530811,83,Taha Özmert,1979695,Mert Yilmaz,881966,False
+12530811,78,Abdurrahim Dursun,883275,Bünyamin Balcı,967214,False
+12530811,76,Christophe Lungoyi,883355,David Okereke,831290,True
+12530811,67,Ogün Özçiçek,859783,Kacper Kozłowski,984602,True
+12530811,67,Andros Townsend,47992,Adolfo Gaich,940692,False
+12530811,46,Braian Samudio,892933,Moussa Djenepo,869910,False
+12530811,46,Erdal Rakip,319871,Oleksandr Petrusenko,906673,False
+12530814,90,İzzet Furkan Malak,1397819,Rômulo,1133743,True
+12530814,90,Tarık Çetin,913985,Ivo Grbić,283847,False
+12530814,86,Emrecan Bulut,1480663,Rachid Ghezzal,123228,False
+12530814,84,Nazım Sangaré,169425,David Tijanič,827369,True
+12530814,83,İsmail Köybaşı,43605,Djalma,973933,True
+12530814,83,Doğan Erdoğan,257407,Anthony Junior Dennis,1484438,True
+12530814,83,Muhamed Buljubašić,1134586,Ibrahim Olawoyin,1008173,False
+12530814,82,Václav Jurečka,225850,Ali Sowe,238394,False
+12530814,65,Lasse Nielsen,21547,Ogün Bayrak,903999,True
+12530814,61,Benhur Keser,899402,Babajide David Akintola,798676,False
+12530814,54,Kuryu Matsuki,1154637,Victor Hugo,1170954,True
+12530814,46,Dal Varešanović,979109,Amir Hadžiahmetović,795421,False
+12530817,88,Berat Luş,1945952,Lucas Torreira,754794,False
+12530817,86,Metehan Baltacı,997155,Victor Osimhen,822471,False
+12530817,83,Talha Sariarslan,1088715,Stéphane Bahoken,153220,True
+12530817,83,Duckens Nazon,796023,Lionel Carole,122922,True
+12530817,79,Berkan Kutlu,992912,Ismail Jakobs,897291,False
+12530817,78,Elias Jelert,1126433,Kaan Ayhan,138152,False
+12530817,78,Michy Batshuayi,147745,Dries Mertens,32493,False
+12530817,76,Yaw Ackah,984096,Miguel Cardoso,344009,True
+12530817,58,Mehdi Bourabia,98003,Ali Karimi,803869,True
+12530819,90,Salih Malkoçoğlu,1499364,Muhammed-Cham Saračević,958901,True
+12530819,90,Arif Boşluk,1138095,Eren Elmalı,981483,True
+12530819,90,Pedro Brazão,981535,Musah Mohammed,1105505,False
+12530819,83,Ahmet Aslan,1134098,Fredy,845281,False
+12530819,82,Ege Bilsel,1011244,Ondřej Čelůstka,45764,False
+12530819,73,Umut Güneş,876782,Cihan Çanak,1127335,True
+12530819,73,Christophe Herelle,225092,Uzeyir Ergun,996122,False
+12530819,73,George Pușcaș,190319,Zdravko Dimitrov,871342,False
+12530819,46,Enis Destan,1012480,Ali Şahin Yılmaz,1145980,True
+12530810,90,Erdem Çetinkaya,993902,Nuno Da Costa,209374,False
+12530810,90,Cafú,110956,Haris Hajradinović,254979,False
+12530810,86,Ömer Faruk Beyaz,1022881,Olivier Kemen,280447,True
+12530810,86,Sadık Çiftpınar,111811,Mamadou Fall,822228,False
+12530810,71,Aytaç Kara,128196,Antonín Barák,330705,False
+12530810,71,Jhon Espinoza,929098,Cláudio Winck,155998,False
+12530810,60,Davidson,814334,Patryk Szysz,831930,True
+12530815,90,Florent Shehu,1009692,Abat Aimbetov,189193,False
+12530815,90,Burhan Ersoy,1640309,Osman Kaynak,1170288,False
+12530815,88,Yucel Gurol,1106437,Ozan Demirbağ,1654166,False
+12530815,77,Abdulkadir Parmak,344225,Rui Pedro,862672,True
+12530815,71,Funsho Bamgboye,822469,Joelson Fernandes,1032547,True
+12530815,71,Chandrel Massanga,1083138,Görkem Sağlam,795001,True
+12530815,59,Murat Uğur Eser,1550761,Deniz Eren Dönmezer,1550760,False
+12530815,59,Bunyamin Balat,996317,Aksel Aktaş,863172,False
+12530815,35,Cengiz Demir,1015360,Cemali Sertel,929956,True
+12530806,90,Serdar Dursun,123917,Sergio Córdova,881222,True
+12530806,85,Buluthan Bulut,1046689,Gaius Makouta,847013,True
+12530806,76,Blaž Kramer,804405,Pedrinho,1015939,False
+12530806,72,Fatih Aksoy,827922,Nicolas Janvier,802150,True
+12530806,72,Rony Lopes,190147,Ui-Jo Hwang,791314,True
+12530806,60,Yusuf Erdoğan,256663,Louka Prip,976127,False
+12530806,60,Muhammet Tunahan Taşçı,980612,Alassane Ndao,1016033,False
+12530806,60,Melih İbrahimoğlu,998462,Danijel Aleksić,45377,False
+12530806,60,Riechedly Bazoer,227196,Uğurcan Yazğılı,904303,False
+12530809,87,Onur Bulut,142494,Jonas Svensson,98199,False
+12530809,83,Emrecan Bulut,1480663,Babajide David Akintola,798676,True
+12530809,83,Casper Højer,281233,Amir Hadžiahmetović,795421,True
+12530809,83,Václav Jurečka,225850,Ali Sowe,238394,True
+12530809,76,Muhamed Buljubašić,1134586,Dal Varešanović,979109,True
+12530809,74,Alex Oxlade-Chamberlain,10577,Ernest Muçi,924670,False
+12530809,74,Semih Kılıçsoy,1142606,Ciro Immobile,45923,False
+12530809,74,Cher Ndour,1114422,Salih Uçan,135695,False
+12530809,51,Giannis Papanikolaou,856988,Ibrahim Olawoyin,1008173,True
+12530809,41,Emirhan Topçu,895009,Tayyip Talha Sanuç,851909,False
+12530813,85,Emre Kaplan,1009308,Léo Duarte,839982,False
+12530813,81,Ömer Faruk Beyaz,1022881,Olivier Kemen,280447,False
+12530813,75,Tayfun Aydoğan,816435,Ali Yavuz Kol,910091,True
+12530813,74,Nabil Alioui,873049,Yusuf Barası,1000187,True
+12530813,59,João Figueiredo,841012,Miguel Crespo,972410,False
+12530813,58,Osman Kaynak,1170288,Ozan Demirbağ,1654166,True
+12530813,46,Berat Ayberk Özdemir,876857,Onur Ergün,893009,False
+12530812,85,Dorukhan Toköz,796133,Ahmed Kutucu,906049,False
+12530812,82,Amar Gerxhaliu,1123371,Sander van de Streek,220155,True
+12530812,82,Deni Milošević,190403,Sam Larsson,229800,True
+12530812,74,Emre Akbaba,343527,Robin Yalçın,138154,False
+12530812,66,Moussa Djenepo,869910,Adolfo Gaich,940692,True
+12530812,66,Braian Samudio,892933,Oleksandr Petrusenko,906673,True
+12530812,63,Umut Meraş,609746,Caner Erkin,15680,False
+12530812,63,Emre Mor,826258,Halil Akbunar,217782,False
+12530812,10,Ramzi Safuri,186949,Soner Dikmen,847782,True
+12530805,90,Victor Nelsson,846148,Barış Alper Yılmaz,904096,True
+12530805,90,Elias Jelert,1126433,Yunus Akgün,857738,True
+12530805,89,İsmail Köybaşı,43605,Djalma,973933,False
+12530805,89,Taha Altıkardeş,1101279,Lasse Nielsen,21547,False
+12530805,89,Ahmed Ildız,849329,Anthony Junior Dennis,1484438,False
+12530805,87,Michy Batshuayi,147745,Victor Osimhen,822471,True
+12530805,87,Berkan Kutlu,992912,Ismail Jakobs,897291,True
+12530805,74,Roland Sallai,355088,Dries Mertens,32493,True
+12530805,69,Juan Santos da Silva,1009928,Kuryu Matsuki,1154637,False
+12530805,69,Victor Hugo,1170954,David Tijanič,827369,False
+12530802,90,Soner Aydoğdu,69351,Celil Yüksel,806972,True
+12530802,90,Poyraz Efe Yıldırım,1195797,Muhammed-Cham Saračević,958901,False
+12530802,90,Arif Boşluk,1138095,Eren Elmalı,981483,False
+12530802,86,Marc Bola,862083,Emre Kılınç,202032,True
+12530802,77,Enis Destan,1012480,Ozan Tufan,251907,False
+12530802,73,Umut Güneş,876782,Cihan Çanak,1127335,False
+12530802,69,Arbnor Muja,890695,Kingsley Schindler,169113,True
+12530804,90,Cafú,110956,Gökhan Gül,797820,True
+12530804,86,Cyril Mandouki,821461,David Okereke,831290,False
+12530804,77,Mirza Cihan,909289,Alexandru Maxim,180511,False
+12530804,71,Antonín Barák,330705,Aytaç Kara,128196,True
+12530804,71,Mamadou Fall,822228,Kévin Rodrigues,234232,True
+12530804,68,Halil Dervişoğlu,930775,Badou Ndiaye,228342,False
+12530804,46,Arda Kızıldağ,904228,Ertuğrul Ersoy,355004,False
+12530804,46,Ömürcan Artan,1016384,Salem M'Bakata,940367,False
+12530800,86,Celal Dumanli,903334,Musah Mohammed,1105505,True
+12530800,86,Samet Yalçın,789102,Zdravko Dimitrov,871342,True
+12530800,86,Yaw Ackah,984096,Kartal Kayra Yılmaz,966811,False
+12530800,86,Ramazan Civelek,781408,Baran Ali Gezek,1215110,False
+12530800,75,Carlos Mané,859748,Hasan Ali Kaldırım,39847,False
+12530800,74,Lionel Carole,122922,Miguel Cardoso,344009,False
+12530800,66,George Pușcaș,190319,Taylan Antalyalı,190197,True
+12530800,62,Duckens Nazon,796023,Stéphane Bahoken,153220,False
+12530800,56,Pedro Brazão,981535,Gökdeniz Bayrakdar,952564,True
+12530807,85,Selimcan Temel,1003319,Rui Pedro,862672,False
+12530807,78,Oguzhan Matur,926396,Funsho Bamgboye,822469,False
+12530807,76,Sebastian Szymański,847983,Dušan Tadić,38560,True
+12530807,70,Mert Müldür,836683,Bright Osayi-Samuel,791616,True
+12530801,90,Yunus Emre Çift,1063325,Emre Kılınç,202032,False
+12530801,86,Mehdi Bourabia,98003,Kartal Kayra Yılmaz,966811,True
+12530801,77,Ercan Kara,843039,Marius Mouandilmadji,943593,False
+12530801,77,Ramazan Civelek,781408,Joseph Attamah,332963,True
+12530801,77,Soner Gönül,867727,Marc Bola,862083,False
+12530801,69,Talha Sariarslan,1088715,Carlos Mané,859748,True
+12530801,64,Olivier Ntcham,352676,Soner Aydoğdu,69351,False
+12530801,64,Arbnor Muja,890695,Kingsley Schindler,169113,False
+12530801,46,Ali Karimi,803869,Baran Ali Gezek,1215110,True
+12530799,90,Václav Jurečka,225850,Ali Sowe,238394,False
+12530799,90,Seyfettin Anıl Yaşar,999646,Dal Varešanović,979109,False
+12530799,84,Rigoberto Rivas,837742,Abdulkadir Parmak,344225,True
+12530799,79,Casper Højer,281233,Taha Şahin,1394729,False
+12530799,75,Muhamed Buljubašić,1134586,Amir Hadžiahmetović,795421,False
+12530799,70,Chandrel Massanga,1083138,Rui Pedro,862672,True
+12530799,69,Carlos Strandberg,333423,Vincent Aboubakar,116869,True
+12530799,59,Görkem Sağlam,795001,Lamine Diack,982317,True
+12530799,59,Cemali Sertel,929956,Kamil Ahmet Çörekçi,124728,True
+12530795,89,Mustafa Hekimoğlu,1524303,Ciro Immobile,45923,True
+12530795,89,Salih Uçan,135695,Rafa Silva,252577,True
+12530795,77,Celal Dumanli,903334,Taulant Seferi,279487,False
+12530795,77,George Pușcaș,190319,Musah Mohammed,1105505,False
+12530795,70,Semih Kılıçsoy,1142606,João Mário,97001,True
+12530795,68,Uzeyir Ergun,996122,Ondřej Čelůstka,45764,False
+12530795,68,Pedro Brazão,981535,Gökdeniz Bayrakdar,952564,False
+12530795,61,Milot Rashica,800411,Ernest Muçi,924670,True
+12530795,46,Zdravko Dimitrov,871342,Cenk Şen,957359,False
+12530795,25,Mutassim Al-Musrati,868958,Gedson Fernandes,862055,True
+12530798,88,Jure Balkovec,171625,Sergio Córdova,881222,False
+12530798,82,Fatih Aksoy,827922,Efecan Karaca,60510,False
+12530798,82,Rony Lopes,190147,Loide Augusto,1110708,False
+12530798,74,Ui-Jo Hwang,791314,Nicolas Janvier,802150,False
+12530798,68,Bekir Turaç Böke,997681,Bengali-Fodé Koita,51407,True
+12530798,67,Emre Gökay,1393928,Emrah Başsan,174141,True
+12530803,88,Ali Şahin Yılmaz,1145980,Pedro Malheiro,1131249,True
+12530803,86,Cihan Çanak,1127335,Anthony Nwakaeme,139455,True
+12530803,85,Borna Barišić,335301,Edin Višća,109779,True
+12530803,74,Ozan Tufan,251907,Muhammed-Cham Saračević,958901,True
+12530803,74,Enis Destan,1012480,Simon Banza,825945,True
+12530803,56,Andros Townsend,47992,Sander van de Streek,220155,False
+12530803,56,Emrecan Uzunhan,997684,Bahadır Öztürk,790783,False
+12530803,56,Moussa Djenepo,869910,Oleksandr Petrusenko,906673,False
+12530793,90,Michy Batshuayi,147745,Barış Alper Yılmaz,904096,False
+12530793,90,Victor Nelsson,846148,Victor Osimhen,822471,False
+12530793,89,Dimitrios Pelkas,139304,Olivier Kemen,280447,True
+12530793,86,Matchoi Djaló,989599,Deniz Türüç,252207,True
+12530793,83,Berkan Kutlu,992912,Dries Mertens,32493,False
+12530793,75,Roland Sallai,355088,Kerem Demirbay,142619,False
+12530793,67,Ömer Ali Şahiner,103912,Ömer Faruk Beyaz,1022881,True
+12530793,67,João Figueiredo,841012,Davidson,814334,True
+12530794,90,Ozan Demirbağ,1654166,Osman Kaynak,1170288,False
+12530794,86,Mirza Cihan,909289,David Okereke,831290,True
+12530794,86,Ertuğrul Ersoy,355004,Kacper Kozłowski,984602,True
+12530794,78,Nabil Alioui,873049,Abat Aimbetov,189193,False
+12530794,78,Salih Kavrazlı,964233,Ali Yavuz Kol,910091,False
+12530794,75,Quentin Daubin,826605,Alexandru Maxim,180511,True
+12530794,75,Kenan Kodro,591140,Halil Dervişoğlu,930775,True
+12530794,69,Ömürcan Artan,1016384,Mustafa Eskihellaç,899069,True
+12530794,46,Tayfun Aydoğan,816435,Yusuf Barası,1000187,False
+12530797,82,Cafú,110956,Cláudio Winck,155998,False
+12530797,81,İsmail Köybaşı,43605,Djalma,973933,True
+12530797,81,Ogün Bayrak,903999,Lasse Nielsen,21547,True
+12530797,81,Ahmed Ildız,849329,Anthony Junior Dennis,1484438,True
+12530797,76,Kuryu Matsuki,1154637,Juan Santos da Silva,1009928,True
+12530797,73,Yasin Özcan,1392102,Gökhan Gül,797820,False
+12530797,63,Victor Hugo,1170954,David Tijanič,827369,True
+12530797,58,Jhon Espinoza,929098,Kévin Rodrigues,234232,False
+12530797,46,Aytaç Kara,128196,Antonín Barák,330705,False
+12530797,46,Mortadha Ben Ouanes,919225,Nuno Da Costa,209374,False
+12530796,90,Mert Hakan Yandaş,856849,Sebastian Szymański,847983,False
+12530796,90,Yusuf Akçiçek,1479523,Dušan Tadić,38560,False
+12530796,83,Melih Bostan,1133195,Melih İbrahimoğlu,998462,True
+12530796,83,Danijel Aleksić,45377,Emmanuel Boateng,943485,True
+12530796,83,Levent Mercan,1085938,Filip Kostić,126588,False
+12530796,74,Umut Nayir,284767,Yusuf Erdoğan,256663,True
+12530796,71,Bright Osayi-Samuel,791616,Oğuz Aydın,999396,False
+12530796,69,Muhammet Tunahan Taşçı,980612,Louka Prip,976127,True
+12530796,69,Nikola Boranijašević,150667,Oğulcan Ülgün,1063942,True
+12530786,90,Elias Jelert,1126433,Barış Alper Yılmaz,904096,False
+12530786,90,Carlos Strandberg,333423,Vincent Aboubakar,116869,True
+12530786,88,Recep Burak Yılmaz,904172,Görkem Sağlam,795001,True
+12530786,88,Yusuf Demir,962283,Dries Mertens,32493,False
+12530786,82,Michy Batshuayi,147745,Lucas Torreira,754794,False
+12530786,73,Chandrel Massanga,1083138,Cemali Sertel,929956,True
+12530786,73,Bilal Boutobba,769163,Abdulkadir Parmak,344225,True
+12530786,73,Kerim Alıcı,758870,Rigoberto Rivas,837742,True
+12530786,46,Kerem Demirbay,142619,Kaan Ayhan,138152,False
+12530786,46,Roland Sallai,355088,Abdülkerim Bardakcı,178963,False
+12530791,90,Matchoi Djaló,989599,Davidson,814334,True
+12530791,90,Ömer Ali Şahiner,103912,Deniz Türüç,252207,True
+12530791,85,Emrecan Bulut,1480663,Babajide David Akintola,798676,False
+12530791,85,Casper Højer,281233,Mithat Pala,1016393,False
+12530791,85,Seyfettin Anıl Yaşar,999646,Attila Mocsi,889382,False
+12530791,73,Václav Jurečka,225850,Dal Varešanović,979109,False
+12530791,72,Berat Ayberk Özdemir,876857,Onur Ergün,893009,True
+12530791,62,Ibrahim Olawoyin,1008173,Amir Hadžiahmetović,795421,False
+12530791,42,Lucas Lima,248529,Hamza Güreler,1562294,True
+12530782,90,Ogün Özçiçek,859783,Halil Dervişoğlu,930775,True
+12530782,87,Celal Dumanli,903334,Jonathan Okita,809225,False
+12530782,87,Kenan Kodro,591140,David Okereke,831290,True
+12530782,76,Uzeyir Ergun,996122,Cenk Şen,957359,False
+12530782,73,Christophe Lungoyi,883355,Alexandru Maxim,180511,True
+12530782,69,Pedro Brazão,981535,Musah Mohammed,1105505,False
+12530782,62,George Pușcaș,190319,Taulant Seferi,279487,False
+12530782,62,Zdravko Dimitrov,871342,Gökdeniz Bayrakdar,952564,False
+12530782,51,Sokratis Dioudis,173933,Mustafa Burak Bozan,934201,True
+12530784,87,Soner Gönül,867727,Emre Kılınç,202032,False
+12530784,86,Celil Yüksel,806972,Carlo Holse,837012,False
+12530784,82,Semih Kılıçsoy,1142606,Mutassim Al-Musrati,868958,True
+12530784,75,Landry Dimata,826944,Olivier Ntcham,352676,False
+12530784,75,Ercan Kara,843039,Marius Mouandilmadji,943593,False
+12530784,67,Yunus Emre Çift,1063325,Arbnor Muja,890695,False
+12530784,60,Ernest Muçi,924670,João Mário,97001,True
+12530785,90,Ogün Bayrak,903999,Juan Santos da Silva,1009928,True
+12530785,90,İsmail Köybaşı,43605,Anthony Junior Dennis,1484438,True
+12530785,86,Oleksandr Petrusenko,906673,Sander van de Streek,220155,False
+12530785,86,Andros Townsend,47992,Sam Larsson,229800,False
+12530785,84,Ahmed Ildız,849329,David Tijanič,827369,True
+12530785,74,Mert Yilmaz,881966,Adolfo Gaich,940692,False
+12530785,68,Victor Hugo,1170954,Kuryu Matsuki,1154637,True
+12530785,58,Moussa Djenepo,869910,Ramzi Safuri,186949,False
+12530789,90,Loret Sadiku,143356,Haris Hajradinović,254979,False
+12530789,87,Cafú,110956,Taylan Utku Aydın,1498789,False
+12530789,86,Alassane Ndao,1016033,Yusuf Erdoğan,256663,True
+12530789,85,Louka Prip,976127,Muhammet Tunahan Taşçı,980612,True
+12530789,83,Jhon Espinoza,929098,Kévin Rodrigues,234232,False
+12530789,83,Antonín Barák,330705,Aytaç Kara,128196,False
+12530789,76,Ufuk Akyol,859546,Marko Jevtović,310068,True
+12530789,73,Umut Nayir,284767,Nikola Boranijašević,150667,True
+12530790,90,Burhan Ersoy,1640309,Maestro,1002146,True
+12530790,80,Bunyamin Balat,996317,İzzet Çelik,826836,True
+12530790,80,Aksel Aktaş,863172,Ali Yavuz Kol,910091,True
+12530790,76,Cenk Tosun,72127,Edin Džeko,14990,False
+12530790,72,Sofyan Amrabat,359272,İrfan Can Kahveci,226986,False
+12530790,66,Dušan Tadić,38560,Oğuz Aydın,999396,False
+12530790,66,Ozan Demirbağ,1654166,Tolga Kalender,903851,True
+12530790,46,Abat Aimbetov,189193,Nabil Alioui,873049,True
+12530790,46,Bright Osayi-Samuel,791616,Filip Kostić,126588,False
+12530790,46,Çağlar Söyüncü,758608,Alexander Djiku,289977,False
+12530787,87,Serdar Dursun,123917,Yusuf Özdemir,1084884,False
+12530787,87,Fatih Aksoy,827922,Gaius Makouta,847013,False
+12530787,85,Yalçın Kayan,945548,Tayfur Bingöl,255957,True
+12530787,78,Rony Lopes,190147,Loide Augusto,1110708,False
+12530787,77,Jure Balkovec,171625,Efecan Karaca,60510,False
+12530787,77,Emre Mor,826258,Mame Thiam,180981,True
+12530787,77,Halil Akbunar,217782,Emre Akbaba,343527,True
+12530787,60,Ui-Jo Hwang,791314,Nicolas Janvier,802150,False
+12530792,89,Oguzhan Aksoy,1640657,Samuel Moutoussamy,892624,False
+12530792,88,Poyraz Efe Yıldırım,1195797,Anthony Nwakaeme,139455,True
+12530792,75,Cihan Çanak,1127335,Ozan Tufan,251907,True
+12530792,75,Borna Barišić,335301,Eren Elmalı,981483,True
+12530792,67,Stefan Savić,76265,Umut Güneş,876782,True
+12530792,67,Enis Destan,1012480,Simon Banza,825945,True
+12530792,67,Emrah Başsan,174141,Garry Rodrigues,787429,False
+12530792,67,Queensy Menig,232318,Bengali-Fodé Koita,51407,False
+12530792,46,Tolga Ciğerci,120298,Alex Pritchard,180009,False
+12530775,87,Ogün Özçiçek,859783,Cyril Mandouki,821461,False
+12530775,80,Soner Aydoğdu,69351,Carlo Holse,837012,True
+12530775,74,Ercan Kara,843039,Marius Mouandilmadji,943593,True
+12530775,70,Salem M'Bakata,940367,Deian Sorescu,797602,False
+12530775,59,Celil Yüksel,806972,Olivier Ntcham,352676,True
+12530775,59,Landry Dimata,826944,Kingsley Schindler,169113,True
+12530775,46,Christophe Lungoyi,883355,David Okereke,831290,False
+12530775,46,Kenan Kodro,591140,Emmanuel Boateng,580392,False
+12530775,46,Halil Dervişoğlu,930775,Kacper Kozłowski,984602,False
+12530781,88,Majid Hosseini,359332,Miguel Cardoso,344009,False
+12530781,88,Oguzhan Aksoy,1640657,Samuel Moutoussamy,892624,True
+12530781,88,Muhammed Sinan Kaya,1655216,Emrah Başsan,174141,True
+12530781,87,Ziya Erdal,138312,Uğur Çiftçi,142850,True
+12530781,78,Achilleas Poungouras,783466,Tolga Ciğerci,120298,True
+12530781,71,Aylton Boa Morte,883918,Carlos Mané,859748,False
+12530781,63,Efkan Bekiroğlu,800458,Garry Rodrigues,787429,True
+12530781,46,Duckens Nazon,796023,Ali Karimi,803869,False
+12530781,46,Yaw Ackah,984096,Ramazan Civelek,781408,False
+12530772,87,Ömer Ali Şahiner,103912,Berat Ayberk Özdemir,876857,False
+12530772,87,Matchoi Djaló,989599,Philippe Keny,988909,False
+12530772,75,Yusuf Sarı,896364,Deniz Türüç,252207,False
+12530772,75,João Figueiredo,841012,Davidson,814334,False
+12530772,62,Nicolas Janvier,802150,Fatih Aksoy,827922,True
+12530772,62,Loide Augusto,1110708,Jure Balkovec,171625,True
+12530772,45,Efecan Karaca,60510,Sergio Córdova,881222,True
+12530777,90,Victor Nelsson,846148,Lucas Torreira,754794,True
+12530777,90,Elias Jelert,1126433,Barış Alper Yılmaz,904096,True
+12530777,87,Uğurcan Yazğılı,904303,Yusuf Erdoğan,256663,False
+12530777,87,Danijel Aleksić,45377,Oğulcan Ülgün,1063942,False
+12530777,87,Melih Bostan,1133195,Melih İbrahimoğlu,998462,False
+12530777,80,Gabriel Sara,913593,Yunus Akgün,857738,True
+12530777,75,Umut Nayir,284767,Nikola Boranijašević,150667,False
+12530777,71,Ahmed Kutucu,906049,Dries Mertens,32493,True
+12530777,70,Berkan Kutlu,992912,Ismail Jakobs,897291,True
+12530777,69,Muhammet Tunahan Taşçı,980612,Alassane Ndao,1016033,False
+12530783,90,Burhan Ersoy,1640309,Nabil Alioui,873049,False
+12530783,90,Ozan Demirbağ,1654166,Abat Aimbetov,189193,False
+12530783,89,Emrecan Bulut,1480663,Rachid Ghezzal,123228,True
+12530783,89,Samet Akaydın,863600,Ibrahim Olawoyin,1008173,True
+12530783,82,Osman Kaynak,1170288,Ali Yavuz Kol,910091,False
+12530783,73,Václav Jurečka,225850,Ali Sowe,238394,True
+12530783,73,Muhamed Buljubašić,1134586,Giannis Papanikolaou,856988,True
+12530783,62,Amir Hadžiahmetović,795421,Dal Varešanović,979109,True
+12530783,46,Bunyamin Balat,996317,Aksel Aktaş,863172,False
+12530778,87,Thalisson Kelven,863277,Bahadır Öztürk,790783,True
+12530778,79,Ramzi Safuri,186949,Sam Larsson,229800,True
+12530778,71,Bakhtiyar Zaynutdinov,887382,Emirhan Topçu,895009,False
+12530778,68,João Mário,97001,Milot Rashica,800411,False
+12530778,67,Adolfo Gaich,940692,Braian Samudio,892933,True
+12530778,67,Andros Townsend,47992,Moussa Djenepo,869910,True
+12530778,57,Ciro Immobile,45923,Semih Kılıçsoy,1142606,False
+12530778,57,Ernest Muçi,924670,Alex Oxlade-Chamberlain,10577,False
+12530778,46,Onur Bulut,142494,Jonas Svensson,98199,False
+12530776,90,Hamza Akman,1394720,Emre Mor,826258,False
+12530776,90,Hüseyin Maldar,1618510,Emre Akbaba,343527,False
+12530776,83,Enis Bardhi,355024,Jonathan Okita,809225,True
+12530776,76,Celal Dumanli,903334,Musah Mohammed,1105505,True
+12530776,76,Uzeyir Ergun,996122,Ege Bilsel,1011244,True
+12530776,74,Dorukhan Toköz,796133,Tayfur Bingöl,255957,False
+12530776,64,Zdravko Dimitrov,871342,Taulant Seferi,279487,True
+12530776,61,Yalçın Kayan,945548,Halil Akbunar,217782,False
+12530776,46,Caner Erkin,15680,Umut Meraş,609746,False
+12530776,46,Gökdeniz Bayrakdar,952564,George Pușcaș,190319,True
+12530779,90,Bright Osayi-Samuel,791616,Oğuz Aydın,999396,True
+12530779,90,Mert Hakan Yandaş,856849,Sebastian Szymański,847983,True
+12530779,88,Diego Carlos,604232,Youssef En-Nesyri,846470,True
+12530779,86,Nazım Sangaré,169425,Lasse Nielsen,21547,False
+12530779,86,İsmail Köybaşı,43605,Djalma,973933,False
+12530779,79,Kuryu Matsuki,1154637,David Tijanič,827369,False
+12530779,79,Ahmed Ildız,849329,Anthony Junior Dennis,1484438,False
+12530779,77,Emersonn,1128844,Juan Santos da Silva,1009928,False
+12530779,46,Filip Kostić,126588,Yusuf Akçiçek,1479523,True
+12530779,46,Allan Saint-Maximin,347010,Dušan Tadić,38560,True
+12530780,78,Jhon Espinoza,929098,Cláudio Winck,155998,True
+12530780,78,Cafú,110956,Antonín Barák,330705,True
+12530780,77,Funsho Bamgboye,822469,Joelson Fernandes,1032547,False
+12530780,77,Carlos Strandberg,333423,Vincent Aboubakar,116869,False
+12530780,77,Recep Burak Yılmaz,904172,Rigoberto Rivas,837742,False
+12530780,70,Rui Pedro,862672,Görkem Sağlam,795001,False
+12530780,61,Can Keleş,918408,Yasin Özcan,1392102,True
+12530773,90,Hüseyin Maldar,1618510,Prince Ampem,923888,True
+12530773,90,Hamza Akman,1394720,Emre Mor,826258,True
+12530773,87,Alaaddin Okumuş,844640,Rey Manaj,587882,False
+12530773,87,Emirhan Başyiğit,1149004,Ziya Erdal,138312,False
+12530773,74,Umut Meraş,609746,Tayfur Bingöl,255957,True
+12530773,68,Achilleas Poungouras,783466,Bekir Turaç Böke,997681,False
+12530773,46,Yalçın Kayan,945548,Halil Akbunar,217782,True
+12530768,85,Uğurcan Yazğılı,904303,Pedrinho,1015939,True
+12530768,85,George Pușcaș,190319,Jonathan Okita,809225,False
+12530768,85,Umut Nayir,284767,Blaž Kramer,804405,True
+12530768,78,Louka Prip,976127,Muhammet Tunahan Taşçı,980612,True
+12530768,78,Danijel Aleksić,45377,Melih İbrahimoğlu,998462,True
+12530768,71,Alassane Ndao,1016033,Yusuf Erdoğan,256663,True
+12530768,63,Cenk Şen,957359,Uzeyir Ergun,996122,False
+12530768,62,Enis Bardhi,355024,Celal Dumanli,903334,False
+12530768,62,Zdravko Dimitrov,871342,Taulant Seferi,279487,False
+12530768,46,Gökdeniz Bayrakdar,952564,Musah Mohammed,1105505,False
+12530766,89,Carlos Strandberg,333423,Rigoberto Rivas,837742,True
+12530766,89,Selimcan Temel,1003319,Abdulkadir Parmak,344225,True
+12530766,84,Thalisson Kelven,863277,Bünyamin Balcı,967214,False
+12530766,84,Ramzi Safuri,186949,Sam Larsson,229800,False
+12530766,76,Funsho Bamgboye,822469,Joelson Fernandes,1032547,True
+12530766,75,Abdurrahim Dursun,883275,Braian Samudio,892933,False
+12530766,75,Oleksandr Petrusenko,906673,Erdal Rakip,319871,False
+12530766,59,Görkem Sağlam,795001,Rui Pedro,862672,True
+12530766,58,Adolfo Gaich,940692,Andros Townsend,47992,False
+12530767,90,Borna Barišić,335301,Eren Elmalı,981483,False
+12530767,90,Cihan Çanak,1127335,Edin Višća,109779,False
+12530767,71,Yaw Ackah,984096,Ali Karimi,803869,True
+12530767,71,Ramazan Civelek,781408,Carlos Mané,859748,True
+12530767,60,John Lundstram,149815,Ozan Tufan,251907,False
+12530767,60,Anthony Nwakaeme,139455,Danylo Sikan,945479,False
+12530767,46,Muhammed-Cham Saračević,958901,Umut Güneş,876782,False
+12530761,83,Celil Yüksel,806972,Marc Bola,862083,False
+12530761,83,Yusuf Sarı,896364,Deniz Türüç,252207,True
+12530761,83,Hamza Güreler,1562294,Krzysztof Piątek,558738,True
+12530761,82,Matchoi Djaló,989599,Olivier Kemen,280447,True
+12530761,74,Davidson,814334,Ömer Ali Şahiner,103912,True
+12530761,74,Ömer Faruk Beyaz,1022881,Miguel Crespo,972410,True
+12530761,65,Arbnor Muja,890695,Kingsley Schindler,169113,False
+12530761,65,Soner Gönül,867727,Gaëtan Laura,1004042,False
+12530761,64,Ercan Kara,843039,Marius Mouandilmadji,943593,False
+12530761,46,Yunus Emre Çift,1063325,Ľubomír Šatka,187231,False
+12530770,89,Sadık Çiftpınar,111811,Kamil Piątkowski,942335,False
+12530770,89,Taylan Utku Aydın,1498789,Yasin Özcan,1392102,False
+12530770,86,Sinan Alkas,1548530,Cafú,110956,False
+12530770,74,Ozan Demirbağ,1654166,Ali Yavuz Kol,910091,True
+12530770,73,Salih Kavrazlı,964233,Tayfun Aydoğan,816435,True
+12530770,61,Aksel Aktaş,863172,Bunyamin Balat,996317,True
+12530770,60,Can Keleş,918408,Josip Brekalo,357598,False
+12530770,60,Mortadha Ben Ouanes,919225,Antonín Barák,330705,False
+12530770,26,Jovan Manev,1111781,Tolga Kalender,903851,True
+12530771,90,Arda Usluoğlu,1618838,Ui-Jo Hwang,791314,False
+12530771,87,İsmail Köybaşı,43605,Djalma,973933,True
+12530771,73,Juan Christian,1412631,Enes Keskin,897168,False
+12530771,71,Ahmed Ildız,849329,Victor Hugo,1170954,True
+12530771,71,Kuryu Matsuki,1154637,David Tijanič,827369,True
+12530771,46,Emersonn,1128844,Rômulo,1133743,True
+12530771,24,Ogün Bayrak,903999,Koray Günter,138165,True
+12530774,90,Emrecan Bulut,1480663,Babajide David Akintola,798676,False
+12530774,90,Dal Varešanović,979109,Attila Mocsi,889382,False
+12530774,88,Václav Jurečka,225850,Ali Sowe,238394,False
+12530774,88,Ayberk Karapo,1395701,Casper Højer,281233,False
+12530774,83,Muhamed Buljubašić,1134586,Amir Hadžiahmetović,795421,False
+12530774,81,Cenk Tosun,72127,Diego Carlos,604232,True
+12530774,72,İrfan Can Kahveci,226986,Filip Kostić,126588,True
+12530774,61,Anderson Talisca,329245,Levent Mercan,1085938,True
+12530774,46,Dušan Tadić,38560,Sofyan Amrabat,359272,True
+12530769,90,Eyüp Aydın,1130115,Gabriel Sara,913593,False
+12530769,90,Metehan Baltacı,997155,Ahmed Kutucu,906049,False
+12530769,89,Furkan Soyalp,226992,Kacper Kozłowski,984602,True
+12530769,85,Emmanuel Boateng,580392,Mustafa Eskihellaç,899069,True
+12530769,80,Berkan Kutlu,992912,Roland Sallai,355088,False
+12530769,69,Álvaro Morata,125407,Dries Mertens,32493,False
+12530769,69,Kenan Kodro,591140,Alexandru Maxim,180511,True
+12530769,63,Barış Alper Yılmaz,904096,Elias Jelert,1126433,False
+12530769,46,Halil Dervişoğlu,930775,Christophe Lungoyi,883355,True
+12530769,31,Salem M'Bakata,940367,Cyril Mandouki,821461,True
+12530757,90,Oguzhan Matur,926396,Cemali Sertel,929956,False
+12530757,90,Muhammet Ali Özbaskıcı,1149024,Landry Dimata,826944,True
+12530757,82,Soner Gönül,867727,Marc Bola,862083,True
+12530757,81,Arbnor Muja,890695,Emre Kılınç,202032,True
+12530757,81,Soner Aydoğdu,69351,Carlo Holse,837012,True
+12530757,76,Carlos Strandberg,333423,Joelson Fernandes,1032547,False
+12530757,73,Kingsley Schindler,169113,Marius Mouandilmadji,943593,True
+12530757,67,Funsho Bamgboye,822469,Görkem Sağlam,795001,False
+12530762,89,Nurettin Korkmaz,976993,Miguel Cardoso,344009,True
+12530762,85,Majid Hosseini,359332,Ali Karimi,803869,True
+12530762,83,Hamidou Keyta,829610,Oğulcan Ülgün,1063942,False
+12530762,77,Yaw Ackah,984096,Carlos Mané,859748,True
+12530762,77,Ramazan Civelek,781408,Mehdi Bourabia,98003,True
+12530762,61,Alassane Ndao,1016033,Yusuf Erdoğan,256663,False
+12530762,61,Emmanuel Boateng,943485,Marko Jevtović,310068,False
+12530762,60,Umut Nayir,284767,Muhammet Tunahan Taşçı,980612,False
+12530762,46,Louka Prip,976127,Nikola Boranijašević,150667,False
+12530762,46,Joseph Attamah,332963,Arif Kocaman,1173638,True
+12530760,89,Fahri Ay,1195756,Milot Rashica,800411,False
+12530760,87,Emre Gökay,1393928,Alaaddin Okumuş,844640,True
+12530760,82,Alex Pritchard,180009,Jan Biegański,935966,True
+12530760,78,Onur Bulut,142494,Gedson Fernandes,862055,False
+12530760,70,Bekir Turaç Böke,997681,Charis Charisis,317297,True
+12530760,64,Mustafa Hekimoğlu,1524303,Ciro Immobile,45923,False
+12530760,64,Salih Uçan,135695,Alex Oxlade-Chamberlain,10577,False
+12530760,54,Semih Kılıçsoy,1142606,Ernest Muçi,924670,False
+12530760,38,Azizbek Turgunboev,971572,Ziya Erdal,138312,True
+12530760,38,Jan Biegański,935966,Tolga Ciğerci,120298,True
+12530764,90,Nicholas Opoku,885683,Aytaç Kara,128196,True
+12530764,77,Altin Zeqiri,991742,Babajide David Akintola,798676,False
+12530764,74,Can Keleş,918408,Nuno Da Costa,209374,True
+12530764,74,Gökhan Gül,797820,Cafú,110956,True
+12530764,63,Václav Jurečka,225850,Casper Højer,281233,False
+12530764,63,Husniddin Alikulov,1121174,Dal Varešanović,979109,False
+12530764,46,Amir Hadžiahmetović,795421,Mithat Pala,1016393,False
+12530765,90,Mert Hakan Yandaş,856849,İsmail Yüksek,952600,False
+12530765,90,İrfan Can Kahveci,226986,Sebastian Szymański,847983,False
+12530765,70,İsmail Yüksek,952600,Anderson Talisca,329245,False
+12530765,70,Bright Osayi-Samuel,791616,Oğuz Aydın,999396,False
+12530765,63,Nicolas Janvier,802150,Ui-Jo Hwang,791314,True
+12530765,46,Sergio Córdova,881222,Jure Balkovec,171625,True
+12530765,46,Gaius Makouta,847013,Fatih Aksoy,827922,True
+12530765,12,Sofyan Amrabat,359272,Çağlar Söyüncü,758608,False
+12530756,90,Moussa Djenepo,869910,Sam Larsson,229800,True
+12530756,90,Abdurrahim Dursun,883275,Güray Vural,43559,True
+12530756,87,Soner Dikmen,847782,Erdal Rakip,319871,True
+12530756,83,Ousseynou Ba,889430,Onur Ergün,893009,False
+12530756,83,Yusuf Sarı,896364,Ömer Ali Şahiner,103912,False
+12530756,82,Adolfo Gaich,940692,Braian Samudio,892933,True
+12530756,78,João Figueiredo,841012,Philippe Keny,988909,False
+12530756,70,Onur Ergün,893009,Miguel Crespo,972410,False
+12530758,90,İsmail Köybaşı,43605,Djalma,973933,False
+12530758,90,Furkan Bayır,1003161,Anthony Junior Dennis,1484438,False
+12530758,89,Kubilay Kanatsızkuş,828953,Kuryu Matsuki,1154637,False
+12530758,82,Zdravko Dimitrov,871342,Enis Bardhi,355024,True
+12530758,82,Gökdeniz Bayrakdar,952564,Jonathan Okita,809225,True
+12530758,69,Celal Dumanli,903334,George Pușcaș,190319,True
+12530758,68,Doğan Erdoğan,257407,Ahmed Ildız,849329,False
+12530758,68,David Tijanič,827369,Victor Hugo,1170954,False
+12530759,90,Cihan Çanak,1127335,Edin Višća,109779,True
+12530759,90,Enis Destan,1012480,Anthony Nwakaeme,139455,True
+12530759,85,Danylo Sikan,945479,Simon Banza,825945,True
+12530759,78,Dorukhan Toköz,796133,Yalçın Kayan,945548,False
+12530759,74,Umut Bozok,869839,Tayfur Bingöl,255957,False
+12530759,63,Emre Akbaba,343527,Melih Kabasakal,828872,False
+12530759,46,Muhammed-Cham Saračević,958901,Oleksandr Zubkov,353282,True
+12530759,46,Ozan Tufan,251907,Umut Güneş,876782,True
+12530749,89,Osman Kaynak,1170288,İzzet Çelik,826836,True
+12530749,84,Andros Townsend,47992,Sander van de Streek,220155,False
+12530749,83,Soner Dikmen,847782,Ramzi Safuri,186949,False
+12530749,73,Aksel Aktaş,863172,Tayfun Aydoğan,816435,True
+12530749,63,Moussa Djenepo,869910,Erdal Rakip,319871,False
+12530749,62,Adolfo Gaich,940692,Braian Samudio,892933,False
+12530749,62,Abat Aimbetov,189193,Ali Yavuz Kol,910091,True
+12530749,46,Thalisson Kelven,863277,Bünyamin Balcı,967214,False
+12530749,46,Vedat Karakuş,847353,Deniz Eren Dönmezer,1550760,True
+12530749,46,Yusuf Barası,1000187,Ozan Demirbağ,1654166,True
+12530755,90,Semih Güler,325155,Kacper Kozłowski,984602,True
+12530755,83,Jan Biegański,935966,Efkan Bekiroğlu,800458,False
+12530755,83,Bekir Turaç Böke,997681,Veljko Simić,188117,False
+12530755,80,Emmanuel Boateng,580392,Alexandru Maxim,180511,True
+12530755,67,Kenan Kodro,591140,Halil Dervişoğlu,930775,True
+12530755,67,Quentin Daubin,826605,Christophe Lungoyi,883355,True
+12530755,67,Ogün Özçiçek,859783,Badou Ndiaye,228342,True
+12530755,67,Bengali-Fodé Koita,51407,Emrah Başsan,174141,False
+12530755,28,Emirhan Başyiğit,1149004,Achilleas Poungouras,783466,False
+12530747,90,Christophe Herelle,225092,Taulant Seferi,279487,False
+12530747,88,Ivan Brnić,916182,Yusuf Sarı,896364,True
+12530747,87,Ömer Faruk Beyaz,1022881,Umut Güneş,876782,True
+12530747,87,Matchoi Djaló,989599,Deniz Türüç,252207,True
+12530747,85,Gökdeniz Bayrakdar,952564,Jonathan Okita,809225,False
+12530747,85,Erkan Degismez,130493,Ahmet Aslan,1134098,False
+12530747,77,Serdar Gürler,96520,Ömer Ali Şahiner,103912,True
+12530747,53,João Figueiredo,841012,Philippe Keny,988909,True
+12530753,87,Enis Destan,1012480,Danylo Sikan,945479,False
+12530753,84,Tayyip Talha Sanuç,851909,Rafa Silva,252577,True
+12530753,78,Ernest Muçi,924670,Milot Rashica,800411,True
+12530753,77,Semih Kılıçsoy,1142606,Ciro Immobile,45923,True
+12530753,66,John Lundstram,149815,Muhammed-Cham Saračević,958901,False
+12530753,66,Oleksandr Zubkov,353282,Ozan Tufan,251907,False
+12530753,61,Amir Hadžiahmetović,795421,Alex Oxlade-Chamberlain,10577,True
+12530750,90,Rui Pedro,862672,Cemali Sertel,929956,True
+12530750,90,Cengiz Demir,1015360,Abdulkadir Parmak,344225,True
+12530750,76,Carlos Strandberg,333423,Vincent Aboubakar,116869,True
+12530750,68,Görkem Sağlam,795001,Bilal Boutobba,769163,True
+12530750,67,Nicolas Janvier,802150,Sergio Córdova,881222,False
+12530750,60,Andraž Šporar,166987,Ui-Jo Hwang,791314,False
+12530750,46,Tonny Vilhena,149659,Enes Keskin,897168,False
+12530750,46,Kamil Ahmet Çörekçi,124728,Recep Burak Yılmaz,904172,True
+12530754,90,Majid Hosseini,359332,Miguel Cardoso,344009,False
+12530754,87,Umut Bozok,869839,Mame Thiam,180981,True
+12530754,87,Caner Erkin,15680,Halil Akbunar,217782,True
+12530754,81,Baran Ali Gezek,1215110,Ali Karimi,803869,False
+12530754,81,Talha Sariarslan,1088715,Mehdi Bourabia,98003,False
+12530754,81,Nurettin Korkmaz,976993,Ramazan Civelek,781408,False
+12530754,75,Emre Akbaba,343527,Tayfur Bingöl,255957,True
+12530754,65,Duckens Nazon,796023,Yaw Ackah,984096,False
+12530754,60,Yalçın Kayan,945548,Emre Mor,826258,True
+12530748,90,Soner Gönül,867727,Landry Dimata,826944,False
+12530748,90,Arbnor Muja,890695,Emre Kılınç,202032,False
+12530748,81,Soner Aydoğdu,69351,Carlo Holse,837012,False
+12530748,77,Hamidou Keyta,829610,Marko Jevtović,310068,True
+12530748,76,Melih İbrahimoğlu,998462,Alassane Ndao,1016033,True
+12530748,69,Olivier Ntcham,352676,Celil Yüksel,806972,False
+12530748,63,Muhammet Tunahan Taşçı,980612,Yusuf Erdoğan,256663,True
+12530748,63,Umut Nayir,284767,Oğulcan Ülgün,1063942,True
+12530748,46,Uğurcan Yazğılı,904303,Riechedly Bazoer,227196,True
+12530752,83,İrfan Can Kahveci,226986,Mert Hakan Yandaş,856849,True
+12530752,79,Can Keleş,918408,Cafú,110956,False
+12530752,75,Yusuf Akçiçek,1479523,Oğuz Aydın,999396,True
+12530752,75,Filip Kostić,126588,Levent Mercan,1085938,True
+12530752,65,Bright Osayi-Samuel,791616,Mert Müldür,836683,True
+12530752,65,Antonín Barák,330705,Mortadha Ben Ouanes,919225,False
+12530752,65,Edin Džeko,14990,Anderson Talisca,329245,True
+12530752,59,Josip Brekalo,357598,Nicholas Opoku,885683,False
+12530751,90,Kerem Demirbay,142619,Gabriel Sara,913593,False
+12530751,90,Altin Zeqiri,991742,Ibrahim Olawoyin,1008173,True
+12530751,90,Václav Jurečka,225850,Attila Mocsi,889382,True
+12530751,89,Kaan Ayhan,138152,Barış Alper Yılmaz,904096,False
+12530751,79,Berkay Özcan,806964,Mithat Pala,1016393,True
+12530751,71,Rachid Ghezzal,123228,Abdülkadir Ömür,826155,True
+12530751,60,Mario Lemina,307284,Ahmed Kutucu,906049,False
+12530751,46,Roland Sallai,355088,Dries Mertens,32493,False
+12530751,46,Eren Elmalı,981483,Carlos Cuesta,839095,False
+12530738,90,Uzeyir Ergun,996122,Taulant Seferi,279487,True
+12530738,90,Christophe Herelle,225092,Fredy,845281,True
+12530738,85,Gökdeniz Bayrakdar,952564,George Pușcaș,190319,True
+12530738,79,Jonathan Okoronkwo,1188543,Görkem Sağlam,795001,False
+12530738,71,Zdravko Dimitrov,871342,Ahmet Aslan,1134098,True
+12530738,70,Enis Bardhi,355024,Jonathan Okita,809225,True
+12530738,59,Bilal Boutobba,769163,Selimcan Temel,1003319,False
+12530744,86,Salih Uçan,135695,Rafa Silva,252577,False
+12530744,76,Keny Arroyo,1482431,João Mário,97001,False
+12530744,76,Onur Bulut,142494,Arthur Masuaku,174975,False
+12530744,73,Taras Stepanenko,45604,Melih Kabasakal,828872,True
+12530744,67,Amir Hadžiahmetović,795421,Alex Oxlade-Chamberlain,10577,False
+12530744,67,Umut Bozok,869839,Prince Ampem,923888,True
+12530744,67,Emre Akbaba,343527,Tayfur Bingöl,255957,True
+12530744,46,Semih Kılıçsoy,1142606,Ciro Immobile,45923,False
+12530744,46,Umut Meraş,609746,Caner Erkin,15680,True
+12530744,46,Halil Akbunar,217782,Rúben Vezo,233180,True
+12530741,90,Azizbek Turgunboev,971572,Bengali-Fodé Koita,51407,True
+12530741,90,Bekir Turaç Böke,997681,Ziya Erdal,138312,True
+12530741,83,Morten Bjørlo,921358,Pedrinho,1015939,False
+12530741,81,Emirhan Başyiğit,1149004,Efkan Bekiroğlu,800458,True
+12530741,73,Umut Nayir,284767,Blaž Kramer,804405,False
+12530741,70,Oğulcan Ülgün,1063942,Louka Prip,976127,False
+12530741,70,Emmanuel Boateng,943485,Marko Jevtović,310068,False
+12530741,70,Muhammet Tunahan Taşçı,980612,Melih İbrahimoğlu,998462,False
+12530741,46,Noah Sonko Sundberg,279541,Samba Camara,837301,True
+12530741,42,Alex Pritchard,180009,Emrah Başsan,174141,True
+12530743,86,Emrecan Uzunhan,997684,Soner Dikmen,847782,True
+12530743,86,Adolfo Gaich,940692,Braian Samudio,892933,True
+12530743,79,Sinan Alkas,1548530,Cláudio Winck,155998,False
+12530743,75,Oleksandr Petrusenko,906673,Jakub Kałuziński,1019026,True
+12530743,68,Gökhan Gül,797820,Cafú,110956,False
+12530743,57,Thalisson Kelven,863277,Bahadır Öztürk,790783,True
+12530743,46,Can Keleş,918408,Antonín Barák,330705,False
+12530743,46,Josip Brekalo,357598,Mortadha Ben Ouanes,919225,False
+12530743,46,Nicholas Opoku,885683,Yasin Özcan,1392102,False
+12530788,90,Attila Mocsi,889382,Ali Sowe,238394,False
+12530788,90,Olivier Ntcham,352676,Soner Gönül,867727,True
+12530788,84,Nanú,343965,Emre Kılınç,202032,True
+12530788,64,Kingsley Schindler,169113,Arbnor Muja,890695,True
+12530788,64,Soner Aydoğdu,69351,Carlo Holse,837012,True
+12530788,46,Altin Zeqiri,991742,Babajide David Akintola,798676,False
+12530788,46,Václav Jurečka,225850,Mithat Pala,1016393,False
+12530788,46,Berkay Özcan,806964,Abdülkadir Ömür,826155,False
+12530788,22,Muhamed Buljubašić,1134586,Giannis Papanikolaou,856988,False
+12530739,88,Majid Hosseini,359332,Hasan Ali Kaldırım,39847,True
+12530739,87,Lionel Carole,122922,Miguel Cardoso,344009,True
+12530739,78,Nurettin Korkmaz,976993,Carlos Mané,859748,True
+12530739,78,Doğan Erdoğan,257407,Anthony Junior Dennis,1484438,False
+12530739,70,Yaw Ackah,984096,Mehdi Bourabia,98003,True
+12530739,69,Stéphane Bahoken,153220,Duckens Nazon,796023,True
+12530739,69,Nazım Sangaré,169425,Ogün Bayrak,903999,False
+12530739,63,Juan Santos da Silva,1009928,Kuryu Matsuki,1154637,False
+12530739,63,Kubilay Kanatsızkuş,828953,David Tijanič,827369,False
+12530739,63,Ahmed Ildız,849329,Victor Hugo,1170954,False
+12530746,84,Osman Kaynak,1170288,İzzet Çelik,826836,False
+12530746,79,Ozan Demirbağ,1654166,Tayfun Aydoğan,816435,False
+12530746,46,Tonny Vilhena,149659,Gaius Makouta,847013,True
+12530746,46,Enes Keskin,897168,Fatih Aksoy,827922,True
+12530746,45,Aksel Aktaş,863172,Ali Yavuz Kol,910091,False
+12530746,41,Nicolas Janvier,802150,Efecan Karaca,60510,True
+12530746,41,Ui-Jo Hwang,791314,Jure Balkovec,171625,True
+12530742,88,Kenan Kodro,591140,Arda Kızıldağ,904228,False
+12530742,87,Arif Boşluk,1138095,Edin Višća,109779,True
+12530742,80,Muhammed-Cham Saračević,958901,Danylo Sikan,945479,True
+12530742,80,Hüseyin Türkmen,913994,Batista Mendy,859021,True
+12530742,69,Enis Destan,1012480,Simon Banza,825945,True
+12530742,69,Okay Yokuşlu,97967,Stefan Savić,76265,True
+12530742,64,Christophe Lungoyi,883355,David Okereke,831290,False
+12530742,64,Emmanuel Boateng,580392,Halil Dervişoğlu,930775,False
+12530742,63,Semih Güler,325155,Badou Ndiaye,228342,False
+12530742,24,Ogün Özçiçek,859783,Quentin Daubin,826605,False
+12530745,89,Kaan Ayhan,138152,Victor Osimhen,822471,True
+12530745,89,Ahmed Kutucu,906049,Roland Sallai,355088,True
+12530745,83,Anderson Talisca,329245,Edin Džeko,14990,False
+12530745,83,Mert Müldür,836683,Oğuz Aydın,999396,False
+12530745,78,Dries Mertens,32493,Eren Elmalı,981483,True
+12530745,69,Yunus Akgün,857738,Gabriel Sara,913593,True
+12530745,61,Sofyan Amrabat,359272,Sebastian Szymański,847983,False
+12530745,61,Alexander Djiku,289977,Çağlar Söyüncü,758608,False
+12530729,90,Ahmet Yilmaz,1983995,Ozan Demirbağ,1654166,True
+12530729,89,Celal Dumanli,903334,Ondřej Čelůstka,45764,False
+12530729,88,Osman Kaynak,1170288,Yusuf Barası,1000187,True
+12530729,81,Ege Bilsel,1011244,Jonathan Okita,809225,False
+12530729,80,Zdravko Dimitrov,871342,George Pușcaș,190319,False
+12530729,72,Gökdeniz Bayrakdar,952564,Enis Bardhi,355024,False
+12530729,67,Aksel Aktaş,863172,Burhan Ersoy,1640309,True
+12530729,46,Salih Kavrazlı,964233,Abat Aimbetov,189193,True
+12530729,46,Taulant Seferi,279487,Ahmet Aslan,1134098,False
+12530729,46,Ozan Demirbağ,1654166,Arda Kurtulan,1063395,True
+12530729,38,Murat Uğur Eser,1550761,Vedat Karakuş,847353,True
+12530736,87,Tayyip Talha Sanuç,851909,Rafa Silva,252577,True
+12530736,81,Talha Sariarslan,1088715,Ali Karimi,803869,False
+12530736,78,Stéphane Bahoken,153220,Duckens Nazon,796023,False
+12530736,71,Yaw Ackah,984096,Mehdi Bourabia,98003,False
+12530736,71,Lionel Carole,122922,Hasan Ali Kaldırım,39847,False
+12530736,68,Ernest Muçi,924670,João Mário,97001,True
+12530736,68,Semih Kılıçsoy,1142606,Ciro Immobile,45923,True
+12530736,58,Keny Arroyo,1482431,Milot Rashica,800411,True
+12530736,57,Amir Hadžiahmetović,795421,Alex Oxlade-Chamberlain,10577,True
+12530736,46,Ramazan Civelek,781408,Carlos Mané,859748,False
+12530733,90,Mithat Pala,1016393,Ibrahim Olawoyin,1008173,True
+12530733,90,Abdülkadir Ömür,826155,Rachid Ghezzal,123228,True
+12530733,81,Muhamed Buljubašić,1134586,Dal Varešanović,979109,True
+12530733,78,Efecan Karaca,60510,Nicolas Janvier,802150,False
+12530733,73,Altin Zeqiri,991742,Babajide David Akintola,798676,True
+12530733,72,Berkay Özcan,806964,Husniddin Alikulov,1121174,True
+12530735,90,Cafú,110956,Mortadha Ben Ouanes,919225,True
+12530735,90,Dries Mertens,32493,Lucas Torreira,754794,False
+12530735,90,Yusuf Demir,962283,Abdülkerim Bardakcı,178963,False
+12530735,80,Carlos Cuesta,839095,Eren Elmalı,981483,False
+12530735,80,Kaan Ayhan,138152,Mario Lemina,307284,False
+12530735,77,Can Keleş,918408,Josip Brekalo,357598,True
+12530735,65,Ahmed Kutucu,906049,Roland Sallai,355088,False
+12530735,46,Kévin Rodrigues,234232,Yasin Özcan,1392102,True
+12530732,87,Moussa Djenepo,869910,Sander van de Streek,220155,False
+12530732,87,Adolfo Gaich,940692,Ramzi Safuri,186949,False
+12530732,86,İrfan Can Kahveci,226986,Dušan Tadić,38560,True
+12530732,86,Alexander Djiku,289977,Mert Müldür,836683,True
+12530732,80,Sofyan Amrabat,359272,Sebastian Szymański,847983,True
+12530732,80,Cenk Tosun,72127,Edin Džeko,14990,True
+12530732,72,Andros Townsend,47992,Braian Samudio,892933,False
+12530732,72,Abdurrahim Dursun,883275,Güray Vural,43559,False
+12530732,69,Anderson Talisca,329245,Youssef En-Nesyri,846470,True
+12530732,64,Oleksandr Petrusenko,906673,Erdal Rakip,319871,False
+12530740,90,Emre Taşdemir,190191,Christophe Lungoyi,883355,True
+12530740,87,Semih Güler,325155,Alexandru Maxim,180511,True
+12530740,83,Umut Bozok,869839,Prince Ampem,923888,False
+12530740,72,Ogün Özçiçek,859783,Quentin Daubin,826605,True
+12530740,58,Tayfur Bingöl,255957,Taras Stepanenko,45604,False
+12530740,58,Caner Erkin,15680,Halil Akbunar,217782,False
+12530740,58,Emre Akbaba,343527,Dorukhan Toköz,796133,False
+12530740,46,Emmanuel Boateng,580392,Halil Dervişoğlu,930775,True
+12530734,85,Morten Bjørlo,921358,Pedrinho,1015939,True
+12530734,83,Umut Nayir,284767,Blaž Kramer,804405,True
+12530734,83,Danijel Aleksić,45377,Melih İbrahimoğlu,998462,True
+12530734,73,Cihan Çanak,1127335,Batista Mendy,859021,False
+12530734,59,Serdar Saatçı,1084880,Stefan Savić,76265,False
+12530734,59,Ozan Tufan,251907,Simon Banza,825945,False
+12530734,59,Arif Boşluk,1138095,Muhammed-Cham Saračević,958901,False
+12530734,58,Hamidou Keyta,829610,Louka Prip,976127,True
+12530734,58,Oğulcan Ülgün,1063942,Marko Jevtović,310068,True
+12530737,90,Ömer Faruk Beyaz,1022881,Deniz Türüç,252207,True
+12530737,90,Hamza Güreler,1562294,Krzysztof Piątek,558738,True
+12530737,89,Bekir Turaç Böke,997681,Veljko Simić,188117,False
+12530737,82,Philippe Keny,988909,João Figueiredo,841012,True
+12530737,82,Umut Güneş,876782,Olivier Kemen,280447,True
+12530737,73,Garry Rodrigues,787429,Efkan Bekiroğlu,800458,False
+12530737,69,Miguel Crespo,972410,Yusuf Sarı,896364,True
+12530737,67,Bengali-Fodé Koita,51407,Achilleas Poungouras,783466,False
+12530731,90,Bedirhan Çetin,1215897,Emre Kılınç,202032,False
+12530731,85,Victor Hugo,1170954,David Tijanič,827369,True
+12530731,85,Doğan Erdoğan,257407,Anthony Junior Dennis,1484438,True
+12530731,84,Soner Aydoğdu,69351,Yunus Emre Çift,1063325,False
+12530731,84,Arbnor Muja,890695,Celil Yüksel,806972,False
+12530731,57,Kingsley Schindler,169113,Landry Dimata,826944,False
+12530731,57,Kubilay Kanatsızkuş,828953,Kuryu Matsuki,1154637,True
+12530731,57,Rômulo,1133743,Juan Santos da Silva,1009928,True
+12530731,24,İsmail Köybaşı,43605,Djalma,973933,True
+12530723,87,Zdravko Dimitrov,871342,George Pușcaș,190319,True
+12530723,87,Christophe Herelle,225092,Uzeyir Ergun,996122,True
+12530723,86,Jhon Espinoza,929098,Cláudio Winck,155998,False
+12530723,86,Sinan Alkas,1548530,Gökhan Gül,797820,False
+12530723,80,Taulant Seferi,279487,Ege Bilsel,1011244,True
+12530723,76,Cafú,110956,Josip Brekalo,357598,False
+12530723,64,Enis Bardhi,355024,Jonathan Okita,809225,True
+12530723,64,Pedro Brazão,981535,Erkan Degismez,130493,True
+12530723,60,Can Keleş,918408,Antonín Barák,330705,False
+12530722,82,Yaw Ackah,984096,Ramazan Civelek,781408,True
+12530722,82,Hasan Ali Kaldırım,39847,Kartal Kayra Yılmaz,966811,True
+12530722,75,Berat Ayberk Özdemir,876857,Miguel Crespo,972410,False
+12530722,72,Majid Hosseini,359332,Mehdi Bourabia,98003,True
+12530722,69,Ömer Faruk Beyaz,1022881,Yusuf Sarı,896364,False
+12530722,69,Ivan Brnić,916182,João Figueiredo,841012,False
+12530722,59,Hamza Güreler,1562294,Ousseynou Ba,889430,False
+12530722,59,Philippe Keny,988909,Lucas Lima,248529,False
+12530722,59,Stéphane Bahoken,153220,Duckens Nazon,796023,True
+12530730,90,Mithat Pala,1016393,Ibrahim Olawoyin,1008173,False
+12530730,90,Ayberk Karapo,1395701,Altin Zeqiri,991742,False
+12530730,79,Adolfo Gaich,940692,Bünyamin Balcı,967214,True
+12530730,71,Soner Dikmen,847782,Erdal Rakip,319871,True
+12530730,71,Deni Milošević,190403,Braian Samudio,892933,True
+12530730,67,Muhamed Buljubašić,1134586,Dal Varešanović,979109,False
+12530730,32,Emrecan Bulut,1480663,Babajide David Akintola,798676,False
+12530726,90,Selimcan Temel,1003319,Bilal Boutobba,769163,False
+12530726,83,Denis Drăguş,841199,Hüseyin Türkmen,913994,True
+12530726,81,Recep Burak Yılmaz,904172,Joelson Fernandes,1032547,False
+12530726,68,Ozan Tufan,251907,Batista Mendy,859021,True
+12530726,67,Muhammed-Cham Saračević,958901,Oleksandr Zubkov,353282,True
+12530726,55,Rui Pedro,862672,Kerim Alıcı,758870,False
+12530721,87,Ziya Erdal,138312,Charis Charisis,317297,True
+12530721,87,Queensy Menig,232318,Garry Rodrigues,787429,True
+12530721,86,David Tijanič,827369,Novatus Miroshi,1103597,False
+12530721,85,Kubilay Kanatsızkuş,828953,Juan Santos da Silva,1009928,False
+12530721,78,Emersonn,1128844,İsmail Köybaşı,43605,False
+12530721,75,Emirhan Başyiğit,1149004,Noah Sonko Sundberg,279541,True
+12530721,64,Victor Hugo,1170954,Kuryu Matsuki,1154637,False
+12530721,64,Doğan Erdoğan,257407,Anthony Junior Dennis,1484438,False
+12530721,46,Furkan Bayır,1003161,Ahmed Ildız,849329,False
+12530721,33,Bekir Turaç Böke,997681,Veljko Simić,188117,True
+12530721,9,Veljko Simić,188117,Rey Manaj,587882,True
+12530724,90,Hamza Akman,1394720,Tayfur Bingöl,255957,True
+12530724,90,Dorukhan Toköz,796133,Emre Mor,826258,True
+12530724,89,Halil Akbunar,217782,Emre Akbaba,343527,True
+12530724,85,Hamidou Keyta,829610,Melih İbrahimoğlu,998462,False
+12530724,78,Umut Nayir,284767,Pedrinho,1015939,False
+12530724,69,Morten Bjørlo,921358,Oğulcan Ülgün,1063942,False
+12530724,69,Danijel Aleksić,45377,Yusuf Erdoğan,256663,False
+12530724,46,Muhammet Tunahan Taşçı,980612,Louka Prip,976127,False
+12530724,46,Umut Bozok,869839,Prince Ampem,923888,True
+12530728,90,Soner Gönül,867727,Soner Aydoğdu,69351,True
+12530728,74,Flavien Tait,312388,Kingsley Schindler,169113,True
+12530728,74,Landry Dimata,826944,Olivier Ntcham,352676,True
+12530728,74,Arbnor Muja,890695,Emre Kılınç,202032,True
+12530728,72,Abat Aimbetov,189193,Aksel Aktaş,863172,False
+12530728,66,Ozan Demirbağ,1654166,Burhan Ersoy,1640309,False
+12530728,23,Vedat Karakuş,847353,Murat Uğur Eser,1550761,False
+12530725,90,Kerem Demirbay,142619,Gabriel Sara,913593,False
+12530725,90,Ahmed Kutucu,906049,Victor Osimhen,822471,False
+12530725,84,Arda Usluoğlu,1618838,Andraž Šporar,166987,True
+12530725,84,Nicolas Janvier,802150,Fatih Aksoy,827922,True
+12530725,79,Kaan Ayhan,138152,Álvaro Morata,125407,False
+12530725,72,Ui-Jo Hwang,791314,Sergio Córdova,881222,True
+12530725,72,Roland Sallai,355088,Eren Elmalı,981483,False
+12530725,46,Yunus Akgün,857738,Mario Lemina,307284,False
+12530720,87,Semih Kılıçsoy,1142606,Arthur Masuaku,174975,True
+12530720,82,Ertuğrul Ersoy,355004,Alexandru Maxim,180511,False
+12530720,82,Christophe Lungoyi,883355,Emmanuel Boateng,580392,False
+12530720,79,Keny Arroyo,1482431,João Mário,97001,True
+12530720,79,Amir Hadžiahmetović,795421,Alex Oxlade-Chamberlain,10577,True
+12530720,69,Onur Bulut,142494,Tayyip Talha Sanuç,851909,True
+12530720,68,Ernest Muçi,924670,Milot Rashica,800411,True
+12530720,64,Semih Güler,325155,Arda Kızıldağ,904228,False
+12530720,60,Furkan Soyalp,226992,Ogün Özçiçek,859783,False
+12530713,83,Braian Samudio,892933,Soner Dikmen,847782,False
+12530713,83,Berkan Kutlu,992912,Barış Alper Yılmaz,904096,True
+12530713,77,Kaan Ayhan,138152,Davinson Sánchez,566102,True
+12530713,68,Roland Sallai,355088,Yunus Akgün,857738,True
+12530713,68,Dries Mertens,32493,Victor Osimhen,822471,True
+12530713,68,Mario Lemina,307284,Lucas Torreira,754794,True
+12530713,58,Abdurrahim Dursun,883275,Sam Larsson,229800,False
+12530713,57,Adolfo Gaich,940692,Ramzi Safuri,186949,False
+12530713,46,Amar Gerxhaliu,1123371,Emrecan Uzunhan,997684,False
+12530713,46,Oleksandr Petrusenko,906673,Erdal Rakip,319871,False
+12530718,89,Muhammed Gümüşkaya,929649,Christophe Lungoyi,883355,True
+12530718,84,Talha Sariarslan,1088715,Duckens Nazon,796023,False
+12530718,82,Kenan Kodro,591140,David Okereke,831290,True
+12530718,77,Yaw Ackah,984096,Carlos Mané,859748,False
+12530718,63,Stéphane Bahoken,153220,Mehdi Bourabia,98003,False
+12530718,62,Furkan Soyalp,226992,Alexandru Maxim,180511,True
+12530718,46,Deian Sorescu,797602,Emmanuel Boateng,580392,True
+12530718,46,Ogün Özçiçek,859783,Emre Taşdemir,190191,True
+12530714,90,Cafú,110956,Gökhan Gül,797820,True
+12530714,90,Sadık Çiftpınar,111811,Mortadha Ben Ouanes,919225,True
+12530714,81,Nicolas Janvier,802150,Florent Hadergjonaj,354860,False
+12530714,76,Can Keleş,918408,Nuno Da Costa,209374,True
+12530714,64,Efecan Karaca,60510,Enes Keskin,897168,False
+12530714,62,Josip Brekalo,357598,Yasin Özcan,1392102,True
+12530714,46,Ui-Jo Hwang,791314,Fatih Aksoy,827922,False
+12530719,90,Tim Jabol-Folcarelli,1106446,Batista Mendy,859021,False
+12530719,90,Arif Boşluk,1138095,Edin Višća,109779,False
+12530719,85,Oleksandr Zubkov,353282,Ozan Tufan,251907,False
+12530719,79,Ömer Faruk Beyaz,1022881,Miguel Crespo,972410,True
+12530719,78,Philippe Keny,988909,Krzysztof Piątek,558738,True
+12530719,78,Christopher Operi,858977,Ousseynou Ba,889430,True
+12530719,69,João Figueiredo,841012,Yusuf Sarı,896364,True
+12530719,69,Ivan Brnić,916182,Umut Güneş,876782,True
+12530719,61,Muhammed-Cham Saračević,958901,Danylo Sikan,945479,False
+12530719,60,Serdar Saatçı,1084880,Hüseyin Türkmen,913994,False
+12530717,85,Nikola Boranijašević,150667,Hamidou Keyta,829610,True
+12530717,85,Louka Prip,976127,Melih İbrahimoğlu,998462,True
+12530717,79,Salih Uçan,135695,Milot Rashica,800411,False
+12530717,78,Josip Ćalušić,172331,Danijel Aleksić,45377,True
+12530717,67,Keny Arroyo,1482431,Alex Oxlade-Chamberlain,10577,False
+12530717,62,Riechedly Bazoer,227196,Yusuf Erdoğan,256663,True
+12530717,61,Pedrinho,1015939,Uğurcan Yazğılı,904303,True
+12530717,55,Onur Bulut,142494,Felix Uduokhai,792142,False
+12530717,46,Ernest Muçi,924670,João Mário,97001,False
+12530717,46,Emirhan Topçu,895009,Gabriel Paulista,124737,False
+12530717,46,Semih Kılıçsoy,1142606,Tayyip Talha Sanuç,851909,False
+12530717,46,Hamidou Keyta,829610,Muhammet Tunahan Taşçı,980612,True
+12530707,90,Enes Ogruce,1395595,Enis Bardhi,355024,False
+12530707,82,George Pușcaș,190319,Fredy,845281,False
+12530707,82,Jonathan Okita,809225,Ege Bilsel,1011244,False
+12530707,79,Ayberk Karapo,1395701,Rachid Ghezzal,123228,True
+12530707,74,Mithat Pala,1016393,Taha Şahin,1394729,True
+12530707,74,Emrecan Bulut,1480663,Altin Zeqiri,991742,True
+12530707,71,Christophe Herelle,225092,Uzeyir Ergun,996122,False
+12530707,64,Ondřej Čelůstka,45764,Erkan Degismez,130493,False
+12530707,64,Taulant Seferi,279487,Pedro Brazão,981535,False
+12530707,46,Muhamed Buljubašić,1134586,Berkay Özcan,806964,True
+12530707,46,Václav Jurečka,225850,Dal Varešanović,979109,True
+12530707,45,Attila Mocsi,889382,Husniddin Alikulov,1121174,True
+12530715,90,Hamza Akman,1394720,Prince Ampem,923888,False
+12530715,88,Ahmed Ildız,849329,Lasse Nielsen,21547,True
+12530715,88,Kubilay Kanatsızkuş,828953,Anthony Junior Dennis,1484438,True
+12530715,82,Emersonn,1128844,Juan Santos da Silva,1009928,True
+12530715,74,Umut Bozok,869839,Emre Mor,826258,False
+12530715,63,Halil Akbunar,217782,Emre Akbaba,343527,False
+12530715,46,David Tijanič,827369,Kuryu Matsuki,1154637,True
+12530727,83,Cengiz Demir,1015360,Görkem Sağlam,795001,True
+12530727,83,Veljko Simić,188117,Garry Rodrigues,787429,False
+12530727,71,Funsho Bamgboye,822469,Joelson Fernandes,1032547,True
+12530727,71,Bekir Turaç Böke,997681,Efkan Bekiroğlu,800458,False
+12530727,63,Emirhan Başyiğit,1149004,Charis Charisis,317297,False
+12530727,31,Recep Burak Yılmaz,904172,Cemali Sertel,929956,True
+12530711,90,Bedirhan Çetin,1215897,Arbnor Muja,890695,False
+12530711,82,Mert Hakan Yandaş,856849,Mert Müldür,836683,True
+12530711,71,İrfan Can Kahveci,226986,Alexander Djiku,289977,True
+12530711,67,Landry Dimata,826944,Zeki Yavru,140735,False
+12530711,67,Arbnor Muja,890695,Emre Kılınç,202032,False
+12530711,58,Bright Osayi-Samuel,791616,Filip Kostić,126588,True
+12530711,58,Youssef En-Nesyri,846470,Anderson Talisca,329245,True
+12530711,58,Sebastian Szymański,847983,Dušan Tadić,38560,True
+12530711,46,Soner Aydoğdu,69351,Celil Yüksel,806972,False
+12530706,90,Emrecan Uzunhan,997684,Sam Larsson,229800,True
+12530706,87,Ui-Jo Hwang,791314,Richard,897617,False
+12530706,85,Moussa Djenepo,869910,Braian Samudio,892933,True
+12530706,85,Abdurrahim Dursun,883275,Güray Vural,43559,True
+12530706,79,Andraž Šporar,166987,Sergio Córdova,881222,False
+12530706,79,Jure Balkovec,171625,Fidan Aliti,385296,False
+12530706,75,Mert Yilmaz,881966,Bünyamin Balcı,967214,True
+12530706,75,Adolfo Gaich,940692,Ramzi Safuri,186949,True
+12530706,46,Nicolas Janvier,802150,Efecan Karaca,60510,False
+12530712,81,Talha Sariarslan,1088715,Gökhan Sazdağı,595396,True
+12530712,81,Nurettin Korkmaz,976993,Lionel Carole,122922,True
+12530712,77,Selimcan Temel,1003319,Recep Burak Yılmaz,904172,False
+12530712,67,Carlos Mané,859748,Miguel Cardoso,344009,True
+12530712,67,Duckens Nazon,796023,Stéphane Bahoken,153220,True
+12530712,67,Yaw Ackah,984096,Mehdi Bourabia,98003,True
+12530712,60,Rui Pedro,862672,Görkem Sağlam,795001,False
+12530712,60,Jonathan Okoronkwo,1188543,Carlos Strandberg,333423,False
+12530712,46,Vincent Aboubakar,116869,Kerim Alıcı,758870,False
+12530712,46,Joelson Fernandes,1032547,Funsho Bamgboye,822469,False
+12530708,82,Mert Hakan Yandaş,856849,İrfan Can Kahveci,226986,False
+12530708,81,Alexander Djiku,289977,Filip Kostić,126588,False
+12530708,81,Taylan Antalyalı,190197,Jonathan Okita,809225,True
+12530708,72,Edin Džeko,14990,Youssef En-Nesyri,846470,False
+12530708,72,Dušan Tadić,38560,Sebastian Szymański,847983,False
+12530708,72,Allan Saint-Maximin,347010,Anderson Talisca,329245,False
+12530708,67,Taulant Seferi,279487,George Pușcaș,190319,True
+12530708,46,Enis Bardhi,355024,Ege Bilsel,1011244,True
+12530708,46,Fredy,845281,Pedro Brazão,981535,True
+12530708,46,Arlind Ajeti,111746,Erkan Degismez,130493,True
+12530705,90,Hamidou Keyta,829610,Yusuf Erdoğan,256663,True
+12530705,86,Kenan Kodro,591140,Bruno Viana,804703,False
+12530705,84,Umut Nayir,284767,Blaž Kramer,804405,True
+12530705,84,Josip Ćalušić,172331,Danijel Aleksić,45377,True
+12530705,84,Oğulcan Ülgün,1063942,Pedrinho,1015939,True
+12530705,75,Emre Taşdemir,190191,Anel Husić,1122387,False
+12530705,75,Ogün Özçiçek,859783,Alexandru Maxim,180511,False
+12530705,75,Halil Dervişoğlu,930775,Christophe Lungoyi,883355,False
+12530705,71,Muhammet Tunahan Taşçı,980612,Marko Jevtović,310068,True
+12530705,46,Emmanuel Boateng,580392,Quentin Daubin,826605,False
+12530710,87,Veljko Simić,188117,Uğur Çiftçi,142850,True
+12530710,87,Queensy Menig,232318,Bekir Turaç Böke,997681,True
+12530710,79,Aksel Aktaş,863172,İzzet Çelik,826836,False
+12530710,79,Breyton Fougeu,1545020,Bunyamin Balat,996317,False
+12530710,79,Murat Uğur Eser,1550761,Vedat Karakuş,847353,False
+12530710,79,Achilleas Poungouras,783466,Charis Charisis,317297,True
+12530710,78,Alex Pritchard,180009,Efkan Bekiroğlu,800458,True
+12530710,62,Osman Kaynak,1170288,Ali Yavuz Kol,910091,False
+12530710,62,Azizbek Turgunboev,971572,Garry Rodrigues,787429,True
+12530710,30,Yusuf Barası,1000187,Ozan Demirbağ,1654166,False
+12530716,87,Cafú,110956,Haris Hajradinović,254979,False
+12530716,87,Can Keleş,918408,Mamadou Fall,822228,False
+12530716,87,Josip Brekalo,357598,Nuno Da Costa,209374,False
+12530716,82,Soner Gönül,867727,Marc Bola,862083,True
+12530716,75,Aytaç Kara,128196,Gökhan Gül,797820,False
+12530716,75,Arbnor Muja,890695,Emre Kılınç,202032,True
+12530716,59,Kingsley Schindler,169113,Soner Aydoğdu,69351,True
+12530716,59,Jhon Espinoza,929098,Cláudio Winck,155998,False
+12530704,90,Tim Jabol-Folcarelli,1106446,Serdar Saatçı,1084880,True
+12530704,85,Furkan Bayır,1003161,Anthony Junior Dennis,1484438,False
+12530704,85,Victor Hugo,1170954,Doğan Erdoğan,257407,False
+12530704,85,Taha Altıkardeş,1101279,Nazım Sangaré,169425,False
+12530704,76,Cihan Çanak,1127335,Edin Višća,109779,True
+12530704,76,Denis Drăguş,841199,Ozan Tufan,251907,True
+12530704,67,Muhammed-Cham Saračević,958901,Oleksandr Zubkov,353282,True
+12530704,67,Danylo Sikan,945479,Enis Destan,1012480,True
+12530704,66,Emersonn,1128844,Juan Santos da Silva,1009928,False
+12530704,26,David Tijanič,827369,Ahmed Ildız,849329,False
+12530709,90,Salih Uçan,135695,Rafa Silva,252577,True
+12530709,85,Mustafa Hekimoğlu,1524303,João Mário,97001,True
+12530709,83,Ahmed Kutucu,906049,Lucas Torreira,754794,False
+12530709,83,Kaan Ayhan,138152,Abdülkerim Bardakcı,178963,False
+12530709,71,Dries Mertens,32493,Gabriel Sara,913593,False
+12530709,65,Semih Kılıçsoy,1142606,Ernest Muçi,924670,True
+12530709,62,Mario Lemina,307284,Yunus Akgün,857738,False
+12530703,90,Festy Ebosele,983059,Léo Duarte,839982,False
+12530703,85,Philippe Keny,988909,Krzysztof Piątek,558738,False
+12530703,85,João Figueiredo,841012,Ivan Brnić,916182,False
+12530703,84,Hüseyin Maldar,1618510,Emre Akbaba,343527,True
+12530703,84,Hamza Akman,1394720,Melih Kabasakal,828872,True
+12530703,77,Umut Bozok,869839,Halil Akbunar,217782,True
+12530703,73,Dorukhan Toköz,796133,Yalçın Kayan,945548,True
+12530703,62,Jerome Opoku,920514,Ömer Ali Şahiner,103912,False
+12530703,62,Olivier Kemen,280447,Umut Güneş,876782,False
+12530701,89,Mehmet Eray Özbek,1011955,Kartal Kayra Yılmaz,966811,False
+12530701,83,Abat Aimbetov,189193,Salih Kavrazlı,964233,True
+12530701,83,Bunyamin Balat,996317,İzzet Çelik,826836,True
+12530701,82,Yusuf Bugra Demirkiran,2086502,Burhan Ersoy,1640309,True
+12530701,79,Carlos Mané,859748,Ramazan Civelek,781408,False
+12530701,79,Baran Ali Gezek,1215110,Mehdi Bourabia,98003,False
+12530701,73,Duckens Nazon,796023,Stéphane Bahoken,153220,False
+12530701,73,Yaw Ackah,984096,Joseph Attamah,332963,False
+12530701,65,Ali Yavuz Kol,910091,Osman Kaynak,1170288,True
+12530701,65,Ozan Demirbağ,1654166,Nabil Alioui,873049,True
+12530702,86,Samba Camara,837301,Bekir Turaç Böke,997681,False
+12530702,81,Queensy Menig,232318,Samuel Moutoussamy,892624,False
+12530702,77,Muhamed Buljubašić,1134586,Dal Varešanović,979109,True
+12530702,65,Emrecan Bulut,1480663,Václav Jurečka,225850,True
+12530702,65,Babajide David Akintola,798676,Altin Zeqiri,991742,True
+12530702,58,Veljko Simić,188117,Garry Rodrigues,787429,False
+12530696,87,Umut Güneş,876782,Miguel Crespo,972410,True
+12530696,87,João Figueiredo,841012,Olivier Kemen,280447,True
+12530696,87,Philippe Keny,988909,Krzysztof Piątek,558738,True
+12530696,83,Oğulcan Ülgün,1063942,Pedrinho,1015939,False
+12530696,83,Louka Prip,976127,Marko Jevtović,310068,False
+12530696,80,Hamza Güreler,1562294,Yusuf Sarı,896364,True
+12530696,75,Umut Nayir,284767,Danijel Aleksić,45377,False
+12530696,67,Deniz Türüç,252207,Ivan Brnić,916182,True
+12530696,30,Yasir Subaşı,796555,Guilherme Haubert Sityá,224112,False
+12530694,87,Olivier Ntcham,352676,Yunus Emre Çift,1063325,False
+12530694,83,Landry Dimata,826944,Emre Kılınç,202032,False
+12530694,81,Oleksandr Petrusenko,906673,Sam Larsson,229800,True
+12530694,81,Abdurrahim Dursun,883275,Güray Vural,43559,True
+12530694,67,Bünyamin Balcı,967214,Mert Yilmaz,881966,True
+12530694,64,Adolfo Gaich,940692,Soner Dikmen,847782,True
+12530694,63,Moussa Djenepo,869910,Braian Samudio,892933,True
+12530694,46,Flavien Tait,312388,Kingsley Schindler,169113,False
+12530694,9,Yunus Emre Çift,1063325,Youssef Aït Bennasser,802850,False
+12530693,90,Pedro Brazão,981535,Enis Bardhi,355024,False
+12530693,89,Arda Usluoğlu,1618838,Nicolas Janvier,802150,True
+12530693,86,Christophe Herelle,225092,Taylan Antalyalı,190197,False
+12530693,77,Nuno Lima,1133301,Richard,897617,True
+12530693,63,Ui-Jo Hwang,791314,Sergio Córdova,881222,True
+12530693,63,Florent Hadergjonaj,354860,Enes Keskin,897168,True
+12530693,63,Andraž Šporar,166987,Gaius Makouta,847013,True
+12530693,46,Ondřej Čelůstka,45764,Uzeyir Ergun,996122,False
+12530693,46,Jonathan Okita,809225,Gökdeniz Bayrakdar,952564,False
+12530693,46,Ege Bilsel,1011244,Erkan Degismez,130493,False
+12530699,88,Jonathan Okoronkwo,1188543,Görkem Sağlam,795001,True
+12530699,88,Kamil Ahmet Çörekçi,124728,Cemali Sertel,929956,True
+12530699,84,Halil Akbunar,217782,Prince Ampem,923888,False
+12530699,83,Caner Erkin,15680,Mame Thiam,180981,False
+12530699,83,Rúben Vezo,233180,Tayfur Bingöl,255957,False
+12530699,72,Carlos Strandberg,333423,Funsho Bamgboye,822469,True
+12530699,71,Umut Bozok,869839,Emre Akbaba,343527,False
+12530699,64,Rui Pedro,862672,Joelson Fernandes,1032547,True
+12530699,63,Hamza Akman,1394720,Emre Mor,826258,False
+12530700,86,Cenk Tosun,72127,Edin Džeko,14990,True
+12530700,81,İrfan Can Kahveci,226986,Sebastian Szymański,847983,True
+12530700,80,Anthony Nwakaeme,139455,Batista Mendy,859021,False
+12530700,70,Cihan Çanak,1127335,Mustafa Eskihellaç,899069,False
+12530700,70,Serdar Saatçı,1084880,Arif Boşluk,1138095,False
+12530700,67,Oğuz Aydın,999396,Allan Saint-Maximin,347010,True
+12530700,67,Çağlar Söyüncü,758608,Dušan Tadić,38560,True
+12530700,65,Ozan Tufan,251907,John Lundstram,149815,False
+12530700,65,Edin Višća,109779,Denis Drăguş,841199,False
+12530700,46,Anderson Talisca,329245,Alexander Djiku,289977,True
+12530695,90,Kubilay Kanatsızkuş,828953,İsmail Köybaşı,43605,True
+12530695,86,Bruno Viana,804703,Halil Dervişoğlu,930775,False
+12530695,85,Emersonn,1128844,Malcom Bokele,1122632,True
+12530695,84,Lasse Nielsen,21547,Ogün Bayrak,903999,True
+12530695,74,David Okereke,831290,Emmanuel Boateng,580392,False
+12530695,74,Quentin Daubin,826605,Kacper Kozłowski,984602,False
+12530695,66,Salem M'Bakata,940367,Deian Sorescu,797602,False
+12530695,55,Kuryu Matsuki,1154637,Doğan Erdoğan,257407,True
+12530695,55,David Tijanič,827369,Victor Hugo,1170954,True
+12530698,82,Keny Arroyo,1482431,Alex Oxlade-Chamberlain,10577,False
+12530698,77,Josip Brekalo,357598,Aytaç Kara,128196,True
+12530698,72,Salih Uçan,135695,Ernest Muçi,924670,False
+12530698,65,Cafú,110956,Yasin Özcan,1392102,True
+12530698,46,Mustafa Hekimoğlu,1524303,Ciro Immobile,45923,False
+12530698,46,Milot Rashica,800411,João Mário,97001,False
+12530698,17,Tayyip Talha Sanuç,851909,Emirhan Topçu,895009,False
+12530690,90,Ali Tarkan,1928572,Zeki Yavru,140735,True
+12530690,90,Soner Gönül,867727,Yunus Emre Çift,1063325,True
+12530690,90,Muhammet Ali Özbaskıcı,1149024,Emre Kılınç,202032,True
+12530690,87,Berkan Kutlu,992912,Lucas Torreira,754794,False
+12530690,83,Dries Mertens,32493,Gabriel Sara,913593,False
+12530690,83,Ismail Jakobs,897291,Roland Sallai,355088,False
+12530690,82,Ahmed Kutucu,906049,Yunus Akgün,857738,False
+12530690,77,Kingsley Schindler,169113,Arbnor Muja,890695,True
+12530690,77,Soner Aydoğdu,69351,Flavien Tait,312388,True
+12530690,74,Álvaro Morata,125407,Victor Osimhen,822471,False
+12530684,86,Nikola Boranijašević,150667,Yasir Subaşı,796555,True
+12530684,82,Umut Nayir,284767,Yusuf Erdoğan,256663,True
+12530684,81,Morten Bjørlo,921358,Pedrinho,1015939,True
+12530684,76,Victor Hugo,1170954,Doğan Erdoğan,257407,False
+12530684,63,Malcom Bokele,1122632,Ogün Bayrak,903999,False
+12530684,63,Nazım Sangaré,169425,İsmail Köybaşı,43605,False
+12530684,62,Danijel Aleksić,45377,Oğulcan Ülgün,1063942,True
+12530684,46,Lasse Nielsen,21547,Héliton,922725,False
+12530684,7,Emersonn,1128844,Juan Santos da Silva,1009928,False
+12530688,88,Philippe Keny,988909,Krzysztof Piątek,558738,False
+12530688,88,Umut Güneş,876782,Olivier Kemen,280447,False
+12530688,81,Ciro Immobile,45923,Mustafa Hekimoğlu,1524303,True
+12530688,80,Jerome Opoku,920514,Ömer Ali Şahiner,103912,False
+12530688,80,Deniz Türüç,252207,Yusuf Sarı,896364,False
+12530688,77,Keny Arroyo,1482431,Alex Oxlade-Chamberlain,10577,True
+12530688,64,João Figueiredo,841012,Ivan Brnić,916182,False
+12530688,46,Onur Bulut,142494,Salih Uçan,135695,True
+12530688,27,João Mário,97001,Ernest Muçi,924670,True
+12530686,87,Bünyamin Balcı,967214,Mert Yilmaz,881966,False
+12530686,84,Celal Dumanli,903334,Jonathan Okita,809225,True
+12530686,84,Ahmet Aslan,1134098,Enis Bardhi,355024,True
+12530686,84,Zdravko Dimitrov,871342,Taulant Seferi,279487,True
+12530686,80,Oleksandr Petrusenko,906673,Erdal Rakip,319871,False
+12530686,80,Adolfo Gaich,940692,Soner Dikmen,847782,False
+12530686,72,Abdurrahim Dursun,883275,Güray Vural,43559,False
+12530686,66,Pedro Brazão,981535,George Pușcaș,190319,True
+12530689,90,Ertuğrul Ersoy,355004,David Okereke,831290,True
+12530689,83,Jonathan Okoronkwo,1188543,Vincent Aboubakar,116869,False
+12530689,83,Cengiz Demir,1015360,Cemali Sertel,929956,False
+12530689,83,Furkan Soyalp,226992,Alexandru Maxim,180511,True
+12530689,76,Joelson Fernandes,1032547,Funsho Bamgboye,822469,False
+12530689,71,Kamil Ahmet Çörekçi,124728,Recep Burak Yılmaz,904172,False
+12530689,71,Quentin Daubin,826605,Halil Dervişoğlu,930775,True
+12530689,46,Sokratis Dioudis,173933,Mustafa Burak Bozan,934201,True
+12530689,46,Emre Taşdemir,190191,Anel Husić,1122387,True
+12530692,86,Antonín Barák,330705,Haris Hajradinović,254979,False
+12530692,77,Can Keleş,918408,Sadık Çiftpınar,111811,False
+12530692,65,Nurettin Korkmaz,976993,Mehdi Bourabia,98003,True
+12530692,60,Duckens Nazon,796023,Stéphane Bahoken,153220,True
+12530692,36,Ali Karimi,803869,Dimitris Kolovetsios,68228,True
+12530691,90,İsmail Yüksek,952600,Sebastian Szymański,847983,False
+12530691,90,İrfan Can Kahveci,226986,Dušan Tadić,38560,False
+12530691,89,Alexander Djiku,289977,Anderson Talisca,329245,False
+12530691,89,Achilleas Poungouras,783466,Bekir Turaç Böke,997681,True
+12530691,83,Veljko Simić,188117,Samuel Moutoussamy,892624,True
+12530691,81,Youssef En-Nesyri,846470,Edin Džeko,14990,False
+12530691,81,Oğuz Aydın,999396,Allan Saint-Maximin,347010,False
+12530691,58,Garry Rodrigues,787429,Charis Charisis,317297,True
+12530687,88,Okay Yokuşlu,97967,Ozan Tufan,251907,True
+12530687,80,Cihan Çanak,1127335,Anthony Nwakaeme,139455,True
+12530687,80,Edin Višća,109779,Oleksandr Zubkov,353282,True
+12530687,67,Emrecan Bulut,1480663,Babajide David Akintola,798676,False
+12530687,60,Muhamed Buljubašić,1134586,Samet Akaydın,863600,False
+12530687,60,Mithat Pala,1016393,Taha Şahin,1394729,False
+12530687,46,Muhammed-Cham Saračević,958901,Denis Drăguş,841199,True
+12530687,29,Dal Varešanović,979109,Altin Zeqiri,991742,False
+12530687,29,Václav Jurečka,225850,Berkay Özcan,806964,False
+12530697,76,Breyton Fougeu,1545020,Abdulsamet Burak,900798,False
+12530697,74,Hamza Akman,1394720,Emre Akbaba,343527,True
+12530697,70,Aksel Aktaş,863172,İzzet Çelik,826836,False
+12530697,70,Osman Kaynak,1170288,Salih Kavrazlı,964233,False
+12530697,64,Halil Akbunar,217782,Mame Thiam,180981,True
+12530697,58,Hüseyin Maldar,1618510,Luccas Claro,998209,True
+12530697,58,Taras Stepanenko,45604,Melih Kabasakal,828872,True
+12530697,58,Murat Uğur Eser,1550761,Vedat Karakuş,847353,False
+12530697,46,Rúben Vezo,233180,Yalçın Kayan,945548,True
+12530697,46,Abat Aimbetov,189193,Burhan Ersoy,1640309,False
+12530674,88,George Pușcaș,190319,Ali Aytemur,802650,False
+12530674,86,Kerem Demirbay,142619,Mario Lemina,307284,True
+12530674,86,Berkan Kutlu,992912,Victor Osimhen,822471,True
+12530674,86,Dries Mertens,32493,Lucas Torreira,754794,True
+12530674,81,Taulant Seferi,279487,Ahmet Aslan,1134098,False
+12530674,81,Ahmed Kutucu,906049,Barış Alper Yılmaz,904096,True
+12530674,68,Zdravko Dimitrov,871342,Jonathan Okita,809225,False
+12530674,68,Cenk Şen,957359,Ege Bilsel,1011244,False
+12530674,68,Álvaro Morata,125407,Gabriel Sara,913593,True
+12530674,46,Uzeyir Ergun,996122,Ondřej Čelůstka,45764,False
+12530679,89,Melih Bostan,1133195,Blaž Kramer,804405,False
+12530679,88,Yigit Ali Buz,2010670,Abdulkadir Parmak,344225,True
+12530679,88,Jonathan Okoronkwo,1188543,Carlos Strandberg,333423,True
+12530679,84,Morten Bjørlo,921358,Marko Jevtović,310068,False
+12530679,81,Joelson Fernandes,1032547,Vincent Aboubakar,116869,True
+12530679,68,Selimcan Temel,1003319,Cengiz Demir,1015360,True
+12530679,61,Oğulcan Ülgün,1063942,Melih İbrahimoğlu,998462,False
+12530679,46,Danijel Aleksić,45377,Pedrinho,1015939,False
+12530679,46,Louka Prip,976127,Riechedly Bazoer,227196,False
+12530682,90,Taylan Utku Aydın,1498789,Cafú,110956,True
+12530682,90,Yusuf Inci,1529978,Aytaç Kara,128196,True
+12530682,90,Antonín Barák,330705,Mortadha Ben Ouanes,919225,True
+12530682,90,Josip Brekalo,357598,Can Keleş,918408,True
+12530682,83,Alex Pritchard,180009,Tolga Ciğerci,120298,False
+12530682,73,Bengali-Fodé Koita,51407,Veljko Simić,188117,False
+12530682,67,Kamil Piątkowski,942335,Nicholas Opoku,885683,True
+12530682,54,Garry Rodrigues,787429,Bekir Turaç Böke,997681,False
+12530681,84,Okay Yokuşlu,97967,Edin Višća,109779,False
+12530681,62,Salih Kavrazlı,964233,Ozan Demirbağ,1654166,True
+12530681,62,Maestro,1002146,Osman Kaynak,1170288,True
+12530681,62,Yusuf Barası,1000187,Abat Aimbetov,189193,True
+12530681,58,Arif Boşluk,1138095,Muhammed-Cham Saračević,958901,False
+12530681,57,Oleksandr Zubkov,353282,Cihan Çanak,1127335,False
+12530681,34,Ozan Tufan,251907,Tim Jabol-Folcarelli,1106446,False
+12530678,90,Fahri Ay,1195756,Rafa Silva,252577,False
+12530678,82,Salih Uçan,135695,Milot Rashica,800411,False
+12530678,81,Tayyip Talha Sanuç,851909,Alex Oxlade-Chamberlain,10577,False
+12530678,80,Nazım Sangaré,169425,İsmail Köybaşı,43605,True
+12530678,80,Kuryu Matsuki,1154637,David Tijanič,827369,True
+12530678,79,Victor Hugo,1170954,Doğan Erdoğan,257407,True
+12530678,64,Lasse Nielsen,21547,Malcom Bokele,1122632,True
+12530678,60,Semih Kılıçsoy,1142606,Mustafa Hekimoğlu,1524303,False
+12530678,60,Kubilay Kanatsızkuş,828953,Emersonn,1128844,True
+12530676,90,Philippe Keny,988909,Ömer Ali Şahiner,103912,True
+12530676,90,Festy Ebosele,983059,Christopher Operi,858977,True
+12530676,90,Jerome Opoku,920514,Olivier Kemen,280447,True
+12530676,89,Kenan Kodro,591140,Bruno Viana,804703,False
+12530676,78,Deniz Türüç,252207,Yusuf Sarı,896364,True
+12530676,68,João Figueiredo,841012,Ivan Brnić,916182,True
+12530676,65,Emmanuel Boateng,580392,Halil Dervişoğlu,930775,False
+12530676,64,Emre Taşdemir,190191,Salem M'Bakata,940367,False
+12530676,46,Quentin Daubin,826605,Alexandru Maxim,180511,False
+12530676,46,Christophe Lungoyi,883355,Ogün Özçiçek,859783,False
+12530677,90,Muhamed Buljubašić,1134586,Ibrahim Olawoyin,1008173,True
+12530677,87,Ayberk Karapo,1395701,Berkay Özcan,806964,True
+12530677,86,Caner Erkin,15680,Umut Meraş,609746,False
+12530677,86,Taras Stepanenko,45604,Yalçın Kayan,945548,False
+12530677,79,Altin Zeqiri,991742,Václav Jurečka,225850,True
+12530677,61,Emre Mor,826258,Emre Akbaba,343527,False
+12530677,61,Halil Akbunar,217782,Rúben Vezo,233180,False
+12530677,46,Mithat Pala,1016393,Samet Akaydın,863600,True
+12530685,90,Mehmet Eray Özbek,1011955,Baran Ali Gezek,1215110,False
+12530685,81,Talha Sariarslan,1088715,Duckens Nazon,796023,False
+12530685,81,İsmail Yüksek,952600,Allan Saint-Maximin,347010,True
+12530685,81,Çağlar Söyüncü,758608,Dušan Tadić,38560,True
+12530685,76,Kayra Cihan,1982283,Nurettin Korkmaz,976993,False
+12530685,62,Filip Kostić,126588,Mert Müldür,836683,True
+12530685,62,Oğuz Aydın,999396,Sebastian Szymański,847983,True
+12530685,54,Edin Džeko,14990,Diego Carlos,604232,True
+12530683,85,Jure Balkovec,171625,Nicolas Janvier,802150,True
+12530683,84,Enes Keskin,897168,Florent Hadergjonaj,354860,True
+12530683,82,Muhammet Ali Özbaskıcı,1149024,Carlo Holse,837012,False
+12530683,75,Soner Aydoğdu,69351,Flavien Tait,312388,False
+12530683,75,Efecan Karaca,60510,Tonny Vilhena,149659,True
+12530683,75,Arbnor Muja,890695,Emre Kılınç,202032,False
+12530683,75,Kingsley Schindler,169113,Zeki Yavru,140735,False
+12530683,65,Gaius Makouta,847013,Ui-Jo Hwang,791314,True
+12530672,81,Recep Burak Yılmaz,904172,Abdulkadir Parmak,344225,False
+12530672,81,Kerim Alıcı,758870,Kamil Ahmet Çörekçi,124728,False
+12530672,80,Tayyip Talha Sanuç,851909,Emirhan Topçu,895009,True
+12530672,75,Keny Arroyo,1482431,Ciro Immobile,45923,True
+12530672,75,Onur Bulut,142494,Serkan Emrecan Terzi,1142614,True
+12530672,75,Semih Kılıçsoy,1142606,Milot Rashica,800411,True
+12530672,66,Jonathan Okoronkwo,1188543,Joelson Fernandes,1032547,False
+12530672,66,Cemali Sertel,929956,Cengiz Demir,1015360,False
+12530672,65,Funsho Bamgboye,822469,Görkem Sağlam,795001,False
+12530672,61,João Mário,97001,Mustafa Hekimoğlu,1524303,True
+12530671,90,Emrah Başsan,174141,Rey Manaj,587882,True
+12530671,90,Emirhan Başyiğit,1149004,Uğur Çiftçi,142850,True
+12530671,86,Abdurrahim Dursun,883275,Güray Vural,43559,False
+12530671,79,Tolga Ciğerci,120298,Efkan Bekiroğlu,800458,True
+12530671,79,Veljko Simić,188117,Garry Rodrigues,787429,True
+12530671,68,Moussa Djenepo,869910,Soner Dikmen,847782,False
+12530671,68,Deni Milošević,190403,Braian Samudio,892933,False
+12530671,67,Adolfo Gaich,940692,Ramzi Safuri,186949,False
+12530671,56,Bengali-Fodé Koita,51407,Bekir Turaç Böke,997681,True
+12530671,38,Bünyamin Balcı,967214,Mert Yilmaz,881966,False
+12530670,88,Celal Dumanli,903334,Taylan Antalyalı,190197,True
+12530670,88,Arbnor Muja,890695,Emre Kılınç,202032,False
+12530670,79,Marius Mouandilmadji,943593,Yunus Emre Çift,1063325,False
+12530670,76,Gökdeniz Bayrakdar,952564,Ahmet Aslan,1134098,True
+12530670,69,Celil Yüksel,806972,Zeki Yavru,140735,False
+12530670,69,Soner Gönül,867727,Marc Bola,862083,False
+12530670,60,George Pușcaș,190319,Taulant Seferi,279487,True
+12530670,60,Musah Mohammed,1105505,Jonathan Okita,809225,True
+12530670,60,Ege Bilsel,1011244,Uzeyir Ergun,996122,True
+12530680,84,Cenk Tosun,72127,Anderson Talisca,329245,False
+12530680,84,Furkan Soyalp,226992,Badou Ndiaye,228342,True
+12530680,80,Levent Mercan,1085938,Edin Džeko,14990,False
+12530680,73,Emre Taşdemir,190191,Bruno Viana,804703,True
+12530680,73,Quentin Daubin,826605,Ogün Özçiçek,859783,True
+12530680,73,Kenan Kodro,591140,Halil Dervişoğlu,930775,True
+12530680,67,Sebastian Szymański,847983,İrfan Can Kahveci,226986,False
+12530680,67,Dušan Tadić,38560,Filip Kostić,126588,False
+12530680,62,Arda Kızıldağ,904228,Anel Husić,1122387,True
+12530680,46,Youssef En-Nesyri,846470,İsmail Yüksek,952600,False
+12530675,88,Melih Bostan,1133195,Blaž Kramer,804405,True
+12530675,84,Marko Jevtović,310068,Pedrinho,1015939,True
+12530675,84,Nikola Boranijašević,150667,Louka Prip,976127,True
+12530675,81,Ozan Demirbağ,1654166,Yusuf Barası,1000187,False
+12530675,81,Ali Yavuz Kol,910091,Maestro,1002146,False
+12530675,71,Alassane Ndao,1016033,Oğulcan Ülgün,1063942,True
+12530675,62,Nabil Alioui,873049,Osman Kaynak,1170288,False
+12530675,55,İzzet Çelik,826836,Salih Kavrazlı,964233,False
+12530675,46,Umut Nayir,284767,Uğurcan Yazğılı,904303,True
+12530667,90,Muhammed-Cham Saračević,958901,Ozan Tufan,251907,True
+12530667,90,Cihan Çanak,1127335,Oleksandr Zubkov,353282,True
+12530667,90,Arda Usluoğlu,1618838,Sergio Córdova,881222,False
+12530667,83,Efecan Karaca,60510,Richard,897617,False
+12530667,80,Arif Boşluk,1138095,Mustafa Eskihellaç,899069,True
+12530667,75,Gaius Makouta,847013,Tonny Vilhena,149659,False
+12530667,71,John Lundstram,149815,Batista Mendy,859021,True
+12530667,71,Enis Destan,1012480,Danylo Sikan,945479,True
+12530669,83,Kerem Demirbay,142619,Lucas Torreira,754794,False
+12530669,81,Hüseyin Maldar,1618510,Rúben Vezo,233180,True
+12530669,76,Dries Mertens,32493,Yunus Akgün,857738,False
+12530669,76,Ahmed Kutucu,906049,Victor Osimhen,822471,False
+12530669,67,Álvaro Morata,125407,Gabriel Sara,913593,False
+12530669,62,Tayfur Bingöl,255957,Melih Kabasakal,828872,True
+12530669,62,Halil Akbunar,217782,Emre Akbaba,343527,True
+12530669,62,Umut Bozok,869839,Emre Mor,826258,True
+12530669,46,Kaan Ayhan,138152,Przemysław Frankowski,286909,False
+12530669,29,Caner Erkin,15680,Umut Meraş,609746,True
+12530673,90,Hasan Ali Kaldırım,39847,Miguel Cardoso,344009,True
+12530673,86,Mehmet Eray Özbek,1011955,Kartal Kayra Yılmaz,966811,True
+12530673,86,Talha Sariarslan,1088715,Duckens Nazon,796023,True
+12530673,85,Muhamed Buljubašić,1134586,Berkay Özcan,806964,False
+12530673,73,Baran Ali Gezek,1215110,Ramazan Civelek,781408,True
+12530673,72,Carlos Mané,859748,Mehdi Bourabia,98003,True
+12530673,59,Abdülkadir Ömür,826155,Babajide David Akintola,798676,False
+12530673,59,Altin Zeqiri,991742,Mithat Pala,1016393,False
+12530673,46,Dal Varešanović,979109,Václav Jurečka,225850,False
+12530662,85,Kuryu Matsuki,1154637,David Tijanič,827369,True
+12530662,84,Victor Hugo,1170954,Ahmed Ildız,849329,True
+12530662,79,Festy Ebosele,983059,Léo Duarte,839982,False
+12530662,66,Deniz Türüç,252207,João Figueiredo,841012,False
+12530662,46,Philippe Keny,988909,Ivan Brnić,916182,False
+12530662,46,Umut Güneş,876782,Berat Ayberk Özdemir,876857,False
+12530662,46,Emersonn,1128844,Kubilay Kanatsızkuş,828953,True
+12530662,46,Jerome Opoku,920514,Ömer Ali Şahiner,103912,False
+12530662,38,Lasse Nielsen,21547,İsmail Köybaşı,43605,True
+12530662,4,Ahmed Ildız,849329,Doğan Erdoğan,257407,True
+12530663,90,Amar Gerxhaliu,1123371,Ramzi Safuri,186949,True
+12530663,89,Moussa Djenepo,869910,Braian Samudio,892933,True
+12530663,89,Oleksandr Petrusenko,906673,Erdal Rakip,319871,True
+12530663,88,Hamidou Keyta,829610,Yusuf Erdoğan,256663,False
+12530663,82,Soner Dikmen,847782,Sam Larsson,229800,True
+12530663,80,Melih Bostan,1133195,Marko Jevtović,310068,False
+12530663,70,Oğulcan Ülgün,1063942,Louka Prip,976127,False
+12530663,70,Umut Nayir,284767,Blaž Kramer,804405,False
+12530663,70,Morten Bjørlo,921358,Pedrinho,1015939,False
+12530663,46,Mert Yilmaz,881966,Bünyamin Balcı,967214,True
+12530666,90,Hasan Ali Kaldırım,39847,Miguel Cardoso,344009,False
+12530666,80,Baran Ali Gezek,1215110,Ramazan Civelek,781408,False
+12530666,80,Anthony Uzodimma,993108,Kartal Kayra Yılmaz,966811,False
+12530666,74,Efecan Karaca,60510,Ui-Jo Hwang,791314,True
+12530666,68,Carlos Mané,859748,Talha Sariarslan,1088715,False
+12530666,46,Mehdi Bourabia,98003,Julian Jeanvier,250477,False
+12530660,90,Ayberk Karapo,1395701,Altin Zeqiri,991742,True
+12530660,85,Furkan Soyalp,226992,Kacper Kozłowski,984602,False
+12530660,85,Kenan Kodro,591140,Semih Güler,325155,False
+12530660,75,Muhamed Buljubašić,1134586,Dal Varešanović,979109,True
+12530660,62,Mithat Pala,1016393,Berkay Özcan,806964,True
+12530660,62,Emmanuel Boateng,580392,David Okereke,831290,False
+12530660,61,Babajide David Akintola,798676,Václav Jurečka,225850,True
+12530660,20,Christophe Lungoyi,883355,Emre Taşdemir,190191,False
+12530661,86,Berkan Kutlu,992912,Lucas Torreira,754794,True
+12530661,84,Emrah Başsan,174141,Rey Manaj,587882,False
+12530661,71,Veljko Simić,188117,Garry Rodrigues,787429,False
+12530661,70,Gabriel Sara,913593,Mario Lemina,307284,True
+12530661,70,Kaan Ayhan,138152,Davinson Sánchez,566102,True
+12530661,70,Dries Mertens,32493,Victor Osimhen,822471,True
+12530661,46,Bengali-Fodé Koita,51407,Bekir Turaç Böke,997681,False
+12530661,46,Achilleas Poungouras,783466,Samuel Moutoussamy,892624,False
+12530661,46,Alex Pritchard,180009,Efkan Bekiroğlu,800458,False
+12530661,25,Ismail Jakobs,897291,Eren Elmalı,981483,True
+12530657,90,Baran Sarka,1521046,Cemali Sertel,929956,True
+12530657,88,Festy Ebosele,983059,Yusuf Sarı,896364,False
+12530657,87,Philippe Keny,988909,Krzysztof Piątek,558738,False
+12530657,87,Deniz Aksoy,2026680,Görkem Sağlam,795001,True
+12530657,76,Umut Güneş,876782,Berat Ayberk Özdemir,876857,False
+12530657,76,João Figueiredo,841012,Olivier Kemen,280447,False
+12530657,76,Recep Burak Yılmaz,904172,Funsho Bamgboye,822469,True
+12530657,76,Kerim Alıcı,758870,Kamil Ahmet Çörekçi,124728,True
+12530657,62,Ivan Brnić,916182,Deniz Türüç,252207,False
+12530665,84,Soner Gönül,867727,Landry Dimata,826944,True
+12530665,84,Soner Aydoğdu,69351,Celil Yüksel,806972,True
+12530665,77,Emre Akbaba,343527,Tayfur Bingöl,255957,False
+12530665,76,Arbnor Muja,890695,Emre Kılınç,202032,True
+12530665,76,Youssef Aït Bennasser,802850,Carlo Holse,837012,True
+12530665,67,Marius Mouandilmadji,943593,Zeki Yavru,140735,True
+12530665,63,Emre Mor,826258,Yalçın Kayan,945548,False
+12530665,63,Umut Bozok,869839,Caner Erkin,15680,False
+12530665,46,Hüseyin Maldar,1618510,Halil Akbunar,217782,False
+12530665,46,Umut Meraş,609746,Rúben Vezo,233180,False
+12530659,90,Ogün Bayrak,903999,Ahmed Ildız,849329,False
+12530659,84,Aksel Aktaş,863172,Abdulsamet Burak,900798,True
+12530659,79,Breyton Fougeu,1545020,Ali Yavuz Kol,910091,True
+12530659,69,Victor Hugo,1170954,David Tijanič,827369,False
+12530659,69,Emersonn,1128844,Kubilay Kanatsızkuş,828953,False
+12530659,27,Nabil Alioui,873049,Ozan Demirbağ,1654166,True
+12530659,26,Abat Aimbetov,189193,Burhan Ersoy,1640309,True
+12530664,90,Ciro Immobile,45923,Milot Rashica,800411,False
+12530664,90,Onur Bulut,142494,Amir Hadžiahmetović,795421,False
+12530664,84,Cenk Tosun,72127,Fred,243623,True
+12530664,70,İrfan Can Kahveci,226986,Youssef En-Nesyri,846470,True
+12530664,67,João Mário,97001,Mustafa Hekimoğlu,1524303,False
+12530664,62,Felix Uduokhai,792142,Serkan Emrecan Terzi,1142614,False
+12530664,59,Alexander Djiku,289977,Bright Osayi-Samuel,791616,True
+12530664,58,Edin Džeko,14990,Çağlar Söyüncü,758608,True
+12530664,46,Dušan Tadić,38560,Sebastian Szymański,847983,True
+12530668,87,Cláudio Winck,155998,Jhon Espinoza,929098,True
+12530668,82,Muhammed-Cham Saračević,958901,Oleksandr Zubkov,353282,False
+12530668,82,Edin Višća,109779,Anthony Nwakaeme,139455,False
+12530668,65,Enis Destan,1012480,Danylo Sikan,945479,False
+12530668,65,Batista Mendy,859021,Ozan Tufan,251907,False
+12528111,85,Oğuz Aydın,999396,İsmail Yüksek,952600,False
+12528111,85,İrfan Can Kahveci,226986,Anderson Talisca,329245,False
+12528111,79,Deniz Türüç,252207,Yusuf Sarı,896364,True
+12528111,79,Sebastian Szymański,847983,Fred,243623,False
+12528111,73,Ömer Faruk Beyaz,1022881,Olivier Kemen,280447,True
+12528111,73,Festy Ebosele,983059,Ömer Ali Şahiner,103912,True
+12528111,71,Youssef En-Nesyri,846470,Edin Džeko,14990,False
+12528111,59,Berat Ayberk Özdemir,876857,Umut Güneş,876782,True
+12528111,59,João Figueiredo,841012,Ivan Brnić,916182,True
+12528111,46,Bright Osayi-Samuel,791616,Diego Carlos,604232,False
+12528116,90,Muhammed Gümüşkaya,929649,Deian Sorescu,797602,True
+12528116,87,Enes Keskin,897168,Sergio Córdova,881222,False
+12528116,75,Tonny Vilhena,149659,Ui-Jo Hwang,791314,False
+12528116,73,Gaius Makouta,847013,Richard,897617,False
+12528116,66,David Okereke,831290,Ogün Özçiçek,859783,True
+12528114,90,Berk Can Yildizli,2056436,Nuno Da Costa,209374,False
+12528114,90,Taylan Utku Aydın,1498789,Cafú,110956,False
+12528114,88,Yusuf Inci,1529978,Aytaç Kara,128196,False
+12528114,82,Recep Niyaz,116944,Taras Stepanenko,45604,True
+12528114,71,Hamza Akman,1394720,Tayfur Bingöl,255957,True
+12528114,57,Hüseyin Maldar,1618510,Halil Akbunar,217782,True
+12528114,53,Cláudio Winck,155998,Jhon Espinoza,929098,False
+12528114,46,Can Keleş,918408,Mortadha Ben Ouanes,919225,False
+12528114,46,Caner Erkin,15680,Dorukhan Toköz,796133,True
+12528114,46,Emre Akbaba,343527,Emre Mor,826258,True
+12528112,89,Yasir Subaşı,796555,Morten Bjørlo,921358,True
+12528112,88,Blaž Kramer,804405,Umut Nayir,284767,True
+12528112,88,Václav Jurečka,225850,Dal Varešanović,979109,False
+12528112,86,Nikola Boranijašević,150667,Uğurcan Yazğılı,904303,True
+12528112,84,Rachid Ghezzal,123228,Berkay Özcan,806964,False
+12528112,84,Babajide David Akintola,798676,Altin Zeqiri,991742,False
+12528112,73,Hamidou Keyta,829610,Yusuf Erdoğan,256663,True
+12528112,59,Pedrinho,1015939,Marko Jevtović,310068,True
+12528112,46,Abdülkadir Ömür,826155,Mithat Pala,1016393,False
+12528119,90,Ahmed Kutucu,906049,Ismail Jakobs,897291,False
+12528119,90,Przemysław Frankowski,286909,Yunus Akgün,857738,False
+12528119,90,Kaan Ayhan,138152,Mario Lemina,307284,False
+12528119,82,Eren Elmalı,981483,Barış Alper Yılmaz,904096,False
+12528119,77,Álvaro Morata,125407,Gabriel Sara,913593,False
+12528119,76,Simon Banza,825945,Edin Višća,109779,True
+12528119,75,Anthony Nwakaeme,139455,Okay Yokuşlu,97967,True
+12528119,58,Oleksandr Zubkov,353282,Mustafa Eskihellaç,899069,True
+12528119,20,Danylo Sikan,945479,Enis Destan,1012480,True
+12528123,90,Gökdeniz Bayrakdar,952564,Jonathan Okita,809225,False
+12528123,90,Celal Dumanli,903334,Enis Bardhi,355024,False
+12528123,82,Veljko Simić,188117,Rey Manaj,587882,True
+12528123,81,Emrah Başsan,174141,Samuel Moutoussamy,892624,True
+12528123,78,Pedro Brazão,981535,George Pușcaș,190319,False
+12528123,71,Bekir Turaç Böke,997681,Garry Rodrigues,787429,True
+12528123,64,Jonathan Okita,809225,Uzeyir Ergun,996122,False
+12528123,46,Taulant Seferi,279487,Ahmet Aslan,1134098,False
+12528115,86,Semih Kılıçsoy,1142606,Mustafa Hekimoğlu,1524303,True
+12528115,86,Necip Uysal,43394,Serkan Emrecan Terzi,1142614,True
+12528115,80,Aksel Aktaş,863172,Yusuf Barası,1000187,False
+12528115,73,Osman Kaynak,1170288,Abat Aimbetov,189193,False
+12528115,73,João Mário,97001,Ciro Immobile,45923,True
+12528115,73,Keny Arroyo,1482431,Milot Rashica,800411,True
+12528115,57,Breyton Fougeu,1545020,Nabil Alioui,873049,False
+12528115,46,Ozan Demirbağ,1654166,Burhan Ersoy,1640309,False
+12528115,20,Serkan Emrecan Terzi,1142614,Felix Uduokhai,792142,True
+12528115,19,Abat Aimbetov,189193,Ali Yavuz Kol,910091,False
+12528115,11,Mustafa Hekimoğlu,1524303,Alex Oxlade-Chamberlain,10577,True
+12528117,90,Deniz Aksoy,2026680,Görkem Sağlam,795001,False
+12528117,90,Héliton,922725,Ahmed Ildız,849329,True
+12528117,88,Joelson Fernandes,1032547,Bilal Boutobba,769163,False
+12528117,88,Selimcan Temel,1003319,Kamil Ahmet Çörekçi,124728,False
+12528117,85,Cengiz Demir,1015360,Recep Burak Yılmaz,904172,False
+12528117,81,Nazım Sangaré,169425,Ogün Bayrak,903999,True
+12528117,72,Victor Hugo,1170954,David Tijanič,827369,True
+12528117,72,Emersonn,1128844,Kubilay Kanatsızkuş,828953,True
+12528122,90,Nurettin Korkmaz,976993,Miguel Cardoso,344009,True
+12528122,84,Mehmet Eray Özbek,1011955,Mehdi Bourabia,98003,True
+12528122,84,Talha Sariarslan,1088715,Duckens Nazon,796023,True
+12528122,80,Amar Gerxhaliu,1123371,Thalisson Kelven,863277,False
+12528122,73,Carlos Mané,859748,Ramazan Civelek,781408,True
+12528122,73,Baran Ali Gezek,1215110,Ali Karimi,803869,True
+12528122,64,Adolfo Gaich,940692,Braian Samudio,892933,False
+12528122,63,Moussa Djenepo,869910,Bahadır Öztürk,790783,False
+12528122,63,Bünyamin Balcı,967214,Abdurrahim Dursun,883275,False
+12528122,11,Soner Dikmen,847782,Sander van de Streek,220155,False
+12528127,74,Ali Arda Yildiz,2086501,Abdulsamet Burak,900798,True
+12528127,74,Baran Sarka,1521046,Görkem Sağlam,795001,False
+12528127,64,Deniz Aksoy,2026680,Jonathan Okoronkwo,1188543,False
+12528127,64,Funsho Bamgboye,822469,Bilal Boutobba,769163,False
+12528127,58,Abdulkadir Parmak,344225,Kamil Ahmet Çörekçi,124728,False
+12528127,58,Yigit Ali Buz,2010670,Guy-Marcelin Kilama,944222,False
+12528127,46,Aksel Aktaş,863172,Ozan Demirbağ,1654166,True
+12528127,46,Breyton Fougeu,1545020,Osman Kaynak,1170288,True
+12528086,90,Arda Usluoğlu,1618838,Andraž Šporar,166987,True
+12528086,86,Enes Keskin,897168,Sergio Córdova,881222,True
+12528086,78,Tonny Vilhena,149659,Ui-Jo Hwang,791314,True
+12528086,77,Gaius Makouta,847013,Richard,897617,True
+12528086,64,Semih Kılıçsoy,1142606,Ciro Immobile,45923,False
+12528086,64,Keny Arroyo,1482431,Milot Rashica,800411,False
+12528086,46,Ernest Muçi,924670,Mustafa Hekimoğlu,1524303,False
+12528071,84,Christophe Lungoyi,883355,Kacper Kozłowski,984602,False
+12528071,82,Mert Yilmaz,881966,Bünyamin Balcı,967214,True
+12528071,78,Berkay Topdemir,1961825,Bahadır Öztürk,790783,True
+12528071,78,Abdurrahim Dursun,883275,Soner Dikmen,847782,True
+12528071,75,Ogün Özçiçek,859783,Furkan Soyalp,226992,False
+12528071,66,Braian Samudio,892933,Adolfo Gaich,940692,True
+12528071,46,Halil Dervişoğlu,930775,David Okereke,831290,False
+12528121,88,George Pușcaș,190319,Taylan Antalyalı,190197,True
+12528121,85,Pedro Brazão,981535,Uzeyir Ergun,996122,True
+12528121,85,Celal Dumanli,903334,Gökdeniz Bayrakdar,952564,True
+12528121,84,Danylo Sikan,945479,Muhammed-Cham Saračević,958901,False
+12528121,78,Musah Mohammed,1105505,Ahmet Aslan,1134098,True
+12528121,78,Ege Bilsel,1011244,Cenk Şen,957359,True
+12528121,67,Batista Mendy,859021,John Lundstram,149815,False
+12528121,67,Edin Višća,109779,Arif Boşluk,1138095,False
+12528121,46,Tim Jabol-Folcarelli,1106446,Ozan Tufan,251907,False
+12528121,46,Cihan Çanak,1127335,Denis Drăguş,841199,False
+12528124,88,Burak Kapacak,836686,Dušan Tadić,38560,True
+12528124,88,Yusuf Akçiçek,1479523,Anderson Talisca,329245,True
+12528124,88,Hamza Akman,1394720,Yalçın Kayan,945548,False
+12528124,80,Levent Mercan,1085938,Sebastian Szymański,847983,True
+12528124,73,Caner Erkin,15680,Mame Thiam,180981,False
+12528124,70,Bright Osayi-Samuel,791616,Oğuz Aydın,999396,True
+12528124,70,Edin Džeko,14990,Youssef En-Nesyri,846470,True
+12528124,63,Rúben Vezo,233180,Robin Yalçın,138154,False
+12528124,63,Emre Akbaba,343527,Emre Mor,826258,False
+12528118,82,Berkan Kutlu,992912,Mario Lemina,307284,True
+12528118,81,Dries Mertens,32493,Barış Alper Yılmaz,904096,True
+12528118,75,Hasan Ali Kaldırım,39847,Lionel Carole,122922,False
+12528118,75,Mehmet Eray Özbek,1011955,Joseph Attamah,332963,False
+12528118,71,Przemysław Frankowski,286909,Roland Sallai,355088,True
+12528118,71,Kaan Ayhan,138152,Abdülkerim Bardakcı,178963,True
+12528118,66,Julian Jeanvier,250477,Mehdi Bourabia,98003,False
+12528118,66,Carlos Mané,859748,Gökhan Sazdağı,595396,False
+12528118,63,Álvaro Morata,125407,Gabriel Sara,913593,True
+12528118,46,Baran Ali Gezek,1215110,Ali Karimi,803869,False
+12528081,90,Ömer Faruk Beyaz,1022881,Olivier Kemen,280447,False
+12528081,90,Hamza Güreler,1562294,Philippe Keny,988909,False
+12528081,89,Jhon Espinoza,929098,Cláudio Winck,155998,True
+12528081,84,Berk Can Yildizli,2056436,Aytaç Kara,128196,True
+12528081,78,Deniz Türüç,252207,Yusuf Sarı,896364,False
+12528081,69,João Figueiredo,841012,Krzysztof Piątek,558738,False
+12528120,85,Queensy Menig,232318,Efkan Bekiroğlu,800458,False
+12528120,83,Celil Yüksel,806972,Carlo Holse,837012,True
+12528120,73,Marius Mouandilmadji,943593,Landry Dimata,826944,True
+12528120,60,Azizbek Turgunboev,971572,Garry Rodrigues,787429,False
+12528120,60,Arbnor Muja,890695,Kingsley Schindler,169113,True
+12528120,46,Bekir Turaç Böke,997681,Veljko Simić,188117,False
+12528079,90,Václav Jurečka,225850,Ali Sowe,238394,True
+12528079,90,Rachid Ghezzal,123228,Babajide David Akintola,798676,True
+12528079,88,Taha Altıkardeş,1101279,Ogün Bayrak,903999,False
+12528079,88,Kuryu Matsuki,1154637,Ahmed Ildız,849329,False
+12528079,80,Berkay Özcan,806964,Mithat Pala,1016393,True
+12528079,74,Novatus Miroshi,1103597,Anthony Junior Dennis,1484438,False
+12528079,74,Emersonn,1128844,Kubilay Kanatsızkuş,828953,False
+12528079,61,Victor Hugo,1170954,David Tijanič,827369,False
+12528079,55,Husniddin Alikulov,1121174,Dal Varešanović,979109,True
+12528079,46,Altin Zeqiri,991742,Abdülkadir Ömür,826155,True
+12528076,86,Erdem Çalık,2049797,Taras Stepanenko,45604,True
+12528076,85,Taha Özmert,1979695,Braian Samudio,892933,False
+12528076,76,Amar Gerxhaliu,1123371,Erdal Rakip,319871,False
+12528076,76,Mert Yilmaz,881966,Bünyamin Balcı,967214,False
+12528076,72,Hamza Akman,1394720,Tayfur Bingöl,255957,True
+12528076,57,Hüseyin Maldar,1618510,Mame Thiam,180981,True
+12528076,57,Rúben Vezo,233180,Caner Erkin,15680,True
+12528076,56,Emre Akbaba,343527,Yalçın Kayan,945548,True
+12528076,54,Hasan Yakub İlçin,2031279,Soner Dikmen,847782,False
+12528076,46,Adolfo Gaich,940692,Bahadır Öztürk,790783,False
+12528075,90,Atakan Mujde,1134704,Cafú,110956,False
+12528075,90,Berk Can Yildizli,2056436,Mamadou Fall,822228,False
+12528075,90,Yusuf Inci,1529978,Nuno Da Costa,209374,False
+12528075,84,Halil Dervişoğlu,930775,Alexandru Maxim,180511,True
+12528075,83,Ömürcan Artan,1016384,Salem M'Bakata,940367,True
+12528075,76,David Okereke,831290,Deian Sorescu,797602,True
+12528075,55,Christophe Lungoyi,883355,Kacper Kozłowski,984602,True
+12528075,54,Ogün Özçiçek,859783,Furkan Soyalp,226992,True
+12528075,46,Jhon Espinoza,929098,Taylan Utku Aydın,1498789,False
+12528075,46,Mortadha Ben Ouanes,919225,Aytaç Kara,128196,False
+12528126,90,Arda Ünyay,1464636,Carlos Cuesta,839095,False
+12528126,88,Metehan Baltacı,997155,Ahmed Kutucu,906049,False
+12528126,83,Taha Altıkardeş,1101279,Ogün Bayrak,903999,True
+12528126,83,Nazım Sangaré,169425,Lasse Nielsen,21547,True
+12528126,80,Elias Jelert,1126433,Przemysław Frankowski,286909,False
+12528126,79,Eyüp Aydın,1130115,Berkan Kutlu,992912,False
+12528126,77,Kuryu Matsuki,1154637,Koray Günter,138165,True
+12528126,77,Emersonn,1128844,Kubilay Kanatsızkuş,828953,True
+12528126,68,Eren Elmalı,981483,Dries Mertens,32493,False
+12528126,68,Yusuf Demir,962283,Kerem Demirbay,142619,False
+12528126,46,Furkan Bayır,1003161,Anthony Junior Dennis,1484438,True
+12528126,46,Novatus Miroshi,1103597,David Tijanič,827369,True
+12528072,90,Ali Fidan,2162484,Nabil Alioui,873049,False
+12528072,82,Abat Aimbetov,189193,Breyton Fougeu,1545020,False
+12528072,78,Ömer Ali Şahiner,103912,Festy Ebosele,983059,True
+12528072,77,Krzysztof Piątek,558738,Philippe Keny,988909,True
+12528072,77,Olivier Kemen,280447,Matchoi Djaló,989599,True
+12528072,72,Yusuf Sarı,896364,Deniz Türüç,252207,True
+12528072,72,João Figueiredo,841012,Ivan Brnić,916182,True
+12528072,64,Ozan Demirbağ,1654166,Yusuf Barası,1000187,False
+12528089,90,Emirhan Topçu,895009,Felix Uduokhai,792142,True
+12528089,90,Yakup Arda Kılıç,1639816,Jonas Svensson,98199,True
+12528089,87,Husniddin Alikulov,1121174,Mithat Pala,1016393,False
+12528089,81,Semih Kılıçsoy,1142606,Ernest Muçi,924670,True
+12528089,78,Muhamed Buljubašić,1134586,Rachid Ghezzal,123228,False
+12528089,68,Babajide David Akintola,798676,Dal Varešanović,979109,False
+12528089,68,Berkay Özcan,806964,Altin Zeqiri,991742,False
+12528089,53,Mustafa Hekimoğlu,1524303,Ciro Immobile,45923,True
+12528089,53,João Mário,97001,Keny Arroyo,1482431,True
+12528092,89,Julian Jeanvier,250477,Kartal Kayra Yılmaz,966811,True
+12528092,89,Kayra Cihan,1982283,Lionel Carole,122922,True
+12528092,88,Jonathan Okita,809225,Cenk Şen,957359,False
+12528092,88,Zdravko Dimitrov,871342,Pedro Brazão,981535,False
+12528092,78,George Pușcaș,190319,Uzeyir Ergun,996122,False
+12528092,75,Nurettin Korkmaz,976993,Duckens Nazon,796023,True
+12528092,69,Carlos Mané,859748,Ramazan Civelek,781408,True
+12528092,61,Ahmet Aslan,1134098,Taulant Seferi,279487,False
+12528092,61,Celal Dumanli,903334,Gökdeniz Bayrakdar,952564,False
+12528092,46,Talha Sariarslan,1088715,Mehmet Eray Özbek,1011955,True
+12528083,87,Enes Keskin,897168,Sergio Córdova,881222,False
+12528083,86,Arda Usluoğlu,1618838,Ui-Jo Hwang,791314,False
+12528083,86,Melih Bostan,1133195,Alassane Ndao,1016033,True
+12528083,79,Oğulcan Ülgün,1063942,Riechedly Bazoer,227196,True
+12528083,74,Gaius Makouta,847013,Tonny Vilhena,149659,False
+12528083,71,Yasir Subaşı,796555,Josip Ćalušić,172331,True
+12528083,70,Kaan Akyazı,1476229,Yusuf Erdoğan,256663,True
+12528083,46,Blaž Kramer,804405,Morten Bjørlo,921358,True
+12528087,89,Soner Gönül,867727,Marc Bola,862083,False
+12528087,89,Soner Aydoğdu,69351,Olivier Ntcham,352676,False
+12528087,81,Ozan Tufan,251907,Oleksandr Zubkov,353282,True
+12528087,75,Marius Mouandilmadji,943593,Landry Dimata,826944,False
+12528087,75,Muhammed-Cham Saračević,958901,Batista Mendy,859021,True
+12528087,66,Celil Yüksel,806972,Kingsley Schindler,169113,False
+12528087,46,Simon Banza,825945,Danylo Sikan,945479,True
+12528128,84,Ali Yıldız,1516749,Bilal Boutobba,769163,True
+12528128,84,Funsho Bamgboye,822469,Abdulkadir Parmak,344225,True
+12528128,76,Cenk Tosun,72127,Edin Džeko,14990,False
+12528128,75,Lamine Diack,982317,Chandrel Massanga,1083138,True
+12528128,74,Kerim Alıcı,758870,Kamil Ahmet Çörekçi,124728,True
+12528128,72,İsmail Yüksek,952600,Sofyan Amrabat,359272,False
+12528128,64,Joelson Fernandes,1032547,Cemali Sertel,929956,True
+12528128,63,Bright Osayi-Samuel,791616,Oğuz Aydın,999396,False
+12528128,63,Sebastian Szymański,847983,Dušan Tadić,38560,False
+12528128,63,İrfan Can Kahveci,226986,Youssef En-Nesyri,846470,False
+12528085,89,Stefan Savić,76265,Pedro Malheiro,1131249,False
+12528085,84,Ali Demirbilek,2128089,Braian Samudio,892933,True
+12528085,83,Taha Emre Ince,1974398,Mustafa Eskihellaç,899069,False
+12528085,82,Arif Boşluk,1138095,John Lundstram,149815,False
+12528085,79,Amar Gerxhaliu,1123371,Veysel Sarı,98276,True
+12528085,78,Taha Özmert,1979695,Adolfo Gaich,940692,True
+12528085,68,Berkay Topdemir,1961825,Güray Vural,43559,True
+12528085,68,Mert Yilmaz,881966,Bünyamin Balcı,967214,True
+12528085,65,Boran Başkan,1974312,Ozan Tufan,251907,False
+12528085,65,Danylo Sikan,945479,Oleksandr Zubkov,353282,False
+12528082,90,Günay Güvenç,103457,Fernando Muslera,28381,True
+12528082,88,Efe Akman,1215206,Victor Osimhen,822471,True
+12528082,86,Ömer Faruk Beyaz,1022881,Umut Güneş,876782,False
+12528082,86,Festy Ebosele,983059,Yusuf Sarı,896364,False
+12528082,79,Roland Sallai,355088,Dries Mertens,32493,True
+12528082,78,Metehan Baltacı,997155,Davinson Sánchez,566102,True
+12528082,70,Olivier Kemen,280447,Ömer Ali Şahiner,103912,False
+12528082,63,Elias Jelert,1126433,Przemysław Frankowski,286909,True
+12528082,46,Deniz Türüç,252207,Ousseynou Ba,889430,False
+12528078,90,Tibet Durakcay,2023967,Anthony Junior Dennis,1484438,False
+12528078,90,Koray Günter,138165,Novatus Miroshi,1103597,False
+12528078,90,Malcom Bokele,1122632,Emersonn,1128844,False
+12528078,90,Berk Can Yildizli,2056436,Can Keleş,918408,True
+12528078,87,Nazım Sangaré,169425,Ahmed Ildız,849329,False
+12528078,84,Adnan Aktaş,1521616,Nicholas Opoku,885683,True
+12528078,75,Victor Hugo,1170954,Kubilay Kanatsızkuş,828953,False
+12528078,63,Gökhan Gül,797820,Yusuf Inci,1529978,True
+12528074,87,Uğurcan Yazğılı,904303,Adil Demirbağ,787949,False
+12528074,82,Mehmet Kaya,1901947,Riechedly Bazoer,227196,False
+12528074,77,Yusuf Erdoğan,256663,Alassane Ndao,1016033,False
+12528074,74,Çağlar Söyüncü,758608,Yusuf Akçiçek,1479523,True
+12528074,62,Kaan Akyazı,1476229,Melih Bostan,1133195,False
+12528074,60,Sofyan Amrabat,359272,İsmail Yüksek,952600,True
+12528074,60,Cenk Tosun,72127,Sebastian Szymański,847983,True
+12528074,46,Levent Mercan,1085938,Bright Osayi-Samuel,791616,True
+12528074,46,Oğuz Aydın,999396,Anderson Talisca,329245,True
+12528125,89,Deniz Aksoy,2026680,Joelson Fernandes,1032547,False
+12528125,89,Ismail Zobu,2019420,Görkem Sağlam,795001,False
+12528125,81,Ersin Aydemir,2124247,Yigit Ali Buz,2010670,False
+12528125,68,Baran Sarka,1521046,Selimcan Temel,1003319,False
+12528125,68,Lamine Diack,982317,Abdulkadir Parmak,344225,False
+12528125,66,Berkay Özcan,806964,Casper Højer,281233,True
+12528125,61,Emrecan Bulut,1480663,Babajide David Akintola,798676,True
+12528125,61,Eray Korkmaz,1145620,Taha Şahin,1394729,True
+12528125,46,Ayberk Karapo,1395701,Samet Akaydın,863600,True
+12528125,15,Altin Zeqiri,991742,Rachid Ghezzal,123228,True
+12528094,90,Cagan Tas,2019102,Deian Sorescu,797602,False
+12528094,82,Nevzat Gezer,2010873,Ogün Özçiçek,859783,False
+12528094,82,Kadir Karayigit,1918333,Breyton Fougeu,1545020,True
+12528094,82,Samet Duyur,1865900,Abat Aimbetov,189193,True
+12528094,82,Beytullah Gezer,2148732,Ali Yavuz Kol,910091,True
+12528094,74,Ali Fidan,2162484,Yusuf Bugra Demirkiran,2086502,True
+12528094,70,Sefa Gulay,2121511,Nabil Alioui,873049,True
+12528094,61,Demir Yavuz,2121510,Gokdeniz Tunc,2086510,True
+12528094,57,Ali Osman Kalın,2161813,Halil Dervişoğlu,930775,False
+12528091,87,Umut Mert Toy,1474708,Fidan Aliti,385296,True
+12528091,87,Yusuf Karademir,2085002,Arda Usluoğlu,1618838,True
+12528091,87,Mert Furkan Bayram,1149021,Yusuf Karagöz,1133582,True
+12528091,84,Mehmet Talha Seker,1618816,Ziya Erdal,138312,False
+12528091,83,Queensy Menig,232318,Bekir Turaç Böke,997681,False
+12528091,77,Florent Hadergjonaj,354860,Enes Keskin,897168,True
+12528091,69,Garry Rodrigues,787429,Veljko Simić,188117,False
+12528091,67,Ui-Jo Hwang,791314,Tonny Vilhena,149659,True
+12528091,46,Emrah Başsan,174141,Bengali-Fodé Koita,51407,False
+12528091,46,Alex Pritchard,180009,Oguzhan Aksoy,1640657,False
+12528084,86,Ondřej Čelůstka,45764,Christophe Herelle,225092,True
+12528084,77,Necip Uysal,43394,Amir Hadžiahmetović,795421,False
+12528084,77,Serkan Emrecan Terzi,1142614,Arthur Masuaku,174975,False
+12528084,77,Emirhan Topçu,895009,Mustafa Hekimoğlu,1524303,False
+12528084,72,Semih Kılıçsoy,1142606,Rafa Silva,252577,False
+12528084,72,Keny Arroyo,1482431,Ernest Muçi,924670,False
+12528084,71,Celal Dumanli,903334,Ege Bilsel,1011244,True
+12528084,63,Enes Ogruce,1395595,Zdravko Dimitrov,871342,True
+12528084,46,Süleyman Özdamar,124952,Cenk Şen,957359,True
+12528084,46,Gökdeniz Bayrakdar,952564,George Pușcaș,190319,True
+12528080,90,Yunus Emre Çift,1063325,Carlo Holse,837012,True
+12528080,76,Julian Jeanvier,250477,Kayra Cihan,1982283,False
+12528080,76,Batuhan Özgan,1858304,Anthony Uzodimma,993108,False
+12528080,71,Soner Aydoğdu,69351,Olivier Ntcham,352676,True
+12528080,67,Arif Kocaman,1173638,Lionel Carole,122922,False
+12528080,64,Burak Arslan,1982282,Nurettin Korkmaz,976993,False
+12528080,64,Mehmet Eray Özbek,1011955,Yaw Ackah,984096,False
+12528080,60,Arbnor Muja,890695,Kingsley Schindler,169113,True

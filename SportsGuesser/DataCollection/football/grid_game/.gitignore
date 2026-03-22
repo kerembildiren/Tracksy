@@ -1,0 +1,4 @@
+.player_index_cache.pkl
+*.pkl
+__pycache__/
+*.pyc

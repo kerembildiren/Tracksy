@@ -1,0 +1,819 @@
+match_id,minute,added_time,scorer,scorer_id,assist,assist_id,goal_type,is_home,home_score,away_score
+7869492,90,2,Eren Derdiyok,21943,Younès Belhanda,72999,regular,False,1,3
+7869492,30,,Bakary Koné,51484,,,ownGoal,False,1,2
+7869492,21,,Serdar Aziz,43528,Maicon,44691,regular,False,1,1
+7869492,7,,Mostapha El Kabir,44346,Youness Mokhtar,106576,regular,True,1,0
+7869499,84,,Emre Kılınç,202032,Douglas,83263,regular,True,1,0
+7869494,90,3,Abdulrahman Khalili,109970,,,regular,False,2,3
+7869494,81,,Tarkan Serbest,164099,Özgür Çek,69434,regular,False,2,2
+7869494,75,,Mbaye Diagne,346790,,,penalty,False,2,1
+7869494,55,,Robin Yalçın,138154,Braian Samudio,892933,regular,True,2,0
+7869494,33,,Braian Samudio,892933,Vedat Muriqi,310874,regular,True,1,0
+7869500,30,,Souza,119035,Roberto Soldado,13208,regular,True,2,1
+7869500,22,,Giuliano,90862,,,penalty,True,1,1
+7869500,16,,William Troost-Ekong,338991,,,regular,False,0,1
+7869495,90,1,Emmanuel Adebayor,3094,Junior Caiçara,128440,regular,True,2,0
+7869495,43,,Manuel Da Costa,14246,Edin Višća,109779,regular,True,1,0
+7869498,85,,Mustapha Yatabaré,51558,Adis Jahović,55367,regular,True,3,2
+7869498,71,,Lokman Gör,255131,Emrah Başsan,174141,regular,False,2,2
+7869498,39,,Leo Schwechlen,158575,Taylan Antalyalı,190197,regular,False,2,1
+7869498,30,,Mustapha Yatabaré,51558,Ömer Ali Şahiner,103912,regular,True,2,0
+7869498,22,,Uğur Demirok,43427,Ömer Ali Şahiner,103912,regular,True,1,0
+7869497,56,,Yevhen Selezniov,36963,,,regular,False,2,1
+7869497,42,,Ryan Babel,1876,Jeremain Lens,18115,regular,True,2,0
+7869497,39,,Pepe,5884,Oğuzhan Özyakup,137642,regular,True,1,0
+7869493,90,1,Ömer Şişmanoğlu,29451,,,regular,False,1,3
+7869493,73,,Danijel Aleksić,45377,Sincere Seth,893513,regular,False,1,2
+7869493,70,,Sadık Çiftpınar,111811,,,ownGoal,True,1,1
+7869493,22,,Arturo Mina,387720,Danijel Aleksić,45377,regular,False,0,1
+7869496,74,,Umut Bulut,5275,Deniz Türüç,252207,regular,True,2,0
+7869496,14,,Tjaronn Chery,35208,Silvestre Varela,14323,regular,True,1,0
+7870078,45,5,Douglas,83263,Emre Kılınç,202032,regular,False,3,1
+7870078,27,,Hugo Rodallega,15668,Olcay Şahan,16078,regular,True,3,0
+7870078,14,,Hugo Rodallega,15668,,,penalty,True,2,0
+7870078,7,,Olcay Şahan,16078,João Pereira,13198,regular,True,1,0
+7870080,75,,Diego Angelo,32818,Hakan Özmert,43512,regular,True,3,3
+7870080,67,,Maicon,76502,Nazım Sangaré,169425,regular,True,2,3
+7870080,53,,Ömer Ali Şahiner,103912,,,regular,False,1,3
+7870080,45,1,Moryke Fofana,269199,,,regular,False,1,2
+7870080,39,,Ömer Ali Şahiner,103912,Mustapha Yatabaré,51558,regular,False,1,1
+7870080,8,,Diego Angelo,32818,Hakan Özmert,43512,regular,True,1,0
+7870082,70,,Danijel Aleksić,45377,Guilherme Marques,109610,regular,True,1,0
+7870083,66,,Mustafa Yumlu,124643,Ömer Bayram,68335,regular,True,1,1
+7870083,28,,Vedat Muriqi,310874,Braian Samudio,892933,regular,False,0,1
+7870079,86,,Ricardo Quaresma,6254,,,penalty,False,1,3
+7870079,76,,Álvaro Negredo,27838,Ricardo Quaresma,6254,regular,False,1,2
+7870079,53,,Gökhan Gönül,30137,Ricardo Quaresma,6254,regular,False,1,1
+7870079,16,,Jasmin Ščuk,152130,,,regular,True,1,0
+7870084,89,,Tiago Pinto,44627,,,regular,False,0,2
+7870084,65,,İlhan Parlak,5810,Youness Mokhtar,106576,regular,False,0,1
+7870081,42,,Henry Onyekuru,809220,Fernando,41837,regular,True,1,0
+7870085,90,1,Mbaye Diagne,346790,Loret Sadiku,143356,regular,True,2,1
+7870085,85,,Stefano Napoleoni,46939,Emmanuel Adebayor,3094,regular,False,1,1
+7870085,67,,Mbaye Diagne,346790,,,penalty,True,1,0
+7870087,90,1,Youness Mokhtar,106576,,,regular,True,2,2
+7870087,80,,Hugo Rodallega,15668,Olcay Şahan,16078,regular,False,1,2
+7870087,43,,Ricardo Faty,9421,Erdem Özgenç,60332,regular,True,1,1
+7870087,28,,Filip Novák,12194,Yusuf Yazıcı,827804,regular,False,0,1
+7870090,66,,Halil Akbunar,217782,,,regular,True,1,0
+7870089,90,2,Mbaye Diagne,346790,Özgür Çek,69434,regular,False,0,3
+7870089,79,,Mbaye Diagne,346790,Özgür Çek,69434,regular,False,0,2
+7870089,31,,Samuel Eduok,330035,İlhan Depe,146368,regular,False,0,1
+7870088,56,,Pepe,5884,Ricardo Quaresma,6254,regular,True,2,3
+7870088,33,,Yekta Kurtuluş,60289,Souleymane Doukara,170781,regular,False,1,3
+7870088,26,,Álvaro Negredo,27838,,,regular,True,1,2
+7870088,24,,Hakan Özmert,43512,Souleymane Doukara,170781,regular,False,0,2
+7870088,20,,Souleymane Doukara,170781,,,regular,False,0,1
+7870093,33,,Aytaç Kara,128196,,,penalty,False,1,1
+7870093,2,,Adis Jahović,55367,,,regular,True,1,0
+7870091,90,,Manuel Da Costa,14246,İrfan Can Kahveci,226986,regular,True,3,1
+7870091,70,,Riad Bajić,331751,Edin Višća,109779,regular,True,2,1
+7870091,28,,Elvis Manu,143382,,,regular,False,1,1
+7870091,9,,Edin Višća,109779,,,regular,True,1,0
+7870086,84,,Emre Akbaba,343527,Yunus Akgün,857738,regular,True,6,0
+7870086,82,,Henry Onyekuru,809220,,,regular,True,5,0
+7870086,56,,Emre Akbaba,343527,,,regular,True,4,0
+7870086,53,,Eren Derdiyok,21943,Sinan Gümüş,169165,regular,True,3,0
+7870086,49,,Sinan Gümüş,169165,Younès Belhanda,72999,regular,True,2,0
+7870086,37,,Fernando,41837,,,regular,True,1,0
+7870095,14,,Deni Milošević,190403,Mustapha Yatabaré,51558,regular,False,0,1
+7870102,82,,Adrien Regattin,99774,Güray Vural,43559,regular,True,1,1
+7870102,46,,Arouna Koné,12790,Ziya Erdal,138312,regular,False,0,1
+7870100,69,,Tjaronn Chery,35208,Deniz Türüç,252207,regular,False,2,3
+7870100,61,,Martin Škrtel,12394,,,ownGoal,False,2,2
+7870100,57,,Islam Slimani,238708,,,regular,True,2,1
+7870100,52,,Bernard Mensah,546220,,,regular,False,1,1
+7870100,13,,André Ayew,27035,Hasan Ali Kaldırım,39847,regular,True,1,0
+7870106,71,,Giannis Maniatis,17490,Efecan Karaca,60510,regular,True,1,0
+7870097,90,3,Caleb Ekuban,309156,Anthony Nwakaeme,139455,regular,True,4,0
+7870097,45,3,Anthony Nwakaeme,139455,José Sosa,22981,regular,True,3,0
+7870097,25,,Anthony Nwakaeme,139455,Yusuf Yazıcı,827804,regular,True,2,0
+7870097,3,,Ogenyi Onazi,150200,,,regular,True,1,0
+7870092,25,,İrfan Can Kahveci,226986,Soner Aydoğdu,69351,regular,False,0,1
+7870099,90,4,Thievy Bifouma,148919,Alessio Cerci,1778,regular,False,2,1
+7870099,85,,Mahmoud Trézéguet,295361,Özgür Çek,69434,regular,True,2,0
+7870099,13,,Mbaye Diagne,346790,İlhan Depe,146368,regular,True,1,0
+7870098,90,6,Hakan Özmert,43512,,,penalty,True,2,1
+7870098,90,1,Mevlüt Erdinç,35584,Diego Angelo,32818,regular,True,1,1
+7870098,40,,Marwane Saadane,847714,,,penalty,False,0,1
+7870104,85,,Diafra Sakho,74069,Yusuf Erdoğan,256663,regular,True,1,1
+7870104,51,,Ryan Babel,1876,Oğuzhan Özyakup,137642,regular,False,0,1
+7870111,77,,Serdar Aziz,43528,Sinan Gümüş,169165,regular,True,4,1
+7870111,76,,Mbaye Diagne,346790,,,penalty,False,3,1
+7870111,65,,Garry Rodrigues,787429,Emre Akbaba,343527,regular,True,3,0
+7870111,58,,Garry Rodrigues,787429,Badou Ndiaye,228342,regular,True,2,0
+7870111,55,,Eren Derdiyok,21943,Emre Akbaba,343527,regular,True,1,0
+7870103,12,,Mostapha El Kabir,44346,Youness Mokhtar,106576,regular,True,1,0
+7870115,89,,Guilherme Marques,109610,,,regular,False,2,1
+7870115,81,,Ryan Babel,1876,Álvaro Negredo,27838,regular,True,2,0
+7870115,52,,Pepe,5884,Ricardo Quaresma,6254,regular,True,1,0
+7870107,20,,Alpaslan Öztürk,148857,Yasin Öztekin,21876,regular,True,2,0
+7870107,18,,Yasin Öztekin,21876,,,regular,True,1,0
+7870110,88,,Emmanuel Adebayor,3094,Edin Višća,109779,regular,True,4,0
+7870110,72,,İrfan Can Kahveci,226986,Soner Aydoğdu,69351,regular,True,3,0
+7870110,46,,Stefano Napoleoni,46939,Emmanuel Adebayor,3094,regular,True,2,0
+7870110,7,,Edin Višća,109779,İrfan Can Kahveci,226986,regular,True,1,0
+7870112,79,,İbrahim Akdağ,847053,Lokman Gör,255131,regular,False,2,2
+7870112,55,,Arouna Koné,12790,Emre Kılınç,202032,regular,True,2,1
+7870112,36,,Emre Kılınç,202032,,,regular,True,1,1
+7870112,5,,Jasmin Ščuk,152130,,,penalty,False,0,1
+7870114,67,,Eljif Elmas,838232,Yassine Benzia,155718,regular,False,0,1
+7870108,58,,Fernando Boldrin,849787,,,regular,True,1,1
+7870108,16,,Diafra Sakho,74069,Allano,796925,regular,False,0,1
+7870101,4,,Merih Demiral,806968,Lucas Villafáñez,146227,regular,True,1,0
+7870122,90,,Kenan Özer,146364,Erdem Özgenç,60332,regular,False,0,1
+7870109,43,,Danijel Aleksić,45377,Guilherme Marques,109610,regular,True,1,0
+7870121,45,1,Jens Jønsson,156640,Selim Ay,116282,regular,False,0,2
+7870121,36,,Mustapha Yatabaré,51558,Ömer Ali Şahiner,103912,regular,False,0,1
+7870113,66,,Burak Yılmaz,18864,Abdülkadir Ömür,826155,regular,True,1,2
+7870113,28,,Yasin Öztekin,21876,Halil Akbunar,217782,regular,False,0,2
+7870113,8,,Yasin Öztekin,21876,André Castro,41652,regular,False,0,1
+7870105,89,,Mbaye Diagne,346790,,,regular,True,1,2
+7870105,87,,Papiss Demba Cissé,8978,Ceyhun Gülselam,20747,regular,False,0,2
+7870105,45,1,Papiss Demba Cissé,8978,Efecan Karaca,60510,regular,False,0,1
+7870116,84,,Mustafa Yumlu,124643,,,regular,True,3,0
+7870116,80,,Güray Vural,43559,,,penalty,True,2,0
+7870116,51,,Elvis Manu,143382,Adrien Regattin,99774,regular,True,1,0
+7870117,45,,Souleymane Doukara,170781,,,penalty,True,2,1
+7870117,35,,Mevlüt Erdinç,35584,Hakan Özmert,43512,regular,True,1,1
+7870117,10,,Arouna Koné,12790,,,penalty,False,0,1
+7870118,71,,André Ayew,27035,Hasan Ali Kaldırım,39847,regular,True,1,1
+7870118,40,,Ryan Babel,1876,,,regular,False,0,1
+7870130,74,,Maicon,44691,Ömer Bayram,68335,regular,True,1,0
+7870135,90,2,Yevhen Selezniov,36963,Bilal Kisa,5914,regular,False,2,1
+7870135,82,,Junior Fernandes,221528,Efecan Karaca,60510,regular,True,2,0
+7870135,7,,Papiss Demba Cissé,8978,Efecan Karaca,60510,regular,True,1,0
+7870123,74,,Burak Yılmaz,18864,Juraj Kucka,48563,regular,True,4,2
+7870123,72,,Hugo Rodallega,15668,João Pereira,13198,regular,True,3,2
+7870123,53,,Hugo Rodallega,15668,,,regular,True,2,2
+7870123,43,,Burak Yılmaz,18864,João Pereira,13198,regular,True,1,2
+7870123,37,,Mahmoud Trézéguet,295361,Mbaye Diagne,346790,regular,False,0,2
+7870123,30,,Samuel Eduok,330035,David Pavelka,101330,regular,False,0,1
+7870127,71,,Ricardo Quaresma,6254,,,regular,True,2,0
+7870127,34,,Vágner Love,13313,,,regular,True,1,0
+7870120,90,1,Robinho,11813,Ziya Erdal,138312,regular,True,2,0
+7870120,34,,Robinho,11813,Hakan Arslan,60646,regular,True,1,0
+7870128,90,5,Ömer Ali Şahiner,103912,Abdou Traoré,21090,regular,False,3,2
+7870128,61,,André Castro,41652,Cameron Jerome,16303,regular,True,3,1
+7870128,49,,Mustapha Yatabaré,51558,Paolo Hurtado,107315,regular,False,2,1
+7870128,41,,Yasin Öztekin,21876,,,regular,True,2,0
+7870128,24,,Cameron Jerome,16303,Yasin Öztekin,21876,regular,True,1,0
+7870119,41,,Braian Samudio,892933,Fernando Boldrin,849787,regular,True,3,0
+7870119,35,,Aminu Umar,333087,Braian Samudio,892933,regular,True,2,0
+7870119,30,,Vedat Muriqi,310874,Mehmet Uslu,60551,regular,True,1,0
+7870132,71,,Edin Višća,109779,İrfan Can Kahveci,226986,regular,True,1,1
+7870132,30,,Khalid Boutaïb,141072,Arturo Mina,387720,regular,False,0,1
+7870124,18,,Hakan Özmert,43512,,,regular,False,0,1
+7870144,84,,Mahmoud Trézéguet,295361,Tarkan Serbest,164099,regular,True,3,1
+7870144,69,,Yasin Öztekin,21876,,,regular,False,2,1
+7870144,47,,Samuel Eduok,330035,Mahmoud Trézéguet,295361,regular,True,2,0
+7870144,21,,Samuel Eduok,330035,Mahmoud Trézéguet,295361,regular,True,1,0
+7870141,86,,Ali Çamdalı,8870,Vedat Muriqi,310874,regular,False,2,2
+7870141,73,,Umut Bulut,5275,Silvestre Varela,14323,regular,True,2,1
+7870141,62,,Tjaronn Chery,35208,,,penalty,True,1,1
+7870141,25,,Marwane Saadane,847714,Süleyman Koç,40306,regular,False,0,1
+7870145,22,,Umut Meraş,609746,Ramazan Keskin,836684,regular,True,1,0
+7870140,54,,Taylan Antalyalı,190197,Özer Hurmacı,43425,regular,True,1,0
+7870136,87,,Ryan Donk,14900,Mariano,40076,regular,False,0,1
+7870143,80,,Eren Tozlu,100908,Guilherme Marques,109610,regular,True,4,4
+7870143,77,,Adem Büyük,60250,Khalid Boutaïb,141072,regular,True,3,4
+7870143,75,,Hakan Arslan,60646,Robinho,11813,regular,False,2,4
+7870143,67,,Mitchell Donald,21203,,,regular,True,2,3
+7870143,24,,Robinho,11813,Douglas,83263,regular,False,1,3
+7870143,21,,Robinho,11813,Douglas,83263,regular,False,1,2
+7870143,17,,Muhammet Demir,43543,Hakan Arslan,60646,regular,False,1,1
+7870143,11,,Arturo Mina,387720,Guilherme Marques,109610,regular,True,1,0
+7870131,77,,Yevhen Selezniov,36963,,,penalty,True,1,3
+7870131,67,,Filip Novák,12194,João Pereira,13198,regular,False,0,3
+7870131,43,,Burak Yılmaz,18864,,,penalty,False,0,2
+7870131,35,,José Sosa,22981,,,regular,False,0,1
+7870142,90,4,Paolo Hurtado,107315,,,regular,True,2,2
+7870142,80,,Jeremain Lens,18115,Ryan Babel,1876,regular,False,1,2
+7870142,79,,Vágner Love,13313,Oğuzhan Özyakup,137642,regular,False,1,1
+7870142,31,,Mustapha Yatabaré,51558,,,penalty,True,1,0
+7870146,77,,Eren Derdiyok,21943,Younès Belhanda,72999,regular,True,1,1
+7870146,63,,Aytaç Kara,128196,,,regular,False,0,1
+7870156,78,,Samuel Eduok,330035,,,regular,True,5,0
+7870156,70,,Mbaye Diagne,346790,,,regular,True,4,0
+7870156,67,,Mbaye Diagne,346790,Mahmoud Trézéguet,295361,regular,True,3,0
+7870156,58,,Tarkan Serbest,164099,David Pavelka,101330,regular,True,2,0
+7870156,56,,Mahmoud Trézéguet,295361,Mbaye Diagne,346790,regular,True,1,0
+7870158,40,,Marcio Mossoró,42293,Edin Višća,109779,regular,True,1,0
+7870133,82,,Adis Jahović,55367,,,penalty,False,1,1
+7870133,41,,Fernando Boldrin,849787,,,penalty,True,1,0
+7870181,42,,Souleymane Doukara,170781,Maicon,76502,regular,False,0,1
+7870134,10,,Alessio Cerci,1778,,,penalty,True,1,0
+7870165,60,,Wallace Reis,77244,Berkan Emir,344407,regular,True,2,0
+7870165,51,,Cameron Jerome,16303,André Castro,41652,regular,True,1,0
+7870167,45,2,Aytaç Kara,128196,,,regular,True,2,0
+7870167,2,,Iasmin Latovlevici,42263,Tunay Torun,30241,regular,True,1,0
+7870139,79,,Mbaye Diagne,346790,,,penalty,False,1,1
+7870139,40,,Lokman Gör,255131,Emrah Başsan,174141,regular,True,1,0
+7870152,60,,Riad Bajić,331751,Kerim Frei,157014,regular,False,0,1
+7870151,28,,Burak Yılmaz,18864,,,penalty,False,1,1
+7870151,15,,Souleymane Doukara,170781,Yekta Kurtuluş,60289,regular,True,1,0
+7870157,90,1,Tjaronn Chery,35208,,,penalty,True,2,0
+7870157,53,,Şamil Çinaz,31568,Umut Bulut,5275,regular,True,1,0
+7870164,66,,Adem Büyük,60250,,,penalty,True,2,0
+7870164,35,,Mitchell Donald,21203,Khalid Boutaïb,141072,regular,True,1,0
+7870189,89,,Michael Frey,134248,,,regular,True,1,3
+7870189,77,,Mostapha El Kabir,44346,Thievy Bifouma,148919,regular,False,0,3
+7870189,74,,Erdem Özgenç,60332,,,penalty,False,0,2
+7870189,35,,Ricardo Faty,9421,Kubilay Kanatsızkuş,828953,regular,False,0,1
+7870137,3,,Josué,77726,,,regular,True,1,0
+7870138,79,,Vágner Love,13313,Ricardo Quaresma,6254,regular,True,4,1
+7870138,72,,Matic Fink,41272,,,ownGoal,True,3,1
+7870138,49,,Enzo Roco,105971,,,ownGoal,False,2,1
+7870138,40,,Mustafa Pektemek,43643,Ricardo Quaresma,6254,regular,True,2,0
+7870138,3,,Mustafa Pektemek,43643,Ricardo Quaresma,6254,regular,True,1,0
+7870160,72,,Jailson,794861,Mathieu Valbuena,16540,regular,False,2,2
+7870160,66,,Mathieu Valbuena,16540,,,penalty,False,2,1
+7870160,49,,Martin Linnes,109569,,,regular,True,2,0
+7870160,31,,Ryan Donk,14900,Serdar Aziz,43528,regular,True,1,0
+7870176,83,,Souleymane Doukara,170781,,,penalty,False,1,2
+7870176,43,,Diego Angelo,32818,Yekta Kurtuluş,60289,regular,False,1,1
+7870176,21,,Veysel Sarı,98276,,,regular,True,1,0
+7870148,38,,Güray Vural,43559,,,penalty,True,1,1
+7870148,25,,Auremir,241482,Ridge Munsy,26308,regular,False,0,1
+7870150,18,,Alexandru Epureanu,18577,Edin Višća,109779,regular,True,1,0
+7870174,63,,Kubilay Kanatsızkuş,828953,Thievy Bifouma,148919,regular,True,3,1
+7870174,57,,Tjaronn Chery,35208,,,penalty,False,2,1
+7870174,27,,Ricardo Faty,9421,Kenan Özer,146364,regular,True,2,0
+7870174,15,,Mostapha El Kabir,44346,Thievy Bifouma,148919,regular,True,1,0
+7870149,11,,Adem Büyük,60250,,,regular,False,0,1
+7870166,87,,Allano,796925,,,regular,False,1,1
+7870166,25,,Hugo Rodallega,15668,José Sosa,22981,regular,True,1,0
+7870177,80,,Alpaslan Öztürk,148857,Halil Akbunar,217782,regular,True,2,0
+7870177,29,,Yasin Öztekin,21876,Halil Akbunar,217782,regular,True,1,0
+7870187,64,,Guilherme Marques,109610,Danijel Aleksić,45377,regular,True,5,0
+7870187,51,,Khalid Boutaïb,141072,Guilherme Marques,109610,regular,True,4,0
+7870187,48,,Danijel Aleksić,45377,,,regular,True,3,0
+7870187,38,,Danijel Aleksić,45377,Guilherme Marques,109610,regular,True,2,0
+7870187,36,,Guilherme Marques,109610,Khalid Boutaïb,141072,regular,True,1,0
+7870168,90,5,Yasin Öztekin,21876,Halil Akbunar,217782,regular,False,2,1
+7870168,53,,Taylan Antalyalı,190197,Emrah Başsan,174141,regular,True,2,0
+7870168,28,,İbrahim Akdağ,847053,Emrah Başsan,174141,regular,True,1,0
+7870154,77,,Moryke Fofana,269199,Deni Milošević,190403,regular,True,2,0
+7870154,55,,Ricardo Faty,9421,,,ownGoal,True,1,0
+7870155,79,,Vedat Muriqi,310874,Aminu Umar,333087,regular,True,1,2
+7870155,64,,Riad Bajić,331751,Edin Višća,109779,regular,False,0,2
+7870155,52,,Manuel Da Costa,14246,Edin Višća,109779,regular,False,0,1
+7870182,88,,Ömer Bayram,68335,Mariano,40076,regular,False,0,3
+7870182,74,,Henry Onyekuru,809220,Selçuk İnan,31253,regular,False,0,2
+7870182,18,,Henry Onyekuru,809220,,,regular,False,0,1
+7870175,48,,Mahmoud Trézéguet,295361,,,regular,False,1,2
+7870175,26,,Ertuğrul Ersoy,355004,Iasmin Latovlevici,42263,regular,True,1,1
+7870175,22,,Mbaye Diagne,346790,Mahmoud Trézéguet,295361,regular,False,0,1
+7870153,31,,Michael Frey,134248,Mathieu Valbuena,16540,regular,True,2,0
+7870153,19,,André Ayew,27035,Mauricio Isla,32891,regular,True,1,0
+7870183,90,2,Miguel Lopes,41651,Josué,77726,regular,False,1,2
+7870183,87,,Souleymane Doukara,170781,Diego Angelo,32818,regular,True,1,1
+7870183,66,,Hélder Barbosa,32676,Elvis Manu,143382,regular,False,0,1
+7870199,53,,Emre Kılınç,202032,,,regular,False,1,2
+7870199,14,,David Braz,46942,Robinho,11813,regular,False,1,1
+7870199,11,,Güven Yalçın,826162,Ricardo Quaresma,6254,regular,True,1,0
+7870163,90,,Nejc Skubic,41240,,,penalty,False,1,1
+7870163,69,,Uğur Demirok,43427,,,ownGoal,True,1,0
+7870197,76,,Diego Angelo,32818,,,ownGoal,True,1,0
+7870194,81,,Junior Fernandes,221528,Djalma,42121,regular,True,5,0
+7870194,79,,Papiss Demba Cissé,8978,Junior Fernandes,221528,regular,True,4,0
+7870194,73,,Papiss Demba Cissé,8978,Djalma,42121,regular,True,3,0
+7870194,59,,Efecan Karaca,60510,,,regular,True,2,0
+7870194,45,6,Djalma,42121,,,penalty,True,1,0
+7870169,88,,Oğuzhan Özyakup,137642,Dorukhan Toköz,796133,regular,False,1,4
+7870169,86,,Mostapha El Kabir,44346,Alessio Cerci,1778,regular,True,1,3
+7870169,44,,Güven Yalçın,826162,Adem Ljajić,39587,regular,False,0,3
+7870169,27,,Mustafa Pektemek,43643,Güven Yalçın,826162,regular,False,0,2
+7870169,23,,Adem Ljajić,39587,Mustafa Pektemek,43643,regular,False,0,1
+7870185,76,,David Braz,46942,,,regular,True,1,1
+7870185,60,,Vedat Muriqi,310874,Aminu Umar,333087,regular,False,0,1
+7870191,90,4,Ramazan Keskin,836684,,,regular,False,2,4
+7870191,85,,Iasmin Latovlevici,42263,,,regular,False,2,3
+7870191,65,,Umut Nayir,284767,Henri Saivet,26895,regular,False,2,2
+7870191,45,2,Umut Nayir,284767,Tunay Torun,30241,regular,False,2,1
+7870191,39,,Onur Ayık,67140,Miguel Lopes,41651,regular,True,2,0
+7870191,8,,Elvis Manu,143382,Onur Ayık,67140,regular,True,1,0
+7870173,84,,Mbaye Diagne,346790,Tarkan Serbest,164099,regular,True,3,0
+7870173,57,,Josué Sá,137982,Samuel Eduok,330035,regular,True,2,0
+7870173,6,,Mbaye Diagne,346790,,,penalty,True,1,0
+7870206,82,,Michael Frey,134248,Barış Alıcı,839770,regular,False,2,1
+7870206,75,,José Sosa,22981,Abdülkadir Ömür,826155,regular,True,2,0
+7870206,50,,Filip Novák,12194,João Pereira,13198,regular,True,1,0
+7870161,73,,Riad Bajić,331751,Marcio Mossoró,42293,regular,False,0,2
+7870161,9,,Edin Višća,109779,,,penalty,False,0,1
+7870200,67,,Jens Jønsson,156640,,,regular,True,2,0
+7870200,52,,Adis Jahović,55367,,,penalty,True,1,0
+7870178,66,,Aminu Umar,333087,Fernando Boldrin,849787,regular,True,1,1
+7870178,19,,Mostapha El Kabir,44346,İlhan Parlak,5810,regular,False,0,1
+7870196,20,,Serdar Özkan,30032,Ondřej Čelůstka,45764,regular,True,1,0
+7870162,35,,Muhammet Demir,43543,Gabriel Torje,19148,regular,False,0,1
+7870186,90,8,Vahid Amiri,791373,,,regular,False,0,2
+7870186,82,,Caleb Ekuban,309156,José Sosa,22981,regular,False,0,1
+7870211,60,,Iasmin Latovlevici,42263,Allano,796925,regular,True,2,1
+7870211,45,3,Aurélien Chedjou,27027,,,ownGoal,False,1,1
+7870211,36,,Umut Meraş,609746,,,regular,True,1,0
+7870202,18,,Adem Ljajić,39587,,,penalty,True,1,0
+7870171,54,,Mbaye Diagne,346790,,,regular,False,2,2
+7870171,45,3,Özgür Çek,69434,,,ownGoal,True,2,1
+7870171,44,,Roman Neustädter,38471,Mathieu Valbuena,16540,regular,True,1,1
+7870171,22,,Mbaye Diagne,346790,Mahmoud Trézéguet,295361,regular,False,0,1
+7870201,80,,Jeremy Bokila,32497,Onur Ayık,67140,regular,False,1,1
+7870201,41,,Danijel Aleksić,45377,Mitchell Donald,21203,regular,True,1,0
+7870217,80,,Douglas,83263,Uğur Çiftçi,142850,regular,True,2,0
+7870217,60,,Serhiy Rybalka,69366,,,penalty,True,1,0
+7870210,89,,Ogenyi Onazi,150200,,,regular,True,3,0
+7870210,77,,Caleb Ekuban,309156,Abdülkadir Ömür,826155,regular,True,2,0
+7870210,76,,Hugo Rodallega,15668,,,penalty,True,1,0
+7870207,80,,Braian Samudio,892933,,,regular,False,2,2
+7870207,67,,Aminu Umar,333087,Vedat Muriqi,310874,regular,False,2,1
+7870207,58,,Eren Derdiyok,21943,Yuto Nagatomo,34639,regular,True,2,0
+7870207,40,,Garry Rodrigues,787429,,,regular,True,1,0
+7870208,90,5,Eren Tozlu,100908,Buğra Çağıran,816071,regular,False,1,3
+7870208,78,,Eren Tozlu,100908,Issam Chebake,386630,regular,False,1,2
+7870208,67,,Mitchell Donald,21203,Erkan Kaş,94868,regular,False,1,1
+7870208,44,,Jasmin Ščuk,152130,,,penalty,True,1,0
+7870195,43,,Mevlüt Erdinç,35584,Serdar Özkan,30032,regular,False,0,2
+7870195,38,,Serdar Özkan,30032,,,penalty,False,0,1
+7870172,90,5,Adrien Regattin,99774,Josué,77726,regular,True,3,0
+7870172,82,,Elvis Manu,143382,Güray Vural,43559,regular,True,2,0
+7870172,26,,Jeremy Bokila,32497,,,regular,True,1,0
+7870203,80,,Bernard Mensah,546220,Tjaronn Chery,35208,regular,False,0,3
+7870203,69,,Deniz Türüç,252207,,,regular,False,0,2
+7870203,21,,Tjaronn Chery,35208,,,penalty,False,0,1
+7870170,8,,Edin Višća,109779,İrfan Can Kahveci,226986,regular,False,0,1
+7870218,77,,Robinho,11813,,,regular,True,4,0
+7870218,64,,Emre Kılınç,202032,Muhammet Demir,43543,regular,True,3,0
+7870218,45,,Muhammet Demir,43543,Emre Kılınç,202032,regular,True,2,0
+7870218,43,,Robinho,11813,,,penalty,True,1,0
+7870184,56,,Vedat Muriqi,310874,Davide Petrucci,307266,regular,True,1,1
+7870184,42,,Junior Fernandes,221528,Cenk Ahmet Alkılıç,81928,regular,False,0,1
+7870215,82,,Moryke Fofana,269199,,,regular,True,3,2
+7870215,74,,Adis Jahović,55367,Nejc Skubic,41240,regular,True,2,2
+7870215,72,,Mbaye Diagne,346790,Strahil Popov,52001,regular,False,1,2
+7870215,69,,Mbaye Diagne,346790,,,regular,False,1,1
+7870215,47,,Adis Jahović,55367,,,regular,True,1,0
+7870212,30,,Eren Derdiyok,21943,,,penalty,False,1,1
+7870212,18,,İrfan Can Kahveci,226986,Stefano Napoleoni,46939,regular,True,1,0
+7870198,34,,Khalid Boutaïb,141072,Guilherme Marques,109610,regular,True,2,0
+7870198,16,,Khalid Boutaïb,141072,Eren Tozlu,100908,regular,True,1,0
+7870180,75,,Asamoah Gyan,17936,Silvestre Varela,14323,regular,True,1,0
+7870209,90,6,Mustafa Pektemek,43643,,,regular,True,2,2
+7870209,57,,Ogenyi Onazi,150200,,,ownGoal,True,1,2
+7870209,47,,Anthony Nwakaeme,139455,Ogenyi Onazi,150200,regular,False,0,2
+7870209,45,1,Hugo Rodallega,15668,José Sosa,22981,regular,False,0,1
+7870213,90,2,Lennart Thy,109126,,,regular,False,2,2
+7870213,48,,Emrah Başsan,174141,Gilles Sunu,102625,regular,False,2,1
+7870213,27,,Martin Škrtel,12394,Mathieu Valbuena,16540,regular,True,2,0
+7870213,18,,André Ayew,27035,Mauricio Isla,32891,regular,True,1,0
+7870204,79,,Yoan Gouffran,26982,André Castro,41652,regular,False,0,3
+7870204,69,,Halil Akbunar,217782,André Poko,177103,regular,False,0,2
+7870204,50,,Cameron Jerome,16303,Halil Akbunar,217782,regular,False,0,1
+7870214,63,,Junior Fernandes,221528,Lucas Villafáñez,146227,regular,True,1,1
+7870214,41,,Edin Višća,109779,Manuel Da Costa,14246,regular,False,0,1
+7870193,83,,David Pavelka,101330,Loret Sadiku,143356,regular,True,4,1
+7870193,75,,Mbaye Diagne,346790,,,penalty,True,3,1
+7870193,52,,Mustafa Pektemek,43643,Jeremain Lens,18115,regular,False,2,1
+7870193,45,1,Mbaye Diagne,346790,Bengali-Fodé Koita,51407,regular,True,2,0
+7870193,11,,Loret Sadiku,143356,,,regular,True,1,0
+7870205,45,4,Taylan Antalyalı,190197,Emrah Başsan,174141,regular,True,1,1
+7870205,32,,Cristian Săpunaru,18793,,,regular,False,0,1
+7870216,46,,Guilherme Marques,109610,Adem Büyük,60250,regular,False,1,1
+7870216,45,,Umut Nayir,284767,,,regular,True,1,0
+7870219,90,3,Anthony Nwakaeme,139455,Caleb Ekuban,309156,regular,True,4,1
+7870219,84,,Aminu Umar,333087,Vedat Muriqi,310874,regular,False,3,1
+7870219,79,,Hugo Rodallega,15668,Anthony Nwakaeme,139455,regular,True,3,0
+7870219,67,,Abdülkadir Ömür,826155,,,regular,True,2,0
+7870219,24,,Abdülkadir Ömür,826155,Filip Novák,12194,regular,True,1,0
+7870192,69,,Henry Onyekuru,809220,Eren Derdiyok,21943,regular,True,4,2
+7870192,51,,Henry Onyekuru,809220,Fernando,41837,regular,True,3,2
+7870192,41,,Robinho,11813,Douglas,83263,regular,False,2,2
+7870192,30,,Sofiane Feghouli,37240,Badou Ndiaye,228342,regular,True,2,1
+7870192,20,,Eren Derdiyok,21943,,,penalty,True,1,1
+7870192,9,,Robinho,11813,Douglas,83263,regular,False,0,1
+7870227,59,,Taylan Antalyalı,190197,Rashad Muhammed,878742,regular,True,1,2
+7870227,57,,Volkan Fındıklı,93248,,,regular,False,0,2
+7870227,45,3,Ömer Ali Şahiner,103912,Abdou Traoré,21090,regular,False,0,1
+7870230,54,,Danijel Aleksić,45377,,,penalty,True,3,2
+7870230,41,,André Poko,177103,André Castro,41652,regular,False,2,2
+7870230,34,,Mitchell Donald,21203,Ömer Şişmanoğlu,29451,regular,True,2,1
+7870230,20,,Halil Akbunar,217782,Berkan Emir,344407,regular,False,1,1
+7870230,1,,Ömer Şişmanoğlu,29451,Ahmed Ildız,849329,regular,True,1,0
+7870226,86,,Badou Ndiaye,228342,,,regular,True,6,0
+7870226,63,,Henry Onyekuru,809220,Sofiane Feghouli,37240,regular,True,5,0
+7870226,59,,Henry Onyekuru,809220,Fernando,41837,regular,True,4,0
+7870226,26,,Sinan Gümüş,169165,Mariano,40076,regular,True,3,0
+7870226,21,,Henry Onyekuru,809220,Badou Ndiaye,228342,regular,True,2,0
+7870226,1,,Sinan Gümüş,169165,,,regular,True,1,0
+7870223,45,1,Junior Fernandes,221528,Efecan Karaca,60510,regular,True,2,0
+7870223,37,,Djalma,42121,,,penalty,True,1,0
+7870224,86,,Edin Višća,109779,,,regular,False,2,4
+7870224,80,,Yusuf Yazıcı,827804,Filip Novák,12194,regular,True,2,3
+7870224,49,,Caleb Ekuban,309156,,,regular,True,1,3
+7870224,48,,Caleb Ekuban,309156,,,ownGoal,False,0,3
+7870224,42,,Gaël Clichy,532,Robinho,11813,regular,False,0,2
+7870224,32,,İrfan Can Kahveci,226986,Arda Turan,5702,regular,False,0,1
+7870238,90,,Aytaç Kara,128196,Diafra Sakho,74069,regular,True,1,1
+7870238,20,,Roberto Soldado,13208,Mauricio Isla,32891,regular,False,0,1
+7870228,23,,Aminu Umar,333087,Vedat Muriqi,310874,regular,False,0,1
+7870231,78,,Dorukhan Toköz,796133,Adem Ljajić,39587,regular,True,1,1
+7870231,69,,Dorukhan Toköz,796133,,,ownGoal,False,0,1
+7870236,48,,Cristian Săpunaru,18793,Umut Bulut,5275,regular,True,1,1
+7870236,30,,Yusuf Erdoğan,256663,,,regular,False,0,1
+7870232,72,,Sinan Gümüş,169165,Mariano,40076,regular,False,0,1
+7870241,82,,Préjuce Nakoulma,60848,Aminu Umar,333087,regular,True,3,1
+7870241,72,,Vedat Muriqi,310874,,,regular,True,2,1
+7870241,70,,Dario Melnjak,257135,Braian Samudio,892933,regular,True,1,1
+7870241,14,,Edin Cocalić,63927,Josué,77726,regular,False,0,1
+7870235,56,,Nejc Skubic,41240,Volkan Fındıklı,93248,regular,True,2,0
+7870235,11,,Marko Jevtović,310068,Nejc Skubic,41240,regular,True,1,0
+7870229,75,,Abdulkadir Parmak,344225,Hugo Rodallega,15668,regular,False,1,1
+7870229,73,,Arouna Koné,12790,Emre Kılınç,202032,regular,True,1,0
+7870237,84,,Eljero Elia,10668,Edin Višća,109779,regular,True,2,0
+7870237,42,,Edin Višća,109779,Robinho,11813,regular,True,1,0
+7870245,86,,Mehmet Topal,17793,,,regular,True,3,2
+7870245,45,4,Mitchell Donald,21203,Arturo Mina,387720,regular,False,2,2
+7870245,31,,Mehmet Ekici,37612,,,regular,True,2,1
+7870245,28,,Arturo Mina,387720,Danijel Aleksić,45377,regular,False,1,1
+7870245,2,,Mehmet Ekici,37612,Mauricio Isla,32891,regular,True,1,0
+7870234,55,,Papiss Demba Cissé,8978,Efecan Karaca,60510,regular,False,0,2
+7870234,6,,Djalma,42121,,,penalty,False,0,1
+7870239,73,,Victor Moses,31585,Jailson,794861,regular,True,2,0
+7870239,7,,André Ayew,27035,Roberto Soldado,13208,regular,True,1,0
+7870242,19,,Danijel Aleksić,45377,,,regular,True,1,1
+7870242,14,,Artem Kravets,31838,Deniz Türüç,252207,regular,False,0,1
+7870240,69,,Arouna Koné,12790,Serhiy Rybalka,69366,regular,False,1,3
+7870240,66,,Arouna Koné,12790,Fousseni Diabaté,796374,regular,False,1,2
+7870240,14,,Stipe Perica,284845,Mahmoud Trézéguet,295361,regular,True,1,1
+7870240,6,,Emre Kılınç,202032,Fousseni Diabaté,796374,regular,False,0,1
+7870247,6,,Hugo Rodallega,15668,Abdülkadir Ömür,826155,regular,True,1,0
+7870248,52,,Sofiane Feghouli,37240,Younès Belhanda,72999,regular,False,1,1
+7870248,45,4,Djalma,42121,Junior Fernandes,221528,regular,True,1,0
+7870246,76,,Fernando Boldrin,849787,,,regular,False,0,1
+7870244,90,3,Demba Ba,28253,Edin Višća,109779,regular,False,0,3
+7870244,40,,Robinho,11813,Edin Višća,109779,regular,False,0,2
+7870244,32,,Alexandru Epureanu,18577,Edin Višća,109779,regular,False,0,1
+7870243,90,,Chico,39361,Mevlüt Erdinç,35584,regular,True,2,6
+7870243,84,,Shinji Kagawa,34853,,,regular,False,1,6
+7870243,82,,Shinji Kagawa,34853,Jeremain Lens,18115,regular,False,1,5
+7870243,67,,Salih Dursun,179189,,,ownGoal,False,1,4
+7870243,50,,Souleymane Doukara,170781,,,regular,True,1,3
+7870243,43,,Atiba Hutchinson,7721,,,regular,False,0,3
+7870243,39,,Dorukhan Toköz,796133,Adriano,4441,regular,False,0,2
+7870243,35,,Adem Ljajić,39587,,,penalty,False,0,1
+7870260,87,,Artem Kravets,31838,Tjaronn Chery,35208,regular,True,1,0
+7870263,74,,Egemen Korkmaz,43711,Emrah Başsan,174141,regular,False,1,1
+7870263,11,,Kristian Opseth,547606,,,ownGoal,True,1,0
+7870261,68,,Mevlüt Erdinç,35584,Nazım Sangaré,169425,regular,False,1,1
+7870261,6,,Vedat Muriqi,310874,,,regular,True,1,0
+7870258,62,,Burak Yılmaz,18864,,,regular,True,2,0
+7870258,40,,Burak Yılmaz,18864,Jeremain Lens,18115,regular,True,1,0
+7870265,85,,Adis Jahović,55367,,,penalty,True,1,1
+7870265,74,,Danijel Aleksić,45377,Ahmed Ildız,849329,regular,False,0,1
+7870262,89,,Nabil Ghilas,101452,André Castro,41652,regular,True,3,2
+7870262,74,,Papiss Demba Cissé,8978,Junior Fernandes,221528,regular,False,2,2
+7870262,42,,Georgios Tzavellas,33000,Djalma,42121,regular,False,2,1
+7870262,31,,Celso Borges,50605,André Castro,41652,regular,True,2,0
+7870262,20,,Deniz Kadah,27220,,,regular,True,1,0
+7870266,51,,Younès Belhanda,72999,Sofiane Feghouli,37240,regular,True,3,1
+7870266,44,,Younès Belhanda,72999,Yuto Nagatomo,34639,regular,True,2,1
+7870266,30,,Hugo Rodallega,15668,Anthony Nwakaeme,139455,regular,False,1,1
+7870266,21,,Mbaye Diagne,346790,,,penalty,True,1,0
+7870264,86,,İlhan Parlak,5810,Tyler Boyd,277437,regular,True,3,0
+7870264,46,,Hadi Sacko,250509,Tyler Boyd,277437,regular,True,2,0
+7870264,33,,Dever Orgill,323549,Michał Pazdan,35605,regular,True,1,0
+7870259,88,,Josué,77726,,,penalty,False,2,1
+7870259,60,,Arouna Koné,12790,,,penalty,True,2,0
+7870259,5,,Arouna Koné,12790,Fousseni Diabaté,796374,regular,True,1,0
+7870251,70,,Adem Ljajić,39587,Caner Erkin,15680,regular,False,1,2
+7870251,65,,Ömer Şişmanoğlu,29451,Danijel Aleksić,45377,regular,True,1,1
+7870251,49,,Atiba Hutchinson,7721,Gökhan Gönül,30137,regular,False,0,1
+7870249,78,,Okechukwu Azubuike,807114,,,regular,False,0,2
+7870249,12,,Aatif Chahechouhe,114911,Fernando Boldrin,849787,regular,False,0,1
+7870255,45,1,Jailson,794861,Nabil Dirar,42102,regular,True,1,1
+7870255,36,,Moryke Fofana,269199,Deni Milošević,190403,regular,False,0,1
+7870256,72,,Gabriel Obertan,16511,İbrahim Akdağ,847053,regular,True,4,2
+7870256,60,,Samuel Eduok,330035,,,regular,True,3,2
+7870256,56,,Hakan Arslan,60646,Arouna Koné,12790,regular,False,2,2
+7870256,30,,Samuel Eduok,330035,Kristian Opseth,547606,regular,True,2,1
+7870256,12,,Serhiy Rybalka,69366,,,regular,False,1,1
+7870256,4,,Jasmin Ščuk,152130,,,penalty,True,1,0
+7870250,88,,Bernard Mensah,546220,Tjaronn Chery,35208,regular,True,2,1
+7870250,83,,Deniz Türüç,252207,,,ownGoal,False,1,1
+7870250,14,,Tjaronn Chery,35208,Deniz Türüç,252207,regular,True,1,0
+7870253,68,,Papiss Demba Cissé,8978,,,regular,False,0,2
+7870253,51,,Papiss Demba Cissé,8978,Djalma,42121,regular,False,0,1
+7870252,68,,Sofiane Feghouli,37240,Henry Onyekuru,809220,regular,False,1,4
+7870252,53,,Sofiane Feghouli,37240,Ryan Donk,14900,regular,False,1,3
+7870252,28,,Sofiane Feghouli,37240,Younès Belhanda,72999,regular,False,1,2
+7870252,22,,Younès Belhanda,72999,,,regular,False,1,1
+7870252,14,,Mahmoud Trézéguet,295361,,,regular,True,1,0
+7870254,33,,Fedor Kudryashov,24639,İrfan Can Kahveci,226986,regular,False,0,1
+7870275,90,,Kadu,350078,,,ownGoal,False,1,3
+7870275,73,,Abdulkadir Parmak,344225,Anthony Nwakaeme,139455,regular,False,1,2
+7870275,71,,Deniz Kadah,27220,,,penalty,True,1,1
+7870275,27,,Hugo Rodallega,15668,,,regular,False,0,1
+7870271,90,8,Préjuce Nakoulma,60848,Okechukwu Azubuike,807114,regular,True,3,0
+7870271,90,5,Vedat Muriqi,310874,,,regular,True,2,0
+7870271,27,,Aatif Chahechouhe,114911,Fernando Boldrin,849787,regular,True,1,0
+7870269,65,,Arouna Koné,12790,Douglas,83263,regular,True,1,2
+7870269,45,2,Souleymane Doukara,170781,,,penalty,False,0,2
+7870269,36,,Nazım Sangaré,169425,Amilton da Silva,803148,regular,False,0,1
+7870268,89,,Josef Šural,40739,Cenk Ahmet Alkılıç,81928,regular,True,3,0
+7870268,53,,Papiss Demba Cissé,8978,Baiano,44637,regular,True,2,0
+7870268,7,,Papiss Demba Cissé,8978,,,regular,True,1,0
+7870272,90,1,Demba Ba,28253,Edin Višća,109779,regular,True,3,0
+7870272,40,,Edin Višća,109779,Arda Turan,5702,regular,True,2,0
+7870272,17,,Marcio Mossoró,42293,Junior Caiçara,128440,regular,True,1,0
+7870277,90,2,Dever Orgill,323549,İlhan Parlak,5810,regular,True,2,1
+7870277,47,,Kristian Opseth,547606,,,regular,False,1,1
+7870277,25,,Tyler Boyd,277437,Dever Orgill,323549,regular,True,1,0
+7870270,59,,Deniz Türüç,252207,Şamil Çinaz,31568,regular,False,0,1
+7870274,90,4,Konstantinos Mitroglou,16081,,,regular,True,1,0
+7870276,67,,Hasan Ali Kaldırım,39847,Roberto Soldado,13208,regular,False,3,3
+7870276,61,,Sadık Çiftpınar,111811,Mathieu Valbuena,16540,regular,False,3,2
+7870276,55,,Miha Zajc,139256,Nabil Dirar,42102,regular,False,3,1
+7870276,45,2,Burak Yılmaz,18864,Shinji Kagawa,34853,regular,True,3,0
+7870276,18,,Burak Yılmaz,18864,,,penalty,True,2,0
+7870276,10,,Gökhan Gönül,30137,,,regular,True,1,0
+7870273,90,6,Tyler Boyd,277437,Stelios Kitsiou,189627,regular,False,2,4
+7870273,41,,Dever Orgill,323549,Tyler Boyd,277437,regular,False,2,3
+7870273,30,,Nazım Sangaré,169425,Fredy,845281,regular,True,2,2
+7870273,26,,Dever Orgill,323549,Tyler Boyd,277437,regular,False,1,2
+7870273,21,,Dever Orgill,323549,Héctor Canteros,129501,regular,False,1,1
+7870273,19,,Chico,39361,Hakan Özmert,43512,regular,True,1,0
+7870286,90,6,Aytaç Kara,128196,Iasmin Latovlevici,42263,regular,True,3,2
+7870286,89,,Delvin N'Dinga,39044,Mattias Bjärsmyr,7042,regular,False,2,2
+7870286,62,,Henri Saivet,26895,,,regular,True,2,1
+7870286,19,,Shehu Abdullahi,330033,Yusuf Erdoğan,256663,regular,True,1,1
+7870286,6,,Emre Kılınç,202032,Delvin N'Dinga,39044,regular,False,0,1
+7870284,90,,Caner Erkin,15680,Ricardo Quaresma,6254,regular,False,2,2
+7870284,62,,Deniz Türüç,252207,,,regular,True,2,1
+7870284,57,,Artem Kravets,31838,Silvestre Varela,14323,regular,True,1,1
+7870284,37,,Atiba Hutchinson,7721,Dorukhan Toköz,796133,regular,False,0,1
+7870278,84,,Victor Moses,31585,,,penalty,True,3,2
+7870278,55,,Dario Melnjak,257135,Vedat Muriqi,310874,regular,False,2,2
+7870278,40,,Roberto Soldado,13208,,,regular,True,2,1
+7870278,22,,Serdar Aziz,43528,Mathieu Valbuena,16540,regular,True,1,1
+7870278,4,,Dario Melnjak,257135,Mykola Morozyuk,39567,regular,False,0,1
+7870280,54,,Yasin Öztekin,21876,André Castro,41652,regular,False,1,1
+7870280,18,,Petar Filipović,94126,Abdou Traoré,21090,regular,True,1,0
+7870285,57,,Edin Višća,109779,Marcio Mossoró,42293,regular,False,0,2
+7870285,44,,Emre Belözoğlu,2054,,,penalty,False,0,1
+7870287,52,,Younès Belhanda,72999,Konstantinos Mitroglou,16081,regular,False,1,1
+7870287,18,,Rashad Muhammed,878742,Emrah Başsan,174141,regular,True,1,0
+7870279,87,,Zeki Yavru,140735,,,regular,True,3,1
+7870279,77,,Bilal Kisa,5914,Hélder Barbosa,32676,regular,True,2,1
+7870279,74,,Zeki Yavru,140735,Onur Ayık,67140,regular,True,1,1
+7870279,65,,Milan Lukač,79171,,,ownGoal,False,0,1
+7870283,90,,Mahmoud Trézéguet,295361,,,penalty,True,2,2
+7870283,63,,Stipe Perica,284845,Karim Hafez,577736,regular,True,1,2
+7870283,45,2,Anthony Nwakaeme,139455,,,regular,False,0,2
+7870283,30,,Anthony Nwakaeme,139455,Hugo Rodallega,15668,regular,False,0,1
+7870281,45,,Douglas,83263,Özer Hurmacı,43425,regular,True,2,0
+7870281,35,,Fatih Aksoy,827922,Özer Hurmacı,43425,regular,True,1,0
+7870294,76,,José Sosa,22981,,,penalty,True,2,1
+7870294,70,,Anthony Nwakaeme,139455,,,regular,True,1,1
+7870294,65,,Jeremy Bokila,32497,Rajko Rotman,61375,regular,False,0,1
+7870288,83,,Stefano Napoleoni,46939,Marcio Mossoró,42293,regular,True,2,1
+7870288,73,,Roberto Soldado,13208,,,regular,False,1,1
+7870288,18,,Robinho,11813,,,regular,True,1,0
+7870282,77,,Gilles Sunu,102625,,,penalty,False,2,1
+7870282,59,,Welinton,76529,,,penalty,True,2,0
+7870282,45,1,Papiss Demba Cissé,8978,Efecan Karaca,60510,regular,True,1,0
+7870289,66,,Vedat Muriqi,310874,,,penalty,True,3,0
+7870289,56,,Braian Samudio,892933,Dario Melnjak,257135,regular,True,2,0
+7870289,22,,Vedat Muriqi,310874,,,regular,True,1,0
+7870290,90,3,Shinji Kagawa,34853,Adriano,4441,regular,True,3,2
+7870290,75,,Moryke Fofana,269199,Amir Hadžiahmetović,795421,regular,False,2,2
+7870290,33,,Burak Yılmaz,18864,,,regular,True,2,1
+7870290,19,,Ömer Ali Şahiner,103912,Deni Milošević,190403,regular,False,1,1
+7870290,14,,Adem Ljajić,39587,Burak Yılmaz,18864,regular,True,1,0
+7870295,90,3,Mbaye Diagne,346790,,,regular,True,5,0
+7870295,78,,Henry Onyekuru,809220,Sofiane Feghouli,37240,regular,True,4,0
+7870295,68,,Badou Ndiaye,228342,Sofiane Feghouli,37240,regular,True,3,0
+7870295,65,,Henry Onyekuru,809220,Younès Belhanda,72999,regular,True,2,0
+7870295,17,,Sofiane Feghouli,37240,Mbaye Diagne,346790,regular,True,1,0
+7870306,86,,Mehmet Ekici,37612,Hasan Ali Kaldırım,39847,regular,True,2,1
+7870306,74,,Roberto Soldado,13208,Victor Moses,31585,regular,True,1,1
+7870306,73,,Özer Hurmacı,43425,Emre Kılınç,202032,regular,False,0,1
+7870301,68,,Braian Samudio,892933,Vedat Muriqi,310874,regular,False,0,2
+7870301,2,,Vedat Muriqi,310874,,,regular,False,0,1
+7870291,90,5,Mahmoud Trézéguet,295361,David Pavelka,101330,regular,False,2,3
+7870291,87,,Abdulrahman Khalili,109970,Mahmoud Trézéguet,295361,regular,False,2,2
+7870291,62,,Jeremy Bokila,32497,,,penalty,True,2,1
+7870291,32,,Elvis Manu,143382,Jeremy Bokila,32497,regular,True,1,1
+7870291,7,,Bengali-Fodé Koita,51407,Strahil Popov,52001,regular,False,0,1
+7870305,64,,Anthony Nwakaeme,139455,Caleb Ekuban,309156,regular,False,0,1
+7870304,48,,Amilton da Silva,803148,,,regular,True,3,0
+7870304,32,,Souleymane Doukara,170781,,,regular,True,2,0
+7870304,26,,Hakan Özmert,43512,,,regular,True,1,0
+7870300,46,,Burak Yılmaz,18864,Ricardo Quaresma,6254,regular,True,1,0
+7870298,90,4,Ahmed Ildız,849329,,,regular,True,3,1
+7870298,72,,Dever Orgill,323549,,,regular,False,2,1
+7870298,58,,Guilherme Marques,109610,,,regular,True,2,0
+7870298,55,,Adem Büyük,60250,,,penalty,True,1,0
+7870297,90,8,Emmanuel Adebayor,3094,,,penalty,False,1,1
+7870297,20,,Şamil Çinaz,31568,,,regular,True,1,0
+7870292,62,,Sofiane Feghouli,37240,Henry Onyekuru,809220,regular,False,2,3
+7870292,56,,Mbaye Diagne,346790,,,penalty,False,2,2
+7870292,45,2,Badou Ndiaye,228342,Christian Luyindama,867191,regular,False,2,1
+7870292,42,,Henri Saivet,26895,Allano,796925,regular,True,2,0
+7870292,15,,Diafra Sakho,74069,Yusuf Erdoğan,256663,regular,True,1,0
+7870303,90,4,Murat Cem Akpinar,873813,Abdülkadir Ömür,826155,regular,True,4,1
+7870303,67,,Olcay Şahan,16078,Anthony Nwakaeme,139455,regular,True,3,1
+7870303,58,,Caleb Ekuban,309156,,,regular,True,2,1
+7870303,21,,Anthony Nwakaeme,139455,Olcay Şahan,16078,regular,True,1,1
+7870303,9,,Souleymane Doukara,170781,Hakan Özmert,43512,regular,False,0,1
+7870302,72,,Papiss Demba Cissé,8978,Lucas Villafáñez,146227,regular,True,1,0
+7870299,84,,Erdoğan Yeşilyurt,142541,Douglas,83263,regular,True,1,3
+7870299,45,1,Hasan Hüseyin Acar,345091,Deniz Türüç,252207,regular,False,0,3
+7870299,33,,Tjaronn Chery,35208,Atila Turan,88617,regular,False,0,2
+7870299,30,,Tjaronn Chery,35208,Atila Turan,88617,regular,False,0,1
+7870307,89,,Mbaye Diagne,346790,,,penalty,True,3,0
+7870307,50,,Mbaye Diagne,346790,Emre Akbaba,343527,regular,True,2,0
+7870307,45,4,Mbaye Diagne,346790,,,penalty,True,1,0
+7870308,76,,Bengali-Fodé Koita,51407,Mahmoud Trézéguet,295361,regular,True,2,1
+7870308,61,,Samuel Eduok,330035,,,regular,False,1,1
+7870308,29,,Bengali-Fodé Koita,51407,Loret Sadiku,143356,regular,True,1,0
+7870315,88,,Hélder Barbosa,32676,Elvis Manu,143382,regular,False,0,1
+7870316,67,,Hasan Ali Kaldırım,39847,Roberto Soldado,13208,regular,False,1,1
+7870316,42,,Tyler Boyd,277437,Héctor Canteros,129501,regular,True,1,0
+7870313,69,,Edin Višća,109779,Marcio Mossoró,42293,regular,True,2,0
+7870313,50,,Marcio Mossoró,42293,Robinho,11813,regular,True,1,0
+7870309,89,,Güven Yalçın,826162,Dorukhan Toköz,796133,regular,False,2,7
+7870309,82,,Güven Yalçın,826162,Adem Ljajić,39587,regular,False,2,6
+7870309,78,,Adem Ljajić,39587,,,regular,False,2,5
+7870309,71,,Güven Yalçın,826162,Adem Ljajić,39587,regular,False,2,4
+7870309,70,,Mohamed Abarhoun,244005,Dario Melnjak,257135,regular,True,2,3
+7870309,64,,Burak Yılmaz,18864,Dorukhan Toköz,796133,regular,False,1,3
+7870309,42,,Vedat Muriqi,310874,Fernando Boldrin,849787,regular,True,1,2
+7870309,14,,Adem Ljajić,39587,Atiba Hutchinson,7721,regular,False,0,2
+7870309,8,,Domagoj Vida,51225,Adem Ljajić,39587,regular,False,0,1
+7870314,68,,Abdülkadir Ömür,826155,Anthony Nwakaeme,139455,regular,False,0,1
+7870317,39,,Fousseni Diabaté,796374,Emre Kılınç,202032,regular,False,1,1
+7870317,22,,Ömer Ali Şahiner,103912,Moryke Fofana,269199,regular,True,1,0
+7870311,51,,Aatif Chahechouhe,114911,Fernando Boldrin,849787,regular,True,1,0
+7870318,52,,Burak Yılmaz,18864,Gökhan Gönül,30137,regular,True,2,1
+7870318,42,,Atiba Hutchinson,7721,,,regular,True,1,1
+7870318,35,,Robinho,11813,Edin Višća,109779,regular,False,0,1
+7870312,90,6,İlhan Parlak,5810,Aydin Karabulut,18862,regular,False,0,2
+7870312,77,,Tyler Boyd,277437,Stelios Kitsiou,189627,regular,False,0,1
+7870310,23,,Mevlüt Erdinç,35584,Amilton da Silva,803148,regular,True,1,0
+7870324,12,,Junior Fernandes,221528,Lucas Villafáñez,146227,regular,False,1,1
+7870324,6,,Adem Büyük,60250,,,penalty,True,1,0
+7870319,71,,Eljif Elmas,838232,Nabil Dirar,42102,regular,True,1,1
+7870319,66,,Henry Onyekuru,809220,Sofiane Feghouli,37240,regular,False,0,1
+7870321,77,,Gilles Sunu,102625,Emrah Başsan,174141,regular,True,2,1
+7870321,73,,İbrahim Akdağ,847053,Emrah Başsan,174141,regular,True,1,1
+7870321,60,,Elvis Manu,143382,Güray Vural,43559,regular,False,0,1
+7870327,81,,Aytaç Kara,128196,,,penalty,False,1,1
+7870327,60,,Mahmoud Trézéguet,295361,Karim Hafez,577736,regular,True,1,0
+7870323,58,,Hélder Barbosa,32676,Sokol Cikalleshi,81138,regular,True,1,2
+7870323,40,,Mevlüt Erdinç,35584,Nazım Sangaré,169425,regular,False,0,2
+7870323,7,,Mevlüt Erdinç,35584,Aly Cissokho,42300,regular,False,0,1
+7870326,79,,Hugo Rodallega,15668,Anthony Nwakaeme,139455,regular,True,2,1
+7870326,30,,Anthony Nwakaeme,139455,Abdulkadir Parmak,344225,regular,True,1,1
+7870326,21,,Ömer Şişmanoğlu,29451,Michael Pereira,114187,regular,False,0,1
+7870325,45,4,Yuto Nagatomo,34639,Mariano,40076,regular,True,3,1
+7870325,42,,Mbaye Diagne,346790,,,penalty,True,2,1
+7870325,16,,Mbaye Diagne,346790,,,regular,True,1,1
+7870325,15,,Artem Kravets,31838,Tjaronn Chery,35208,regular,False,0,1
+7870322,25,,Taylan Antalyalı,190197,Emrah Başsan,174141,regular,False,0,1
+7870328,90,6,Edin Višća,109779,,,penalty,True,1,1
+7870328,62,,Vedat Muriqi,310874,Abdullah Durak,42224,regular,False,0,1
+7870335,57,,Efecan Karaca,60510,Lucas Villafáñez,146227,regular,True,1,0
+7870320,87,,Burak Yılmaz,18864,,,regular,False,1,2
+7870320,45,,Fousseni Diabaté,796374,Serhiy Rybalka,69366,regular,True,1,1
+7870320,31,,Domagoj Vida,51225,,,regular,False,0,1
+7870343,85,,Deniz Kadah,27220,,,regular,False,0,2
+7870343,7,,Cameron Jerome,16303,Titi,243435,regular,False,0,1
+7870337,54,,Gilles Sunu,102625,,,penalty,False,1,1
+7870337,11,,Mevlüt Erdinç,35584,Nazım Sangaré,169425,regular,True,1,0
+7870329,90,6,Mathieu Valbuena,16540,,,regular,True,1,1
+7870329,16,,Yusuf Yazıcı,827804,Abdülkadir Ömür,826155,regular,False,0,1
+7870331,23,,Steven Caulker,73685,Fabrice N'Sakala,123387,regular,False,1,1
+7870331,9,,Silvestre Varela,14323,Hasan Hüseyin Acar,345091,regular,True,1,0
+7870336,81,,Adem Ljajić,39587,Shinji Kagawa,34853,regular,True,4,1
+7870336,79,,Hadi Sacko,250509,,,penalty,False,3,1
+7870336,63,,Burak Yılmaz,18864,,,penalty,True,3,0
+7870336,54,,Domagoj Vida,51225,,,regular,True,2,0
+7870336,8,,Burak Yılmaz,18864,Güven Yalçın,826162,regular,True,1,0
+7870334,84,,Bengali-Fodé Koita,51407,Mahmoud Trézéguet,295361,regular,False,2,1
+7870334,69,,Robin Yalçın,138154,,,regular,True,2,0
+7870334,42,,Adem Büyük,60250,Danijel Aleksić,45377,regular,True,1,0
+7870345,84,,Hakan Arslan,179079,Samuel Eduok,330035,regular,True,2,0
+7870345,76,,Samuel Eduok,330035,Kristian Opseth,547606,regular,True,1,0
+7870347,90,1,Vedat Muriqi,310874,,,penalty,False,2,2
+7870347,84,,Michał Pazdan,35605,Héctor Canteros,129501,regular,True,2,1
+7870347,59,,İlhan Parlak,5810,Hadi Sacko,250509,regular,True,1,1
+7870347,26,,Dario Melnjak,257135,Musa Çağıran,60363,regular,False,0,1
+7870348,74,,Roberto Soldado,13208,Mehmet Ekici,37612,regular,False,1,3
+7870348,72,,Mathieu Valbuena,16540,,,regular,False,1,2
+7870348,20,,Eljif Elmas,838232,Mathieu Valbuena,16540,regular,False,1,1
+7870348,13,,Roman Neustädter,38471,,,ownGoal,True,1,0
+7870342,66,,Thievy Bifouma,148919,Danijel Aleksić,45377,regular,False,0,2
+7870342,50,,Miguel Lopes,41651,,,ownGoal,False,0,1
+7870346,72,,Serdar Gürler,96520,André Castro,41652,regular,True,4,1
+7870346,66,,Deniz Kadah,27220,,,penalty,True,3,1
+7870346,35,,Deniz Kadah,27220,,,penalty,True,2,1
+7870346,18,,Mevlüt Erdinç,35584,Aly Cissokho,42300,regular,False,1,1
+7870346,11,,Serdar Gürler,96520,,,regular,True,1,0
+7870341,54,,Fernando,41837,,,regular,True,2,0
+7870341,44,,Henry Onyekuru,809220,Fernando,41837,regular,True,1,0
+7870344,90,1,Paolo Hurtado,107315,,,regular,False,2,4
+7870344,71,,Ömer Ali Şahiner,103912,Mustapha Yatabaré,51558,regular,False,2,3
+7870344,47,,Papiss Demba Cissé,8978,Ceyhun Gülselam,20747,regular,True,2,2
+7870344,41,,Jens Jønsson,156640,Deni Milošević,190403,regular,False,1,2
+7870344,39,,Marko Jevtović,310068,,,regular,False,1,1
+7870344,29,,Papiss Demba Cissé,8978,Djalma,42121,regular,True,1,0
+7870340,84,,Filip Novák,12194,Abdülkadir Ömür,826155,regular,True,4,2
+7870340,65,,Abdülkadir Ömür,826155,Anthony Nwakaeme,139455,regular,True,3,2
+7870340,64,,Hasan Hüseyin Acar,345091,Silvestre Varela,14323,regular,False,2,2
+7870340,32,,Hasan Hüseyin Acar,345091,Artem Kravets,31838,regular,False,2,1
+7870340,20,,Yusuf Yazıcı,827804,,,regular,True,2,0
+7870340,16,,José Sosa,22981,,,regular,True,1,0
+7870357,16,,Aurélien Chedjou,27027,Henri Saivet,26895,regular,False,0,1
+7870350,90,7,Mbaye Diagne,346790,Sofiane Feghouli,37240,regular,False,2,3
+7870350,90,2,Mbaye Diagne,346790,,,penalty,False,2,2
+7870350,76,,Aminu Umar,333087,,,regular,True,2,1
+7870350,45,,Vedat Muriqi,310874,,,regular,True,1,1
+7870350,9,,Sofiane Feghouli,37240,Henry Onyekuru,809220,regular,False,0,1
+7870351,45,3,Hélder Barbosa,32676,Aykut Çeviker,74133,regular,False,2,1
+7870351,30,,Nabil Dirar,42102,Mauricio Isla,32891,regular,True,2,0
+7870351,28,,Roberto Soldado,13208,,,regular,True,1,0
+7870349,82,,Axel Ngando,235388,Cameron Jerome,16303,regular,True,3,3
+7870349,80,,Muhammet Demir,43543,,,regular,False,2,3
+7870349,54,,Cameron Jerome,16303,Berkan Emir,344407,regular,True,2,2
+7870349,33,,Berkan Emir,344407,,,ownGoal,False,1,2
+7870349,10,,Deniz Kadah,27220,André Castro,41652,regular,True,1,1
+7870349,8,,Emre Kılınç,202032,,,regular,False,0,1
+7870353,79,,Asamoah Gyan,17936,Bernard Mensah,546220,regular,True,2,1
+7870353,74,,Asamoah Gyan,17936,Silvestre Varela,14323,regular,True,1,1
+7870353,26,,Syam Ben Youssef,118144,,,regular,False,0,1
+7870354,79,,José Sosa,22981,,,penalty,False,2,2
+7870354,45,,Moryke Fofana,269199,Nejc Skubic,41240,regular,True,2,1
+7870354,17,,Jens Jønsson,156640,,,regular,True,1,1
+7870354,11,,Hugo Rodallega,15668,Hüseyin Türkmen,913994,regular,False,0,1
+7870352,62,,Robinho,11813,,,regular,True,2,1
+7870352,46,,Riad Bajić,331751,Edin Višća,109779,regular,True,1,1
+7870352,17,,Tyler Boyd,277437,Dever Orgill,323549,regular,False,0,1
+7870359,90,3,Ömer Şişmanoğlu,29451,Aboubakar Kamara,603736,regular,True,3,1
+7870359,75,,Rashad Muhammed,878742,Taylan Antalyalı,190197,regular,False,2,1
+7870359,61,,Thievy Bifouma,148919,,,regular,True,2,0
+7870359,50,,Danijel Aleksić,45377,Issam Chebake,386630,regular,True,1,0
+7870358,54,,Ricardo Quaresma,6254,Adem Ljajić,39587,regular,True,2,1
+7870358,44,,Caner Erkin,15680,,,ownGoal,False,1,1
+7870358,11,,Adem Ljajić,39587,,,regular,True,1,0
+7870365,56,,Syam Ben Youssef,118144,Haris Hajradinović,254979,regular,True,1,1
+7870365,25,,Ömer Ali Şahiner,103912,,,regular,False,0,1
+7870367,65,,Mevlüt Erdinç,35584,Amilton da Silva,803148,regular,True,3,0
+7870367,55,,Mevlüt Erdinç,35584,Harun Alpsoy,798270,regular,True,2,0
+7870367,45,1,Harun Alpsoy,798270,Chico,39361,regular,True,1,0
+7870366,77,,Yusuf Yazıcı,827804,Abdulkadir Parmak,344225,regular,True,2,1
+7870366,74,,Shinji Kagawa,34853,Adem Ljajić,39587,regular,False,1,1
+7870366,53,,Filip Novák,12194,Abdülkadir Ömür,826155,regular,True,1,0
+7870362,90,3,Asamoah Gyan,17936,Oleksandr Kucher,17709,regular,False,2,2
+7870362,80,,Elvis Manu,143382,Hélder Barbosa,32676,regular,True,2,1
+7870362,61,,Artem Kravets,31838,Sakıb Aytaç,86777,regular,False,1,1
+7870362,37,,Adrien Regattin,99774,Kadir Keleş,60547,regular,True,1,0
+7870361,64,,Vedat Muriqi,310874,,,penalty,False,1,1
+7870361,12,,Papiss Demba Cissé,8978,Lucas Villafáñez,146227,regular,True,1,0
+7870360,64,,Henry Onyekuru,809220,,,regular,True,2,1
+7870360,47,,Sofiane Feghouli,37240,,,regular,True,1,1
+7870360,17,,Riad Bajić,331751,Eljero Elia,10668,regular,False,0,1
+7870364,59,,Victor Moses,31585,,,penalty,False,0,1
+7870363,61,,David Braz,46942,Uğur Çiftçi,142850,regular,False,3,1
+7870363,50,,Héctor Canteros,129501,,,regular,True,3,0
+7870363,34,,Tyler Boyd,277437,İlhan Parlak,5810,regular,True,2,0
+7870363,24,,Hadi Sacko,250509,Stelios Kitsiou,189627,regular,True,1,0
+7870375,16,,Junior Fernandes,221528,Cenk Ahmet Alkılıç,81928,regular,False,1,1
+7870375,6,,Edin Višća,109779,Gaël Clichy,532,regular,True,1,0
+7870371,67,,Bengali-Fodé Koita,51407,İlhan Depe,146368,regular,False,3,2
+7870371,45,1,Güven Yalçın,826162,Adem Ljajić,39587,regular,True,3,1
+7870371,44,,Güven Yalçın,826162,,,regular,True,2,1
+7870371,13,,Haris Hajradinović,254979,Bengali-Fodé Koita,51407,regular,False,1,1
+7870371,10,,Güven Yalçın,826162,Adem Ljajić,39587,regular,True,1,0
+7870377,82,,Muğdat Çelik,74114,Ömer Bayram,68335,regular,False,4,3
+7870377,79,,Arouna Koné,12790,,,regular,True,4,2
+7870377,77,,Serhiy Rybalka,69366,Özer Hurmacı,43425,regular,True,3,2
+7870377,45,1,Hakan Arslan,60646,,,regular,True,2,2
+7870377,43,,Serhiy Rybalka,69366,,,regular,True,1,2
+7870377,34,,Muğdat Çelik,74114,Martin Linnes,109569,regular,False,0,2
+7870377,2,,Martin Linnes,109569,Ryan Donk,14900,regular,False,0,1
+7870370,65,,Vedat Muriqi,310874,Fernando Boldrin,849787,regular,True,2,3
+7870370,43,,Abdülkadir Ömür,826155,Anthony Nwakaeme,139455,regular,False,1,3
+7870370,23,,Dario Melnjak,257135,,,ownGoal,False,1,2
+7870370,20,,Hugo Rodallega,15668,Anthony Nwakaeme,139455,regular,False,1,1
+7870370,16,,Fernando Boldrin,849787,Vedat Muriqi,310874,regular,True,1,0
+7870372,90,1,Victor Moses,31585,,,regular,True,3,1
+7870372,69,,Eljif Elmas,838232,Nabil Dirar,42102,regular,True,2,1
+7870372,33,,Mevlüt Erdinç,35584,Amilton da Silva,803148,regular,False,1,1
+7870372,13,,Miha Zajc,139256,Mauricio Isla,32891,regular,True,1,0
+7870369,84,,Deniz Kadah,27220,,,penalty,True,2,1
+7870369,74,,Michał Pazdan,35605,Héctor Canteros,129501,regular,False,1,1
+7870369,14,,Alpaslan Öztürk,148857,Serdar Gürler,96520,regular,True,1,0
+7870376,43,,Gilles Sunu,102625,Taylan Antalyalı,190197,regular,False,0,2
+7870376,12,,Taylan Antalyalı,190197,Siphiwe Tshabalala,14607,regular,False,0,1
+7870373,61,,Aboubakar Kamara,603736,,,regular,True,1,2
+7870373,20,,Umut Nayir,284767,Aytaç Kara,128196,regular,False,0,2
+7870373,4,,Yusuf Erdoğan,256663,,,regular,False,0,1

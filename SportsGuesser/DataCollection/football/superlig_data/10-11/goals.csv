@@ -1,0 +1,832 @@
+match_id,minute,added_time,scorer,scorer_id,assist,assist_id,goal_type,is_home,home_score,away_score
+1426403,60,,Cihan Yilmaz,4972,Ceyhun Eriş,5868,regular,True,2,1
+1426403,43,,Bruno Zita Mbanangoye,22554,Ceyhun Eriş,5868,regular,True,1,1
+1426403,7,,Mustafa Sarp,2510558,Arda Turan,5702,regular,False,0,1
+1426399,46,,Bobô,18221,Guti,4737,regular,False,0,1
+1426398,82,,Teófilo Gutiérrez,47099,Umut Bulut,5275,regular,False,0,2
+1426398,70,,Teófilo Gutiérrez,47099,Umut Bulut,5275,regular,False,0,1
+1426396,90,,Kahê,11985,,,regular,False,2,1
+1426396,80,,Emil Angelov,13738,Florin Cernat,18032,regular,True,2,0
+1426396,47,,Emmanuel Emenike,82011,Florin Cernat,18032,regular,True,1,0
+1426395,28,,Gökhan Gönül,30137,Mehmet Topuz,21825,regular,True,4,0
+1426395,24,,Alex,12863,Semih Şentürk,5511,regular,True,3,0
+1426395,13,,Semih Şentürk,5511,Mehmet Topuz,21825,regular,True,2,0
+1426395,8,,Semih Şentürk,5511,Alex,12863,regular,True,1,0
+1426397,82,,Jonathan Santana,16172,Mehmet Eren Boyraz,42225,regular,False,0,2
+1426397,66,,Franco Cangele,42223,James Troisi,18999,regular,False,0,1
+1426402,41,,Sercan Yıldırım,43173,Leonel Núñez,1854935,regular,True,1,0
+1453160,26,,Franco Cangele,42223,Ufuk Selim Teber,61,regular,True,1,0
+1453157,78,,Adnan Gungor,6151,Ramazan Kahya,82002,regular,True,2,1
+1453157,51,,Vitor Pele,30387,Jaycee Okwunwanne,382236,regular,False,1,1
+1453157,2,,Ivan Lietava,43562,Eser Yagmur,5407,regular,True,1,0
+1453162,38,,Sedat Bayrak,31731,Ceyhun Eriş,5868,regular,False,1,1
+1453162,35,,Tita,5292,,,regular,True,1,0
+1453163,90,,İbrahim Akın,5321,Gökhan Süzen,43657,regular,False,0,2
+1453163,56,,İskender Alın,47194,Samuel Holmén,7740,regular,False,0,1
+1453164,83,,Ivan Ergic,1422559,Ali Tandogan,5303,regular,False,0,2
+1453164,15,,Ivan Ergic,1422559,Volkan Şen,43533,regular,False,0,1
+1453156,65,,Güven Varol,5377,Marek Sapara,13389,regular,False,0,3
+1453156,57,,Özgür Çek,69434,Marek Sapara,13389,regular,False,0,2
+1453156,19,,Stanislav Šesták,13385,Uğur Uçar,5713,regular,False,0,1
+1453161,42,,Mehmet Topuz,21825,Miroslav Stoch,42860,regular,False,3,2
+1453161,29,,Arkadiusz Głowacki,18790,Ibrahima Yattara,6181,regular,True,3,1
+1453161,28,,Diego Lugano,13447,Semih Şentürk,5511,regular,False,2,1
+1453161,16,,Ibrahima Yattara,6181,Ceyhun Gülselam,20747,regular,True,2,0
+1453161,14,,Mehmet Topuz,21825,,,ownGoal,True,1,0
+1453166,58,,Mehmet Cakir,43424,Marek Sapara,13389,regular,True,1,1
+1453166,24,,Serdar Kesimal,39893,André Moritz,60277,regular,False,0,1
+1453173,84,,Julio Cesar,13118,,,penalty,True,2,2
+1453173,60,,Emre Toraman,43581,Hakan Aslantaş,5778,regular,False,1,2
+1453173,44,,Johnnier Montaño,107328,Hakan Aslantaş,5778,regular,False,1,1
+1453173,5,,Mehmet Hilmi Yilmaz,6184,Ismael Sosa,37928,regular,True,1,0
+1453170,90,,Luiz Henrique,43398,Nikolay Dimitrov,856064,regular,False,3,1
+1453170,68,,Herve Germain Tum,3132,Tevfik Köse,14976,regular,True,3,0
+1453170,50,,İbrahim Akın,5321,İskender Alın,47194,regular,True,2,0
+1453170,12,,İskender Alın,47194,Ekrem Eksioglu,2510561,regular,True,1,0
+1453165,90,,Ali Tandogan,5303,Dimitar Ivankov,11247,regular,False,0,2
+1453165,80,,Volkan Şen,43533,Gokcek Vederson,30133,regular,False,0,1
+1453167,90,,Manucho,32012,Jerko Leko,11261,regular,True,3,1
+1453167,63,,Koray Colgecen,43681,Erkan Taşkıran,94554,regular,True,2,1
+1453167,55,,Oktay Delibalta,60637,Billy Mehmet,2510569,regular,False,1,1
+1453167,24,,Orhan Ak,29179,Musa Aydin,6155,regular,True,1,0
+1453168,76,,Josh Simpson,10302,Nizamettin Çalışkan,5983,regular,False,4,2
+1453168,73,,Mamadou Niang,3507,Caner Erkin,15680,regular,True,4,1
+1453168,70,,Mamadou Niang,3507,Okan Alkan,808981,regular,True,3,1
+1453168,61,,Diego Lugano,13447,Alex,12863,regular,True,2,1
+1453168,48,,Isaac Promise,38485,Ferhat Cokmus,4507,regular,False,1,1
+1453168,17,,Alex,12863,Okan Alkan,808981,regular,True,1,0
+1453169,83,,Ricardo Quaresma,6254,,,regular,False,1,4
+1453169,77,,Guti,4737,,,penalty,False,1,3
+1453169,26,,Mert Nobre,5498,Rodrigo Tabata,34058,regular,False,1,2
+1453169,10,,Mert Nobre,5498,Necip Uysal,43394,regular,False,1,1
+1453169,2,,Emmanuel Emenike,82011,Senol Akin,60401,regular,True,1,0
+1453171,71,,Servet Çetin,5488,Milan Baroš,699,regular,False,1,3
+1453171,68,,Volkan Yaman,5858,,,ownGoal,False,1,2
+1453171,37,,Luca Vucko,43583,Burhan Eşer,43645,regular,True,1,1
+1453171,4,,Milan Baroš,699,Lucas Neill,598,regular,False,0,1
+1454498,77,,Sercan Yıldırım,43173,Ozan Ipek,53828,regular,True,2,1
+1454498,70,,Leonel Núñez,1854935,Volkan Şen,43533,regular,True,1,1
+1454498,18,,Sezer Ozturk,9528,Rodrigo Tello,6569,regular,False,0,1
+1454497,66,,Furkan Özçal,43684,James Troisi,18999,regular,True,2,0
+1454497,65,,Jonathan Santana,16172,Mehmet Eren Boyraz,42225,regular,True,1,0
+1454503,67,,Hakan Aslantaş,5778,Carlos Fernandes,14848,regular,True,1,1
+1454503,9,,Orhan Ak,29179,İbrahim Dağaşan,43701,regular,False,0,1
+1454500,75,,Mert Nobre,5498,Rodrigo Tabata,34058,regular,True,4,0
+1454500,67,,Bobô,18221,Guti,4737,regular,True,3,0
+1454500,60,,Ibrahim Toraman,5314,Rodrigo Tabata,34058,regular,True,2,0
+1454500,23,,Bobô,18221,İsmail Köybaşı,43605,regular,True,1,0
+1454501,71,,Necati Ates,5708,Uğur İnceman,6216,regular,False,1,2
+1454501,68,,Necati Ates,5708,Kerem Seras,43653,regular,False,1,1
+1454501,27,,Eren Aydin,5893,Nizamettin Çalışkan,5983,regular,True,1,0
+1454496,89,,Razundara Tjikuzu,8904,Christian Keller,13135,regular,True,1,2
+1454496,77,,Ferdi Elmas,2574,Emmanuel Emenike,82011,regular,False,0,2
+1454496,11,,Florin Cernat,18032,Senol Akin,60401,regular,False,0,1
+1454502,89,,Burak Yılmaz,18864,Serkan Balci,5512,regular,True,4,1
+1454502,75,,Teófilo Gutiérrez,47099,Alanzinho,15107,regular,True,3,1
+1454502,59,,Teófilo Gutiérrez,47099,Gustavo Colman,790572,regular,True,2,1
+1454502,47,,Cihan Yilmaz,4972,Mehmet Yildiz,5489,regular,False,1,1
+1454502,38,,Selçuk İnan,31253,Gustavo Colman,790572,regular,True,1,0
+1454502,34,,Ibrahima Yattara,6181,Giray Kacar,35583,regular,True,0,0
+1454504,60,,Harry Kewell,700,,,penalty,True,1,0
+1454499,83,,Orhan Şam,5784,Oktay Delibalta,60637,regular,True,2,1
+1454499,42,,Gökhan Süzen,43657,,,regular,False,1,1
+1454499,11,,Billy Mehmet,2510569,,,penalty,True,1,0
+1454506,70,,Ariza Makukula,4465,Isaac Promise,38485,regular,False,1,3
+1454506,44,,Josh Simpson,10302,Murat Erdogan,5907,regular,False,1,2
+1454506,41,,Ariza Makukula,4465,Jimmy Dixon,2510563,regular,False,1,1
+1454506,9,,Selçuk İnan,31253,Ibrahima Yattara,6181,regular,True,1,0
+1454509,67,,Luiz Henrique,43398,,,ownGoal,True,3,0
+1454509,58,,Marek Sapara,13389,,,regular,True,2,0
+1454509,45,,Metin Akan,43399,Róbert Vittek,320,regular,True,1,0
+1454508,89,,Adem Sari,38970,Batuhan Karadeniz,31577,regular,False,1,1
+1454508,25,,Ceyhun Eriş,5868,Mehmet Yildiz,5489,regular,True,1,0
+1454507,58,,Sedat Ağçay,5744,Necati Ates,5708,regular,True,2,1
+1454507,42,,Marcelo Zalayeta,2092,Aleksandr Amisulashvili,25299,regular,False,1,1
+1454507,15,,Serge Djiehoua,2510557,Necati Ates,5708,regular,True,1,0
+1454512,69,,Ayhan Akman,5691,Mustafa Sarp,2510558,regular,False,0,1
+1454510,83,,Emmanuel Emenike,82011,Kerim Zengin,43669,regular,True,3,0
+1454510,65,,Hakan Özmert,43512,Emmanuel Emenike,82011,regular,True,2,0
+1454510,23,,Emmanuel Emenike,82011,Florin Cernat,18032,regular,True,1,0
+1454505,85,,Guti,4737,,,penalty,False,1,1
+1454505,26,,Mamadou Niang,3507,,,regular,True,1,0
+1454511,63,,Herve Germain Tum,3132,İbrahim Akın,5321,regular,True,1,0
+1454513,55,,Omer Erdogan,5896,Ali Tandogan,5303,regular,False,0,1
+1454521,4,,Huseyin Cimsir,6179,Turgay Bahadir,3845,regular,True,1,0
+1454517,44,,Shane Smeltz,31467,,,penalty,True,1,0
+1454519,90,,Bobô,18221,Fabian Ernst,486,regular,True,2,1
+1454519,67,,Tita,5292,Ali Zitouni,14764,regular,False,1,1
+1454519,55,,Bobô,18221,Fabian Ernst,486,regular,True,1,0
+1454520,20,,Serdar Kurtuluş,18861,Julio Cesar,13118,regular,False,0,1
+1454522,67,,Peter Grajciar,39308,Thierry Fidjeu Tazemeta,16530,regular,True,2,2
+1454522,51,,Hakan Özmert,43512,Florin Cernat,18032,regular,False,1,2
+1454522,14,,Florin Cernat,18032,Hakan Özmert,43512,regular,False,1,1
+1454522,1,,Ivan Lietava,43562,Peter Grajciar,39308,regular,True,1,0
+1454516,66,,Herve Germain Tum,3132,Gökhan Süzen,43657,regular,False,3,1
+1454516,41,,Milan Baroš,699,Aydin Yilmaz,17797,regular,True,3,0
+1454516,12,,Milan Baroš,699,,,penalty,True,2,0
+1454516,5,,Milan Baroš,699,Fatih Serkan Kurtuluş,42268,regular,True,1,0
+1454515,90,,Josh Simpson,10302,Yiğit İncedemir,74124,regular,True,3,0
+1454515,90,,Josh Simpson,10302,Gokhan Emreciksin,35586,regular,True,2,0
+1454515,13,,Josh Simpson,10302,Omer Aysan Baris,2510562,regular,True,1,0
+1454518,90,,Alex,12863,Gökhan Gönül,30137,regular,False,2,6
+1454518,90,,Mamadou Niang,3507,Alex,12863,regular,False,2,5
+1454518,64,,Mamadou Niang,3507,Issiar Dia,17986,regular,False,2,4
+1454518,25,,Ersen Martin,5381,Şahin Aygüneş,74086,regular,True,2,3
+1454518,24,,Mamadou Niang,3507,Issiar Dia,17986,regular,False,1,3
+1454518,21,,Emre Belözoğlu,2054,Mamadou Niang,3507,regular,False,1,2
+1454518,15,,Alex,12863,,,penalty,False,1,1
+1454518,6,,Şahin Aygüneş,74086,Halil Çolak,34546,regular,True,1,0
+1454527,75,,Baris Özbek,8738,Juan Pablo Pino,21132,regular,False,2,1
+1454527,11,,Hakan Özmert,43512,Florin Cernat,18032,regular,True,2,0
+1454527,2,,Florin Cernat,18032,,,penalty,True,1,0
+1454525,71,,André Moritz,60277,,,penalty,False,0,2
+1454525,28,,Ömer Şişmanoğlu,29451,Marcelo Zalayeta,2092,regular,False,0,1
+1454523,88,,André Santos,56766,Gökhan Gönül,30137,regular,True,3,0
+1454523,27,,Aykut Demir,16948,,,ownGoal,True,2,0
+1454523,21,,Mamadou Niang,3507,Caner Erkin,15680,regular,True,1,0
+1454526,90,,Stanislav Šesták,13385,Murat Duruer,5273,regular,True,4,1
+1454526,67,,Özgür Çek,69434,,,regular,True,3,1
+1454526,64,,Jan Rajnoch,12002,Güven Varol,5377,regular,True,2,1
+1454526,44,,Metin Akan,43399,Özgür Çek,69434,regular,True,1,1
+1454526,17,,Peter Grajciar,39308,,,penalty,False,0,1
+1454531,57,,Mehmet Yildiz,5489,Mamadou Alimou Diallo,6093,regular,True,1,1
+1454531,37,,Julio Cesar,13118,Olcan Adın,18767,regular,False,0,1
+1454530,70,,Tita,5292,Sedat Ağçay,5744,regular,True,3,1
+1454530,55,,Kerem Seras,43653,Uğur İnceman,6216,regular,True,2,1
+1454530,39,,Tita,5292,Kerem Seras,43653,regular,True,1,1
+1454530,8,,Ersen Martin,5381,Gustave Anicet Bebbe Mbangue,38528,regular,False,0,1
+1454529,51,,Mustafa Yumlu,124643,Selçuk İnan,31253,regular,True,1,0
+1454534,34,,Florin Cernat,18032,Emmanuel Emenike,82011,regular,False,2,2
+1454534,24,,Turgay Bahadir,3845,Pablo Batalla,39974,regular,True,2,1
+1454534,13,,Florin Cernat,18032,,,penalty,False,1,1
+1454534,10,,Turgay Bahadir,3845,Pablo Batalla,39974,regular,True,1,0
+1454539,33,,Batuhan Karadeniz,31577,Adem Sari,38970,regular,True,1,0
+1454538,44,,Ivelin Popov,29308,Ismael Sosa,37928,regular,True,2,0
+1454538,9,,Ismael Sosa,37928,,,penalty,True,1,0
+1454536,90,,Fabian Ernst,486,Roberto Hilbert,2363,regular,True,2,3
+1454536,69,,Yigit Ismail Gokoglan,60248,Murat Erdogan,5907,regular,False,1,3
+1454536,52,,Jimmy Dixon,2510563,Omer Aysan Baris,2510562,regular,False,1,2
+1454536,14,,Bobô,18221,Rodrigo Tabata,34058,regular,True,1,1
+1454536,7,,Isaac Promise,38485,Josh Simpson,10302,regular,False,0,1
+1454535,82,,Tita,5292,,,regular,False,2,3
+1454535,78,,Tita,5292,,,regular,False,2,2
+1454535,62,,Ermin Zec,44279,Labinot Harbuzi,15047,regular,True,2,1
+1454535,30,,Kerem Seras,43653,Uğur İnceman,6216,regular,False,1,1
+1454535,6,,Billy Mehmet,2510569,,,penalty,True,1,0
+1454533,83,,Jaja,14960,Umut Bulut,5275,regular,False,0,7
+1454533,80,,Umut Bulut,5275,Baris Atas,60262,regular,False,0,6
+1454533,66,,Jaja,14960,Selçuk İnan,31253,regular,False,0,5
+1454533,46,,Burak Yılmaz,18864,Alanzinho,15107,regular,False,0,4
+1454533,44,,Umut Bulut,5275,Ceyhun Gülselam,20747,regular,False,0,3
+1454533,33,,Burak Yılmaz,18864,Serkan Balci,5512,regular,False,0,2
+1454533,2,,Alanzinho,15107,Serkan Balci,5512,regular,False,0,1
+1454537,83,,Marcelo Zalayeta,2092,Ufuk Selim Teber,61,regular,True,4,1
+1454537,55,,Mamadou Alimou Diallo,6093,,,ownGoal,True,3,1
+1454537,52,,Aleksandr Amisulashvili,25299,André Moritz,60277,regular,True,2,1
+1454537,28,,Serdar Kesimal,39893,Ufuk Selim Teber,61,regular,True,1,1
+1454537,20,,Bruno Zita Mbanangoye,22554,Ricardo Pedriel,33709,regular,False,0,1
+1454532,89,,Turgut Şahin,60645,Stanislav Šesták,13385,regular,False,2,4
+1454532,64,,Milan Baroš,699,Ayhan Akman,5691,regular,True,2,3
+1454532,60,,Stanislav Šesták,13385,Marek Sapara,13389,regular,False,1,3
+1454532,57,,Milan Baroš,699,Mustafa Sarp,2510558,regular,True,1,2
+1454532,51,,Özgür Çek,69434,Güven Varol,5377,regular,False,0,2
+1454532,3,,Metin Akan,43399,Özgür Çek,69434,regular,False,0,1
+1454540,64,,Emre Belözoğlu,2054,,,regular,False,1,4
+1454540,41,,Miroslav Stoch,42860,Semih Şentürk,5511,regular,False,1,3
+1454540,34,,Semih Şentürk,5511,Mamadou Niang,3507,regular,False,1,2
+1454540,31,,Peter Grajciar,39308,Ivan Lietava,43562,regular,True,1,1
+1454540,26,,Emre Belözoğlu,2054,Mamadou Niang,3507,regular,False,0,1
+1454541,52,,Emmanuel Emenike,82011,Armand Deumi Tchami,1854817,regular,True,1,2
+1454541,39,,Batuhan Karadeniz,31577,Birol Hikmet,816117,regular,False,0,2
+1454541,11,,Sezgin Coşkun,43586,Erkan Zengin,7702,regular,False,0,1
+1454549,51,,Ceyhun Eriş,5868,Ricardo Pedriel,33709,regular,True,1,1
+1454549,11,,Erkan Taşkıran,94554,Musa Aydin,6155,regular,False,0,1
+1454546,33,,Tevfik Köse,14976,,,regular,True,1,0
+1454543,31,,Kerem Seras,43653,Necati Ates,5708,regular,True,1,0
+1454548,80,,Umut Bulut,5275,Serkan Balci,5512,regular,True,3,1
+1454548,72,,Jaja,14960,Selçuk İnan,31253,regular,True,2,1
+1454548,68,,Burak Yılmaz,18864,Serkan Balci,5512,regular,True,1,1
+1454548,32,,Serkan Calik,8745,,,regular,False,0,1
+1454545,45,,Sercan Yıldırım,43173,Turgay Bahadir,3845,regular,False,1,5
+1454545,39,,Ivan Ergic,1422559,Sercan Yıldırım,43173,regular,False,1,4
+1454545,37,,Omer Erdogan,5896,Gokcek Vederson,30133,regular,False,1,3
+1454545,26,,Turgay Bahadir,3845,Pablo Batalla,39974,regular,False,1,2
+1454545,16,,İbrahim Öztürk,43541,Pablo Batalla,39974,regular,False,1,1
+1454545,6,,Stanislav Šesták,13385,Özgür Çek,69434,regular,True,1,0
+1454547,29,,Josh Simpson,10302,Ariza Makukula,4465,regular,True,2,1
+1454547,17,,Fernando Varela,1854804,Huseyin Kala,126078,regular,False,1,1
+1454547,13,,Ariza Makukula,4465,Isaac Promise,38485,regular,True,1,0
+1454542,89,,Furkan Özçal,43684,Abdullah Durak,42224,regular,True,1,0
+1454558,52,,Ivan Ergic,1422559,Omer Erdogan,5896,regular,True,1,1
+1454558,17,,Semih Şentürk,5511,Alex,12863,regular,False,0,1
+1454552,54,,Musa Nizam,43526,Sedat Ağçay,5744,regular,False,2,1
+1454552,34,,Juan Pablo Pino,21132,,,regular,True,2,0
+1454552,31,,Servet Çetin,5488,Zvjezdan Misimović,84,regular,True,1,0
+1454553,53,,Ermin Zec,44279,Hursut Meric,32215,regular,True,2,0
+1454553,34,,Serkan Calik,8745,Orhan Şam,5784,regular,True,1,0
+1454554,41,,Aleksandr Amisulashvili,25299,Ufuk Selim Teber,61,regular,False,1,2
+1454554,14,,Marcelo Zalayeta,2092,Aleksandr Amisulashvili,25299,regular,False,1,1
+1454554,11,,Ersen Martin,5381,,,regular,True,1,0
+1454556,81,,Tevfik Köse,14976,Zeki Korkmaz,43658,regular,False,0,2
+1454556,76,,İbrahim Akın,5321,Gökhan Süzen,43657,regular,False,0,1
+1454555,67,,Ricardo Pedriel,33709,,,regular,False,2,1
+1454555,23,,Necip Uysal,43394,,,regular,True,2,0
+1454555,5,,Bobô,18221,Ibrahim Uzulmez,5312,regular,True,1,0
+1454551,70,,Egemen Korkmaz,43711,Selçuk İnan,31253,regular,False,1,2
+1454551,33,,Umut Bulut,5275,Egemen Korkmaz,43711,regular,False,1,1
+1454551,29,,Erdinc Yavuz,6174,Peter Grajciar,39308,regular,True,1,0
+1454559,71,,Mehmet Eren Boyraz,42225,Serdar Kesimal,39893,regular,True,1,1
+1454559,35,,Ermin Zec,44279,Oktay Delibalta,60637,regular,False,0,1
+1454564,59,,Emmanuel Emenike,82011,Birol Hikmet,816117,regular,True,3,0
+1454564,11,,Emmanuel Emenike,82011,İlhan Parlak,5810,regular,True,2,0
+1454564,7,,Emmanuel Emenike,82011,İlhan Parlak,5810,regular,True,1,0
+1454567,74,,Ozan Ipek,53828,Federico Insúa,16327,regular,False,2,2
+1454567,51,,Ali Tandogan,5303,Leonel Núñez,1854935,regular,False,2,1
+1454567,44,,Kerem Seras,43653,Tita,5292,regular,True,2,0
+1454567,23,,Uğur İnceman,6216,Tita,5292,regular,True,1,0
+1454563,90,,Ivan De Souza,43601,Jorginho,1854453,regular,False,0,2
+1454563,65,,Olcan Adın,18767,Serdar Kurtuluş,18861,regular,False,0,1
+1454562,72,,Semih Şentürk,5511,Gökhan Gönül,30137,regular,True,4,2
+1454562,66,,Serdar Özbayraktar,43576,Koray Arslan,43585,regular,False,3,2
+1454562,44,,Gökhan Gönül,30137,Rəşhad Sadiqov,11097,regular,True,3,1
+1454562,18,,Semih Şentürk,5511,Gökhan Gönül,30137,regular,True,2,1
+1454562,13,,Sezer Ozturk,9528,,,regular,False,1,1
+1454562,3,,Alex,12863,,,penalty,True,1,0
+1454561,36,,İbrahim Akın,5321,Cihan Haspolatli,5693,regular,False,0,4
+1454561,15,,İbrahim Akın,5321,Samuel Holmén,7740,regular,False,0,3
+1454561,10,,Herve Germain Tum,3132,İbrahim Akın,5321,regular,False,0,2
+1454561,3,,Samuel Holmén,7740,Tevfik Köse,14976,regular,False,0,1
+1454560,90,,Ali Dere,110965,Emre Toraman,43581,regular,False,0,1
+1454566,90,,Umut Bulut,5275,Engin Baytar,43642,regular,True,2,0
+1454566,75,,Umut Bulut,5275,Engin Baytar,43642,regular,True,1,0
+1454565,85,,İsmail Köybaşı,43605,Rodrigo Tabata,34058,regular,True,1,1
+1454565,76,,Ersen Martin,5381,Şahin Aygüneş,74086,regular,False,0,1
+1454570,89,,Marcelo Zalayeta,2092,André Moritz,60277,regular,False,0,1
+1454576,16,,Jaja,14960,Umut Bulut,5275,regular,False,0,2
+1454576,5,,Jaja,14960,Burak Yılmaz,18864,regular,False,0,1
+1454575,85,,Olcan Adın,18767,Ismael Sosa,37928,regular,True,2,1
+1454575,78,,Serdar Kurtuluş,18861,Jorginho,1854453,regular,True,1,1
+1454575,18,,Alex,12863,Miroslav Stoch,42860,regular,False,0,1
+1454573,89,,Fernando Varela,1854804,,,regular,True,2,0
+1454573,61,,Yekta Kurtuluş,60289,Fernando Varela,1854804,regular,True,1,0
+1454572,90,,Roberto Hilbert,2363,Ricardo Quaresma,6254,regular,False,0,2
+1454572,45,1,Guti,4737,,,penalty,False,0,1
+1454574,88,,Anthony Šerić,2678,,,regular,False,2,1
+1454574,79,,Herve Germain Tum,3132,İbrahim Akın,5321,regular,True,2,0
+1454574,50,,Herve Germain Tum,3132,İbrahim Akın,5321,regular,True,1,0
+1454571,75,,Josh Simpson,10302,,,penalty,False,0,2
+1454571,32,,Ariza Makukula,4465,Murat Erdogan,5907,regular,False,0,1
+1454581,57,,Cem Can,43397,,,regular,False,1,1
+1454581,44,,Nikolay Dimitrov,856064,,,regular,True,1,0
+1454578,44,,Pablo Batalla,39974,,,regular,False,0,2
+1454578,41,,Omer Aysan Baris,2510562,,,ownGoal,False,0,1
+1454585,73,,Ricardo Pedriel,33709,Ceyhun Eriş,5868,regular,True,5,1
+1454585,68,,Ricardo Pedriel,33709,Mehmet Nas,5783,regular,True,4,1
+1454585,48,,Ricardo Pedriel,33709,,,regular,True,3,1
+1454585,38,,Mehmet Yildiz,5489,,,penalty,True,2,1
+1454585,24,,Senol Akin,60401,,,regular,False,1,1
+1454585,6,,Cihan Yilmaz,4972,Mehmet Yildiz,5489,regular,True,1,0
+1454582,62,,Peter Grajciar,39308,Hakan Aslantaş,5778,regular,False,2,2
+1454582,39,,Filip Hološko,12232,,,regular,True,2,1
+1454582,26,,Mahamoudou Kere,6226,,,ownGoal,True,1,1
+1454582,16,,Peter Grajciar,39308,,,regular,False,0,1
+1454584,32,,Serdar Kurtuluş,18861,Ismael Sosa,37928,regular,False,0,1
+1454580,64,,Herve Germain Tum,3132,Cihan Haspolatli,5693,regular,False,2,2
+1454580,63,,İbrahim Akın,5321,,,regular,False,2,1
+1454580,54,,Turgut Şahin,60645,Uğur Uçar,5713,regular,True,2,0
+1454580,50,,Aydin Toscali,42241,Marek Sapara,13389,regular,True,1,0
+1454577,87,,Musa Aydin,6155,Manucho,32012,regular,False,5,2
+1454577,86,,Semih Şentürk,5511,Mamadou Niang,3507,regular,True,5,1
+1454577,81,,Mamadou Niang,3507,Semih Şentürk,5511,regular,True,4,1
+1454577,65,,Manucho,32012,İbrahim Dağaşan,43701,regular,False,3,1
+1454577,23,,Alex,12863,Gökhan Gönül,30137,regular,True,3,0
+1454577,13,,Alex,12863,Mamadou Niang,3507,regular,True,2,0
+1454577,1,,Alex,12863,Cristian Baroni,34158,regular,True,1,0
+1454593,87,,Batuhan Karadeniz,31577,Volkan Yaman,5858,regular,True,2,1
+1454593,74,,Burhan Eşer,43645,Mehmet Güven,17795,regular,True,1,1
+1454593,18,,Mehmet Güven,17795,Ariza Makukula,4465,regular,False,0,1
+1454588,62,,Serkan Sahin,47577,,,regular,True,2,2
+1454588,54,,Thierry Fidjeu Tazemeta,16530,Johnnier Montaño,107328,regular,True,1,2
+1454588,15,,Fernando Varela,1854804,Yekta Kurtuluş,60289,regular,False,0,2
+1454588,7,,Ozgur Ocal,810646,,,regular,False,0,1
+1454592,75,,Jaja,14960,Gustavo Colman,790572,regular,False,1,3
+1454592,38,,Burak Yılmaz,18864,,,penalty,False,1,2
+1454592,30,,Burak Yılmaz,18864,Jaja,14960,regular,False,1,1
+1454592,4,,Emre Gungor,5255,Yalçın Ayhan,43507,regular,True,1,0
+1454590,19,,Soner Aydoğdu,69351,,,regular,True,1,1
+1454590,11,,Ricardo Pedriel,33709,Ugur Kavuk,43522,regular,False,0,1
+1454587,33,,Alex,12863,Mehmet Topuz,21825,regular,False,0,1
+1454586,86,,Birol Hikmet,816117,,,regular,True,5,1
+1454586,74,,Emmanuel Emenike,82011,Birol Hikmet,816117,regular,True,4,1
+1454586,59,,Marek Sapara,13389,Güven Varol,5377,regular,False,3,1
+1454586,57,,Birol Hikmet,816117,,,regular,True,3,0
+1454586,51,,İlhan Parlak,5810,Yasin Avci,60355,regular,True,2,0
+1454586,25,,Emmanuel Emenike,82011,Bulent Bal,60391,regular,True,1,0
+1454591,89,,Orhan Ak,29179,Musa Aydin,6155,regular,True,1,0
+1454589,89,,Harry Kewell,700,Mehmet Batdal,81617,regular,True,1,2
+1454589,79,,Mert Nobre,5498,Guti,4737,regular,False,0,2
+1454589,8,,Guti,4737,,,penalty,False,0,1
+1454594,85,,Sercan Yıldırım,43173,Ivan Ergic,1422559,regular,True,2,0
+1454594,83,,Federico Insúa,16327,Pablo Batalla,39974,regular,True,1,0
+1454597,77,,Gustavo Colman,790572,,,penalty,True,2,0
+1454597,6,,Umut Bulut,5275,Ibrahima Yattara,6181,regular,True,1,0
+1454601,45,,Kahê,11985,Josh Simpson,10302,regular,True,2,0
+1454601,39,,Emre Gungor,5255,,,ownGoal,True,1,0
+1454598,56,,Erman Kılıç,43664,Mehmet Yildiz,5489,regular,False,1,1
+1454598,11,,Michael Klukowski,5182,Marek Sapara,13389,regular,True,1,0
+1454599,71,,Hakan Balta,6208,Sabri Sarioğlu,5715,regular,False,0,3
+1454599,44,,Juan Pablo Pino,21132,Sabri Sarioğlu,5715,regular,False,0,2
+1454599,27,,Harry Kewell,700,Aydin Yilmaz,17797,regular,False,0,1
+1454596,65,,Filip Hološko,12232,Roberto Hilbert,2363,regular,True,1,0
+1454603,85,,Mahamoudou Kere,6226,Erdal Kılıçaslan,43693,regular,True,2,1
+1454603,44,,Ante Kulušić,46424,Aykut Demir,16948,regular,False,1,1
+1454603,10,,Peter Grajciar,39308,,,regular,True,1,0
+1454602,21,,Herve Germain Tum,3132,,,ownGoal,True,1,0
+1454595,47,,Emmanuel Emenike,82011,,,regular,False,2,1
+1454595,17,,Alex,12863,Mehmet Topuz,21825,regular,True,2,0
+1454595,9,,Diego Lugano,13447,Alex,12863,regular,True,1,0
+1454600,84,,Ali Bilgin,2510570,Savas Yilmaz,42226,regular,True,2,2
+1454600,69,,Burhan Eşer,43645,Sezer Ozturk,9528,regular,False,1,2
+1454600,31,,Ömer Şişmanoğlu,29451,Onder Turaci,5504,regular,True,1,1
+1454600,9,,Diego Angelo,32818,,,regular,False,0,1
+1454605,78,,Sezer Ozturk,9528,Rodrigo Tello,6569,regular,True,2,0
+1454605,61,,Veysel Sarı,98276,Rodrigo Tello,6569,regular,True,1,0
+1454609,85,,Emmanuel Emenike,82011,Birol Hikmet,816117,regular,True,2,0
+1454609,65,,Armand Deumi Tchami,1854817,İlhan Parlak,5810,regular,True,1,0
+1454610,64,,Kahê,11985,,,ownGoal,True,1,1
+1454610,61,,Josh Simpson,10302,Kahê,11985,regular,False,0,1
+1454607,26,,Orhan Şam,5784,Hursut Meric,32215,regular,False,0,2
+1454607,1,,Hursut Meric,32215,Oktay Delibalta,60637,regular,False,0,1
+1454606,67,,Erman Kılıç,43664,,,regular,True,1,0
+1454604,75,,Umut Bulut,5275,Alanzinho,15107,regular,False,1,3
+1454604,72,,Burak Yılmaz,18864,,,penalty,False,1,2
+1454604,39,,Herve Germain Tum,3132,Cihan Haspolatli,5693,regular,True,1,1
+1454604,1,,Burak Yılmaz,18864,Gustavo Colman,790572,regular,False,0,1
+1454611,76,,Ahmet Ari,43603,Ivelin Popov,29308,regular,True,2,0
+1454611,56,,Julio Cesar,13118,,,regular,True,1,0
+1454608,90,,Mamadou Niang,3507,Miroslav Stoch,42860,regular,False,2,1
+1454608,73,,Stanislav Šesták,13385,,,regular,True,2,0
+1454608,62,,Stanislav Šesták,13385,Michael Klukowski,5182,regular,True,1,0
+1454612,88,,Tolga Ozgen,60265,,,ownGoal,True,2,1
+1454612,22,,Turgay Bahadir,3845,Pablo Batalla,39974,regular,True,1,1
+1454612,14,,Yekta Kurtuluş,60289,Huseyin Kala,126078,regular,False,0,1
+1454620,90,,Burak Yılmaz,18864,Selçuk İnan,31253,regular,True,3,0
+1454620,83,,Engin Akturk,86999,,,ownGoal,True,1,0
+1454614,82,,Ömer Şişmanoğlu,29451,André Moritz,60277,regular,True,2,0
+1454614,79,,Ömer Şişmanoğlu,29451,André Moritz,60277,regular,True,1,0
+1454616,88,,Leonel Núñez,1854935,Bekir Ozan Has,43530,regular,False,1,5
+1454616,53,,Turgay Bahadir,3845,Turgay Bahadir,3845,regular,False,1,4
+1454616,45,,Sercan Yıldırım,43173,Pablo Batalla,39974,regular,False,1,3
+1454616,28,,Ozan Ipek,53828,Ivan Ergic,1422559,regular,False,1,2
+1454616,26,,Soner Aydoğdu,69351,Oktay Delibalta,60637,regular,True,1,1
+1454616,17,,Sercan Yıldırım,43173,Pablo Batalla,39974,regular,False,0,1
+1454615,81,,Necati Ates,5708,,,penalty,True,2,2
+1454615,71,,Marek Sapara,13389,Metin Akan,43399,regular,False,1,2
+1454615,67,,Michal Zewlakow,1422345,Michael Klukowski,5182,regular,False,1,1
+1454615,41,,Necati Ates,5708,Erkan Sekman,43591,regular,True,1,0
+1454613,77,,Alex,12863,,,regular,True,1,0
+1454619,50,,Kahê,11985,Mehmet Güven,17795,regular,True,1,0
+1454621,81,,Anil Dilaver,116879,Hakan Balta,6208,regular,False,0,1
+1454617,88,,Umit Karan,5294,Rodrigo Tello,6569,regular,False,0,2
+1454617,42,,Batuhan Karadeniz,31577,Sezer Ozturk,9528,regular,False,0,1
+1454618,65,,Ali Kuçik,114158,Ricardo Quaresma,6254,regular,True,1,1
+1454618,60,,Olcan Adın,18767,Julio Cesar,13118,regular,False,0,1
+1454626,75,,Musa Aydin,6155,Ragip Basdag,18068,regular,False,5,1
+1454626,73,,Guti,4737,Hugo Almeida,12935,regular,True,5,0
+1454626,64,,Mert Nobre,5498,İsmail Köybaşı,43605,regular,True,4,0
+1454626,44,,Simão,1422491,Ricardo Quaresma,6254,regular,True,3,0
+1454626,19,,Guti,4737,,,penalty,True,2,0
+1454626,8,,Mert Nobre,5498,Guti,4737,regular,True,1,0
+1454623,89,,Yiğit İncedemir,74124,Bekir Yılmaz,81620,regular,True,4,2
+1454623,87,,Birol Hikmet,816117,,,penalty,False,3,2
+1454623,73,,Yigit Ismail Gokoglan,60248,Isaac Promise,38485,regular,True,3,1
+1454623,47,,Kahê,11985,Yigit Ismail Gokoglan,60248,regular,True,2,1
+1454623,21,,Hakan Soyler,5910,Birol Hikmet,816117,regular,False,1,1
+1454623,1,,Josh Simpson,10302,Yigit Ismail Gokoglan,60248,regular,True,1,0
+1454625,61,,Drago Gabrić,49804,Stanislav Šesták,13385,regular,False,1,1
+1454625,20,,Jaja,14960,Ibrahima Yattara,6181,regular,True,1,0
+1454628,54,,Burhan Eşer,43645,Aykut Demir,16948,regular,False,0,1
+1454622,40,,Gökhan Gönül,30137,,,regular,False,0,1
+1454627,38,,Ismael Sosa,37928,Ivelin Popov,29308,regular,False,0,1
+1454630,69,,Servet Çetin,5488,Baris Özbek,8738,regular,True,1,0
+1454624,86,,Gokhan Unal,5823,Ali Guzeldal,2510566,regular,False,3,2
+1454624,55,,Samuel Holmén,7740,Ali Guzeldal,2510566,regular,False,3,1
+1454624,51,,Mehmet Eren Boyraz,42225,Ufuk Selim Teber,61,regular,True,3,0
+1454624,33,,Nordin Amrabat,27714,,,regular,True,2,0
+1454624,25,,Ekrem Eksioglu,2510561,,,ownGoal,True,1,0
+1454637,34,,Erman Kılıç,43664,,,regular,True,1,1
+1454637,16,,Tita,5292,Uğur İnceman,6216,regular,False,0,1
+1454634,73,,Erkan Taşkıran,94554,Musa Aydin,6155,regular,True,4,0
+1454634,37,,Leandrão,867932,Koray Colgecen,43681,regular,True,3,0
+1454634,13,,Musa Aydin,6155,Samet Bulbul,145149,regular,True,2,0
+1454634,3,,Musa Aydin,6155,Beto,2472289,regular,True,1,0
+1454639,45,,Gokcek Vederson,30133,Bekir Ozan Has,43530,regular,True,2,0
+1454639,36,,Kenny Miller,10615,Pablo Batalla,39974,regular,True,1,0
+1454631,89,,Mehmet Güven,17795,,,regular,False,1,3
+1454631,87,,Mehmet Güven,17795,Josh Simpson,10302,regular,False,1,2
+1454631,41,,Metin Akan,43399,Murat Duruer,5273,regular,True,1,1
+1454631,26,,Kahê,11985,Jimmy Dixon,2510563,regular,False,0,1
+1454638,89,,İskender Alın,47194,,,regular,True,2,1
+1454638,66,,Simão,1422491,,,regular,False,1,1
+1454638,35,,Marcus Vinicius Cesario,43656,İbrahim Akın,5321,regular,True,1,0
+1454633,65,,Yasin Öztekin,21876,,,regular,False,1,1
+1454633,37,,Olcan Adın,18767,Wagner,33112,regular,True,1,0
+1454636,23,,Mamadou Niang,3507,Mehmet Topuz,21825,regular,True,2,0
+1454636,20,,Diego Lugano,13447,Alex,12863,regular,True,1,0
+1454632,84,,Sezer Ozturk,9528,Diego Angelo,32818,regular,True,1,0
+1454640,88,,Kenny Miller,10615,Omer Erdogan,5896,regular,True,2,1
+1454640,50,,Kamil Grosicki,33689,Michael Eneramo,55026,regular,False,1,1
+1454640,44,,Hayrettin Yerlikaya,31679,,,ownGoal,True,1,0
+1454645,69,,Ali Guzeldal,2510566,Gokhan Unal,5823,regular,False,1,3
+1454645,51,,Gokhan Unal,5823,Cihan Haspolatli,5693,regular,False,1,2
+1454645,25,,Samuel Holmén,7740,Gokhan Unal,5823,regular,False,1,1
+1454645,10,,Ersen Martin,5381,Ozgur Ocal,810646,regular,True,1,0
+1454644,59,,Armand Deumi Tchami,1854817,,,ownGoal,True,1,1
+1454644,55,,Emmanuel Emenike,82011,Hakan Özmert,43512,regular,False,0,1
+1454641,90,,Marcelo Zalayeta,2092,Serdar Kesimal,39893,regular,True,2,1
+1454641,78,,Emir Kujović,22601,Jonathan Santana,16172,regular,True,1,1
+1454641,38,,Murat Duruer,5273,Serdar Özkan,30032,regular,False,0,1
+1454643,88,,Issiar Dia,17986,Alex,12863,regular,False,1,3
+1454643,73,,Mamadou Niang,3507,Semih Şentürk,5511,regular,False,1,2
+1454643,61,,Alex,12863,,,penalty,False,1,1
+1454643,54,,Kahê,11985,Josh Simpson,10302,regular,True,1,0
+1454648,89,,Olcan Adın,18767,Ivelin Popov,29308,regular,False,0,2
+1454648,73,,Hakan Aslantaş,5778,,,ownGoal,False,0,1
+1454642,64,,Oktay Delibalta,60637,Joachim Mununga,45942,regular,True,1,0
+1454646,81,,Milan Baroš,699,Colin Kazim-Richards,30134,regular,True,4,2
+1454646,77,,Umit Karan,5294,,,regular,False,3,2
+1454646,75,,Burhan Eşer,43645,Alper Potuk,55028,regular,False,3,1
+1454646,45,,Harry Kewell,700,Hakan Balta,6208,regular,True,3,0
+1454646,14,,Bogdan Stancu,22547,Colin Kazim-Richards,30134,regular,True,2,0
+1454646,10,,Lorik Cana,10833,Sabri Sarioğlu,5715,regular,True,1,0
+1454656,77,,Jerko Leko,11261,,,regular,True,3,2
+1454656,71,,Marcin Robak,60328,Hakan Aslantaş,5778,regular,False,2,2
+1454656,65,,Marcin Robak,60328,Hakan Aslantaş,5778,regular,False,2,1
+1454656,62,,Jerko Leko,11261,,,penalty,True,2,0
+1454656,8,,Musa Aydin,6155,Victor Mendy,26886,regular,True,1,0
+1454655,85,,Burak Yılmaz,18864,Gustavo Colman,790572,regular,False,2,3
+1454655,84,,Yannick Kamanan,18745,Ricardo Pedriel,33709,regular,True,2,2
+1454655,75,,Burak Yılmaz,18864,Serkan Balci,5512,regular,False,1,2
+1454655,63,,Kamil Grosicki,33689,Erman Kılıç,43664,regular,True,1,1
+1454655,2,,Jaja,14960,Engin Baytar,43642,regular,False,0,1
+1454652,88,,Mustafa Pektemek,43643,Hursut Meric,32215,regular,False,0,1
+1454657,4,,Ismael Sosa,37928,Cenk Tosun,72127,regular,True,1,0
+1454649,89,,Huseyin Kala,126078,Ersen Martin,5381,regular,False,1,3
+1454649,42,,Halil Çolak,34546,Ersen Martin,5381,regular,False,1,2
+1454649,35,,Gokhan Gulec,5735,Halil Çolak,34546,regular,False,1,1
+1454649,27,,Bulent Kocabey,816055,Hakan Özmert,43512,regular,True,1,0
+1454651,75,,Sezer Ozturk,9528,,,penalty,True,1,1
+1454651,22,,Ivan Ergic,1422559,,,regular,False,0,1
+1454654,64,,Jimmy Dixon,2510563,Omer Aysan Baris,2510562,regular,False,1,4
+1454654,36,,Josh Simpson,10302,Omer Aysan Baris,2510562,regular,False,1,3
+1454654,31,,Isaac Promise,38485,Mehmet Güven,17795,regular,False,1,2
+1454654,7,,Huseyin Tok,60245,Omer Aysan Baris,2510562,regular,False,1,1
+1454654,4,,Ali Zitouni,14764,Kerem Seras,43653,regular,True,1,0
+1454653,1,,Serdar Özkan,30032,Drago Gabrić,49804,regular,True,1,0
+1454650,60,,Diego Lugano,13447,Alex,12863,regular,True,2,0
+1454650,3,,Mamadou Niang,3507,Mehmet Topuz,21825,regular,True,1,0
+1454661,89,,Vitor Pele,30387,,,regular,True,2,1
+1454661,19,,Diego Angelo,32818,,,ownGoal,False,1,1
+1454661,17,,Serdar Özbayraktar,43576,Diego Angelo,32818,regular,True,1,0
+1454662,82,,Fatih Tekke,6175,,,penalty,False,2,1
+1454662,72,,Halil Çolak,34546,,,regular,True,2,0
+1454662,66,,Juan Robledo,35986,Fernando Varela,1854804,regular,True,1,0
+1454666,75,,Cenk Tosun,72127,Hürriyet Güçer,5285,regular,False,1,4
+1454666,61,,Cenk Tosun,72127,Ivelin Popov,29308,regular,False,1,3
+1454666,34,,Dany Nounkeu,73094,,,ownGoal,True,1,2
+1454666,32,,Yalçın Ayhan,43507,Ismael Sosa,37928,regular,False,0,2
+1454666,23,,Wagner,33112,Ivelin Popov,29308,regular,False,0,1
+1454663,89,,İlhan Parlak,5810,Senol Akin,60401,regular,False,2,3
+1454663,88,,Armand Deumi Tchami,1854817,,,ownGoal,True,2,2
+1454663,49,,Muhammet Ozdin,53831,Armand Deumi Tchami,1854817,regular,False,1,2
+1454663,21,,İlhan Parlak,5810,,,penalty,False,1,1
+1454663,17,,Joachim Mununga,45942,Ermin Zec,44279,regular,True,1,0
+1454665,77,,Emmanuel Culio,34535,Colin Kazim-Richards,30134,regular,True,1,0
+1454660,90,,Emir Kujović,22601,Ufuk Selim Teber,61,regular,True,2,0
+1454660,90,,Emir Kujović,22601,Ufuk Selim Teber,61,regular,True,1,0
+1454658,75,,Alex,12863,Issiar Dia,17986,regular,False,2,4
+1454658,72,,Alex,12863,Emre Belözoğlu,2054,regular,False,2,3
+1454658,65,,Alex,12863,,,penalty,False,2,2
+1454658,50,,Ibrahim Toraman,5314,Simão,1422491,regular,True,2,1
+1454658,43,,Ekrem Dag,1112,Simão,1422491,regular,True,1,1
+1454658,5,,Necip Uysal,43394,,,ownGoal,False,0,1
+1454659,86,,Alanzinho,15107,Paweł Brożek,19000,regular,False,1,2
+1454659,53,,Umut Bulut,5275,Jaja,14960,regular,False,1,1
+1454659,14,,Jimmy Dixon,2510563,Omer Aysan Baris,2510562,regular,True,1,0
+1454674,76,,Kenny Miller,10615,Pablo Batalla,39974,regular,False,0,2
+1454674,46,,Pablo Batalla,39974,,,regular,False,0,1
+1454670,85,,Serkan Calik,8745,Yasin Öztekin,21876,regular,False,2,4
+1454670,78,,Orhan Şam,5784,Randall Azofeifa,13869,regular,False,2,3
+1454670,75,,Orhan Şam,5784,,,ownGoal,True,2,2
+1454670,66,,Metin Akan,43399,Jan Rajnoch,12002,regular,True,1,2
+1454670,58,,Mustafa Pektemek,43643,Randall Azofeifa,13869,regular,False,0,2
+1454670,48,,Oktay Delibalta,60637,Mustafa Pektemek,43643,regular,False,0,1
+1454669,75,,İbrahim Akın,5321,,,penalty,True,3,1
+1454669,65,,İbrahim Akın,5321,Gokhan Unal,5823,regular,True,2,1
+1454669,60,,Samuel Holmén,7740,Gokhan Unal,5823,regular,True,1,1
+1454669,32,,Milan Baroš,699,Sabri Sarioğlu,5715,regular,False,0,1
+1454673,87,,Umit Karan,5294,Burhan Eşer,43645,regular,False,2,1
+1454673,37,,Cenk Tosun,72127,Ismael Sosa,37928,regular,True,2,0
+1454673,3,,Cenk Tosun,72127,Ivelin Popov,29308,regular,True,1,0
+1454671,55,,Issiar Dia,17986,Mamadou Niang,3507,regular,True,2,0
+1454671,32,,Alex,12863,,,regular,True,1,0
+1454675,44,,Hocine Ragued,3356,Florin Cernat,18032,regular,True,2,1
+1454675,17,,Florin Cernat,18032,,,penalty,True,1,1
+1454675,5,,Kamil Zayatte,9080,Peter Grajciar,39308,regular,False,0,1
+1454668,89,,Michael Eneramo,55026,Mehmet Nas,5783,regular,True,4,2
+1454668,75,,Huseyin Tok,60245,Maciej Iwański,38154,regular,False,3,2
+1454668,64,,Kamil Grosicki,33689,Hayrettin Yerlikaya,31679,regular,True,3,1
+1454668,60,,Kamil Grosicki,33689,,,regular,True,2,1
+1454668,52,,Josh Simpson,10302,,,regular,False,1,1
+1454668,17,,Kamil Grosicki,33689,,,penalty,True,1,0
+1454667,86,,Arkadiusz Głowacki,18790,Ibrahima Yattara,6181,regular,True,3,3
+1454667,82,,Emir Kujović,22601,Nordin Amrabat,27714,regular,False,2,3
+1454667,56,,Abdullah Durak,42224,Karim Ziani,16437,regular,False,2,2
+1454667,55,,Burak Yılmaz,18864,Gustavo Colman,790572,regular,True,2,1
+1454667,21,,Abdullah Durak,42224,,,regular,False,1,1
+1454667,2,,Jaja,14960,Gustavo Colman,790572,regular,True,1,0
+1454672,79,,Guti,4737,,,regular,False,0,2
+1454672,56,,Ekrem Dag,1112,Ricardo Quaresma,6254,regular,False,0,1
+1454678,90,,Marcelo Zalayeta,2092,Nordin Amrabat,27714,regular,True,1,2
+1454678,88,,Kahê,11985,Yiğit İncedemir,74124,regular,False,0,2
+1454678,16,,Maciej Iwański,38154,,,regular,False,0,1
+1454679,31,,Drago Gabrić,49804,Marek Sapara,13389,regular,False,0,2
+1454679,2,,Drago Gabrić,49804,Róbert Vittek,320,regular,False,0,1
+1454684,63,,Cenk Tosun,72127,Ismael Sosa,37928,regular,True,3,1
+1454684,39,,Erman Kılıç,43664,,,regular,False,2,1
+1454684,25,,Ivelin Popov,29308,,,regular,True,2,0
+1454684,4,,Wagner,33112,,,regular,True,1,0
+1454683,90,,Tita,5292,Uğur İnceman,6216,regular,False,2,3
+1454683,71,,Juan Robledo,35986,Huseyin Kala,126078,regular,True,2,2
+1454683,62,,Mehmet Hilmi Yilmaz,6184,Necati Ates,5708,regular,False,1,2
+1454683,57,,Halil Çolak,34546,Georgi Sarmov,35578,regular,True,1,1
+1454683,48,,İbrahim Dağaşan,43701,Necati Ates,5708,regular,False,0,1
+1454677,64,,Efe Inanc,43672,İskender Alın,47194,regular,False,1,1
+1454677,36,,Pablo Batalla,39974,Jozy Altidore,801455,regular,True,1,0
+1454681,49,,Umit Karan,5294,Diego Angelo,32818,regular,True,1,0
+1454682,88,,Burak Yılmaz,18864,Umut Bulut,5275,regular,False,1,2
+1454682,68,,Ceyhun Gülselam,20747,Selçuk İnan,31253,regular,False,1,1
+1454682,66,,Bobô,18221,Roberto Hilbert,2363,regular,True,1,0
+1454676,68,,André Santos,56766,Emre Belözoğlu,2054,regular,False,2,4
+1454676,63,,Mamadou Niang,3507,Alex,12863,regular,False,2,3
+1454676,44,,Hursut Meric,32215,,,regular,True,2,2
+1454676,24,,Orhan Şam,5784,Mustafa Pektemek,43643,regular,True,1,2
+1454676,21,,Alex,12863,,,penalty,False,0,2
+1454676,14,,Diego Lugano,13447,,,regular,False,0,1
+1454687,20,,İlhan Parlak,5810,Emil Angelov,13738,regular,True,1,1
+1454687,4,,Kenny Miller,10615,Pablo Batalla,39974,regular,False,0,1
+1454692,43,,Sezer Ozturk,9528,,,penalty,False,0,2
+1454692,32,,Burhan Eşer,43645,Alper Potuk,55028,regular,False,0,1
+1454686,22,,Jaja,14960,Paweł Brożek,19000,regular,True,1,0
+1454685,88,,Stanislav Šesták,13385,Jan Rajnoch,12002,regular,True,3,2
+1454685,86,,Stanislav Šesták,13385,Roman Bednář,9379,regular,True,2,2
+1454685,62,,Juan Pablo Pino,21132,Aydin Yilmaz,17797,regular,False,1,2
+1454685,52,,Stanislav Šesták,13385,Michael Klukowski,5182,regular,True,1,1
+1454685,32,,Aydin Yilmaz,17797,Juan Pablo Pino,21132,regular,False,0,1
+1454691,39,,Ali Kuçik,114158,Leandrão,867932,regular,True,2,1
+1454691,11,,Cenk Tosun,72127,Ismael Sosa,37928,regular,False,1,1
+1454691,10,,Ragip Basdag,18068,Beto,2472289,regular,True,1,0
+1454690,3,,Ricardo Pedriel,33709,Erman Kılıç,43664,regular,True,1,0
+1454693,77,,Semih Şentürk,5511,Caner Erkin,15680,regular,True,2,0
+1454693,15,,Mamadou Niang,3507,Emre Belözoğlu,2054,regular,True,1,0
+1454697,87,,Alex,12863,Gökhan Gönül,30137,regular,False,1,2
+1454697,75,,Semih Şentürk,5511,Alex,12863,regular,False,1,1
+1454697,14,,Colin Kazim-Richards,30134,Milan Baroš,699,regular,True,1,0
+1454700,72,,Fernando Varela,1854804,,,regular,True,1,0
+1454699,71,,Olcan Adın,18767,Cenk Tosun,72127,regular,True,4,1
+1454699,65,,Olcan Adın,18767,Cenk Tosun,72127,regular,True,3,1
+1454699,62,,Filip Hološko,12232,Ali Guzeldal,2510566,regular,False,2,1
+1454699,33,,Olcan Adın,18767,Cenk Tosun,72127,regular,True,2,0
+1454699,7,,Hürriyet Güçer,5285,Olcan Adın,18767,regular,True,1,0
+1454695,89,,Hugo Almeida,12935,Ricardo Quaresma,6254,regular,True,4,2
+1454695,80,,Ufuk Selim Teber,61,,,penalty,False,3,2
+1454695,75,,Ricardo Quaresma,6254,Guti,4737,regular,True,3,1
+1454695,68,,Fabian Ernst,486,Simão,1422491,regular,True,2,1
+1454695,61,,Hugo Almeida,12935,Ricardo Quaresma,6254,regular,True,1,1
+1454695,21,,Marcelo Zalayeta,2092,Nordin Amrabat,27714,regular,False,0,1
+1454694,34,,Armand Deumi Tchami,1854817,,,ownGoal,True,1,0
+1454702,89,,Cihan Yilmaz,4972,Tomas Rada,11974,regular,False,0,4
+1454702,83,,Erman Kılıç,43664,Mehmet Nas,5783,regular,False,0,3
+1454702,63,,Ricardo Pedriel,33709,Kamil Grosicki,33689,regular,False,0,2
+1454702,40,,Michael Eneramo,55026,Erman Kılıç,43664,regular,False,0,1
+1454701,90,,Alanzinho,15107,Giray Kacar,35583,regular,False,1,2
+1454701,57,,Giray Kacar,35583,Selçuk İnan,31253,regular,False,1,1
+1454701,12,,Cem Can,43397,,,regular,True,1,0
+1454710,90,,İlhan Parlak,5810,Dyego Rocha Coelho,41219,regular,True,3,2
+1454710,81,,Olcan Adın,18767,Julio Cesar,13118,regular,False,2,2
+1454710,63,,Emil Angelov,13738,Florin Cernat,18032,regular,True,2,1
+1454710,41,,Yasin Avci,60355,İlhan Parlak,5810,regular,True,1,1
+1454710,7,,Ivan De Souza,43601,Elyasa Süme,6160,regular,False,0,1
+1454708,90,,Cihan Yilmaz,4972,Kamil Grosicki,33689,regular,True,1,0
+1454703,74,,Serdar Özkan,30032,Róbert Vittek,320,regular,True,2,2
+1454703,70,,Batuhan Karadeniz,31577,Vitor Pele,30387,regular,False,1,2
+1454703,41,,Fatih Tekke,6175,Jan Rajnoch,12002,regular,True,1,1
+1454703,35,,Burhan Eşer,43645,Doga Kaya,43578,regular,False,0,1
+1454704,44,,Umut Bulut,5275,Burak Yılmaz,18864,regular,True,1,0
+1454706,57,,Mustafa Pektemek,43643,Serkan Calik,8745,regular,False,0,3
+1454706,55,,Serkan Calik,8745,Mustafa Pektemek,43643,regular,False,0,2
+1454706,32,,Mile Jedinak,24685,Hursut Meric,32215,regular,False,0,1
+1454707,88,,Ufuk Selim Teber,61,,,regular,True,1,3
+1454707,81,,Şahin Aygüneş,74086,Azar Karadas,20,regular,False,0,3
+1454707,69,,Ersen Martin,5381,Korhan Ozturk,43519,regular,False,0,2
+1454707,44,,Ersen Martin,5381,Korhan Ozturk,43519,regular,False,0,1
+1454709,86,,Filip Hološko,12232,İskender Alın,47194,regular,True,2,1
+1454709,70,,Orhan Ak,29179,,,ownGoal,True,1,1
+1454709,65,,Abdülkadir Özgen,21479,Musa Aydin,6155,regular,False,0,1
+1454705,70,,Necati Ates,5708,,,penalty,True,3,0
+1454705,59,,Necati Ates,5708,,,regular,True,2,0
+1454705,31,,Erkan Sekman,43591,Mehmet Hilmi Yilmaz,6184,regular,True,1,0
+1454720,74,,Uğur İnceman,6216,Erkan Sekman,43591,regular,False,2,3
+1454720,67,,Necati Ates,5708,Uğur İnceman,6216,regular,False,2,2
+1454720,65,,Kenny Miller,10615,Pablo Batalla,39974,regular,True,2,1
+1454720,58,,Uğur İnceman,6216,Tita,5292,regular,False,1,1
+1454720,44,,Jozy Altidore,801455,Volkan Şen,43533,regular,True,1,0
+1454717,35,,Ali Kuçik,114158,Jerko Leko,11261,regular,True,2,1
+1454717,20,,Torric Jebrin,148914,,,regular,True,1,1
+1454717,13,,Florin Cernat,18032,,,penalty,False,0,1
+1454715,87,,Semih Şentürk,5511,Gökhan Gönül,30137,regular,False,1,3
+1454715,14,,Mamadou Niang,3507,Alex,12863,regular,False,1,2
+1454715,10,,Caner Erkin,15680,Alex,12863,regular,False,1,1
+1454715,8,,Batuhan Karadeniz,31577,Burhan Eşer,43645,regular,True,1,0
+1454714,64,,Filip Hološko,12232,Cihan Haspolatli,5693,regular,True,1,2
+1454714,60,,Erman Kılıç,43664,Mehmet Yildiz,5489,regular,False,0,2
+1454714,36,,Ricardo Pedriel,33709,Erman Kılıç,43664,regular,False,0,1
+1454716,88,,Özgür Çek,69434,Róbert Vittek,320,regular,False,3,2
+1454716,76,,Cenk Tosun,72127,Ismael Sosa,37928,regular,True,3,1
+1454716,66,,Jan Rajnoch,12002,Murat Duruer,5273,regular,False,2,1
+1454716,60,,Cenk Tosun,72127,,,regular,True,2,0
+1454716,58,,Olcan Adın,18767,Wagner,33112,regular,True,1,0
+1454712,90,,Aykut Demir,16948,Mile Jedinak,24685,regular,True,4,1
+1454712,89,,Mile Jedinak,24685,Emre Aygün,74007,regular,True,3,1
+1454712,68,,Ali Bilgin,2510570,Semih Aydilek,41616,regular,False,2,1
+1454712,62,,Ermin Zec,44279,,,regular,True,2,0
+1454712,26,,Mustafa Pektemek,43643,,,regular,True,1,0
+1454719,81,,Burak Yılmaz,18864,Jaja,14960,regular,False,0,1
+1454718,43,,Hugo Almeida,12935,Ricardo Quaresma,6254,regular,False,0,1
+1454725,72,,Mustafa Pektemek,43643,Yasin Öztekin,21876,regular,False,2,2
+1454725,62,,Mile Jedinak,24685,,,regular,False,2,1
+1454725,53,,Ibrahim Toraman,5314,Nihat Kahveci,1422254,regular,True,2,0
+1454725,27,,Simão,1422491,İsmail Köybaşı,43605,regular,True,1,0
+1454721,90,,Özgür Çek,69434,,,regular,True,5,3
+1454721,86,,Metin Akan,43399,Uğur Uçar,5713,regular,True,4,3
+1454721,58,,Ediz Bahtiyaroglu,43408,Erkan Taşkıran,94554,regular,False,3,3
+1454721,55,,Róbert Vittek,320,,,penalty,True,3,2
+1454721,51,,Murat Duruer,5273,Róbert Vittek,320,regular,True,2,2
+1454721,45,,Erkan Taşkıran,94554,,,regular,False,1,2
+1454721,30,,Torric Jebrin,148914,Ragip Basdag,18068,regular,False,1,1
+1454721,18,,Murat Duruer,5273,Drago Gabrić,49804,regular,True,1,0
+1454727,55,,Herve Germain Tum,3132,Filip Hološko,12232,regular,False,0,2
+1454727,13,,Filip Hološko,12232,Cihan Haspolatli,5693,regular,False,0,1
+1454728,90,,André Santos,56766,,,regular,True,1,0
+1454726,90,,Erman Kılıç,43664,,,regular,True,1,1
+1454726,83,,Gokhan Gulec,5735,Azar Karadas,20,regular,False,0,1
+1454723,90,,Ali Dere,110965,Musa Çağıran,60363,regular,False,1,3
+1454723,90,,Peter Grajciar,39308,,,regular,False,1,2
+1454723,90,,Ömer Şişmanoğlu,29451,Nordin Amrabat,27714,regular,True,1,1
+1454723,86,,Marcin Robak,60328,Ertugrul Arslan,43521,regular,False,0,1
+1454722,85,,Sezer Ozturk,9528,Burhan Eşer,43645,regular,False,2,2
+1454722,65,,Necati Ates,5708,,,penalty,True,2,1
+1454722,42,,Batuhan Karadeniz,31577,Koray Arslan,43585,regular,False,1,1
+1454722,24,,Ali Zitouni,14764,Deniz Baris,5507,regular,True,1,0
+1454729,44,,Burak Yılmaz,18864,Umut Bulut,5275,regular,True,1,0
+1454724,66,,Kahê,11985,Yigit Ismail Gokoglan,60248,regular,True,2,3
+1454724,60,,Emmanuel Culio,34535,Bogdan Stancu,22547,regular,False,1,3
+1454724,59,,Jimmy Dixon,2510563,Yigit Ismail Gokoglan,60248,regular,True,1,2
+1454724,17,,Arda Turan,5702,Sabri Sarioğlu,5715,regular,False,0,2
+1454724,14,,Arda Turan,5702,Emmanuel Culio,34535,regular,False,0,1
+1454738,64,,Michael Eneramo,55026,Ricardo Pedriel,33709,regular,False,2,1
+1454738,60,,Birol Hikmet,816117,Hocine Ragued,3356,regular,True,2,0
+1454738,34,,Emmanuel Emenike,82011,,,regular,True,1,0
+1454731,21,,Mehmet Güven,17795,Josh Simpson,10302,regular,False,2,1
+1454731,9,,Omer Erdogan,5896,Pablo Batalla,39974,regular,True,2,0
+1454731,3,,Sercan Yıldırım,43173,Volkan Şen,43533,regular,True,1,0
+1454736,20,,Abdullah Durak,42224,Nordin Amrabat,27714,regular,False,1,1
+1454736,2,,Gökhan Zan,5743,Bogdan Stancu,22547,regular,True,1,0
+1454734,74,,Oktay Delibalta,60637,Orhan Şam,5784,regular,True,1,1
+1454734,25,,Halil Çolak,34546,Korhan Ozturk,43519,regular,False,0,1
+1454737,77,,Cenk Tosun,72127,Şenol Can,43508,regular,True,2,1
+1454737,60,,Cenk Tosun,72127,Alper Akcam,17057,regular,True,1,1
+1454737,47,,Kenan Özer,146364,Necati Ates,5708,regular,False,0,1
+1454733,69,,Drago Gabrić,49804,Roman Bednář,9379,regular,False,1,4
+1454733,52,,Fatih Tekke,6175,Turgut Şahin,60645,regular,False,1,3
+1454733,50,,Metin Depe,43662,Gökhan Süzen,43657,regular,True,1,2
+1454733,14,,Turgut Şahin,60645,Fatih Tekke,6175,regular,False,0,2
+1454733,4,,Ümit Kurt,135789,,,regular,False,0,1
+1454730,90,,André Santos,56766,Miroslav Stoch,42860,regular,False,3,5
+1454730,71,,Daniel Güiza,811494,Semih Şentürk,5511,regular,False,3,4
+1454730,62,,Alex,12863,Mehmet Topuz,21825,regular,False,3,3
+1454730,59,,Alex,12863,,,penalty,False,3,2
+1454730,54,,Abdülkadir Özgen,21479,Torric Jebrin,148914,regular,True,3,1
+1454730,38,,Abdülkadir Özgen,21479,Ragip Basdag,18068,regular,True,2,1
+1454730,17,,Emre Belözoğlu,2054,Alex,12863,regular,False,1,1
+1454730,15,,Musa Aydin,6155,Abdülkadir Özgen,21479,regular,True,1,0
+1454735,76,,Ricardo Quaresma,6254,,,penalty,False,1,1
+1454735,31,,Marcin Robak,60328,Mehmet Sedef,13280,regular,True,1,0
+1454743,63,,Oktay Delibalta,60637,Hursut Meric,32215,regular,False,1,1
+1454743,30,,Jakub Navratil,12048,Mehmet Nas,5783,regular,True,1,0
+1454744,90,,Necati Ates,5708,,,penalty,True,3,3
+1454744,80,,Veysel Cihan,5326,Necati Ates,5708,regular,True,2,3
+1454744,70,,Abdülkadir Özgen,21479,Mehmet Incebacak,139435,regular,False,1,3
+1454744,49,,Musa Aydin,6155,Abdülkadir Özgen,21479,regular,False,1,2
+1454744,16,,Necati Ates,5708,,,penalty,True,1,1
+1454744,5,,Victor Mendy,26886,Ali Kuçik,114158,regular,False,0,1
+1454741,90,,Marcin Robak,60328,Peter Grajciar,39308,regular,False,2,2
+1454741,75,,Ersen Martin,5381,Şahin Aygüneş,74086,regular,True,2,1
+1454741,67,,Mehmet Sedef,13280,,,regular,False,1,1
+1454741,21,,Ergün Teber,5800,Ersen Martin,5381,regular,True,1,0
+1454742,60,,Simão,1422491,Manuel Fernandes,12982,regular,True,2,0
+1454742,59,,Mehmet Aurélio,5500,Guti,4737,regular,True,1,0
+1454746,82,,Sezer Ozturk,9528,,,regular,False,3,1
+1454746,75,,Kahê,11985,Murat Erdogan,5907,regular,True,3,0
+1454746,68,,Murat Erdogan,5907,Kahê,11985,regular,True,2,0
+1454746,58,,Kahê,11985,Josh Simpson,10302,regular,True,1,0
+1454740,45,,Alex,12863,Gökhan Gönül,30137,regular,True,2,0
+1454740,2,,Miroslav Stoch,42860,,,regular,True,1,0
+1454747,53,,Jonathan Santana,16172,Ali Bilgin,2510570,regular,True,1,0
+1454745,45,,Burak Yılmaz,18864,Selçuk İnan,31253,regular,True,3,0
+1454745,37,,Paweł Brożek,19000,Egemen Korkmaz,43711,regular,True,2,0
+1454745,23,,Burak Yılmaz,18864,,,penalty,True,1,0
+1454753,70,,Ömer Şişmanoğlu,29451,James Troisi,18999,regular,False,1,2
+1454753,42,,Serdar Özbayraktar,43576,Doga Kaya,43578,regular,True,1,1
+1454753,16,,Ömer Şişmanoğlu,29451,James Troisi,18999,regular,False,0,1
+1454755,61,,Filip Hološko,12232,Abdulkadir Kayali,46167,regular,True,1,1
+1454755,20,,Tita,5292,,,regular,False,0,1
+1454754,70,,Olcan Adın,18767,Cenk Tosun,72127,regular,True,1,0
+1454756,67,,Oktay Delibalta,60637,Ermin Zec,44279,regular,True,2,1
+1454756,64,,Musa Çağıran,60363,,,regular,False,1,1
+1454756,41,,Yasin Öztekin,21876,,,regular,True,1,0
+1454750,88,,Umut Bulut,5275,Alanzinho,15107,regular,False,1,2
+1454750,87,,Abdülkadir Özgen,21479,Torric Jebrin,148914,regular,True,1,1
+1454750,21,,Burak Yılmaz,18864,Selçuk İnan,31253,regular,False,0,1
+1454748,66,,Diego Lugano,13447,Alex,12863,regular,False,0,1
+1454751,73,,Sedat Bayrak,31731,Kamil Grosicki,33689,regular,True,1,1
+1454751,61,,Stanislav Šesták,13385,Murat Duruer,5273,regular,False,0,1
+1454752,81,,Servet Çetin,5488,Colin Kazim-Richards,30134,regular,True,3,1
+1454752,60,,Milan Baroš,699,,,penalty,True,2,1
+1454752,45,,Nikolay Dimitrov,856064,Şahin Aygüneş,74086,regular,False,1,1
+1454752,35,,Bogdan Stancu,22547,Colin Kazim-Richards,30134,regular,True,1,0
+1454762,86,,Dyego Rocha Coelho,41219,Aydin Karabulut,18862,regular,False,1,2
+1454762,67,,Dyego Rocha Coelho,41219,,,regular,False,1,1
+1454762,1,,Necati Ates,5708,İbrahim Dağaşan,43701,regular,True,1,0
+1454759,90,,Kamil Zayatte,9080,,,ownGoal,False,1,1
+1454759,57,,Peter Grajciar,39308,Gokhan Emreciksin,35586,regular,True,1,0
+1454763,90,,Josh Simpson,10302,Murat Erdogan,5907,regular,True,4,2
+1454763,78,,Murat Erdogan,5907,Manucho,32012,regular,True,3,2
+1454763,75,,Ariza Makukula,4465,,,regular,True,2,2
+1454763,71,,Musa Aydin,6155,Abdülkadir Özgen,21479,regular,False,1,2
+1454763,44,,Yigit Ismail Gokoglan,60248,Murat Erdogan,5907,regular,True,1,1
+1454763,23,,Victor Mendy,26886,Ragip Basdag,18068,regular,False,0,1
+1454760,85,,Colin Kazim-Richards,30134,Emre Çolak,68002,regular,False,2,3
+1454760,79,,Emre Aygün,74007,Yasin Öztekin,21876,regular,True,2,2
+1454760,47,,Emmanuel Culio,34535,Harry Kewell,700,regular,False,1,2
+1454760,44,,Harry Kewell,700,Colin Kazim-Richards,30134,regular,False,1,1
+1454760,27,,Emre Aygün,74007,Orhan Şam,5784,regular,True,1,0
+1454765,80,,Bekir Ozan Has,43530,Ozan Ipek,53828,regular,False,0,3
+1454765,50,,Turgay Bahadir,3845,Gokcek Vederson,30133,regular,False,0,2
+1454765,12,,İbrahim Öztürk,43541,Gokcek Vederson,30133,regular,False,0,1
+1454764,85,,Murat Ceylan,43590,,,regular,False,1,2
+1454764,80,,Onder Turaci,5504,,,regular,True,1,1
+1454764,63,,Olcan Adın,18767,Cenk Tosun,72127,regular,False,0,1
+1454761,90,,Alex,12863,Mehmet Topuz,21825,regular,True,6,0
+1454761,83,,Alex,12863,,,regular,True,5,0
+1454761,74,,Bekir İrtegün,21823,Mehmet Topuz,21825,regular,True,4,0
+1454761,48,,Alex,12863,,,penalty,True,3,0
+1454761,30,,Alex,12863,,,penalty,True,2,0
+1454761,26,,Alex,12863,,,penalty,True,1,0
+1454757,58,,Samuel Holmén,7740,İbrahim Akın,5321,regular,False,3,1
+1454757,45,,Jaja,14960,Gustavo Colman,790572,regular,True,3,0
+1454757,8,,Burak Yılmaz,18864,Gustavo Colman,790572,regular,True,2,0
+1454757,5,,Paweł Brożek,19000,Umut Bulut,5275,regular,True,1,0
+1454758,87,,Simão,1422491,,,penalty,True,3,1
+1454758,58,,Hugo Almeida,12935,Guti,4737,regular,True,2,1
+1454758,37,,Manuel Fernandes,12982,,,regular,True,1,1
+1454758,26,,Erkan Zengin,7702,Alper Potuk,55028,regular,False,0,1
+1454774,15,,Emmanuel Culio,34535,Aydin Yilmaz,17797,regular,True,2,0
+1454774,11,,Colin Kazim-Richards,30134,Harry Kewell,700,regular,True,1,0
+1454767,80,,André Moritz,60277,,,regular,False,3,3
+1454767,58,,Mehmet Incebacak,139435,Kamil Ahmet Çörekçi,124728,regular,True,3,2
+1454767,50,,Abdülkadir Özgen,21479,,,regular,True,2,2
+1454767,15,,Victor Mendy,26886,Musa Aydin,6155,regular,True,1,2
+1454767,12,,Jonathan Santana,16172,Onder Turaci,5504,regular,False,0,2
+1454767,8,,Mehmet Eren Boyraz,42225,Ömer Şişmanoğlu,29451,regular,False,0,1
+1454768,56,,Roman Bednář,9379,Turgut Şahin,60645,regular,True,2,3
+1454768,47,,Jan Rajnoch,12002,Özgür Çek,69434,regular,True,1,3
+1454768,44,,Necati Ates,5708,,,penalty,False,0,3
+1454768,13,,Necati Ates,5708,Tita,5292,regular,False,0,2
+1454768,3,,Tita,5292,Mehmet Hilmi Yilmaz,6184,regular,False,0,1
+1454769,32,,Volkan Şen,43533,Giani Kirita,1855071,regular,True,1,0
+1454770,85,,Serdar Özbayraktar,43576,Burhan Eşer,43645,regular,True,4,0
+1454770,80,,Serdar Özbayraktar,43576,Burhan Eşer,43645,regular,True,3,0
+1454770,60,,Diego Angelo,32818,Erkan Zengin,7702,regular,True,2,0
+1454770,5,,Serdar Özbayraktar,43576,Rodrigo Tello,6569,regular,True,1,0
+1454773,73,,Umut Bulut,5275,Selçuk İnan,31253,regular,False,0,4
+1454773,61,,Umut Bulut,5275,Selçuk İnan,31253,regular,False,0,3
+1454773,57,,Jaja,14960,Serkan Balci,5512,regular,False,0,2
+1454773,18,,Egemen Korkmaz,43711,Gustavo Colman,790572,regular,False,0,1
+1454766,90,,Erman Kılıç,43664,Mehmet Yildiz,5489,regular,True,3,4
+1454766,67,,Joseph Yobo,1143,Emre Belözoğlu,2054,regular,False,2,4
+1454766,65,,Erman Kılıç,43664,Michael Eneramo,55026,regular,True,2,3
+1454766,51,,Alex,12863,,,regular,False,1,3
+1454766,41,,Selçuk Şahin,12384,Emre Belözoğlu,2054,regular,False,1,2
+1454766,20,,Jakub Navratil,12048,Kadir Bekmezci,43632,regular,True,1,1
+1454766,6,,André Santos,56766,Alex,12863,regular,False,0,1

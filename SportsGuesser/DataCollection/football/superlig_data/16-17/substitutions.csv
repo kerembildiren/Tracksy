@@ -1,0 +1,1756 @@
+match_id,minute,player_in,player_in_id,player_out,player_out_id,is_home
+7131899,85,Erdem Özgenç,60332,Serdar Kurtuluş,18861,False
+7131899,82,Ahmet Dereli,163711,Magaye Gueye,51417,True
+7131899,78,Sinan Bakış,169317,Tomáš Necid,18955,False
+7131899,66,Edgar Silva,54691,Cem Özdemir,135862,True
+7131899,50,Samican Keskin,257025,Bekir Yılmaz,81620,True
+7131899,46,Sercan Yıldırım,43173,Cristóbal Jorquera,18346,False
+7131902,86,Turgut Şahin,60645,Adem Büyük,60250,False
+7131902,82,Matúš Bero,187207,Güray Vural,43559,True
+7131902,71,Batuhan Altıntaş,226994,Tunay Torun,30241,False
+7131902,63,Mustafa Akbaş,140731,Fabián Castillo,151561,True
+7131902,63,Hyun-Jun Suk,106249,Muhammet Demir,43543,True
+7131902,55,Herolind Shala,78895,Veysel Sarı,98276,False
+7131904,88,Abdülkerim Bardakcı,178963,Deni Milošević,190403,False
+7131904,83,Halil İbrahim Sönmez,806193,Dimitar Rangelov,20744,False
+7131904,80,Mehmet Akyüz,74144,Robin Yalçın,138154,True
+7131904,71,Ioan Hora,44460,Riad Bajić,331751,False
+7131904,67,Recep Niyaz,116944,Ümit Kurt,135789,True
+7131904,59,Oğulcan Çağlayan,387050,Patryk Tuszyński,71075,True
+7131898,84,Sajjad Shahbazzadeh,844573,Jonathan Ayite,51439,False
+7131898,83,Aras Özbiliz,133780,Ricardo Quaresma,6254,True
+7131898,67,Kerim Frei,157014,Olcay Şahan,16078,True
+7131898,65,Taha Yalçıner,60346,Ismail Aissati,10675,False
+7131898,46,Wilde-Donald Guerrier,199416,Isaac Sackey,292965,False
+7131898,28,Necip Uysal,43394,Adriano,4441,True
+7131897,87,Aleksandar Šćekić,836566,İrfan Can Kahveci,226986,True
+7131897,85,Orkan Çınar,283901,Daniel Larsson,7129,False
+7131897,78,Aydin Karabulut,18862,Serdar Gürler,96520,True
+7131897,78,Davy Claude Angan,39242,Sergei Kislyak,49809,False
+7131897,63,Vedat Muriqi,310874,Cosmin Matei,44429,True
+7131897,57,Alpay Kocakli,612018,Evans Kangwa,604444,False
+7131905,87,Mert Özyıldırım,999314,Samba Sow,73059,True
+7131905,87,Ömer Bayram,68335,Soner Aydoğdu,69351,False
+7131905,86,Anil Karaer,81941,Jean-Armel Kana-Biyik,39020,True
+7131905,46,Onur Ayık,67140,Sami,60779,False
+7131905,46,Aykut Çeviker,74133,Ricardo Vaz Tê,1261,False
+7131905,22,Kubilay Sönmez,169213,Srđan Mijailović,98436,True
+7131903,83,Emre Güral,37705,Mbilla Etame,60426,True
+7131903,82,Cheick Diabaté,44298,Pierre Webó,4618,False
+7131903,79,Muhammed Bayir,344301,Erdal Kılıçaslan,43693,False
+7131903,72,Amadaiya Rennie,109981,Richard Danilo,1049650,True
+7131903,69,Raul Rusescu,43774,Mehmet Güven,17795,False
+7131903,40,Ozan Evrim Özenç,152436,Jean Makoun,3589,True
+7131900,84,Cheikhou Dieng,231936,Cengiz Ünder,758876,True
+7131900,71,Miroslav Stoch,42860,Volkan Şen,43533,False
+7131900,71,Fernandão,1856192,Emmanuel Emenike,82011,False
+7131900,64,Samuel Holmén,7740,Marcio Mossoró,42293,True
+7131900,59,Mustafa Pektemek,43643,Sokol Cikalleshi,81138,True
+7131900,58,Robin van Persie,1,Ozan Tufan,251907,False
+7131901,81,Ólafur Ingi Skúlason,19739,Abdou Traoré,21090,False
+7131901,73,Yasin Öztekin,21876,Bruma,97012,True
+7131901,73,İlhan Depe,146368,Tănase Cristian,43782,False
+7131901,39,Sabri Sarioğlu,5715,Martin Linnes,109569,True
+7131901,17,Barış Başdaş,74075,Dany Nounkeu,73094,False
+7133409,82,Berkan Emir,344407,Fabrice N'Sakala,123387,True
+7133409,79,Milan Jevtović,267501,Zeki Yildirim,107658,False
+7133409,67,Deniz Vural,94413,Ismail Aissati,10675,True
+7133409,62,Deniz Kadah,27220,Samuel Eto'o,11688,False
+7133409,62,Emre Güral,37705,Jean Makoun,3589,False
+7133409,46,Jonathan Ayite,51439,Sajjad Shahbazzadeh,844573,True
+7133410,88,Barry Douglas,124360,Ali Çamdalı,8870,True
+7133410,88,Ömer Şişmanoğlu,29451,Ricardo Quaresma,6254,False
+7133410,77,Kerim Frei,157014,Tolgay Arslan,71203,False
+7133410,71,Ioan Hora,44460,Riad Bajić,331751,True
+7133410,63,Deni Milošević,190403,Dimitar Rangelov,20744,True
+7133410,63,Rhodolfo,39355,Oğuzhan Özyakup,137642,False
+7133411,89,Samican Keskin,257025,Vladimir Koman,22089,False
+7133411,85,Barış Memiş,43717,Magaye Gueye,51417,False
+7133411,77,Franck Etoundi,107026,Herolind Shala,78895,True
+7133411,70,Abdullah Durak,42224,Adem Büyük,60250,True
+7133411,56,Edgar Silva,54691,Cem Özdemir,135862,False
+7133411,56,Batuhan Altıntaş,226994,Bengali-Fodé Koita,51407,True
+7133403,90,Sinan Gümüş,169165,Yasin Öztekin,21876,False
+7133403,80,Ömer Bayram,68335,Landry N'Guemo,8958,True
+7133403,69,Muğdat Çelik,74114,Ricardo Vaz Tê,1261,True
+7133403,58,Josué,77726,Eren Derdiyok,21943,False
+7133403,46,Onur Ayık,67140,Aykut Çeviker,74133,True
+7133407,89,Luis Ibáñez,39478,Güray Vural,43559,False
+7133407,87,Orkan Çınar,283901,Anton Putilo,32149,True
+7133407,79,Şenol Can,43508,Alpay Kocakli,612018,True
+7133407,73,Davy Claude Angan,39242,İlhan Parlak,5810,True
+7133407,70,Hyun-Jun Suk,106249,Yusuf Erdoğan,256663,False
+7133407,55,Matúš Bero,187207,Ogenyi Onazi,150200,False
+7133412,85,Hakan Özmert,43512,Marcio Mossoró,42293,False
+7133412,83,Ricardo Faty,9421,Bilal Kisa,5914,True
+7133412,77,Mustafa Pektemek,43643,Mehmet Batdal,81617,False
+7133412,73,Sinan Bakış,169317,Sercan Yıldırım,43173,True
+7133412,62,Doka Madureira,52002,Cengiz Ünder,758876,False
+7133412,46,Joshua John,27759,Tomáš Necid,18955,True
+7133408,75,Mehmet Akyüz,74144,Ahmet İlhan Özek,124831,False
+7133408,71,Vladimir Rodić,347476,Mustapha Yatabaré,51558,True
+7133408,63,Tănase Cristian,43782,Dejan Lazarevič,45927,True
+7133408,46,Oğulcan Çağlayan,387050,Emrah Başsan,174141,False
+7133408,43,Ólafur Ingi Skúlason,19739,Serdar Deliktaş,84807,True
+7133408,34,Recep Niyaz,116944,Ali Faez Atiyah,333479,False
+7133406,90,Erkam Reşmen,128178,Welliton,27570,False
+7133406,87,Mert Özyıldırım,999314,Umut Sönmez,142262,False
+7133406,81,Ufuk Budak,96688,Deniz Türüç,252207,False
+7133406,76,Robin van Persie,1,Volkan Şen,43533,True
+7133406,66,Fernandão,1856192,Emmanuel Emenike,82011,True
+7133405,83,Vedat Muriqi,310874,Bogdan Stancu,22547,False
+7133405,77,Aleksandar Šćekić,836566,İrfan Can Kahveci,226986,False
+7133405,71,Raheem Lawal,239274,Aminu Umar,333087,True
+7133405,65,Cheick Diabaté,44298,Raul Rusescu,43774,True
+7133405,57,Erdal Kılıçaslan,43693,Musa Çağıran,60363,True
+7133405,32,Aydin Karabulut,18862,Marko Milinković,43138,False
+7133421,83,Hakan Özmert,43512,Marcio Mossoró,42293,True
+7133421,82,Samuel Eduok,330035,Tunay Torun,30241,False
+7133421,72,Herolind Shala,78895,David Pavelka,101330,False
+7133421,66,Cenk Ahmet Alkılıç,81928,Uğur Uçar,5713,True
+7133421,44,Mustafa Pektemek,43643,Mahmut Tekdemir,43666,True
+7133421,21,Batuhan Altıntaş,226994,Bengali-Fodé Koita,51407,False
+7133422,90,Hamit Altıntop,246,Nigel de Jong,1879,False
+7133422,85,Alain Traoré,16018,Deniz Türüç,252207,True
+7133422,56,Kubilay Sönmez,169213,Samba Sow,73059,True
+7133422,46,Nigel de Jong,1879,Selçuk İnan,31253,False
+7133422,46,Josué,77726,Yasin Öztekin,21876,False
+7133422,28,Muammer Yıldırım,130582,Ali Ahamada,102689,True
+7133420,85,Samican Keskin,257025,Tevfik Altındağ,74042,True
+7133420,79,Nabil Ghilas,101452,Anton Putilo,32149,False
+7133420,73,Evans Kangwa,604444,Emre Nefiz,242823,False
+7133420,67,Cem Özdemir,135862,Edgar Silva,54691,True
+7133420,63,Sergei Kislyak,49809,Davy Claude Angan,39242,False
+7133419,88,Deniz Vural,94413,Daniel Candeias,41835,False
+7133419,80,Taha Yalçıner,60346,Emre Akbaba,343527,False
+7133419,79,Sefa Yılmaz,39737,Vágner Love,13313,False
+7133419,75,Aydin Karabulut,18862,Bogdan Stancu,22547,True
+7133419,75,Aleksandar Šćekić,836566,İrfan Can Kahveci,226986,True
+7133419,46,Vedat Muriqi,310874,Kamal Issah,135773,True
+7133416,83,Vincent Aboubakar,116869,Olcay Şahan,16078,True
+7133416,76,Isaac Promise,38485,Ólafur Ingi Skúlason,19739,False
+7133416,65,Vladimir Rodić,347476,İlhan Depe,146368,False
+7133416,59,Adriano,4441,Ömer Şişmanoğlu,29451,True
+7133416,56,Oğuzhan Özyakup,137642,Anderson Talisca,329245,True
+7133416,46,Tănase Cristian,43782,Valerică Găman,43100,False
+7133417,84,Erdal Kılıçaslan,43693,Aminu Umar,333087,False
+7133417,71,Luis Ibáñez,39478,Güray Vural,43559,True
+7133417,71,Raul Rusescu,43774,Pierre Webó,4618,False
+7133417,60,Adrien Regattin,99774,Dzon Delarge,158533,False
+7133417,46,Aytaç Kara,128196,Yusuf Erdoğan,256663,True
+7133417,46,Muhammet Demir,43543,Okay Yokuşlu,97967,True
+7133423,90,Mehmet Akyüz,74144,Iyayi Believe Atiemwen,838802,True
+7133423,80,Sami,60779,Ricardo Vaz Tê,1261,False
+7133423,72,Oğuzhan Aynaoğlu,152548,Emrah Başsan,174141,True
+7133423,65,Robin Yalçın,138154,Recep Niyaz,116944,True
+7133423,46,Aykut Çeviker,74133,Landry N'Guemo,8958,False
+7133423,46,Onur Ayık,67140,Ömer Bayram,68335,False
+7133424,82,Alban Meha,850994,Jens Jønsson,156640,False
+7133424,73,Volkan Fındıklı,93248,Deni Milošević,190403,False
+7133424,69,Riad Bajić,331751,Dimitar Rangelov,20744,False
+7133424,64,Milan Jevtović,267501,Amadaiya Rennie,109981,True
+7133424,61,Emre Güral,37705,Charles,33109,True
+7133424,61,Richard Danilo,1049650,Jean Makoun,3589,True
+7133418,89,Tomáš Necid,18955,Yonathan Del Valle,34368,False
+7133418,76,Emmanuel Emenike,82011,Roman Neustädter,38471,True
+7133418,73,Miroslav Stoch,42860,Jeremain Lens,18115,True
+7133418,73,Mert Örnek,806368,Kubilay Kanatsızkuş,828953,False
+7133418,59,Sercan Yıldırım,43173,Joshua John,27759,False
+7133418,46,Robin van Persie,1,Alper Potuk,55028,True
+7133476,87,Isaac Promise,38485,Abdou Traoré,21090,True
+7133476,83,Zeki Yildirim,107658,Charles,33109,False
+7133476,73,Milan Jevtović,267501,Samuel Eto'o,11688,False
+7133476,66,Vladimir Rodić,347476,Ermin Zec,44279,True
+7133476,62,Deniz Kadah,27220,Richard Danilo,1049650,False
+7133476,46,Hakan Aslantaş,5778,Kerim Zengin,43669,True
+7133470,84,Alain Traoré,16018,Srđan Mijailović,98436,False
+7133470,80,Bilal Kisa,5914,Ricardo Faty,9421,True
+7133470,64,Umut Sönmez,142262,Deniz Türüç,252207,False
+7133470,64,Cristóbal Jorquera,18346,Şamil Çinaz,31568,True
+7133470,59,Sercan Yıldırım,43173,Joshua John,27759,True
+7133474,90,Berkan Emir,344407,Wilde-Donald Guerrier,199416,True
+7133474,88,Sefa Yılmaz,39737,Emre Akbaba,343527,True
+7133474,67,Dame N'Doye,30178,Mustafa Yumlu,124643,False
+7133474,64,Okay Yokuşlu,97967,Mehmet Ekici,37612,False
+7133474,54,Taha Yalçıner,60346,Isaac Sackey,292965,True
+7133469,79,Sinan Gümüş,169165,Yasin Öztekin,21876,True
+7133469,74,Recep Niyaz,116944,Dhurgham Ismail,809593,False
+7133469,61,Ahmet İlhan Özek,124831,Emrah Başsan,174141,False
+7133469,46,Robin Yalçın,138154,Oğuzhan Aynaoğlu,152548,False
+7133473,86,Halil İbrahim Sönmez,806193,Ömer Ali Şahiner,103912,True
+7133473,85,Aydin Karabulut,18862,Serdar Gürler,96520,False
+7133473,79,Tokelo Rantie,238138,Vedat Muriqi,310874,False
+7133473,74,Kamal Issah,135773,İrfan Can Kahveci,226986,False
+7133473,62,Deni Milošević,190403,Alban Meha,850994,True
+7133473,62,Riad Bajić,331751,Ioan Hora,44460,True
+7133472,85,Edgar Silva,54691,Tevfik Altındağ,74042,False
+7133472,78,Cheick Diabaté,44298,Raul Rusescu,43774,True
+7133472,74,Samican Keskin,257025,Vladimir Koman,22089,False
+7133472,74,Dzon Delarge,158533,Aminu Umar,333087,True
+7133472,71,Adam Maher,111719,Musa Çağıran,60363,True
+7133472,64,Canberk Dilaver,230270,Cem Özdemir,135862,False
+7133477,82,Bekir İrtegün,21823,Cenk Ahmet Alkılıç,81928,False
+7133477,78,Evans Kangwa,604444,Muhammed Ildiz,50531,True
+7133477,68,Davy Claude Angan,39242,Daniel Larsson,7129,True
+7133477,63,Mustafa Pektemek,43643,Marcio Mossoró,42293,False
+7133477,63,Ferhat Öztorun,17796,Cengiz Ünder,758876,False
+7133471,83,Muğdat Çelik,74114,Soner Aydoğdu,69351,True
+7133471,83,Vincent Aboubakar,116869,Cenk Tosun,72127,False
+7133471,74,Özer Hurmacı,43425,Sami,60779,True
+7133471,71,Adriano,4441,Gökhan Inler,4252,False
+7133471,63,Onur Ayık,67140,Ricardo Vaz Tê,1261,True
+7133471,59,Tolgay Arslan,71203,Olcay Şahan,16078,False
+7133475,84,Herolind Shala,78895,André Castro,41652,True
+7133475,78,İsmail Köybaşı,43605,Hasan Ali Kaldırım,39847,False
+7133475,70,Moussa Sow,3215,Jeremain Lens,18115,False
+7133475,46,Şener Özbayraklı,129992,Gregory van der Wiel,21204,False
+7133475,46,Abdullah Durak,42224,Veysel Sarı,98276,True
+7133475,46,Samuel Eduok,330035,Franck Etoundi,107026,True
+7133478,88,Sakıb Aytaç,86777,Richard Danilo,1049650,True
+7133478,81,Abdoul Sissoko,51461,Custódio,6561,False
+7133478,77,Chico,39361,Rıdvan Şimşek,60338,True
+7133478,69,Muğdat Çelik,74114,Soner Aydoğdu,69351,False
+7133478,59,Emre Güral,37705,Yekta Kurtuluş,60289,True
+7133478,46,Onur Ayık,67140,Sami,60779,False
+7133485,86,Sokol Cikalleshi,81138,Mehmet Batdal,81617,True
+7133485,80,Adam Maher,111719,Aminu Umar,333087,False
+7133485,70,Raul Rusescu,43774,Cheick Diabaté,44298,False
+7133485,65,Stefano Napoleoni,46939,Uğur Uçar,5713,True
+7133485,65,Dzon Delarge,158533,Musa Çağıran,60363,False
+7133485,63,Mustafa Pektemek,43643,Samuel Holmén,7740,True
+7133479,90,Serge Akakpo,39046,Muhammet Demir,43543,True
+7133479,88,Ogenyi Onazi,150200,Okay Yokuşlu,97967,True
+7133479,81,Halil İbrahim Sönmez,806193,Deni Milošević,190403,False
+7133479,81,Volkan Fındıklı,93248,Nejc Skubic,41240,False
+7133479,66,Yusuf Erdoğan,256663,Mehmet Ekici,37612,True
+7133479,27,Alban Meha,850994,Amir Hadžiahmetović,795421,False
+7133487,87,Sinan Gümüş,169165,Bruma,97012,False
+7133487,85,Adriano,4441,Cenk Tosun,72127,True
+7133487,78,Luis Pedro Cavanda,93562,Sabri Sarioğlu,5715,False
+7133487,78,Josué,77726,Yasin Öztekin,21876,False
+7133487,46,Vincent Aboubakar,116869,Oğuzhan Özyakup,137642,True
+7133487,46,Anderson Talisca,329245,Olcay Şahan,16078,True
+7133480,90,Murat Duruer,5273,Préjuce Nakoulma,60848,True
+7133480,74,Umut Sönmez,142262,Alain Traoré,16018,True
+7133480,72,Leonard Kweuke,46118,Iyayi Believe Atiemwen,838802,False
+7133480,64,Recep Niyaz,116944,Marwane Saadane,847714,False
+7133480,53,Srđan Mijailović,98436,Kubilay Sönmez,169213,True
+7133480,46,Mehmet Akyüz,74144,Robin Yalçın,138154,False
+7133484,83,Merter Yüce,60357,Kubilay Kanatsızkuş,828953,True
+7133484,81,Batuhan Altıntaş,226994,Tunay Torun,30241,False
+7133484,66,Herolind Shala,78895,Abdullah Durak,42224,False
+7133484,60,Sercan Yıldırım,43173,Joshua John,27759,True
+7133484,60,Cristóbal Jorquera,18346,Ricardo Faty,9421,True
+7133484,55,Bengali-Fodé Koita,51407,Franck Etoundi,107026,False
+7133486,90,Anton Putilo,32149,Daniel Kolář,15427,False
+7133486,88,Roman Neustädter,38471,Jeremain Lens,18115,True
+7133486,72,Alper Potuk,55028,Ozan Tufan,251907,True
+7133486,72,Moussa Sow,3215,Volkan Şen,43533,True
+7133486,62,Emre Nefiz,242823,František Rajtoral,12033,False
+7133486,46,Davy Claude Angan,39242,İlhan Parlak,5810,False
+7133483,82,Tokelo Rantie,238138,Bogdan Stancu,22547,True
+7133483,80,Isaac Promise,38485,İlhan Depe,146368,False
+7133483,80,Hakan Aslantaş,5778,Ólafur Ingi Skúlason,19739,False
+7133483,78,İrfan Can Kahveci,226986,Serdar Gürler,96520,True
+7133483,52,İlhan Depe,146368,Ermin Zec,44279,False
+7133483,46,Aydin Karabulut,18862,Vedat Muriqi,310874,True
+7133481,90,Edgar Silva,54691,Roni,328991,True
+7133481,76,Renan Foguinho,127983,Cem Özdemir,135862,True
+7133481,74,Sefa Yılmaz,39737,Deniz Vural,94413,False
+7133481,59,Canberk Dilaver,230270,Ousmane Viera,37011,True
+7133481,56,Gökay İravul,106827,Taha Yalçıner,60346,False
+7133492,90,Marko Milinković,43138,Serdar Gürler,96520,False
+7133492,84,Mervan Çelik,35631,Ricardo Vaz Tê,1261,True
+7133492,81,İrfan Can Kahveci,226986,Aydin Karabulut,18862,False
+7133492,73,Vedat Muriqi,310874,Bogdan Stancu,22547,False
+7133492,56,Özer Hurmacı,43425,Muğdat Çelik,74114,True
+7133492,48,Sami,60779,Onur Ayık,67140,True
+7133503,83,Ermin Zec,44279,İlhan Depe,146368,True
+7133503,77,Vladimir Rodić,347476,Abdou Traoré,21090,True
+7133503,76,Yusuf Erdoğan,256663,Mehmet Ekici,37612,False
+7133503,72,Ólafur Ingi Skúlason,19739,Mustapha Yatabaré,51558,True
+7133503,65,Fabián Castillo,151561,Muhammet Demir,43543,False
+7133503,61,Ogenyi Onazi,150200,Okay Yokuşlu,97967,False
+7133493,90,Turgut Şahin,60645,Tunay Torun,30241,True
+7133493,51,Srđan Mijailović,98436,Deniz Türüç,252207,False
+7133493,46,Veysel Sarı,98276,David Pavelka,101330,True
+7133493,46,Ufuk Budak,96688,Jean-Armel Kana-Biyik,39020,False
+7133493,32,Umut Bulut,5275,Alain Traoré,16018,False
+7133493,15,Batuhan Altıntaş,226994,Franck Etoundi,107026,True
+7133482,86,Sergei Kislyak,49809,Muhammed Ildiz,50531,True
+7133482,80,Sercan Yıldırım,43173,Kubilay Kanatsızkuş,828953,False
+7133482,72,Daniel Larsson,7129,Davy Claude Angan,39242,True
+7133482,63,Mert Örnek,806368,Joshua John,27759,False
+7133482,57,Anton Putilo,32149,Daniel Kolář,15427,True
+7133482,23,Erdem Özgenç,60332,Ertuğrul Ersoy,355004,False
+7133488,90,Özgür Çek,69434,Oğulcan Çağlayan,387050,True
+7133488,85,Iyayi Believe Atiemwen,838802,Emrah Başsan,174141,True
+7133488,74,Adriano,4441,Necip Uysal,43394,False
+7133488,62,Leonard Kweuke,46118,Ahmet İlhan Özek,124831,True
+7133488,46,Vincent Aboubakar,116869,Ömer Şişmanoğlu,29451,False
+7133488,46,Ricardo Quaresma,6254,Olcay Şahan,16078,False
+7133491,84,Stefano Napoleoni,46939,Edin Višća,109779,False
+7133491,71,Mustafa Pektemek,43643,Marcio Mossoró,42293,False
+7133491,64,Samuel Holmén,7740,Emre Belözoğlu,2054,False
+7133491,60,Carlos Garcia,27835,Abdoulaye Ba,798948,True
+7133491,41,Sefa Yılmaz,39737,Wilde-Donald Guerrier,199416,True
+7133495,72,Sinan Gümüş,169165,Yasin Öztekin,21876,True
+7133495,65,Emre Güral,37705,Serdar Özkan,30032,False
+7133495,61,Jean Makoun,3589,Yekta Kurtuluş,60289,False
+7133495,46,Luis Pedro Cavanda,93562,Sabri Sarioğlu,5715,True
+7133495,46,Lukas Podolski,1367,Wesley Sneijder,1934,True
+7133495,29,Samuel Eto'o,11688,Richard Danilo,1049650,False
+7133494,86,Amir Hadžiahmetović,795421,Dimitar Rangelov,20744,True
+7133494,66,Ahmet Bahcivan,999394,Canberk Dilaver,230270,False
+7133494,62,Riad Bajić,331751,Halil İbrahim Sönmez,806193,True
+7133494,62,Deni Milošević,190403,Alban Meha,850994,True
+7133494,53,Emre Uğur Uruç,370940,Cem Özdemir,135862,False
+7133494,41,Samican Keskin,257025,Bekir Yılmaz,81620,False
+7133504,86,Adam Maher,111719,Cheick Diabaté,44298,True
+7133504,77,Erdal Kılıçaslan,43693,Adrien Regattin,99774,True
+7133504,72,Miroslav Stoch,42860,Volkan Şen,43533,False
+7133504,72,Aykut Demir,16948,Koray Altınay,164759,True
+7133504,64,Alper Potuk,55028,Moussa Sow,3215,False
+7133504,46,Robin van Persie,1,Ozan Tufan,251907,False
+7133501,82,İlhan Parlak,5810,Alpay Kocakli,612018,False
+7133501,80,Samuel Eduok,330035,Tunay Torun,30241,True
+7133501,70,David Pavelka,101330,Veysel Sarı,98276,True
+7133501,70,Herolind Shala,78895,Abdullah Durak,42224,True
+7133501,66,Alpay Kocakli,612018,Davy Claude Angan,39242,False
+7133501,46,Mohammed Fatau,258961,Anton Putilo,32149,False
+7133502,81,Adriano,4441,Anderson Talisca,329245,False
+7133502,79,Alain Traoré,16018,Umut Bulut,5275,True
+7133502,71,Umut Sönmez,142262,Kubilay Sönmez,169213,True
+7133502,62,Ömer Şişmanoğlu,29451,Tolgay Arslan,71203,False
+7133502,46,Ricardo Quaresma,6254,Vincent Aboubakar,116869,False
+7133499,90,Valerică Găman,43100,Ermin Zec,44279,False
+7133499,80,İlhan Depe,146368,Abdou Traoré,21090,False
+7133499,80,Samican Keskin,257025,Tevfik Altındağ,74042,True
+7133499,65,Ahmet Dereli,163711,Edgar Silva,54691,True
+7133499,64,Serdar Deliktaş,84807,Mustapha Yatabaré,51558,False
+7133489,85,Tokelo Rantie,238138,Bogdan Stancu,22547,True
+7133489,85,Hamit Altıntop,246,Yasin Öztekin,21876,False
+7133489,68,Lukas Podolski,1367,Josué,77726,False
+7133489,68,İrfan Can Kahveci,226986,Guy-Michel Landel,88610,True
+7133489,62,Vedat Muriqi,310874,Serdar Gürler,96520,True
+7133489,53,Luis Pedro Cavanda,93562,Sabri Sarioğlu,5715,False
+7133490,82,Jens Jønsson,156640,Ömer Ali Şahiner,103912,False
+7133490,82,Mustafa Pektemek,43643,Cengiz Ünder,758876,True
+7133490,74,Stefano Napoleoni,46939,Marcio Mossoró,42293,True
+7133490,72,Deni Milošević,190403,Dimitar Rangelov,20744,False
+7133490,72,Riad Bajić,331751,Halil İbrahim Sönmez,806193,False
+7133490,65,Doka Madureira,52002,Uğur Uçar,5713,True
+7133496,87,Bilal Kisa,5914,Şamil Çinaz,31568,True
+7133496,82,Dzon Delarge,158533,Aminu Umar,333087,False
+7133496,75,Cristóbal Jorquera,18346,Ricardo Faty,9421,True
+7133496,71,Raul Rusescu,43774,Cheick Diabaté,44298,False
+7133496,46,Merter Yüce,60357,Sercan Yıldırım,43173,True
+7133496,25,Aykut Demir,16948,Koray Altınay,164759,False
+7133497,90,Berkan Emir,344407,Daniel Candeias,41835,False
+7133497,82,Jonathan Ayite,51439,Vágner Love,13313,False
+7133497,77,Miroslav Stoch,42860,Alper Potuk,55028,True
+7133497,69,Sefa Yılmaz,39737,Ismail Aissati,10675,False
+7133497,63,Aatif Chahechouhe,114911,Emmanuel Emenike,82011,True
+7133500,86,Tolga Ünlü,150469,Douglão,39060,False
+7133500,82,Onur Ayık,67140,Ömer Bayram,68335,False
+7133500,82,Yusuf Erdoğan,256663,Fabián Castillo,151561,True
+7133500,71,Dame N'Doye,30178,Hyun-Jun Suk,106249,True
+7133500,56,Abdoul Sissoko,51461,Özer Hurmacı,43425,False
+7133500,37,Okay Yokuşlu,97967,Ogenyi Onazi,150200,True
+7133498,87,Milan Jevtović,267501,Richard Danilo,1049650,True
+7133498,79,Recep Niyaz,116944,Davide Petrucci,307266,False
+7133498,79,Mehmet Akyüz,74144,Jakob Jantscher,26292,False
+7133498,76,Yekta Kurtuluş,60289,Zeki Yildirim,107658,True
+7133498,60,Ahmet İlhan Özek,124831,Emrah Başsan,174141,False
+7133498,34,Mbilla Etame,60426,Serdar Özkan,30032,True
+7133525,88,Mohamed Ali Yaakoubi,215356,Ahmet İlhan Özek,124831,True
+7133525,84,Guy-Michel Landel,88610,Abdulrahman Khalili,109970,False
+7133525,79,Patryk Tuszyński,71075,Robin Yalçın,138154,True
+7133525,69,Emrah Başsan,174141,Jakob Jantscher,26292,True
+7133525,46,Vedat Muriqi,310874,Tokelo Rantie,238138,False
+7133525,46,Aydin Karabulut,18862,Serdar Gürler,96520,False
+7133512,90,Alain Traoré,16018,Deniz Türüç,252207,False
+7133512,88,Murat Duruer,5273,Préjuce Nakoulma,60848,False
+7133512,77,Anton Putilo,32149,Daniel Larsson,7129,True
+7133512,66,İlhan Parlak,5810,Sergei Kislyak,49809,True
+7133512,66,Alpay Kocakli,612018,Davy Claude Angan,39242,True
+7133512,66,Umut Sönmez,142262,Umut Bulut,5275,False
+7133511,88,Jonathan Ayite,51439,Sefa Yılmaz,39737,True
+7133511,75,Wilde-Donald Guerrier,199416,Daniel Candeias,41835,True
+7133511,75,Cristóbal Jorquera,18346,Ricardo Faty,9421,False
+7133511,75,Joshua John,27759,Kubilay Kanatsızkuş,828953,False
+7133511,46,Yonathan Del Valle,34368,Sinan Bakış,169317,False
+7133507,80,Edgar Silva,54691,Roni,328991,False
+7133507,79,Soner Aydoğdu,69351,Özer Hurmacı,43425,True
+7133507,62,Abdoul Sissoko,51461,Landry N'Guemo,8958,True
+7133507,58,Ahmet Dereli,163711,Samican Keskin,257025,False
+7133507,55,Onur Ayık,67140,Mervan Çelik,35631,True
+7133509,89,Serge Akakpo,39046,Ogenyi Onazi,150200,False
+7133509,78,Nigel de Jong,1879,Selçuk İnan,31253,True
+7133509,69,Josué,77726,Wesley Sneijder,1934,True
+7133509,69,Sinan Gümüş,169165,Luis Pedro Cavanda,93562,True
+7133509,59,Güray Vural,43559,Matúš Bero,187207,False
+7133509,26,Yusuf Erdoğan,256663,Fabián Castillo,151561,False
+7133522,88,Eren Albayrak,43532,Cengiz Ünder,758876,False
+7133522,84,İlhan Depe,146368,Hakan Aslantaş,5778,True
+7133522,77,Stefano Napoleoni,46939,Marcio Mossoró,42293,False
+7133522,71,Dejan Lazarevič,45927,André Poko,177103,True
+7133522,62,Serdar Deliktaş,84807,Ermin Zec,44279,True
+7133522,46,Hakan Özmert,43512,Emre Belözoğlu,2054,False
+7133510,90,Vasil Bozhikov,87277,Adem Büyük,60250,False
+7133510,85,Ferhat Kiraz,60352,Samuel Eduok,330035,False
+7133510,67,Veysel Sarı,98276,Turgut Şahin,60645,False
+7133510,63,Pierre Webó,4618,Dzon Delarge,158533,True
+7133510,54,Musa Çağıran,60363,Raul Rusescu,43774,True
+7133510,46,Muhammed Bayir,344301,Tiago Pinto,44627,True
+7133513,84,Kenan Horić,72389,Zeki Yildirim,107658,False
+7133513,84,Milan Jevtović,267501,Samuel Eto'o,11688,False
+7133513,81,Ömer Şişmanoğlu,29451,Caner Erkin,15680,True
+7133513,69,Mbilla Etame,60426,Richard Danilo,1049650,False
+7133513,69,Caner Erkin,15680,Tolgay Arslan,71203,True
+7133513,63,Necip Uysal,43394,Cenk Tosun,72127,True
+7133508,82,Roman Neustädter,38471,Robin van Persie,1,False
+7133508,77,Alper Potuk,55028,İsmail Köybaşı,43605,False
+7133508,76,Alban Meha,850994,Dimitar Rangelov,20744,True
+7133508,63,Moussa Sow,3215,Jeremain Lens,18115,False
+7133508,46,Riad Bajić,331751,Halil İbrahim Sönmez,806193,True
+7133508,46,Deni Milošević,190403,Ali Turan,5813,True
+7133528,90,Ante Kulušić,46424,Serdar Gürler,96520,True
+7133528,88,Tokelo Rantie,238138,İrfan Can Kahveci,226986,True
+7133528,87,Andreas Beck,9860,Gökhan Gönül,30137,False
+7133528,75,Abdulrahman Khalili,109970,Aydin Karabulut,18862,True
+7133528,46,Vincent Aboubakar,116869,Olcay Şahan,16078,False
+7133528,16,Rhodolfo,39355,Necip Uysal,43394,False
+7133517,78,Emre Nefiz,242823,Davy Claude Angan,39242,True
+7133517,73,Adam Maher,111719,Tiago Pinto,44627,False
+7133517,65,Daniel Larsson,7129,Evans Kangwa,604444,True
+7133517,56,Erdal Kılıçaslan,43693,Adrien Regattin,99774,False
+7133517,46,Raul Rusescu,43774,Pierre Webó,4618,False
+7133517,33,Anton Putilo,32149,Muhammed Ildiz,50531,True
+7133516,84,Sinan Bakış,169317,Yonathan Del Valle,34368,True
+7133516,81,Amir Hadžiahmetović,795421,Ali Turan,5813,False
+7133516,81,Ali Dere,110965,Dimitar Rangelov,20744,False
+7133516,63,Kubilay Kanatsızkuş,828953,Joshua John,27759,True
+7133516,60,Deni Milošević,190403,Alban Meha,850994,False
+7133516,44,Cristóbal Jorquera,18346,Merter Yüce,60357,True
+7133521,88,Emre Uğur Uruç,370940,Vladimir Koman,22089,True
+7133521,83,Josué,77726,Lukas Podolski,1367,False
+7133521,78,Magaye Gueye,51417,Edgar Silva,54691,True
+7133521,69,Ahmet Dereli,163711,Roni,328991,True
+7133521,60,Nigel de Jong,1879,Tolga Ciğerci,120298,False
+7133521,60,Sinan Gümüş,169165,Yasin Öztekin,21876,False
+7133524,80,Ricardo Vaz Tê,1261,Hugo Rodallega,15668,False
+7133524,71,Mustafa Pektemek,43643,Marcio Mossoró,42293,True
+7133524,70,Samuel Holmén,7740,Emre Belözoğlu,2054,True
+7133524,46,Uğur Uçar,5713,Cenk Ahmet Alkılıç,81928,True
+7133524,46,Onur Ayık,67140,Ömer Bayram,68335,False
+7133524,46,Abdoul Sissoko,51461,Özer Hurmacı,43425,False
+7133518,86,Hyun-Jun Suk,106249,Ogenyi Onazi,150200,True
+7133518,80,Emrah Başsan,174141,Ahmet İlhan Özek,124831,False
+7133518,72,Patryk Tuszyński,71075,Oğulcan Çağlayan,387050,False
+7133518,72,Mehmet Akyüz,74144,Robin Yalçın,138154,False
+7133527,82,Osman Çelik,758656,Tănase Cristian,43782,False
+7133527,77,İsmail Köybaşı,43605,Volkan Şen,43533,True
+7133527,65,Moussa Sow,3215,Robin van Persie,1,True
+7133527,56,Roman Neustädter,38471,Mehmet Topal,17793,True
+7133527,56,Serdar Deliktaş,84807,Abdou Traoré,21090,False
+7133527,56,İlhan Depe,146368,Mustapha Yatabaré,51558,False
+7133515,90,Vasil Bozhikov,87277,Adem Büyük,60250,True
+7133515,76,Veysel Sarı,98276,Samuel Eduok,330035,True
+7133515,68,Sefa Yılmaz,39737,Daniel Candeias,41835,False
+7133515,60,Ferhat Kiraz,60352,Turgut Şahin,60645,True
+7133515,58,Jonathan Ayite,51439,Wilde-Donald Guerrier,199416,False
+7133529,90,Serdar Özkan,30032,Samuel Eto'o,11688,False
+7133529,88,Kenan Horić,72389,Zeki Yildirim,107658,False
+7133529,74,Umut Sönmez,142262,Srđan Mijailović,98436,True
+7133529,74,Alain Traoré,16018,Umut Bulut,5275,True
+7133529,57,Mbilla Etame,60426,Richard Danilo,1049650,False
+7133580,90,Mustafa Pektemek,43643,Mehmet Batdal,81617,False
+7133580,88,Eren Albayrak,43532,Cengiz Ünder,758876,False
+7133580,82,Samuel Holmén,7740,Marcio Mossoró,42293,False
+7133580,77,Lukas Podolski,1367,Sinan Gümüş,169165,True
+7133580,71,Josué,77726,Selçuk İnan,31253,True
+7133569,85,Ismail Aissati,10675,Daniel Candeias,41835,True
+7133569,82,Daniel Kolář,15427,Muhammed Ildiz,50531,False
+7133569,55,Anton Putilo,32149,Sergei Kislyak,49809,False
+7133569,46,Wilde-Donald Guerrier,199416,Sefa Yılmaz,39737,True
+7133569,46,Jonathan Ayite,51439,Deniz Vural,94413,True
+7133569,20,Daniel Larsson,7129,Davy Claude Angan,39242,False
+7133560,82,Sercan Yıldırım,43173,Cristóbal Jorquera,18346,False
+7133560,70,Ermin Zec,44279,Dejan Lazarevič,45927,True
+7133560,63,Bilal Kisa,5914,Kubilay Kanatsızkuş,828953,False
+7133560,46,Abdou Traoré,21090,Serdar Deliktaş,84807,True
+7133575,90,Kenan Horić,72389,Samuel Eto'o,11688,True
+7133575,77,Serdar Özkan,30032,Ramon Motta,39665,True
+7133575,64,Marko Milinković,43138,Aydin Karabulut,18862,False
+7133575,64,Mbilla Etame,60426,Richard Danilo,1049650,True
+7133575,60,Abdulrahman Khalili,109970,Vedat Muriqi,310874,False
+7133575,46,Bogdan Stancu,22547,İrfan Can Kahveci,226986,False
+7133581,89,Andreas Beck,9860,Oğuzhan Özyakup,137642,True
+7133581,88,Hyun-Jun Suk,106249,Matúš Bero,187207,False
+7133581,79,Luis Ibáñez,39478,Ogenyi Onazi,150200,False
+7133581,76,Ömer Şişmanoğlu,29451,Vincent Aboubakar,116869,True
+7133581,66,Gökhan Inler,4252,Tolgay Arslan,71203,True
+7133581,64,Aytaç Kara,128196,Yusuf Erdoğan,256663,False
+7133559,90,Samican Keskin,257025,Tevfik Altındağ,74042,False
+7133559,89,Mehmet Akyüz,74144,Ahmet İlhan Özek,124831,True
+7133559,88,Patryk Tuszyński,71075,Robin Yalçın,138154,True
+7133559,70,Emrah Başsan,174141,Oğulcan Çağlayan,387050,True
+7133559,66,Ahmet Bahcivan,999394,Emre Uğur Uruç,370940,False
+7133574,90,Tugay Kaçar,152437,Aminu Umar,333087,True
+7133574,81,Alain Traoré,16018,Umut Sönmez,142262,False
+7133574,70,Adrien Regattin,99774,Adam Maher,111719,True
+7133574,66,Umut Bulut,5275,Welliton,27570,False
+7133574,64,Raul Rusescu,43774,Pierre Webó,4618,True
+7133574,46,Kubilay Sönmez,169213,Samba Sow,73059,False
+7133561,79,Roman Neustädter,38471,Jeremain Lens,18115,False
+7133561,78,Soner Aydoğdu,69351,Muğdat Çelik,74114,True
+7133561,59,Alper Potuk,55028,Volkan Şen,43533,False
+7133561,59,Ricardo Vaz Tê,1261,Mervan Çelik,35631,True
+7133561,40,Emmanuel Emenike,82011,Robin van Persie,1,False
+7133568,88,Abdülkerim Bardakcı,178963,Jagoš Vuković,50289,True
+7133568,84,Vasil Bozhikov,87277,Abdullah Durak,42224,False
+7133568,76,Deni Milošević,190403,Halil İbrahim Sönmez,806193,True
+7133568,63,Ahmed Ildız,849329,Samuel Eduok,330035,False
+7133568,46,Turgut Şahin,60645,Batuhan Altıntaş,226994,False
+7133568,11,Ali Turan,5813,Jens Jønsson,156640,True
+7133578,84,Marc Kibong Mbamba,60412,Deni Milošević,190403,False
+7133578,72,Orkan Çınar,283901,Evans Kangwa,604444,True
+7133578,72,İlhan Parlak,5810,Daniel Larsson,7129,True
+7133578,72,Ioan Hora,44460,Dimitar Rangelov,20744,False
+7133578,61,Amir Hadžiahmetović,795421,Riad Bajić,331751,False
+7133578,46,Anton Putilo,32149,Muhammed Ildiz,50531,True
+7133588,90,Ricardo Vaz Tê,1261,Onur Ayık,67140,False
+7133588,82,Sinan Bakış,169317,Joshua John,27759,True
+7133588,63,Cristóbal Jorquera,18346,Ricardo Faty,9421,True
+7133588,63,Kubilay Kanatsızkuş,828953,Yonathan Del Valle,34368,True
+7133588,56,Mervan Çelik,35631,Custódio,6561,False
+7133588,35,Soner Aydoğdu,69351,Landry N'Guemo,8958,False
+7133573,88,Ömer Şişmanoğlu,29451,Vincent Aboubakar,116869,False
+7133573,88,Ahmet Bahcivan,999394,Renan Foguinho,127983,True
+7133573,78,Kerim Frei,157014,Ricardo Quaresma,6254,False
+7133573,64,Gökhan Inler,4252,Tolgay Arslan,71203,False
+7133573,60,Edgar Silva,54691,Magaye Gueye,51417,True
+7133573,59,Emre Uğur Uruç,370940,Tevfik Altındağ,74042,True
+7133587,82,Adam Maher,111719,Dzon Delarge,158533,True
+7133587,82,Ismail Aissati,10675,Isaac Sackey,292965,False
+7133587,74,Efecan Karaca,60510,Daniel Candeias,41835,False
+7133587,72,Raul Rusescu,43774,Pierre Webó,4618,True
+7133587,67,Taha Yalçıner,60346,Jonathan Ayite,51439,False
+7133587,64,Erdal Kılıçaslan,43693,Adrien Regattin,99774,True
+7133579,86,Osman Çelik,758656,İlhan Depe,146368,False
+7133579,70,Vladimir Rodić,347476,Dejan Lazarevič,45927,False
+7133579,62,Batuhan Altıntaş,226994,Bengali-Fodé Koita,51407,True
+7133579,46,Loret Sadiku,143356,Abdullah Durak,42224,True
+7133579,46,Strahil Popov,52001,Veysel Sarı,98276,True
+7133579,32,Adriano Facchini,167859,Ahmet Şahin,54636,False
+7133577,84,Halil Ibrahim Pehlivan,777291,Serdar Gürler,96520,False
+7133577,83,Furkan Yaman,553642,Samba Sow,73059,True
+7133577,73,Cosmin Matei,44429,Aydin Karabulut,18862,False
+7133577,58,Umut Sönmez,142262,Alain Traoré,16018,True
+7133577,58,Vedat Muriqi,310874,Bogdan Stancu,22547,False
+7133577,46,Ufuk Budak,96688,Larrys Mabiala,21556,True
+7133585,90,Salih Uçan,135695,Alper Potuk,55028,True
+7133585,84,Emmanuel Emenike,82011,Volkan Şen,43533,True
+7133585,84,Aatif Chahechouhe,114911,Robin van Persie,1,True
+7133585,70,Luis Pedro Cavanda,93562,Eren Derdiyok,21943,False
+7133585,66,Lukas Podolski,1367,Wesley Sneijder,1934,False
+7133585,46,Yasin Öztekin,21876,Sinan Gümüş,169165,False
+7133582,90,Emrah Başsan,174141,Davide Petrucci,307266,False
+7133582,85,Eren Albayrak,43532,Ferhat Öztorun,17796,True
+7133582,83,Mehmet Akyüz,74144,Ahmet İlhan Özek,124831,False
+7133582,73,Mustafa Pektemek,43643,Marcio Mossoró,42293,True
+7133582,71,Patryk Tuszyński,71075,Oğulcan Çağlayan,387050,False
+7133582,67,Stefano Napoleoni,46939,Cengiz Ünder,758876,True
+7133576,90,Milan Jevtović,267501,Richard Danilo,1049650,False
+7133576,81,Hyun-Jun Suk,106249,Dame N'Doye,30178,True
+7133576,79,Kenan Horić,72389,Mbilla Etame,60426,False
+7133576,73,Yekta Kurtuluş,60289,Sakıb Aytaç,86777,False
+7133576,61,Muhammet Demir,43543,Ogenyi Onazi,150200,True
+7133589,90,Sefa Yılmaz,39737,Daniel Candeias,41835,True
+7133589,84,Ali Ahamada,102689,Murat Duruer,5273,False
+7133589,72,Umut Bulut,5275,Umut Sönmez,142262,False
+7133589,66,Efecan Karaca,60510,Wilde-Donald Guerrier,199416,True
+7133596,90,Hamit Altıntop,246,Wesley Sneijder,1934,True
+7133596,86,Eren Derdiyok,21943,Lukas Podolski,1367,True
+7133596,81,Sinan Gümüş,169165,Bruma,97012,True
+7133596,73,Tomáš Necid,18955,Joshua John,27759,False
+7133596,64,Cristóbal Jorquera,18346,Kubilay Kanatsızkuş,828953,False
+7133596,64,Emre Taşdemir,190191,Ricardo Faty,9421,False
+7133586,89,Elvis Kokalović,42144,Abdou Traoré,21090,True
+7133586,84,Bruno Mota,794879,Abdulkadir Kayali,46167,False
+7133586,68,Mohammed Fatau,258961,Anton Putilo,32149,False
+7133586,68,Çınar Tarhan,851949,Dejan Lazarevič,45927,True
+7133586,46,İlhan Parlak,5810,Evans Kangwa,604444,False
+7133586,46,İlhan Depe,146368,Vladimir Rodić,347476,True
+7133570,83,Orhan Taşdelen,74088,Miguel Lopes,41651,True
+7133570,79,Turgut Şahin,60645,André Castro,41652,False
+7133570,57,Bengali-Fodé Koita,51407,Samuel Eduok,330035,False
+7133570,46,Bora Körk,5890,Milan Lukač,79171,True
+7133570,46,Aykut Çeviker,74133,Custódio,6561,True
+7133570,46,Loret Sadiku,143356,Abdullah Durak,42224,False
+7133584,90,Kenan Horić,72389,Mbilla Etame,60426,True
+7133584,87,Yekta Kurtuluş,60289,Zeki Yildirim,107658,True
+7133584,83,Ahmet Bahcivan,999394,Cem Özdemir,135862,False
+7133584,72,Samuel Eto'o,11688,Ramon Motta,39665,True
+7133584,59,Magaye Gueye,51417,Vladimir Koman,22089,False
+7133599,87,Mustafa Pektemek,43643,Mehmet Batdal,81617,False
+7133599,83,Olcay Şahan,16078,Vincent Aboubakar,116869,True
+7133599,81,Gökhan Gönül,30137,Adriano,4441,True
+7133599,57,Eren Albayrak,43532,Ferhat Öztorun,17796,False
+7133599,46,Tolgay Arslan,71203,Gökhan Inler,4252,True
+7133599,40,Joseph Attamah,332963,Emre Belözoğlu,2054,False
+7133594,90,Mustafa Yumlu,124643,Luis Ibáñez,39478,False
+7133594,89,Vedat Muriqi,310874,Cosmin Matei,44429,True
+7133594,63,Muhammet Demir,43543,Aytaç Kara,128196,False
+7133594,46,Cosmin Matei,44429,İrfan Can Kahveci,226986,True
+7133594,32,Tokelo Rantie,238138,Kamal Issah,135773,True
+7133583,83,Marwane Saadane,847714,Oğulcan Çağlayan,387050,True
+7133583,77,Volkan Şen,43533,Moussa Sow,3215,False
+7133583,69,İsmail Köybaşı,43605,Hasan Ali Kaldırım,39847,False
+7133583,69,Roman Neustädter,38471,Martin Škrtel,12394,False
+7133583,69,Patryk Tuszyński,71075,Robin Yalçın,138154,True
+7133583,66,Emrah Başsan,174141,Ahmet İlhan Özek,124831,True
+7133572,90,Erdal Kılıçaslan,43693,Dzon Delarge,158533,False
+7133572,85,Cheick Diabaté,44298,Pierre Webó,4618,False
+7133572,84,Ioan Hora,44460,Deni Milošević,190403,True
+7133572,79,Raheem Lawal,239274,Adam Maher,111719,False
+7133572,75,Jens Jønsson,156640,Volkan Fındıklı,93248,True
+7133572,56,Halil İbrahim Sönmez,806193,Dimitar Rangelov,20744,True
+7133593,89,Milan Jevtović,267501,Richard Danilo,1049650,False
+7133593,84,Eren Albayrak,43532,Mehmet Batdal,81617,True
+7133593,76,Mustafa Pektemek,43643,Yalçın Ayhan,43507,True
+7133593,60,Mbilla Etame,60426,Ramon Motta,39665,False
+7133593,60,Yekta Kurtuluş,60289,Zeki Yildirim,107658,False
+7133593,55,Emre Belözoğlu,2054,Mahmut Tekdemir,43666,True
+7133611,88,Olcay Şahan,16078,Kerim Frei,157014,False
+7133611,86,Necip Uysal,43394,Oğuzhan Özyakup,137642,False
+7133611,76,Jeremain Lens,18115,Moussa Sow,3215,True
+7133611,60,Vincent Aboubakar,116869,Ricardo Quaresma,6254,False
+7133611,46,Volkan Şen,43533,Aatif Chahechouhe,114911,True
+7133597,90,Halil İbrahim Sönmez,806193,Amir Hadžiahmetović,795421,False
+7133597,79,Alban Meha,850994,Deni Milošević,190403,False
+7133597,63,Dimitar Rangelov,20744,Ömer Ali Şahiner,103912,False
+7133597,56,Wilde-Donald Guerrier,199416,Efecan Karaca,60510,True
+7133597,46,Jonathan Ayite,51439,Isaac Sackey,292965,True
+7133603,90,Orhan Taşdelen,74088,Hugo Rodallega,15668,False
+7133603,84,İlhan Parlak,5810,Abdulkadir Kayali,46167,True
+7133603,73,Orkan Çınar,283901,Emre Nefiz,242823,True
+7133603,70,Muğdat Çelik,74114,Onur Ayık,67140,False
+7133603,67,Anton Putilo,32149,Bruno Mota,794879,True
+7133603,61,Ricardo Vaz Tê,1261,Soner Aydoğdu,69351,False
+7133612,85,Serdar Deliktaş,84807,Ermin Zec,44279,False
+7133612,85,Aminu Umar,333087,Adrien Regattin,99774,True
+7133612,77,İlhan Depe,146368,Elvis Kokalović,42144,False
+7133612,77,Dejan Lazarevič,45927,Tănase Cristian,43782,False
+7133612,72,Raul Rusescu,43774,Pierre Webó,4618,True
+7133612,66,Mehmet Güven,17795,Adam Maher,111719,True
+7133571,90,Ahmet Bahcivan,999394,Tevfik Altındağ,74042,True
+7133571,82,Samican Keskin,257025,Roni,328991,True
+7133571,75,Guy-Michel Landel,88610,Orhan Şam,5784,False
+7133571,64,Cem Özdemir,135862,Edgar Silva,54691,True
+7133571,64,Tokelo Rantie,238138,Vedat Muriqi,310874,False
+7133571,54,Kamal Issah,135773,Aydin Karabulut,18862,False
+7133592,90,Josué,77726,Wesley Sneijder,1934,False
+7133592,89,Eren Derdiyok,21943,Lukas Podolski,1367,False
+7133592,88,Ferhat Kiraz,60352,David Pavelka,101330,True
+7133592,88,Martin Linnes,109569,Yasin Öztekin,21876,False
+7133592,83,Turgut Şahin,60645,Adem Büyük,60250,True
+7133592,66,Bengali-Fodé Koita,51407,Samuel Eduok,330035,True
+7133595,87,Ricardo Faty,9421,Cristóbal Jorquera,18346,True
+7133595,80,Recep Niyaz,116944,Davide Petrucci,307266,False
+7133595,77,Özgür Çek,69434,Ahmet İlhan Özek,124831,False
+7133595,66,Leonard Kweuke,46118,Robin Yalçın,138154,False
+7133595,58,Sercan Yıldırım,43173,Yonathan Del Valle,34368,True
+7133595,46,Joshua John,27759,Kubilay Kanatsızkuş,828953,True
+7133608,85,Muhammet Demir,43543,Yusuf Erdoğan,256663,False
+7133608,84,Alain Traoré,16018,Srđan Mijailović,98436,True
+7133608,79,Ramil Sheydaev,280657,Matúš Bero,187207,False
+7133608,63,Mustafa Yumlu,124643,Uğur Demirok,43427,False
+7133608,17,Umut Sönmez,142262,Murat Duruer,5273,True
+7133604,83,Serge Akakpo,39046,Zeki Yavru,140735,True
+7133604,80,Tevfik Altındağ,74042,Renan Foguinho,127983,False
+7133604,80,Muhammet Demir,43543,Ján Ďurica,12869,True
+7133604,72,Cem Özdemir,135862,Vladimir Koman,22089,False
+7133604,60,Ousmane Viera,37011,Mauricio Ramos,47011,False
+7133604,46,Fabián Castillo,151561,Aytaç Kara,128196,True
+7133601,90,Vasil Bozhikov,87277,André Castro,41652,False
+7133601,83,Ahmet İlhan Özek,124831,Oğulcan Çağlayan,387050,True
+7133601,81,Ferhat Kiraz,60352,Tunay Torun,30241,False
+7133601,70,Turgut Şahin,60645,Bengali-Fodé Koita,51407,False
+7133601,55,Özgür Çek,69434,Dhurgham Ismail,809593,True
+7133601,55,Recep Niyaz,116944,Marwane Saadane,847714,True
+7133614,90,Gökhan Inler,4252,Oğuzhan Özyakup,137642,True
+7133614,87,Ömer Şişmanoğlu,29451,Cenk Tosun,72127,True
+7133614,84,Sinan Bakış,169317,Merter Yüce,60357,False
+7133614,55,Tomáš Necid,18955,Yonathan Del Valle,34368,False
+7133614,55,Emre Taşdemir,190191,Joshua John,27759,False
+7133614,46,Tolgay Arslan,71203,Olcay Şahan,16078,True
+7133602,90,Stefano Napoleoni,46939,Marcio Mossoró,42293,False
+7133602,85,Marko Milinković,43138,Abdulrahman Khalili,109970,True
+7133602,82,Doka Madureira,52002,Cengiz Ünder,758876,False
+7133602,74,Kamal Issah,135773,İrfan Can Kahveci,226986,True
+7133602,71,Mustafa Pektemek,43643,Mehmet Batdal,81617,False
+7133602,67,Cosmin Matei,44429,Vedat Muriqi,310874,True
+7133606,90,Jonathan Ayite,51439,Fabrice N'Sakala,123387,False
+7133606,88,Erhan Kartal,97961,Efecan Karaca,60510,False
+7133606,84,Sajjad Shahbazzadeh,844573,Vágner Love,13313,False
+7133606,66,İlhan Depe,146368,Dejan Lazarevič,45927,True
+7133606,13,Hakan Aslantaş,5778,Ólafur Ingi Skúlason,19739,True
+7133617,82,Adam Maher,111719,Musa Çağıran,60363,False
+7133617,72,Aminu Umar,333087,Dzon Delarge,158533,False
+7133617,65,Raul Rusescu,43774,Pierre Webó,4618,False
+7133617,46,Muğdat Çelik,74114,Soner Aydoğdu,69351,True
+7133617,46,Ricardo Vaz Tê,1261,Mervan Çelik,35631,True
+7133609,81,Eren Derdiyok,21943,Lukas Podolski,1367,True
+7133609,75,Orkan Çınar,283901,Bruno Mota,794879,False
+7133609,69,Anton Putilo,32149,Doğanay Kılıç,328133,False
+7133609,62,Davy Claude Angan,39242,Evans Kangwa,604444,False
+7133609,62,Semih Kaya,47599,Serdar Aziz,43528,True
+7133609,46,Sabri Sarioğlu,5715,Martin Linnes,109569,True
+7133591,90,Selim Ay,116282,Alban Meha,850994,True
+7133591,74,Alain Traoré,16018,Umut Bulut,5275,False
+7133591,72,Alban Meha,850994,Deni Milošević,190403,True
+7133591,64,Umut Sönmez,142262,Kubilay Sönmez,169213,False
+7133591,59,Ioan Hora,44460,Dimitar Rangelov,20744,True
+7133598,90,Rıdvan Şimşek,60338,Samuel Eto'o,11688,True
+7133598,90,Serdar Özkan,30032,Richard Danilo,1049650,True
+7133598,87,Kenan Horić,72389,Yekta Kurtuluş,60289,True
+7133598,76,Aatif Chahechouhe,114911,Jeremain Lens,18115,False
+7133598,69,Fernandão,1856192,Alper Potuk,55028,False
+7133610,90,Stefano Napoleoni,46939,Edin Višća,109779,True
+7133610,82,Abdülkadir Ömür,826155,Serge Akakpo,39046,False
+7133610,82,Doka Madureira,52002,Cengiz Ünder,758876,True
+7133610,80,Samuel Holmén,7740,Marcio Mossoró,42293,True
+7133610,67,Fabián Castillo,151561,Yusuf Erdoğan,256663,False
+7133626,90,Batuhan Altıntaş,226994,Bengali-Fodé Koita,51407,True
+7133626,86,Olcay Şahan,16078,Rhodolfo,39355,False
+7133626,84,David Pavelka,101330,Tunay Torun,30241,True
+7133626,78,Turgut Şahin,60645,Samuel Eduok,330035,True
+7133626,78,Atınç Nukan,115205,Tolgay Arslan,71203,False
+7133626,72,Kerim Frei,157014,Vincent Aboubakar,116869,False
+7133590,83,Mehmet Akyüz,74144,Özgür Çek,69434,False
+7133590,78,Orkan Çınar,283901,Evans Kangwa,604444,True
+7133590,74,Bruno Mota,794879,Barış Yardımcı,594420,True
+7133590,68,Daniel Larsson,7129,Davy Claude Angan,39242,True
+7133590,63,Dhurgham Ismail,809593,Davide Petrucci,307266,False
+7133590,50,Marwane Saadane,847714,Oğulcan Çağlayan,387050,False
+7133627,87,Halil İbrahim Sönmez,806193,Jens Jønsson,156640,False
+7133627,87,Dejan Lazarevič,45927,İlhan Depe,146368,True
+7133627,71,Deni Milošević,190403,Dimitar Rangelov,20744,False
+7133627,68,Kerim Zengin,43669,Ermin Zec,44279,True
+7133627,46,Ali Turan,5813,Amir Hadžiahmetović,795421,False
+7133607,90,Emre Uğur Uruç,370940,Digão,243551,True
+7133607,88,Anil Karaer,81941,Ufuk Budak,96688,False
+7133607,85,Murat Duruer,5273,Samba Sow,73059,False
+7133607,69,Ahmet Dereli,163711,Bekir Yılmaz,81620,True
+7133607,65,Kubilay Sönmez,169213,Welliton,27570,False
+7133607,6,Renan Foguinho,127983,Tevfik Altındağ,74042,True
+7133624,89,Ricardo Vaz Tê,1261,Onur Ayık,67140,False
+7133624,88,Soner Aydoğdu,69351,Aykut Çeviker,74133,False
+7133624,84,Efecan Karaca,60510,Daniel Candeias,41835,True
+7133624,79,Jonathan Ayite,51439,Emre Akbaba,343527,True
+7133624,75,Muğdat Çelik,74114,Özer Hurmacı,43425,False
+7133624,46,Wilde-Donald Guerrier,199416,Fabrice N'Sakala,123387,True
+7133605,89,Aurélien Chedjou,27027,Wesley Sneijder,1934,False
+7133605,89,Adam Maher,111719,Aminu Umar,333087,True
+7133605,86,Cheick Diabaté,44298,Pierre Webó,4618,True
+7133605,82,Dzon Delarge,158533,Adrien Regattin,99774,True
+7133605,77,Martin Linnes,109569,Yasin Öztekin,21876,False
+7133605,25,Semih Kaya,47599,Serdar Aziz,43528,False
+7133600,90,Bilal Kisa,5914,Cristóbal Jorquera,18346,True
+7133600,87,Ricardo Faty,9421,Kubilay Kanatsızkuş,828953,True
+7133600,82,Jean Makoun,3589,Rıdvan Şimşek,60338,False
+7133600,76,Joshua John,27759,Yonathan Del Valle,34368,True
+7133600,74,Serdar Özkan,30032,Richard Danilo,1049650,False
+7133600,43,Charles,33109,Zeki Yildirim,107658,False
+7133615,75,Fernandão,1856192,Volkan Şen,43533,True
+7133615,69,Ozan Tufan,251907,Alper Potuk,55028,True
+7133615,60,Vedat Muriqi,310874,Aydin Karabulut,18862,False
+7133615,57,Cosmin Matei,44429,Ahmet Oğuz,603902,False
+7133615,46,Guy-Michel Landel,88610,Tokelo Rantie,238138,False
+7133615,11,Moussa Sow,3215,Robin van Persie,1,True
+7133631,90,Edgar Silva,54691,Magaye Gueye,51417,True
+7133631,87,Samican Keskin,257025,Cem Özdemir,135862,True
+7133631,84,Stefano Napoleoni,46939,Uğur Uçar,5713,False
+7133631,67,Emre Uğur Uruç,370940,Ahmet Dereli,163711,True
+7133631,65,Mustafa Pektemek,43643,Mehmet Batdal,81617,False
+7133631,58,Doka Madureira,52002,Cengiz Ünder,758876,False
+7133628,88,Kerim Frei,157014,Cenk Tosun,72127,True
+7133628,86,Orkan Çınar,283901,Evans Kangwa,604444,False
+7133628,71,Andreas Beck,9860,Rhodolfo,39355,True
+7133628,71,Doğanay Kılıç,328133,Muhammed Ildiz,50531,False
+7133628,63,Davy Claude Angan,39242,İlhan Parlak,5810,False
+7133628,53,Gökhan Inler,4252,Tolgay Arslan,71203,True
+7133633,89,Erdal Kılıçaslan,43693,Pierre Webó,4618,False
+7133633,86,Dhurgham Ismail,809593,Jakob Jantscher,26292,True
+7133633,80,Adam Maher,111719,Mehmet Güven,17795,False
+7133633,80,Davide Petrucci,307266,Godfrey Oboabona,238594,True
+7133633,73,Dzon Delarge,158533,Aminu Umar,333087,False
+7133633,16,Mehmet Akyüz,74144,Orhan Ovacıklı,130454,True
+7133629,90,Soner Aydoğdu,69351,Hugo Rodallega,15668,True
+7133629,88,Halil İbrahim Sönmez,806193,Deni Milošević,190403,False
+7133629,76,Muğdat Çelik,74114,Özer Hurmacı,43425,True
+7133629,76,Ioan Hora,44460,Riad Bajić,331751,False
+7133629,65,Ricardo Vaz Tê,1261,Onur Ayık,67140,True
+7133629,46,Dimitar Rangelov,20744,Amir Hadžiahmetović,795421,False
+7133630,89,Mert Iliman,314148,Préjuce Nakoulma,60848,True
+7133630,89,Dejan Lazarevič,45927,Valerică Găman,43100,False
+7133630,89,Hakan Aslantaş,5778,Kerim Zengin,43669,False
+7133630,72,Murat Duruer,5273,Deniz Türüç,252207,True
+7133630,54,Miladin Stevanović,927135,Levent Gülen,134245,True
+7133630,18,Valerică Găman,43100,İlhan Depe,146368,False
+7133613,90,Batuhan Altıntaş,226994,David Pavelka,101330,False
+7133613,85,Ferhat Kiraz,60352,Samuel Eduok,330035,False
+7133613,81,Kenan Horić,72389,Yekta Kurtuluş,60289,True
+7133613,76,Ramon Motta,39665,Jean Makoun,3589,True
+7133613,69,Turgut Şahin,60645,Tunay Torun,30241,False
+7133613,59,Serdar Özkan,30032,Richard Danilo,1049650,True
+7133616,85,Gökay İravul,106827,Sajjad Shahbazzadeh,844573,False
+7133616,71,Josué,77726,Eren Derdiyok,21943,True
+7133616,57,Erhan Kartal,97961,Lamine Gassama,40698,False
+7133616,55,Jonathan Ayite,51439,Efecan Karaca,60510,False
+7133616,46,Hamit Altıntop,246,Selçuk İnan,31253,True
+7133632,89,Aleksandar Šćekić,836566,Serdar Gürler,96520,True
+7133632,86,Sinan Bakış,169317,Merter Yüce,60357,False
+7133632,74,Marko Milinković,43138,Abdulrahman Khalili,109970,True
+7133632,70,Sercan Yıldırım,43173,Kubilay Kanatsızkuş,828953,False
+7133632,62,Cosmin Matei,44429,Vedat Muriqi,310874,True
+7133632,59,Bilal Kisa,5914,Yonathan Del Valle,34368,False
+7133634,84,Salih Uçan,135695,Jeremain Lens,18115,False
+7133634,71,Ozan Tufan,251907,Alper Potuk,55028,False
+7133634,71,Aatif Chahechouhe,114911,Moussa Sow,3215,False
+7133634,62,Güray Vural,43559,Fabián Castillo,151561,True
+7133634,46,Yusuf Yazıcı,827804,Ogenyi Onazi,150200,True
+7133635,87,Aytaç Kara,128196,Ogenyi Onazi,150200,False
+7133635,87,Yonathan Del Valle,34368,Erdem Özgenç,60332,True
+7133635,85,Yusuf Erdoğan,256663,Yusuf Yazıcı,827804,False
+7133635,78,Tomáš Necid,18955,Merter Yüce,60357,True
+7133635,65,Sercan Yıldırım,43173,Joshua John,27759,True
+7133635,64,Carl Medjani,16709,Fabián Castillo,151561,False
+7133622,88,Oğulcan Çağlayan,387050,Leonard Kweuke,46118,False
+7133622,73,Davide Petrucci,307266,Recep Niyaz,116944,False
+7133622,66,Guy-Michel Landel,88610,Ismail Aissati,10675,True
+7133622,65,Efecan Karaca,60510,Wilde-Donald Guerrier,199416,True
+7133622,39,Vágner Love,13313,Taha Yalçıner,60346,True
+7133622,13,Ahmet İlhan Özek,124831,Patryk Tuszyński,71075,False
+7133640,84,Osman Çelik,758656,Dejan Lazarevič,45927,True
+7133640,83,Daniel Larsson,7129,Aykut Çeviker,74133,False
+7133640,83,Olcan Adın,18767,Onur Ayık,67140,False
+7133640,63,Serdar Deliktaş,84807,Elvis Kokalović,42144,True
+7133640,50,İlhan Depe,146368,Ermin Zec,44279,True
+7133640,47,Ricardo Vaz Tê,1261,Özer Hurmacı,43425,False
+7133618,79,Samuel Holmén,7740,Emre Belözoğlu,2054,True
+7133618,79,Erdem Onur Beytas,903709,Furkan Yaman,553642,False
+7133618,64,Mustafa Pektemek,43643,Mehmet Batdal,81617,True
+7133618,64,İrfan Can Kahveci,226986,Marcio Mossoró,42293,True
+7133618,46,Mert Özyıldırım,999314,Mert Iliman,314148,False
+7133621,90,Ahmet Çalık,135680,Wesley Sneijder,1934,False
+7133621,82,Lukas Podolski,1367,Eren Derdiyok,21943,False
+7133621,76,Volkan Fındıklı,93248,Mehmet Uslu,60551,True
+7133621,68,Moryke Fofana,269199,Dimitar Rangelov,20744,True
+7133621,68,Amir Hadžiahmetović,795421,Ali Turan,5813,True
+7133621,46,Garry Rodrigues,787429,Josué,77726,False
+7133625,84,Turgut Şahin,60645,Bengali-Fodé Koita,51407,True
+7133625,70,Herolind Shala,78895,David Pavelka,101330,True
+7133625,66,Samuel Eduok,330035,Adem Büyük,60250,True
+7133625,46,Jonathan Ring,143354,Vedat Muriqi,310874,False
+7133625,20,Cosmin Matei,44429,Aydin Karabulut,18862,False
+7133625,20,Tokelo Rantie,238138,Selçuk Şahin,12384,False
+7133619,87,Emre Güral,37705,Samuel Eto'o,11688,False
+7133619,71,Yekta Kurtuluş,60289,Richard Danilo,1049650,False
+7133619,68,Davy Claude Angan,39242,Muhammet Demir,43543,True
+7133619,49,Serdar Özkan,30032,Mbilla Etame,60426,False
+7133619,46,Sefa Yılmaz,39737,Evans Kangwa,604444,True
+7133619,33,İlhan Parlak,5810,Mohammed Fatau,258961,True
+7133623,90,Ahmet Dereli,163711,Cem Özdemir,135862,False
+7133623,84,Emre Uğur Uruç,370940,Roni,328991,False
+7133623,79,Robin van Persie,1,Roman Neustädter,38471,True
+7133623,74,Tevfik Altındağ,74042,Bekir Yılmaz,81620,False
+7133623,64,Salih Uçan,135695,Aatif Chahechouhe,114911,True
+7133623,44,Oleksandr Karavayev,137682,Mehmet Topal,17793,True
+7133620,78,Kerim Frei,157014,Ryan Babel,1876,False
+7133620,74,Dzon Delarge,158533,Adam Maher,111719,True
+7133620,68,Tolgay Arslan,71203,Ricardo Quaresma,6254,False
+7133620,64,Raheem Lawal,239274,Koray Altınay,164759,True
+7133620,62,Andreas Beck,9860,Gökhan Gönül,30137,False
+7133620,52,Aykut Demir,16948,Muhammed Bayir,344301,True
+7133645,88,Hakan Aslantaş,5778,Güray Vural,43559,False
+7133645,82,Hasan Ali Adıgüzel,828950,Custódio,6561,True
+7133645,74,Erkan Kaş,94868,Deniz Türüç,252207,False
+7133645,66,Olcan Adın,18767,Onur Ayık,67140,True
+7133645,53,Enoch Adu,45872,Muğdat Çelik,74114,True
+7133643,90,Can Demir Aktav,816286,Deni Milošević,190403,True
+7133643,87,Oğuzhan Aynaoğlu,152548,Özgür Çek,69434,False
+7133643,72,Oğulcan Çağlayan,387050,Recep Niyaz,116944,False
+7133643,72,Amir Hadžiahmetović,795421,Riad Bajić,331751,True
+7133643,66,Bright Edomwonyi,249423,Ahmet İlhan Özek,124831,False
+7133643,60,Dimitar Rangelov,20744,Halil İbrahim Sönmez,806193,True
+7133638,90,Ahmet Bahcivan,999394,Bekir Yılmaz,81620,False
+7133638,87,Cem Özdemir,135862,Roni,328991,False
+7133638,83,Sercan Yıldırım,43173,Deniz Yilmaz,26520,True
+7133638,78,Boban Jović,82277,Erdem Özgenç,60332,True
+7133638,70,Bogdan Stancu,22547,Şamil Çinaz,31568,True
+7133638,63,Ahmet Dereli,163711,Vinícius,124807,False
+7133641,86,Elvis Kokalović,42144,İlhan Depe,146368,True
+7133641,84,Eren Derdiyok,21943,Josué,77726,False
+7133641,80,Serdar Deliktaş,84807,Yevhen Selezniov,36963,True
+7133641,76,Andriy Bliznichenko,138806,Dejan Lazarevič,45927,True
+7133641,64,Garry Rodrigues,787429,Yasin Öztekin,21876,False
+7133644,77,Thievy Bifouma,148919,Pierre Webó,4618,True
+7133644,77,Serdar Özkan,30032,Zeki Yildirim,107658,False
+7133644,63,Ramon Motta,39665,Richard Danilo,1049650,False
+7133644,58,Yekta Kurtuluş,60289,Charles,33109,False
+7133637,86,Turgut Şahin,60645,Tunay Torun,30241,True
+7133637,80,Yusuf Erdoğan,256663,Yusuf Yazıcı,827804,False
+7133637,75,Carl Medjani,16709,Fabián Castillo,151561,False
+7133637,72,Samuel Eduok,330035,David Pavelka,101330,True
+7133637,46,Mustafa Akbaş,140731,Ján Ďurica,12869,False
+7133637,46,André Castro,41652,Abdullah Durak,42224,True
+7133636,84,Robin van Persie,1,Fernandão,1856192,True
+7133636,80,Doka Madureira,52002,Edin Višća,109779,False
+7133636,76,Roman Neustädter,38471,Salih Uçan,135695,True
+7133636,72,Mustafa Pektemek,43643,Marcio Mossoró,42293,False
+7133636,46,Junior Caiçara,128440,Uğur Uçar,5713,False
+7133636,46,Oleksandr Karavayev,137682,Ozan Tufan,251907,True
+7133642,77,Glynor Plet,39019,Emre Akbaba,343527,True
+7133642,76,Andreas Beck,9860,Gökhan Gönül,30137,False
+7133642,66,Matej Mitrović,202870,Oğuzhan Özyakup,137642,False
+7133642,64,Emre Nefiz,242823,Wilde-Donald Guerrier,199416,True
+7133642,35,Tolgay Arslan,71203,Cenk Tosun,72127,False
+7365970,77,Renato Escobar Baruffi,552688,Selçuk Şahin,12384,False
+7365970,67,Davy Claude Angan,39242,Sefa Yılmaz,39737,True
+7365970,67,Evans Kangwa,604444,Orkan Çınar,283901,True
+7365970,61,Ferhat Görgülü,73362,Kamal Issah,135773,False
+7365970,46,Cosmin Matei,44429,Aydin Karabulut,18862,False
+7133646,81,Marius Alexe,21193,İlhan Depe,146368,False
+7133646,81,Bright Edomwonyi,249423,Leonard Kweuke,46118,True
+7133646,70,Oğulcan Çağlayan,387050,Jakob Jantscher,26292,True
+7133646,68,Serdar Deliktaş,84807,Andriy Bliznichenko,138806,False
+7133646,61,Robin Yalçın,138154,Ahmet İlhan Özek,124831,True
+7133646,25,André Poko,177103,Tănase Cristian,43782,False
+7133649,87,Salih Dursun,179189,Ramon Motta,39665,True
+7133649,85,Ismail Aissati,10675,Emre Akbaba,343527,False
+7133649,79,Glynor Plet,39019,Kenneth Omeruo,158293,False
+7133649,70,Yekta Kurtuluş,60289,Charles,33109,True
+7133649,66,Berkan Emir,344407,Wilde-Donald Guerrier,199416,False
+7133649,55,Ramon Motta,39665,Richard Danilo,1049650,True
+7133654,84,Sinan Gümüş,169165,Bruma,97012,True
+7133654,78,Eren Derdiyok,21943,Lukas Podolski,1367,True
+7133654,75,Muğdat Çelik,74114,Olcan Adın,18767,False
+7133654,70,Garry Rodrigues,787429,Yasin Öztekin,21876,True
+7133654,46,Aykut Çeviker,74133,Enoch Adu,45872,False
+7133654,46,Onur Ayık,67140,Hasan Ali Adıgüzel,828950,False
+7133650,75,Dzon Delarge,158533,Aminu Umar,333087,False
+7133650,75,Umut Sözen,43466,Tokelo Rantie,238138,True
+7133650,65,Thievy Bifouma,148919,Pierre Webó,4618,False
+7133650,61,Koray Altınay,164759,Avdija Vršajević,29758,False
+7133650,57,Vedat Muriqi,310874,Abdulrahman Khalili,109970,True
+7133650,56,Jonathan Ring,143354,Murat Duruer,5273,True
+7133653,87,Cristóbal Jorquera,18346,Şamil Çinaz,31568,False
+7133653,80,Bogdan Stancu,22547,Yonathan Del Valle,34368,False
+7133653,80,İrfan Can Kahveci,226986,Marcio Mossoró,42293,True
+7133653,72,Mustafa Pektemek,43643,Mehmet Batdal,81617,True
+7133653,60,Doka Madureira,52002,Cengiz Ünder,758876,True
+7133651,82,İlhan Parlak,5810,Nabil Ghilas,101452,False
+7133651,81,Carl Medjani,16709,Yusuf Yazıcı,827804,True
+7133651,81,Yusuf Erdoğan,256663,Dame N'Doye,30178,True
+7133651,66,Hugo Rodallega,15668,Ogenyi Onazi,150200,True
+7133651,46,Daniel Kolář,15427,Evans Kangwa,604444,False
+7133651,46,Muhammet Demir,43543,Doğanay Kılıç,328133,False
+7133648,86,Welliton,27570,Umut Bulut,5275,True
+7133648,80,Kubilay Sönmez,169213,Deniz Türüç,252207,True
+7133648,66,Landry N'Guemo,8958,Raheem Lawal,239274,True
+7133648,66,Robin van Persie,1,Fernandão,1856192,False
+7133648,66,Oleksandr Karavayev,137682,Salih Uçan,135695,False
+7133652,85,Cem Özdemir,135862,Tevfik Altındağ,74042,True
+7133652,77,Samuel Eduok,330035,Tunay Torun,30241,False
+7133652,77,Ahmet Dereli,163711,Roni,328991,True
+7133652,67,Cristian Guanca,789438,Adem Büyük,60250,False
+7133652,67,Turgut Şahin,60645,David Pavelka,101330,False
+7133652,63,Reynaldo Silva,544140,Vinícius,124807,True
+7133647,89,Matej Mitrović,202870,Ryan Babel,1876,True
+7133647,78,Ioan Hora,44460,Riad Bajić,331751,False
+7133647,76,Gökhan Inler,4252,Atiba Hutchinson,7721,True
+7133647,67,Tolgay Arslan,71203,Anderson Talisca,329245,True
+7133647,65,Moryke Fofana,269199,Dimitar Rangelov,20744,False
+7133655,90,Paul Papp,69336,Yevhen Selezniov,36963,True
+7133655,73,Vincent Aboubakar,116869,Ryan Babel,1876,False
+7133655,68,İlhan Depe,146368,Mustapha Yatabaré,51558,True
+7133655,61,Tolgay Arslan,71203,Oğuzhan Özyakup,137642,False
+7133655,46,Ermin Zec,44279,Tănase Cristian,43782,True
+7133671,77,Emre Nefiz,242823,Emre Akbaba,343527,True
+7133671,74,Glynor Plet,39019,Junior Fernandes,221528,True
+7133671,63,Birol Parlak,966274,Darko Lazić,307098,True
+7133671,46,Murat Duruer,5273,Jonathan Ring,143354,False
+7133671,46,Vedat Muriqi,310874,Renato Escobar Baruffi,552688,False
+7133671,24,Aleksandar Šćekić,836566,Kamal Issah,135773,False
+7133669,85,Hugo Rodallega,15668,Dame N'Doye,30178,False
+7133669,82,Erdal Kılıçaslan,43693,Adrien Regattin,99774,True
+7133669,81,Raul Rusescu,43774,Pierre Webó,4618,True
+7133669,76,Yusuf Erdoğan,256663,Okay Yokuşlu,97967,False
+7133669,67,Dzon Delarge,158533,Musa Çağıran,60363,True
+7133669,66,Carl Medjani,16709,Fabián Castillo,151561,False
+7133670,86,Ozan Tufan,251907,Alper Potuk,55028,False
+7133670,82,Volkan Şen,43533,Aatif Chahechouhe,114911,False
+7133670,77,Sercan Yıldırım,43173,Deniz Yilmaz,26520,True
+7133670,46,Kubilay Kanatsızkuş,828953,Yonathan Del Valle,34368,True
+7133670,26,Şamil Çinaz,31568,Merter Yüce,60357,True
+7133657,84,Onur Ayık,67140,Özer Hurmacı,43425,True
+7133657,77,Bright Edomwonyi,249423,Jakob Jantscher,26292,False
+7133657,61,Sokol Cikalleshi,81138,Ricardo Vaz Tê,1261,True
+7133657,56,Nosa Igiebor,50720,Dhurgham Ismail,809593,False
+7133657,51,Enoch Adu,45872,Custódio,6561,True
+7133657,31,Oğulcan Çağlayan,387050,Marwane Saadane,847714,False
+7133674,90,Ahmed Ildız,849329,André Castro,41652,True
+7133674,83,Herolind Shala,78895,Samuel Eduok,330035,True
+7133674,79,Doka Madureira,52002,Marcio Mossoró,42293,False
+7133674,65,Mehmet Batdal,81617,Cengiz Ünder,758876,False
+7133674,64,Turgut Şahin,60645,Adem Büyük,60250,True
+7133674,46,Alparslan Erdem,26683,Eren Albayrak,43532,False
+7133656,85,Halil İbrahim Sönmez,806193,Amir Hadžiahmetović,795421,True
+7133656,77,Yekta Kurtuluş,60289,Samuel Eto'o,11688,False
+7133656,70,Jens Jønsson,156640,Marc Kibong Mbamba,60412,True
+7133656,70,Dimitar Rangelov,20744,Ali Turan,5813,True
+7133656,69,Salih Dursun,179189,Zeki Yildirim,107658,False
+7133656,65,Sandro,43301,Richard Danilo,1049650,False
+7133668,79,Welliton,27570,Umut Bulut,5275,False
+7133668,66,Josué,77726,Sabri Sarioğlu,5715,True
+7133668,64,Samba Sow,73059,Raheem Lawal,239274,False
+7133668,46,Sinan Gümüş,169165,Garry Rodrigues,787429,True
+7133668,46,Eren Derdiyok,21943,Yasin Öztekin,21876,True
+7133668,18,Levent Gülen,134245,Jean-Armel Kana-Biyik,39020,False
+7133673,84,Evans Kangwa,604444,Nabil Ghilas,101452,True
+7133673,69,Abdulkadir Kayali,46167,Mohammed Fatau,258961,True
+7133673,65,Reynaldo Silva,544140,Tevfik Altındağ,74042,False
+7133673,58,Cem Özdemir,135862,Vinícius,124807,False
+7133673,46,Sefa Yılmaz,39737,Khaly Thiam,258157,True
+7133659,88,Samba Sow,73059,Deniz Türüç,252207,True
+7133659,81,Cristóbal Jorquera,18346,Pablo Batalla,39974,False
+7133659,73,Landry N'Guemo,8958,Raheem Lawal,239274,True
+7133659,61,Sercan Yıldırım,43173,Şamil Çinaz,31568,False
+7133659,52,Kubilay Kanatsızkuş,828953,Yonathan Del Valle,34368,False
+7133659,46,Welliton,27570,Silvestre Varela,14323,True
+7133666,83,İlhan Depe,146368,André Poko,177103,False
+7133666,81,Jean Makoun,3589,Mostapha El Kabir,44346,True
+7133666,64,Serdar Özkan,30032,Mbilla Etame,60426,True
+7133666,56,Ermin Zec,44279,Dejan Lazarevič,45927,False
+7133666,13,Sandro,43301,Yekta Kurtuluş,60289,True
+7133658,82,Muhammed Ildiz,50531,Sefa Yılmaz,39737,False
+7133658,77,Cengiz Ünder,758876,Edin Višća,109779,True
+7133658,77,Mehmet Batdal,81617,Marcio Mossoró,42293,True
+7133658,69,Evans Kangwa,604444,Nabil Ghilas,101452,False
+7133658,65,Doka Madureira,52002,İrfan Can Kahveci,226986,True
+7133658,61,Abdulkadir Kayali,46167,Mohammed Fatau,258961,False
+7133661,78,Sinan Gümüş,169165,Selçuk İnan,31253,False
+7133661,71,Ahmet Çalık,135680,Martin Linnes,109569,False
+7133661,71,Patryk Tuszyński,71075,Jakob Jantscher,26292,True
+7133661,62,Nosa Igiebor,50720,Mehmet Akyüz,74144,True
+7133661,60,Tolga Ciğerci,120298,Josué,77726,False
+7133661,43,Mohamed Ali Yaakoubi,215356,Ümit Kurt,135789,True
+7133665,87,Halil İbrahim Sönmez,806193,Ali Turan,5813,False
+7133665,86,Etien Velikonja,41648,Serdar Gürler,96520,True
+7133665,82,Aleksandar Šćekić,836566,Abdulrahman Khalili,109970,True
+7133665,66,Vedat Muriqi,310874,Tokelo Rantie,238138,True
+7133665,60,Moryke Fofana,269199,Ali Çamdalı,8870,False
+7133665,60,Dimitar Rangelov,20744,Mehmet Uslu,60551,False
+7133662,90,Cristian Guanca,789438,André Castro,41652,False
+7133662,85,Hasan Ali Kaldırım,39847,Volkan Şen,43533,True
+7133662,75,Turgut Şahin,60645,Adem Büyük,60250,False
+7133662,75,Salih Uçan,135695,Ozan Tufan,251907,True
+7133662,68,Tunay Torun,30241,Samuel Eduok,330035,False
+7133662,46,Fernandão,1856192,Moussa Sow,3215,True
+7133660,87,Dzon Delarge,158533,Musa Çağıran,60363,False
+7133660,79,Luiz Carlos,94203,Thievy Bifouma,148919,False
+7133660,72,Musa Çağıran,60363,Badou Ndiaye,228342,False
+7133660,69,Ahmet Dereli,163711,Vladimir Koman,22089,True
+7133660,46,Emre Uğur Uruç,370940,Digão,243551,True
+7133660,46,Roni,328991,Magaye Gueye,51417,True
+7133664,80,Andreas Beck,9860,Gökhan Gönül,30137,True
+7133664,79,Onur Ayık,67140,Aykut Çeviker,74133,False
+7133664,75,Ricardo Vaz Tê,1261,Sokol Cikalleshi,81138,False
+7133664,72,Vincent Aboubakar,116869,Atiba Hutchinson,7721,True
+7133664,64,Soner Aydoğdu,69351,Özer Hurmacı,43425,False
+7133664,64,Gökhan Inler,4252,Anderson Talisca,329245,True
+7133672,84,Taha Yalçıner,60346,Junior Fernandes,221528,False
+7133672,77,Matúš Bero,187207,Fabián Castillo,151561,True
+7133672,65,Dame N'Doye,30178,Yusuf Yazıcı,827804,True
+7133672,41,Glynor Plet,39019,Guy-Michel Landel,88610,False
+7133672,41,Emre Nefiz,242823,Darko Lazić,307098,False
+7133672,14,Mustafa Akbaş,140731,Ján Ďurica,12869,True
+7133677,87,Levent Gülen,134245,Erkan Kaş,94868,False
+7133677,84,Landry N'Guemo,8958,Deniz Türüç,252207,False
+7133677,77,Davide Petrucci,307266,Özgür Çek,69434,True
+7133677,68,Samba Sow,73059,Raheem Lawal,239274,False
+7133677,68,Dhurgham Ismail,809593,Bright Edomwonyi,249423,True
+7133677,57,Oğulcan Çağlayan,387050,Jakob Jantscher,26292,True
+7133663,83,Samuel Eduok,330035,Adem Büyük,60250,True
+7133663,83,Turgut Şahin,60645,Bengali-Fodé Koita,51407,True
+7133663,74,Sinan Bakış,169317,Cristóbal Jorquera,18346,False
+7133663,71,Cristian Guanca,789438,André Castro,41652,True
+7133663,68,Mert Örnek,806368,Kubilay Kanatsızkuş,828953,False
+7133663,46,Şamil Çinaz,31568,Onur Atasayar,785819,False
+7133682,85,Wilde-Donald Guerrier,199416,Junior Fernandes,221528,True
+7133682,73,Ahmet Dereli,163711,Reynaldo Silva,544140,False
+7133682,72,Berkan Emir,344407,Daniel Candeias,41835,True
+7133682,66,Isaac Sackey,292965,Emre Nefiz,242823,True
+7133682,56,Magaye Gueye,51417,Vladimir Koman,22089,False
+7133682,46,Cem Özdemir,135862,Vinícius,124807,False
+7133676,90,Muğdat Çelik,74114,Olcan Adın,18767,True
+7133676,83,Jeremy Bokila,32497,Özer Hurmacı,43425,True
+7133676,73,Ricardo Vaz Tê,1261,Sokol Cikalleshi,81138,True
+7133676,71,Sandro,43301,Samuel Eto'o,11688,False
+7133676,53,Serdar Özkan,30032,Mbilla Etame,60426,False
+7133676,53,Mostapha El Kabir,44346,Charles,33109,False
+7133681,90,Deni Milošević,190403,Dimitar Rangelov,20744,True
+7133681,89,Zeki Yavru,140735,Ogenyi Onazi,150200,False
+7133681,82,Matúš Bero,187207,Fabián Castillo,151561,False
+7133681,66,Ali Çamdalı,8870,Jens Jønsson,156640,True
+7133681,46,Aytaç Kara,128196,Mustafa Akbaş,140731,False
+7133681,46,Riad Bajić,331751,Halil İbrahim Sönmez,806193,True
+7133678,90,Paul Papp,69336,Abdou Traoré,21090,True
+7133678,80,İlhan Depe,146368,Tănase Cristian,43782,True
+7133678,66,Ólafur Ingi Skúlason,19739,Mustapha Yatabaré,51558,True
+7133678,57,Etien Velikonja,41648,Tokelo Rantie,238138,False
+7133678,46,Marko Milinković,43138,Abdulrahman Khalili,109970,False
+7133678,26,Aleksandar Šćekić,836566,Cosmin Matei,44429,False
+7133667,89,Eren Albayrak,43532,Edin Višća,109779,False
+7133667,79,İrfan Can Kahveci,226986,Marcio Mossoró,42293,False
+7133667,77,Erdal Kılıçaslan,43693,Adam Maher,111719,True
+7133667,74,Stefano Napoleoni,46939,Cengiz Ünder,758876,False
+7133667,59,Luiz Carlos,94203,Dzon Delarge,158533,True
+7133667,46,Pierre Webó,4618,Mehmet Güven,17795,True
+7133675,84,Evans Kangwa,604444,Marcinho,309158,True
+7133675,76,Souza,119035,Alper Potuk,55028,False
+7133675,72,Aatif Chahechouhe,114911,Volkan Şen,43533,False
+7133675,72,Fernandão,1856192,Moussa Sow,3215,False
+7133675,61,Orkan Çınar,283901,Sefa Yılmaz,39737,True
+7133675,46,Musa Nizam,43526,Marquinhos Pedroso,608380,True
+7133680,83,Gökhan Inler,4252,Oğuzhan Özyakup,137642,False
+7133680,76,Garry Rodrigues,787429,Yasin Öztekin,21876,True
+7133680,76,Eren Derdiyok,21943,Wesley Sneijder,1934,True
+7133680,71,Tolgay Arslan,71203,Anderson Talisca,329245,False
+7133680,67,Andreas Beck,9860,Gökhan Gönül,30137,False
+7133680,60,Tolga Ciğerci,120298,Selçuk İnan,31253,True
+7133686,89,Zeki Yavru,140735,Hugo Rodallega,15668,True
+7133686,86,Dame N'Doye,30178,Yusuf Yazıcı,827804,True
+7133686,83,İlhan Depe,146368,Yevhen Selezniov,36963,False
+7133686,76,Aytaç Kara,128196,Fabián Castillo,151561,True
+7133686,74,Dejan Lazarevič,45927,Tănase Cristian,43782,False
+7133686,62,Mustapha Yatabaré,51558,Barış Başdaş,74075,False
+7133683,88,Evans Kangwa,604444,Marcinho,309158,False
+7133683,88,Sercan Yıldırım,43173,Onur Atasayar,785819,True
+7133683,81,Merter Yüce,60357,Cristóbal Jorquera,18346,True
+7133683,75,Orkan Çınar,283901,Änis Ben-Hatira,18891,False
+7133683,68,Joshua John,27759,Yonathan Del Valle,34368,True
+7133683,61,Muhammed Ildiz,50531,Mohammed Fatau,258961,False
+7133693,88,Gökhan Inler,4252,Oğuzhan Özyakup,137642,True
+7133693,86,Özgür Çek,69434,Dhurgham Ismail,809593,False
+7133693,74,Vincent Aboubakar,116869,Cenk Tosun,72127,True
+7133693,66,Patryk Tuszyński,71075,Nosa Igiebor,50720,False
+7133693,64,Tolgay Arslan,71203,Ricardo Quaresma,6254,True
+7133693,59,Jakob Jantscher,26292,Marwane Saadane,847714,False
+7133692,83,Wilde-Donald Guerrier,199416,Fabrice N'Sakala,123387,False
+7133692,83,Stefano Napoleoni,46939,Cengiz Ünder,758876,True
+7133692,76,Glynor Plet,39019,Daniel Candeias,41835,False
+7133692,68,Emmanuel Adebayor,3094,Mustafa Pektemek,43643,True
+7133692,65,Berkan Emir,344407,Isaac Sackey,292965,False
+7133692,35,Hakan Özmert,43512,Emre Belözoğlu,2054,True
+7133685,90,Halil İbrahim Sönmez,806193,Jens Jønsson,156640,False
+7133685,79,Reynaldo Silva,544140,Cem Özdemir,135862,True
+7133685,76,Volkan Fındıklı,93248,Dimitar Rangelov,20744,False
+7133685,63,Ahmet Dereli,163711,Vinícius,124807,True
+7133685,40,Moryke Fofana,269199,Barry Douglas,124360,False
+7133689,90,Erdal Kılıçaslan,43693,Thievy Bifouma,148919,False
+7133689,80,Pierre Webó,4618,Adrien Regattin,99774,False
+7133689,73,Moussa Sow,3215,Simon Kjær,21535,True
+7133689,73,Robin van Persie,1,Fernandão,1856192,True
+7133689,66,Koray Altınay,164759,Avdija Vršajević,29758,False
+7133689,46,Volkan Şen,43533,Ozan Tufan,251907,True
+7133684,90,Landry N'Guemo,8958,Samba Sow,73059,True
+7133684,86,Kubilay Sönmez,169213,Raheem Lawal,239274,True
+7133684,76,Cristian Guanca,789438,Abdullah Durak,42224,False
+7133684,68,Turgut Şahin,60645,Samuel Eduok,330035,False
+7133684,62,Tunay Torun,30241,Adem Büyük,60250,False
+7133679,84,Renato Escobar Baruffi,552688,Abdulrahman Khalili,109970,True
+7133679,75,Daniel Larsson,7129,Ömer Bayram,68335,False
+7133679,64,Kamal Issah,135773,Marko Milinković,43138,True
+7133679,62,Jeremy Bokila,32497,Özer Hurmacı,43425,False
+7133679,60,Tokelo Rantie,238138,Vedat Muriqi,310874,True
+7133679,46,Muğdat Çelik,74114,Soner Aydoğdu,69351,False
+7133688,78,Kenan Horić,72389,Diego Angelo,32818,True
+7133688,75,Garry Rodrigues,787429,Josué,77726,False
+7133688,75,Emre Güral,37705,Serdar Özkan,30032,True
+7133688,64,Martin Linnes,109569,Lionel Carole,122922,False
+7133688,46,Zeki Yildirim,107658,Salih Dursun,179189,True
+7133700,90,Salih Uçan,135695,Aatif Chahechouhe,114911,False
+7133700,81,Volkan Şen,43533,Ozan Tufan,251907,False
+7133700,80,Emre Nefiz,242823,Efecan Karaca,60510,True
+7133700,63,Berkan Emir,344407,Daniel Candeias,41835,True
+7133700,63,Wilde-Donald Guerrier,199416,Fabrice N'Sakala,123387,True
+7133700,62,Robin van Persie,1,Fernandão,1856192,False
+7133687,88,Ahmet Bahcivan,999394,Roni,328991,False
+7133687,86,Serdar Deliktaş,84807,Yevhen Selezniov,36963,True
+7133687,71,Ólafur Ingi Skúlason,19739,Abdou Traoré,21090,True
+7133687,68,Reynaldo Silva,544140,Digão,243551,False
+7133687,59,Ahmet Dereli,163711,Vinícius,124807,False
+7133687,56,Dejan Lazarevič,45927,Mustapha Yatabaré,51558,True
+7133699,90,Kubilay Kanatsızkuş,828953,Deniz Yilmaz,26520,False
+7133699,70,Raul Rusescu,43774,Pierre Webó,4618,True
+7133699,66,Sercan Yıldırım,43173,Mert Örnek,806368,False
+7133699,65,Erdal Kılıçaslan,43693,Adrien Regattin,99774,True
+7133699,61,Yonathan Del Valle,34368,Joshua John,27759,False
+7133699,46,Aminu Umar,333087,Luiz Carlos,94203,True
+7133694,88,Agon Mehmeti,35658,Aydin Karabulut,18862,False
+7133694,85,Martin Linnes,109569,Lionel Carole,122922,True
+7133694,72,Wesley Sneijder,1934,Josué,77726,True
+7133694,46,Uğur Çiftçi,142850,Kamal Issah,135773,False
+7133694,46,Tokelo Rantie,238138,Vedat Muriqi,310874,False
+7133694,20,Sabri Sarioğlu,5715,Hakan Balta,6208,True
+7133696,90,Ahmed Ildız,849329,Turgut Şahin,60645,False
+7133696,90,Herolind Shala,78895,Tunay Torun,30241,False
+7133696,74,Cristian Guanca,789438,Samuel Eduok,330035,False
+7133696,73,İlhan Parlak,5810,Sergei Kislyak,49809,True
+7133696,60,Davy Claude Angan,39242,Sefa Yılmaz,39737,True
+7133696,60,Evans Kangwa,604444,Änis Ben-Hatira,18891,True
+7133690,86,İrfan Can Kahveci,226986,Marcio Mossoró,42293,False
+7133690,82,Joseph Attamah,332963,Emre Belözoğlu,2054,False
+7133690,79,Halil İbrahim Sönmez,806193,Riad Bajić,331751,True
+7133690,72,Mustafa Pektemek,43643,Emmanuel Adebayor,3094,False
+7133690,62,Ömer Ali Şahiner,103912,Alban Meha,850994,True
+7133690,61,Moryke Fofana,269199,Ali Turan,5813,True
+7133698,90,Hakan Aslantaş,5778,Welliton,27570,False
+7133698,86,Samba Sow,73059,Deniz Türüç,252207,False
+7133698,75,Douglão,39060,Raheem Lawal,239274,False
+7133698,54,Matej Mitrović,202870,Marcelo,36704,True
+7133698,46,Tolgay Arslan,71203,Ryan Babel,1876,True
+7133702,79,Harun Alpsoy,798270,Yusuf Çelik,859114,False
+7133702,69,Oğulcan Çağlayan,387050,Mohamed Ali Yaakoubi,215356,True
+7133702,65,Sandro,43301,Richard Danilo,1049650,False
+7133702,57,Mostapha El Kabir,44346,Mbilla Etame,60426,False
+7133702,46,Özgür Çek,69434,Davide Petrucci,307266,True
+7133702,46,Nosa Igiebor,50720,Jakob Jantscher,26292,True
+7133691,84,Yusuf Erdoğan,256663,Olcay Şahan,16078,False
+7133691,82,Aytaç Kara,128196,Hugo Rodallega,15668,False
+7133691,81,Muğdat Çelik,74114,Sokol Cikalleshi,81138,True
+7133691,78,Ricardo Vaz Tê,1261,Özer Hurmacı,43425,True
+7133691,69,Jeremy Bokila,32497,Soner Aydoğdu,69351,True
+7133691,46,Dame N'Doye,30178,Yusuf Yazıcı,827804,False
+7133704,90,Marc Kibong Mbamba,60412,Riad Bajić,331751,False
+7133704,86,Alban Meha,850994,Deni Milošević,190403,False
+7133704,73,Halil İbrahim Sönmez,806193,Mehmet Uslu,60551,False
+7133704,67,Volkan Şen,43533,Roman Neustädter,38471,True
+7133704,46,Moussa Sow,3215,Ozan Tufan,251907,True
+7133704,36,Robin van Persie,1,Fernandão,1856192,True
+7133697,90,Kenneth Otigba,139163,Adem Büyük,60250,True
+7133697,83,David Pavelka,101330,Tunay Torun,30241,True
+7133697,79,Samuel Eduok,330035,Turgut Şahin,60645,True
+7133697,75,Engin Bekdemir,138758,Adrien Regattin,99774,False
+7133697,75,Koray Altınay,164759,Musa Çağıran,60363,False
+7133697,70,Thievy Bifouma,148919,Aminu Umar,333087,False
+7133705,87,František Rajtoral,12033,Nabil Ghilas,101452,False
+7133705,86,Douglão,39060,Hakan Aslantaş,5778,True
+7133705,77,Musa Nizam,43526,Khaly Thiam,258157,False
+7133705,66,Abdulkadir Kayali,46167,Sefa Yılmaz,39737,False
+7133705,46,Samba Sow,73059,Erkan Kaş,94868,True
+7133695,90,Ahmet Bahcivan,999394,Vladimir Koman,22089,True
+7133695,83,Vinícius,124807,Cem Özdemir,135862,True
+7133695,77,Muğdat Çelik,74114,Sokol Cikalleshi,81138,False
+7133695,70,Tevfik Altındağ,74042,Ahmet Dereli,163711,True
+7133695,68,Daniel Larsson,7129,Soner Aydoğdu,69351,False
+7133695,68,Ricardo Vaz Tê,1261,Özer Hurmacı,43425,False
+7133701,84,Matúš Bero,187207,Yusuf Yazıcı,827804,True
+7133701,79,Sinan Gümüş,169165,Tolga Ciğerci,120298,False
+7133701,70,Mustafa Akbaş,140731,Ogenyi Onazi,150200,True
+7133701,64,Yusuf Erdoğan,256663,Fabián Castillo,151561,True
+7133701,62,Josué,77726,Wesley Sneijder,1934,False
+7133701,57,Garry Rodrigues,787429,Martin Linnes,109569,False
+7133707,89,Renato Escobar Baruffi,552688,Abdulrahman Khalili,109970,True
+7133707,72,Tokelo Rantie,238138,Aydin Karabulut,18862,True
+7133707,71,Patryk Tuszyński,71075,Orhan Ovacıklı,130454,False
+7133707,58,Marko Milinković,43138,Vedat Muriqi,310874,True
+7133707,56,Süleyman Koç,40306,Ahmet İlhan Özek,124831,False
+7133707,56,Oğuzhan Aynaoğlu,152548,Özgür Çek,69434,False
+7133710,89,İlhan Depe,146368,Abdou Traoré,21090,False
+7133710,89,Stefano Napoleoni,46939,Mahmut Tekdemir,43666,True
+7133710,82,Ólafur Ingi Skúlason,19739,Andriy Bliznichenko,138806,False
+7133710,80,Mustafa Pektemek,43643,Doka Madureira,52002,True
+7133710,73,Ermin Zec,44279,André Poko,177103,False
+7133710,71,İrfan Can Kahveci,226986,Marcio Mossoró,42293,True
+7133703,90,Taha Yalçıner,60346,Emre Akbaba,343527,False
+7133703,90,Wilde-Donald Guerrier,199416,Efecan Karaca,60510,False
+7133703,87,Emre Nefiz,242823,Junior Fernandes,221528,False
+7133703,79,Kubilay Kanatsızkuş,828953,İsmail Konuk,74159,True
+7133703,62,Şamil Çinaz,31568,Ricardo Faty,9421,True
+7133703,46,Mert Örnek,806368,Cristóbal Jorquera,18346,True
+7133712,90,Serdar Özkan,30032,Samuel Eto'o,11688,True
+7133712,89,Yekta Kurtuluş,60289,Charles,33109,True
+7133712,71,Matej Mitrović,202870,Adriano,4441,False
+7133712,60,Necip Uysal,43394,Anderson Talisca,329245,False
+7133712,58,Cenk Tosun,72127,Ricardo Quaresma,6254,False
+7133712,46,Mostapha El Kabir,44346,Richard Danilo,1049650,True
+7133717,85,Samuel Holmén,7740,İrfan Can Kahveci,226986,False
+7133717,83,Sokol Cikalleshi,81138,Özer Hurmacı,43425,True
+7133717,78,Mustafa Pektemek,43643,Marcio Mossoró,42293,False
+7133717,76,Muğdat Çelik,74114,Ricardo Vaz Tê,1261,True
+7133717,67,Mehmet Batdal,81617,Ferhat Öztorun,17796,False
+7133717,32,Aykut Çeviker,74133,Custódio,6561,True
+7133721,80,Taha Yalçıner,60346,Junior Fernandes,221528,True
+7133721,76,Cristian Guanca,789438,Loret Sadiku,143356,False
+7133721,60,Fabrice N'Sakala,123387,Lamine Gassama,40698,True
+7133721,60,Emre Nefiz,242823,Isaac Sackey,292965,True
+7133721,46,David Pavelka,101330,Abdullah Durak,42224,False
+7133721,46,Bengali-Fodé Koita,51407,Turgut Şahin,60645,False
+7133723,83,Yekta Kurtuluş,60289,Richard Danilo,1049650,True
+7133723,54,Sandro,43301,Zeki Yildirim,107658,True
+7133723,52,Samba Sow,73059,Ryan Mendes,52797,False
+7133723,46,Welliton,27570,Umut Bulut,5275,False
+7133723,46,Ryan Mendes,52797,Deniz Türüç,252207,False
+7133723,26,Diego Angelo,32818,Chico,39361,True
+7133716,90,Ozan Tufan,251907,Jeremain Lens,18115,False
+7133716,87,Mustapha Yatabaré,51558,Ceyhun Gülselam,20747,True
+7133716,78,Moussa Sow,3215,Volkan Şen,43533,False
+7133716,68,Volkan Şen,43533,Aatif Chahechouhe,114911,False
+7133716,46,Serdar Deliktaş,84807,Tănase Cristian,43782,True
+7133716,38,André Poko,177103,Iasmin Latovlevici,42263,True
+7133713,89,Yusuf Erdoğan,256663,Olcay Şahan,16078,False
+7133713,75,Hugo Rodallega,15668,Matúš Bero,187207,False
+7133713,67,Süleyman Koç,40306,Oğulcan Çağlayan,387050,True
+7133713,66,Aytaç Kara,128196,Fabián Castillo,151561,False
+7133713,62,Jakob Jantscher,26292,Nosa Igiebor,50720,True
+7133713,51,Özgür Çek,69434,Godfrey Oboabona,238594,True
+7133714,89,Abdulkadir Kayali,46167,Änis Ben-Hatira,18891,False
+7133714,84,Luiz Carlos,94203,Mehmet Güven,17795,True
+7133714,83,Mohammed Fatau,258961,İlhan Parlak,5810,False
+7133714,75,Muhammet Demir,43543,Nabil Ghilas,101452,False
+7133714,68,Erdal Kılıçaslan,43693,Thievy Bifouma,148919,True
+7133714,61,Raul Rusescu,43774,Adrien Regattin,99774,True
+7133720,87,Necip Uysal,43394,Atiba Hutchinson,7721,True
+7133720,84,Tolgay Arslan,71203,Ricardo Quaresma,6254,True
+7133720,74,Renato Escobar Baruffi,552688,Uğur Çiftçi,142850,False
+7133720,57,Etien Velikonja,41648,Jonathan Ring,143354,False
+7133720,46,Vedat Muriqi,310874,Luccas Claro,998209,False
+7133720,44,Tolga Zengin,6189,Fabri,19482,True
+7133715,89,Alban Meha,850994,Deni Milošević,190403,True
+7133715,81,Ali Çamdalı,8870,Volkan Fındıklı,93248,True
+7133715,80,Erdem Özgenç,60332,Ertuğrul Ersoy,355004,False
+7133715,74,Kubilay Kanatsızkuş,828953,Joshua John,27759,False
+7133715,66,Sercan Yıldırım,43173,Onur Atasayar,785819,False
+7133715,66,Dimitar Rangelov,20744,Ömer Ali Şahiner,103912,True
+7133718,83,Reynaldo Silva,544140,Vinícius,124807,False
+7133718,78,Nigel de Jong,1879,Yasin Öztekin,21876,True
+7133718,76,Cem Özdemir,135862,Ahmet Dereli,163711,False
+7133718,68,Wesley Sneijder,1934,Semih Kaya,47599,True
+7133718,62,Tolga Ciğerci,120298,Selçuk İnan,31253,True
+7133718,23,Tevfik Altındağ,74042,Samican Keskin,257025,False
+7133725,86,Bilal Kisa,5914,Pablo Batalla,39974,True
+7133725,78,İlhan Depe,146368,Dejan Lazarevič,45927,False
+7133725,66,Ricardo Faty,9421,Cristóbal Jorquera,18346,True
+7133725,60,Tănase Cristian,43782,Serdar Deliktaş,84807,False
+7133725,58,Erdem Özgenç,60332,Ertuğrul Ersoy,355004,True
+7133731,81,Richard Danilo,1049650,Mbilla Etame,60426,False
+7133731,72,Yekta Kurtuluş,60289,Zeki Yildirim,107658,False
+7133731,71,Jonathan Ring,143354,Vedat Muriqi,310874,True
+7133731,60,Kamal Issah,135773,Abdulrahman Khalili,109970,True
+7133731,32,Murat Duruer,5273,Uğur Çiftçi,142850,True
+7133733,83,Birol Parlak,966274,Isaac Sackey,292965,False
+7133733,80,Emre Nefiz,242823,Efecan Karaca,60510,False
+7133733,76,Berkan Emir,344407,Georgios Tzavellas,33000,False
+7133733,76,Davy Claude Angan,39242,Sefa Yılmaz,39737,True
+7133733,63,Muhammet Demir,43543,Änis Ben-Hatira,18891,True
+7133733,46,Mohammed Fatau,258961,İlhan Parlak,5810,True
+7133727,87,Matej Mitrović,202870,Anderson Talisca,329245,False
+7133727,84,Matúš Bero,187207,Yusuf Yazıcı,827804,True
+7133727,76,Necip Uysal,43394,Cenk Tosun,72127,False
+7133727,76,Aytaç Kara,128196,Ogenyi Onazi,150200,True
+7133727,34,Vincent Aboubakar,116869,Ricardo Quaresma,6254,False
+7133730,77,Erdal Kılıçaslan,43693,Pierre Webó,4618,False
+7133730,77,Landry N'Guemo,8958,Raheem Lawal,239274,True
+7133730,72,Adrien Regattin,99774,Adam Maher,111719,False
+7133730,69,Koray Altınay,164759,Avdija Vršajević,29758,False
+7133730,60,Douglão,39060,Jean-Armel Kana-Biyik,39020,True
+7133730,46,Umut Bulut,5275,Silvestre Varela,14323,True
+7133722,87,Jakob Jantscher,26292,Leonard Kweuke,46118,False
+7133722,87,Cem Özdemir,135862,Ahmet Dereli,163711,True
+7133722,84,Özgür Çek,69434,Süleyman Koç,40306,False
+7133722,71,Reynaldo Silva,544140,Tevfik Altındağ,74042,True
+7133722,66,Nosa Igiebor,50720,Bright Edomwonyi,249423,False
+7133724,87,Daniel Larsson,7129,Custódio,6561,False
+7133724,68,Muğdat Çelik,74114,Özer Hurmacı,43425,False
+7133724,46,Sokol Cikalleshi,81138,Kadir Keleş,60547,False
+7133732,88,Joseph Attamah,332963,Mahmut Tekdemir,43666,True
+7133732,80,Tolga Ciğerci,120298,Selçuk İnan,31253,False
+7133732,77,Mustafa Pektemek,43643,Emmanuel Adebayor,3094,True
+7133732,73,Samuel Holmén,7740,Marcio Mossoró,42293,True
+7133732,67,Wesley Sneijder,1934,Garry Rodrigues,787429,False
+7133732,67,Lukas Podolski,1367,Semih Kaya,47599,False
+7133726,89,Ioan Hora,44460,Jens Jønsson,156640,False
+7133726,86,Cristian Guanca,789438,André Castro,41652,True
+7133726,70,Ali Çamdalı,8870,Volkan Fındıklı,93248,False
+7133726,69,Halil İbrahim Sönmez,806193,Moryke Fofana,269199,False
+7133726,62,Turgut Şahin,60645,Samuel Eduok,330035,True
+7133728,88,Mustapha Yatabaré,51558,Yevhen Selezniov,36963,True
+7133728,72,Abdullah Durak,42224,Turgut Şahin,60645,False
+7133728,71,İlhan Depe,146368,André Poko,177103,True
+7133728,63,Ermin Zec,44279,Andriy Bliznichenko,138806,True
+7133728,46,Samuel Eduok,330035,Bengali-Fodé Koita,51407,False
+7133728,38,Vasil Bozhikov,87277,Olivier Veigneau,3079,False
+7133729,88,Sefa Yılmaz,39737,Muhammet Demir,43543,False
+7133729,82,Elyasa Süme,6160,Marcinho,309158,False
+7133729,76,Alban Meha,850994,Jens Jønsson,156640,True
+7133729,65,Änis Ben-Hatira,18891,Evans Kangwa,604444,False
+7133729,60,Ömer Ali Şahiner,103912,Deni Milošević,190403,True
+7133729,60,Dimitar Rangelov,20744,Moryke Fofana,269199,True
+7133734,88,Özgür Çek,69434,Bright Edomwonyi,249423,True
+7133734,81,Joseph Attamah,332963,Yalçın Ayhan,43507,False
+7133734,70,Jakob Jantscher,26292,Leonard Kweuke,46118,True
+7133734,68,Stefano Napoleoni,46939,Cengiz Ünder,758876,False
+7133734,68,Mustafa Pektemek,43643,Marcio Mossoró,42293,False
+7133734,65,Oğuzhan Aynaoğlu,152548,Nosa Igiebor,50720,True
+7133738,86,Muhammed Bayir,344301,Koray Altınay,164759,False
+7133738,86,Raul Rusescu,43774,Pierre Webó,4618,False
+7133738,76,Wilde-Donald Guerrier,199416,Isaac Sackey,292965,True
+7133738,62,Glynor Plet,39019,Berkan Emir,344407,True
+7133738,46,Erdal Kılıçaslan,43693,Musa Çağıran,60363,False
+7133743,87,Aytaç Kara,128196,Yusuf Yazıcı,827804,False
+7133743,80,Matúš Bero,187207,Olcay Şahan,16078,False
+7133743,77,Fabián Castillo,151561,Hugo Rodallega,15668,False
+7133743,72,Ramon Motta,39665,Charles,33109,True
+7133743,66,Serdar Özkan,30032,Mbilla Etame,60426,True
+7133743,55,Yekta Kurtuluş,60289,Richard Danilo,1049650,True
+7133736,90,Marko Milinković,43138,Aydin Karabulut,18862,True
+7133736,88,Kamal Issah,135773,Serdar Gürler,96520,True
+7133736,80,Alain Traoré,16018,Raheem Lawal,239274,False
+7133736,68,Welliton,27570,Silvestre Varela,14323,False
+7133736,61,Hakan Aslantaş,5778,Samba Sow,73059,False
+7133736,58,Vedat Muriqi,310874,Renato Escobar Baruffi,552688,True
+7133742,83,Onur Atasayar,785819,Kubilay Kanatsızkuş,828953,False
+7133742,82,Onur Ayık,67140,Sokol Cikalleshi,81138,True
+7133742,71,Aykut Çeviker,74133,Özer Hurmacı,43425,True
+7133742,62,Muğdat Çelik,74114,Ricardo Vaz Tê,1261,True
+7133742,46,Bogdan Stancu,22547,Sercan Yıldırım,43173,False
+7133742,36,Deniz Yilmaz,26520,Joshua John,27759,False
+7133737,90,Ozan Tufan,251907,Alper Potuk,55028,False
+7133737,90,Josué,77726,Tolga Ciğerci,120298,True
+7133737,80,Moussa Sow,3215,Robin van Persie,1,False
+7133737,80,Eren Derdiyok,21943,Yasin Öztekin,21876,True
+7133737,68,Garry Rodrigues,787429,Bruma,97012,True
+7133737,62,Volkan Şen,43533,Aatif Chahechouhe,114911,False
+7133735,82,Necip Uysal,43394,Vincent Aboubakar,116869,True
+7133735,77,Ahmet Dereli,163711,Vinícius,124807,False
+7133735,72,Adriano,4441,Atınç Nukan,115205,True
+7133735,60,Bekir Yılmaz,81620,Vladimir Koman,22089,False
+7133735,46,Ricardo Quaresma,6254,Atiba Hutchinson,7721,True
+7133739,86,Ólafur Ingi Skúlason,19739,Tănase Cristian,43782,False
+7133739,84,Mustapha Yatabaré,51558,Ermin Zec,44279,False
+7133739,78,Sefa Yılmaz,39737,Mohammed Fatau,258961,True
+7133739,75,Dejan Lazarevič,45927,Andriy Bliznichenko,138806,False
+7133739,46,Muhammet Demir,43543,Evans Kangwa,604444,True
+7133739,46,Elyasa Süme,6160,Wallace Reis,77244,True
+7133745,79,Kubilay Sönmez,169213,Samba Sow,73059,True
+7133745,72,Glynor Plet,39019,Emre Akbaba,343527,False
+7133745,69,Landry N'Guemo,8958,Raheem Lawal,239274,True
+7133745,69,Ryan Mendes,52797,Silvestre Varela,14323,True
+7133745,61,Cenk Ahmet Alkılıç,81928,Emre Nefiz,242823,False
+7133753,78,Kamal Issah,135773,Abdulrahman Khalili,109970,False
+7133753,56,Vedat Muriqi,310874,Uğur Çiftçi,142850,False
+7133753,46,Murat Duruer,5273,Tokelo Rantie,238138,False
+7133753,42,Fabián Castillo,151561,Okay Yokuşlu,97967,True
+7133746,87,Jeremy Bokila,32497,Sokol Cikalleshi,81138,False
+7133746,82,Muğdat Çelik,74114,Ricardo Vaz Tê,1261,False
+7133746,76,Aykut Çeviker,74133,Özer Hurmacı,43425,False
+7133746,68,Loret Sadiku,143356,Abdullah Durak,42224,True
+7133746,63,Olivier Veigneau,3079,Vasil Bozhikov,87277,True
+7133746,55,Batuhan Altıntaş,226994,Cristian Guanca,789438,True
+7133741,90,Oğulcan Çağlayan,387050,Süleyman Koç,40306,False
+7133741,77,Özgür Çek,69434,Oğuzhan Aynaoğlu,152548,False
+7133741,70,Ertuğrul Taşkıran,105974,Fabiano,34317,True
+7133741,68,Emmanuel Emenike,82011,Aatif Chahechouhe,114911,True
+7133741,61,Recep Niyaz,116944,Nosa Igiebor,50720,False
+7133741,46,Ozan Tufan,251907,Şener Özbayraklı,129992,True
+7133740,79,Zeki Yildirim,107658,Mostapha El Kabir,44346,False
+7133740,75,Ahmet Dereli,163711,Magaye Gueye,51417,True
+7133740,75,Ahmet Bahcivan,999394,Bekir Yılmaz,81620,True
+7133740,66,Jean-Armel Drolé,812226,Mbilla Etame,60426,False
+7133740,63,Sakıb Aytaç,86777,Diego Angelo,32818,False
+7133740,46,Cem Özdemir,135862,Renan Diniz,847311,True
+7133750,85,İrfan Can Kahveci,226986,Marcio Mossoró,42293,True
+7133750,81,Mustafa Pektemek,43643,Emmanuel Adebayor,3094,True
+7133750,79,Hakan Özmert,43512,Emre Belözoğlu,2054,True
+7133750,78,Demba Ba,28253,Cenk Tosun,72127,False
+7133750,56,Vincent Aboubakar,116869,Ryan Babel,1876,False
+7133750,45,Tolgay Arslan,71203,Atiba Hutchinson,7721,False
+7133751,80,Sercan Yıldırım,43173,Bogdan Stancu,22547,True
+7133751,79,Eren Derdiyok,21943,Lukas Podolski,1367,False
+7133751,67,Nigel de Jong,1879,Selçuk İnan,31253,False
+7133751,66,Josué,77726,Tolga Ciğerci,120298,False
+7133751,46,Kubilay Kanatsızkuş,828953,Mert Örnek,806368,True
+7133751,45,Cristóbal Jorquera,18346,Ricardo Faty,9421,True
+7133744,88,Deni Milošević,190403,Moryke Fofana,269199,False
+7133744,81,Raul Rusescu,43774,Thievy Bifouma,148919,True
+7133744,73,Ömer Ali Şahiner,103912,Ioan Hora,44460,False
+7133744,61,Adrien Regattin,99774,Adam Maher,111719,True
+7133744,16,Selim Ay,116282,Ali Turan,5813,False
+7133748,87,Stefano Napoleoni,46939,Edin Višća,109779,False
+7133748,87,Zeki Yildirim,107658,Sandro,43301,True
+7133748,77,Mustafa Pektemek,43643,Cengiz Ünder,758876,False
+7133748,70,Chico,39361,Ondřej Čelůstka,45764,True
+7133748,69,Samuel Holmén,7740,İrfan Can Kahveci,226986,False
+7133748,60,Yekta Kurtuluş,60289,Mbilla Etame,60426,True
+7133749,82,Ousmane Viera,37011,Mauricio Ramos,47011,False
+7133749,75,Ahmet Dereli,163711,Magaye Gueye,51417,False
+7133749,58,Bekir Yılmaz,81620,Renan Foguinho,127983,False
+7133749,58,Jonathan Ring,143354,Etien Velikonja,41648,True
+7133749,35,Vedat Muriqi,310874,Marko Milinković,43138,True
+7133749,29,Abdulrahman Khalili,109970,Aleksandar Šćekić,836566,True
+7133758,90,Landry N'Guemo,8958,Raheem Lawal,239274,False
+7133758,84,Silvestre Varela,14323,Deniz Türüç,252207,False
+7133758,84,Matúš Bero,187207,Aytaç Kara,128196,True
+7133758,64,Fabián Castillo,151561,Hugo Rodallega,15668,True
+7133758,46,Samba Sow,73059,Güray Vural,43559,False
+7133747,85,Cristian Guanca,789438,Samuel Eduok,330035,False
+7133747,84,Ahmed Ildız,849329,David Pavelka,101330,False
+7133747,79,Eren Derdiyok,21943,Yasin Öztekin,21876,True
+7133747,70,Martin Linnes,109569,Lionel Carole,122922,True
+7133747,46,Turgut Şahin,60645,Adem Büyük,60250,False
+7133747,18,Garry Rodrigues,787429,Bruma,97012,True
+7133755,90,Alban Meha,850994,Jens Jønsson,156640,True
+7133755,87,Taha Yalçıner,60346,Junior Fernandes,221528,False
+7133755,71,Wilde-Donald Guerrier,199416,Daniel Candeias,41835,False
+7133755,61,Emre Nefiz,242823,Fabrice N'Sakala,123387,False
+7133755,60,Moryke Fofana,269199,Amir Hadžiahmetović,795421,True
+7133755,16,Volkan Fındıklı,93248,Jagoš Vuković,50289,True
+7133752,85,Jakob Jantscher,26292,Süleyman Koç,40306,True
+7133752,82,Nosa Igiebor,50720,Leonard Kweuke,46118,True
+7133752,70,Sercan Yıldırım,43173,Boban Jović,82277,False
+7133752,65,Oğuzhan Aynaoğlu,152548,Oğulcan Çağlayan,387050,True
+7133752,46,Emre Taşdemir,190191,Kubilay Kanatsızkuş,828953,False
+7133752,46,Cristóbal Jorquera,18346,Merter Yüce,60357,False
+7133767,89,Gökhan Inler,4252,Anderson Talisca,329245,True
+7133767,77,Necip Uysal,43394,Tolgay Arslan,71203,True
+7133767,74,Emmanuel Emenike,82011,Robin van Persie,1,False
+7133767,72,Cenk Tosun,72127,Vincent Aboubakar,116869,True
+7133767,46,Ozan Tufan,251907,İsmail Köybaşı,43605,False
+7133767,46,Salih Uçan,135695,Roman Neustädter,38471,False
+7133756,82,Kadir Keleş,60547,Ömer Bayram,68335,True
+7133756,80,Onur Ayık,67140,Olcan Adın,18767,True
+7133756,76,Daniel Larsson,7129,Sokol Cikalleshi,81138,True
+7133756,68,Abdulkadir Kayali,46167,Änis Ben-Hatira,18891,False
+7133756,56,Orkan Çınar,283901,Davy Claude Angan,39242,False
+7133756,27,Elyasa Süme,6160,Musa Nizam,43526,False
+7133754,88,Muhammed Bayir,344301,Mehmet Güven,17795,False
+7133754,80,Valerică Găman,43100,Tănase Cristian,43782,True
+7133754,75,Raul Rusescu,43774,Adrien Regattin,99774,False
+7133754,75,Mustapha Yatabaré,51558,Yevhen Selezniov,36963,True
+7133754,58,Dejan Lazarevič,45927,Andriy Bliznichenko,138806,True
+7133769,83,Nosa Igiebor,50720,Jakob Jantscher,26292,False
+7133769,83,Ahmed Ildız,849329,André Castro,41652,True
+7133769,76,Hasan Bilal,826909,Turgut Şahin,60645,True
+7133769,69,Özgür Çek,69434,Matic Fink,41272,False
+7133769,58,Batuhan Altıntaş,226994,Loret Sadiku,143356,True
+7133769,55,Orhan Ovacıklı,130454,Leonard Kweuke,46118,False
+7133763,84,Ryan Mendes,52797,Deniz Türüç,252207,True
+7133763,84,Silvestre Varela,14323,Raheem Lawal,239274,True
+7133763,82,Emre Can Atila,806139,Marc Kibong Mbamba,60412,False
+7133763,74,Jean-Armel Kana-Biyik,39020,Erkan Kaş,94868,True
+7133763,68,Ioan Hora,44460,Riad Bajić,331751,False
+7133763,68,Ömer Ali Şahiner,103912,Alban Meha,850994,False
+7133757,84,Samuel Holmén,7740,Junior Caiçara,128440,True
+7133757,75,Renato Escobar Baruffi,552688,Selçuk Şahin,12384,False
+7133757,71,Mahmut Tekdemir,43666,Marcio Mossoró,42293,True
+7133757,65,Vedat Muriqi,310874,Uğur Çiftçi,142850,False
+7133757,56,Mustafa Pektemek,43643,Bekir İrtegün,21823,True
+7133757,46,Murat Duruer,5273,Kamal Issah,135773,False
+7133765,90,Ahmet Bahcivan,999394,Vinícius,124807,True
+7133765,89,Yusuf Erdoğan,256663,Emmanuel Más,249271,False
+7133765,66,Bekir Yılmaz,81620,Vladimir Koman,22089,True
+7133765,63,Fabián Castillo,151561,Dame N'Doye,30178,False
+7133765,63,Matúš Bero,187207,Ogenyi Onazi,150200,False
+7133765,15,Cem Özdemir,135862,Roni,328991,True
+7133768,90,Chico,39361,Charles,33109,False
+7133768,79,Richard Danilo,1049650,Mbilla Etame,60426,False
+7133768,75,Sakıb Aytaç,86777,Mostapha El Kabir,44346,False
+7133768,68,Volkan Şen,43533,Jeremain Lens,18115,True
+7133768,66,Miroslav Stoch,42860,Salih Uçan,135695,True
+7133766,85,Orhan Taşdelen,74088,Mustafa Yumlu,124643,False
+7133766,77,Daniel Larsson,7129,Olcan Adın,18767,False
+7133766,69,Adam Maher,111719,Pierre Webó,4618,True
+7133766,52,Thievy Bifouma,148919,Mehmet Güven,17795,True
+7133766,46,Avdija Vršajević,29758,Koray Altınay,164759,True
+7133766,38,Aykut Çeviker,74133,Custódio,6561,False
+7133760,90,Glynor Plet,39019,Vágner Love,13313,True
+7133760,88,Taha Yalçıner,60346,Emre Akbaba,343527,True
+7133760,87,Berkan Emir,344407,Fabrice N'Sakala,123387,True
+7133760,76,Serdar Deliktaş,84807,Ermin Zec,44279,False
+7133760,62,Dejan Lazarevič,45927,Andriy Bliznichenko,138806,False
+7133760,62,Mustapha Yatabaré,51558,Yevhen Selezniov,36963,False
+7133772,87,Nigel de Jong,1879,Wesley Sneijder,1934,False
+7133772,87,Evans Kangwa,604444,Khaly Thiam,258157,True
+7133772,72,Garry Rodrigues,787429,Sinan Gümüş,169165,False
+7133772,63,Eren Derdiyok,21943,Lukas Podolski,1367,False
+7133772,63,Marcinho,309158,Doğanay Kılıç,328133,True
+7133772,63,Änis Ben-Hatira,18891,Orkan Çınar,283901,True
+7133759,90,Necip Uysal,43394,Ricardo Quaresma,6254,False
+7133759,83,Sercan Yıldırım,43173,Kubilay Kanatsızkuş,828953,True
+7133759,79,Andreas Beck,9860,Gökhan Gönül,30137,False
+7133759,63,Cenk Tosun,72127,Atiba Hutchinson,7721,False
+7133759,55,Onur Atasayar,785819,Aziz Behich,576220,True
+7133759,46,Bogdan Stancu,22547,Emre Taşdemir,190191,True
+7133761,86,Raul Rusescu,43774,Thievy Bifouma,148919,False
+7133761,86,Josué,77726,Bruma,97012,True
+7133761,76,Adrien Regattin,99774,Avdija Vršajević,29758,False
+7133761,63,Musa Çağıran,60363,Aminu Umar,333087,False
+7133761,63,Garry Rodrigues,787429,Sinan Gümüş,169165,True
+7133761,59,Lukas Podolski,1367,Eren Derdiyok,21943,True
+7133762,78,Ali Faez Atiyah,333479,Süleyman Koç,40306,True
+7133762,73,Muhammet Demir,43543,İlhan Parlak,5810,False
+7133762,68,Oğuzhan Aynaoğlu,152548,Nosa Igiebor,50720,True
+7133762,65,Evans Kangwa,604444,Änis Ben-Hatira,18891,False
+7133762,54,Alpay Kocakli,612018,Sergei Kislyak,49809,False
+7133762,46,Oğulcan Çağlayan,387050,Recep Niyaz,116944,True
+7133773,90,Firat Kaplan,758524,Cem Özdemir,135862,False
+7133773,86,Emre Uğur Uruç,370940,Ahmet Dereli,163711,False
+7133773,77,Güray Vural,43559,Deniz Türüç,252207,True
+7133773,74,Ahmet Bahcivan,999394,Bekir Yılmaz,81620,False
+7133773,72,Jean-Armel Kana-Biyik,39020,Samba Sow,73059,True
+7133773,56,Ryan Mendes,52797,Silvestre Varela,14323,True
+7133770,87,Emre Taşdemir,190191,Cristóbal Jorquera,18346,False
+7133770,76,Emre Güral,37705,Charles,33109,True
+7133770,70,Yekta Kurtuluş,60289,Richard Danilo,1049650,True
+7133770,63,Serdar Özkan,30032,Ramon Motta,39665,True
+7133770,46,Furkan Soyalp,226992,Bogdan Stancu,22547,False
+7133770,41,Ricardo Faty,9421,Ertuğrul Ersoy,355004,False
+7133776,86,Andreas Beck,9860,Gökhan Gönül,30137,True
+7133776,84,Cristian Guanca,789438,Samuel Eduok,330035,False
+7133776,72,Cenk Tosun,72127,Vincent Aboubakar,116869,True
+7133776,65,Necip Uysal,43394,Anderson Talisca,329245,True
+7133776,57,Ahmed Ildız,849329,Abdullah Durak,42224,False
+7133776,57,Hasan Bilal,826909,Tunay Torun,30241,False
+7133774,89,Marc Kibong Mbamba,60412,Ali Turan,5813,True
+7133774,80,Ioan Hora,44460,Ömer Ali Şahiner,103912,True
+7133774,70,Serdar Deliktaş,84807,Yevhen Selezniov,36963,False
+7133774,46,Kerim Zengin,43669,Dany Nounkeu,73094,False
+7133774,46,Andriy Bliznichenko,138806,Ermin Zec,44279,False
+7133774,46,Ali Çamdalı,8870,Jens Jønsson,156640,True
+7133771,90,Zeki Yavru,140735,Ogenyi Onazi,150200,True
+7133771,89,Yusuf Erdoğan,256663,Fabián Castillo,151561,True
+7133771,82,İrfan Can Kahveci,226986,Marcio Mossoró,42293,False
+7133771,72,Hugo Rodallega,15668,Matúš Bero,187207,True
+7133771,62,Mahmut Tekdemir,43666,Junior Caiçara,128440,False
+7133771,46,Mustafa Pektemek,43643,Emmanuel Adebayor,3094,False
+7133764,85,Onur Ayık,67140,Olcan Adın,18767,True
+7133764,76,Abdoul Sissoko,51461,Aykut Çeviker,74133,True
+7133764,72,Glynor Plet,39019,Junior Fernandes,221528,False
+7133764,70,Daniel Larsson,7129,Ricardo Vaz Tê,1261,True
+7133764,46,Cenk Ahmet Alkılıç,81928,Wilde-Donald Guerrier,199416,False
+7133764,46,Darko Lazić,307098,Lamine Gassama,40698,False
+7133794,90,Miroslav Stoch,42860,Alper Potuk,55028,False
+7133794,83,Volkan Şen,43533,Jeremain Lens,18115,False
+7133794,79,Emmanuel Emenike,82011,Robin van Persie,1,False
+7133794,76,Vedat Muriqi,310874,Murat Duruer,5273,True
+7133794,65,Uğur Çiftçi,142850,Tokelo Rantie,238138,True
+7133794,30,Cosmin Matei,44429,Abdulrahman Khalili,109970,True
+7133780,80,Ahmed Ildız,849329,Hasan Bilal,826909,True
+7133780,79,Chico,39361,Diego Angelo,32818,False
+7133780,75,Serdar Özkan,30032,Ramon Motta,39665,False
+7133780,70,Yekta Kurtuluş,60289,Mbilla Etame,60426,False
+7133780,70,Cristian Guanca,789438,Loret Sadiku,143356,True
+7133780,46,Tunay Torun,30241,Samuel Eduok,330035,True
+7133777,82,Onur Ayık,67140,Ricardo Vaz Tê,1261,False
+7133777,82,Ioan Hora,44460,Jagoš Vuković,50289,True
+7133777,74,Muğdat Çelik,74114,Daniel Larsson,7129,False
+7133777,67,Hasan Ali Adıgüzel,828950,Özer Hurmacı,43425,False
+7133777,65,Ali Çamdalı,8870,Dimitar Rangelov,20744,True
+7133777,46,Ömer Ali Şahiner,103912,Riad Bajić,331751,True
+7133779,89,Firat Kaplan,758524,Cem Özdemir,135862,False
+7133779,80,Ahmet Dereli,163711,Magaye Gueye,51417,False
+7133779,73,Hakan Özmert,43512,Uğur Uçar,5713,True
+7133779,62,Vladimir Koman,22089,Ahmet Bahcivan,999394,False
+7133779,58,Edin Višća,109779,Cengiz Ünder,758876,True
+7133779,58,Mustafa Pektemek,43643,İrfan Can Kahveci,226986,True
+7133783,87,Miroslav Stoch,42860,Jeremain Lens,18115,True
+7133783,81,Hugo Rodallega,15668,Fabián Castillo,151561,False
+7133783,80,Salih Uçan,135695,Moussa Sow,3215,True
+7133783,72,Volkan Şen,43533,Emmanuel Emenike,82011,True
+7133783,46,Ján Ďurica,12869,Okay Yokuşlu,97967,False
+7133783,46,Esteban Alvarado,120308,Onur Kıvrak,43715,False
+7133781,86,Murat Duruer,5273,Vedat Muriqi,310874,False
+7133781,84,Bilal Kisa,5914,Cristóbal Jorquera,18346,True
+7133781,79,Joshua John,27759,Ricardo Faty,9421,True
+7133781,70,Cosmin Matei,44429,Etien Velikonja,41648,False
+7133781,46,Marko Milinković,43138,Anil Karaer,81941,False
+7133781,46,Kubilay Kanatsızkuş,828953,Emre Taşdemir,190191,True
+7133782,86,Mustapha Yatabaré,51558,Andriy Bliznichenko,138806,True
+7133782,84,Silvestre Varela,14323,Raheem Lawal,239274,False
+7133782,82,Landry N'Guemo,8958,Samba Sow,73059,False
+7133782,73,Yevhen Selezniov,36963,André Poko,177103,True
+7133782,72,Ryan Mendes,52797,Güray Vural,43559,False
+7133782,40,İshak Doğan,124331,Paul Papp,69336,True
+7133778,86,Łukasz Szukała,2392,Muhammed Bayir,344301,True
+7133778,77,Jakob Jantscher,26292,Dhurgham Ismail,809593,False
+7133778,71,Oğulcan Çağlayan,387050,Matic Fink,41272,False
+7133778,55,Dzon Delarge,158533,Raul Rusescu,43774,True
+7133778,55,Engin Bekdemir,138758,Thievy Bifouma,148919,True
+7133778,46,Orhan Ovacıklı,130454,Ali Faez Atiyah,333479,False
+7133785,84,Serkan Bakan,828905,Mohammed Fatau,258961,True
+7133785,83,Caner Erkin,15680,Oğuzhan Özyakup,137642,False
+7133785,77,Demba Ba,28253,Vincent Aboubakar,116869,False
+7133785,75,Doğanay Kılıç,328133,Änis Ben-Hatira,18891,True
+7133785,61,Alpay Kocakli,612018,Barış Yardımcı,594420,True
+7133785,60,Necip Uysal,43394,Cenk Tosun,72127,False
+7133775,90,Eren Derdiyok,21943,Lukas Podolski,1367,False
+7133775,77,Emre Nefiz,242823,Darko Lazić,307098,True
+7133775,77,Cenk Ahmet Alkılıç,81928,Junior Fernandes,221528,True
+7133775,66,Berkan Emir,344407,Daniel Candeias,41835,True
+7133775,61,Josué,77726,Wesley Sneijder,1934,False
+7133775,61,Garry Rodrigues,787429,Sinan Gümüş,169165,False
+7133793,90,Tayyip Talha Sanuç,851909,Tănase Cristian,43782,False
+7133793,85,Mahmut Akan,759588,Ermin Zec,44279,False
+7133793,78,Hasan Ali Adıgüzel,828950,Özer Hurmacı,43425,True
+7133793,71,İlhan Depe,146368,Fatih Atik,51330,False
+7133793,69,Muğdat Çelik,74114,Miral Samardžić,41640,True
+7133793,59,Daniel Larsson,7129,Onur Ayık,67140,True
+7133792,83,Herolind Shala,78895,Samuel Eduok,330035,False
+7133792,72,Cosmin Matei,44429,Umut Sözen,43466,True
+7133792,67,Ahmed Ildız,849329,Abdullah Durak,42224,False
+7133792,67,Tunay Torun,30241,Hasan Bilal,826909,False
+7133792,67,Aleksandar Šćekić,836566,Vedat Muriqi,310874,True
+7133792,60,Murat Duruer,5273,Anil Karaer,81941,True
+7133789,87,Yunus Sencay,874636,Serkan Bakan,828905,False
+7133789,73,Atakan Cangöz,789251,Harun Alpsoy,798270,True
+7133789,67,Doğukan Sinik,796114,Emre Güral,37705,True
+7133789,52,Sandro,43301,Yusuf Çelik,859114,True
+7133784,84,Marcio Mossoró,42293,İrfan Can Kahveci,226986,False
+7133784,84,Erdem Onur Beytas,903709,Rajko Rotman,61375,True
+7133784,75,Hakan Özmert,43512,Mahmut Tekdemir,43666,False
+7133784,70,Edin Višća,109779,Stefano Napoleoni,46939,False
+7133784,69,Silvestre Varela,14323,Güray Vural,43559,True
+7133784,60,Landry N'Guemo,8958,Ryan Mendes,52797,True
+7133787,90,Serbay Can,816221,Ahmet Dereli,163711,True
+7133787,81,Firat Kaplan,758524,Vinícius,124807,True
+7133787,74,Emmanuel Emenike,82011,Moussa Sow,3215,False
+7133787,74,Reynaldo Silva,544140,Cem Özdemir,135862,True
+7133787,64,Ozan Tufan,251907,Jeremain Lens,18115,False
+7133787,18,Volkan Şen,43533,Yiğithan Güveli,862477,False
+7133791,82,Gökhan Gönül,30137,Vincent Aboubakar,116869,True
+7133791,75,Burak Agaoglu,882629,Dzon Delarge,158533,False
+7133791,71,Necip Uysal,43394,Tolgay Arslan,71203,True
+7133791,59,Adriano,4441,Caner Erkin,15680,True
+7133791,58,Sinan Kurt,381560,Engin Bekdemir,138758,False
+7133791,46,Thievy Bifouma,148919,Raul Rusescu,43774,False
+7133790,88,Eren Derdiyok,21943,Sinan Gümüş,169165,True
+7133790,81,Barry Douglas,124360,Ioan Hora,44460,False
+7133790,67,Yasin Öztekin,21876,Lukas Podolski,1367,True
+7133790,64,Deni Milošević,190403,Marc Kibong Mbamba,60412,False
+7133790,64,Riad Bajić,331751,Moryke Fofana,269199,False
+7133790,46,Josué,77726,Wesley Sneijder,1934,True
+7133786,84,Abdülkadir Ömür,826155,Ogenyi Onazi,150200,True
+7133786,74,Merter Yüce,60357,Sinan Bakış,169317,False
+7133786,61,Bilal Kisa,5914,Ricardo Faty,9421,False
+7133786,46,Sercan Yıldırım,43173,Joshua John,27759,False
+7133788,85,Ali Faez Atiyah,333479,Recep Niyaz,116944,True
+7133788,78,Nosa Igiebor,50720,Süleyman Koç,40306,True
+7133788,73,Cenk Ahmet Alkılıç,81928,Berkan Emir,344407,False
+7133788,73,Wilde-Donald Guerrier,199416,Emre Nefiz,242823,False
+7133788,64,Jakob Jantscher,26292,Bright Edomwonyi,249423,True
+7133788,46,Taha Yalçıner,60346,Kenneth Omeruo,158293,False

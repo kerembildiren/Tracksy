@@ -1,0 +1,19 @@
+position,team,team_id,matches,wins,draws,losses,goals_for,goals_against,goal_diff,points
+1,Galatasaray,3061,34,24,7,3,64,23,+41,79
+2,Fenerbahçe,3052,34,22,7,5,72,37,+35,73
+3,Beşiktaş JK,3050,34,23,4,7,58,32,+26,73
+4,Sivasspor,3076,34,23,4,7,57,29,+28,73
+5,Kayserispor,3072,34,15,10,9,50,31,+19,55
+6,Trabzonspor,3051,34,14,7,13,44,39,+5,49
+7,Denizlispor,3058,34,13,6,15,48,48,0,45
+8,MKE Ankaragücü,3103,34,11,10,13,36,44,-8,43
+9,Gaziantepspor,3060,34,11,10,13,36,45,-9,43
+10,Sincan Belediyesi Ankaraspor,3057,34,10,11,13,35,38,-3,41
+11,Hacettepe SK,7801,34,10,10,14,30,36,-6,40
+12,Başakşehir FK,3086,34,10,8,16,44,47,-3,38
+13,Bursaspor,3055,34,9,11,14,31,40,-9,38
+14,Konyaspor,3085,34,10,6,18,37,64,-27,36
+15,Gençlerbirliği,7802,34,9,8,17,44,51,-7,35
+16,Manisaspor,3100,34,7,8,19,42,62,-20,29
+17,Çaykur Rizespor,3064,34,7,8,19,32,64,-32,29
+18,Kasımpaşa,6063,34,8,5,21,26,56,-30,29

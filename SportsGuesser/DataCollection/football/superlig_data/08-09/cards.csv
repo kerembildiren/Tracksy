@@ -1,0 +1,1407 @@
+match_id,minute,added_time,player,player_id,card_type,is_home
+827994,75,,Güray Vural,43559,yellow,False
+827994,47,,Murat Karakoc,2512306,yellowRed,False
+827994,30,,Murat Karakoc,2512306,yellow,False
+827985,84,,Zeki Korkmaz,43658,yellow,True
+827985,45,,Bulent Ertugrul,5367,yellow,False
+827985,35,,Ekrem Eksioglu,2510561,yellow,True
+827985,8,,Stjepan Poljak,43577,yellow,False
+827984,45,,İbrahim Öztürk,43541,yellow,False
+827984,32,,Giani Kirita,1855071,yellow,False
+827984,26,,Ibrahim Sahin,813824,yellow,True
+827968,89,,Mehmet Eren Boyraz,42225,red,False
+827968,82,,Matias Escobar,42232,yellow,False
+827968,81,,Onur Tuncer,43707,yellow,True
+827968,79,,Murat Sozgelmez,43702,yellow,True
+827968,61,,Umut Kocin,18197,yellow,False
+827968,57,,Alioum Saidou,5909,yellow,False
+827968,41,,Faruk Bayar,43709,yellow,True
+827968,32,,Milan Purović,13707,yellow,False
+827989,90,,Daniel Güiza,811494,yellow,False
+827989,86,,Diego Lugano,13447,yellow,False
+827989,47,,Gökhan Gönül,30137,yellow,False
+827989,31,,Edu Dracena,18763,yellow,False
+827991,58,,Serkan Balci,5512,yellow,True
+827991,37,,Theo Weeks,43426,yellowRed,False
+827991,34,,Ibrahima Yattara,6181,yellow,True
+827991,26,,Theo Weeks,43426,yellow,False
+827987,90,,Abd El-Zaher El-Saqqa,14543,yellow,True
+827987,76,,Ilhan Eker,43646,yellow,True
+827987,73,,Patrice Nzekou Nguenheu,43615,yellow,False
+827987,69,,Mustafa Koray Avci,5318,yellow,True
+827987,61,,Serdar Kulbilge,18756,yellow,False
+827987,54,,Dušan Anđelković,31168,yellow,False
+827987,48,,Bruce Djite,24674,yellow,True
+827987,38,,Nenad Jestrovic,1854632,yellow,False
+827992,82,,Ibrahim Ege,6180,yellow,False
+827992,80,,Ismail Gulduren,43688,yellow,True
+827992,22,,Serkan Kırıntılı,5247,yellow,False
+827993,60,,Serge Djiehoua,2510557,yellow,True
+827993,50,,Ali Zitouni,14764,yellow,True
+827993,30,,Jarosław Bieniuk,60302,yellow,True
+829440,70,,Mehmet Hilmi Yilmaz,6184,yellow,True
+829440,44,,Elyasa Süme,6160,yellow,True
+829440,43,,Huseyin Cimsir,6179,yellow,False
+829440,19,,Tolga Dogantez,6150,yellow,True
+829437,88,,Can Arat,12864,yellow,True
+829437,77,,Roberto Carlos,30131,yellow,True
+829437,70,,Razundara Tjikuzu,8904,yellow,False
+829437,62,,Yasin Cakmak,5337,yellow,True
+829437,46,,Serhat Gulpinar,5368,yellowRed,False
+829437,44,,Gökhan Gönül,30137,yellow,True
+829437,39,,Serhat Gulpinar,5368,yellow,False
+829437,33,,Ilyas Kahraman,803403,yellow,False
+829437,30,,Metin Depe,43662,red,False
+829443,90,,İbrahim Dağaşan,43701,yellow,False
+829443,90,,Fabio Bilica,1345,yellow,False
+829443,81,,Bulent Bolukbasi,5803,yellow,True
+829443,76,,Volkan Kursat Bekiroglu,6192,yellow,True
+829443,66,,Musa Buyuk,5296,red,True
+829442,90,,Lars Fredrik Risp,7040,yellow,True
+829442,38,,Özer Hurmacı,43425,yellow,True
+829442,16,,Armand Deumi Tchami,1854817,yellow,False
+838537,90,,Ilhan Eker,43646,yellow,False
+838537,90,,Halil Zeybek,952778,yellow,True
+838537,78,,Burhan Eşer,43645,yellow,False
+838537,71,,Dimitar Ivankov,11247,yellow,True
+838537,20,,Omer Erdogan,5896,yellow,True
+838537,11,,Volkan Şen,43533,yellow,True
+829445,84,,Sedat Ağçay,5744,yellow,False
+829445,40,,Ugur Kavuk,43522,yellow,False
+829441,90,,Luca Vucko,43583,yellow,True
+829441,19,,Tozo,2510567,yellow,False
+829441,13,,Doga Kaya,43578,yellow,True
+829438,81,,Ali Turan,5813,yellow,True
+829438,66,,Abdullah Durak,42224,yellow,True
+829438,58,,Rene-Salomon Olembe,3549,yellow,True
+829438,29,,Ayhan Akman,5691,yellow,False
+829438,29,,Alioum Saidou,5909,yellow,True
+829439,80,,Fahri Tatan,903462,yellow,False
+829439,79,,Kaue Caetano Da Silva,43690,yellow,False
+829439,76,,Cihan Haspolatli,5693,yellowRed,False
+829439,64,,Zafer Demir,5867,yellow,False
+829439,58,,Edouard Cissé,3352,yellow,True
+829439,48,,Cihan Haspolatli,5693,yellow,False
+829439,44,,Serdar Özkan,30032,yellow,True
+829439,13,,Erdal Kılıçaslan,43693,yellow,False
+829471,90,,Volkan Demirel,15677,yellowRed,False
+829471,90,,Roberto Carlos,30131,yellow,False
+829471,90,,Volkan Demirel,15677,yellow,False
+829471,89,,Burak Yılmaz,18864,yellow,False
+829471,81,,Daniel Güiza,811494,yellow,False
+829471,74,,Gilman Lika,43633,yellow,True
+829471,52,,Tozo,2510567,yellow,True
+829465,45,,Delio Rodas César Toledo,5144,yellow,True
+829465,29,,Abdullah Durak,42224,yellow,True
+829465,25,,Kemal Aslan,5510,yellow,False
+829468,54,,Mehmet Cogum,2510568,yellow,True
+829448,-1,,Omer Catkic,43506,red,False
+829448,-1,,Lincoln,257,yellow,True
+829448,90,,Yalçın Ayhan,43507,yellowRed,False
+829448,90,,Omer Catkic,43506,yellow,False
+829448,78,,Ertugrul Arslan,43521,yellow,False
+829448,68,,Ayhan Akman,5691,yellow,True
+829448,63,,Ugur Kavuk,43522,yellow,False
+829448,58,,Aydin Yilmaz,17797,yellow,True
+829448,40,,Yalçın Ayhan,43507,yellow,False
+829448,37,,Piotr Dziewicki,43510,yellow,False
+829448,31,,Harry Kewell,700,yellow,True
+829448,24,,Şenol Can,43508,yellow,False
+829448,16,,Korhan Ozturk,43519,yellow,False
+829448,11,,Shabani Nonda,3100,yellow,True
+829473,55,,Mehmet Yildiz,5489,yellow,True
+829473,52,,Faruk Bayar,43709,yellow,True
+829473,45,,Leandrão,867932,yellow,False
+829477,90,,Ediz Bahtiyaroglu,43408,yellowRed,False
+829477,89,,Marquinhos,43655,yellow,True
+829477,83,,Ugur Demirkol,116831,yellow,False
+829477,78,,Efe Inanc,43672,yellow,True
+829477,65,,Kenan Hasagić,5727,red,True
+829477,59,,Razundara Tjikuzu,8904,yellow,True
+829477,38,,Ediz Bahtiyaroglu,43408,yellow,False
+829477,32,,İbrahim Akın,5321,yellow,True
+829472,90,,Ibrahim Ege,6180,red,False
+829472,90,,Armand Deumi Tchami,1854817,red,True
+829472,90,,Moïn Chaabani,43403,yellowRed,False
+829472,86,,Mehmet Yozgatli,5490,yellowRed,True
+829472,86,,Moïn Chaabani,43403,yellow,False
+829472,82,,Ilkem Ozkaynak,43402,yellow,False
+829472,75,,Burak Ozsarac,2510559,yellow,False
+829472,73,,Mehmet Yozgatli,5490,yellow,True
+829472,64,,Ibrahim Ege,6180,yellow,False
+829472,54,,Silvino João de Carvalho,5280,yellow,False
+829472,40,,Cristian Rodrigo Zurita,43592,yellow,True
+829472,37,,Erman Ozgur,5299,yellow,True
+829472,34,,Cem Can,43397,yellow,False
+829464,89,,Abd El-Zaher El-Saqqa,14543,yellow,True
+829464,79,,Abdullah Halman,43589,yellow,False
+829464,51,,Bulent Ertugrul,5367,yellow,False
+829464,27,,Anderson Ricardo Dos Santos,43574,yellow,False
+829470,67,,Serdar Kurtuluş,18861,yellow,False
+829470,37,,Hrvoje Čale,31147,yellow,True
+829489,88,,Suleyman Olgun,43552,yellow,True
+829489,85,,Umut Bulut,5275,yellow,False
+829489,58,,Egemen Korkmaz,43711,yellow,False
+829491,87,,Faruk Bayar,43709,yellow,False
+829491,86,,Abdurrahman Dereli,43699,red,False
+829491,79,,Doga Kaya,43578,yellow,True
+829491,79,,Koray Arslan,43585,yellow,True
+829491,62,,Mamadou Alimou Diallo,6093,yellow,False
+829491,61,,Krunoslav Lovrek,10464,yellow,True
+829491,50,,Kanfory Sylla,14616,yellow,False
+829491,31,,Murat Onur,43584,yellow,True
+829491,27,,Bulent Ertugrul,5367,yellow,True
+829483,90,,İlhan Parlak,5810,yellow,True
+829483,68,,Daniel Addo,2510660,yellow,False
+829483,54,,Abd El-Zaher El-Saqqa,14543,yellowRed,False
+829483,54,,Nicolas Peric,22968,yellow,False
+829483,24,,Kerem Seras,43653,yellow,False
+829483,24,,Emre Belözoğlu,2054,yellow,True
+829483,16,,Abd El-Zaher El-Saqqa,14543,yellow,False
+829482,45,,Bulent Bolukbasi,5803,yellow,True
+829482,32,,Serdar Kulbilge,18756,yellow,True
+829485,89,,Volkan Arslan,1854457,yellow,True
+829485,87,,Sedat Ağçay,5744,yellow,True
+829485,44,,Ertugrul Arslan,43521,yellow,True
+829485,24,,Orhan Ak,29179,yellow,True
+829492,87,,Delio Rodas César Toledo,5144,red,False
+829492,80,,Delio Rodas César Toledo,5144,yellow,False
+829492,68,,Sercan Yıldırım,43173,yellow,True
+829492,65,,Eren Gungor,42279,yellow,False
+829492,54,,Durmus Bayram,42238,yellow,False
+829492,52,,Ali Turan,5813,yellow,False
+829492,36,,Mustafa Keceli,5375,yellow,True
+829492,26,,Bekir Ozan Has,43530,yellow,True
+829490,45,,Gilman Lika,43633,yellow,False
+829490,41,,Ibrahim Sahin,813824,yellow,False
+829490,37,,Tozo,2510567,yellow,False
+829958,85,,Bobô,18221,yellow,True
+829958,80,,Mert Nobre,5498,yellow,True
+829958,78,,Ibrahim Toraman,5314,yellow,True
+829958,68,,Tomáš Sivok,12412,yellow,True
+829958,46,,Eduardo Pacheco,43593,yellowRed,False
+829958,36,,Eduardo Pacheco,43593,yellow,False
+829958,4,,Murat Ceylan,43590,yellow,False
+838532,87,,Burak Yılmaz,18864,yellow,False
+838532,76,,Onder Turaci,5504,yellow,False
+838532,66,,Roberto Carlos,30131,yellow,False
+838532,58,,Mamadou Alimou Diallo,6093,yellow,True
+838532,38,,Colin Kazim-Richards,30134,yellow,False
+829495,84,,Erman Kılıç,43664,yellow,True
+829495,83,,Mert Nobre,5498,yellow,False
+829495,59,,Rüstü Reçber,1422240,yellow,False
+829495,56,,Serdar Kurtuluş,18861,yellow,False
+829495,29,,Zeki Korkmaz,43658,yellow,True
+829507,87,,Neca,6509,yellow,False
+829507,83,,Muhammet Hanifi Yoldas,2510560,yellow,False
+829507,78,,Engin Baytar,43642,yellow,True
+829507,56,,Hürriyet Güçer,5285,yellow,False
+829507,44,,Eren Aydin,5893,yellow,False
+829507,44,,Kahê,11985,yellow,True
+829507,31,,Mustafa Koray Avci,5318,yellow,True
+829507,29,,Özer Hurmacı,43425,yellow,False
+838533,90,,Semavi Ozgur,816391,yellow,True
+838533,89,,Volkan Şen,43533,yellow,False
+838533,85,,Nenad Jestrovic,1854632,yellow,True
+838533,69,,Mustafa Keceli,5375,yellow,False
+838533,34,,Sercan Yıldırım,43173,yellow,False
+829494,90,,Yalçın Ayhan,43507,yellow,False
+829494,52,,Huseyin Cimsir,6179,yellow,True
+829494,51,,Recep Yildiz,2512299,yellow,False
+829494,40,,Orhan Ak,29179,yellow,False
+829494,35,,Hrvoje Čale,31147,yellow,True
+829494,30,,Gustavo Colman,790572,yellow,True
+829494,28,,Volkan Arslan,1854457,yellow,False
+829496,90,,Tomas Abraham,5364,yellow,False
+829496,77,,Mehmet Yozgatli,5490,yellow,True
+829496,54,,Murat Ceylan,43590,yellow,True
+829501,90,,Serkan Kırıntılı,5247,yellow,False
+829501,83,,Leonardo Andreas Iglesias,43400,red,False
+829501,83,,Orhan Şam,5784,red,True
+829501,70,,Barbaros Barut,2329,yellow,False
+829501,26,,Sandro da Silva Mendonça,43628,yellow,True
+829493,82,,Turgay Bahadir,3845,yellow,True
+829493,53,,Durmus Bayram,42238,yellow,True
+829493,26,,Ali Turan,5813,yellow,True
+838531,72,,Fernando Meira,412,yellow,True
+838531,71,,Koray İçten,2512419,yellow,False
+829513,86,,Abdullah Cetin,1003174,yellow,True
+829513,69,,Ali Zitouni,14764,yellow,True
+829513,50,,Ertugrul Arslan,43521,yellow,True
+829513,12,,Yalçın Ayhan,43507,yellow,True
+829512,84,,Tayfun Cora,18218,yellow,False
+829512,63,,Hrvoje Čale,31147,yellow,False
+829512,52,,Miloš Mihajlov,18764,yellow,True
+829512,34,,Serkan Balci,5512,yellow,False
+829519,89,,Hürriyet Güçer,5285,yellow,True
+829519,66,,Kanfory Sylla,14616,yellowRed,False
+829519,66,,Stefan Senecky,25976,yellow,True
+829519,64,,Kanfory Sylla,14616,yellow,False
+829519,45,,Baki Mercimek,5776,yellow,True
+829519,21,,Mamadou Alimou Diallo,6093,yellow,False
+829511,90,,Cenk Gönen,43556,yellow,True
+829511,83,,Çağlar Birinci,41856,yellow,True
+829511,81,,Musa Sinan Yilmazer,43560,yellow,True
+829511,73,,Marquinhos,43655,yellow,False
+829511,36,,Serhat Gulpinar,5368,yellow,False
+829511,9,,Douglas Daniel Braga,43567,yellow,True
+829509,76,,Milan Baroš,699,yellow,False
+829509,63,,Veli Acar,43535,yellow,True
+829509,60,,Sabri Sarioğlu,5715,yellow,False
+829517,87,,Serdar Kulbilge,18756,yellow,False
+829517,66,,Fransergio,2512305,yellow,False
+829517,57,,Tolga Seyhan,6190,yellow,False
+829517,49,,Đorđe Tutorić,31170,yellow,False
+829517,31,,Serkan Ozdemir,5359,yellow,True
+829517,7,,Luca Vucko,43583,yellow,True
+829517,1,,Serdar Özbayraktar,43576,yellow,True
+829510,84,,Emre Balak,43652,yellow,False
+829510,76,,Engin Baytar,43642,yellow,False
+829510,75,,Burhan Eşer,43645,yellow,False
+829510,73,,Barbaros Barut,2329,yellow,True
+829510,37,,Erkan Ozbey,2512303,yellow,False
+829510,18,,Hakan Aslantaş,5778,yellow,False
+829518,64,,Turgay Bahadir,3845,yellow,False
+829518,64,,Uğur Boral,15683,yellow,True
+829514,35,,Tozo,2510567,yellow,False
+829520,77,,Razundara Tjikuzu,8904,yellow,True
+829520,66,,Serge Djiehoua,2510557,yellow,False
+829522,90,,Darryl Roberts,2477711,yellow,False
+829522,84,,Burak Akyildiz,43550,yellow,False
+829522,80,,Amir Azmy Megahed,13651,yellow,True
+829522,48,,Carlos Alberto Dos Santos Gomes,43549,yellow,False
+829522,33,,Ibrahim Sahin,813824,yellow,True
+829522,28,,Ufuk Arslan,43637,yellow,True
+829521,89,,Bulent Kocabey,816055,yellow,False
+829521,77,,Can Cumhur Bozaci,5397,yellow,False
+829521,63,,Serdar Özbayraktar,43576,yellow,False
+829521,45,,İbrahim Öztürk,43541,red,True
+829521,45,,Murat Onur,43584,yellow,False
+829521,41,,Anderson Ricardo Dos Santos,43574,yellow,False
+829521,37,,Yusuf Simsek,31680,yellow,True
+829521,4,,Vanja Iveša,43570,yellow,False
+829529,90,,Serdar Kulbilge,18756,yellow,True
+829529,89,,Ali Bilgin,2510570,yellow,False
+829529,78,,Edu Dracena,18763,yellow,False
+829529,71,,Musa Buyuk,5296,yellow,True
+829529,66,,Semavi Ozgur,816391,yellow,True
+829529,28,,Alex,12863,yellow,False
+829529,25,,Semih Şentürk,5511,yellow,False
+829529,7,,Diego Lugano,13447,yellow,False
+829529,7,,Tolga Seyhan,6190,yellow,True
+829523,89,,Cristian Rodrigo Zurita,43592,yellow,True
+829523,83,,Erdal Kılıçaslan,43693,yellow,False
+829523,72,,Omer Gundostu,5862,yellow,False
+829523,68,,Kaue Caetano Da Silva,43690,yellow,False
+829523,60,,Murat Ceylan,43590,yellow,True
+829531,85,,Ediz Bahtiyaroglu,43408,yellow,False
+829531,83,,Alioum Saidou,5909,yellowRed,True
+829531,78,,Stefan Senecky,25976,yellow,False
+829531,52,,Alioum Saidou,5909,yellow,True
+829531,49,,Durmus Bayram,42238,yellow,True
+829531,43,,Ragip Basdag,18068,yellow,True
+829531,4,,Baki Mercimek,5776,yellow,False
+829527,74,,Ilkem Ozkaynak,43402,yellow,False
+829527,63,,Elyasa Süme,6160,yellow,False
+829527,12,,Michael Petkovic,6185,yellow,True
+829525,90,,Uğur İnceman,6216,yellow,False
+829525,90,,Nicolas Peric,22968,yellow,True
+829525,89,,Ergün Teber,5800,red,True
+829525,89,,Ali Tandogan,5303,yellow,False
+829525,48,,Tomáš Sivok,12412,yellow,False
+829525,44,,Engin Baytar,43642,yellow,True
+829525,37,,Mert Nobre,5498,yellow,False
+829525,17,,Ibrahim Uzulmez,5312,yellow,False
+829524,90,,Huseyin Cimsir,6179,yellow,False
+829524,70,,Gustavo Colman,790572,yellow,False
+829524,62,,Lincoln,257,yellowRed,True
+829524,53,,Servet Çetin,5488,yellow,True
+829524,30,,Serkan Balci,5512,yellow,False
+829524,22,,Tayfun Cora,18218,yellow,False
+829524,17,,Lincoln,257,yellow,True
+829549,90,,Abdurrahman Dereli,43699,yellow,False
+829549,90,,Serdar Özkan,30032,yellow,True
+829549,90,,Sedat Bayrak,31731,yellow,False
+829549,85,,Mehmet Yildiz,5489,yellow,False
+829549,78,,Mamadou Alimou Diallo,6093,yellow,False
+829549,56,,Kanfory Sylla,14616,yellow,False
+829549,53,,Rodrigo Tello,6569,yellow,True
+829549,10,,Ibrahim Toraman,5314,yellow,True
+829538,82,,Engin Baytar,43642,yellow,False
+829538,10,,Burak Akyildiz,43550,yellow,True
+829542,42,,Bulent Bolukbasi,5803,yellow,False
+829542,40,,Serdar Topraktepe,43619,yellow,False
+829542,16,,Ediz Bahtiyaroglu,43408,yellow,True
+829542,7,,Taner Gulleri,43612,yellow,False
+829539,90,,Ysrael Zuñiga,26182,yellow,False
+829539,82,,Selçuk Şahin,12384,yellowRed,True
+829539,68,,Selçuk Şahin,12384,yellow,True
+829539,45,1,Edu Dracena,18763,yellow,True
+829539,45,1,Alex,12863,yellow,True
+829548,85,,Omer Catkic,43506,yellow,True
+829548,76,,Amir Azmy Megahed,13651,yellow,False
+829535,82,,Kerim Zengin,43669,yellow,False
+829535,61,,Rızvan Şahin,43663,yellow,False
+829535,58,,Mehmet Cogum,2510568,yellow,True
+829535,43,,Gökhan Süzen,43657,yellow,False
+829535,27,,Omer Gundostu,5862,yellow,True
+829535,19,,Ismail Gulduren,43688,yellow,True
+829535,6,,Efe Inanc,43672,yellow,False
+829551,90,,Mehmet Topuz,21825,yellow,False
+829551,58,,Murat Erdogan,5907,yellow,True
+829551,57,,Barbaros Barut,2329,yellow,True
+829551,51,,Delio Rodas César Toledo,5144,yellow,False
+829541,86,,Hrvoje Čale,31147,yellow,True
+829541,82,,Ivan De Souza,43601,yellow,False
+829541,80,,Murat Ceylan,43590,yellow,False
+829541,80,,Selçuk İnan,31253,yellow,True
+829541,74,,Erman Ozgur,5299,yellow,False
+829541,21,,Huseyin Cimsir,6179,yellow,True
+829540,90,,Ayhan Akman,5691,yellowRed,False
+829540,86,,Arda Turan,5702,yellow,False
+829540,85,,Vanja Iveša,43570,yellow,True
+829540,83,,Milan Baroš,699,yellow,False
+829540,78,,Serdar Özbayraktar,43576,yellow,True
+829540,78,,Ayhan Akman,5691,yellow,False
+829540,71,,Servet Çetin,5488,yellow,False
+829540,71,,Emre Asik,1422255,yellow,False
+829540,71,,Fernando Meira,412,yellow,False
+829540,71,,Umit Karan,5294,yellow,False
+829540,69,,Souleymane Youla,14344,yellow,True
+829560,90,,Zafer Demir,5867,yellow,False
+829560,88,,Serhat Akyuz,2510565,yellow,False
+829560,81,,Veysel Cihan,5326,yellow,False
+829560,23,,Sandro da Silva Mendonça,43628,yellow,True
+829563,90,,Gökhan Süzen,43657,yellow,True
+829563,82,,Marcus Vinicius Cesario,43656,yellow,True
+829563,79,,Gokhan Kaba,43661,yellow,True
+829563,53,,Isaac Promise,38485,yellow,False
+829563,41,,Efe Inanc,43672,yellow,True
+829561,74,,Ali Bilgin,2510570,yellow,False
+829561,66,,Bulent Ertugrul,5367,yellow,True
+829561,54,,Serdar Özbayraktar,43576,yellow,True
+829561,45,,Uğur Boral,15683,yellow,False
+829561,29,,Vanja Iveša,43570,red,True
+829564,87,,Gokhan Gulec,5735,yellow,True
+829564,83,,Theo Weeks,43426,yellow,False
+829564,82,,Ysrael Zuñiga,26182,yellow,True
+829564,65,,Özer Hurmacı,43425,yellow,False
+829564,58,,Mustafa Sarp,2510558,yellow,True
+829564,38,,Omer Erdogan,5896,yellow,True
+829564,30,,Mustafa Keceli,5375,yellow,True
+829564,6,,Ediz Bahtiyaroglu,43408,yellow,False
+829556,88,,Omer Catkic,43506,yellow,False
+829556,87,,Ali Zitouni,14764,yellow,False
+829556,62,,Abdullah Cetin,1003174,yellow,False
+829556,39,,Recep Ozturk,43641,yellow,True
+829556,31,,Şenol Can,43508,yellow,False
+829556,30,,Orhan Ak,29179,yellow,False
+829556,21,,Kerem Seras,43653,yellow,True
+829562,85,,Luiz Henrique,43398,yellow,False
+829562,83,,Tolga Dogantez,6150,yellow,False
+829562,79,,Nenad Jestrovic,1854632,yellow,True
+829562,78,,Murat Duruer,5273,yellow,False
+829562,66,,Serdar Topraktepe,43619,yellow,True
+829562,55,,Tolga Seyhan,6190,yellow,True
+829562,50,,Leandro Chaves,868041,yellow,False
+829562,50,,Ufuk Cam,43606,yellow,True
+829562,34,,Musa Buyuk,5296,yellow,True
+829559,78,,Roman Kratochvil,5370,yellow,False
+829559,56,,Yusuf Kurtulus,6193,yellow,False
+829559,49,,Sezer Badur,43703,yellow,True
+829559,25,,Suleyman Olgun,43552,yellow,False
+829557,90,,Ali Turan,5813,yellow,True
+829557,83,,Filip Hološko,12232,yellow,False
+829557,82,,Serdar Özkan,30032,yellow,False
+829557,76,,Delio Rodas César Toledo,5144,yellow,True
+829557,63,,Alioum Saidou,5909,yellow,True
+829557,43,,Tomáš Sivok,12412,yellow,False
+829557,38,,Edouard Cissé,3352,yellow,False
+829557,19,,Mehmet Eren Boyraz,42225,yellow,True
+829570,90,,Volkan Kursat Bekiroglu,6192,yellow,False
+829570,73,,Tomáš Sivok,12412,yellow,True
+829570,40,,Hamza Mutlu,43610,yellow,False
+829570,9,,Kemal Aslan,5510,yellow,False
+829565,73,,Silvino João de Carvalho,5280,yellow,True
+829565,73,,Serkan Kırıntılı,5247,yellow,True
+829565,55,,Barbaros Barut,2329,yellow,True
+829569,90,,Amir Azmy Megahed,13651,yellow,False
+829569,90,,Gustavo Colman,790572,yellow,True
+829569,90,,Serkan Balci,5512,yellow,True
+829569,84,,Selçuk İnan,31253,yellow,True
+829569,68,,Tozo,2510567,yellow,False
+829573,89,,Kanfory Sylla,14616,yellow,False
+829573,84,,Şenol Can,43508,yellow,True
+829573,68,,Sedat Ağçay,5744,yellow,True
+829573,67,,Ertugrul Arslan,43521,yellow,True
+829573,53,,Korhan Ozturk,43519,yellow,True
+829573,49,,Serge Djiehoua,2510557,red,True
+829573,49,,Fabio Bilica,1345,yellow,False
+829572,89,,Suleyman Olgun,43552,yellow,True
+829572,82,,Julius Aghahowa,13636,yellow,False
+829572,43,,Ivan Lietava,43562,yellow,True
+829572,37,,Selahattin Kinali,43554,yellow,True
+829572,21,,Durmus Bayram,42238,yellow,False
+829568,58,,Tolgahan Acar,43599,yellow,True
+829568,53,,Kerim Zengin,43669,yellow,False
+829568,44,,Cristian Rodrigo Zurita,43592,yellow,True
+829568,38,,Serhat Gulpinar,5368,yellow,False
+829566,90,,Veysel Cihan,5326,red,True
+829566,74,,Mehmet Cogum,2510568,yellow,True
+829566,45,1,Lamine Traore,6023,yellow,False
+829566,45,1,Engin Baytar,43642,yellow,False
+829566,25,,Cihan Haspolatli,5693,yellow,True
+829566,5,,Mustafa Er,2510653,yellow,True
+829571,90,,Theo Weeks,43426,yellow,True
+829571,61,,Muhammet Hanifi Yoldas,2510560,yellow,True
+829571,35,,Can Cumhur Bozaci,5397,yellow,False
+829567,90,,Sabri Sarioğlu,5715,yellow,False
+829567,90,,Arda Turan,5702,yellow,False
+829567,69,,Gokcek Vederson,30133,yellow,True
+829567,67,,Shabani Nonda,3100,yellow,False
+829567,62,,Ayhan Akman,5691,yellow,False
+829567,45,,Milan Baroš,699,yellow,False
+829567,45,,Josico,1854829,yellow,True
+829567,38,,Servet Çetin,5488,yellow,False
+829567,28,,Selçuk Şahin,12384,yellow,True
+829567,21,,Lincoln,257,yellow,False
+838527,52,,Huseyin Cimsir,6179,yellow,False
+838527,34,,Lamine Traore,6023,yellow,True
+838527,28,,Mehmet Nas,5783,yellow,True
+829576,-1,,Çağlar Birinci,41856,yellow,False
+829576,-1,,Izzet Akgul,816352,yellow,False
+829576,77,,Feridun Sungur,43548,yellow,False
+829576,74,,Musa Buyuk,5296,yellow,True
+829576,63,,Selahattin Kinali,43554,yellow,False
+829576,41,,Semavi Ozgur,816391,yellow,True
+829576,33,,Volkan Kursat Bekiroglu,6192,yellow,True
+829576,15,,Yusuf Kurtulus,6193,yellow,False
+829585,80,,Josico,1854829,yellow,True
+829585,76,,Ali Bilgin,2510570,yellow,True
+829585,69,,Diego Lugano,13447,yellow,True
+829585,36,,Özer Hurmacı,43425,yellow,False
+838528,87,,Anderson Ricardo Dos Santos,43574,yellow,True
+838528,85,,Tayfun Turkmen,2512294,yellow,True
+838528,82,,Moïn Chaabani,43403,yellow,False
+838528,80,,Murat Onur,43584,yellow,True
+838528,64,,Cem Can,43397,yellow,False
+838528,51,,Ilkem Ozkaynak,43402,yellow,False
+838528,35,,Silvino João de Carvalho,5280,yellow,False
+838528,34,,Luiz Henrique,43398,yellow,False
+829577,57,,Orhan Şam,5784,yellow,True
+829577,53,,Amir Azmy Megahed,13651,yellow,True
+829577,30,,Rodrigo Tabata,34058,yellow,False
+829574,90,,Eren Gungor,42279,yellow,True
+829574,78,,Hakan Özmert,43512,yellowRed,False
+829574,73,,Korhan Ozturk,43519,yellow,False
+829574,68,,Julius Aghahowa,13636,red,True
+829574,61,,Ugur Kavuk,43522,yellow,False
+829574,38,,Mehmet Eren Boyraz,42225,yellow,True
+829574,20,,Hakan Özmert,43512,yellow,False
+829579,90,,Omer Gundostu,5862,yellow,False
+829579,72,,Sezer Badur,43703,yellow,True
+829579,25,,Cihan Haspolatli,5693,yellow,False
+829579,25,,Kanfory Sylla,14616,yellow,True
+829579,22,,Fahri Tatan,903462,yellow,False
+829575,88,,Gökhan Zan,5743,yellow,False
+829575,78,,Mustafa Keceli,5375,yellow,True
+829575,64,,Mustafa Sarp,2510558,yellow,True
+829578,85,,Gustave Anicet Bebbe Mbangue,38528,yellow,False
+829578,78,,Mahmut Tekdemir,43666,yellow,False
+829578,70,,Aydin Yilmaz,17797,yellow,True
+829578,47,,Marcin Kus,14738,yellow,False
+829578,35,,Milan Baroš,699,yellow,True
+829597,39,,Ertugrul Arslan,43521,yellow,True
+829593,83,,Erman Ozgur,5299,yellow,True
+829587,79,,Elyasa Süme,6160,yellow,True
+829587,38,,Selçuk Şahin,12384,yellow,False
+829590,61,,Bilal Kisa,5914,yellow,True
+829590,40,,Ugur Demirkol,116831,yellow,True
+829590,25,,Emre Asik,1422255,yellow,False
+829589,90,,Sandro da Silva Mendonça,43628,yellow,False
+829589,90,,Okan Buruk,5317,yellow,True
+829589,90,,Zeki Korkmaz,43658,yellow,True
+829589,87,,Kenan Hasagić,5727,yellow,True
+829589,86,,Gustave Anicet Bebbe Mbangue,38528,yellow,True
+829589,66,,Admir Teli,41752,yellow,False
+829596,88,,Cenk Gönen,43556,yellow,True
+829596,73,,Suleyman Olgun,43552,yellow,True
+829600,56,,Erhan Albayrak,5865,yellow,True
+829600,15,,Eren Gungor,42279,yellow,False
+829599,87,,Abdurrahman Dereli,43699,yellow,False
+829599,72,,Huseyin Cimsir,6179,yellow,True
+829599,54,,Musa Aydin,6155,yellow,False
+829599,40,,Hayrettin Yerlikaya,31679,yellow,False
+829599,38,,Umut Bulut,5275,yellow,True
+829599,32,,Sezer Badur,43703,yellow,False
+829599,16,,Pini Felix Balili,5817,yellow,False
+829599,4,,Serkan Balci,5512,yellow,True
+829598,90,,Tomáš Sivok,12412,yellow,True
+829598,90,,Rüstü Reçber,1422240,yellow,True
+829598,88,,Safet Nadarević,12699,yellow,False
+829598,85,,Serdar Özbayraktar,43576,yellow,False
+829598,50,,Edouard Cissé,3352,yellow,True
+829598,33,,Emre Toraman,43581,yellow,False
+829598,25,,Doga Kaya,43578,yellow,False
+829611,81,,Aydin Toscali,42241,yellow,True
+829611,78,,Egemen Korkmaz,43711,red,False
+829611,68,,Hrvoje Čale,31147,yellow,False
+829611,53,,Serkan Balci,5512,yellow,False
+829611,45,,Gustavo Colman,790572,yellow,False
+829611,34,,Franco Cangele,42223,yellow,True
+829611,34,,Mehmet Topuz,21825,yellow,True
+829611,30,,Ragip Basdag,18068,yellow,True
+829611,30,,Ali Turan,5813,yellow,True
+829601,88,,Yusuf Kurtulus,6193,yellow,False
+829601,86,,Safet Nadarević,12699,yellow,True
+829601,74,,Douglas Daniel Braga,43567,yellowRed,False
+829601,68,,Souleymane Youla,14344,yellow,True
+829601,55,,Douglas Daniel Braga,43567,yellow,False
+829601,45,3,Stjepan Poljak,43577,yellow,True
+829601,35,,Roman Kratochvil,5370,yellow,False
+829601,20,,Çağlar Birinci,41856,yellow,False
+829612,77,,Cem Can,43397,yellow,False
+829612,40,,Özer Hurmacı,43425,yellow,True
+829612,38,,Murat Erdogan,5907,yellow,False
+829605,68,,İsmail Köybaşı,43605,yellow,False
+829605,68,,Sedat Bayrak,31731,yellow,True
+829605,66,,Cristian Rodrigo Zurita,43592,yellow,False
+829605,54,,Bekir İrtegün,21823,yellow,False
+829605,43,,Mohamed Ali Kurtulus,43700,yellow,True
+829605,37,,Ivan De Souza,43601,yellow,False
+829610,88,,Ibrahim Toraman,5314,yellow,False
+829610,41,,Edouard Cissé,3352,yellowRed,False
+829610,31,,Edouard Cissé,3352,yellow,False
+829602,89,,Yenal Tuncer,43529,yellow,True
+829602,87,,Sedat Ağçay,5744,yellowRed,False
+829602,85,,Abdullah Cetin,1003174,yellow,False
+829602,83,,Sercan Yıldırım,43173,yellowRed,True
+829602,81,,Sercan Yıldırım,43173,yellow,True
+829602,27,,Bekir Ozan Has,43530,yellow,True
+829602,16,,Sedat Ağçay,5744,yellow,False
+829609,85,,Marcus Vinicius Cesario,43656,yellow,False
+829609,84,,Burhan Eşer,43645,yellow,True
+829609,76,,Okan Buruk,5317,yellow,False
+829609,12,,Efe Inanc,43672,yellow,False
+829608,88,,Ahmet Dursun,5328,yellow,True
+829608,87,,Fransergio,2512305,yellow,True
+829608,64,,Murat Hacioglu,43618,yellow,True
+829608,23,,Musa Buyuk,5296,yellow,True
+829608,12,,Zafer Demir,5867,yellow,False
+829603,81,,Umit Karan,5294,yellow,True
+829603,80,,Olgay Coskun,43625,yellow,False
+829603,76,,Admir Teli,41752,yellow,False
+829603,58,,François Zoko,43630,yellow,False
+829603,45,,Fernando Meira,412,yellow,True
+829603,35,,Tozo,2510567,yellowRed,False
+829603,35,,Sandro da Silva Mendonça,43628,yellow,False
+829603,16,,Tozo,2510567,yellow,False
+829615,71,,Colin Kazim-Richards,30134,yellow,False
+829615,62,,Daniel Güiza,811494,yellow,False
+829615,7,,Suleyman Olgun,43552,yellow,True
+829649,78,,Emre Toraman,43581,yellow,False
+829649,56,,Korhan Ozturk,43519,yellow,True
+829649,42,,Safet Nadarević,12699,yellow,False
+829649,38,,Anderson Ricardo Dos Santos,43574,yellow,False
+829649,25,,Yalçın Ayhan,43507,yellow,True
+829649,7,,Ugur Kavuk,43522,yellow,True
+829649,3,,Serkan Ozdemir,5359,yellow,False
+829651,56,,Aydin Toscali,42241,yellow,False
+829617,88,,Ufuk Arslan,43637,red,True
+829617,62,,Engin Baytar,43642,yellow,False
+829617,51,,Orhan Şam,5784,yellow,True
+829617,45,1,Murat Kalkan,5789,yellowRed,True
+829617,44,,Murat Kalkan,5789,yellow,True
+829617,39,,François Zoko,43630,yellow,True
+829652,72,,Tomáš Sivok,12412,red,True
+829652,72,,Rüstü Reçber,1422240,yellow,True
+829652,63,,Ediz Bahtiyaroglu,43408,yellow,False
+829650,85,,Kenan Hasagić,5727,yellow,True
+829650,82,,Sezer Badur,43703,yellow,False
+829650,32,,Mohamed Ali Kurtulus,43700,yellow,False
+829650,12,,Gökhan Süzen,43657,yellow,True
+829647,74,,Veli Acar,43535,yellow,False
+829647,60,,Volkan Şen,43533,yellow,False
+829647,54,,Zafer Demir,5867,yellow,True
+829647,53,,Ismail Gulduren,43688,yellow,True
+829647,38,,Omer Gundostu,5862,yellow,True
+829648,87,,Tayfun Cora,18218,yellow,True
+829648,84,,Fransergio,2512305,yellow,False
+838526,70,,Ibrahim Ege,6180,yellow,True
+838526,24,,Silvino João de Carvalho,5280,yellow,True
+838526,17,,Luiz Henrique,43398,yellow,True
+838526,4,,Ayhan Akman,5691,yellow,False
+829681,76,,Milan Baroš,699,yellow,False
+829681,41,,Lamine Traore,6023,yellow,True
+829681,40,,Burhan Eşer,43645,yellow,True
+829681,30,,Hakan Aslantaş,5778,yellow,True
+829682,89,,Okan Buruk,5317,yellow,False
+829682,81,,Ekrem Eksioglu,2510561,yellow,False
+829682,79,,Turgay Bahadir,3845,yellow,True
+829682,60,,Delio Rodas César Toledo,5144,yellow,True
+829682,17,,Marcin Kus,14738,yellow,False
+829673,90,,Hayrettin Yerlikaya,31679,yellow,True
+829673,73,,Admir Teli,41752,yellow,False
+829673,73,,İbrahim Dağaşan,43701,yellow,True
+829684,90,,Umut Bulut,5275,yellow,False
+829684,81,,Serkan Balci,5512,yellow,False
+829684,6,,Tayfun Cora,18218,yellow,False
+829683,55,,Ilkem Ozkaynak,43402,yellow,False
+829702,90,,Sezgin Coşkun,43586,yellow,True
+829702,88,,Oguzhan Bahadir,43696,yellow,False
+829702,87,,Caner Altin,6163,yellow,False
+829702,82,,Murat Onur,43584,yellow,True
+829702,80,,Mehmet Cogum,2510568,yellow,False
+829702,69,,Cihan Haspolatli,5693,red,False
+829702,69,,Safet Nadarević,12699,red,True
+829679,76,,Rodrigo Tabata,34058,yellow,False
+829679,13,,Erkan Sekman,43591,yellow,False
+829679,7,,Musa Buyuk,5296,yellow,True
+829680,90,,Adem Koçak,43469,yellowRed,True
+829680,70,,Adem Koçak,43469,yellow,True
+829680,27,,Bilal Kisa,5914,yellow,True
+829680,22,,Ivan Lietava,43562,yellow,False
+829680,21,,Emin Aladag,45540,yellow,False
+829663,77,,Sedat Ağçay,5744,yellow,False
+829663,66,,Edu Dracena,18763,yellow,True
+829663,43,,Volkan Arslan,1854457,yellowRed,False
+829663,19,,Volkan Arslan,1854457,yellow,False
+829663,17,,Diego Lugano,13447,yellow,True
+829704,90,,Erhan Albayrak,5865,yellow,True
+829704,90,,Yasin Cakmak,5337,yellow,False
+829704,80,,Josico,1854829,yellow,False
+829704,78,,Volkan Demirel,15677,yellow,False
+829704,48,,Serhat Akyuz,2510565,yellow,True
+829707,45,,Ufuk Cam,43606,yellow,False
+829707,10,,Taner Gulleri,43612,yellow,False
+829717,89,,Selçuk İnan,31253,yellow,True
+829717,78,,Tayfun Turkmen,2512294,yellowRed,False
+829717,74,,Vanja Iveša,43570,yellow,False
+829717,62,,Tayfun Turkmen,2512294,yellow,False
+829717,56,,Gustavo Colman,790572,yellow,True
+829717,55,,Hrvoje Čale,31147,yellow,True
+829717,45,,Koray Arslan,43585,yellow,False
+829718,89,,Volkan Altin,8709,yellow,True
+829718,70,,Ugur Kavuk,43522,yellow,True
+829718,68,,Murat Tosun,43423,yellow,False
+829718,62,,Mustafa Ozkan,43513,yellow,True
+829718,44,,Serge Djiehoua,2510557,yellow,True
+829718,29,,Hürriyet Güçer,5285,yellow,False
+829705,65,,Ibrahim Ege,6180,yellow,False
+829705,59,,Douglas Daniel Braga,43567,yellow,True
+829705,35,,Elyasa Süme,6160,yellow,False
+829705,31,,Suleyman Olgun,43552,yellow,True
+829705,30,,Carlos Alberto Dos Santos Gomes,43549,yellow,True
+829716,90,,İbrahim Dağaşan,43701,yellow,False
+829716,90,,Kerem Seras,43653,yellow,True
+829716,75,,Herve Germain Tum,3132,yellow,False
+829706,71,,Emrah Kiraz,43539,yellow,False
+829712,89,,Ayhan Akman,5691,yellow,True
+829712,80,,Fernando Meira,412,yellow,True
+829712,63,,Tomas Zapotocny,18376,yellow,False
+829712,51,,Matías Delgado,3754,yellowRed,False
+829712,43,,Matías Delgado,3754,yellow,False
+829727,44,,Oguzhan Bahadir,43696,red,False
+829727,35,,Özer Hurmacı,43425,yellow,True
+829722,84,,Beto,2472289,yellow,False
+829722,59,,Abd El-Zaher El-Saqqa,14543,yellow,True
+829722,48,,Rodrigo Tabata,34058,yellow,False
+829730,90,,Mehmet Topuz,21825,yellow,True
+829730,89,,James Troisi,18999,yellow,False
+829730,69,,Ali Turan,5813,red,True
+829730,69,,Kahê,11985,yellow,False
+829730,67,,Mustafa Koray Avci,5318,yellow,False
+829730,4,,Ilhan Eker,43646,yellow,False
+829719,89,,Volkan Arslan,1854457,yellow,False
+829719,61,,Murat Erdogan,5907,yellow,True
+829719,37,,Sedat Ağçay,5744,yellow,False
+829728,84,,Sabri Sarioğlu,5715,yellow,False
+829728,84,,Emre Asik,1422255,yellow,False
+829728,84,,Sezer Badur,43703,yellow,True
+829728,78,,Yaser Yildiz,5378,yellow,False
+829728,45,,Umit Karan,5294,red,False
+829725,76,,Tomas Zapotocny,18376,red,True
+829725,68,,Yusuf Simsek,31680,yellow,True
+829725,59,,Ibrahim Uzulmez,5312,yellow,True
+829725,40,,Rodrigo Tello,6569,yellow,True
+829725,39,,Emin Aladag,45540,yellow,False
+829725,36,,Zafer Cevik,46704,yellow,False
+829725,32,,Musa Sinan Yilmazer,43560,yellow,False
+829729,89,,Mustafa Keceli,5375,yellow,True
+829729,84,,Gokhan Gulec,5735,yellow,True
+829729,72,,Metin Depe,43662,yellow,False
+829729,68,,Mahmut Tekdemir,43666,yellow,False
+829729,67,,Marcus Vinicius Cesario,43656,yellow,False
+829729,45,,Ali Tandogan,5303,yellow,True
+829729,20,,Gökhan Süzen,43657,yellow,False
+829729,17,,Bekir Ozan Has,43530,yellow,True
+829721,81,,Serkan Atak,3908,yellow,False
+829721,34,,Rəşhad Sadiqov,11097,yellow,True
+829731,72,,Selçuk Şahin,12384,yellow,True
+829731,65,,Hrvoje Čale,31147,yellow,False
+829731,64,,Huseyin Cimsir,6179,yellow,False
+829738,89,,Furkan Özçal,43684,red,True
+829738,89,,Fabio Bilica,1345,yellowRed,False
+829738,74,,Pini Felix Balili,5817,yellow,False
+829738,73,,Sedat Bayrak,31731,yellow,False
+829738,70,,Mehmet Eren Boyraz,42225,yellow,True
+829738,58,,Bilal Aziz Özer,16773,yellow,True
+829738,53,,Abdurrahman Dereli,43699,yellow,False
+829738,16,,Fabio Bilica,1345,yellow,False
+829740,71,,James Troisi,18999,yellow,False
+829732,79,,Hürriyet Güçer,5285,yellow,True
+829732,57,,Neca,6509,yellow,True
+829734,90,,Mehmet Topal,17793,yellow,False
+829734,81,,Ayhan Akman,5691,yellowRed,False
+829734,72,,Carlos Alberto Dos Santos Gomes,43549,yellow,True
+829734,66,,Burak Akyildiz,43550,yellow,True
+829734,52,,Arda Turan,5702,yellow,False
+829734,52,,Emin Aladag,45540,yellow,True
+829734,31,,Ayhan Akman,5691,yellow,False
+829734,31,,Feridun Sungur,43548,yellow,True
+829736,89,,José Tadeu,47571,yellow,True
+829736,83,,François Zoko,43630,yellowRed,False
+829736,60,,Giani Kirita,1855071,yellow,True
+829736,59,,François Zoko,43630,yellow,False
+829736,25,,Olgay Coskun,43625,yellow,False
+829733,69,,Abd El-Zaher El-Saqqa,14543,yellow,True
+829733,43,,Engin Baytar,43642,yellowRed,True
+829733,42,,Engin Baytar,43642,yellow,True
+829733,37,,Emre Ozkan,999548,yellow,True
+829733,28,,Marcus Vinicius Cesario,43656,yellow,False
+829733,13,,Okan Buruk,5317,yellow,False
+829733,11,,Ekrem Eksioglu,2510561,red,False
+838535,86,,Murat Erdogan,5907,yellow,True
+838535,85,,Zafer Demir,5867,yellow,False
+838535,79,,Omer Gundostu,5862,yellow,False
+838535,77,,Veysel Cihan,5326,yellow,False
+838535,71,,Ilkem Ozkaynak,43402,yellow,True
+838535,56,,Erhan Albayrak,5865,yellow,False
+838535,18,,Ismael Bouzid,15781,yellow,True
+829735,80,,Colin Kazim-Richards,30134,yellow,True
+829735,73,,Onder Turaci,5504,yellow,True
+829735,51,,Emre Belözoğlu,2054,yellow,True
+829735,44,,Selçuk Şahin,12384,yellow,True
+829735,41,,Murat Ceylan,43590,yellow,False
+829737,65,,Ertugrul Arslan,43521,yellow,False
+829756,90,,Ilkem Ozkaynak,43402,yellowRed,False
+829756,90,,Ilkem Ozkaynak,43402,yellow,False
+829756,77,,Barbaros Barut,2329,yellow,False
+829756,21,,Silvino João de Carvalho,5280,yellow,False
+829756,21,,Elyasa Süme,6160,yellow,False
+829747,89,,Tolga Seyhan,6190,yellow,True
+829747,74,,Umit Tutunci,47145,yellow,True
+829747,38,,Adnan Gungor,6151,yellow,True
+829749,52,,Mazuwa Nsumbu,30657,yellow,False
+829749,27,,Musa Aydin,6155,yellow,True
+829745,90,,Baris Özbek,8738,yellow,True
+829745,83,,Morgan De Sanctis,2948,yellow,True
+829745,75,,Franco Cangele,42223,yellow,False
+829745,62,,Emre Asik,1422255,yellow,True
+829745,45,,Julius Aghahowa,13636,yellow,False
+829745,34,,Milan Baroš,699,yellow,True
+829745,29,,Lincoln,257,yellowRed,True
+829745,23,,Lincoln,257,yellow,True
+829743,90,,Serge Djiehoua,2510557,yellow,True
+829743,87,,Ugur Kavuk,43522,yellow,True
+829743,60,,Selahattin Kinali,43554,yellow,False
+829743,59,,Fatih Yigen,43565,yellow,False
+829743,45,,Džemal Berberović,11196,yellow,False
+829742,89,,Erhan Guven,43470,yellow,False
+829742,71,,Ediz Bahtiyaroglu,43408,yellow,False
+829742,36,,Mehmet Cakir,43424,yellow,False
+829755,89,,Mustafa Pektemek,43643,yellow,True
+829755,86,,Burhan Eşer,43645,yellow,True
+829755,82,,Ayhan Tuna Uzumcu,42891,yellow,False
+829755,81,,James Troisi,18999,yellow,True
+829755,73,,Mustafa Sarp,2510558,yellow,False
+829755,66,,Volkan Şen,43533,yellow,False
+829755,45,1,Dimitar Ivankov,11247,yellow,False
+838534,67,,Fabian Ernst,486,yellow,False
+838534,64,,Miloš Mihajlov,18764,yellow,True
+838534,48,,Ibrahim Uzulmez,5312,yellow,False
+829757,90,,Razundara Tjikuzu,8904,red,True
+829757,90,,Gökhan Gönül,30137,yellowRed,False
+829757,87,,Marcin Kus,14738,yellow,True
+829757,45,,Daniel Güiza,811494,yellow,False
+829757,44,,Mahmut Tekdemir,43666,yellowRed,True
+829757,40,,Volkan Demirel,15677,yellow,False
+829757,36,,Mahmut Tekdemir,43666,yellow,True
+829757,32,,Gökhan Gönül,30137,yellow,False
+829772,90,,Bilal Cubukcu,8712,yellow,False
+829772,85,,Serdar Özbayraktar,43576,yellow,True
+829772,81,,James Troisi,18999,yellow,False
+829775,78,,Bekir İrtegün,21823,yellow,False
+829775,77,,Barbaros Barut,2329,yellow,True
+829775,63,,Cristian Rodrigo Zurita,43592,yellow,False
+829775,48,,Antonio de Nigris,43422,yellow,True
+829775,42,,Rodrigo Tabata,34058,yellow,False
+829770,90,,Fernando Meira,412,yellow,False
+829770,87,,Yalçın Ayhan,43507,yellow,True
+829770,71,,Ali Zitouni,14764,yellow,True
+829770,51,,Tita,5292,yellow,True
+829770,38,,Shabani Nonda,3100,yellow,False
+829770,38,,Vahap Isik,43509,yellow,True
+829770,28,,Sedat Ağçay,5744,yellow,True
+829770,16,,Milan Baroš,699,yellow,False
+829776,74,,Umit Bozkurt,2510640,yellow,False
+829776,23,,Patiyo Tambwe,46012,yellow,False
+829769,81,,Cenk Gönen,43556,yellow,True
+829769,79,,Veysel Cihan,5326,yellow,False
+829769,45,,Emil Angelov,13738,yellow,True
+829769,44,,Serhat Akin,9472,red,False
+829769,41,,Ayman Mohamed Abdelaziz,47563,yellow,False
+829769,32,,Džemal Berberović,11196,yellow,True
+829777,-1,,Serdar Topraktepe,43619,yellow,True
+829777,82,,Mazuwa Nsumbu,30657,yellow,True
+829777,67,,Abdullah Durak,42224,yellow,False
+829777,63,,Levent Kartop,5869,yellow,True
+829777,45,,Emrah Kiraz,43539,yellow,True
+829777,23,,Adem Çalık,43611,yellow,True
+829771,90,,Gökhan Süzen,43657,yellow,False
+829771,90,,Hürriyet Güçer,5285,yellow,True
+829771,88,,İbrahim Akın,5321,red,False
+829771,76,,Ediz Bahtiyaroglu,43408,yellow,True
+829771,73,,Serhat Gulpinar,5368,yellow,False
+829771,45,,Efe Inanc,43672,yellow,False
+829771,29,,Okan Buruk,5317,yellow,False
+829778,90,,Ali Tandogan,5303,yellow,True
+829778,66,,Murat Erdogan,5907,yellow,False
+829778,44,,Mustafa Sarp,2510558,yellow,True
+829778,33,,Sedat Bayrak,31731,yellow,False
+829768,64,,Huseyin Cimsir,6179,yellow,False
+829768,27,,Umut Bulut,5275,yellow,False
+829787,82,,Murat Ceylan,43590,yellow,True
+829787,65,,Rüstü Reçber,1422240,yellow,False
+829786,-1,,Mehmet Ali Tunc,5792,yellow,True
+829786,88,,Ilkem Ozkaynak,43402,yellow,False
+829786,83,,Antonio de Nigris,43422,yellow,False
+829786,80,,Kerem Seras,43653,yellow,False
+829786,80,,Marcus Vinicius Cesario,43656,yellow,True
+829786,70,,Barbaros Barut,2329,yellow,False
+829786,55,,Gökhan Süzen,43657,yellow,True
+829786,19,,Silvino João de Carvalho,5280,yellow,False
+829785,42,,Durmus Bayram,42238,yellow,True
+829780,66,,Sedat Ağçay,5744,yellow,False
+829780,24,,Fatih Ceylan,43683,yellow,False
+829780,22,,Ayman Mohamed Abdelaziz,47563,yellow,True
+829782,61,,Emil Angelov,13738,yellow,False
+829782,37,,Gustavo Colman,790572,yellow,True
+829788,75,,Colin Kazim-Richards,30134,yellow,False
+829788,66,,Roberto Carlos,30131,yellow,False
+829788,42,,Diego Lugano,13447,yellow,False
+829792,77,,Murat Kalkan,5789,yellow,True
+829792,60,,Özer Hurmacı,43425,yellow,False
+829792,60,,Orhan Şam,5784,yellow,True
+829792,56,,Olgay Coskun,43625,yellow,True
+829792,15,,Stefan Senecky,25976,red,False
+829792,11,,Umit Bozkurt,2510640,yellow,True
+829779,90,,Engin Baytar,43642,yellow,False
+829779,74,,Sezgin Coşkun,43586,yellow,False
+829779,42,,Abd El-Zaher El-Saqqa,14543,yellow,False
+829779,41,,Mamadou Alimou Diallo,6093,yellow,True
+829781,90,,Kilicarslan Kopuz,5340,yellow,False
+829781,87,,Mazuwa Nsumbu,30657,yellow,False
+829781,86,,Emrah Kiraz,43539,yellow,False
+829781,65,,Maurice Ross,1854592,yellow,False
+829799,81,,Tomáš Sivok,12412,yellow,True
+829799,80,,Mehmet Ali Tunc,5792,yellow,False
+829799,76,,Fabian Ernst,486,yellow,True
+829806,90,,Bekir İrtegün,21823,yellow,False
+829806,90,,Douglas Daniel Braga,43567,yellow,True
+829806,55,,Beto,2472289,yellow,False
+829806,28,,Çağlar Birinci,41856,yellow,True
+829809,79,,Emre Toraman,43581,yellow,True
+829809,75,,Turgay Bahadir,3845,yellow,False
+829809,57,,Delio Rodas César Toledo,5144,yellow,False
+829809,22,,Engin Baytar,43642,yellow,True
+829805,84,,Ramazan Kursunlu,5306,red,True
+829805,70,,Momha,39605,yellow,False
+829805,49,,Cem Can,43397,yellow,False
+829810,87,,Gokhan Emreciksin,35586,yellow,True
+829810,59,,Yannick Kamanan,18745,yellow,False
+829810,56,,İbrahim Dağaşan,43701,yellow,False
+829810,45,,Kanfory Sylla,14616,yellow,False
+829810,40,,Gokcek Vederson,30133,yellow,True
+829810,36,,Alex,12863,yellow,True
+829810,24,,Diego Lugano,13447,yellow,True
+829808,89,,Dimitar Ivankov,11247,yellow,True
+829808,87,,Gokhan Gulec,5735,yellow,True
+829808,82,,Ergün Teber,5800,yellow,False
+829808,80,,Adem Çalık,43611,yellow,False
+829807,79,,Olgay Coskun,43625,yellow,False
+829807,30,,Barbaros Barut,2329,yellow,True
+829802,90,,Fatih Ceylan,43683,yellow,True
+829802,90,,Serkan Balci,5512,yellow,False
+829802,87,,Umut Bulut,5275,yellow,False
+829802,7,,Hrvoje Čale,31147,yellow,False
+829804,76,,Fernando Meira,412,yellow,False
+829804,74,,Sabri Sarioğlu,5715,yellow,False
+829804,55,,Cihan Haspolatli,5693,yellow,True
+829824,82,,Giani Kirita,1855071,yellow,False
+829824,57,,Volkan Şen,43533,yellow,False
+829823,82,,Džemal Berberović,11196,yellow,False
+829823,77,,Adriano Padilha Nascimento,43674,yellow,True
+829823,45,,Emil Angelov,13738,yellow,False
+829823,32,,Marcin Kus,14738,yellow,True
+829823,27,,Efe Inanc,43672,yellow,True
+829821,72,,Murat Sahin,5305,yellow,True
+829821,58,,Bekir İrtegün,21823,yellow,True
+829825,43,,Ayman Mohamed Abdelaziz,47563,yellow,False
+829828,73,,Tomas Zapotocny,18376,yellow,False
+829828,69,,Ibrahim Sahin,813824,yellow,True
+829828,67,,Kadir Bekmezci,43632,yellow,True
+829828,50,,Orhan Şam,5784,yellow,True
+829826,84,,Burhan Eşer,43645,yellow,True
+829826,75,,James Troisi,18999,yellow,True
+829826,57,,Mile Jedinak,24685,yellow,True
+829816,90,,Anderson Ricardo Dos Santos,43574,yellow,False
+829816,89,,Tayfun Turkmen,2512294,yellow,False
+829816,85,,Souleymane Youla,14344,yellow,False
+829816,65,,Abd El-Zaher El-Saqqa,14543,yellowRed,False
+829816,64,,Serdar Topraktepe,43619,yellow,True
+829816,54,,Abd El-Zaher El-Saqqa,14543,yellow,False
+829829,90,,Sedat Bayrak,31731,yellow,True
+829829,90,,Adem Koçak,43469,yellow,False
+829829,87,,Ediz Bahtiyaroglu,43408,yellow,False
+829829,70,,Abdurrahman Dereli,43699,yellow,True
+829829,67,,Ugur Demirkol,116831,yellow,False
+829829,48,,Sezer Badur,43703,yellow,True
+829829,40,,Herve Germain Tum,3132,yellow,True
+829829,19,,Mehmet Yildiz,5489,yellow,True
+829827,90,,Diego Lugano,13447,yellow,False
+829827,90,,Mehmet Topuz,21825,yellow,True
+829827,54,,Volkan Demirel,15677,red,False
+829827,51,,Emre Belözoğlu,2054,yellow,False
+829827,41,,Deniz Baris,5507,yellow,False
+829836,82,,Adem Çalık,43611,yellow,False
+829836,75,,Semih Şentürk,5511,yellow,True
+829836,62,,Josico,1854829,yellow,True
+829836,47,,Selçuk Şahin,12384,yellow,True
+829836,41,,Akeem Agbetu,15014,yellow,False
+829832,85,,Omer Catkic,43506,yellow,True
+829832,83,,Orhan Ak,29179,yellow,True
+829832,78,,Gustave Anicet Bebbe Mbangue,38528,yellow,False
+829832,62,,Ertugrul Arslan,43521,yellow,True
+829832,45,,Marcus Vinicius Cesario,43656,yellow,False
+829832,20,,Serhat Gulpinar,5368,yellow,False
+829834,53,,Miloš Mihajlov,18764,yellow,True
+829837,90,,Luiz Henrique,43398,yellow,True
+829837,70,,Burak Ozsarac,2510559,yellow,True
+829837,52,,İbrahim Dağaşan,43701,yellow,False
+829837,4,,Fabio Bilica,1345,yellow,False
+829833,84,,Hakan Aslantaş,5778,yellow,False
+829833,45,,Rodrigo Tello,6569,yellow,True
+829833,20,,Mustafa Pektemek,43643,yellow,False
+829835,76,,Umit Tutunci,47145,yellow,False
+829835,75,,Umit Bozkurt,2510640,yellow,False
+829835,71,,Olgay Coskun,43625,yellow,False
+829835,55,,Fatih Yigen,43565,yellow,True
+829835,18,,Džemal Berberović,11196,yellow,True
+829830,90,,Giani Kirita,1855071,yellow,False
+829830,67,,Koray Arslan,43585,yellow,True
+829830,56,,Sercan Yıldırım,43173,yellow,False
+829830,55,,Engin Baytar,43642,yellow,True
+829830,42,,Volkan Kursat Bekiroglu,6192,yellow,False
+829830,40,,Ali Tandogan,5303,yellow,False
+829830,39,,Kemal Aslan,5510,yellow,False
+829830,33,,Emre Toraman,43581,yellow,True
+829840,78,,Hürriyet Güçer,5285,yellow,True
+829840,68,,Julius Aghahowa,13636,yellow,False
+829840,68,,Ugur Demirkol,116831,yellow,True
+829840,59,,Delio Rodas César Toledo,5144,red,False
+829840,42,,Ediz Bahtiyaroglu,43408,yellow,True
+829831,88,,Baris Özbek,8738,yellow,False
+829831,82,,Yaser Yildiz,5378,red,False
+829831,58,,Milan Baroš,699,yellow,False
+829831,45,,Egemen Korkmaz,43711,yellow,True
+829831,37,,Huseyin Cimsir,6179,yellow,True
+829850,85,,Volkan Demirel,15677,yellow,False
+829850,64,,Selçuk Şahin,12384,yellow,False
+829850,61,,Diego Lugano,13447,yellow,False
+829850,47,,Veli Acar,43535,yellow,True
+829850,40,,Volkan Şen,43533,yellow,True
+829850,37,,Emre Belözoğlu,2054,yellow,False
+829850,37,,Bekir Ozan Has,43530,yellow,True
+829848,89,,Behram Zulaloglu,43670,yellow,True
+829848,68,,Zafer Demir,5867,yellow,False
+829848,44,,Omer Gundostu,5862,yellow,False
+829848,26,,Marcin Kus,14738,yellow,True
+829848,9,,Miloš Mihajlov,18764,yellow,False
+829845,76,,Patiyo Tambwe,46012,red,True
+829845,71,,Ante Kulušić,46424,yellow,True
+829845,64,,Tozo,2510567,yellow,True
+829845,50,,Ertugrul Arslan,43521,yellow,False
+829845,43,,Orhan Şam,5784,yellow,True
+829845,6,,Musa Nizam,43526,yellow,False
+829851,87,,Ismael Bouzid,15781,yellow,False
+829851,76,,Furkan Özçal,43684,yellow,True
+829851,73,,Ceyhun Eriş,5868,yellow,False
+829851,73,,Barbaros Barut,2329,yellow,False
+829851,71,,Kerem Seras,43653,yellow,False
+829851,40,,Elyasa Süme,6160,red,False
+829851,36,,Burak Ozsarac,2510559,yellow,False
+829851,30,,Bilal Aziz Özer,16773,yellow,True
+829851,29,,Antonio de Nigris,43422,yellow,False
+829851,29,,Aydin Toscali,42241,yellow,True
+829851,22,,Silvino João de Carvalho,5280,yellow,False
+829855,90,,Radoslav Batak,27845,yellow,False
+829855,89,,Akeem Agbetu,15014,yellow,True
+829855,56,,Ergün Teber,5800,yellow,True
+829855,26,,Madiou Konate,7389,yellow,False
+829853,90,,Murat Sahin,5305,yellow,True
+829853,88,,Hrvoje Čale,31147,yellow,False
+829853,68,,Gokhan Unal,5823,yellow,False
+829853,49,,Egemen Korkmaz,43711,yellow,False
+829853,24,,Serkan Balci,5512,yellow,False
+829849,88,,İbrahim Dağaşan,43701,yellow,True
+829849,20,,Tomas Zapotocny,18376,yellow,False
+829849,7,,Murat Sozgelmez,43702,yellow,True
+829847,90,,Ilhan Eker,43646,yellowRed,True
+829847,90,,Ilhan Eker,43646,yellow,True
+829847,72,,Sener Askaroglu,5335,yellow,False
+829847,49,,Douglas Daniel Braga,43567,yellow,False
+829847,38,,Momha,39605,yellow,True
+829847,25,,Burak Akyildiz,43550,yellow,False
+829847,4,,Emil Angelov,13738,yellow,False
+829846,54,,Safet Nadarević,12699,yellowRed,False
+829846,50,,Abd El-Zaher El-Saqqa,14543,yellow,False
+829846,50,,Emre Asik,1422255,yellow,True
+829846,49,,Safet Nadarević,12699,yellow,False
+829863,85,,Serhat Yapici,38738,yellow,False
+829860,90,,Erhan Guven,43470,yellow,True
+829860,89,,Gokhan Gulec,5735,yellow,False
+829860,72,,Ali Tandogan,5303,yellow,False
+829860,59,,Omer Erdogan,5896,yellow,False
+829866,81,,İbrahim Dağaşan,43701,yellow,False
+829866,45,1,Herve Germain Tum,3132,yellow,False
+829866,45,,Sener Askaroglu,5335,yellow,True
+829865,90,,Alioum Saidou,5909,yellow,False
+829865,88,,Rüstü Reçber,1422240,yellow,True
+829865,79,,Franco Cangele,42223,yellow,False
+829865,32,,Ali Turan,5813,yellowRed,False
+829865,15,,Serdar Özkan,30032,yellow,True
+829865,12,,Ali Turan,5813,yellow,False
+829865,3,,Ibrahim Toraman,5314,yellow,True
+829861,71,,Sedat Ağçay,5744,yellow,True
+829861,55,,Mustafa Pektemek,43643,yellow,False
+829861,38,,Korhan Ozturk,43519,red,True
+829861,27,,Orhan Ak,29179,yellow,True
+829862,79,,Levent Kartop,5869,yellow,False
+829862,70,,Antonio de Nigris,43422,yellow,True
+829862,41,,Maurice Ross,1854592,yellow,False
+829858,90,,Serhat Gulpinar,5368,yellow,False
+829858,90,,Hrvoje Čale,31147,yellow,True
+829858,80,,Huseyin Cimsir,6179,yellow,True
+829864,90,,Doga Kaya,43578,yellow,False
+829864,37,,Onder Turaci,5504,yellow,True
+829864,31,,Engin Baytar,43642,yellow,False
+829864,5,,Emre Toraman,43581,yellow,False
+829859,90,,Rodrigo Tabata,34058,yellow,True
+829859,67,,Milan Baroš,699,yellow,False
+829859,54,,Murat Ceylan,43590,yellow,True
+829859,30,,Emre Asik,1422255,yellow,False
+829877,75,,Serdar Kulbilge,18756,yellow,True
+829877,74,,Serdar Topraktepe,43619,yellow,True
+829877,55,,Yusuf Simsek,31680,yellow,False
+829877,42,,Julio Cesar Mendes Moreira,43608,yellow,True
+829869,90,,Bekir İrtegün,21823,yellow,False
+829869,38,,Efe Inanc,43672,yellow,True
+829869,34,,İbrahim Akın,5321,yellow,True
+829873,63,,Sercan Yıldırım,43173,yellow,True
+829868,83,,Ali Zitouni,14764,yellowRed,False
+829868,77,,Yalçın Ayhan,43507,yellow,False
+829868,40,,Ali Zitouni,14764,yellow,False
+829868,38,,Sedat Bayrak,31731,yellow,True
+829868,37,,Musa Nizam,43526,yellow,False
+829872,82,,Umut Bulut,5275,yellow,False
+829872,77,,Ceyhun Gülselam,20747,yellow,False
+829872,59,,Isaac Promise,38485,yellow,False
+829872,53,,Tolga Seyhan,6190,yellow,True
+829872,47,,Selcuk Sahin,46425,yellowRed,True
+829872,26,,Tozo,2510567,yellow,True
+829872,12,,Selcuk Sahin,46425,yellow,True
+829878,76,,Bulent Kocabey,816055,yellow,True
+829878,71,,Roguy Meye,50528,red,False
+829878,49,,Bilal Kisa,5914,yellow,False
+829870,67,,Kahê,11985,yellow,True
+829870,60,,Miloš Mihajlov,18764,yellow,False
+829870,44,,Celaleddin Kocak,6172,yellow,False
+829870,3,,Mustafa Koray Avci,5318,yellow,True
+829867,72,,Delio Rodas César Toledo,5144,yellow,True
+829867,62,,Turgay Bahadir,3845,yellow,True
+829867,59,,Caner Celep,43555,yellow,False
+838536,90,,Diego Lugano,13447,red,False
+838536,90,,Semih Şentürk,5511,red,False
+838536,90,,Emre Asik,1422255,red,True
+838536,90,,Arda Turan,5702,red,True
+838536,90,,Daniel Güiza,811494,yellow,False
+838536,90,,Semih Şentürk,5511,yellow,False
+838536,74,,Emre Belözoğlu,2054,yellow,False
+838536,74,,Sabri Sarioğlu,5715,yellow,True
+838536,59,,Emre Asik,1422255,yellow,True
+838536,32,,Selçuk Şahin,12384,yellow,False
+973778,51,,Mile Jedinak,24685,yellow,False
+973778,31,,Momha,39605,yellow,False
+973777,77,,Kanfory Sylla,14616,yellow,False
+973777,69,,Sedat Bayrak,31731,yellow,False
+973777,58,,Serhat Akyuz,2510565,yellow,True
+973780,89,,Stefan Senecky,25976,yellow,True
+973780,70,,Yasin Cakmak,5337,yellow,False
+973782,87,,Volkan Altin,8709,yellow,True
+973782,81,,Abdullah Durak,42224,yellow,False
+973782,67,,Sedat Ağçay,5744,red,True
+973782,67,,Julius Aghahowa,13636,yellowRed,False
+973782,57,,Ertugrul Arslan,43521,yellow,True
+973782,44,,Bilal Aziz Özer,16773,yellow,False
+973782,14,,Julius Aghahowa,13636,yellow,False
+973781,90,,Sener Askaroglu,5335,yellow,True
+973781,83,,Luka Zinko,29361,yellow,False
+973779,85,,Bekir İrtegün,21823,yellow,True
+973779,61,,Umit Tutunci,47145,yellow,False
+973779,61,,Murat Ceylan,43590,yellow,True
+973774,90,,Ilkem Ozkaynak,43402,yellow,True
+973774,86,,Abd El-Zaher El-Saqqa,14543,yellowRed,False
+973774,78,,Kerem Seras,43653,yellow,True
+973774,63,,Leonardo Andreas Iglesias,43400,yellow,True
+973774,50,,Luiz Henrique,43398,yellow,True
+973774,43,,Abd El-Zaher El-Saqqa,14543,yellow,False
+973774,33,,Emre Toraman,43581,yellow,False
+973776,78,,Marquinhos,43655,yellow,True
+973776,62,,Gökhan Süzen,43657,yellow,True
+973775,44,,Ibrahim Toraman,5314,yellowRed,True
+973775,42,,Bobô,18221,yellow,True
+973775,31,,Ibrahim Toraman,5314,yellow,True
+973793,90,,Erman Kılıç,43664,yellow,False
+973793,88,,Ekrem Eksioglu,2510561,yellow,False
+973793,81,,Ibrahim Sahin,813824,yellow,True
+973793,76,,Marcin Kus,14738,yellow,False
+973793,69,,Tozo,2510567,yellow,True
+973793,45,,Efe Inanc,43672,yellow,False
+973793,25,,Kadir Bekmezci,43632,yellow,True
+973794,46,,Serkan Balci,5512,yellow,False
+973794,33,,İbrahim Dağaşan,43701,yellow,True
+973791,80,,Silvino João de Carvalho,5280,yellow,False
+973791,59,,Onder Turaci,5504,yellow,True
+973791,55,,Kerem Seras,43653,yellow,False
+973791,48,,Barbaros Barut,2329,yellow,False
+973791,34,,Antonio de Nigris,43422,yellow,False
+973791,20,,Gokhan Emreciksin,35586,yellow,True
+973790,86,,Ali Tandogan,5303,yellow,True
+973790,62,,Calixto Couto Irineu,18907,yellow,False
+973790,32,,Sener Askaroglu,5335,yellow,False
+973783,71,,Mehmet Nas,5783,yellow,True
+973783,69,,Burhan Eşer,43645,yellow,True
+973783,44,,Cristian Rodrigo Zurita,43592,yellow,False
+973783,34,,Mile Jedinak,24685,yellow,True
+973783,29,,Ahmet Ari,43603,yellow,False
+973788,67,,Ali Turan,5813,yellow,True
+973788,44,,Celaleddin Kocak,6172,yellow,False
+973788,20,,Cihan Haspolatli,5693,yellow,False
+973795,90,,Murat Hacioglu,43618,yellow,True
+973795,90,,Serdar Kulbilge,18756,yellow,True
+973795,90,,Hamza Mutlu,43610,yellow,True
+973795,76,,Adem Çalık,43611,yellow,True
+973795,72,,Levent Kartop,5869,yellow,True
+973795,50,,Tita,5292,yellow,False
+973795,50,,Mazuwa Nsumbu,30657,yellow,True
+973789,82,,Filip Hološko,12232,yellow,False
+973789,77,,Serdar Özbayraktar,43576,yellow,True
+973789,60,,Souleymane Youla,14344,yellow,True
+973789,42,,Sezgin Coşkun,43586,yellow,True
+973789,31,,Tomáš Sivok,12412,yellow,False
+973789,19,,Doga Kaya,43578,yellow,True
+829883,89,,Hakan Balta,6208,yellow,False
+829883,66,,Patiyo Tambwe,46012,yellow,True
+829883,33,,Umit Tutunci,47145,yellow,True
+829889,81,,Abdullah Durak,42224,yellow,False
+829889,56,,Gokhan Unal,5823,yellow,True
+829889,11,,Tayfun Cora,18218,yellow,True
+829882,90,,Ayhan Tuna Uzumcu,42891,yellow,False
+829882,90,,Gokhan Gulec,5735,yellow,False
+829882,90,,Bekir Ozan Has,43530,yellow,False
+829882,90,,Dimitar Ivankov,11247,yellow,False
+829882,81,,Musa Nizam,43526,yellow,True
+829882,57,,Giani Kirita,1855071,yellow,False
+829882,42,,Serge Djiehoua,2510557,yellow,True
+829884,86,,Okan Buruk,5317,yellow,True
+829884,18,,İbrahim Akın,5321,yellow,True
+829887,90,,Ozden Ongun,74063,yellow,True
+829887,85,,Emil Angelov,13738,yellow,True
+829887,78,,Emin Aladag,45540,yellow,True
+829887,73,,Engin Baytar,43642,yellow,False
+829887,35,,Ozan Ozkan,43691,yellow,True
+829887,35,,Bulent Ertugrul,5367,yellow,False
+829887,30,,Džemal Berberović,11196,yellow,True
+829888,90,,İsmail Köybaşı,43605,yellow,True
+829888,87,,Mamadou Alimou Diallo,6093,yellow,False
+829888,85,,Beto,2472289,yellowRed,True
+829888,82,,Michael Petkovic,6185,yellow,False
+829888,79,,Cristian Rodrigo Zurita,43592,yellow,True
+829888,45,,Bekir İrtegün,21823,yellow,True
+829888,44,,Beto,2472289,yellow,True
+829886,90,,Veysel Cihan,5326,yellow,True
+829886,90,,Bulent Bolukbasi,5803,yellow,True
+829886,88,,Celaleddin Kocak,6172,yellow,True
+829886,79,,Rəşhad Sadiqov,11097,yellow,False
+829886,48,,Muhammet Ozdin,53831,yellow,False
+829886,42,,Serhat Akyuz,2510565,yellow,True
+829886,39,,Ayman Mohamed Abdelaziz,47563,yellow,True
+829880,66,,Barbaros Barut,2329,yellow,True
+829880,52,,Elyasa Süme,6160,yellow,True
+829881,83,,Roberto Carlos,30131,yellow,False
+829881,33,,Gökhan Zan,5743,yellow,True
+829899,64,,Sercan Yıldırım,43173,yellow,True
+829899,53,,Serdar Aziz,43528,yellow,True
+829890,90,,Ertugrul Arslan,43521,yellowRed,False
+829890,90,,Emre Toraman,43581,yellow,True
+829890,85,,Sedat Ağçay,5744,yellow,False
+829890,77,,Murat Onur,43584,yellow,True
+829893,27,,Burak Akyildiz,43550,yellow,False
+829897,68,,Silvino João de Carvalho,5280,yellow,False
+829897,52,,Ismael Bouzid,15781,red,False
+829897,33,,Emre Asik,1422255,yellow,True
+829897,18,,Lincoln,257,yellow,True
+829897,13,,Ceyhun Eriş,5868,yellow,False
+829897,4,,Milan Baroš,699,yellow,True
+829892,-1,,Momha,39605,yellow,True
+829892,90,,Orhan Şam,5784,yellow,False
+829892,90,,Bilal Cubukcu,8712,yellow,True
+829892,78,,Murat Kalkan,5789,yellow,False
+829892,48,,Tozo,2510567,yellow,False
+829900,90,,Kilicarslan Kopuz,5340,yellow,True
+829900,90,,Serdar Topraktepe,43619,yellow,True
+829900,90,,Ibrahima Yattara,6181,yellow,False
+829900,77,,Umut Bulut,5275,yellow,False
+829900,67,,Gokhan Unal,5823,yellow,False
+829891,61,,Ediz Bahtiyaroglu,43408,yellow,True
+829891,37,,Tomáš Sivok,12412,yellow,False
+829891,30,,Adem Koçak,43469,yellow,True
+829891,7,,Filip Hološko,12232,yellow,False
+829895,90,,Marcin Kus,14738,yellow,False
+829895,78,,İbrahim Dağaşan,43701,yellow,True
+829895,76,,Sezer Badur,43703,yellow,True
+829895,61,,Pini Felix Balili,5817,yellow,True
+829895,44,,Serhat Gulpinar,5368,yellow,False
+829894,85,,Bekir İrtegün,21823,yellow,False
+829894,67,,Ali Turan,5813,yellow,True
+829894,57,,Milan Purović,13707,yellow,True
+829919,87,,Murat Sozgelmez,43702,red,False
+829919,79,,Recep Biler,1854677,yellow,True
+829919,76,,Onur Tuncer,43707,yellow,False
+829919,64,,Murat Kalkan,5789,yellow,True
+829919,44,,Umit Tutunci,47145,yellow,True
+829919,41,,Adnan Gungor,6151,yellow,True
+829919,22,,Sezer Badur,43703,yellow,False
+829906,70,,Emre Belözoğlu,2054,yellow,False
+829906,55,,Ali Zitouni,14764,yellow,True
+829917,90,,Erman Kılıç,43664,yellow,True
+829917,82,,Marcus Vinicius Cesario,43656,yellow,True
+829917,74,,Ekrem Eksioglu,2510561,yellow,True
+829917,71,,Franco Cangele,42223,yellow,False
+829917,30,,Delio Rodas César Toledo,5144,yellow,False
+829917,24,,Razundara Tjikuzu,8904,yellowRed,True
+829917,21,,Eren Gungor,42279,yellow,False
+829917,14,,Alioum Saidou,5909,yellow,False
+829917,9,,Razundara Tjikuzu,8904,yellow,True
+829921,90,,Ozden Ongun,74063,yellow,True
+829921,79,,Emil Angelov,13738,yellow,True
+829921,68,,Sener Askaroglu,5335,yellow,True
+829921,64,,Ediz Bahtiyaroglu,43408,yellow,False
+829908,54,,Fatih Serkan Kurtuluş,42268,yellow,True
+829913,90,,Murat Hacioglu,43618,yellow,False
+829913,68,,Ibrahim Ferdi Coskun,43597,yellow,True
+829913,55,,Patrice Nzekou Nguenheu,43615,yellow,False
+829913,22,,Muhammet Ozdin,53831,yellow,False
+829915,86,,Ayman Mohamed Abdelaziz,47563,yellow,True
+829915,84,,Mehmet Cogum,2510568,yellow,True
+829915,78,,Engin Baytar,43642,yellow,False
+829915,57,,Bulent Kocabey,816055,yellow,False
+829915,51,,Emre Toraman,43581,yellow,False
+829915,33,,Bulent Ertugrul,5367,yellow,False
+829904,84,,Ekrem Dag,1112,yellow,False
+829904,64,,Tomas Zapotocny,18376,yellow,False
+829904,62,,Ceyhun Eriş,5868,yellow,True
+829904,58,,Silvino João de Carvalho,5280,yellow,True
+829904,26,,Barbaros Barut,2329,yellow,True
+829911,90,,Bekir Ozan Has,43530,yellowRed,False
+829911,90,,Gokhan Unal,5823,yellow,True
+829911,79,,Ayhan Tuna Uzumcu,42891,yellow,False
+829911,70,,Bekir Ozan Has,43530,yellow,False
+829911,24,,Huseyin Cimsir,6179,yellow,True
+829911,23,,Ferhat Cokmus,4507,yellow,True
+829911,5,,Ozan Ipek,53828,yellow,False
+829929,67,,Alioum Saidou,5909,yellow,True
+829929,43,,Sedat Dag,54307,yellow,False
+829929,11,,Ercüment Kafkasyalı,43640,red,False
+829933,84,,Hakan Arikan,31256,yellow,True
+829933,78,,Tomáš Sivok,12412,yellow,True
+829933,68,,Fabian Ernst,486,yellow,True
+829933,54,,Yusuf Simsek,31680,yellow,True
+829933,45,,Sabri Sarioğlu,5715,yellow,False
+829933,24,,Emre Asik,1422255,yellow,False
+829925,90,,Eduardo Pacheco,43593,yellow,False
+829925,39,,Armand Deumi Tchami,1854817,yellow,False
+829939,74,,Souleymane Youla,14344,yellow,True
+829939,73,,Tayfun Cora,18218,yellow,False
+829939,61,,Bulent Ertugrul,5367,yellow,True
+829930,84,,Gökhan Gönül,30137,yellow,True
+829937,90,,Marcin Kus,14738,yellow,False
+829937,52,,Mehmet Oztonga,81606,yellow,True
+829937,44,,Marcus Vinicius Cesario,43656,yellow,False
+829937,15,,Mazuwa Nsumbu,30657,yellow,True
+829927,72,,Ilkem Ozkaynak,43402,yellow,True
+829927,63,,Mehmet Hilmi Yilmaz,6184,yellow,True
+829927,39,,Burak Akyildiz,43550,yellow,False
+829924,90,,Ertugrul Arslan,43521,yellowRed,False
+829924,90,,Yalçın Ayhan,43507,yellow,False
+829924,90,,Bilal Kisa,5914,yellow,True
+829924,86,,Musa Nizam,43526,yellow,False
+829924,67,,Şenol Can,43508,yellow,False
+829924,64,,Tita,5292,yellow,False
+829924,56,,Madiou Konate,7389,yellow,True
+829924,45,,Ertugrul Arslan,43521,yellow,False
+829924,31,,Neca,6509,yellow,True
+829935,89,,Murat Erdogan,5907,yellow,True
+829935,63,,Eren Aydin,5893,yellow,False
+829935,62,,Daniel Addo,2510660,yellow,False
+829935,54,,İbrahim Dağaşan,43701,yellow,True
+829935,41,,Sedat Bayrak,31731,yellow,True
+829935,31,,Mehmet Polat,43600,yellow,False
+829952,85,,Alper Potuk,55028,yellow,False
+829950,50,,Patrice Nzekou Nguenheu,43615,yellow,False
+829950,27,,Olgay Coskun,43625,yellow,True
+829943,75,,Luiz Henrique,43398,yellow,False
+829943,74,,Silvino João de Carvalho,5280,yellow,False
+829946,89,,Rızvan Şahin,43663,yellow,True
+829946,73,,Sercan Yıldırım,43173,yellow,False
+829946,71,,Gokhan Gulec,5735,yellow,False
+829946,54,,Giani Kirita,1855071,yellow,False
+829946,54,,Erman Kılıç,43664,yellow,True
+829946,37,,Efe Inanc,43672,yellow,True
+829941,30,,Darryl Roberts,2477711,yellow,True
+829941,25,,Sener Askaroglu,5335,yellow,True
+829954,86,,Fabio Bilica,1345,yellow,False
+829954,84,,Michael Petkovic,6185,yellow,False
+829954,82,,Arda Turan,5702,yellow,True
+829954,80,,Murat Sozgelmez,43702,yellow,False
+829954,73,,Harry Kewell,700,yellow,True
+829954,69,,Milan Baroš,699,yellow,True
+829954,47,,Kanfory Sylla,14616,yellow,False
+829954,42,,Mehmet Topal,17793,yellow,True
+829954,41,,Onur Tuncer,43707,yellow,False
+829954,41,,Herve Germain Tum,3132,yellow,False
+829956,73,,Mehmet Polat,43600,red,True
+829956,73,,Burhan Eşer,43645,yellow,True
+829956,55,,Hakan Aslantaş,5778,yellow,True
+829956,52,,Recep Ozturk,43641,yellow,True
+829956,23,,Eren Aydin,5893,yellow,True
+829957,78,,Zafer Demir,5867,yellow,True
+829957,54,,Branimir Poljac,15103,yellow,True
+829957,52,,Hürriyet Güçer,5285,yellow,False
+829957,15,,Roguy Meye,50528,yellow,False
+829945,87,,Huseyin Cimsir,6179,yellow,True
+829945,67,,Giray Kacar,35583,yellow,True
+829945,44,,Ali Bilgin,2510570,yellow,False
+829945,38,,Selçuk Şahin,12384,yellow,False
+829945,33,,Alanzinho,15107,yellow,True

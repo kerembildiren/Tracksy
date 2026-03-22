@@ -1,0 +1,621 @@
+player_id,name,short_name,position,jersey_number,height,preferred_foot,date_of_birth_ts,team_id,market_value_eur,nationality,roster_source
+5249,Orkun Usak,O. Usak,G,25,182,,342230400,3061,,Türkiye,season_lineups
+5715,Sabri Sarioğlu,S. Sarioğlu,D,55,170,,459648000,3061,,Türkiye,season_lineups
+1421461,Rigobert Song,R. Song,D,4,183,,205027200,3061,,Cameroon,season_lineups
+5488,Servet Çetin,S. Çetin,D,3,191,,353635200,3061,,Türkiye,season_lineups
+5858,Volkan Yaman,V. Yaman,D,,183,,399254400,3061,,Türkiye,season_lineups
+8738,Baris Özbek,B. Özbek,M,,180,,527040000,3061,,Germany,season_lineups
+8511,Tobias Linderoth,T. Linderoth,M,,178,,293500800,3061,,Sweden,season_lineups
+257,Lincoln,Lincoln,M,10,177,,285811200,3061,,Brazil,season_lineups
+5691,Ayhan Akman,A. Akman,M,18,173,,225504000,3061,,Türkiye,season_lineups
+1422248,Hakan Şükür,H. Sükür,F,,191,,52531200,3061,,Türkiye,season_lineups
+5294,Umit Karan,U. Karan,F,9,181,,212976000,3061,,Türkiye,season_lineups
+5702,Arda Turan,A. Turan,M,,177,,538963200,3061,,Türkiye,season_lineups
+8745,Serkan Calik,S. Calik,F,,167,,511228800,3061,,Türkiye,season_lineups
+17795,Mehmet Güven,M. Güven,M,,183,,554601600,3061,,Türkiye,season_lineups
+31136,Firat Kocaoglu,F. Kocaoglu,G,,186,,571017600,3061,,Türkiye,season_lineups
+15781,Ismael Bouzid,I. Bouzid,D,,190,,427593600,3061,,Algeria,season_lineups
+17796,Ferhat Öztorun,F. Öztorun,D,,174,,547430400,3061,,Türkiye,season_lineups
+5713,Uğur Uçar,U. Uçar,D,,180,,544579200,3061,,Türkiye,season_lineups
+17793,Mehmet Topal,M. Topal,M,5,187,,510192000,3061,,Türkiye,season_lineups
+5684,Aykut Ercetin,A. Ercetin,G,12,187,,400809600,3061,,Türkiye,season_lineups
+5317,Okan Buruk,O. Buruk,M,,169,,119836800,3061,,Türkiye,season_lineups
+1422247,Hasan Sas,H. Sas,F,,176,,207705600,3061,,Türkiye,season_lineups
+17794,Marcelo Carrusca,M. Carrusca,M,,172,,431222400,3061,,Argentina,season_lineups
+3100,Shabani Nonda,S. Nonda,F,18,182,,226454400,3061,,DR Congo,season_lineups
+6208,Hakan Balta,H. Balta,D,22,184,,417225600,3061,,Türkiye,season_lineups
+588012,Özgür Can Özcan,Ö. C. Özcan,F,99,184,,576633600,3061,,Türkiye,season_lineups
+47599,Semih Kaya,S. Kaya,D,,183,,667353600,3061,,Türkiye,season_lineups
+5255,Emre Gungor,E. Gungor,D,,183,,460166400,3061,,Türkiye,season_lineups
+2512641,İlker Cihan,İ. Cihan,D,,,,613785600,3061,,Türkiye,season_lineups
+2512603,Harun Temür,H. Temür,M,,,,618883200,3061,,Türkiye,season_lineups
+816538,Erhan Şentürk,E. Şentürk,F,41,172,,610243200,3061,82000,Türkiye,season_lineups
+27807,Ahmed Barusso,A. Barusso,M,,184,,472867200,3061,,Ghana,season_lineups
+18756,Serdar Kulbilge,S. Kulbilge,G,22,186,,331776000,3052,,Türkiye,season_lineups
+5504,Onder Turaci,O. Turaci,D,19,186,,363916800,3052,,Türkiye,season_lineups
+18763,Edu Dracena,E. Dracena,D,,187,,358992000,3052,,Brazil,season_lineups
+12864,Can Arat,C. Arat,D,,190,,443491200,3052,,Türkiye,season_lineups
+30131,Roberto Carlos,R. Carlos,D,,168,,103248000,3052,,Brazil,season_lineups
+5507,Deniz Baris,D. Baris,D,,184,,236649600,3052,,Türkiye,season_lineups
+5500,Mehmet Aurélio,M. Aurélio,M,15,179,,250992000,3052,,Türkiye,season_lineups
+18223,Deivid,Deivid,F,99,180,,309398400,3052,,Brazil,season_lineups
+5322,Tümer Metin,T. Metin,M,67,178,,150940800,3052,,Türkiye,season_lineups
+15683,Uğur Boral,U. Boral,M,,178,,387590400,3052,,Türkiye,season_lineups
+1224,Mateja Kežman,M. Kežman,F,9,182,,292723200,3052,,Serbia,season_lineups
+5810,İlhan Parlak,İ. Parlak,F,38,181,,537926400,3052,,Türkiye,season_lineups
+2510570,Ali Bilgin,A. Bilgin,,,,,,3052,,,season_lineups
+30134,Colin Kazim-Richards,C. Kazim-Richards,F,,185,,525398400,3052,,Türkiye,season_lineups
+30143,Volkan Babacan,V. Babacan,G,1,192,,587260800,3052,52000,Türkiye,season_lineups
+30137,Gökhan Gönül,G. Gönül,D,77,174,,473644800,3052,,Türkiye,season_lineups
+12384,Selçuk Şahin,S. Şahin,M,21,189,,349747200,3052,,Türkiye,season_lineups
+1854681,Gürhan Gürsoy,G. Gürsoy,M,,170,,559440000,3052,,Türkiye,season_lineups
+15677,Volkan Demirel,V. Demirel,G,1,191,,372988800,3052,,Türkiye,season_lineups
+5337,Yasin Cakmak,Y. Cakmak,D,,186,,473817600,3052,,Türkiye,season_lineups
+30133,Gokcek Vederson,G. Vederson,D,3,176,,364608000,3052,,Brazil,season_lineups
+5510,Kemal Aslan,K. Aslan,M,27,176,,372729600,3052,,Türkiye,season_lineups
+5511,Semih Şentürk,S. Şentürk,F,29,183,,420422400,3052,,Türkiye,season_lineups
+13447,Diego Lugano,D. Lugano,D,,188,,341971200,3052,,Uruguay,season_lineups
+12863,Alex,Alex,M,,173,,243043200,3052,,Brazil,season_lineups
+2080,Stephen Appiah,S. Appiah,M,18,178,,346464000,3052,,Ghana,season_lineups
+329059,Claudio Maldonado,C. Maldonado,M,,174,,315705600,3052,,Chile,season_lineups
+806982,Uğur Arslan Kuru,U. A. Kuru,D,,181,,603590400,3052,27000,Türkiye,season_lineups
+31256,Hakan Arikan,H. Arikan,G,84,192,,398390400,3050,,Türkiye,season_lineups
+18861,Serdar Kurtuluş,S. Kurtuluş,D,,186,,553996800,3050,,Türkiye,season_lineups
+5743,Gökhan Zan,G. Zan,D,5,191,,368668800,3050,,Türkiye,season_lineups
+5314,Ibrahim Toraman,I. Toraman,D,,179,,375062400,3050,,Türkiye,season_lineups
+6569,Rodrigo Tello,R. Tello,F,,171,,308707200,3050,,Chile,season_lineups
+30032,Serdar Özkan,S. Özkan,M,10,177,,536457600,3050,,Türkiye,season_lineups
+5318,Mustafa Koray Avci,M. K. Avci,M,,182,,264384000,3050,,Türkiye,season_lineups
+1422239,Ricardinho,Ricardinho,M,17,176,,201657600,3050,,Brazil,season_lineups
+5321,İbrahim Akın,İ. Akın,F,,183,,442022400,3050,,Türkiye,season_lineups
+5498,Mert Nobre,M. Nobre,F,11,188,,342316800,3050,,Türkiye,season_lineups
+18221,Bobô,Bobô,F,13,186,,474076800,3050,,Brazil,season_lineups
+3754,Matías Delgado,M. Delgado,M,,183,,408758400,3050,,Argentina,season_lineups
+5303,Ali Tandogan,A. Tandogan,D,,175,,251856000,3050,,Türkiye,season_lineups
+3352,Edouard Cissé,E. Cisse,M,,185,,260064000,3050,,France,season_lineups
+31419,Atilla Özmen,A. Özmen,G,,189,,579312000,3050,,Türkiye,season_lineups
+5776,Baki Mercimek,B. Mercimek,D,,184,,401068800,3050,,Türkiye,season_lineups
+18860,Ibrahim Kas,I. Kas,D,,183,,527558400,3050,,Türkiye,season_lineups
+18864,Burak Yılmaz,B. Yılmaz,F,,188,,490233600,3050,,Türkiye,season_lineups
+1422240,Rüstü Reçber,R. Reçber,G,34,187,,105840000,3050,,Türkiye,season_lineups
+18862,Aydin Karabulut,A. Karabulut,M,,178,,570067200,3050,,Türkiye,season_lineups
+31577,Batuhan Karadeniz,B. Karadeniz,F,9,190,,672451200,3050,,Türkiye,season_lineups
+3293,Lamine Diatta,L. Diatta,D,15,184,,173491200,3050,,Senegal,season_lineups
+5312,Ibrahim Uzulmez,I. Uzulmez,D,19,175,,132105600,3050,,Türkiye,season_lineups
+5490,Mehmet Yozgatli,M. Yozgatli,F,7,181,,284688000,3050,,Türkiye,season_lineups
+30019,Federico Higuaín,F. Higuaín,M,9,172,,467510400,3050,,Argentina,season_lineups
+13280,Mehmet Sedef,M. Sedef,D,,180,,555120000,3050,,Türkiye,season_lineups
+84366,Koray Sanli,K. Sanli,D,,185,,630633600,3050,,Türkiye,season_lineups
+5305,Murat Sahin,M. Sahin,G,34,184,,192240000,3050,,Türkiye,season_lineups
+12232,Filip Hološko,F. Hološko,M,,185,,443145600,3050,190000,Slovakia,season_lineups
+130478,Ethem Yilmaz,E. Yilmaz,D,,,,600307200,3050,,Türkiye,season_lineups
+816093,Bülent Uzun,B. Uzun,D,,174,,659145600,3050,23000,Türkiye,season_lineups
+31150,Gordon Schildenfeld,G. Schildenfeld,D,23,191,,479952000,3050,,Croatia,season_lineups
+114158,Ali Kuçik,A. Kuçik,F,,177,,677116800,3050,45000,Türkiye,season_lineups
+815879,Emir Gökce,E. Gökce,F,,189,,635817600,3050,,Türkiye,season_lineups
+6185,Michael Petkovic,M. Petkovic,G,,190,,206323200,3076,,Australia,season_lineups
+43702,Murat Sozgelmez,M. Sozgelmez,D,,183,,493430400,3076,,Türkiye,season_lineups
+31731,Sedat Bayrak,S. Bayrak,D,,189,,355708800,3076,,Türkiye,season_lineups
+6093,Mamadou Alimou Diallo,M. A. Diallo,D,,186,,470793600,3076,,Guinea,season_lineups
+31679,Hayrettin Yerlikaya,H. Yerlikaya,D,,181,,366508800,3076,,Türkiye,season_lineups
+6155,Musa Aydin,M. Aydin,F,,172,,341884800,3076,,Türkiye,season_lineups
+43650,Yasir Elmaci,Y. Elmaci,,,181,,371520000,3076,,Türkiye,season_lineups
+43700,Mohamed Ali Kurtulus,M. A. Kurtulus,,,177,,146966400,3076,,Türkiye,season_lineups
+2512563,Ilhan Ummak,I. Ummak,M,,168,,287020800,3076,,Türkiye,season_lineups
+18525,Ilgar Gurbanov,I. Gurbanov,D,,177,,514771200,3076,,Azerbaijan,season_lineups
+5489,Mehmet Yildiz,M. Yildiz,F,58,185,,369273600,3076,,Türkiye,season_lineups
+5817,Pini Felix Balili,P. F. Balili,,,175,,298512000,3076,,Israel,season_lineups
+43699,Abdurrahman Dereli,A. Dereli,D,,173,,351043200,3076,,Türkiye,season_lineups
+43704,Akin Vardar,A. Vardar,G,,188,,260323200,3076,,Türkiye,season_lineups
+54533,Aytac Ak,A. Ak,D,,188,,482976000,3076,,Türkiye,season_lineups
+2512591,Burak Yuvacı,B. Yuvacı,D,,187,,568684800,3076,,Türkiye,season_lineups
+43703,Sezer Badur,S. Badur,M,,181,,456537600,3076,,Türkiye,season_lineups
+325661,Ivan Tsvetkov,I. Tsvetkov,M,8,179,,304905600,3076,,Bulgaria,season_lineups
+2512562,Devran Ayhan,D. Ayhan,M,,179,,264902400,3076,,Türkiye,season_lineups
+43706,Volkan Unlu,V. Unlu,G,,191,,426470400,3076,,Türkiye,season_lineups
+849851,Gokhan Bozkaya,G. Bozkaya,,,179,,358473600,3076,,Türkiye,season_lineups
+2512619,Nihat Ocak,N. Ocak,D,,,,619660800,3076,,Türkiye,season_lineups
+14616,Kanfory Sylla,K. Sylla,,,182,,331776000,3076,,Guinea,season_lineups
+1610445,Bernard Okorowanta,B. Okorowanta,M,15,177,,534643200,3076,,Nigeria,season_lineups
+2512620,Orhan Aydoğdu,O. Aydoğdu,F,,,,547171200,3076,,Türkiye,season_lineups
+2512602,Harun Avgın,H. Avgın,G,,191,,372211200,3076,,Türkiye,season_lineups
+2512595,Ferhat Yayla,F. Yayla,D,,,,541555200,3076,,Türkiye,season_lineups
+2512631,Sezgin Bektaş,S. Bektaş,F,6,178,,582336000,3076,,Türkiye,season_lineups
+2231,Karim Saidi,K. Saidi,D,,184,,417312000,3076,,Tunisia,season_lineups
+43707,Onur Tuncer,O. Tuncer,M,,180,,445996800,3076,,Türkiye,season_lineups
+1854678,Erdogdu Hanefi,E. Hanefi,D,16,180,,423273600,3076,,Türkiye,season_lineups
+2512583,Emre Efe,E. Efe,,,,,,3076,,,season_lineups
+808295,Omer Kaplan,O. Kaplan,,,184,,465177600,3076,,Türkiye,season_lineups
+2477962,Sergio Pacheco,S. Pacheco,M,,173,,360720000,3076,,Brazil,season_lineups
+1845009,Ugur Yildirim,U. Yildirim,M,,175,,389664000,3076,,Netherlands,season_lineups
+11247,Dimitar Ivankov,D. Ivankov,G,,188,,183859200,3072,,Bulgaria,season_lineups
+43681,Koray Colgecen,K. Colgecen,D,,185,,486086400,3072,,Türkiye,season_lineups
+42241,Aydin Toscali,A. Toscali,D,,184,,335059200,3072,,Türkiye,season_lineups
+43237,Juan Pablo Avendano,J. P. Avendano,,14,187,,389836800,3072,,Argentina,season_lineups
+5144,Delio Rodas César Toledo,D. R. C. Toledo,D,,179,,213062400,3072,,Paraguay,season_lineups
+21825,Mehmet Topuz,M. Topuz,M,,180,,431740800,3072,,Türkiye,season_lineups
+2512304,Kamber Arslan,K. Arslan,,,,,,3072,,,season_lineups
+18068,Ragip Basdag,R. Basdag,M,8,178,,266198400,3072,,Türkiye,season_lineups
+42225,Mehmet Eren Boyraz,M. E. Boyraz,M,,189,,371606400,3072,,Türkiye,season_lineups
+42223,Franco Cangele,F. Cangele,M,,180,,458784000,3072,,Argentina,season_lineups
+5823,Gokhan Unal,G. Unal,F,,184,,396230400,3072,,Türkiye,season_lineups
+5809,Kemal Okyay,K. Okyay,D,,180,,478137600,3072,,Türkiye,season_lineups
+5758,Erdal Güneş,E. Güneş,F,,184,,386208000,3072,,Türkiye,season_lineups
+5813,Ali Turan,A. Turan,D,4,186,,431654400,3072,,Türkiye,season_lineups
+1879061,Hasan Sönmez,H. Sönmez,G,,183,,212630400,3072,,Türkiye,season_lineups
+43683,Fatih Ceylan,F. Ceylan,D,,180,,343958400,3072,,Türkiye,season_lineups
+86821,Emrah Kaya,E. Kaya,F,,173,,523238400,3072,0,Türkiye,season_lineups
+3845,Turgay Bahadir,T. Bahadir,F,,190,,442972800,3072,,Türkiye,season_lineups
+43400,Leonardo Andreas Iglesias,L. A. Iglesias,F,,190,,296265600,3072,,Argentina,season_lineups
+42238,Durmus Bayram,D. Bayram,,,,,511228800,3072,,Türkiye,season_lineups
+5909,Alioum Saidou,A. Saidou,,,180,,256694400,3072,,Cameroon,season_lineups
+8870,Ali Çamdalı,A. Çamdalı,M,20,186,,446256000,3072,,Türkiye,season_lineups
+42224,Abdullah Durak,A. Durak,M,,181,,544233600,3072,26000,Türkiye,season_lineups
+2512569,Orkun Bal,O. Bal,M,,170,,590889600,3072,,Türkiye,season_lineups
+826800,Hamdi Tevfik Altinok,H. T. Altinok,,,185,,484704000,3072,,Türkiye,season_lineups
+42226,Savas Yilmaz,S. Yilmaz,M,,182,,631152000,3072,26000,Türkiye,season_lineups
+803416,Tayfun Yanar,T. Yanar,D,38,175,,578188800,3072,,Türkiye,season_lineups
+2512570,Ersoy Yilmaz,E. Yilmaz,F,,177,,601257600,3072,,Türkiye,season_lineups
+2512638,Özgür İlkgün,Ö. İlkgün,D,,178,,626659200,3072,,Türkiye,season_lineups
+6189,Tolga Zengin,T. Zengin,G,29,192,,434592000,3051,,Türkiye,season_lineups
+3406,Daouda Jabi,D. Jabi,,,180,,355708800,3051,,Guinea,season_lineups
+6174,Erdinc Yavuz,E. Yavuz,D,42,187,,276307200,3051,,Türkiye,season_lineups
+18218,Tayfun Cora,T. Cora,D,,182,,439430400,3051,,Türkiye,season_lineups
+6172,Celaleddin Kocak,C. Kocak,,,,,249177600,3051,,Türkiye,season_lineups
+6181,Ibrahima Yattara,I. Yattara,F,,175,,328838400,3051,,Guinea,season_lineups
+5512,Serkan Balci,S. Balci,D,,169,,430358400,3051,,Türkiye,season_lineups
+5868,Ceyhun Eriş,C. Eris,F,77,180,,232502400,3051,,Türkiye,season_lineups
+6179,Huseyin Cimsir,H. Cimsir,M,5,188,,296524800,3051,,Türkiye,season_lineups
+6176,Gökdeniz Karadeniz,G. Karadeniz,M,61,169,,316396800,3051,,Türkiye,season_lineups
+5275,Umut Bulut,U. Bulut,F,,184,,416534400,3051,,Türkiye,season_lineups
+5381,Ersen Martin,E. Martin,F,,,,296265600,3051,,Türkiye,season_lineups
+2512585,Omer Riza,O. Riza,,,,,,3051,,,season_lineups
+47563,Ayman Mohamed Abdelaziz,A. M. Abdelaziz,,,178,,280368000,3051,,Egypt,season_lineups
+54636,Ahmet Şahin,A. Şahin,G,,190,,259372800,3051,,Türkiye,season_lineups
+6190,Tolga Seyhan,T. Seyhan,D,,187,,222307200,3051,,Türkiye,season_lineups
+6193,Yusuf Kurtulus,Y. Kurtulus,M,,178,,527126400,3051,52000,Türkiye,season_lineups
+2512307,Hasan Ucuncu,H. Ucuncu,,,,,,3051,,,season_lineups
+43720,Ergin Keleş,E. Keleş,F,24,184,,536457600,3051,,Türkiye,season_lineups
+4507,Ferhat Cokmus,F. Cokmus,D,,180,,477187200,3051,0,Türkiye,season_lineups
+5375,Mustafa Keceli,M. Keceli,D,,180,,274665600,3051,,Türkiye,season_lineups
+5307,Cagdas Atan,C. Atan,D,,187,,320544000,3051,,Türkiye,season_lineups
+6151,Adnan Gungor,A. Gungor,D,,179,,338256000,3051,,Türkiye,season_lineups
+7040,Lars Fredrik Risp,L. F. Risp,,,186,,345686400,3051,,Sweden,season_lineups
+18748,Tomas Jun,T. Jun,F,21,178,,411609600,3051,,Czechia,season_lineups
+43685,Jefferson,Jefferson,G,30,188,,410313600,3051,,Brazil,season_lineups
+43717,Barış Memiş,B. Memiş,F,,169,,631497600,3051,26000,Türkiye,season_lineups
+816540,Ufukhan Bayraktar,U. Bayraktar,D,,183,,504921600,3051,,Türkiye,season_lineups
+60547,Kadir Keleş,K. Keleş,M,,173,,567993600,3051,54000,Türkiye,season_lineups
+5296,Musa Buyuk,M. Buyuk,,,168,,327801600,3051,,Türkiye,season_lineups
+43715,Onur Kıvrak,O. Kıvrak,G,1,187,,567993600,3051,,Türkiye,season_lineups
+808337,Cem Demir,C. Demir,F,,187,,483667200,3051,,Türkiye,season_lineups
+32789,Sayed Moawad,S. Moawad,D,14,169,,296438400,3051,,Egypt,season_lineups
+1422793,Souleymanou Hamidou,S. Hamidou,G,,182,,122774400,3058,,Cameroon,season_lineups
+5367,Bulent Ertugrul,B. Ertugrul,D,5,181,,274838400,3058,,Türkiye,season_lineups
+5370,Roman Kratochvil,R. Kratochvil,D,7,182,,141264000,3058,,Slovakia,season_lineups
+2466389,Allyson,Allyson,D,,186,,381024000,3058,,Brazil,season_lineups
+2512306,Murat Karakoc,M. Karakoc,,,,,,3058,,,season_lineups
+5364,Tomas Abraham,T. Abraham,M,,179,,293241600,3058,,Czechia,season_lineups
+5366,Fatih Egedik,F. Egedik,D,,189,,389145600,3058,,Türkiye,season_lineups
+31680,Yusuf Simsek,Y. Simsek,,29,185,,175046400,3058,,Türkiye,season_lineups
+5867,Zafer Demir,Z. Demir,,,179,,221529600,3058,,Türkiye,season_lineups
+43555,Caner Celep,C. Celep,,,,,434678400,3058,,Türkiye,season_lineups
+43554,Selahattin Kinali,S. Kinali,,,178,,264038400,3058,,Türkiye,season_lineups
+43608,Julio Cesar Mendes Moreira,J. C. M. Moreira,,,165,,411782400,3058,,Brazil,season_lineups
+43621,Musa Kus,M. Kus,,,178,,256780800,3058,,Trinidad and Tobago,season_lineups
+43565,Fatih Yigen,F. Yigen,M,,177,,423273600,3058,0,Türkiye,season_lineups
+43556,Cenk Gönen,C. Gönen,G,,190,,572400000,3058,24000,Türkiye,season_lineups
+816540,Ufukhan Bayraktar,U. Bayraktar,D,,183,,504921600,3058,,Türkiye,season_lineups
+41856,Çağlar Birinci,Ç. Birinci,D,33,180,,497059200,3058,,Türkiye,season_lineups
+43553,Engin Memisler,E. Memisler,M,,184,,559526400,3058,,Türkiye,season_lineups
+43550,Burak Akyildiz,B. Akyildiz,D,,194,,473558400,3058,,Türkiye,season_lineups
+43549,Carlos Alberto Dos Santos Gomes,C. A. D. S. Gomes,,,173,,341020800,3058,,Brazil,season_lineups
+5368,Serhat Gulpinar,S. Gulpinar,M,,180,,283996800,3058,,Türkiye,season_lineups
+5361,Bulut Basmaz,B. Basmaz,G,,181,,452649600,3058,,Türkiye,season_lineups
+2512633,Süleyman Görgün,S. Görgün,D,,168,,347155200,3058,,Türkiye,season_lineups
+5735,Gokhan Gulec,G. Gulec,F,,182,,496454400,3058,,Türkiye,season_lineups
+2512571,Hasan Yigit,H. Yigit,,,,,,3058,,,season_lineups
+43564,Ilkay Demir,I. Demir,F,,185,,537408000,3058,,Türkiye,season_lineups
+43559,Güray Vural,G. Vural,D,77,177,,581990400,3058,79000,Türkiye,season_lineups
+74167,Muhittin Tekin,M. Tekin,F,,182,,476496000,3058,,Türkiye,season_lineups
+2512566,Suleyman Kucuk,S. Kucuk,G,,187,,256176000,3058,,Türkiye,season_lineups
+2512567,Christian Kotchoni,C. Kotchoni,F,,195,,585705600,3058,,Benin,season_lineups
+74159,İsmail Konuk,İ. Konuk,D,,187,,569289600,3058,53000,Türkiye,season_lineups
+2512621,Papa Gueye,P. Gueye,M,,188,,619315200,3058,,Senegal,season_lineups
+816387,Goksal Ozkara,G. Ozkara,G,,177,,662688000,3058,0,Türkiye,season_lineups
+43568,Ali Helvaci,A. Helvaci,F,,185,,663465600,3058,0,Türkiye,season_lineups
+5247,Serkan Kırıntılı,S. Kırıntılı,G,,185,,477273600,3103,,Türkiye,season_lineups
+43397,Cem Can,C. Can,M,,174,,354931200,3103,,Türkiye,season_lineups
+2471473,André Silva,A. Silva,M,,180,,324086400,3103,,Brazil,season_lineups
+5255,Emre Gungor,E. Gungor,D,,183,,460166400,3103,,Türkiye,season_lineups
+6160,Elyasa Süme,E. Süme,D,5,189,,429580800,3103,,Türkiye,season_lineups
+2512579,Yasin Celik,Y. Celik,,,,,,3103,,,season_lineups
+5273,Murat Duruer,M. Duruer,M,,182,,569203200,3103,,Türkiye,season_lineups
+1855071,Giani Kirita,G. Kirita,M,,181,,226195200,3103,,Romania,season_lineups
+43402,Ilkem Ozkaynak,I. Ozkaynak,D,,182,,389059200,3103,,Türkiye,season_lineups
+38528,Gustave Anicet Bebbe Mbangue,G. A. B. Mbangue,F,,179,,393552000,3103,0,Cameroon,season_lineups
+5328,Ahmet Dursun,A. Dursun,F,7,176,,254534400,3103,,Türkiye,season_lineups
+2321117,Augustine Ahinful,A. Ahinful,F,,,,155001600,3103,,Ghana,season_lineups
+14405,Ibrahim Said,I. Said,D,,183,,340502400,3103,,Egypt,season_lineups
+5907,Murat Erdogan,M. Erdogan,M,,180,,207705600,3103,,Türkiye,season_lineups
+2512623,Sarper Kıskaç,S. Kıskaç,D,,187,,647481600,3103,,Türkiye,season_lineups
+12397,Fatih Akyel,F. Akyel,D,4,180,,251942400,3103,,Türkiye,season_lineups
+5267,Burak Karaduman,B. Karaduman,M,,174,,477964800,3103,,Türkiye,season_lineups
+43396,Zafer Ozgultekin,Z. Ozgultekin,,,183,,163641600,3103,,Türkiye,season_lineups
+43513,Mustafa Ozkan,M. Ozkan,,,,,159494400,3103,,Türkiye,season_lineups
+6180,Ibrahim Ege,I. Ege,M,,174,,413078400,3103,,Türkiye,season_lineups
+16188,Yunus Balaban,Y. Balaban,M,,182,,446428800,3103,,Germany,season_lineups
+5280,Silvino João de Carvalho,Jabá,F,,165,,359164800,3103,,Brazil,season_lineups
+2512642,Şevki Koç,Ş. Koç,M,,181,,410227200,3103,,Türkiye,season_lineups
+2512586,Mateus,Mateus,,,,,,3103,,,season_lineups
+74042,Tevfik Altındağ,T. Altındağ,M,,180,,593827200,3103,105000,Türkiye,season_lineups
+952563,Can Emre Yucel,C. E. Yucel,G,,185,,425347200,3103,,Türkiye,season_lineups
+2512618,Mustafa Duruer,M. Duruer,D,,,,569203200,3103,,Türkiye,season_lineups
+5271,Mert Erdogan,M. Erdogan,M,,180,,604713600,3103,0,Türkiye,season_lineups
+46167,Abdulkadir Kayali,A. Kayali,M,,178,,665193600,3103,48000,Türkiye,season_lineups
+35586,Gokhan Emreciksin,G. Emreciksin,F,,180,,463622400,3103,,Türkiye,season_lineups
+8940,Kaba Diawara,K. Diawara,,,183,,187920000,3103,,Guinea,season_lineups
+2512584,Gediminas Paulauskas,G. Paulauskas,,,,,,3103,,,season_lineups
+813815,Ridvan Okus,R. Okus,D,,186,,658281600,3103,23000,Türkiye,season_lineups
+6150,Tolga Dogantez,T. Dogantez,,,182,,162259200,3103,,Türkiye,season_lineups
+40951,Andrés Lamas,A. Lamas,D,,187,,443059200,3103,,Uruguay,season_lineups
+86999,Engin Akturk,E. Akturk,D,,181,,429062400,3103,,Türkiye,season_lineups
+999548,Emre Ozkan,E. Ozkan,D,,182,,598924800,3103,,Türkiye,season_lineups
+852128,Onur Acar,O. Acar,M,,173,,410227200,3103,,Türkiye,season_lineups
+43506,Omer Catkic,O. Catkic,D,,182,,151027200,3060,,Türkiye,season_lineups
+1112,Ekrem Dag,E. Dag,D,,176,,344822400,3060,,Austria,season_lineups
+1854817,Armand Deumi Tchami,A. D. Tchami,D,,179,,290044800,3060,,Cameroon,season_lineups
+2512302,Ozgur Bayer,O. Bayer,D,,184,,292032000,3060,,Türkiye,season_lineups
+43594,Metin Tuglu,M. Tuglu,M,,176,,463622400,3060,,Türkiye,season_lineups
+1845009,Ugur Yildirim,U. Yildirim,M,,175,,389664000,3060,,Netherlands,season_lineups
+2512555,Ozgur Yildirim,O. Yildirim,M,,179,,292723200,3060,,Türkiye,season_lineups
+1854457,Volkan Arslan,V. Arslan,M,20,180,,273196800,3060,,Türkiye,season_lineups
+43600,Mehmet Polat,M. Polat,,,178,,266112000,3060,,Türkiye,season_lineups
+43557,Ali Bayraktar,A. Bayraktar,F,,180,,498700800,3060,,Türkiye,season_lineups
+43422,Antonio de Nigris,A. Nigris,,,186,,260236800,3060,,Mexico,season_lineups
+43693,Erdal Kılıçaslan,E. Kılıçaslan,M,11,179,,462067200,3060,,Germany,season_lineups
+43709,Faruk Bayar,F. Bayar,M,,179,,371606400,3060,,Türkiye,season_lineups
+43592,Cristian Rodrigo Zurita,C. R. Zurita,,,178,,301622400,3060,,Argentina,season_lineups
+60506,Oguz Daglaroglu,O. Daglaroglu,G,,183,,303782400,3060,,Türkiye,season_lineups
+2510568,Mehmet Cogum,M. Cogum,D,,176,,413251200,3060,,Türkiye,season_lineups
+2512568,Baris Durmaz,B. Durmaz,D,,176,,358646400,3060,,Türkiye,season_lineups
+43590,Murat Ceylan,M. Ceylan,M,,172,,573264000,3060,,Türkiye,season_lineups
+60453,Fatih Sen,F. Sen,M,,185,,464745600,3060,,Türkiye,season_lineups
+66147,Ali Cansun Begecarslan,A. C. Begecarslan,F,,185,,401155200,3060,,Türkiye,season_lineups
+8940,Kaba Diawara,K. Diawara,,,183,,187920000,3060,,Guinea,season_lineups
+54082,Tomáš Sedlák,T. Sedlák,M,,178,,413078400,3060,,Slovakia,season_lineups
+179089,Ozan Tahtaişleyen,O. Tahtaişleyen,D,,188,,474854400,3060,,Türkiye,season_lineups
+43603,Ahmet Ari,A. Ari,F,,175,,600652800,3060,53000,Türkiye,season_lineups
+1964441,Muhammet Şentürk,M. Şentürk,G,,,,569203200,3060,,Türkiye,season_lineups
+5718,Ergun Penbe,E. Penbe,D,67,177,,74908800,3060,,Türkiye,season_lineups
+21823,Bekir İrtegün,B. İrtegün,D,,185,,451267200,3060,,Türkiye,season_lineups
+5803,Bulent Bolukbasi,B. Bolukbasi,,,174,,203817600,3060,,Türkiye,season_lineups
+2512592,Erdal Fırtına,E. Fırtına,M,,,,607392000,3060,,Türkiye,season_lineups
+5305,Murat Sahin,M. Sahin,G,34,184,,192240000,3060,,Türkiye,season_lineups
+588012,Özgür Can Özcan,Ö. C. Özcan,F,99,184,,576633600,3060,,Türkiye,season_lineups
+19109,Manuel Neira Diaz,M. N. Diaz,F,,173,,245462400,3060,,Chile,season_lineups
+43601,Ivan De Souza,I. D. Souza,M,,176,,380160000,3060,,Brazil,season_lineups
+5756,Ilhan Ozbay,I. Ozbay,M,,175,,401241600,3060,,Türkiye,season_lineups
+2472289,Beto,Beto,F,,180,,372816000,3060,,Brazil,season_lineups
+5758,Erdal Güneş,E. Güneş,F,,184,,386208000,3060,,Türkiye,season_lineups
+988205,Hasan Yurt,H. Yurt,D,,182,,266544000,3060,,Türkiye,season_lineups
+2512637,Özcan Polat,Ö. Polat,M,10,,,567993600,3060,,Türkiye,season_lineups
+852262,Soner Ornek,S. Ornek,D,,192,,604627200,3060,105000,Türkiye,season_lineups
+43605,İsmail Köybaşı,İ. Köybaşı,M,12,177,,616032000,3060,48000,Türkiye,season_lineups
+5306,Ramazan Kursunlu,R. Kursunlu,G,22,185,,363312000,3057,,Türkiye,season_lineups
+2512578,Firat Akkoyun,F. Akkoyun,D,,180,,378691200,3057,,Türkiye,season_lineups
+43408,Ediz Bahtiyaroglu,E. Bahtiyaroglu,D,,190,,505008000,3057,,Türkiye,season_lineups
+27845,Radoslav Batak,R. Batak,,,187,,240451200,3057,,Montenegro,season_lineups
+2510560,Muhammet Hanifi Yoldas,M. H. Yoldas,D,,185,,419644800,3057,,Türkiye,season_lineups
+43425,Özer Hurmacı,Ö. Hurmacı,M,10,174,,532828800,3057,,Türkiye,season_lineups
+5914,Bilal Kisa,B. Kisa,M,10,180,,425088000,3057,,Türkiye,season_lineups
+999289,Anıl Taşdemir,A. Taşdemir,M,,175,,567993600,3057,,Türkiye,season_lineups
+43469,Adem Koçak,A. Koçak,M,66,177,,431222400,3057,,Türkiye,season_lineups
+5292,Tita,Tita,F,,165,,364435200,3057,,Türkiye,season_lineups
+6184,Mehmet Hilmi Yilmaz,M. H. Yilmaz,,,185,,296179200,3057,,Türkiye,season_lineups
+116831,Ugur Demirkol,U. Demirkol,D,,183,,632448000,3057,,Türkiye,season_lineups
+2512294,Tayfun Turkmen,T. Turkmen,F,,189,,261187200,3057,,Türkiye,season_lineups
+5285,Hürriyet Güçer,H. Güçer,M,,177,,372816000,3057,,Türkiye,season_lineups
+2512601,Haluk Tanrıseven,H. Tanrıseven,G,,181,,271987200,3057,,Türkiye,season_lineups
+2512622,Ramazan Tunç,R. Tunç,D,,182,,180144000,3057,,Türkiye,season_lineups
+47697,Hamilton,Hamilton,M,,176,,333417600,3057,,Togo,season_lineups
+14976,Tevfik Köse,T. Köse,F,,179,,584668800,3057,,Türkiye,season_lineups
+86162,Murat Akyuz,M. Akyuz,D,,179,,366508800,3057,,Türkiye,season_lineups
+5865,Erhan Albayrak,E. Albayrak,,,183,,229046400,3057,,Türkiye,season_lineups
+43423,Murat Tosun,M. Tosun,F,,183,,446601600,3057,145000,Türkiye,season_lineups
+25976,Stefan Senecky,S. Senecky,G,,186,,315964800,3057,0,Slovakia,season_lineups
+1422255,Emre Asik,E. Asik,D,2,183,,124588800,3057,,Türkiye,season_lineups
+29179,Orhan Ak,O. Ak,D,4,180,,307411200,3057,,Türkiye,season_lineups
+5708,Necati Ates,N. Ates,F,10,182,,315705600,3057,,Türkiye,season_lineups
+2574,Ferdi Elmas,F. Elmas,F,,173,,477100800,3057,,Türkiye,season_lineups
+868140,Mateus Paraná,M. Paraná,F,,173,,548553600,3057,,Brazil,season_lineups
+2512581,Emrah İnanç,E. İnanç,M,17,,,627264000,3057,,Türkiye,season_lineups
+5893,Eren Aydin,E. Aydin,D,,182,,379987200,3057,,Türkiye,season_lineups
+5773,Gokhan Tokgoz,G. Tokgoz,,,188,,293587200,3057,,Türkiye,season_lineups
+7040,Lars Fredrik Risp,L. F. Risp,,,186,,345686400,3057,,Sweden,season_lineups
+43422,Antonio de Nigris,A. Nigris,,,186,,260236800,3057,,Mexico,season_lineups
+6509,Neca,Neca,M,,176,,315446400,3057,,Portugal,season_lineups
+43406,Evren Ozyigit,E. Ozyigit,G,,187,,504921600,3057,26000,Türkiye,season_lineups
+43466,Umut Sözen,U. Sözen,M,,179,,633398400,3057,48000,Türkiye,season_lineups
+60410,Ferhat Odabasi,F. Odabasi,G,,181,,427075200,7801,,Türkiye,season_lineups
+5784,Orhan Şam,O. Şam,D,,180,,517968000,7801,,Türkiye,season_lineups
+35583,Giray Kacar,G. Kacar,D,23,187,,479692800,7801,,Türkiye,season_lineups
+43646,Ilhan Eker,I. Eker,D,,185,,410227200,7801,,Türkiye,season_lineups
+5789,Murat Kalkan,M. Kalkan,D,,183,,516931200,7801,23000,Türkiye,season_lineups
+997718,Kemal Yildirim,K. Yildirim,M,11,,,447033600,7801,,,season_lineups
+43625,Olgay Coskun,O. Coskun,M,,174,,445132800,7801,0,Türkiye,season_lineups
+2510567,Tozo,Tozo,M,,180,,335145600,7801,,Brazil,season_lineups
+43632,Kadir Bekmezci,K. Bekmezci,M,,183,,489369600,7801,54000,Belgium,season_lineups
+3908,Serkan Atak,S. Atak,M,,175,,441936000,7801,,Türkiye,season_lineups
+98361,Savas Esen,S. Esen,F,,177,,417657600,7801,0,Türkiye,season_lineups
+811020,Aleksandar Jevtic,A. Jevtic,F,,182,,480988800,7801,,Serbia,season_lineups
+816055,Bulent Kocabey,B. Kocabey,M,20,172,,455500800,7801,,Türkiye,season_lineups
+803383,Cagatay Tekin,C. Tekin,M,,176,,522547200,7801,,Türkiye,season_lineups
+1854677,Recep Biler,R. Biler,G,,193,,358128000,7801,,Türkiye,season_lineups
+5778,Hakan Aslantaş,H. Aslantaş,D,,181,,493862400,7801,,Türkiye,season_lineups
+595250,Eren Özen,E. Özen,M,11,170,,429062400,7801,,Türkiye,season_lineups
+2512607,Kenan Çamoğlu,K. Çamoğlu,M,,172,,383356800,7801,,Türkiye,season_lineups
+47145,Umit Tutunci,U. Tutunci,F,,178,,452217600,7801,,Türkiye,season_lineups
+43628,Sandro da Silva Mendonça,S. d. S. Mendonça,F,,176,,433814400,7801,,Brazil,season_lineups
+813824,Ibrahim Sahin,I. Sahin,F,,180,,446947200,7801,,Türkiye,season_lineups
+385190,Mile Sterjovski,M. Sterjovski,F,21,181,,296611200,7801,,Australia,season_lineups
+43637,Ufuk Arslan,U. Arslan,D,,178,,561600000,7801,0,Türkiye,season_lineups
+803385,Cevher Toktas,C. Toktas,D,,190,,558489600,7801,,Türkiye,season_lineups
+60398,Murat Selvi,M. Selvi,,,176,,395107200,7801,,Türkiye,season_lineups
+2512599,Hakan Zeydan,H. Zeydan,G,,,,638582400,7801,,Türkiye,season_lineups
+43623,Ulas Guler,U. Guler,G,,190,,324000000,7801,0,Türkiye,season_lineups
+26103,Nikola Petković,N. Petković,D,,186,,512352000,7801,,Serbia,season_lineups
+2512580,James Boadu,J. Boadu,,,,,,7801,,,season_lineups
+43557,Ali Bayraktar,A. Bayraktar,F,,180,,498700800,7801,,Türkiye,season_lineups
+43634,Shaibu Yakubu,S. Yakubu,M,,185,,531273600,7801,,Ghana,season_lineups
+953330,Sinan Kalayci,S. Kalayci,M,,,,610243200,7801,49000,Türkiye,season_lineups
+5727,Kenan Hasagić,K. Hasagić,G,,191,,318211200,3086,,Bosnia & Herzegovina,season_lineups
+43663,Rızvan Şahin,R. Şahin,D,,171,,373248000,3086,,Türkiye,season_lineups
+43662,Metin Depe,M. Depe,D,4,186,,347932800,3086,,Türkiye,season_lineups
+15676,Murat Ocak,M. Ocak,D,,182,,378691200,3086,,Türkiye,season_lineups
+2510561,Ekrem Eksioglu,E. Eksioglu,D,,184,,253756800,3086,,Türkiye,season_lineups
+43669,Kerim Zengin,K. Zengin,D,,179,,482198400,3086,,Türkiye,season_lineups
+43672,Efe Inanc,E. Inanc,M,,172,,322704000,3086,,Türkiye,season_lineups
+8904,Razundara Tjikuzu,R. Tjikuzu,D,,173,,313804800,3086,,Namibia,season_lineups
+803403,Ilyas Kahraman,I. Kahraman,M,,178,,197078400,3086,,Türkiye,season_lineups
+808307,Sertan Eser,S. Eser,F,,176,,132796800,3086,,Türkiye,season_lineups
+43674,Adriano Padilha Nascimento,A. P. Nascimento,,,185,,330307200,3086,,Brazil,season_lineups
+60348,Ilhan Sahin,I. Sahin,,24,182,,336441600,3086,,Türkiye,season_lineups
+43664,Erman Kılıç,E. Kılıç,M,,168,,432864000,3086,,Türkiye,season_lineups
+43661,Gokhan Kaba,G. Kaba,F,,181,,438480000,3086,,Türkiye,season_lineups
+5792,Mehmet Ali Tunc,M. A. Tunc,G,1,183,,366768000,3086,,Türkiye,season_lineups
+2512556,Mert Korkmaz,M. Korkmaz,D,,,,51148800,3086,,Türkiye,season_lineups
+43666,Mahmut Tekdemir,M. Tekdemir,D,,178,,569721600,3086,27000,Türkiye,season_lineups
+2325815,Sergio Orteman,S. Orteman,M,,180,,275875200,3086,,Uruguay,season_lineups
+82015,Volkan Kocaloglu,V. Kocaloglu,D,55,177,,288144000,3086,,Türkiye,season_lineups
+43656,Marcus Vinicius Cesario,M. V. Cesario,D,,187,,480297600,3086,,Brazil,season_lineups
+43668,Ugur Isikal,U. Isikal,F,,175,,482371200,3086,,Türkiye,season_lineups
+2323413,Ünal Alpugan,Ü. Alpugan,M,,,,113184000,3086,,Germany,season_lineups
+2512572,Haluk Gungor,H. Gungor,,,,,,3086,,,season_lineups
+43660,Sancak Kaplan,S. Kaplan,D,,178,,391132800,3086,,Türkiye,season_lineups
+5321,İbrahim Akın,İ. Akın,F,,183,,442022400,3086,,Türkiye,season_lineups
+17797,Aydin Yilmaz,A. Yilmaz,F,,176,,570412800,3086,,Türkiye,season_lineups
+5708,Necati Ates,N. Ates,F,10,182,,315705600,3086,,Türkiye,season_lineups
+43658,Zeki Korkmaz,Z. Korkmaz,M,10,175,,589075200,3086,68000,Türkiye,season_lineups
+2512593,Erol Durbakan,E. Durbakan,D,,,,570672000,3086,,Türkiye,season_lineups
+2510566,Ali Guzeldal,A. Guzeldal,,,,,,3086,,,season_lineups
+26154,Renny Vega,R. Vega,G,1,179,,299894400,3055,,Venezuela,season_lineups
+5693,Cihan Haspolatli,C. Haspolatli,M,,184,,315792000,3055,,Türkiye,season_lineups
+5896,Omer Erdogan,O. Erdogan,D,,191,,231465600,3055,,Türkiye,season_lineups
+43711,Egemen Korkmaz,E. Korkmaz,D,,182,,405129600,3055,,Türkiye,season_lineups
+6192,Volkan Kursat Bekiroglu,V. K. Bekiroglu,,,175,,251424000,3055,,Türkiye,season_lineups
+43535,Veli Acar,V. Acar,M,,174,,367977600,3055,,Türkiye,season_lineups
+2510558,Mustafa Sarp,M. Sarp,,,,,,3055,,,season_lineups
+13298,Velice Sumulikoski,V. Sumulikoski,M,,182,,356918400,3055,,North Macedonia,season_lineups
+5406,Sinan Kaloglu,S. Kaloglu,F,11,187,,360979200,3055,,Türkiye,season_lineups
+5323,Daniel Pancu,D. Pancu,F,9,187,,240624000,3055,,Romania,season_lineups
+3132,Herve Germain Tum,H. G. Tum,F,,183,,287884800,3055,,Cameroon,season_lineups
+43529,Yenal Tuncer,Y. Tuncer,D,,183,,483494400,3055,0,Türkiye,season_lineups
+43533,Volkan Şen,V. Şen,F,,175,,553305600,3055,,Türkiye,season_lineups
+43701,İbrahim Dağaşan,İ. Dağaşan,M,12,179,,456105600,3055,,Türkiye,season_lineups
+43530,Bekir Ozan Has,B. O. Has,M,6,175,,477532800,3055,,Türkiye,season_lineups
+43527,Yavuz Eraydin,Y. Eraydin,,,186,,198115200,3055,,Türkiye,season_lineups
+43688,Ismail Gulduren,I. Gulduren,,,183,,284774400,3055,,Türkiye,season_lineups
+5407,Eser Yagmur,E. Yagmur,,,,,423014400,3055,,Türkiye,season_lineups
+10185,Collins Mbesuma,C. N. Mbesuma,F,,183,,444614400,3055,,Zambia,season_lineups
+849864,Orhan Alemdar,O. Alemdar,,,184,,351043200,3055,,Türkiye,season_lineups
+2510562,Omer Aysan Baris,O. A. Baris,D,,177,,396230400,3055,,Türkiye,season_lineups
+43173,Sercan Yıldırım,S. Yıldırım,F,,183,,639273600,3055,,Türkiye,season_lineups
+1869620,Mohammed Cisse,M. Cisse,D,,180,,382147200,3055,,Guinea,season_lineups
+1854409,Jason Vandelannoite,J. Vandelannoite,D,,178,,531619200,3055,,Belgium,season_lineups
+43532,Eren Albayrak,E. Albayrak,D,,179,,672364800,3055,,Türkiye,season_lineups
+1855070,Yavuz Ozkan,Y. Ozkan,G,,190,,485308800,3055,,Türkiye,season_lineups
+803389,Koray Ozturk,K. Ozturk,D,16,180,,547430400,3055,,Türkiye,season_lineups
+213764,Zekeriya Topayan,Z. Topayan,G,,190,,601257600,3055,68000,Türkiye,season_lineups
+42268,Fatih Serkan Kurtuluş,F. S. Kurtuluş,D,,181,,631152000,3055,,Türkiye,season_lineups
+26182,Ysrael Zuñiga,Y. Zuñiga,F,,177,,209952000,3055,,Peru,season_lineups
+1855073,Ismail Göktas,I. Göktas,F,,175,,609292800,3055,,Türkiye,season_lineups
+803418,Umit Aydin,U. Aydin,M,14,182,,316828800,3055,,Türkiye,season_lineups
+2512292,Maksim Romashchenko,M. Romashchenko,M,,180,,207619200,3055,,Belarus,season_lineups
+2512559,Ronald Gutierrez,R. Gutierrez,M,,170,,312940800,3055,,Bolivia,season_lineups
+996363,Ceyhun Demircan,C. Demircan,G,,183,,637286400,3055,,Türkiye,season_lineups
+2512627,Selcan Pekkanlı,S. Pekkanlı,D,18,,,640483200,3055,,Türkiye,season_lineups
+914548,Ghislain Aime Emo,G. A. Emo,F,,,,586828800,3055,,Cameroon,season_lineups
+74063,Ozden Ongun,O. Ongun,G,41,187,,274233600,3085,,Türkiye,season_lineups
+43591,Erkan Sekman,E. Sekman,D,,175,,451008000,3085,52000,Türkiye,season_lineups
+2510559,Burak Ozsarac,B. Ozsarac,D,,185,,297561600,3085,,Türkiye,season_lineups
+14543,Abd El-Zaher El-Saqqa,A. El-Saqqa,D,,185,,128736000,3085,,Egypt,season_lineups
+43690,Kaue Caetano Da Silva,K. C. D. Silva,D,37,183,,430099200,3085,,Brazil,season_lineups
+2512565,Mohamed Abdallah,M. Abdallah,D,,176,,359424000,3085,,Egypt,season_lineups
+2510653,Mustafa Er,M. Er,,,,,,3085,,,season_lineups
+1854455,João Batista,J. Batista,M,7,175,,163123200,3085,,Brazil,season_lineups
+6509,Neca,Neca,M,,176,,315446400,3085,,Portugal,season_lineups
+4891,Eren Sen,E. Sen,F,,181,,465177600,3085,,Germany,season_lineups
+5326,Veysel Cihan,V. Cihan,,,186,,192240000,3085,,Türkiye,season_lineups
+43618,Murat Hacioglu,M. Hacioglu,F,8,169,,297820800,3085,,Türkiye,season_lineups
+5744,Sedat Ağçay,S. Ağçay,M,3,176,,369964800,3085,,Türkiye,season_lineups
+6688,Jose Manuel Gomes da Silva,J. M. G. d. Silva,,,176,,193968000,3085,,Portugal,season_lineups
+43696,Oguzhan Bahadir,O. Bahadir,G,,189,,314841600,3085,,Türkiye,season_lineups
+2512604,Hasan Hüseyin Karaoğlu,H. H. Karaoğlu,D,,172,,588470400,3085,,Türkiye,season_lineups
+2512616,Muhammed Akıncı,M. Akıncı,M,,182,,419644800,3085,,Türkiye,season_lineups
+5862,Omer Gundostu,O. Gundostu,,,185,,202435200,3085,,Türkiye,season_lineups
+788910,Cedric Cyril Sabin,C. C. Sabin,,,187,,310348800,3085,,Martinique,season_lineups
+5299,Erman Ozgur,E. Ozgur,,,180,,229737600,3085,,Türkiye,season_lineups
+826797,Ahmet Devret,A. Devret,D,,180,,568166400,3085,24000,Türkiye,season_lineups
+166417,Washington,Washington,F,9,187,,272678400,3085,,Brazil,season_lineups
+128146,Gökhan Çakır,G. Çakır,M,,182,,553219200,3085,52000,Türkiye,season_lineups
+2512419,Koray İçten,K. İçten,D,,174,,556761600,3085,,Türkiye,season_lineups
+826858,Fatih Ozer,F. Ozer,M,,178,,529286400,3085,,Türkiye,season_lineups
+26091,Damir Kahriman,D. Kahriman,G,,191,,469670400,3085,,Serbia,season_lineups
+18764,Miloš Mihajlov,M. Mihajlov,D,4,185,,408758400,3085,,Serbia,season_lineups
+5868,Ceyhun Eriş,C. Eris,F,77,180,,232502400,3085,,Türkiye,season_lineups
+43689,Jonathan Tehoue,J. Tehoue,F,,179,,452390400,3085,,France,season_lineups
+6193,Yusuf Kurtulus,Y. Kurtulus,M,,178,,527126400,3085,52000,Türkiye,season_lineups
+2512639,İbrahim Günar,İ. Günar,M,,,,616291200,3085,,Türkiye,season_lineups
+2512617,Murat Kaya,M. Kaya,F,,,,581126400,3085,,Türkiye,season_lineups
+94533,Eray Birnican,E. Birnican,G,,185,,585360000,3085,27000,Türkiye,season_lineups
+5773,Gokhan Tokgoz,G. Tokgoz,,,188,,293587200,7802,,Türkiye,season_lineups
+43470,Erhan Guven,E. Guven,D,,183,,390268800,7802,,Türkiye,season_lineups
+2512554,Marko Zoric,M. Zoric,D,,192,,332035200,7802,,Serbia,season_lineups
+6023,Lamine Traore,L. Traore,D,34,184,,392515200,7802,,Burkina Faso,season_lineups
+2512303,Erkan Ozbey,E. Ozbey,D,,181,,255916800,7802,,Türkiye,season_lineups
+43424,Mehmet Cakir,M. Cakir,M,,179,,442022400,7802,,Türkiye,season_lineups
+5786,Sedat Yesilkaya,S. Yesilkaya,,,174,,329443200,7802,,Türkiye,season_lineups
+5783,Mehmet Nas,M. Nas,M,21,176,,311904000,7802,,Türkiye,season_lineups
+43642,Engin Baytar,E. Baytar,M,,177,,426729600,7802,,Türkiye,season_lineups
+24714,Nick Carle,N. Carle,M,19,174,,375321600,7802,,Australia,season_lineups
+2512564,Okan Ozturk,O. Ozturk,,,,,,7802,,,season_lineups
+26103,Nikola Petković,N. Petković,D,,186,,512352000,7802,,Serbia,season_lineups
+43628,Sandro da Silva Mendonça,S. d. S. Mendonça,F,,176,,433814400,7802,,Brazil,season_lineups
+60352,Ferhat Kiraz,F. Kiraz,D,,177,,599702400,7802,,Türkiye,season_lineups
+43623,Ulas Guler,U. Guler,G,,190,,324000000,7802,0,Türkiye,season_lineups
+42891,Ayhan Tuna Uzumcu,A. T. Uzumcu,D,35,183,,397440000,7802,,Türkiye,season_lineups
+43653,Kerem Seras,K. Seras,M,,175,,441763200,7802,,Türkiye,season_lineups
+6150,Tolga Dogantez,T. Dogantez,,,182,,162259200,7802,,Türkiye,season_lineups
+60471,Mustafa Cicek,M. Cicek,F,,180,,401846400,7802,,Türkiye,season_lineups
+5893,Eren Aydin,E. Aydin,D,,182,,379987200,7802,,Türkiye,season_lineups
+43645,Burhan Eşer,B. Eşer,M,,180,,473385600,7802,,Türkiye,season_lineups
+74156,Selahattin Yaman,S. Yaman,M,89,,,611539200,7802,,Türkiye,season_lineups
+43641,Recep Ozturk,R. Ozturk,G,,194,,235612800,7802,,Türkiye,season_lineups
+11985,Kahê,Kahê,F,,187,,399340800,7802,,Brazil,season_lineups
+38485,Isaac Promise,I. Promise,M,11,183,,565401600,7802,,Nigeria,season_lineups
+2512615,Metin Ozan Demirelli,M. O. Demirelli,D,,,,630115200,7802,,Türkiye,season_lineups
+2512635,Volkan Kurt,V. Kurt,D,17,,,584236800,7802,,Türkiye,season_lineups
+2512634,Uygar Rıza Arslan,U. R. Arslan,D,38,,,608428800,7802,,Türkiye,season_lineups
+14543,Abd El-Zaher El-Saqqa,A. El-Saqqa,D,,185,,128736000,7802,,Egypt,season_lineups
+5800,Ergün Teber,E. Teber,D,,175,,494380800,7802,,Türkiye,season_lineups
+93942,Onur Garip,O. Garip,F,,186,,621475200,7802,27000,Türkiye,season_lineups
+2512600,Halil Çağırtekin,H. Çağırtekin,D,,,,602294400,7802,,Türkiye,season_lineups
+74144,Mehmet Akyüz,M. Akyüz,F,,188,,505008000,7802,26000,Türkiye,season_lineups
+22968,Nicolas Peric,N. Peric,G,22,184,,277603200,7802,,Chile,season_lineups
+2512582,Adamu Mohammed,A. Mohammed,,,,,,7802,,,season_lineups
+5778,Hakan Aslantaş,H. Aslantaş,D,,181,,493862400,7802,,Türkiye,season_lineups
+2510660,Daniel Addo,D. Addo,D,,185,,558921600,7802,,Ghana,season_lineups
+43654,Ramazan Köse,R. Köse,G,,194,,579398400,7802,27000,Türkiye,season_lineups
+47246,Ufuk Ceylan,U. Ceylan,G,,194,,519868800,3100,,Türkiye,season_lineups
+36902,Josef Dvornik,J. Dvornik,D,,189,,262137600,3100,,Czechia,season_lineups
+3111,Stephane Borbiconi,S. Borbiconi,,,184,,290908800,3100,,France,season_lineups
+2510640,Umit Bozkurt,U. Bozkurt,D,,181,,198806400,3100,,Türkiye,season_lineups
+6208,Hakan Balta,H. Balta,D,22,184,,417225600,3100,,Türkiye,season_lineups
+8698,Oumar Kalabane,O. Kalabane,D,,187,,355536000,3100,,Guinea,season_lineups
+31253,Selçuk İnan,S. İnan,M,8,182,,476841600,3100,,Türkiye,season_lineups
+12543,Lukas Zelenka,L. Zelenka,M,7,174,,307929600,3100,,Czechia,season_lineups
+6216,Uğur İnceman,U. İnceman,M,25,183,,359596800,3100,,Türkiye,season_lineups
+60574,Okan Koc,O. Koc,F,71,183,,380505600,3100,,Türkiye,season_lineups
+12232,Filip Hološko,F. Hološko,M,,185,,443145600,3100,190000,Slovakia,season_lineups
+9528,Sezer Ozturk,S. Ozturk,M,15,178,,499824000,3100,,Türkiye,season_lineups
+5335,Sener Askaroglu,S. Askaroglu,,,176,,325382400,3100,,Türkiye,season_lineups
+43399,Metin Akan,M. Akan,F,,180,,422928000,3100,,Türkiye,season_lineups
+74028,Egemen Gencalp,E. Gencalp,G,,189,,567043200,3100,,Türkiye,season_lineups
+60403,Ersan Gülüm,E. Gülüm,D,,185,,548208000,3100,,Türkiye,season_lineups
+5377,Güven Varol,G. Varol,D,77,184,,360288000,3100,,Türkiye,season_lineups
+5983,Nizamettin Çalışkan,N. Çalışkan,M,5,172,,543196800,3100,54000,Türkiye,season_lineups
+60254,Rafael Marques,R. Marques,F,19,190,,422841600,3100,,Brazil,season_lineups
+17798,Oguz Sabankay,O. Sabankay,M,,171,,555292800,3100,0,Türkiye,season_lineups
+60585,Sinan Özkan,S. Özkan,F,,181,,511833600,3100,,Türkiye,season_lineups
+60248,Yigit Ismail Gokoglan,Y. I. Gokoglan,F,,179,,613008000,3100,46000,Türkiye,season_lineups
+6194,Bulent Ataman,B. Ataman,,,191,,140832000,3100,,Türkiye,season_lineups
+17796,Ferhat Öztorun,F. Öztorun,D,,174,,547430400,3100,,Türkiye,season_lineups
+81941,Anil Karaer,A. Karaer,D,,185,,583977600,3100,255000,Türkiye,season_lineups
+43507,Yalçın Ayhan,Y. Ayhan,D,44,191,,389059200,3100,,Türkiye,season_lineups
+2466389,Allyson,Allyson,D,,186,,381024000,3100,,Brazil,season_lineups
+18864,Burak Yılmaz,B. Yılmaz,F,,188,,490233600,3100,,Türkiye,season_lineups
+803370,Mehmet Akif Kengel,M. A. Kengel,,,182,,553824000,3100,,Türkiye,season_lineups
+9151,Zé António,Z. António,D,54,187,,227145600,3100,,Portugal,season_lineups
+15630,Luis Martinez,L. Martinez,G,35,186,,395193600,3100,,Colombia,season_lineups
+6172,Celaleddin Kocak,C. Kocak,,,,,249177600,3100,,Türkiye,season_lineups
+6755,Tiago Targino,T. Targino,M,,180,,518400000,3100,,Portugal,season_lineups
+15933,Thomas Dalgaard,T. Dalgaard,F,,188,,450662400,3100,,Denmark,season_lineups
+5318,Mustafa Koray Avci,M. K. Avci,M,,182,,264384000,3100,,Türkiye,season_lineups
+74052,Hikmet Balioglu,H. Balioglu,D,,188,,649728000,3100,23000,Türkiye,season_lineups
+2512636,Zihni Aydın,Z. Aydın,D,,182,,623462400,3100,,Türkiye,season_lineups
+47662,David González,D. González,G,22,194,,395971200,3064,,Colombia,season_lineups
+60247,Gokhan Kok,G. Kok,D,,178,,347328000,3064,,Türkiye,season_lineups
+5397,Can Cumhur Bozaci,C. C. Bozaci,,,178,,146448000,3064,,Türkiye,season_lineups
+2510565,Serhat Akyuz,S. Akyuz,,,,,,3064,,,season_lineups
+5800,Ergün Teber,E. Teber,D,,175,,494380800,3064,,Türkiye,season_lineups
+6173,Emrah Eren,E. Eren,D,34,175,,279763200,3064,,Türkiye,season_lineups
+60503,Ahmet Gorkem Gork,A. G. Gork,D,,193,,425779200,3064,,Türkiye,season_lineups
+43581,Emre Toraman,E. Toraman,M,,179,,284342400,3064,,Türkiye,season_lineups
+2574,Ferdi Elmas,F. Elmas,F,,173,,477100800,3064,,Türkiye,season_lineups
+868041,Leandro Chaves,L. Chaves,M,,177,,451180800,3064,,Brazil,season_lineups
+60529,Ribeiro Elineor Nascimento,R. E. Nascimento,F,,184,,392515200,3064,,Brazil,season_lineups
+60475,Murat Uluç,M. Uluç,F,,188,,358732800,3064,,Türkiye,season_lineups
+60614,Turgay Golbasi,T. Golbasi,M,,181,,410659200,3064,,Türkiye,season_lineups
+84741,Zafer Biryol,Z. Biryol,F,,180,,213062400,3064,,Türkiye,season_lineups
+2510644,Metin Aktas,M. Aktas,G,,186,,239241600,3064,,Türkiye,season_lineups
+584482,Igor Gal,I. Gal,D,14,189,,411609600,3064,135000,Croatia,season_lineups
+1959716,Oktay Gümüş,O. Gümüş,M,88,,,590284800,3064,,Türkiye,season_lineups
+60539,Sadi Colak,S. Colak,,,185,,382147200,3064,,Türkiye,season_lineups
+43574,Anderson Ricardo Dos Santos,A. R. D. Santos,,,193,,417139200,3064,,Brazil,season_lineups
+788952,Altan Aksoy,A. Aksoy,M,35,175,,192326400,3064,,Türkiye,season_lineups
+903462,Fahri Tatan,F. Tatan,M,,170,,423100800,3064,,Türkiye,season_lineups
+2512557,Kursat Duymus,K. Duymus,D,,186,,286675200,3064,,Türkiye,season_lineups
+5353,Gustavo Victoria,G. Victoria,D,,178,,327110400,3064,,Colombia,season_lineups
+2512576,Mertgul Capoglu,M. Capoglu,,,,,,3064,,,season_lineups
+5864,Suat Usta,S. Usta,D,23,183,,365644800,3064,,Türkiye,season_lineups
+2512630,Serkan Şen,S. Şen,G,,192,,397958400,3064,,Türkiye,season_lineups
+136626,Tufan Zahid Arslan,T. Z. Arslan,F,,173,,502761600,3064,,Türkiye,season_lineups
+93708,Bahadir Sekizkardes,B. Sekizkardes,D,,182,,512006400,3064,,Türkiye,season_lineups
+74063,Ozden Ongun,O. Ongun,G,41,187,,274233600,3064,,Türkiye,season_lineups
+81941,Anil Karaer,A. Karaer,D,,185,,583977600,3064,255000,Türkiye,season_lineups
+60479,Mehmet Sen,M. Sen,F,,176,,381888000,3064,,Türkiye,season_lineups
+5786,Sedat Yesilkaya,S. Yesilkaya,,,174,,329443200,3064,,Türkiye,season_lineups
+60471,Mustafa Cicek,M. Cicek,F,,180,,401846400,3064,,Türkiye,season_lineups
+43655,Marquinhos,Marquinhos,D,3,197,,404006400,3064,,Brazil,season_lineups
+60437,Mesut Yilmaz,M. Yilmaz,,,182,,604195200,3064,,Türkiye,season_lineups
+140842,Emrullah Şalk,E. Şalk,G,,189,,554428800,3064,,Türkiye,season_lineups
+850610,Omer Kesici,O. Kesici,D,,,,583200000,3064,0,Türkiye,season_lineups
+2512632,Sinan Demircan,S. Demircan,F,10,174,,615600000,3064,,Türkiye,season_lineups
+16924,Khalid Sinouh,K. Sinouh,G,1,190,,168220800,6063,,Morocco,season_lineups
+60268,Ömer Hacısalihoğlu,O. Hacisalihoglu,D,,175,,228700800,6063,,Türkiye,season_lineups
+8396,Jens Berthel Askou,J. B. Askou,D,16,190,,398563200,6063,,Denmark,season_lineups
+60304,Gokhan Caba,G. Caba,D,,183,,400723200,6063,,Türkiye,season_lineups
+60270,Alpaslan Kartal,A. Kartal,,,178,,235872000,6063,,Türkiye,season_lineups
+810646,Ozgur Ocal,O. Ocal,M,2,176,,371088000,6063,,Türkiye,season_lineups
+60276,Merthan Açıl,M. Açıl,M,28,180,,382579200,6063,,Türkiye,season_lineups
+60277,André Moritz,A. Moritz,M,,187,,523670400,6063,,Brazil,season_lineups
+1854371,Sulun Yasin,S. Yasin,M,6,183,,251164800,6063,,Türkiye,season_lineups
+43689,Jonathan Tehoue,J. Tehoue,F,,179,,452390400,6063,,France,season_lineups
+2510641,Erhan Kucuk,E. Kucuk,F,,185,,351993600,6063,,Türkiye,season_lineups
+2512561,Goksel Akinci,G. Akinci,,,,,,6063,,,season_lineups
+60544,Mustafa Marangoz,M. Marangoz,,,181,,328665600,6063,,Türkiye,season_lineups
+2512590,Aydın Tabak,A. Tabak,M,,184,,290563200,6063,,Türkiye,season_lineups
+60265,Tolga Ozgen,T. Ozgen,G,68,198,,320544000,6063,,Türkiye,season_lineups
+1003,Mamoutou Coulibaly,M. Coulibaly,D,,183,,446342400,6063,,Mali,season_lineups
+2512640,İbrahim Kemendi,İ. Kemendi,F,,,,553737600,6063,,Türkiye,season_lineups
+2512574,Cihat Arslan,C. Arslan,,,,,,6063,,,season_lineups
+60628,Serdar Akdogan,S. Akdogan,F,,180,,380592000,6063,,Türkiye,season_lineups
+2512573,Ender Alkan,E. Alkan,M,,180,,221011200,6063,,Türkiye,season_lineups
+124938,Onur Aydin,O. Aydin,F,,193,,569030400,6063,0,Türkiye,season_lineups
+2512305,Fransergio,Fransergio,M,,184,,328924800,6063,,Brazil,season_lineups
+2512577,Unal Sari,U. Sari,,,,,,6063,,,season_lineups
+2512575,Ely Cisse,E. Cisse,F,,189,,506736000,6063,,Senegal,season_lineups
+2512597,Gökhan Öndin,G. Öndin,F,,,,570326400,6063,,Türkiye,season_lineups
+12397,Fatih Akyel,F. Akyel,D,4,180,,251942400,6063,,Türkiye,season_lineups
+43709,Faruk Bayar,F. Bayar,M,,179,,371606400,6063,,Türkiye,season_lineups
+2329,Barbaros Barut,B. Barut,M,,183,,412387200,6063,,Türkiye,season_lineups
+60289,Yekta Kurtuluş,Y. Kurtuluş,M,,175,,503107200,6063,,Türkiye,season_lineups
+2512606,Kani Çevik,K. Çevik,G,,188,,388800000,6063,,Türkiye,season_lineups
+3748,Murat Akin,M. Akin,M,,174,,656553600,6063,,Türkiye,season_lineups
+865634,Deniz Aydogdu,D. Aydogdu,F,56,180,,431136000,6063,,Türkiye,season_lineups
+816345,Evren Kurkcu,E. Kurkcu,D,,182,,405561600,6063,,Türkiye,season_lineups
+1854684,Mehmet Ali Sirin,M. A. Sirin,F,,183,,361411200,6063,,Germany,season_lineups
+60595,Edin Ademović,E. Ademović,F,,190,,560131200,6063,,Bosnia & Herzegovina,season_lineups
+60293,Joseph Desire Mawaye,J. D. Mawaye,F,,184,,516412800,6063,,Cameroon,season_lineups
+816022,Dogan Ates,D. Ates,M,6,,,587433600,6063,,Türkiye,season_lineups

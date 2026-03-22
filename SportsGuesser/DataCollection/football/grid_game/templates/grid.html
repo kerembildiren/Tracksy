@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tic tac toe — SportsGuesser</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('football_grid.static', filename='grid.css') }}" />
+  <script>
+    window.__GRID_BASE__ = "{{ url_for('football_grid.index') }}".replace(/\/?$/, "");
+  </script>
+</head>
+<body>
+  <div class="wrap">
+    <div class="toolbar">
+      <label class="diff-label">Zorluk
+        <select id="difficulty">
+          <option value="easy">Kolay</option>
+          <option value="medium" selected>Orta</option>
+          <option value="hard">Zor</option>
+        </select>
+      </label>
+      <div class="search-wrap">
+        <input id="guess" type="text" placeholder="Oyuncu ara" autocomplete="off" />
+        <ul id="suggest" class="suggest-list hidden"></ul>
+      </div>
+      <button type="button" id="btn-go" class="btn-primary">Gönder</button>
+      <button type="button" id="btn-new" class="btn-primary">Yeni oyun</button>
+    </div>
+    <div class="grid-wrap">
+      <div class="corner brand">SÜPER<br />LİG</div>
+      <div class="axis-label" id="ch-0"></div>
+      <div class="axis-label" id="ch-1"></div>
+      <div class="axis-label" id="ch-2"></div>
+
+      <div class="axis-label" id="rh-0"></div>
+      <div class="cell-wrap" id="wrap-0-0">
+        <div class="cell play" id="cell-0-0"></div>
+        <aside class="hint-pop hidden" id="hint-pop-0-0" aria-hidden="true">
+          <div class="hint-pop-head">
+            <span class="hint-pop-title">İpuçları</span>
+            <button type="button" class="hint-pop-close" data-r="0" data-c="0" aria-label="Kapat">×</button>
+          </div>
+          <ol class="hint-pop-list" id="hint-list-0-0"></ol>
+          <button type="button" class="hint-pop-next" data-r="0" data-c="0">İpucu al</button>
+        </aside>
+      </div>
+      <div class="cell-wrap" id="wrap-0-1">
+        <div class="cell play" id="cell-0-1"></div>
+        <aside class="hint-pop hidden" id="hint-pop-0-1" aria-hidden="true">
+          <div class="hint-pop-head">
+            <span class="hint-pop-title">İpuçları</span>
+            <button type="button" class="hint-pop-close" data-r="0" data-c="1" aria-label="Kapat">×</button>
+          </div>
+          <ol class="hint-pop-list" id="hint-list-0-1"></ol>
+          <button type="button" class="hint-pop-next" data-r="0" data-c="1">İpucu al</button>
+        </aside>
+      </div>
+      <div class="cell-wrap" id="wrap-0-2">
+        <div class="cell play" id="cell-0-2"></div>
+        <aside class="hint-pop hidden" id="hint-pop-0-2" aria-hidden="true">
+          <div class="hint-pop-head">
+            <span class="hint-pop-title">İpuçları</span>
+            <button type="button" class="hint-pop-close" data-r="0" data-c="2" aria-label="Kapat">×</button>
+          </div>
+          <ol class="hint-pop-list" id="hint-list-0-2"></ol>
+          <button type="button" class="hint-pop-next" data-r="0" data-c="2">İpucu al</button>
+        </aside>
+      </div>
+
+      <div class="axis-label" id="rh-1"></div>
+      <div class="cell-wrap" id="wrap-1-0">
+        <div class="cell play" id="cell-1-0"></div>
+        <aside class="hint-pop hidden" id="hint-pop-1-0" aria-hidden="true">
+          <div class="hint-pop-head">
+            <span class="hint-pop-title">İpuçları</span>
+            <button type="button" class="hint-pop-close" data-r="1" data-c="0" aria-label="Kapat">×</button>
+          </div>
+          <ol class="hint-pop-list" id="hint-list-1-0"></ol>
+          <button type="button" class="hint-pop-next" data-r="1" data-c="0">İpucu al</button>
+        </aside>
+      </div>
+      <div class="cell-wrap" id="wrap-1-1">
+        <div class="cell play" id="cell-1-1"></div>
+        <aside class="hint-pop hidden" id="hint-pop-1-1" aria-hidden="true">
+          <div class="hint-pop-head">
+            <span class="hint-pop-title">İpuçları</span>
+            <button type="button" class="hint-pop-close" data-r="1" data-c="1" aria-label="Kapat">×</button>
+          </div>
+          <ol class="hint-pop-list" id="hint-list-1-1"></ol>
+          <button type="button" class="hint-pop-next" data-r="1" data-c="1">İpucu al</button>
+        </aside>
+      </div>
+      <div class="cell-wrap" id="wrap-1-2">
+        <div class="cell play" id="cell-1-2"></div>
+        <aside class="hint-pop hidden" id="hint-pop-1-2" aria-hidden="true">
+          <div class="hint-pop-head">
+            <span class="hint-pop-title">İpuçları</span>
+            <button type="button" class="hint-pop-close" data-r="1" data-c="2" aria-label="Kapat">×</button>
+          </div>
+          <ol class="hint-pop-list" id="hint-list-1-2"></ol>
+          <button type="button" class="hint-pop-next" data-r="1" data-c="2">İpucu al</button>
+        </aside>
+      </div>
+
+      <div class="axis-label" id="rh-2"></div>
+      <div class="cell-wrap" id="wrap-2-0">
+        <div class="cell play" id="cell-2-0"></div>
+        <aside class="hint-pop hidden" id="hint-pop-2-0" aria-hidden="true">
+          <div class="hint-pop-head">
+            <span class="hint-pop-title">İpuçları</span>
+            <button type="button" class="hint-pop-close" data-r="2" data-c="0" aria-label="Kapat">×</button>
+          </div>
+          <ol class="hint-pop-list" id="hint-list-2-0"></ol>
+          <button type="button" class="hint-pop-next" data-r="2" data-c="0">İpucu al</button>
+        </aside>
+      </div>
+      <div class="cell-wrap" id="wrap-2-1">
+        <div class="cell play" id="cell-2-1"></div>
+        <aside class="hint-pop hidden" id="hint-pop-2-1" aria-hidden="true">
+          <div class="hint-pop-head">
+            <span class="hint-pop-title">İpuçları</span>
+            <button type="button" class="hint-pop-close" data-r="2" data-c="1" aria-label="Kapat">×</button>
+          </div>
+          <ol class="hint-pop-list" id="hint-list-2-1"></ol>
+          <button type="button" class="hint-pop-next" data-r="2" data-c="1">İpucu al</button>
+        </aside>
+      </div>
+      <div class="cell-wrap" id="wrap-2-2">
+        <div class="cell play" id="cell-2-2"></div>
+        <aside class="hint-pop hidden" id="hint-pop-2-2" aria-hidden="true">
+          <div class="hint-pop-head">
+            <span class="hint-pop-title">İpuçları</span>
+            <button type="button" class="hint-pop-close" data-r="2" data-c="2" aria-label="Kapat">×</button>
+          </div>
+          <ol class="hint-pop-list" id="hint-list-2-2"></ol>
+          <button type="button" class="hint-pop-next" data-r="2" data-c="2">İpucu al</button>
+        </aside>
+      </div>
+    </div>
+    <p class="msg" id="msg"></p>
+  </div>
+  <script src="{{ url_for('football_grid.static', filename='grid.js') }}"></script>
+</body>
+</html>
