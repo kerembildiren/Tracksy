@@ -10,9 +10,12 @@ import json
 import os
 from datetime import datetime, timedelta
 import pytz
+from werkzeug.middleware.proxy_fix import ProxyFix
 
 app = Flask(__name__)
 app.secret_key = os.environ.get('SECRET_KEY', 'harman-games-secret-key-change-in-production')
+# Render / reverse proxy: X-Forwarded-Proto so url_for(https) and cookies work correctly
+app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_proto=1, x_host=1, x_prefix=1)
 
 # ============================================================
 # Paths: HarmanGames is the main project; games are siblings
@@ -382,6 +385,19 @@ def api_answer():
     if session.get('status') not in ['won', 'lost']:
         return jsonify({'error': 'Game still in progress'}), 403
     return jsonify(ARTISTS_BY_ID.get(session['correct_artist_id']))
+
+
+@app.route('/api/debug/answer')
+def api_debug_answer():
+    """Test mode (Trackzy): reveal correct artist while the daily game is still in progress."""
+    aid = session.get('correct_artist_id')
+    if not aid:
+        return jsonify({'error': 'No active game'}), 400
+    artist = ARTISTS_BY_ID.get(aid)
+    if not artist:
+        return jsonify({'error': 'Artist not found'}), 404
+    return jsonify(artist)
+
 
 @app.route('/api/reset', methods=['POST'])
 def api_reset():

@@ -9,9 +9,12 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Libre+Baskerville:ital,wght@0,400;0,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ url_for('derby_challenge.static', filename='derby.css') }}" />
   <script>
-    /* Tam kök URL: iframe / pathname uçlarında new URL() kayması olmasın diye sunucu üretir. */
-    window.__DERBY_API_ROOT__ = "{{ url_for('derby_challenge.index', _external=True) }}".replace(/\/?$/, "/");
-    window.__DERBY_BASE__ = "{{ url_for('derby_challenge.index') }}".replace(/\/?$/, "");
+    /* Sayfa https iken _external=http üretmesin diye kök, tarayıcı origin ile birleştirilir (Render/proxy). */
+    (function () {
+      var p = "{{ url_for('derby_challenge.index') }}";
+      window.__DERBY_API_ROOT__ = new URL(p, window.location.origin).href.replace(/\/?$/, "/");
+      window.__DERBY_BASE__ = p.replace(/\/?$/, "");
+    })();
   </script>
 </head>
 <body>
@@ -76,6 +79,6 @@
 
     <p class="msg" id="msg-global"></p>
   </div>
-  <script src="{{ url_for('derby_challenge.static', filename='derby.js') }}?v=7"></script>
+  <script src="{{ url_for('derby_challenge.static', filename='derby.js') }}?v=8"></script>
 </body>
 </html>
