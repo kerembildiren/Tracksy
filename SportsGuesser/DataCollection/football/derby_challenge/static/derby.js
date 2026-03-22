@@ -1,22 +1,22 @@
 /**
- * API adresleri: önce Flask'ın __DERBY_API_ROOT__ (tam URL, sonda /) ile.
- * Yoksa sayfa URL’sini dizin olarak normalize eder.
- * Not: new URL('api/x', 'http://host/.../derby') son segment dosya sayılır → yanlış yol;
- * bu yüzden base her zaman .../derby/ ile biter.
+ * API base: .../sportsguesser/football/derby/ — no ?query on base URL.
  */
 function derbyApiRoot() {
-  const ex = typeof window.__DERBY_API_ROOT__ === "string" ? window.__DERBY_API_ROOT__.trim() : "";
-  if (ex) {
-    return ex.replace(/\/?$/, "/");
+  const fromTemplate =
+    typeof window.__DERBY_API_ROOT__ === "string" ? window.__DERBY_API_ROOT__.trim() : "";
+  if (fromTemplate) {
+    return fromTemplate.replace(/\/?$/, "/");
   }
   try {
     const u = new URL(window.location.href);
+    u.search = "";
+    u.hash = "";
     if (!u.pathname.endsWith("/")) {
       u.pathname += "/";
     }
     return u.href;
   } catch (e) {
-    return window.location.origin + "/";
+    return new URL("/sportsguesser/football/derby/", window.location.origin).href;
   }
 }
 
@@ -27,6 +27,7 @@ function apiUrl(path) {
 }
 
 const SUGGEST_MIN = 2;
+const KIND_ORDER = { goal: 0, card: 1, sub: 2 };
 
 let state = {
   gameId: null,
@@ -81,17 +82,6 @@ async function post(path, body) {
   }
 }
 
-function renderMatchBanner(ch) {
-  el("match-banner").innerHTML = `
-    <div class="banner-season">${escapeHtml(ch.season_label)} · ${ch.round}. hafta</div>
-    <div class="banner-teams">
-      <span class="banner-home">${escapeHtml(ch.home_team)}</span>
-      <span class="banner-vs">vs</span>
-      <span class="banner-away">${escapeHtml(ch.away_team)}</span>
-    </div>
-  `;
-}
-
 function escapeHtml(s) {
   if (!s) return "";
   return String(s)
@@ -101,74 +91,102 @@ function escapeHtml(s) {
     .replace(/"/g, "&quot;");
 }
 
-function buildGoalRow(ch, g) {
-  const side = g.is_home ? "Ev" : "Dep";
-  const add = g.added_time != null ? `+${g.added_time}` : "";
-  const row = document.createElement("div");
-  row.className = "event-row";
-  row.dataset.kind = "goal";
-  row.dataset.idx = String(g.idx);
-  row.innerHTML = `
-    <div class="ev-meta">${g.minute}'${add ? " " + add : ""} · ${side}</div>
-    <div class="ev-input-wrap">
-      <input type="text" class="ev-input" placeholder="Gol atan" autocomplete="off" />
-      <ul class="suggest-list hidden"></ul>
-    </div>
-    <button type="button" class="btn-primary btn-sm btn-guess">Tahmin</button>
-    <button type="button" class="btn-ghost btn-sm btn-reveal">İpucu</button>
-    <div class="ev-reveal"></div>
-  `;
-  return row;
+function minuteLabel(obj) {
+  const m = obj.minute;
+  const add = obj.added_time != null && obj.added_time !== "" ? obj.added_time : null;
+  if (add != null && add !== "") return `${m}' +${add}`;
+  return `${m}'`;
 }
 
-function buildCardRow(ch, c) {
-  const side = c.is_home ? "Ev" : "Dep";
-  const ct =
-    c.card_type === "yellowRed"
-      ? "İkinci sarı"
-      : c.card_type === "red"
-        ? "Kırmızı"
-        : "Sarı";
-  const add = c.added_time != null ? `+${c.added_time}` : "";
-  const row = document.createElement("div");
-  row.className = "event-row";
-  row.dataset.kind = "card";
-  row.dataset.idx = String(c.idx);
-  row.innerHTML = `
-    <div class="ev-meta">${c.minute}'${add ? " " + add : ""} · ${ct} · ${side}</div>
-    <div class="ev-input-wrap">
-      <input type="text" class="ev-input" placeholder="Oyuncu" autocomplete="off" />
-      <ul class="suggest-list hidden"></ul>
-    </div>
-    <button type="button" class="btn-primary btn-sm btn-guess">Tahmin</button>
-    <button type="button" class="btn-ghost btn-sm btn-reveal">İpucu</button>
-    <div class="ev-reveal"></div>
-  `;
-  return row;
+function cardIcon(ct) {
+  if (ct === "red") return "🟥";
+  if (ct === "yellowRed") return "🟨🟥";
+  return "🟨";
 }
 
-function buildSubRow(ch, s) {
-  const side = s.is_home ? "Ev" : "Dep";
+function sortKeyFor(ev, kind) {
+  const m = Number(ev.minute) || 0;
+  const add =
+    ev.added_time != null && ev.added_time !== "" ? Number(ev.added_time) : 0;
+  return m * 10000 + add * 100 + KIND_ORDER[kind];
+}
+
+function mergeEvents(ch) {
+  const out = [];
+  (ch.goals || []).forEach((g) => {
+    out.push({ kind: "goal", ...g, _sk: sortKeyFor(g, "goal") });
+  });
+  (ch.cards || []).forEach((c) => {
+    out.push({ kind: "card", ...c, _sk: sortKeyFor(c, "card") });
+  });
+  (ch.subs || []).forEach((s) => {
+    out.push({ kind: "sub", ...s, _sk: sortKeyFor(s, "sub") });
+  });
+  out.sort((a, b) => {
+    if (a._sk !== b._sk) return a._sk - b._sk;
+    const ko = KIND_ORDER[a.kind] - KIND_ORDER[b.kind];
+    if (ko !== 0) return ko;
+    return (a.idx || 0) - (b.idx || 0);
+  });
+  return out;
+}
+
+function renderMatchBanner(ch) {
+  el("match-banner").innerHTML = `<div class="banner-season-line">${escapeHtml(ch.season_label)} · ${ch.round}. hafta</div>`;
+  el("name-home-display").textContent = ch.home_team || "";
+  el("name-away-display").textContent = ch.away_team || "";
+}
+
+function buildTimelineRow(ev) {
+  const isHome = ev.is_home;
+  const side = isHome ? "home" : "away";
   const row = document.createElement("div");
-  row.className = "event-row event-row-sub";
-  row.dataset.kind = "sub";
-  row.dataset.idx = String(s.idx);
+  row.className = `timeline-row timeline-row--${side}`;
+  row.dataset.kind = ev.kind;
+  row.dataset.idx = String(ev.idx);
+
+  let icon = "";
+  let inner = "";
+  if (ev.kind === "goal") {
+    icon = "⚽";
+    inner = `
+      <div class="ev-input-wrap">
+        <input type="text" class="ev-input ev-input--dashed ev-input--guess" placeholder="Gol atan" autocomplete="off" spellcheck="false" />
+        <ul class="suggest-list hidden"></ul>
+      </div>`;
+  } else if (ev.kind === "card") {
+    icon = cardIcon(ev.card_type);
+    inner = `
+      <div class="ev-input-wrap">
+        <input type="text" class="ev-input ev-input--dashed ev-input--guess" placeholder="Kart gören" autocomplete="off" spellcheck="false" />
+        <ul class="suggest-list hidden"></ul>
+      </div>`;
+  } else {
+    icon = "🔁";
+    inner = `
+      <div class="sub-pair">
+        <div class="ev-input-wrap">
+          <input type="text" class="ev-input ev-input--dashed ev-out" placeholder="Çıkan" autocomplete="off" spellcheck="false" />
+          <ul class="suggest-list hidden"></ul>
+        </div>
+        <div class="ev-input-wrap">
+          <input type="text" class="ev-input ev-input--dashed ev-in" placeholder="Giren" autocomplete="off" spellcheck="false" />
+          <ul class="suggest-list hidden"></ul>
+        </div>
+      </div>`;
+  }
+
   row.innerHTML = `
-    <div class="ev-meta">${s.minute}' · ${side}</div>
-    <div class="sub-inputs">
-      <div class="ev-input-wrap">
-        <input type="text" class="ev-input ev-out" placeholder="Çıkan" autocomplete="off" />
-        <ul class="suggest-list hidden"></ul>
+    <div class="timeline-pack">
+      <span class="ev-kind-icon" aria-hidden="true">${icon}</span>
+      <span class="ev-minute">${escapeHtml(minuteLabel(ev))}</span>
+      ${inner}
+      <div class="ev-actions">
+        <button type="button" class="btn-primary btn-sm btn-guess" title="Tahmin (Enter)">✓</button>
+        <button type="button" class="btn-ghost btn-sm btn-reveal">İpucu</button>
       </div>
-      <div class="ev-input-wrap">
-        <input type="text" class="ev-input ev-in" placeholder="Giren" autocomplete="off" />
-        <ul class="suggest-list hidden"></ul>
-      </div>
-    </div>
-    <button type="button" class="btn-primary btn-sm btn-guess">Tahmin</button>
-    <button type="button" class="btn-ghost btn-sm btn-reveal">İpucu</button>
-    <div class="ev-reveal"></div>
-  `;
+      <span class="ev-reveal"></span>
+    </div>`;
   return row;
 }
 
@@ -189,7 +207,8 @@ function wireSuggest(input, ul) {
       items.forEach((it) => {
         const li = document.createElement("li");
         li.textContent = it.name;
-        li.addEventListener("click", () => {
+        li.addEventListener("mousedown", (e) => {
+          e.preventDefault();
           input.value = it.name;
           ul.classList.add("hidden");
         });
@@ -200,47 +219,57 @@ function wireSuggest(input, ul) {
   });
 }
 
-function wireGame(ch) {
-  const gl = el("goals-list");
-  const cl = el("cards-list");
-  const sl = el("subs-list");
-  gl.innerHTML = "";
-  cl.innerHTML = "";
-  sl.innerHTML = "";
-
-  const goals = Array.isArray(ch.goals) ? ch.goals : [];
-  const cards = Array.isArray(ch.cards) ? ch.cards : [];
-  const subs = Array.isArray(ch.subs) ? ch.subs : [];
-
-  goals.forEach((g) => {
-    const row = buildGoalRow(ch, g);
-    gl.appendChild(row);
-    const inp = row.querySelector(".ev-input");
-    const ul = row.querySelector(".suggest-list");
-    wireSuggest(inp, ul);
+function wireRowInputs(row) {
+  const kind = row.dataset.kind;
+  const wraps = row.querySelectorAll(".ev-input-wrap");
+  wraps.forEach((w) => {
+    const inp = w.querySelector(".ev-input");
+    const ul = w.querySelector(".suggest-list");
+    if (inp && ul) wireSuggest(inp, ul);
   });
-  cards.forEach((c) => {
-    const row = buildCardRow(ch, c);
-    cl.appendChild(row);
-    const inp = row.querySelector(".ev-input");
-    const ul = row.querySelector(".suggest-list");
-    wireSuggest(inp, ul);
-  });
-  subs.forEach((s) => {
-    const row = buildSubRow(ch, s);
-    sl.appendChild(row);
-    row.querySelectorAll(".ev-input-wrap").forEach((w) => {
-      wireSuggest(w.querySelector(".ev-input"), w.querySelector(".suggest-list"));
+
+  const guessBtn = row.querySelector(".btn-guess");
+  const revBtn = row.querySelector(".btn-reveal");
+  if (guessBtn) guessBtn.addEventListener("click", () => onGuessRow(row));
+  if (revBtn) revBtn.addEventListener("click", () => onRevealRow(row));
+
+  row.querySelectorAll(".ev-input--guess, .ev-out, .ev-in").forEach((inp) => {
+    inp.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        onGuessRow(row);
+      }
     });
   });
+}
 
-  document.querySelectorAll("#panel-game .event-row").forEach((row) => {
-    row.querySelector(".btn-guess").addEventListener("click", () => onGuessRow(row));
-    row.querySelector(".btn-reveal").addEventListener("click", () => onRevealRow(row));
+function unlockEventsPhase() {
+  const ph = el("events-phase");
+  if (!ph) return;
+  ph.classList.remove("hidden");
+}
+
+function wireGame(ch) {
+  const list = el("timeline-list");
+  const empty = el("timeline-empty");
+  list.innerHTML = "";
+  show(empty, false);
+
+  const merged = mergeEvents(ch);
+  if (merged.length === 0) {
+    show(empty, true);
+  }
+  merged.forEach((ev) => {
+    list.appendChild(buildTimelineRow(ev));
   });
+
+  list.querySelectorAll(".timeline-row").forEach((row) => wireRowInputs(row));
 
   el("btn-guess-score").onclick = onGuessScore;
   el("btn-reveal-score").onclick = onRevealScore;
+
+  const evPh = el("events-phase");
+  if (evPh) evPh.classList.add("hidden");
 }
 
 async function onGuessScore() {
@@ -264,6 +293,9 @@ async function onGuessScore() {
   else if (data.correct) setMsg("msg-score", "Doğru.", false);
   else setMsg("msg-score", "Yanlış skor, tekrar deneyin.", true);
   updatePoints(data.total_points ?? 0);
+  if (data.correct) {
+    unlockEventsPhase();
+  }
   await checkAutoDone();
 }
 
@@ -282,6 +314,7 @@ async function onRevealScore() {
   el("score-away").disabled = true;
   el("btn-guess-score").disabled = true;
   el("btn-reveal-score").disabled = true;
+  unlockEventsPhase();
   await checkAutoDone();
 }
 
@@ -293,17 +326,18 @@ async function onGuessRow(row) {
   let body = { game_id: state.gameId, idx };
   if (kind === "goal") {
     path = "/api/guess-goal";
-    body.name = row.querySelector(".ev-input").value;
+    body.name = row.querySelector(".ev-input--guess")?.value || "";
   } else if (kind === "card") {
     path = "/api/guess-card";
-    body.name = row.querySelector(".ev-input").value;
+    body.name = row.querySelector(".ev-input--guess")?.value || "";
   } else if (kind === "sub") {
     path = "/api/guess-sub";
-    body.player_out = row.querySelector(".ev-out").value;
-    body.player_in = row.querySelector(".ev-in").value;
+    body.player_out = row.querySelector(".ev-out")?.value || "";
+    body.player_in = row.querySelector(".ev-in")?.value || "";
   }
   const { res, data } = await post(path, body);
   const rev = row.querySelector(".ev-reveal");
+  if (!rev) return;
   if (!res.ok) {
     rev.textContent = data.error || "";
     return;
@@ -323,13 +357,16 @@ async function onRevealRow(row) {
   const kind = row.dataset.kind;
   const idx = parseInt(row.dataset.idx, 10);
   if (!state.gameId) return;
+  const rev = row.querySelector(".ev-reveal");
   const { res, data } = await post("/api/reveal", {
     game_id: state.gameId,
     kind: kind === "goal" ? "goal" : kind === "card" ? "card" : "sub",
     idx,
   });
-  if (!res.ok) return;
-  const rev = row.querySelector(".ev-reveal");
+  if (!res.ok) {
+    if (rev) rev.textContent = (data && data.error) || "";
+    return;
+  }
   if (data.kind === "goal") rev.textContent = data.scorer;
   else if (data.kind === "card") rev.textContent = data.player;
   else rev.textContent = `Çıkan: ${data.player_out} → Giren: ${data.player_in}`;
@@ -402,6 +439,29 @@ async function derbyFinishFromToolbar() {
 function initDerbyUi() {
   window.__derbyNewGame = newGame;
   window.__derbyFinishGame = derbyFinishFromToolbar;
+
+  const n1 = el("btn-new-match");
+  const n2 = el("btn-after");
+  const fin = el("btn-finish");
+  if (n1) {
+    n1.addEventListener("click", (e) => {
+      e.preventDefault();
+      newGame();
+    });
+  }
+  if (n2) {
+    n2.addEventListener("click", (e) => {
+      e.preventDefault();
+      newGame();
+    });
+  }
+  if (fin) {
+    fin.addEventListener("click", (e) => {
+      e.preventDefault();
+      derbyFinishFromToolbar();
+    });
+  }
+
   show(el("panel-game"), false);
   show(el("panel-result"), false);
 }
@@ -411,8 +471,3 @@ if (document.readyState === "loading") {
 } else {
   initDerbyUi();
 }
-</think>
-
-
-<｜tool▁calls▁begin｜><｜tool▁call▁begin｜>
-Read

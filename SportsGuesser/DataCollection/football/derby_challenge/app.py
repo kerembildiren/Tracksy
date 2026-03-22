@@ -38,7 +38,7 @@ derby_bp = Blueprint(
 POINTS_SCORE = 100
 POINTS_GOAL = 100
 POINTS_CARD = 200
-POINTS_SUB = 100
+POINTS_SUB = 200
 
 SUGGEST_MIN = 2
 
@@ -74,6 +74,10 @@ def _name_match(truth: str, guess: str) -> bool:
     if not truth or not (guess or "").strip():
         return False
     return matches_name_query(truth, guess.strip())
+
+
+def _score_resolved(st: Dict[str, Any]) -> bool:
+    return bool(st["solved"]["score"] or st["revealed"]["score"])
 
 
 @derby_bp.route("/")
@@ -167,6 +171,10 @@ def guess_goal():
         return jsonify({"ok": False, "error": "Geçersiz."}), 400
 
     st = GAMES[gid]
+    if not _score_resolved(st):
+        return jsonify(
+            {"ok": False, "error": "Önce skoru tahmin edin veya skor ipucunu kullanın."}
+        ), 400
     goals = st["truth"]["goals"]
     if idx < 0 or idx >= len(goals):
         return jsonify({"ok": False, "error": "Geçersiz gol."}), 400
@@ -206,6 +214,10 @@ def guess_card():
         return jsonify({"ok": False, "error": "Geçersiz."}), 400
 
     st = GAMES[gid]
+    if not _score_resolved(st):
+        return jsonify(
+            {"ok": False, "error": "Önce skoru tahmin edin veya skor ipucunu kullanın."}
+        ), 400
     cards = st["truth"]["cards"]
     if idx < 0 or idx >= len(cards):
         return jsonify({"ok": False, "error": "Geçersiz kart."}), 400
@@ -246,6 +258,10 @@ def guess_sub():
         return jsonify({"ok": False, "error": "Geçersiz."}), 400
 
     st = GAMES[gid]
+    if not _score_resolved(st):
+        return jsonify(
+            {"ok": False, "error": "Önce skoru tahmin edin veya skor ipucunu kullanın."}
+        ), 400
     subs = st["truth"]["subs"]
     if idx < 0 or idx >= len(subs):
         return jsonify({"ok": False, "error": "Geçersiz değişiklik."}), 400
@@ -303,6 +319,9 @@ def reveal():
                 "away_score": t["away_score"],
             }
         )
+
+    if not _score_resolved(st):
+        return jsonify({"error": "Önce skoru tahmin edin veya skor ipucunu kullanın."}), 400
 
     try:
         idx = int(idx)

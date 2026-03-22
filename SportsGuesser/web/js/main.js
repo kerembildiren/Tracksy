@@ -19,14 +19,12 @@
     basketball: document.getElementById('screen-basketball'),
     football: document.getElementById('screen-football'),
     ticTacToe: document.getElementById('screen-tic-tac-toe'),
-    derbyChallenge: document.getElementById('screen-derby-challenge'),
     dart: document.getElementById('screen-dart')
   };
 
   const footballFrame = document.getElementById('football-game-frame');
-  const derbyFrame = document.getElementById('derby-game-frame');
   const FOOTBALL_GAME_URL = '/sportsguesser/football/';
-  const DERBY_GAME_URL = '/sportsguesser/football/derby/';
+  const DERBY_PAGE_URL = '/sportsguesser/football/derby/';
 
   const scoreEls = {
     1: document.getElementById('score-p1'),
@@ -49,13 +47,6 @@
       id !== 'ticTacToe'
     ) {
       clearFootballFrame();
-    }
-    if (
-      screens.derbyChallenge &&
-      screens.derbyChallenge.classList.contains('active') &&
-      id !== 'derbyChallenge'
-    ) {
-      clearDerbyFrame();
     }
     Object.values(screens).forEach(s => s && s.classList.remove('active'));
     const el = screens[id];
@@ -252,18 +243,8 @@
     footballFrame.src = url.href;
   }
 
-  function loadDerbyGameFrame() {
-    if (!derbyFrame) return;
-    const url = new URL(DERBY_GAME_URL, window.location.origin);
-    derbyFrame.src = url.href;
-  }
-
   function clearFootballFrame() {
     if (footballFrame) footballFrame.src = 'about:blank';
-  }
-
-  function clearDerbyFrame() {
-    if (derbyFrame) derbyFrame.src = 'about:blank';
   }
 
   function initNavigation() {
@@ -286,8 +267,7 @@
           showScreen('ticTacToe');
         }
         if (game === 'derby-challenge') {
-          loadDerbyGameFrame();
-          showScreen('derbyChallenge');
+          window.location.assign(new URL(DERBY_PAGE_URL, window.location.origin).href);
         }
       });
     });

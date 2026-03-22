@@ -7,9 +7,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Libre+Baskerville:ital,wght@0,400;0,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{ url_for('derby_challenge.static', filename='derby.css') }}" />
+  <link rel="stylesheet" href="{{ url_for('derby_challenge.static', filename='derby.css') }}?v=3" />
   <script>
-    /* Sayfa https iken _external=http üretmesin diye kök, tarayıcı origin ile birleştirilir (Render/proxy). */
     (function () {
       var p = "{{ url_for('derby_challenge.index') }}";
       window.__DERBY_API_ROOT__ = new URL(p, window.location.origin).href.replace(/\/?$/, "/");
@@ -19,11 +18,12 @@
 </head>
 <body>
   <div class="wrap">
+    <p class="derby-back"><a href="/sportsguesser/">← SportsGuesser</a></p>
     <header class="derby-head">
       <h1>Derbi Challenge</h1>
       <p class="derby-sub">FB · GS · BJK · TS — Süper Lig derbileri (2001/2002–2024/2025)</p>
       <div class="toolbar">
-        <button type="button" id="btn-new-match" class="btn-primary" data-derby-action="new-game" onclick="if (window.__derbyNewGame) { window.__derbyNewGame(); }">Yeni maç</button>
+        <button type="button" id="btn-new-match" class="btn-primary">Yeni maç</button>
         <span class="points" id="points-total">Puan: 0</span>
       </div>
     </header>
@@ -33,52 +33,50 @@
     </div>
 
     <div id="panel-game" class="panel hidden">
-      <div class="match-banner" id="match-banner"></div>
+      <div id="match-banner"></div>
 
-      <section class="block">
-        <h2>Skor</h2>
-        <p class="hint">Doğru tahmin: 100 puan. İpucu kullanırsanız bu bölümde puan alamazsınız.</p>
-        <div class="row-score">
-          <label>Ev <input type="number" id="score-home" min="0" max="20" /></label>
-          <span class="dash">—</span>
-          <label>Dep <input type="number" id="score-away" min="0" max="20" /></label>
+      <section class="phase-score-block" id="phase-score-block">
+        <p class="hint">Doğru skor: 100 puan. İpucu kullanırsanız bu bölümde puan alamazsınız. Skoru çözdükten sonra olaylar açılır.</p>
+        <div class="scoreboard-row">
+          <div class="scoreboard-team scoreboard-team--home">
+            <span class="scoreboard-team-name" id="name-home-display"></span>
+          </div>
+          <div class="scoreboard-center">
+            <input type="number" id="score-home" class="scoreboard-input" min="0" max="20" inputmode="numeric" aria-labelledby="name-home-display" />
+            <span class="scoreboard-sep">—</span>
+            <input type="number" id="score-away" class="scoreboard-input" min="0" max="20" inputmode="numeric" aria-labelledby="name-away-display" />
+          </div>
+          <div class="scoreboard-team scoreboard-team--away">
+            <span class="scoreboard-team-name" id="name-away-display"></span>
+          </div>
+        </div>
+        <div class="score-actions">
           <button type="button" class="btn-primary btn-sm" id="btn-guess-score">Tahmin et</button>
-          <button type="button" class="btn-ghost btn-sm" id="btn-reveal-score">İpucu</button>
+          <button type="button" class="btn-ghost btn-sm" id="btn-reveal-score">Skor ipucu</button>
         </div>
         <div id="msg-score" class="field-msg"></div>
       </section>
 
-      <section class="block">
-        <h2>Goller</h2>
-        <p class="hint">Her gol için doğru isim: 100 puan.</p>
-        <div id="goals-list" class="events-list"></div>
-      </section>
-
-      <section class="block">
-        <h2>Kartlar</h2>
-        <p class="hint">Doğru oyuncu: 200 puan.</p>
-        <div id="cards-list" class="events-list"></div>
-      </section>
-
-      <section class="block">
-        <h2>Oyuncu değişiklikleri</h2>
-        <p class="hint">Çıkan ve giren doğru: 100 puan (ikisi birlikte).</p>
-        <div id="subs-list" class="events-list"></div>
+      <section id="events-phase" class="events-phase hidden">
+        <h2 class="events-title">Olaylar</h2>
+        <p class="hint">Dakika: erken → geç. Yan taraftaki satırda yazdığınız isim, üstteki takıma aittir. Gol 100 · Kart 200 · Değişiklik 200 puan. Enter ile tahmin.</p>
+        <div id="timeline-list" class="timeline-list"></div>
+        <p id="timeline-empty" class="timeline-empty hidden">Bu maçta tahmin edilecek kayıtlı olay yok.</p>
       </section>
 
       <div class="finish-row">
-        <button type="button" id="btn-finish" class="btn-primary" data-derby-action="finish" onclick="if (window.__derbyFinishGame) { window.__derbyFinishGame(); }">Oyunu bitir</button>
+        <button type="button" id="btn-finish" class="btn-primary">Oyunu bitir</button>
       </div>
     </div>
 
     <div id="panel-result" class="panel result-panel hidden">
       <h2>Oyun bitti</h2>
       <p class="result-big" id="result-points">Toplam: 0 puan</p>
-      <button type="button" class="btn-primary" id="btn-after" data-derby-action="new-game" onclick="if (window.__derbyNewGame) { window.__derbyNewGame(); }">Yeni maç</button>
+      <button type="button" class="btn-primary" id="btn-after">Yeni maç</button>
     </div>
 
     <p class="msg" id="msg-global"></p>
   </div>
-  <script src="{{ url_for('derby_challenge.static', filename='derby.js') }}?v=8"></script>
+  <script src="{{ url_for('derby_challenge.static', filename='derby.js') }}?v=12"></script>
 </body>
 </html>
