@@ -173,6 +173,7 @@ async function refreshSuggest() {
     li.addEventListener("click", () => {
       el("guess").value = it.name;
       sug.classList.add("hidden");
+      submitGuess();
     });
     sug.appendChild(li);
   });
@@ -464,11 +465,9 @@ el("mode-versus").addEventListener("click", () => {
   newGame("versus");
 });
 
-el("btn-go").addEventListener("click", submitGuess);
 el("guess").addEventListener("keydown", (e) => {
   if (e.key === "Enter") {
     e.preventDefault();
-    submitGuess();
   }
 });
 el("guess").addEventListener("input", () => {
