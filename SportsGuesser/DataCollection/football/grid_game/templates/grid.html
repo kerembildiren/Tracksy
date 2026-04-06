@@ -17,8 +17,8 @@
     <div class="mode-modal-card">
       <h2 class="mode-modal-title">Oyun modunu seçin</h2>
       <p class="mode-modal-desc">
-        <strong>Tek oyuncu:</strong> Önce bir kutu seçin. Tahmininizi yalnızca arama kutusunda çıkan listeden bir isme tıklayarak gönderirsiniz; yalnızca yazıp Enter’a basmak tahmin sayılmaz.<br /><br />
-        <strong>İki oyuncu (Tic Tac Toe):</strong> Doğru tahmin kutuya <strong>X</strong> veya <strong>O</strong> koyar; yanlışta sıra karşı oyuncuya geçer. Yatay, dikey veya çapraz üç aynı sembol Tic Tac Toe kurallarına göre kazandırır.
+        <strong>Tek oyuncu:</strong> Önce bir kutu seçin. Tahmininizi yazın, tüm kutucuklara uygun oyuncuları bulmaya çalışın.<br /><br />
+        <strong>İki oyuncu (Tic Tac Toe):</strong> Doğru tahmin kutuya tahmini yapan oyuncunun sembolünü (X veya O) koyar. 3 sembolü birleştirmeyi başaran, oyunu kazanır.
       </p>
       <div class="mode-modal-actions">
         <button type="button" id="mode-solo" class="btn-mode">Tek oyuncu</button>
@@ -37,15 +37,8 @@
         </select>
       </label>
       <div id="turn-banner" class="turn-banner hidden" aria-live="polite"></div>
-      <div class="search-wrap">
-        <input
-          id="guess"
-          type="text"
-          placeholder="Oyuncu ara — tahmin için listeden seçin"
-          autocomplete="off"
-          aria-describedby="guess-hint"
-        />
-        <span id="guess-hint" class="sr-only">Tahmin göndermek için öneri listesinden bir isme tıklayın.</span>
+      <div class="search-wrap" id="search-wrap">
+        <input id="guess" type="text" placeholder="Oyuncu ara" autocomplete="off" />
         <ul id="suggest" class="suggest-list hidden"></ul>
       </div>
       <button type="button" id="btn-new" class="btn-primary">Yeni oyun</button>
