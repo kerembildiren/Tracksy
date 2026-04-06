@@ -325,43 +325,86 @@ async function newGame(playMode) {
   updateTurnBanner();
 }
 
-function gridCelebrate() {
-  const wrap = document.querySelector(".grid-wrap");
-  if (!wrap) return Promise.resolve();
-  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-    return Promise.resolve();
-  }
-  return new Promise((resolve) => {
-    let done = false;
-    const finish = () => {
-      if (done) return;
-      done = true;
-      wrap.classList.remove("grid-celebrate");
-      wrap.removeEventListener("animationend", onEnd);
-      resolve();
-    };
-    const onEnd = (e) => {
-      if (e.target === wrap) finish();
-    };
-    wrap.addEventListener("animationend", onEnd);
-    wrap.classList.add("grid-celebrate");
-    window.setTimeout(finish, 1100);
-  });
+function getSolvedCellHtml(playerName, mark) {
+  let sym = '<span class="jersey-mark jersey-mark-solo jersey-reveal">✓</span>';
+  if (mark === "X") sym = '<span class="jersey-mark jersey-mark-x jersey-reveal">X</span>';
+  if (mark === "O") sym = '<span class="jersey-mark jersey-mark-o jersey-reveal">O</span>';
+  return `<div class="cell-jersey cell-jersey-solved" aria-hidden="true">${sym}</div>
+    <div class="cell-footer cell-footer-solved">
+      <span class="cell-solved-name">${escapeHtml(playerName)}</span>
+    </div>`;
+}
+
+function disableHintNextForCell(r, c) {
+  const nextBtn = document.querySelector(`.hint-pop-next[data-r="${r}"][data-c="${c}"]`);
+  if (nextBtn) nextBtn.disabled = true;
 }
 
 function renderSolvedCell(r, c, playerName, mark) {
   const cell = el(`cell-${r}-${c}`);
   cell.classList.add("solved");
   cell.classList.remove("selected");
-  let sym = '<span class="jersey-check jersey-reveal">✓</span>';
-  if (mark === "X") sym = '<span class="jersey-mark jersey-mark-x jersey-reveal">X</span>';
-  if (mark === "O") sym = '<span class="jersey-mark jersey-mark-o jersey-reveal">O</span>';
-  cell.innerHTML = `<div class="cell-jersey cell-jersey-solved" aria-hidden="true">${sym}</div>
-    <div class="cell-footer cell-footer-solved">
-      <span class="cell-solved-name">${escapeHtml(playerName)}</span>
-    </div>`;
-  const nextBtn = document.querySelector(`.hint-pop-next[data-r="${r}"][data-c="${c}"]`);
-  if (nextBtn) nextBtn.disabled = true;
+  cell.innerHTML = getSolvedCellHtml(playerName, mark);
+  disableHintNextForCell(r, c);
+}
+
+function waitForTransition(elm, msFallback) {
+  return new Promise((resolve) => {
+    let done = false;
+    const fin = () => {
+      if (done) return;
+      done = true;
+      elm.removeEventListener("transitionend", onEnd);
+      resolve();
+    };
+    const onEnd = (e) => {
+      if (e.target !== elm) return;
+      fin();
+    };
+    elm.addEventListener("transitionend", onEnd);
+    window.setTimeout(fin, msFallback);
+  });
+}
+
+async function runCellFlipReveal(r, c, playerName, mark) {
+  const cell = el(`cell-${r}-${c}`);
+  const wrap = cell.parentElement;
+  if (!cell || !wrap || window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    renderSolvedCell(r, c, playerName, mark);
+    return;
+  }
+
+  cell.classList.remove("selected");
+  const savedHtml = cell.innerHTML;
+  const inner = document.createElement("div");
+  inner.className = "cell-flip-inner";
+  inner.innerHTML = savedHtml;
+  cell.innerHTML = "";
+  cell.appendChild(inner);
+  wrap.classList.add("cell-flip-active");
+
+  inner.style.transform = "rotateX(0deg)";
+  inner.offsetHeight;
+  inner.style.transition = "transform 0.34s cubic-bezier(0.45, 0, 0.55, 1)";
+  inner.style.transform = "rotateX(90deg)";
+  await waitForTransition(inner, 420);
+
+  const solvedHtml = getSolvedCellHtml(playerName, mark);
+  inner.style.transition = "none";
+  inner.innerHTML = solvedHtml;
+  inner.style.transform = "rotateX(-90deg)";
+  inner.offsetHeight;
+  await new Promise((res) => requestAnimationFrame(() => requestAnimationFrame(res)));
+  inner.style.transition = "transform 0.36s cubic-bezier(0.34, 1.1, 0.64, 1)";
+  inner.style.transform = "rotateX(0deg)";
+  await waitForTransition(inner, 450);
+
+  cell.classList.add("solved");
+  cell.innerHTML = solvedHtml;
+  inner.style.transition = "";
+  inner.style.transform = "";
+  wrap.classList.remove("cell-flip-active");
+  disableHintNextForCell(r, c);
 }
 
 async function submitGuess() {
@@ -422,12 +465,10 @@ async function submitGuess() {
       }
     }
     updateTurnBanner();
-    await gridCelebrate();
-    renderSolvedCell(r, c, data.player.name, data.mark);
+    await runCellFlipReveal(r, c, data.player.name, data.mark);
   } else {
     el("msg").textContent = `Doğru: ${data.player.name}`;
-    await gridCelebrate();
-    renderSolvedCell(r, c, data.player.name, null);
+    await runCellFlipReveal(r, c, data.player.name, null);
   }
   el("guess").value = "";
   el("suggest").classList.add("hidden");
@@ -494,7 +535,6 @@ el("mode-versus").addEventListener("click", () => {
   newGame("versus");
 });
 
-el("btn-go").addEventListener("click", submitGuess);
 el("guess").addEventListener("keydown", (e) => {
   if (e.key === "Enter") {
     e.preventDefault();
