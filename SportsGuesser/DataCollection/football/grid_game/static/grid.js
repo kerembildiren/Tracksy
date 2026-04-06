@@ -108,6 +108,30 @@ function renderCells(grid) {
       div.dataset.col = String(c);
     }
   }
+
+  document.querySelectorAll(".cell.play").forEach((node) => {
+    node.addEventListener("click", (e) => {
+      if (e.target.closest(".hint-open-btn")) return;
+      if (node.classList.contains("solved")) return;
+      if (state.grid && state.grid.play_mode === "versus" && state.winner != null) return;
+      document.querySelectorAll(".cell.play").forEach((n) => n.classList.remove("selected"));
+      node.classList.add("selected");
+      const r = +node.dataset.row;
+      const c = +node.dataset.col;
+      state.selected = { r, c };
+      el("guess").focus();
+      refreshSuggest();
+    });
+  });
+
+  document.querySelectorAll(".hint-open-btn").forEach((btn) => {
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const r = +btn.dataset.r;
+      const c = +btn.dataset.c;
+      openHintPanel(r, c);
+    });
+  });
 }
 
 let suggestTimer = null;
@@ -131,19 +155,12 @@ async function refreshSuggest() {
     return;
   }
   const { r, c } = state.selected;
-  let data;
-  try {
-    const res = await fetch(apiUrl("/api/suggest"), {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ game_id: state.gameId, row: r, col: c, q }),
-    });
-    data = await res.json();
-  } catch {
-    sug.classList.add("hidden");
-    sug.innerHTML = "";
-    return;
-  }
+  const res = await fetch(apiUrl("/api/suggest"), {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ game_id: state.gameId, row: r, col: c, q }),
+  });
+  const data = await res.json();
   const items = data.suggestions || [];
   sug.innerHTML = "";
   if (!items.length) {
@@ -152,8 +169,11 @@ async function refreshSuggest() {
   }
   items.forEach((it) => {
     const li = document.createElement("li");
-    li.dataset.pickName = it.name;
     li.textContent = it.name;
+    li.addEventListener("click", () => {
+      el("guess").value = it.name;
+      sug.classList.add("hidden");
+    });
     sug.appendChild(li);
   });
   sug.classList.remove("hidden");
@@ -444,9 +464,11 @@ el("mode-versus").addEventListener("click", () => {
   newGame("versus");
 });
 
+el("btn-go").addEventListener("click", submitGuess);
 el("guess").addEventListener("keydown", (e) => {
   if (e.key === "Enter") {
     e.preventDefault();
+    submitGuess();
   }
 });
 el("guess").addEventListener("input", () => {
@@ -489,55 +511,8 @@ document.querySelector(".grid-wrap").addEventListener("click", (e) => {
 
 document.addEventListener("click", (e) => {
   if (e.target.closest(".hint-pop") || e.target.closest(".hint-open-btn")) return;
-  if (e.target.closest(".wrap")) return;
-  hideAllHintPops();
+  if (!e.target.closest(".grid-wrap")) hideAllHintPops();
 });
 
-function initMainWrapDelegation() {
-  const wrap = el("main-wrap");
-  if (!wrap || wrap.dataset.delegationBound === "1") return;
-  wrap.dataset.delegationBound = "1";
-  wrap.addEventListener("click", (e) => {
-    const hintBtn = e.target.closest(".hint-open-btn");
-    if (hintBtn) {
-      e.preventDefault();
-      e.stopPropagation();
-      openHintPanel(+hintBtn.dataset.r, +hintBtn.dataset.c);
-      return;
-    }
-    const cell = e.target.closest(".cell.play");
-    if (!cell) return;
-    if (cell.classList.contains("solved")) return;
-    if (state.grid && state.grid.play_mode === "versus" && state.winner != null) return;
-    document.querySelectorAll(".cell.play").forEach((n) => n.classList.remove("selected"));
-    cell.classList.add("selected");
-    state.selected = { r: +cell.dataset.row, c: +cell.dataset.col };
-    el("guess").focus();
-    refreshSuggest();
-  });
-}
-
-function initSearchWrapDelegation() {
-  const sw = el("search-wrap");
-  if (!sw || sw.dataset.delegationBound === "1") return;
-  sw.dataset.delegationBound = "1";
-  sw.addEventListener("mousedown", (e) => {
-    const li = e.target.closest("#suggest li");
-    if (li) e.preventDefault();
-  });
-  sw.addEventListener("click", (e) => {
-    const li = e.target.closest("#suggest li");
-    if (!li) return;
-    e.preventDefault();
-    e.stopPropagation();
-    const name = (li.dataset.pickName || li.textContent || "").trim();
-    el("guess").value = name;
-    el("suggest").classList.add("hidden");
-    submitGuess();
-  });
-}
-
 initHintCarouselTouch();
-initMainWrapDelegation();
-initSearchWrapDelegation();
 showModeModal();
