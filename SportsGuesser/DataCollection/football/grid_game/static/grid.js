@@ -535,6 +535,7 @@ el("mode-versus").addEventListener("click", () => {
   newGame("versus");
 });
 
+el("btn-go").addEventListener("click", submitGuess);
 el("guess").addEventListener("keydown", (e) => {
   if (e.key === "Enter") {
     e.preventDefault();
