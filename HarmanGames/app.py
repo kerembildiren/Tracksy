@@ -74,6 +74,31 @@ def _register_derby_challenge_blueprint():
 
 _register_derby_challenge_blueprint()
 
+
+def _register_player_guess_blueprint():
+    """Süper Lig daily player guess at /sportsguesser/football/guess/."""
+    pg_path = os.path.join(
+        PROJECTS_ROOT,
+        'SportsGuesser',
+        'DataCollection',
+        'football',
+        'player_guess',
+        'app.py',
+    )
+    if not os.path.isfile(pg_path):
+        return
+    spec = importlib.util.spec_from_file_location('sportsguesser_player_guess', pg_path)
+    if spec is None or spec.loader is None:
+        return
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    bp = getattr(mod, 'player_guess_bp', None)
+    if bp is not None:
+        app.register_blueprint(bp, url_prefix='/sportsguesser/football/guess')
+
+
+_register_player_guess_blueprint()
+
 # Trackzy (sub-content): artist data lives in Trackzy project
 TRACKZY_ARTISTS = os.path.join(PROJECTS_ROOT, 'Trackzy', 'DataCollection', 'output', 'artists_raw.json')
 TRACKZY_ARTISTS_LOCAL = os.path.join(HARMAN_ROOT, 'data', 'artists_raw.json')
@@ -479,5 +504,6 @@ if __name__ == '__main__':
     print(f"SportsGuesser: http://localhost:{port}/sportsguesser/")
     print(f"Football grid: http://localhost:{port}/sportsguesser/football/")
     print(f"Derbi Challenge: http://localhost:{port}/sportsguesser/football/derby/")
+    print(f"Süper Lig Guess: http://localhost:{port}/sportsguesser/football/guess/")
     print(f"{'='*50}\n")
     app.run(host='0.0.0.0', port=port, debug=debug)

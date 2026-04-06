@@ -20,7 +20,7 @@ GRID_ROOT = os.path.join(ROOT, "..", "grid_game")
 if GRID_ROOT not in sys.path:
     sys.path.insert(0, GRID_ROOT)
 
-from search_util import matches_name_query, best_match_score
+from search_util import format_suggestion_list, matches_name_query, best_match_score
 from player_index import load_or_build_index, PlayerRecord
 
 from data import load_derby_bundle, public_challenge_payload
@@ -388,7 +388,11 @@ def suggest():
         sc = best_match_score(name, q)
         rows.append((-sc, name.lower(), name, pid))
     rows.sort(key=lambda x: (x[0], x[2]))
-    out = [{"id": p, "name": n} for _, _, n, p in rows[:14]]
+    out = format_suggestion_list(
+        rows,
+        limit=14,
+        nationality_for=lambda pid: players[pid].primary_nationality(),
+    )
     return jsonify({"suggestions": out})
 
 

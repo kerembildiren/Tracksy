@@ -1,38 +1,69 @@
 # SportsGuesser – Data collection
 
-Scripts and output for building the basketball (and later football) game database.  
-**The game uses data from `output/allplayers.json` only.**
+Scripts and output for building game data. **Basketball and football are kept strictly separate.**
 
 ## Layout
 
-- **scripts/** – Python scrapers (e.g. Land of Basketball 30+ / 40+ point games)
-- **output/allplayers.json** – single JSON file updated by scripts; id, 30plus_games, 40plus_games (career totals)
+```
+DataCollection/
+├── basketball/
+│   ├── scripts/          # fetch_30plus_games.py, fetch_triple_doubles.py
+│   └── output/           # allplayers.json, basketball_30plus_2026.json
+├── football/
+│   ├── scripts/          # fetch_super_lig_standings.py, team_excels_to_json.py
+│   ├── output/           # super_lig/ (seasons, all_teams.json, etc.)
+│   └── TeamExcels/       # Your uploaded team (and later player) Excel files
+├── requirements.txt
+└── README.md
+```
 
-## 30+ and 40+ point games (basketball)
+The web app loads basketball data from `basketball/output/allplayers.json`.
 
-Fetches seasons 2026 down to 1980 from Land of Basketball, merges by player name, saves after each year. Output is sorted by 30plus_games (highest first).
+---
+
+## Basketball
+
+### 30+ and 40+ point games
+
+Fetches seasons 2026 down to 1980 from Land of Basketball, merges by player name, saves after each year.
 
 ```bash
 cd DataCollection
 pip install -r requirements.txt
 playwright install chromium
-python scripts/fetch_30plus_games.py
+python basketball/scripts/fetch_30plus_games.py
 ```
 
-To add only 2019–1980 (e.g. you already have 2026–2020):
+Optional: `--start-year`, `--end-year`. Output: `basketball/output/allplayers.json`.
+
+### Triple-doubles
+
+Fetches triple-doubles by season and merges into `allplayers.json`.
 
 ```bash
-python scripts/fetch_30plus_games.py --start-year 2019 --end-year 1980
+python basketball/scripts/fetch_triple_doubles.py
 ```
 
-Output: `output/allplayers.json`. Progress is printed and the file is saved after each year.
+---
 
-### Triple-doubles (basketball)
+## Football (Super Lig)
 
-Fetches triple-doubles by season (same year range: 2026 down to 1980), merges into `allplayers.json` (adds/updates `triple_doubles` per player). Prints fetched data to console each year.
+### Standings (FBRef)
+
+Fetches Turkish Super Lig standings (2001-2002 through 2024-2025). Saves per-season JSON and `all_teams.json` under `football/output/super_lig/`.
 
 ```bash
-python scripts/fetch_triple_doubles.py
+python football/scripts/fetch_super_lig_standings.py
 ```
 
-Optional: `--start-year`, `--end-year`. Existing `30plus_games` and `40plus_games` are preserved.
+Options: `--start`, `--end`, `--debug`, `--headed`, `--use-chrome` (use your Chrome profile if logged in to FBRef).
+
+### Team Excels → JSON
+
+Converts Excel files in `football/TeamExcels/` to JSON (for team data; player Excels later).
+
+```bash
+python football/scripts/team_excels_to_json.py
+```
+
+Output: `football/TeamExcels/json/` (when conversion is enabled).

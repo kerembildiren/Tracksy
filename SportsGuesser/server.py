@@ -9,7 +9,7 @@ from http.server import HTTPServer, SimpleHTTPRequestHandler
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 WEB_DIR = os.path.join(ROOT, "web")
-ALLPLAYERS_PATH = os.path.join(ROOT, "DataCollection", "output", "allplayers.json")
+ALLPLAYERS_PATH = os.path.join(ROOT, "DataCollection", "basketball", "output", "allplayers.json")
 
 
 class Handler(SimpleHTTPRequestHandler):

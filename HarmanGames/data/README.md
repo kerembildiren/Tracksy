@@ -5,6 +5,8 @@
 
 ## Updating artist data (artists_raw.json)
 
+**When the user says: "I made changes in the JSON file"** → Run the procedure below: copy source to this folder, then push both files. No need to re-derive; this is the standard flow.
+
 **Important:** The live site (e.g. harmangaming.com/trackzy) loads `artists_raw.json` from **this folder** (`HarmanGames/data/`). It does **not** read from `Trackzy/DataCollection/output/` on the server. So after you edit the source file, you must **copy it here and push both** for the live app to see the change.
 
 ### Standard procedure (e.g. monthly updates)

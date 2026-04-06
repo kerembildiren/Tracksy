@@ -132,7 +132,10 @@ function mergeEvents(ch) {
 }
 
 function renderMatchBanner(ch) {
-  el("match-banner").innerHTML = `<div class="banner-season-line">${escapeHtml(ch.season_label)} · ${ch.round}. hafta</div>`;
+  const roundLine = ch.round_label
+    ? escapeHtml(ch.round_label)
+    : `${Number(ch.round) || 0}. hafta`;
+  el("match-banner").innerHTML = `<div class="banner-season-line">${escapeHtml(ch.season_label)} · ${roundLine}</div>`;
   el("name-home-display").textContent = ch.home_team || "";
   el("name-away-display").textContent = ch.away_team || "";
 }

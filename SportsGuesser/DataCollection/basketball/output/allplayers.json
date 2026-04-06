@@ -1,0 +1,5792 @@
+[
+  {
+    "id": "LeBron James",
+    "30plus_games": 575,
+    "40plus_games": 79
+  },
+  {
+    "id": "Michael Jordan",
+    "30plus_games": 562,
+    "40plus_games": 173
+  },
+  {
+    "id": "Karl Malone",
+    "30plus_games": 435,
+    "40plus_games": 44
+  },
+  {
+    "id": "Kevin Durant",
+    "30plus_games": 433,
+    "40plus_games": 73
+  },
+  {
+    "id": "Kobe Bryant",
+    "30plus_games": 431,
+    "40plus_games": 122
+  },
+  {
+    "id": "Dominique Wilkins",
+    "30plus_games": 346,
+    "40plus_games": 56
+  },
+  {
+    "id": "Allen Iverson",
+    "30plus_games": 345,
+    "40plus_games": 79
+  },
+  {
+    "id": "James Harden",
+    "30plus_games": 342,
+    "40plus_games": 107
+  },
+  {
+    "id": "Stephen Curry",
+    "30plus_games": 325,
+    "40plus_games": 75
+  },
+  {
+    "id": "Shaquille O'Neal",
+    "30plus_games": 313,
+    "40plus_games": 49
+  },
+  {
+    "id": "Giannis Antetokounmpo",
+    "30plus_games": 308,
+    "40plus_games": 56
+  },
+  {
+    "id": "Adrian Dantley",
+    "30plus_games": 279,
+    "40plus_games": 51
+  },
+  {
+    "id": "Alex English",
+    "30plus_games": 274,
+    "40plus_games": 33
+  },
+  {
+    "id": "Carmelo Anthony",
+    "30plus_games": 272,
+    "40plus_games": 36
+  },
+  {
+    "id": "Damian Lillard",
+    "30plus_games": 265,
+    "40plus_games": 60
+  },
+  {
+    "id": "Dirk Nowitzki",
+    "30plus_games": 245,
+    "40plus_games": 20
+  },
+  {
+    "id": "Luka Doncic",
+    "30plus_games": 240,
+    "40plus_games": 56
+  },
+  {
+    "id": "Anthony Davis",
+    "30plus_games": 228,
+    "40plus_games": 45
+  },
+  {
+    "id": "Russell Westbrook",
+    "30plus_games": 228,
+    "40plus_games": 50
+  },
+  {
+    "id": "Hakeem Olajuwon",
+    "30plus_games": 227,
+    "40plus_games": 32
+  },
+  {
+    "id": "Devin Booker",
+    "30plus_games": 226,
+    "40plus_games": 37
+  },
+  {
+    "id": "Larry Bird",
+    "30plus_games": 223,
+    "40plus_games": 47
+  },
+  {
+    "id": "Charles Barkley",
+    "30plus_games": 221,
+    "40plus_games": 21
+  },
+  {
+    "id": "Dwyane Wade",
+    "30plus_games": 220,
+    "40plus_games": 34
+  },
+  {
+    "id": "Shai Gilgeous-Alexander",
+    "30plus_games": 214,
+    "40plus_games": 31
+  },
+  {
+    "id": "DeMar DeRozan",
+    "30plus_games": 213,
+    "40plus_games": 26
+  },
+  {
+    "id": "George Gervin",
+    "30plus_games": 211,
+    "40plus_games": 57
+  },
+  {
+    "id": "Joel Embiid",
+    "30plus_games": 206,
+    "40plus_games": 49
+  },
+  {
+    "id": "Tracy McGrady",
+    "30plus_games": 206,
+    "40plus_games": 45
+  },
+  {
+    "id": "Patrick Ewing",
+    "30plus_games": 203,
+    "40plus_games": 30
+  },
+  {
+    "id": "Moses Malone",
+    "30plus_games": 199,
+    "40plus_games": 25
+  },
+  {
+    "id": "Paul Pierce",
+    "30plus_games": 198,
+    "40plus_games": 21
+  },
+  {
+    "id": "Donovan Mitchell",
+    "30plus_games": 187,
+    "40plus_games": 33
+  },
+  {
+    "id": "David Robinson",
+    "30plus_games": 186,
+    "40plus_games": 22
+  },
+  {
+    "id": "Vince Carter",
+    "30plus_games": 185,
+    "40plus_games": 32
+  },
+  {
+    "id": "Kyrie Irving",
+    "30plus_games": 176,
+    "40plus_games": 37
+  },
+  {
+    "id": "Nikola Jokic",
+    "30plus_games": 174,
+    "40plus_games": 34
+  },
+  {
+    "id": "Bernard King",
+    "30plus_games": 171,
+    "40plus_games": 40
+  },
+  {
+    "id": "Trae Young",
+    "30plus_games": 166,
+    "40plus_games": 34
+  },
+  {
+    "id": "Mark Aguirre",
+    "30plus_games": 163,
+    "40plus_games": 22
+  },
+  {
+    "id": "Jayson Tatum",
+    "30plus_games": 162,
+    "40plus_games": 29
+  },
+  {
+    "id": "Paul George",
+    "30plus_games": 155,
+    "40plus_games": 22
+  },
+  {
+    "id": "Clyde Drexler",
+    "30plus_games": 148,
+    "40plus_games": 21
+  },
+  {
+    "id": "Bradley Beal",
+    "30plus_games": 147,
+    "40plus_games": 31
+  },
+  {
+    "id": "Kiki Vandeweghe",
+    "30plus_games": 146,
+    "40plus_games": 15
+  },
+  {
+    "id": "Mitch Richmond",
+    "30plus_games": 146,
+    "40plus_games": 9
+  },
+  {
+    "id": "Kawhi Leonard",
+    "30plus_games": 135,
+    "40plus_games": 12
+  },
+  {
+    "id": "World B. Free",
+    "30plus_games": 131,
+    "40plus_games": 11
+  },
+  {
+    "id": "Ray Allen",
+    "30plus_games": 130,
+    "40plus_games": 13
+  },
+  {
+    "id": "Tom Chambers",
+    "30plus_games": 130,
+    "40plus_games": 12
+  },
+  {
+    "id": "Karl-Anthony Towns",
+    "30plus_games": 129,
+    "40plus_games": 19
+  },
+  {
+    "id": "Zach LaVine",
+    "30plus_games": 129,
+    "40plus_games": 24
+  },
+  {
+    "id": "Gilbert Arenas",
+    "30plus_games": 128,
+    "40plus_games": 29
+  },
+  {
+    "id": "Glen Rice",
+    "30plus_games": 124,
+    "40plus_games": 16
+  },
+  {
+    "id": "Anthony Edwards",
+    "30plus_games": 122,
+    "40plus_games": 28
+  },
+  {
+    "id": "Tim Duncan",
+    "30plus_games": 122,
+    "40plus_games": 5
+  },
+  {
+    "id": "Stephon Marbury",
+    "30plus_games": 117,
+    "40plus_games": 16
+  },
+  {
+    "id": "Chris Mullin",
+    "30plus_games": 115,
+    "40plus_games": 7
+  },
+  {
+    "id": "Reggie Miller",
+    "30plus_games": 114,
+    "40plus_games": 9
+  },
+  {
+    "id": "Mike Mitchell",
+    "30plus_games": 113,
+    "40plus_games": 14
+  },
+  {
+    "id": "Dale Ellis",
+    "30plus_games": 111,
+    "40plus_games": 14
+  },
+  {
+    "id": "Jaylen Brown",
+    "30plus_games": 111,
+    "40plus_games": 16
+  },
+  {
+    "id": "Amar'e Stoudemire",
+    "30plus_games": 109,
+    "40plus_games": 18
+  },
+  {
+    "id": "Eddie Johnson",
+    "30plus_games": 107,
+    "40plus_games": 5
+  },
+  {
+    "id": "Purvis Short",
+    "30plus_games": 106,
+    "40plus_games": 18
+  },
+  {
+    "id": "De'Aaron Fox",
+    "30plus_games": 105,
+    "40plus_games": 16
+  },
+  {
+    "id": "Kareem Abdul-Jabbar",
+    "30plus_games": 105,
+    "40plus_games": 8
+  },
+  {
+    "id": "Antawn Jamison",
+    "30plus_games": 104,
+    "40plus_games": 8
+  },
+  {
+    "id": "C.J. McCollum",
+    "30plus_games": 102,
+    "40plus_games": 16
+  },
+  {
+    "id": "Kemba Walker",
+    "30plus_games": 101,
+    "40plus_games": 19
+  },
+  {
+    "id": "Jalen Brunson",
+    "30plus_games": 100,
+    "40plus_games": 22
+  },
+  {
+    "id": "Monta Ellis",
+    "30plus_games": 99,
+    "40plus_games": 9
+  },
+  {
+    "id": "Isiah Thomas",
+    "30plus_games": 98,
+    "40plus_games": 10
+  },
+  {
+    "id": "DeMarcus Cousins",
+    "30plus_games": 97,
+    "40plus_games": 13
+  },
+  {
+    "id": "Jerry Stackhouse",
+    "30plus_games": 96,
+    "40plus_games": 10
+  },
+  {
+    "id": "Jeff Malone",
+    "30plus_games": 95,
+    "40plus_games": 9
+  },
+  {
+    "id": "Julius Erving",
+    "30plus_games": 95,
+    "40plus_games": 7
+  },
+  {
+    "id": "Julius Randle",
+    "30plus_games": 95,
+    "40plus_games": 12
+  },
+  {
+    "id": "LaMarcus Aldridge",
+    "30plus_games": 94,
+    "40plus_games": 8
+  },
+  {
+    "id": "Chris Webber",
+    "30plus_games": 93,
+    "40plus_games": 5
+  },
+  {
+    "id": "Magic Johnson",
+    "30plus_games": 93,
+    "40plus_games": 6
+  },
+  {
+    "id": "Joe Johnson",
+    "30plus_games": 91,
+    "40plus_games": 6
+  },
+  {
+    "id": "Jimmy Butler",
+    "30plus_games": 90,
+    "40plus_games": 8
+  },
+  {
+    "id": "Blake Griffin",
+    "30plus_games": 87,
+    "40plus_games": 11
+  },
+  {
+    "id": "Terry Cummings",
+    "30plus_games": 86,
+    "40plus_games": 2
+  },
+  {
+    "id": "Glenn Robinson",
+    "30plus_games": 85,
+    "40plus_games": 5
+  },
+  {
+    "id": "Tyrese Maxey",
+    "30plus_games": 85,
+    "40plus_games": 14
+  },
+  {
+    "id": "Kevin Garnett",
+    "30plus_games": 84,
+    "40plus_games": 4
+  },
+  {
+    "id": "Kevin Martin",
+    "30plus_games": 83,
+    "40plus_games": 8
+  },
+  {
+    "id": "Chris Bosh",
+    "30plus_games": 82,
+    "40plus_games": 10
+  },
+  {
+    "id": "Pascal Siakam",
+    "30plus_games": 81,
+    "40plus_games": 5
+  },
+  {
+    "id": "Latrell Sprewell",
+    "30plus_games": 80,
+    "40plus_games": 12
+  },
+  {
+    "id": "Rolando Blackman",
+    "30plus_games": 80,
+    "40plus_games": 4
+  },
+  {
+    "id": "Klay Thompson",
+    "30plus_games": 78,
+    "40plus_games": 18
+  },
+  {
+    "id": "Chris Paul",
+    "30plus_games": 77,
+    "40plus_games": 8
+  },
+  {
+    "id": "Kelly Tripucka",
+    "30plus_games": 77,
+    "40plus_games": 10
+  },
+  {
+    "id": "Gary Payton",
+    "30plus_games": 76,
+    "40plus_games": 6
+  },
+  {
+    "id": "Michael Redd",
+    "30plus_games": 75,
+    "40plus_games": 11
+  },
+  {
+    "id": "Brandon Ingram",
+    "30plus_games": 73,
+    "40plus_games": 7
+  },
+  {
+    "id": "Jamal Murray",
+    "30plus_games": 73,
+    "40plus_games": 10
+  },
+  {
+    "id": "Kevin Love",
+    "30plus_games": 72,
+    "40plus_games": 11
+  },
+  {
+    "id": "Grant Hill",
+    "30plus_games": 71,
+    "40plus_games": 5
+  },
+  {
+    "id": "Michael Finley",
+    "30plus_games": 71,
+    "40plus_games": 1
+  },
+  {
+    "id": "Kevin Johnson",
+    "30plus_games": 70,
+    "40plus_games": 5
+  },
+  {
+    "id": "Reggie Theus",
+    "30plus_games": 70,
+    "40plus_games": 5
+  },
+  {
+    "id": "Dwight Howard",
+    "30plus_games": 69,
+    "40plus_games": 4
+  },
+  {
+    "id": "Ja Morant",
+    "30plus_games": 67,
+    "40plus_games": 10
+  },
+  {
+    "id": "Walter Davis",
+    "30plus_games": 66,
+    "40plus_games": 7
+  },
+  {
+    "id": "Antoine Walker",
+    "30plus_games": 65,
+    "40plus_games": 4
+  },
+  {
+    "id": "Jason Richardson",
+    "30plus_games": 65,
+    "40plus_games": 7
+  },
+  {
+    "id": "Joe Barry Carroll",
+    "30plus_games": 65,
+    "40plus_games": 4
+  },
+  {
+    "id": "Kevin McHale",
+    "30plus_games": 65,
+    "40plus_games": 2
+  },
+  {
+    "id": "Allan Houston",
+    "30plus_games": 63,
+    "40plus_games": 4
+  },
+  {
+    "id": "Dan Issel",
+    "30plus_games": 63,
+    "40plus_games": 1
+  },
+  {
+    "id": "Joe Dumars",
+    "30plus_games": 63,
+    "40plus_games": 14
+  },
+  {
+    "id": "Elton Brand",
+    "30plus_games": 62,
+    "40plus_games": 2
+  },
+  {
+    "id": "Orlando Woolridge",
+    "30plus_games": 62,
+    "40plus_games": 2
+  },
+  {
+    "id": "Tim Hardaway",
+    "30plus_games": 62,
+    "40plus_games": 5
+  },
+  {
+    "id": "Xavier McDaniel",
+    "30plus_games": 62,
+    "40plus_games": 3
+  },
+  {
+    "id": "Danny Granger",
+    "30plus_games": 60,
+    "40plus_games": 4
+  },
+  {
+    "id": "Darrell Griffith",
+    "30plus_games": 60,
+    "40plus_games": 4
+  },
+  {
+    "id": "Jamal Crawford",
+    "30plus_games": 58,
+    "40plus_games": 9
+  },
+  {
+    "id": "Lauri Markkanen",
+    "30plus_games": 58,
+    "40plus_games": 6
+  },
+  {
+    "id": "Tony Parker",
+    "30plus_games": 58,
+    "40plus_games": 3
+  },
+  {
+    "id": "Zion Williamson",
+    "30plus_games": 58,
+    "40plus_games": 2
+  },
+  {
+    "id": "Al Jefferson",
+    "30plus_games": 56,
+    "40plus_games": 4
+  },
+  {
+    "id": "Cade Cunningham",
+    "30plus_games": 56,
+    "40plus_games": 7
+  },
+  {
+    "id": "Derrick Rose",
+    "30plus_games": 56,
+    "40plus_games": 3
+  },
+  {
+    "id": "Kristaps Porzingis",
+    "30plus_games": 56,
+    "40plus_games": 3
+  },
+  {
+    "id": "Alonzo Mourning",
+    "30plus_games": 55,
+    "40plus_games": 4
+  },
+  {
+    "id": "Clifford Robinson",
+    "30plus_games": 54,
+    "40plus_games": 4
+  },
+  {
+    "id": "Shareef Abdur-Rahim",
+    "30plus_games": 54,
+    "40plus_games": 2
+  },
+  {
+    "id": "Jamal Mashburn",
+    "30plus_games": 53,
+    "40plus_games": 5
+  },
+  {
+    "id": "Andrew Wiggins",
+    "30plus_games": 52,
+    "40plus_games": 10
+  },
+  {
+    "id": "James Worthy",
+    "30plus_games": 52,
+    "40plus_games": 0
+  },
+  {
+    "id": "Richard Hamilton",
+    "30plus_games": 52,
+    "40plus_games": 5
+  },
+  {
+    "id": "Deron Williams",
+    "30plus_games": 51,
+    "40plus_games": 4
+  },
+  {
+    "id": "Gus Williams",
+    "30plus_games": 51,
+    "40plus_games": 4
+  },
+  {
+    "id": "Jalen Green",
+    "30plus_games": 51,
+    "40plus_games": 9
+  },
+  {
+    "id": "John Wall",
+    "30plus_games": 51,
+    "40plus_games": 5
+  },
+  {
+    "id": "Steve Francis",
+    "30plus_games": 51,
+    "40plus_games": 1
+  },
+  {
+    "id": "Zach Randolph",
+    "30plus_games": 51,
+    "40plus_games": 3
+  },
+  {
+    "id": "Ben Gordon",
+    "30plus_games": 50,
+    "40plus_games": 5
+  },
+  {
+    "id": "Isaiah Thomas",
+    "30plus_games": 50,
+    "40plus_games": 5
+  },
+  {
+    "id": "Peja Stojakovic",
+    "30plus_games": 50,
+    "40plus_games": 2
+  },
+  {
+    "id": "Jalen Rose",
+    "30plus_games": 49,
+    "40plus_games": 3
+  },
+  {
+    "id": "Marques Johnson",
+    "30plus_games": 49,
+    "40plus_games": 1
+  },
+  {
+    "id": "Scottie Pippen",
+    "30plus_games": 49,
+    "40plus_games": 5
+  },
+  {
+    "id": "Yao Ming",
+    "30plus_games": 49,
+    "40plus_games": 2
+  },
+  {
+    "id": "David West",
+    "30plus_games": 48,
+    "40plus_games": 5
+  },
+  {
+    "id": "Rudy Gay",
+    "30plus_games": 48,
+    "40plus_games": 3
+  },
+  {
+    "id": "Stephen Jackson",
+    "30plus_games": 48,
+    "40plus_games": 3
+  },
+  {
+    "id": "D'Angelo Russell",
+    "30plus_games": 47,
+    "40plus_games": 6
+  },
+  {
+    "id": "Otis Birdsong",
+    "30plus_games": 47,
+    "40plus_games": 3
+  },
+  {
+    "id": "Pau Gasol",
+    "30plus_games": 47,
+    "40plus_games": 3
+  },
+  {
+    "id": "Chuck Person",
+    "30plus_games": 46,
+    "40plus_games": 6
+  },
+  {
+    "id": "Brook Lopez",
+    "30plus_games": 45,
+    "40plus_games": 0
+  },
+  {
+    "id": "Lou Williams",
+    "30plus_games": 45,
+    "40plus_games": 8
+  },
+  {
+    "id": "Baron Davis",
+    "30plus_games": 44,
+    "40plus_games": 2
+  },
+  {
+    "id": "LaMelo Ball",
+    "30plus_games": 44,
+    "40plus_games": 2
+  },
+  {
+    "id": "Paolo Banchero",
+    "30plus_games": 44,
+    "40plus_games": 6
+  },
+  {
+    "id": "Robert Parish",
+    "30plus_games": 44,
+    "40plus_games": 1
+  },
+  {
+    "id": "Corey Maggette",
+    "30plus_games": 43,
+    "40plus_games": 0
+  },
+  {
+    "id": "Hersey Hawkins",
+    "30plus_games": 43,
+    "40plus_games": 3
+  },
+  {
+    "id": "Jordan Poole",
+    "30plus_games": 43,
+    "40plus_games": 5
+  },
+  {
+    "id": "Jrue Holiday",
+    "30plus_games": 43,
+    "40plus_games": 3
+  },
+  {
+    "id": "Kyle Lowry",
+    "30plus_games": 43,
+    "40plus_games": 4
+  },
+  {
+    "id": "Ron Harper",
+    "30plus_games": 43,
+    "40plus_games": 1
+  },
+  {
+    "id": "Carlos Boozer",
+    "30plus_games": 42,
+    "40plus_games": 2
+  },
+  {
+    "id": "Chauncey Billups",
+    "30plus_games": 42,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jermaine O'Neal",
+    "30plus_games": 42,
+    "40plus_games": 1
+  },
+  {
+    "id": "Kyle Kuzma",
+    "30plus_games": 42,
+    "40plus_games": 2
+  },
+  {
+    "id": "Larry Nance",
+    "30plus_games": 42,
+    "40plus_games": 4
+  },
+  {
+    "id": "Michael Adams",
+    "30plus_games": 42,
+    "40plus_games": 7
+  },
+  {
+    "id": "Sam Cassell",
+    "30plus_games": 42,
+    "40plus_games": 1
+  },
+  {
+    "id": "Jason Terry",
+    "30plus_games": 41,
+    "40plus_games": 2
+  },
+  {
+    "id": "Jim Jackson",
+    "30plus_games": 41,
+    "40plus_games": 3
+  },
+  {
+    "id": "John Drew",
+    "30plus_games": 41,
+    "40plus_games": 4
+  },
+  {
+    "id": "Nick Van Exel",
+    "30plus_games": 41,
+    "40plus_games": 5
+  },
+  {
+    "id": "Nikola Vucevic",
+    "30plus_games": 41,
+    "40plus_games": 5
+  },
+  {
+    "id": "Penny Hardaway",
+    "30plus_games": 41,
+    "40plus_games": 1
+  },
+  {
+    "id": "Sidney Moncrief",
+    "30plus_games": 41,
+    "40plus_games": 2
+  },
+  {
+    "id": "Tyler Herro",
+    "30plus_games": 41,
+    "40plus_games": 4
+  },
+  {
+    "id": "Anfernee Simons",
+    "30plus_games": 40,
+    "40plus_games": 4
+  },
+  {
+    "id": "Calvin Natt",
+    "30plus_games": 40,
+    "40plus_games": 0
+  },
+  {
+    "id": "Cedric Ceballos",
+    "30plus_games": 40,
+    "40plus_games": 5
+  },
+  {
+    "id": "Desmond Bane",
+    "30plus_games": 40,
+    "40plus_games": 2
+  },
+  {
+    "id": "Isaiah Rider",
+    "30plus_games": 40,
+    "40plus_games": 3
+  },
+  {
+    "id": "Gordon Hayward",
+    "30plus_games": 39,
+    "40plus_games": 2
+  },
+  {
+    "id": "Ray Williams",
+    "30plus_games": 39,
+    "40plus_games": 2
+  },
+  {
+    "id": "Ricky Pierce",
+    "30plus_games": 39,
+    "40plus_games": 1
+  },
+  {
+    "id": "Shawn Marion",
+    "30plus_games": 39,
+    "40plus_games": 1
+  },
+  {
+    "id": "Steve Nash",
+    "30plus_games": 39,
+    "40plus_games": 2
+  },
+  {
+    "id": "David Thompson",
+    "30plus_games": 38,
+    "40plus_games": 5
+  },
+  {
+    "id": "Derrick Coleman",
+    "30plus_games": 38,
+    "40plus_games": 1
+  },
+  {
+    "id": "Jaren Jackson Jr.",
+    "30plus_games": 38,
+    "40plus_games": 6
+  },
+  {
+    "id": "Jason Kidd",
+    "30plus_games": 38,
+    "40plus_games": 2
+  },
+  {
+    "id": "Nick Anderson",
+    "30plus_games": 38,
+    "40plus_games": 3
+  },
+  {
+    "id": "Ralph Sampson",
+    "30plus_games": 38,
+    "40plus_games": 4
+  },
+  {
+    "id": "Khris Middleton",
+    "30plus_games": 37,
+    "40plus_games": 5
+  },
+  {
+    "id": "Bojan Bogdanovic",
+    "30plus_games": 36,
+    "40plus_games": 2
+  },
+  {
+    "id": "Fred VanVleet",
+    "30plus_games": 36,
+    "40plus_games": 2
+  },
+  {
+    "id": "Reggie Lewis",
+    "30plus_games": 36,
+    "40plus_games": 1
+  },
+  {
+    "id": "Terry Rozier",
+    "30plus_games": 36,
+    "40plus_games": 5
+  },
+  {
+    "id": "Tobias Harris",
+    "30plus_games": 36,
+    "40plus_games": 0
+  },
+  {
+    "id": "Mike Bibby",
+    "30plus_games": 35,
+    "40plus_games": 5
+  },
+  {
+    "id": "Cuttino Mobley",
+    "30plus_games": 34,
+    "40plus_games": 3
+  },
+  {
+    "id": "Danny Manning",
+    "30plus_games": 34,
+    "40plus_games": 1
+  },
+  {
+    "id": "Jerami Grant",
+    "30plus_games": 34,
+    "40plus_games": 4
+  },
+  {
+    "id": "John Long",
+    "30plus_games": 34,
+    "40plus_games": 5
+  },
+  {
+    "id": "Rashard Lewis",
+    "30plus_games": 34,
+    "40plus_games": 3
+  },
+  {
+    "id": "Richard Jefferson",
+    "30plus_games": 34,
+    "40plus_games": 2
+  },
+  {
+    "id": "Victor Wembanyama",
+    "30plus_games": 34,
+    "40plus_games": 6
+  },
+  {
+    "id": "Brandon Jennings",
+    "30plus_games": 33,
+    "40plus_games": 1
+  },
+  {
+    "id": "Cliff Robinson",
+    "30plus_games": 33,
+    "40plus_games": 2
+  },
+  {
+    "id": "Antonio McDyess",
+    "30plus_games": 32,
+    "40plus_games": 3
+  },
+  {
+    "id": "Brad Daugherty",
+    "30plus_games": 32,
+    "40plus_games": 1
+  },
+  {
+    "id": "Caron Butler",
+    "30plus_games": 32,
+    "40plus_games": 1
+  },
+  {
+    "id": "Eric Gordon",
+    "30plus_games": 32,
+    "40plus_games": 2
+  },
+  {
+    "id": "Jay Vincent",
+    "30plus_games": 32,
+    "40plus_games": 3
+  },
+  {
+    "id": "Kevin Willis",
+    "30plus_games": 32,
+    "40plus_games": 0
+  },
+  {
+    "id": "Manu Ginobili",
+    "30plus_games": 32,
+    "40plus_games": 6
+  },
+  {
+    "id": "Michael Porter Jr.",
+    "30plus_games": 32,
+    "40plus_games": 0
+  },
+  {
+    "id": "Mike Newlin",
+    "30plus_games": 32,
+    "40plus_games": 4
+  },
+  {
+    "id": "Norman Powell",
+    "30plus_games": 32,
+    "40plus_games": 2
+  },
+  {
+    "id": "Otis Thorpe",
+    "30plus_games": 32,
+    "40plus_games": 1
+  },
+  {
+    "id": "Byron Scott",
+    "30plus_games": 31,
+    "40plus_games": 0
+  },
+  {
+    "id": "Cam Thomas",
+    "30plus_games": 31,
+    "40plus_games": 10
+  },
+  {
+    "id": "Jack Sikma",
+    "30plus_games": 31,
+    "40plus_games": 0
+  },
+  {
+    "id": "RJ Barrett",
+    "30plus_games": 31,
+    "40plus_games": 2
+  },
+  {
+    "id": "Ricky Davis",
+    "30plus_games": 31,
+    "40plus_games": 4
+  },
+  {
+    "id": "Tim Hardaway Jr.",
+    "30plus_games": 31,
+    "40plus_games": 2
+  },
+  {
+    "id": "Wayman Tisdale",
+    "30plus_games": 31,
+    "40plus_games": 3
+  },
+  {
+    "id": "Alvin Robertson",
+    "30plus_games": 30,
+    "40plus_games": 2
+  },
+  {
+    "id": "Bam Adebayo",
+    "30plus_games": 30,
+    "40plus_games": 1
+  },
+  {
+    "id": "Miles Bridges",
+    "30plus_games": 30,
+    "40plus_games": 3
+  },
+  {
+    "id": "Tony Campbell",
+    "30plus_games": 30,
+    "40plus_games": 1
+  },
+  {
+    "id": "Al Harrington",
+    "30plus_games": 29,
+    "40plus_games": 3
+  },
+  {
+    "id": "Domantas Sabonis",
+    "30plus_games": 29,
+    "40plus_games": 1
+  },
+  {
+    "id": "Eric Bledsoe",
+    "30plus_games": 29,
+    "40plus_games": 3
+  },
+  {
+    "id": "Jim Paxson",
+    "30plus_games": 29,
+    "40plus_games": 2
+  },
+  {
+    "id": "Sleepy Floyd",
+    "30plus_games": 29,
+    "40plus_games": 2
+  },
+  {
+    "id": "Damon Stoudamire",
+    "30plus_games": 28,
+    "40plus_games": 1
+  },
+  {
+    "id": "Dejounte Murray",
+    "30plus_games": 28,
+    "40plus_games": 6
+  },
+  {
+    "id": "Gerald Wallace",
+    "30plus_games": 28,
+    "40plus_games": 5
+  },
+  {
+    "id": "Jeff Hornacek",
+    "30plus_games": 28,
+    "40plus_games": 1
+  },
+  {
+    "id": "Jordan Clarkson",
+    "30plus_games": 28,
+    "40plus_games": 4
+  },
+  {
+    "id": "Larry Hughes",
+    "30plus_games": 28,
+    "40plus_games": 4
+  },
+  {
+    "id": "Victor Oladipo",
+    "30plus_games": 28,
+    "40plus_games": 3
+  },
+  {
+    "id": "Vin Baker",
+    "30plus_games": 28,
+    "40plus_games": 2
+  },
+  {
+    "id": "Franz Wagner",
+    "30plus_games": 27,
+    "40plus_games": 0
+  },
+  {
+    "id": "Mahmoud Abdul-Rauf",
+    "30plus_games": 27,
+    "40plus_games": 1
+  },
+  {
+    "id": "Andrew Toney",
+    "30plus_games": 26,
+    "40plus_games": 5
+  },
+  {
+    "id": "Darius Garland",
+    "30plus_games": 26,
+    "40plus_games": 5
+  },
+  {
+    "id": "Goran Dragic",
+    "30plus_games": 26,
+    "40plus_games": 1
+  },
+  {
+    "id": "Josh Smith",
+    "30plus_games": 26,
+    "40plus_games": 0
+  },
+  {
+    "id": "Juwan Howard",
+    "30plus_games": 26,
+    "40plus_games": 2
+  },
+  {
+    "id": "Ken Norman",
+    "30plus_games": 26,
+    "40plus_games": 0
+  },
+  {
+    "id": "Mikal Bridges",
+    "30plus_games": 26,
+    "40plus_games": 7
+  },
+  {
+    "id": "Mike Conley",
+    "30plus_games": 26,
+    "40plus_games": 1
+  },
+  {
+    "id": "Rasheed Wallace",
+    "30plus_games": 26,
+    "40plus_games": 1
+  },
+  {
+    "id": "Eddie Jones",
+    "30plus_games": 25,
+    "40plus_games": 0
+  },
+  {
+    "id": "Harrison Barnes",
+    "30plus_games": 25,
+    "40plus_games": 0
+  },
+  {
+    "id": "Mo Williams",
+    "30plus_games": 25,
+    "40plus_games": 3
+  },
+  {
+    "id": "Trey Murphy III",
+    "30plus_games": 25,
+    "40plus_games": 6
+  },
+  {
+    "id": "Tyrese Haliburton",
+    "30plus_games": 25,
+    "40plus_games": 3
+  },
+  {
+    "id": "Alperen Sengun",
+    "30plus_games": 24,
+    "40plus_games": 1
+  },
+  {
+    "id": "Artis Gilmore",
+    "30plus_games": 24,
+    "40plus_games": 1
+  },
+  {
+    "id": "J.R. Smith",
+    "30plus_games": 24,
+    "40plus_games": 4
+  },
+  {
+    "id": "Jamaal Wilkes",
+    "30plus_games": 24,
+    "40plus_games": 0
+  },
+  {
+    "id": "Coby White",
+    "30plus_games": 23,
+    "40plus_games": 1
+  },
+  {
+    "id": "Derek Harper",
+    "30plus_games": 23,
+    "40plus_games": 1
+  },
+  {
+    "id": "Larry Johnson",
+    "30plus_games": 23,
+    "40plus_games": 1
+  },
+  {
+    "id": "Steve Smith",
+    "30plus_games": 23,
+    "40plus_games": 1
+  },
+  {
+    "id": "Austin Reaves",
+    "30plus_games": 22,
+    "40plus_games": 4
+  },
+  {
+    "id": "Bill Cartwright",
+    "30plus_games": 22,
+    "40plus_games": 0
+  },
+  {
+    "id": "Brandon Roy",
+    "30plus_games": 22,
+    "40plus_games": 4
+  },
+  {
+    "id": "Clark Kellogg",
+    "30plus_games": 22,
+    "40plus_games": 0
+  },
+  {
+    "id": "Deni Avdija",
+    "30plus_games": 22,
+    "40plus_games": 2
+  },
+  {
+    "id": "Dennis Schroder",
+    "30plus_games": 22,
+    "40plus_games": 1
+  },
+  {
+    "id": "Elvin Hayes",
+    "30plus_games": 22,
+    "40plus_games": 2
+  },
+  {
+    "id": "John Collins",
+    "30plus_games": 22,
+    "40plus_games": 0
+  },
+  {
+    "id": "Metta World Peace",
+    "30plus_games": 22,
+    "40plus_games": 0
+  },
+  {
+    "id": "Rik Smits",
+    "30plus_games": 22,
+    "40plus_games": 3
+  },
+  {
+    "id": "Shawn Kemp",
+    "30plus_games": 22,
+    "40plus_games": 1
+  },
+  {
+    "id": "Vernon Maxwell",
+    "30plus_games": 22,
+    "40plus_games": 3
+  },
+  {
+    "id": "Herb Williams",
+    "30plus_games": 21,
+    "40plus_games": 1
+  },
+  {
+    "id": "John Starks",
+    "30plus_games": 21,
+    "40plus_games": 0
+  },
+  {
+    "id": "Mark Price",
+    "30plus_games": 21,
+    "40plus_games": 0
+  },
+  {
+    "id": "Mike Woodson",
+    "30plus_games": 21,
+    "40plus_games": 1
+  },
+  {
+    "id": "Aaron Gordon",
+    "30plus_games": 20,
+    "40plus_games": 3
+  },
+  {
+    "id": "Collin Sexton",
+    "30plus_games": 20,
+    "40plus_games": 2
+  },
+  {
+    "id": "Dan Roundfield",
+    "30plus_games": 20,
+    "40plus_games": 0
+  },
+  {
+    "id": "Gary Trent Jr.",
+    "30plus_games": 20,
+    "40plus_games": 3
+  },
+  {
+    "id": "Keith Van Horn",
+    "30plus_games": 20,
+    "40plus_games": 0
+  },
+  {
+    "id": "Keyonte George",
+    "30plus_games": 20,
+    "40plus_games": 1
+  },
+  {
+    "id": "Paul Millsap",
+    "30plus_games": 20,
+    "40plus_games": 1
+  },
+  {
+    "id": "Quintin Dailey",
+    "30plus_games": 20,
+    "40plus_games": 1
+  },
+  {
+    "id": "Spencer Dinwiddie",
+    "30plus_games": 20,
+    "40plus_games": 1
+  },
+  {
+    "id": "Caris LeVert",
+    "30plus_games": 19,
+    "40plus_games": 4
+  },
+  {
+    "id": "David Wesley",
+    "30plus_games": 19,
+    "40plus_games": 0
+  },
+  {
+    "id": "Dennis Scott",
+    "30plus_games": 19,
+    "40plus_games": 2
+  },
+  {
+    "id": "Kendall Gill",
+    "30plus_games": 19,
+    "40plus_games": 1
+  },
+  {
+    "id": "Kenny Anderson",
+    "30plus_games": 19,
+    "40plus_games": 3
+  },
+  {
+    "id": "Mike Miller",
+    "30plus_games": 19,
+    "40plus_games": 2
+  },
+  {
+    "id": "Sean Elliott",
+    "30plus_games": 19,
+    "40plus_games": 1
+  },
+  {
+    "id": "Andrea Bargnani",
+    "30plus_games": 18,
+    "40plus_games": 1
+  },
+  {
+    "id": "Danilo Gallinari",
+    "30plus_games": 18,
+    "40plus_games": 2
+  },
+  {
+    "id": "Danny Ainge",
+    "30plus_games": 18,
+    "40plus_games": 2
+  },
+  {
+    "id": "Dillon Brooks",
+    "30plus_games": 18,
+    "40plus_games": 1
+  },
+  {
+    "id": "Freeman Williams",
+    "30plus_games": 18,
+    "40plus_games": 2
+  },
+  {
+    "id": "Marc Gasol",
+    "30plus_games": 18,
+    "40plus_games": 1
+  },
+  {
+    "id": "Nate Robinson",
+    "30plus_games": 18,
+    "40plus_games": 3
+  },
+  {
+    "id": "Paul Westphal",
+    "30plus_games": 18,
+    "40plus_games": 1
+  },
+  {
+    "id": "Rony Seikaly",
+    "30plus_games": 18,
+    "40plus_games": 1
+  },
+  {
+    "id": "Tyreke Evans",
+    "30plus_games": 18,
+    "40plus_games": 1
+  },
+  {
+    "id": "Wally Szczerbiak",
+    "30plus_games": 18,
+    "40plus_games": 1
+  },
+  {
+    "id": "Bryant Reeves",
+    "30plus_games": 17,
+    "40plus_games": 1
+  },
+  {
+    "id": "Buddy Hield",
+    "30plus_games": 17,
+    "40plus_games": 2
+  },
+  {
+    "id": "Charles Smith",
+    "30plus_games": 17,
+    "40plus_games": 3
+  },
+  {
+    "id": "Greg Ballard",
+    "30plus_games": 17,
+    "40plus_games": 0
+  },
+  {
+    "id": "Johnny Newman",
+    "30plus_games": 17,
+    "40plus_games": 2
+  },
+  {
+    "id": "Lionel Simmons",
+    "30plus_games": 17,
+    "40plus_games": 1
+  },
+  {
+    "id": "Nick Young",
+    "30plus_games": 17,
+    "40plus_games": 3
+  },
+  {
+    "id": "Rex Chapman",
+    "30plus_games": 17,
+    "40plus_games": 0
+  },
+  {
+    "id": "Scottie Barnes",
+    "30plus_games": 17,
+    "40plus_games": 0
+  },
+  {
+    "id": "Terry Porter",
+    "30plus_games": 17,
+    "40plus_games": 2
+  },
+  {
+    "id": "Tom Gugliotta",
+    "30plus_games": 17,
+    "40plus_games": 0
+  },
+  {
+    "id": "Andre Miller",
+    "30plus_games": 16,
+    "40plus_games": 1
+  },
+  {
+    "id": "Billy Knight",
+    "30plus_games": 16,
+    "40plus_games": 5
+  },
+  {
+    "id": "Bonzi Wells",
+    "30plus_games": 16,
+    "40plus_games": 0
+  },
+  {
+    "id": "Calvin Murphy",
+    "30plus_games": 16,
+    "40plus_games": 1
+  },
+  {
+    "id": "Evan Fournier",
+    "30plus_games": 16,
+    "40plus_games": 1
+  },
+  {
+    "id": "James Edwards",
+    "30plus_games": 16,
+    "40plus_games": 0
+  },
+  {
+    "id": "James Silas",
+    "30plus_games": 16,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jonas Valanciunas",
+    "30plus_games": 16,
+    "40plus_games": 0
+  },
+  {
+    "id": "Michael Beasley",
+    "30plus_games": 16,
+    "40plus_games": 1
+  },
+  {
+    "id": "Quentin Richardson",
+    "30plus_games": 16,
+    "40plus_games": 1
+  },
+  {
+    "id": "Reggie Jackson",
+    "30plus_games": 16,
+    "40plus_games": 1
+  },
+  {
+    "id": "Rod Strickland",
+    "30plus_games": 16,
+    "40plus_games": 0
+  },
+  {
+    "id": "T.J. Warren",
+    "30plus_games": 16,
+    "40plus_games": 2
+  },
+  {
+    "id": "Terrell Brandon",
+    "30plus_games": 16,
+    "40plus_games": 0
+  },
+  {
+    "id": "Andre Iguodala",
+    "30plus_games": 15,
+    "40plus_games": 0
+  },
+  {
+    "id": "Brandon Knight",
+    "30plus_games": 15,
+    "40plus_games": 0
+  },
+  {
+    "id": "David Lee",
+    "30plus_games": 15,
+    "40plus_games": 0
+  },
+  {
+    "id": "Dennis Johnson",
+    "30plus_games": 15,
+    "40plus_games": 0
+  },
+  {
+    "id": "Derek Smith",
+    "30plus_games": 15,
+    "40plus_games": 1
+  },
+  {
+    "id": "Fat Lever",
+    "30plus_games": 15,
+    "40plus_games": 0
+  },
+  {
+    "id": "Gerald Wilkins",
+    "30plus_games": 15,
+    "40plus_games": 2
+  },
+  {
+    "id": "Jalen Williams",
+    "30plus_games": 15,
+    "40plus_games": 1
+  },
+  {
+    "id": "Jeff Ruland",
+    "30plus_games": 15,
+    "40plus_games": 0
+  },
+  {
+    "id": "Luol Deng",
+    "30plus_games": 15,
+    "40plus_games": 1
+  },
+  {
+    "id": "Micheal Ray Richardson",
+    "30plus_games": 15,
+    "40plus_games": 0
+  },
+  {
+    "id": "Mike Dunleavy Jr.",
+    "30plus_games": 15,
+    "40plus_games": 0
+  },
+  {
+    "id": "Terry Teagle",
+    "30plus_games": 15,
+    "40plus_games": 1
+  },
+  {
+    "id": "Truck Robinson",
+    "30plus_games": 15,
+    "40plus_games": 1
+  },
+  {
+    "id": "Walt Williams",
+    "30plus_games": 15,
+    "40plus_games": 1
+  },
+  {
+    "id": "Armen Gilliam",
+    "30plus_games": 14,
+    "40plus_games": 1
+  },
+  {
+    "id": "Arron Afflalo",
+    "30plus_games": 14,
+    "40plus_games": 1
+  },
+  {
+    "id": "Bob McAdoo",
+    "30plus_games": 14,
+    "40plus_games": 0
+  },
+  {
+    "id": "Deandre Ayton",
+    "30plus_games": 14,
+    "40plus_games": 0
+  },
+  {
+    "id": "Devin Harris",
+    "30plus_games": 14,
+    "40plus_games": 3
+  },
+  {
+    "id": "Donyell Marshall",
+    "30plus_games": 14,
+    "40plus_games": 0
+  },
+  {
+    "id": "Drazen Petrovic",
+    "30plus_games": 14,
+    "40plus_games": 1
+  },
+  {
+    "id": "J.J. Redick",
+    "30plus_games": 14,
+    "40plus_games": 1
+  },
+  {
+    "id": "Jeff Green",
+    "30plus_games": 14,
+    "40plus_games": 1
+  },
+  {
+    "id": "Joe Smith",
+    "30plus_games": 14,
+    "40plus_games": 0
+  },
+  {
+    "id": "Kelly Oubre Jr.",
+    "30plus_games": 14,
+    "40plus_games": 1
+  },
+  {
+    "id": "Kevin Porter Jr.",
+    "30plus_games": 14,
+    "40plus_games": 1
+  },
+  {
+    "id": "Malik Monk",
+    "30plus_games": 14,
+    "40plus_games": 2
+  },
+  {
+    "id": "Mike James",
+    "30plus_games": 14,
+    "40plus_games": 0
+  },
+  {
+    "id": "Mychal Thompson",
+    "30plus_games": 14,
+    "40plus_games": 0
+  },
+  {
+    "id": "Myles Turner",
+    "30plus_games": 14,
+    "40plus_games": 2
+  },
+  {
+    "id": "Ryan Anderson",
+    "30plus_games": 14,
+    "40plus_games": 0
+  },
+  {
+    "id": "Scott Wedman",
+    "30plus_games": 14,
+    "40plus_games": 2
+  },
+  {
+    "id": "Brandon Miller",
+    "30plus_games": 13,
+    "40plus_games": 0
+  },
+  {
+    "id": "Detlef Schrempf",
+    "30plus_games": 13,
+    "40plus_games": 0
+  },
+  {
+    "id": "Immanuel Quickley",
+    "30plus_games": 13,
+    "40plus_games": 2
+  },
+  {
+    "id": "Jalen Johnson",
+    "30plus_games": 13,
+    "40plus_games": 2
+  },
+  {
+    "id": "Junior Bridgeman",
+    "30plus_games": 13,
+    "40plus_games": 0
+  },
+  {
+    "id": "Ledell Eackles",
+    "30plus_games": 13,
+    "40plus_games": 2
+  },
+  {
+    "id": "Maurice Lucas",
+    "30plus_games": 13,
+    "40plus_games": 0
+  },
+  {
+    "id": "OG Anunoby",
+    "30plus_games": 13,
+    "40plus_games": 1
+  },
+  {
+    "id": "Ron Mercer",
+    "30plus_games": 13,
+    "40plus_games": 0
+  },
+  {
+    "id": "Terry Catledge",
+    "30plus_games": 13,
+    "40plus_games": 1
+  },
+  {
+    "id": "Aaron Brooks",
+    "30plus_games": 12,
+    "40plus_games": 1
+  },
+  {
+    "id": "Bill Laimbeer",
+    "30plus_games": 12,
+    "40plus_games": 0
+  },
+  {
+    "id": "Buck Williams",
+    "30plus_games": 12,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jerome Kersey",
+    "30plus_games": 12,
+    "40plus_games": 0
+  },
+  {
+    "id": "Kerry Kittles",
+    "30plus_games": 12,
+    "40plus_games": 1
+  },
+  {
+    "id": "Marcus Morris",
+    "30plus_games": 12,
+    "40plus_games": 0
+  },
+  {
+    "id": "Marcus Thornton",
+    "30plus_games": 12,
+    "40plus_games": 2
+  },
+  {
+    "id": "Nickeil Alexander-Walker",
+    "30plus_games": 12,
+    "40plus_games": 0
+  },
+  {
+    "id": "O.J. Mayo",
+    "30plus_games": 12,
+    "40plus_games": 2
+  },
+  {
+    "id": "Rodney Stuckey",
+    "30plus_games": 12,
+    "40plus_games": 1
+  },
+  {
+    "id": "Ron Brewer",
+    "30plus_games": 12,
+    "40plus_games": 2
+  },
+  {
+    "id": "Saddiq Bey",
+    "30plus_games": 12,
+    "40plus_games": 2
+  },
+  {
+    "id": "Scott Skiles",
+    "30plus_games": 12,
+    "40plus_games": 1
+  },
+  {
+    "id": "Shaedon Sharpe",
+    "30plus_games": 12,
+    "40plus_games": 0
+  },
+  {
+    "id": "Terrence Ross",
+    "30plus_games": 12,
+    "40plus_games": 1
+  },
+  {
+    "id": "Thurl Bailey",
+    "30plus_games": 12,
+    "40plus_games": 1
+  },
+  {
+    "id": "Antoine Carr",
+    "30plus_games": 11,
+    "40plus_games": 1
+  },
+  {
+    "id": "Bennedict Mathurin",
+    "30plus_games": 11,
+    "40plus_games": 0
+  },
+  {
+    "id": "Christian Wood",
+    "30plus_games": 11,
+    "40plus_games": 0
+  },
+  {
+    "id": "Dan Majerle",
+    "30plus_games": 11,
+    "40plus_games": 0
+  },
+  {
+    "id": "Dee Brown",
+    "30plus_games": 11,
+    "40plus_games": 3
+  },
+  {
+    "id": "Doug Christie",
+    "30plus_games": 11,
+    "40plus_games": 0
+  },
+  {
+    "id": "George McCloud",
+    "30plus_games": 11,
+    "40plus_games": 0
+  },
+  {
+    "id": "Gerald Green",
+    "30plus_games": 11,
+    "40plus_games": 1
+  },
+  {
+    "id": "Hedo Turkoglu",
+    "30plus_games": 11,
+    "40plus_games": 0
+  },
+  {
+    "id": "John Stockton",
+    "30plus_games": 11,
+    "40plus_games": 0
+  },
+  {
+    "id": "Keldon Johnson",
+    "30plus_games": 11,
+    "40plus_games": 0
+  },
+  {
+    "id": "Larry Kenon",
+    "30plus_games": 11,
+    "40plus_games": 1
+  },
+  {
+    "id": "Malcolm Brogdon",
+    "30plus_games": 11,
+    "40plus_games": 0
+  },
+  {
+    "id": "Mickey Johnson",
+    "30plus_games": 11,
+    "40plus_games": 2
+  },
+  {
+    "id": "Nicolas Batum",
+    "30plus_games": 11,
+    "40plus_games": 0
+  },
+  {
+    "id": "Norm Nixon",
+    "30plus_games": 11,
+    "40plus_games": 0
+  },
+  {
+    "id": "Rick Fox",
+    "30plus_games": 11,
+    "40plus_games": 0
+  },
+  {
+    "id": "Sedale Threatt",
+    "30plus_games": 11,
+    "40plus_games": 1
+  },
+  {
+    "id": "Andre Drummond",
+    "30plus_games": 10,
+    "40plus_games": 0
+  },
+  {
+    "id": "Bobby Portis",
+    "30plus_games": 10,
+    "40plus_games": 0
+  },
+  {
+    "id": "Bogdan Bogdanovic",
+    "30plus_games": 10,
+    "40plus_games": 1
+  },
+  {
+    "id": "Harvey Grant",
+    "30plus_games": 10,
+    "40plus_games": 1
+  },
+  {
+    "id": "Jeff Teague",
+    "30plus_games": 10,
+    "40plus_games": 0
+  },
+  {
+    "id": "John Salmons",
+    "30plus_games": 10,
+    "40plus_games": 0
+  },
+  {
+    "id": "Kenny Smith",
+    "30plus_games": 10,
+    "40plus_games": 1
+  },
+  {
+    "id": "Kirk Hinrich",
+    "30plus_games": 10,
+    "40plus_games": 0
+  },
+  {
+    "id": "Lamond Murray",
+    "30plus_games": 10,
+    "40plus_games": 1
+  },
+  {
+    "id": "Leandro Barbosa",
+    "30plus_games": 10,
+    "40plus_games": 1
+  },
+  {
+    "id": "Michael Brooks",
+    "30plus_games": 10,
+    "40plus_games": 0
+  },
+  {
+    "id": "Payton Pritchard",
+    "30plus_games": 10,
+    "40plus_games": 2
+  },
+  {
+    "id": "Phil Ford",
+    "30plus_games": 10,
+    "40plus_games": 0
+  },
+  {
+    "id": "Randy Smith",
+    "30plus_games": 10,
+    "40plus_games": 0
+  },
+  {
+    "id": "Reggie Williams",
+    "30plus_games": 10,
+    "40plus_games": 0
+  },
+  {
+    "id": "Roy Hinson",
+    "30plus_games": 10,
+    "40plus_games": 0
+  },
+  {
+    "id": "Zydrunas Ilgauskas",
+    "30plus_games": 10,
+    "40plus_games": 0
+  },
+  {
+    "id": "Al Thornton",
+    "30plus_games": 9,
+    "40plus_games": 0
+  },
+  {
+    "id": "Alec Burks",
+    "30plus_games": 9,
+    "40plus_games": 0
+  },
+  {
+    "id": "Alvan Adams",
+    "30plus_games": 9,
+    "40plus_games": 0
+  },
+  {
+    "id": "Brad Miller",
+    "30plus_games": 9,
+    "40plus_games": 0
+  },
+  {
+    "id": "Chandler Parsons",
+    "30plus_games": 9,
+    "40plus_games": 0
+  },
+  {
+    "id": "Charlie Villanueva",
+    "30plus_games": 9,
+    "40plus_games": 1
+  },
+  {
+    "id": "Derrick McKey",
+    "30plus_games": 9,
+    "40plus_games": 0
+  },
+  {
+    "id": "Josh Howard",
+    "30plus_games": 9,
+    "40plus_games": 1
+  },
+  {
+    "id": "Kentavious Caldwell-Pope",
+    "30plus_games": 9,
+    "40plus_games": 0
+  },
+  {
+    "id": "Lewis Lloyd",
+    "30plus_games": 9,
+    "40plus_games": 0
+  },
+  {
+    "id": "Luis Scola",
+    "30plus_games": 9,
+    "40plus_games": 1
+  },
+  {
+    "id": "Malik Beasley",
+    "30plus_games": 9,
+    "40plus_games": 0
+  },
+  {
+    "id": "Mehmet Okur",
+    "30plus_games": 9,
+    "40plus_games": 1
+  },
+  {
+    "id": "Randy Foye",
+    "30plus_games": 9,
+    "40plus_games": 0
+  },
+  {
+    "id": "Terry Mills",
+    "30plus_games": 9,
+    "40plus_games": 1
+  },
+  {
+    "id": "Toby Knight",
+    "30plus_games": 9,
+    "40plus_games": 0
+  },
+  {
+    "id": "Toni Kukoc",
+    "30plus_games": 9,
+    "40plus_games": 0
+  },
+  {
+    "id": "Ty Lawson",
+    "30plus_games": 9,
+    "40plus_games": 0
+  },
+  {
+    "id": "Vinnie Johnson",
+    "30plus_games": 9,
+    "40plus_games": 0
+  },
+  {
+    "id": "Wesley Matthews",
+    "30plus_games": 9,
+    "40plus_games": 0
+  },
+  {
+    "id": "Will Barton",
+    "30plus_games": 9,
+    "40plus_games": 0
+  },
+  {
+    "id": "Wilson Chandler",
+    "30plus_games": 9,
+    "40plus_games": 0
+  },
+  {
+    "id": "Al Horford",
+    "30plus_games": 8,
+    "40plus_games": 0
+  },
+  {
+    "id": "Andray Blatche",
+    "30plus_games": 8,
+    "40plus_games": 0
+  },
+  {
+    "id": "Andrew Bynum",
+    "30plus_games": 8,
+    "40plus_games": 1
+  },
+  {
+    "id": "Chris Morris",
+    "30plus_games": 8,
+    "40plus_games": 0
+  },
+  {
+    "id": "Dana Barros",
+    "30plus_games": 8,
+    "40plus_games": 2
+  },
+  {
+    "id": "Derrick White",
+    "30plus_games": 8,
+    "40plus_games": 1
+  },
+  {
+    "id": "Devin Vassell",
+    "30plus_games": 8,
+    "40plus_games": 0
+  },
+  {
+    "id": "Devonte' Graham",
+    "30plus_games": 8,
+    "40plus_games": 1
+  },
+  {
+    "id": "Eddy Curry",
+    "30plus_games": 8,
+    "40plus_games": 1
+  },
+  {
+    "id": "Elden Campbell",
+    "30plus_games": 8,
+    "40plus_games": 1
+  },
+  {
+    "id": "Evan Mobley",
+    "30plus_games": 8,
+    "40plus_games": 1
+  },
+  {
+    "id": "Jameer Nelson",
+    "30plus_games": 8,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jarrett Jack",
+    "30plus_games": 8,
+    "40plus_games": 0
+  },
+  {
+    "id": "Kevin Duckworth",
+    "30plus_games": 8,
+    "40plus_games": 0
+  },
+  {
+    "id": "LaPhonso Ellis",
+    "30plus_games": 8,
+    "40plus_games": 0
+  },
+  {
+    "id": "Mike McGee",
+    "30plus_games": 8,
+    "40plus_games": 1
+  },
+  {
+    "id": "Montrezl Harrell",
+    "30plus_games": 8,
+    "40plus_games": 0
+  },
+  {
+    "id": "Pervis Ellison",
+    "30plus_games": 8,
+    "40plus_games": 0
+  },
+  {
+    "id": "Pooh Richardson",
+    "30plus_games": 8,
+    "40plus_games": 0
+  },
+  {
+    "id": "Sam Perkins",
+    "30plus_games": 8,
+    "40plus_games": 1
+  },
+  {
+    "id": "Sherman Douglas",
+    "30plus_games": 8,
+    "40plus_games": 1
+  },
+  {
+    "id": "Steve Johnson",
+    "30plus_games": 8,
+    "40plus_games": 1
+  },
+  {
+    "id": "Tayshaun Prince",
+    "30plus_games": 8,
+    "40plus_games": 0
+  },
+  {
+    "id": "Todd Day",
+    "30plus_games": 8,
+    "40plus_games": 1
+  },
+  {
+    "id": "Willie Anderson",
+    "30plus_games": 8,
+    "40plus_games": 0
+  },
+  {
+    "id": "Anthony Morrow",
+    "30plus_games": 7,
+    "40plus_games": 1
+  },
+  {
+    "id": "Blue Edwards",
+    "30plus_games": 7,
+    "40plus_games": 0
+  },
+  {
+    "id": "C.J. Miles",
+    "30plus_games": 7,
+    "40plus_games": 1
+  },
+  {
+    "id": "Channing Frye",
+    "30plus_games": 7,
+    "40plus_games": 0
+  },
+  {
+    "id": "Cooper Flagg",
+    "30plus_games": 7,
+    "40plus_games": 2
+  },
+  {
+    "id": "Dell Curry",
+    "30plus_games": 7,
+    "40plus_games": 0
+  },
+  {
+    "id": "Dino Radja",
+    "30plus_games": 7,
+    "40plus_games": 0
+  },
+  {
+    "id": "Dion Waiters",
+    "30plus_games": 7,
+    "40plus_games": 0
+  },
+  {
+    "id": "Don MacLean",
+    "30plus_games": 7,
+    "40plus_games": 0
+  },
+  {
+    "id": "Donte DiVincenzo",
+    "30plus_games": 7,
+    "40plus_games": 1
+  },
+  {
+    "id": "Earl Boykins",
+    "30plus_games": 7,
+    "40plus_games": 0
+  },
+  {
+    "id": "Gerald Henderson Jr.",
+    "30plus_games": 7,
+    "40plus_games": 0
+  },
+  {
+    "id": "Grayson Allen",
+    "30plus_games": 7,
+    "40plus_games": 2
+  },
+  {
+    "id": "Jaden Ivey",
+    "30plus_games": 7,
+    "40plus_games": 0
+  },
+  {
+    "id": "Johnny Davis",
+    "30plus_games": 7,
+    "40plus_games": 0
+  },
+  {
+    "id": "Kelvin Ransey",
+    "30plus_games": 7,
+    "40plus_games": 0
+  },
+  {
+    "id": "Kenny Carr",
+    "30plus_games": 7,
+    "40plus_games": 0
+  },
+  {
+    "id": "Kevin Gamble",
+    "30plus_games": 7,
+    "40plus_games": 0
+  },
+  {
+    "id": "Lamar Odom",
+    "30plus_games": 7,
+    "40plus_games": 0
+  },
+  {
+    "id": "Mookie Blaylock",
+    "30plus_games": 7,
+    "40plus_games": 0
+  },
+  {
+    "id": "Naji Marshall",
+    "30plus_games": 7,
+    "40plus_games": 0
+  },
+  {
+    "id": "P.J. Washington",
+    "30plus_games": 7,
+    "40plus_games": 3
+  },
+  {
+    "id": "Quentin Grimes",
+    "30plus_games": 7,
+    "40plus_games": 2
+  },
+  {
+    "id": "Raef LaFrentz",
+    "30plus_games": 7,
+    "40plus_games": 0
+  },
+  {
+    "id": "Rajon Rondo",
+    "30plus_games": 7,
+    "40plus_games": 0
+  },
+  {
+    "id": "Rodney Rogers",
+    "30plus_games": 7,
+    "40plus_games": 0
+  },
+  {
+    "id": "Ron Anderson",
+    "30plus_games": 7,
+    "40plus_games": 0
+  },
+  {
+    "id": "Rui Hachimura",
+    "30plus_games": 7,
+    "40plus_games": 0
+  },
+  {
+    "id": "Voshon Lenard",
+    "30plus_games": 7,
+    "40plus_games": 0
+  },
+  {
+    "id": "Wesley Person",
+    "30plus_games": 7,
+    "40plus_games": 0
+  },
+  {
+    "id": "Albert King",
+    "30plus_games": 6,
+    "40plus_games": 0
+  },
+  {
+    "id": "Ben Simmons",
+    "30plus_games": 6,
+    "40plus_games": 1
+  },
+  {
+    "id": "Billy Owens",
+    "30plus_games": 6,
+    "40plus_games": 0
+  },
+  {
+    "id": "Butch Carter",
+    "30plus_games": 6,
+    "40plus_games": 3
+  },
+  {
+    "id": "Cameron Johnson",
+    "30plus_games": 6,
+    "40plus_games": 0
+  },
+  {
+    "id": "Clarence Weatherspoon",
+    "30plus_games": 6,
+    "40plus_games": 0
+  },
+  {
+    "id": "Cole Anthony",
+    "30plus_games": 6,
+    "40plus_games": 0
+  },
+  {
+    "id": "Darren Collison",
+    "30plus_games": 6,
+    "40plus_games": 0
+  },
+  {
+    "id": "Desmond Mason",
+    "30plus_games": 6,
+    "40plus_games": 0
+  },
+  {
+    "id": "Dorell Wright",
+    "30plus_games": 6,
+    "40plus_games": 0
+  },
+  {
+    "id": "Doug West",
+    "30plus_games": 6,
+    "40plus_games": 0
+  },
+  {
+    "id": "Ersan Ilyasova",
+    "30plus_games": 6,
+    "40plus_games": 0
+  },
+  {
+    "id": "Frank Brickowski",
+    "30plus_games": 6,
+    "40plus_games": 0
+  },
+  {
+    "id": "George Hill",
+    "30plus_games": 6,
+    "40plus_games": 0
+  },
+  {
+    "id": "Greg Kelser",
+    "30plus_games": 6,
+    "40plus_games": 0
+  },
+  {
+    "id": "Hassan Whiteside",
+    "30plus_games": 6,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jabari Parker",
+    "30plus_games": 6,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jeremy Lin",
+    "30plus_games": 6,
+    "40plus_games": 0
+  },
+  {
+    "id": "Josh Richardson",
+    "30plus_games": 6,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jusuf Nurkic",
+    "30plus_games": 6,
+    "40plus_games": 0
+  },
+  {
+    "id": "Matt Harpring",
+    "30plus_games": 6,
+    "40plus_games": 0
+  },
+  {
+    "id": "Morris Peterson",
+    "30plus_games": 6,
+    "40plus_games": 0
+  },
+  {
+    "id": "Obi Toppin",
+    "30plus_games": 6,
+    "40plus_games": 1
+  },
+  {
+    "id": "Rasual Butler",
+    "30plus_games": 6,
+    "40plus_games": 0
+  },
+  {
+    "id": "Raymond Felton",
+    "30plus_games": 6,
+    "40plus_games": 0
+  },
+  {
+    "id": "Ricky Rubio",
+    "30plus_games": 6,
+    "40plus_games": 0
+  },
+  {
+    "id": "Robert Reid",
+    "30plus_games": 6,
+    "40plus_games": 0
+  },
+  {
+    "id": "Sarunas Marciulionis",
+    "30plus_games": 6,
+    "40plus_games": 0
+  },
+  {
+    "id": "Taurean Prince",
+    "30plus_games": 6,
+    "40plus_games": 0
+  },
+  {
+    "id": "Thaddeus Young",
+    "30plus_games": 6,
+    "40plus_games": 0
+  },
+  {
+    "id": "Tracy Murray",
+    "30plus_games": 6,
+    "40plus_games": 2
+  },
+  {
+    "id": "Tyrone Corbin",
+    "30plus_games": 6,
+    "40plus_games": 0
+  },
+  {
+    "id": "Arvydas Sabonis",
+    "30plus_games": 5,
+    "40plus_games": 0
+  },
+  {
+    "id": "Austin Rivers",
+    "30plus_games": 5,
+    "40plus_games": 1
+  },
+  {
+    "id": "Bob Sura",
+    "30plus_games": 5,
+    "40plus_games": 0
+  },
+  {
+    "id": "Brian Grant",
+    "30plus_games": 5,
+    "40plus_games": 0
+  },
+  {
+    "id": "Brian Winters",
+    "30plus_games": 5,
+    "40plus_games": 2
+  },
+  {
+    "id": "Cedric Maxwell",
+    "30plus_games": 5,
+    "40plus_games": 0
+  },
+  {
+    "id": "Chet Holmgren",
+    "30plus_games": 5,
+    "40plus_games": 0
+  },
+  {
+    "id": "Christian Laettner",
+    "30plus_games": 5,
+    "40plus_games": 0
+  },
+  {
+    "id": "Darrell Armstrong",
+    "30plus_games": 5,
+    "40plus_games": 0
+  },
+  {
+    "id": "Darryl Dawkins",
+    "30plus_games": 5,
+    "40plus_games": 0
+  },
+  {
+    "id": "Dave Greenwood",
+    "30plus_games": 5,
+    "40plus_games": 0
+  },
+  {
+    "id": "Derek Anderson",
+    "30plus_games": 5,
+    "40plus_games": 0
+  },
+  {
+    "id": "E'Twaun Moore",
+    "30plus_games": 5,
+    "40plus_games": 0
+  },
+  {
+    "id": "Emmanuel Mudiay",
+    "30plus_games": 5,
+    "40plus_games": 0
+  },
+  {
+    "id": "Gene Banks",
+    "30plus_games": 5,
+    "40plus_games": 1
+  },
+  {
+    "id": "George McGinnis",
+    "30plus_games": 5,
+    "40plus_games": 1
+  },
+  {
+    "id": "Grant Long",
+    "30plus_games": 5,
+    "40plus_games": 0
+  },
+  {
+    "id": "Greg Monroe",
+    "30plus_games": 5,
+    "40plus_games": 0
+  },
+  {
+    "id": "Hot Rod Williams",
+    "30plus_games": 5,
+    "40plus_games": 0
+  },
+  {
+    "id": "Ivica Zubac",
+    "30plus_games": 5,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jabari Smith Jr.",
+    "30plus_games": 5,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jalen Duren",
+    "30plus_games": 5,
+    "40plus_games": 0
+  },
+  {
+    "id": "James Posey",
+    "30plus_games": 5,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jordan Crawford",
+    "30plus_games": 5,
+    "40plus_games": 1
+  },
+  {
+    "id": "Josh Hart",
+    "30plus_games": 5,
+    "40plus_games": 1
+  },
+  {
+    "id": "Kevin Edwards",
+    "30plus_games": 5,
+    "40plus_games": 0
+  },
+  {
+    "id": "Kon Knueppel",
+    "30plus_games": 5,
+    "40plus_games": 0
+  },
+  {
+    "id": "Larry Drew",
+    "30plus_games": 5,
+    "40plus_games": 0
+  },
+  {
+    "id": "Mark Jackson",
+    "30plus_games": 5,
+    "40plus_games": 0
+  },
+  {
+    "id": "Michael Dickerson",
+    "30plus_games": 5,
+    "40plus_games": 1
+  },
+  {
+    "id": "Mike Gminski",
+    "30plus_games": 5,
+    "40plus_games": 1
+  },
+  {
+    "id": "Naz Reid",
+    "30plus_games": 5,
+    "40plus_games": 0
+  },
+  {
+    "id": "Nikola Mirotic",
+    "30plus_games": 5,
+    "40plus_games": 0
+  },
+  {
+    "id": "Nikola Pekovic",
+    "30plus_games": 5,
+    "40plus_games": 0
+  },
+  {
+    "id": "Pat Cummings",
+    "30plus_games": 5,
+    "40plus_games": 0
+  },
+  {
+    "id": "Patty Mills",
+    "30plus_games": 5,
+    "40plus_games": 0
+  },
+  {
+    "id": "Rod Higgins",
+    "30plus_games": 5,
+    "40plus_games": 1
+  },
+  {
+    "id": "Rodney Hood",
+    "30plus_games": 5,
+    "40plus_games": 0
+  },
+  {
+    "id": "Scoot Henderson",
+    "30plus_games": 5,
+    "40plus_games": 0
+  },
+  {
+    "id": "Spud Webb",
+    "30plus_games": 5,
+    "40plus_games": 0
+  },
+  {
+    "id": "Tim Thomas",
+    "30plus_games": 5,
+    "40plus_games": 0
+  },
+  {
+    "id": "Trevor Ariza",
+    "30plus_games": 5,
+    "40plus_games": 1
+  },
+  {
+    "id": "Trey Burke",
+    "30plus_games": 5,
+    "40plus_games": 1
+  },
+  {
+    "id": "Troy Hudson",
+    "30plus_games": 5,
+    "40plus_games": 0
+  },
+  {
+    "id": "Vlade Divac",
+    "30plus_games": 5,
+    "40plus_games": 0
+  },
+  {
+    "id": "A.C. Green",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Allen Leavell",
+    "30plus_games": 4,
+    "40plus_games": 1
+  },
+  {
+    "id": "Avery Bradley",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Bison Dele",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Bob Lanier",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Bryant Stith",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Calbert Cheaney",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Campy Russell",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Chris Gatling",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Corliss Williamson",
+    "30plus_games": 4,
+    "40plus_games": 1
+  },
+  {
+    "id": "D.J. Augustin",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Danny Schayes",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Dave Corzine",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Doc Rivers",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Doug McDermott",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Drew Gooden",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Eric Murdock",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Eric Piatkowski",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "GG Jackson",
+    "30plus_games": 4,
+    "40plus_games": 1
+  },
+  {
+    "id": "Isaiah Joe",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jakob Poeltl",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jamaal Tinsley",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "James Bailey",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jarrett Allen",
+    "30plus_games": 4,
+    "40plus_games": 1
+  },
+  {
+    "id": "Jay Humphries",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jerryd Bayless",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jodie Meeks",
+    "30plus_games": 4,
+    "40plus_games": 1
+  },
+  {
+    "id": "John Williamson",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jonathan Kuminga",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Keegan Murray",
+    "30plus_games": 4,
+    "40plus_games": 1
+  },
+  {
+    "id": "Kelenna Azubuike",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Kendrick Nunn",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Kenyon Martin",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Kevin Grevey",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Kyle Korver",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Landry Shamet",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Lonnie Shelton",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Loy Vaught",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Luguentz Dort",
+    "30plus_games": 4,
+    "40plus_games": 1
+  },
+  {
+    "id": "Marcus Camby",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Markieff Morris",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Marquis Daniels",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Marvin Williams",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Maurice Cheeks",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Maurice Taylor",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Michael Carter-Williams",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Mitchell Wiggins",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Onyeka Okongwu",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Otto Porter Jr.",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Peyton Watson",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Phil Hubbard",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Rickey Green",
+    "30plus_games": 4,
+    "40plus_games": 1
+  },
+  {
+    "id": "Robert Pack",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Sam Bowie",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Serge Ibaka",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Seth Curry",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Shandon Anderson",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Stephon Castle",
+    "30plus_games": 4,
+    "40plus_games": 1
+  },
+  {
+    "id": "T.J. Ford",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Talen Horton-Tucker",
+    "30plus_games": 4,
+    "40plus_games": 2
+  },
+  {
+    "id": "Terrence Jones",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Vern Fleming",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Walter Berry",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Willie Green",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Zaccharie Risacher",
+    "30plus_games": 4,
+    "40plus_games": 0
+  },
+  {
+    "id": "Aaron Wiggins",
+    "30plus_games": 3,
+    "40plus_games": 1
+  },
+  {
+    "id": "Alex Sarr",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Allen Crabbe",
+    "30plus_games": 3,
+    "40plus_games": 1
+  },
+  {
+    "id": "Amen Thompson",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Andrei Kirilenko",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Andres Nocioni",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Andrew Bogut",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Andrew Nembhard",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Anthony Mason",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Anthony Peeler",
+    "30plus_games": 3,
+    "40plus_games": 1
+  },
+  {
+    "id": "Austin Croshere",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Benoit Benjamin",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Blair Rasmussen",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Brent Barry",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Brian Taylor",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "C.J. Watson",
+    "30plus_games": 3,
+    "40plus_games": 1
+  },
+  {
+    "id": "Carl Landry",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Chris Boucher",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Chris Douglas-Roberts",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Chris Wilcox",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Courtney Alexander",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Darius Miles",
+    "30plus_games": 3,
+    "40plus_games": 1
+  },
+  {
+    "id": "Darrell Walker",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Darrick Martin",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Dave Robisch",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "De'Andre Hunter",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Dennis Rodman",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Enes Kanter",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Erick Strickland",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Evan Turner",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Francisco Garcia",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Gary Harris",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Gheorghe Muresan",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Gradey Dick",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Hakim Warrick",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Hamidou Diallo",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Hubert Davis",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jaime Jaquez Jr.",
+    "30plus_games": 3,
+    "40plus_games": 1
+  },
+  {
+    "id": "Jason Williams",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jeff McInnis",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jeff Wilkins",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jeremy Lamb",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jeremy Sochan",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Joe Bryant",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Johnny Dawkins",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Josh Giddey",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Josh Jackson",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Kelly Olynyk",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Kenneth Faried",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Kenny Thomas",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Kurt Thomas",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Lindsey Hunter",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Lonnie Walker IV",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Lorenzen Wright",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Luke Kennard",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Marvin Bagley III",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Micheal Williams",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Nemanja Bjelica",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Raja Bell",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Rashad McCants",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Robert Covington",
+    "30plus_games": 3,
+    "40plus_games": 1
+  },
+  {
+    "id": "Ronald Murray",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Ruben Patterson",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Sam Hauser",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Shake Milton",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Shawn Bradley",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Steve Stipanovich",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Terence Davis",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Terry Tyler",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Thomas Bryant",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Tom Owens",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "Vinny Del Negro",
+    "30plus_games": 3,
+    "40plus_games": 0
+  },
+  {
+    "id": "A.J. English",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Aaron Nesmith",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Al Wood",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Alex Len",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Amir Coffey",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Anthony Black",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Anthony Tolliver",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Antonio Davis",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Ayo Dosunmu",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Beno Udrih",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Billy Ray Bates",
+    "30plus_games": 2,
+    "40plus_games": 1
+  },
+  {
+    "id": "Bob Dandridge",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Bobby Phills",
+    "30plus_games": 2,
+    "40plus_games": 1
+  },
+  {
+    "id": "Bobby Simmons",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Boris Diaw",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Brad Davis",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Brian Shaw",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Brice Sensabaugh",
+    "30plus_games": 2,
+    "40plus_games": 1
+  },
+  {
+    "id": "Bruce Brown",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Buck Johnson",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Cam Reddish",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Carlos Delfino",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Charles Oakley",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Charlie Criss",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Chase Budinger",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Chris Copeland",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Chucky Atkins",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Clint Capela",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Craig Smith",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Dalano Banton",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Dalton Knecht",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Danny Ferry",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Darwin Cook",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Davis Bertans",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "De'Anthony Melton",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Delonte West",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Derik Queen",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Derrick Favors",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Derrick Williams",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Dikembe Mutombo",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Don Collins",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Doug Collins",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Duncan Robinson",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Eddie House",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Elliot Perry",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Eric Paschall",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Ernie Grunfeld",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Frank Johnson",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Fred Jones",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Fred Roberts",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Furkan Korkmaz",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Garrett Temple",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Gary Grant",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Gary Trent",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "George Johnson",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Gerald Glass",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Glen Davis",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Gordan Giricek",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Greg Anderson",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Greg Anthony",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Horace Grant",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Ian Clark",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "J.J. Hickson",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jaden McDaniels",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jahlil Okafor",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jalen Suggs",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "James Anderson",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jared Dudley",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jared McCain",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jaylon Tyson",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jerry Reynolds",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jevon Carter",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jim McElroy",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Joe Harris",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "John Bagley",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "John Roche",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "John Wallace",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jonathon Simmons",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jordan Hawkins",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jordan McRae",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jordan Nwora",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Julian Champagnie",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Kareem Rush",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Kent Bazemore",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Kevin Huerter",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Kevin Knox",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Kyle Macy",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Lance Stephenson",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Lee Nailon",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Linas Kleiza",
+    "30plus_games": 2,
+    "40plus_games": 1
+  },
+  {
+    "id": "Lonzo Ball",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Luke Ridnour",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Luther Head",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Malik Sealy",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Marcus Fizer",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Marcus Smart",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Mario Chalmers",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Mark Williams",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Martell Webster",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Matas Buzelis",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Matt Barnes",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Max Strus",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Michael Cooper",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Mike Dunleavy",
+    "30plus_games": 2,
+    "40plus_games": 1
+  },
+  {
+    "id": "Mike Evans",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Mirza Teletovic",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Moritz Wagner",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Moses Moody",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Nazr Mohammed",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Nene",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Oliver Miller",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Omri Casspi",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Otis Smith",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Paul Pressey",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Pete Maravich",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Phil Smith",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Quinn Buckner",
+    "30plus_games": 2,
+    "40plus_games": 1
+  },
+  {
+    "id": "Ramon Sessions",
+    "30plus_games": 2,
+    "40plus_games": 1
+  },
+  {
+    "id": "Randy Breuer",
+    "30plus_games": 2,
+    "40plus_games": 1
+  },
+  {
+    "id": "Randy White",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Reed Sheppard",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Reggie King",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Richard Dumas",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Ricky Berry",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Ricky Sobers",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Robert Horry",
+    "30plus_games": 2,
+    "40plus_games": 1
+  },
+  {
+    "id": "Roger Mason",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Roger Phegley",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Rory Sparrow",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Rory White",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Roy Tarpley",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Rudy Gobert",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Rumeal Robinson",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Ryan Gomes",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Ryan Rollins",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Salim Stoudamire",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Sam Mitchell",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Santi Aldama",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Shabazz Muhammad",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Shabazz Napier",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Shane Battier",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Sidney Green",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Stacey Augmon",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Swen Nater",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Terry Furlow",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Tony Dumas",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Tony Wroten",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Travis Outlaw",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Tre Jones",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Tre Mann",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Trent Tucker",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Trevor Ruffin",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Troy Daniels",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Tyler Johnson",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Tyronn Lue",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Wayne Cooper",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Wendell Carter Jr.",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Will Bynum",
+    "30plus_games": 2,
+    "40plus_games": 0
+  },
+  {
+    "id": "Willie Burton",
+    "30plus_games": 2,
+    "40plus_games": 1
+  },
+  {
+    "id": "A.J. Lawson",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Abdul Jeelani",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Ace Bailey",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Acie Earl",
+    "30plus_games": 1,
+    "40plus_games": 1
+  },
+  {
+    "id": "Adam Keefe",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Adam Morrison",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Alan Anderson",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Alan Henderson",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Alec Peters",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Alex Caruso",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Allan Bristow",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Allonzo Trier",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Alton Lister",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Alvin Williams",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Amir Johnson",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Anderson Varejao",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Andris Biedrins",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Anthony Bowie",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Anthony Randolph",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Antonio Daniels",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Antonio Reeves",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Aron Baynes",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Austin Carr",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "B.J. Armstrong",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Ben McLemore",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Ben Poquette",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Bill Hanzlik",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Bill Walton",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Billy McKinney",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Billy Thompson",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Bob Wilkerson",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Boban Marjanovic",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Bobby Jackson",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Bones Hyland",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Brad Branson",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Brad Lohaus",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Brad Sellers",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Brandon Williams",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Brent Price",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Brevin Knight",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Brian Cardinal",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Bryn Forbes",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Bub Carrington",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Byron Mullens",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Cam Whitmore",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Carlos Arroyo",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Cedric Henderson",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Charles Davis",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Charlie Scott",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Chris Childs",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Chris Duarte",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Chris Duhon",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Chris Mills",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Christian Braun",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Chucky Brown",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Collin Gillespie",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Corey Brewer",
+    "30plus_games": 1,
+    "40plus_games": 1
+  },
+  {
+    "id": "Corey Kispert",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Cory Joseph",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Courtney Lee",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Craig Ehlo",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Dajuan Wagner",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Damien Wilkins",
+    "30plus_games": 1,
+    "40plus_games": 1
+  },
+  {
+    "id": "Damion Lee",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Damon Jones",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Damyean Dotson",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Daniel Gafford",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Danny Green",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Dario Saric",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Darnell Valentine",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Dave Cowens",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "DeAndre Jordan",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "DeShawn Stevenson",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Dennis Hopson",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Dennis Smith Jr.",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Denzel Valentine",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Derrick Alston",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Derrick Gervin",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Devin Brown",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Donald Sloan",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Donte Greene",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Doug Overton",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Doug Smith",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Draymond Green",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Elfrid Payton",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Emeka Okafor",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Eric Williams",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Erick Dampier",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Frank Jackson",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Frank Kaminsky",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Geoff Huston",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "George Lynch",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Georges Niang",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Gerald Henderson",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Greg Minor",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Harold Pressley",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Herbert Jones",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Howard Eisley",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Ike Diogu",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Isaac Austin",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Isaac Okoro",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Isaiah Canaan",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Isaiah Hartenstein",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Isaiah Roby",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Isaiah Stewart",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Ish Smith",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "J.J. Barea",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "JaVale McGee",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jabari Brown",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jae Crowder",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jae'Sean Tate",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jake LaRavia",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jalen Harris",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "James Johnson",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "James Robinson",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "James Wiseman",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jannero Pargo",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jared Sullinger",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jaren Jackson",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jaylen Nowell",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jaylen Wells",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jaylin Williams",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jayson Williams",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jeff Dowtin",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jerome Whitehead",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jerome Williams",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jerry Eaves",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jett Howard",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Joakim Noah",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Joe Ingles",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "John Amaechi",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "John Lucas",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "John Williams",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Johnny Moore",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jordan Farmar",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jose Alvarado",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jose Calderon",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Josh Christopher",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Juan Dixon",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Jumaine Jones",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Justin Champagnie",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Justin Holiday",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Justin James",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "KJ Martin",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Keita Bates-Diop",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Keith Edmonson",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Ken Bannister",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Kenneth Lofton Jr.",
+    "30plus_games": 1,
+    "40plus_games": 1
+  },
+  {
+    "id": "Keon Ellis",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Kevin Porter",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Khalid Reeves",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Kris Dunn",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Kris Humphries",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Kwame Brown",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Kyle Filipowski",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Kyshawn George",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "LaBradford Smith",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "LaSalle Thompson",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Lamar Stevens",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Lancaster Gordon",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Langston Galloway",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Larry Krystkowiak",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Larry Stewart",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Leon Powe",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Leon Wood",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Lucious Harris",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Luke Jackson",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Malachi Flynn",
+    "30plus_games": 1,
+    "40plus_games": 1
+  },
+  {
+    "id": "Malik Rose",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Marc Jackson",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Marcin Gortat",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Marco Belinelli",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Mario Hezonja",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Mark Bryant",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Mark Olberding",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Marreese Speights",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Melvin Turpin",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Michael Olowokandi",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Mike Sanders",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Mike Scott",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Mike Taylor",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Mitch Kupchak",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Mo Bamba",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Monty Williams",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Nassir Little",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Nerlens Noel",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Nique Clifford",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Noah Clowney",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Olden Polynice",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Oshae Brissett",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "P.J. Brown",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Pat Connaughton",
+    "30plus_games": 1,
+    "40plus_games": 1
+  },
+  {
+    "id": "Pat Garrity",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Patrick Williams",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Paul Dawkins",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Paul Reed",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Paul Watson",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Perry Jones",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Quincy Douby",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Quinn Cook",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Rafer Alston",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Randy Wittman",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Reggie Bullock",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Richie Frahm",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Rick Barry",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Rick Mahorn",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Robin Lopez",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Rodney McCray",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Rodrigue Beaubois",
+    "30plus_games": 1,
+    "40plus_games": 1
+  },
+  {
+    "id": "Ron Boone",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Roy Hibbert",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Rudy Macklin",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Sam Dekker",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Sam Mack",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Sam Merrill",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Sam Vincent",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Samuel Dalembert",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Sandro Mamukelashvili",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Sasha Danilovic",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Scotty Pippen Jr.",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Sean Kilpatrick",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Sean May",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Sebastian Telfair",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Shannon Brown",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Sharone Wright",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Skal Labissiere",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Sly Williams",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Solomon Hill",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Sonny Parker",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Spencer Hawes",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Stanley Johnson",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Steve Colter",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Steve Hawes",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Stromile Swift",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "T.J. McConnell",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Tari Eason",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Tariq Abdul-Wahad",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Terance Mann",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Terry Davis",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Terry Dehere",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Theo Maledon",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Tim Perry",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Tom Hammonds",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Tom McMillen",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Toney Douglas",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Tony Allen",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Tony Delk",
+    "30plus_games": 1,
+    "40plus_games": 1
+  },
+  {
+    "id": "Tony Massenburg",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Toumani Camara",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Trajan Langdon",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Travis Best",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Travis Mays",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Trevor Booker",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Tristan Thompson",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Troy Murphy",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Ty Jerome",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Tyler Hansbrough",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Tyler Ulis",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Tyrese Martin",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Tyrone Nesby",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "VJ Edgecombe",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Vladimir Radmanovic",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Walker Kessler",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Walter Herrmann",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Wayne Ellington",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Wayne Selden",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Will Richard",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Winford Boynes",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Winston Garland",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Yi Jianlian",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Yogi Ferrell",
+    "30plus_games": 1,
+    "40plus_games": 0
+  },
+  {
+    "id": "Zach Edey",
+    "30plus_games": 1,
+    "40plus_games": 0
+  }
+]

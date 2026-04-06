@@ -443,25 +443,10 @@ def api_answer():
     correct = ARTISTS_BY_ID.get(session['correct_artist_id'])
     return jsonify(correct)
 
-@app.route('/api/debug/answer')
-def api_debug_answer():
-    """Debug endpoint - shows answer (for testing only)"""
-    correct = ARTISTS_BY_ID.get(session.get('correct_artist_id'))
-    if not correct:
-        correct = get_daily_artist()
-    return jsonify(correct)
-
 @app.route('/api/reset', methods=['POST'])
 def api_reset():
-    """Reset game state for testing"""
     session.clear()
     return jsonify({'message': 'Game reset', 'status': 'ok'})
-
-@app.route('/api/debug/artist/<artist_id>')
-def api_debug_artist(artist_id):
-    """Debug endpoint - shows artist data"""
-    artist = ARTISTS_BY_ID.get(artist_id)
-    return jsonify(artist if artist else {'error': 'Not found'})
 
 @app.route('/api/next-reset')
 def api_next_reset():
@@ -520,14 +505,5 @@ if __name__ == '__main__':
     load_artists()
     port = int(os.environ.get('PORT', 5000))
     debug = os.environ.get('FLASK_DEBUG', 'false').lower() in ('1', 'true', 'yes')
-    loaded_from = getattr(load_artists, '_loaded_from', 'unknown')
-    print(f"\n{'='*50}")
-    print("Tracksy - Web App")
-    print(f"{'='*50}")
-    print(f"Data file: {loaded_from}")
-    print(f"Loaded {len(ARTISTS)} artists")
-    print(f"Today's artist: {get_daily_artist()['name']}")
-    print(f"\nOpen in browser: http://localhost:{port}")
-    print("(Restart the server after updating artists_raw.json to see changes)")
-    print(f"{'='*50}\n")
+    print(f"Trackzy: http://localhost:{port}")
     app.run(host='0.0.0.0', port=port, debug=debug)

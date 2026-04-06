@@ -88,6 +88,7 @@ def load_match_truth(data_root: str, season_key: str, match_id: int) -> Dict[str
         "season_key": season_key,
         "season_label": season_label(season_key),
         "round": 0,
+        "round_label": "",
         "home_team": "",
         "away_team": "",
         "home_team_id": 0,
@@ -106,6 +107,9 @@ def load_match_truth(data_root: str, season_key: str, match_id: int) -> Dict[str
             if row.get("match_id") != mid:
                 continue
             base["round"] = int(row.get("round") or 0)
+            rk = (row.get("round_kind") or "").strip().lower()
+            if rk == "super_final":
+                base["round_label"] = "Super Final"
             base["home_team"] = (row.get("home_team") or "").strip()
             base["away_team"] = (row.get("away_team") or "").strip()
             base["home_team_id"] = int(row["home_team_id"])
@@ -209,6 +213,7 @@ def public_challenge_payload(truth: Dict[str, Any]) -> Dict[str, Any]:
     return {
         "season_label": truth["season_label"],
         "round": truth["round"],
+        "round_label": (truth.get("round_label") or "").strip(),
         "home_team": truth["home_team"],
         "away_team": truth["away_team"],
         "home_team_id": truth["home_team_id"],

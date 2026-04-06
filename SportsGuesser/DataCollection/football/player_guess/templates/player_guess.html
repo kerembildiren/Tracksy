@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <title>Süper Lig Guess — SportsGuesser</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('player_guess.static', filename='player_guess.css') }}?v=1" />
+  <script>
+    window.__PLAYER_GUESS_ROOT__ = new URL("{{ url_for('player_guess.index') }}", window.location.origin).href.replace(/\/?$/, "/");
+  </script>
+</head>
+<body>
+  <div class="pg-app">
+    <div class="pg-home" id="pgHome">
+      <a class="pg-back" href="/sportsguesser/">← SportsGuesser</a>
+      <h1 class="pg-title">Süper Lig Guess</h1>
+      <p class="pg-tagline">Günde bir oyuncu · 10 tahmin · Süper Lig verisi</p>
+      <div class="pg-modes">
+        <button type="button" class="pg-mode pg-mode--primary" id="btnDaily">Günlük oyun</button>
+        <button type="button" class="pg-mode" id="btnCreate">Özel bulmaca oluştur</button>
+      </div>
+      <p class="pg-hint">Pozisyon, gol+asist, doğum yılı, milliyet, sezon sayısı ve en çok forma giydiği kulüp ipuçları verir.</p>
+    </div>
+
+    <div class="pg-game hidden" id="pgGame">
+      <header class="pg-header">
+        <button type="button" class="pg-icon-btn" id="btnBack" aria-label="Geri">←</button>
+        <span class="pg-header-title">Süper Lig Guess</span>
+        <span class="pg-placeholder"></span>
+      </header>
+      <div class="pg-dots" id="pgDots"></div>
+      <div class="pg-search-panel hidden" id="pgSearchPanel">
+        <div class="pg-search-row">
+          <input type="text" id="pgSearchInput" class="pg-search-input" placeholder="Oyuncu ara…" autocomplete="off" />
+          <button type="button" class="pg-btn pg-btn--primary" id="pgSearchClose">İptal</button>
+        </div>
+        <ul class="pg-search-results" id="pgSearchResults"></ul>
+      </div>
+      <div class="pg-guesses" id="pgGuesses"></div>
+      <div class="pg-footer-actions">
+        <button type="button" class="pg-btn pg-btn--primary pg-btn--block" id="pgActionBtn">Tahmin yap</button>
+      </div>
+    </div>
+
+    <div class="pg-modal hidden" id="pgCreateModal" role="dialog" aria-modal="true">
+      <div class="pg-modal-backdrop" id="pgCreateBackdrop"></div>
+      <div class="pg-modal-box">
+        <h2>Özel bulmaca</h2>
+        <p class="pg-muted">Bir oyuncu seçin, linki paylaşın.</p>
+        <input type="text" id="pgCreateInput" class="pg-search-input" placeholder="İsim yazın…" autocomplete="off" />
+        <ul class="pg-search-results" id="pgCreateResults"></ul>
+        <div id="pgCreateLinkWrap" class="hidden">
+          <label class="pg-muted">Link</label>
+          <input type="text" readonly class="pg-link-input" id="pgCreateLink" />
+          <button type="button" class="pg-btn pg-btn--primary" id="pgCreateCopy">Kopyala</button>
+          <button type="button" class="pg-btn" id="pgCreatePlay">Bu bulmacayı oyna</button>
+        </div>
+        <button type="button" class="pg-btn" id="pgCreateClose">Kapat</button>
+      </div>
+    </div>
+
+    <div class="pg-modal hidden" id="pgResultModal" role="dialog">
+      <div class="pg-modal-backdrop" id="pgResultBackdrop"></div>
+      <div class="pg-modal-box">
+        <h2 id="pgResultTitle">Sonuç</h2>
+        <p id="pgResultBody"></p>
+        <button type="button" class="pg-btn pg-btn--primary" id="pgResultOk">Tamam</button>
+      </div>
+    </div>
+  </div>
+  <script src="{{ url_for('player_guess.static', filename='player_guess.js') }}?v=1"></script>
+</body>
+</html>

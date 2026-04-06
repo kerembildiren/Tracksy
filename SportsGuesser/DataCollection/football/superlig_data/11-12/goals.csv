@@ -1,72 +1,790 @@
 match_id,minute,added_time,scorer,scorer_id,assist,assist_id,goal_type,is_home,home_score,away_score
-2587984,57,,Doka Madureira,52002,,,regular,True,1,1
-2587984,26,,Batuhan Karadeniz,31577,,,regular,False,0,1
-2587986,65,,Jan Rajnoch,12002,,,regular,True,4,0
-2587986,49,,Kamil Grosicki,33689,,,regular,True,3,0
-2587986,44,,Jan Rajnoch,12002,,,regular,True,2,0
-2587986,26,,Michael Eneramo,55026,,,regular,True,1,0
-2587880,61,,Moussa Sow,3215,,,regular,True,2,0
-2587880,36,,Cristian Baroni,34158,,,regular,True,1,0
-2605340,79,,Aydin Yilmaz,17797,,,regular,False,0,2
-2605340,26,,Felipe Melo,4811,,,regular,False,0,1
-2587988,89,,Samuel Holmén,7740,,,regular,False,3,2
-2587988,49,,Turgay Bahadir,3845,,,regular,True,3,1
-2587988,35,,Stanislav Šesták,13385,,,regular,True,2,1
-2587988,26,,Samuel Holmén,7740,,,regular,True,1,1
-2587988,6,,Doka Madureira,52002,,,regular,False,0,1
-2587990,63,,Jakub Navratil,12048,,,regular,False,1,1
-2587990,45,,Batuhan Karadeniz,31577,,,regular,True,1,0
-2587966,69,,Halil Altintop,58,,,regular,True,1,0
-2587964,80,,Miroslav Stoch,42860,,,regular,False,1,2
-2587964,68,,Selçuk İnan,31253,,,regular,True,1,1
-2587964,17,,Reto Ziegler,936,,,regular,False,0,1
-2587994,88,,Omer Can Sokullu,957352,,,regular,True,4,2
-2587994,77,,Doka Madureira,52002,,,regular,True,3,2
-2587994,44,,Serhat Gulpinar,5368,,,regular,True,2,2
-2587994,19,,Michael Eneramo,55026,,,regular,False,1,2
-2587994,14,,Michael Eneramo,55026,,,regular,False,1,1
-2587994,6,,Pierre Webó,4618,,,regular,True,1,0
-2587968,82,,Gustavo Colman,790572,,,regular,True,2,4
-2587968,61,,Emmanuel Eboué,533,,,regular,False,1,4
-2587968,60,,Gustavo Colman,790572,,,regular,True,1,3
-2587968,41,,Necati Ates,5708,,,regular,False,0,3
-2587968,22,,Necati Ates,5708,,,regular,False,0,2
-2587968,20,,Selçuk İnan,31253,,,regular,False,0,1
-2587992,87,,Vitor Pele,30387,,,regular,True,2,0
-2587992,31,,Diego Angelo,32818,,,regular,True,1,0
-2587970,84,,Egemen Korkmaz,43711,,,regular,True,2,1
-2587970,57,,Miroslav Stoch,42860,,,regular,True,1,1
-2587970,54,,Egemen Korkmaz,43711,,,regular,False,0,1
-2587998,89,,Pierre Webó,4618,,,regular,False,1,2
-2587998,60,,Doka Madureira,52002,,,regular,False,1,1
-2587998,3,,Ricardo Pedriel,33709,,,regular,True,1,0
-2587996,73,,Pablo Batalla,39974,,,regular,True,3,2
-2587996,68,,Erkan Zengin,7702,,,regular,False,2,2
-2587996,65,,Batuhan Karadeniz,31577,,,regular,False,2,1
-2587996,45,,Pablo Batalla,39974,,,regular,True,2,0
-2587996,44,,Sebastian Pinto,34067,,,regular,True,1,0
-2587974,45,,Hugo Almeida,12935,,,regular,True,1,0
-2588002,48,,Turgay Bahadir,3845,,,regular,True,2,0
-2588002,44,,Turgay Bahadir,3845,,,regular,True,1,0
-2588000,79,,Doka Madureira,52002,,,regular,False,3,1
-2588000,77,,Diomansy Kamara,870,,,regular,True,3,0
-2588000,30,,Veysel Sarı,98276,,,regular,True,2,0
-2588000,19,,Diomansy Kamara,870,,,regular,True,1,0
-2587978,88,,Tomas Ujfalusi,1422728,,,regular,False,2,2
-2587978,86,,Filip Hološko,12232,,,regular,False,2,1
-2587978,44,,Hugo Almeida,12935,,,regular,True,2,0
-2587978,9,,Felipe Melo,4811,,,regular,True,1,0
-2587976,85,,Cristian Baroni,34158,,,regular,False,1,3
-2587976,44,,Burak Yılmaz,18864,,,regular,True,1,2
-2587976,31,,Henri Bienvenu,107048,,,regular,False,0,2
-2587976,3,,Emre Belözoğlu,2054,,,regular,False,0,1
-2587982,85,,Olcan Adın,18767,,,regular,False,1,1
-2587982,69,,Filip Hološko,12232,,,regular,True,1,0
-2588004,81,,Turgay Bahadir,3845,,,regular,False,0,4
-2588004,60,,Sebastian Pinto,34067,,,regular,False,0,3
-2588004,44,,Pablo Batalla,39974,,,regular,False,0,2
-2588004,41,,Pablo Batalla,39974,,,regular,False,0,1
-2588006,64,,Michael Eneramo,55026,,,regular,True,1,3
-2588006,56,,Batuhan Karadeniz,31577,,,regular,False,0,3
-2588006,50,,Batuhan Karadeniz,31577,,,regular,False,0,2
-2588006,21,,Safet Nadarević,12699,,,regular,False,0,1
+1921055,79,,Uğur İnceman,6216,,,regular,True,1,0
+1921057,48,,Mert Nobre,5498,,,regular,False,0,1
+1921057,56,,Mert Nobre,5498,,,regular,False,0,2
+1921057,85,,Serdar Özkan,30032,,,regular,True,1,2
+1921059,25,,Diego Angelo De Oliveira,,,,regular,True,1,0
+1921059,44,,Hugo Almeida,12935,,,regular,False,1,1
+1921059,84,,Batuhan Karadeniz,31577,,,regular,True,2,1
+1921061,34,,Ozan Ipek,53828,,,regular,True,1,0
+1921061,38,,Gokcek Vederson,30133,,,regular,True,2,0
+1921061,64,,Pablo Batalla,39974,,,regular,True,3,0
+1921063,13,,Luton Shelton,15057,,,regular,True,1,0
+1921063,19,,Jakub Navratil,12048,,,regular,False,1,1
+1921063,23,,Birol Hikmet,816117,,,regular,True,2,1
+1921065,16,,Aristide Bancé,6102,,,regular,True,1,0
+1921065,23,,Alvaro Jose Dominguez Cabezas,,,,regular,True,2,0
+1921065,38,,Ehiosun Ekigho,,,,regular,True,3,0
+1921065,53,,Randall Azofeifa Corrales,,,,regular,False,3,1
+1921065,89,,Ishan Burak Ozsarac,5371,,,regular,False,3,2
+1921067,42,,Efe Inanc,43672,,,regular,True,1,0
+1921067,82,,Pierre Achille Webo Kouamo,,,,regular,True,2,0
+1921069,39,,Burak Yılmaz,18864,,,regular,False,0,1
+1921069,88,,Josh Simpson,10302,,,regular,True,1,1
+1921071,31,,Cristian Baroni,34158,,,regular,True,1,0
+1921073,5,,Morisson Nduka Ozokwo,31557,,,regular,True,1,0
+1921073,15,,Joseph Boum Ii,,,,regular,True,2,0
+1921073,47,,Ibrahim Teteh Bangura,,,,regular,True,3,0
+1921073,90,,Turgay Bahadir,3845,,,regular,False,3,1
+1921075,86,,Pierre Achille Webo Kouamo,,,,regular,False,0,1
+1921077,18,,Felipe Melo De Carvalho,,,,regular,True,1,0
+1921077,54,,Mustafa Sarp,5289,,,regular,False,1,1
+1921077,72,,Johan Elmander,1422568,,,regular,True,2,1
+1921077,75,,Selçuk İnan,31253,,,regular,True,3,1
+1921079,19,,Yasin Öztekin,21876,,,regular,True,1,0
+1921079,38,,Hursut Meric,32215,,,regular,True,2,0
+1921079,49,,Luton Shelton,15057,,,regular,False,2,1
+1921081,37,,Sidnei Rechel Da Silva Junior,,,,regular,True,1,0
+1921081,54,,Tonia D. Tisdell,,,,regular,True,2,0
+1921081,81,,Sidnei Rechel Da Silva Junior,,,,regular,True,3,0
+1921081,88,,Mustafa Pektemek,43643,,,regular,True,4,0
+1921083,83,,Necati Ates,5708,,,regular,False,0,1
+1921085,28,,Olcan Adın,18767,,,regular,True,1,0
+1921085,35,,Alex,12863,,,regular,False,1,1
+1921085,54,,Alex,12863,,,regular,False,1,2
+1921085,80,,Henri̇ Bi̇envenu Ntsama,,,,regular,False,1,3
+1921087,17,,Leonardo De Deus Santos,,,,regular,False,0,1
+1921087,32,,Mehmet Yildiz,5489,,,regular,True,1,1
+1921087,66,,Diomansy Kamara,870,,,regular,False,1,2
+1921087,88,,Batuhan Karadeniz,31577,,,regular,False,1,3
+1921089,11,,Sori̇n Bogdan Stancu,,,,regular,True,1,0
+1921091,41,,Issiar Dia,17986,,,regular,True,1,0
+1921091,65,,Omer Aysan Baris,43471,,,regular,False,1,1
+1921093,6,,Ibrahim Teteh Bangura,,,,regular,True,1,0
+1921093,87,,Tomáš Sivok,12412,,,regular,False,1,1
+1921093,89,,Filip Hološko,12232,,,regular,False,1,2
+1921095,72,,Erdem Özgenç,60332,,,regular,True,1,0
+1921095,82,,Felipe Melo De Carvalho,,,,regular,False,1,1
+1921097,21,,Veselin Milchev Minev,,,,regular,True,1,0
+1921097,48,,Uğur İnceman,6216,,,regular,True,2,0
+1921097,86,,Andre Roberto Soares Da Silva,,,,regular,False,2,1
+1921099,32,,Jakub Navratil,12048,,,regular,False,0,1
+1921099,51,,Kağan Söylemezgiller,106762,,,regular,True,1,1
+1921099,76,,Rasmussen Morten Ni̇colas,,,,regular,False,1,2
+1921103,17,,Fatih Tekke,6175,,,regular,False,0,1
+1921103,80,,Tevfik Köse,14976,,,regular,True,1,1
+1921105,4,,Ismael Sosa,37928,,,regular,True,1,0
+1921105,46,,Cristian Miguel Riveros Nunez,,,,regular,False,1,1
+1921105,69,,Zurab Khizanishvili,9325,,,regular,False,1,2
+1921107,32,,Burak Yılmaz,18864,,,regular,False,0,1
+1921107,85,,Ergün Teber,,,,regular,True,1,1
+1921719,22,,Soner Aydoğdu,69351,,,regular,True,1,0
+1921719,87,,Jan Rajnoch,12002,,,regular,False,1,1
+1921721,10,,Simao Pedro Da Fonseca Sabrosa,,,,regular,True,1,0
+1921723,43,,Francisco Lima Da Silva,,,,regular,False,0,1
+1921723,89,,Pierre Achille Webo Kouamo,,,,regular,False,0,2
+1921725,26,,Gökhan Zan,5743,,,regular,True,1,0
+1921725,51,,Felipe Melo De Carvalho,,,,regular,True,2,0
+1921727,47,,Michael Eneramo,55026,,,regular,True,1,0
+1921727,59,,Rasmussen Morten Ni̇colas,,,,regular,True,2,0
+1921727,75,,Rasmussen Morten Ni̇colas,,,,regular,True,3,0
+1921729,35,,André Moritz,60277,,,regular,True,1,0
+1921729,48,,Mert Nobre,5498,,,regular,True,2,0
+1921731,6,,Caner Erkin,15680,,,regular,False,0,1
+1921733,26,,Burak Yılmaz,18864,,,regular,True,1,0
+1921733,35,,Florin Cernat,18032,,,regular,False,1,1
+1921733,51,,Burak Yılmaz,18864,,,regular,True,2,1
+1921733,73,,Burak Yılmaz,18864,,,regular,True,3,1
+1921737,6,,Kamil Grosicki,33689,,,regular,False,0,1
+1921737,29,,Necati Ates,5708,,,regular,True,1,1
+1921737,60,,Necati Ates,5708,,,regular,True,2,1
+1921737,79,,Michael Eneramo,55026,,,regular,False,2,2
+1921739,21,,Gökhan Ünal,,,,regular,True,1,0
+1921739,23,,Mert Nobre,5498,,,regular,False,1,1
+1921739,42,,Mert Nobre,5498,,,regular,False,1,2
+1921739,73,,Gökhan Ünal,,,,regular,True,2,2
+1921743,47,,Miroslav Stoch,42860,,,regular,True,1,0
+1921743,59,,Alex,12863,,,regular,True,2,0
+1921743,70,,Gökhan Gönül,30137,,,regular,True,3,0
+1921743,79,,Pierre Achille Webo Kouamo,,,,regular,False,3,1
+1921743,87,,Pierre Achille Webo Kouamo,,,,regular,False,3,2
+1921743,89,,Cristian Baroni,34158,,,regular,True,4,2
+1921745,44,,Ozan Ipek,53828,,,regular,True,1,0
+1921745,68,,Ozan Ipek,53828,,,regular,True,2,0
+1921745,71,,Milan Stepanov,18470,,,regular,True,3,0
+1921745,82,,Turgay Bahadir,3845,,,regular,True,4,0
+1921747,12,,Jan Rajnoch,12002,,,regular,True,1,0
+1921747,20,,Kazim Kazim,,,,regular,False,1,1
+1921747,85,,Milan Baroš,699,,,regular,False,1,2
+1921749,55,,Burak Yılmaz,18864,,,regular,False,0,1
+1921749,57,,Burak Yılmaz,18864,,,regular,False,0,2
+1921751,21,,Sori̇n Bogdan Stancu,,,,regular,True,1,0
+1921751,24,,Fatih Tekke,6175,,,regular,False,1,1
+1921751,89,,Mehmet Batdal,,,,regular,True,2,1
+1921753,7,,Murat Erdogan,5907,,,regular,False,0,1
+1921753,27,,Omer Aysan Baris,43471,,,regular,False,0,2
+1921753,41,,Akaki Khubutia,55037,,,regular,True,1,2
+1921755,65,,Furkan Özçal,43684,,,regular,False,0,1
+1921755,80,,James Troisi,18999,,,regular,False,0,2
+1921757,1,,"Andre Roberto Soares Da Silva,90+",,,,regular,True,1,0
+1921757,4,,Özer Hurmacı,43425,,,regular,False,1,1
+1921757,53,,Henri̇ Bi̇envenu Ntsama,,,,regular,False,1,2
+1921759,48,,Sori̇n Bogdan Stancu,,,,regular,True,1,0
+1921759,51,,Juan Emmanuel Culi̇o,,,,regular,True,2,0
+1921759,65,,Diomansy Kamara,870,,,regular,False,2,1
+1921761,21,,Johan Elmander,1422568,,,regular,True,1,0
+1921761,80,,Serdar Aziz,43528,,,regular,False,1,1
+1921761,87,,Milan Baroš,699,,,regular,True,2,1
+1921763,4,,Deniz Baris,5507,,,regular,False,0,1
+1921763,22,,Aykut Demir,16948,,,regular,True,1,1
+1921763,33,,Oktay Delibalta,60637,,,regular,True,2,1
+1921767,57,,Francisco Lima Da Silva,,,,regular,True,1,0
+1921767,62,,Pierre Achille Webo Kouamo,,,,regular,True,2,0
+1921767,75,,Cihan Haspolatli,5693,,,regular,True,3,0
+1921769,38,,Promise Isaac,,,,regular,True,1,0
+1921769,72,,Promise Isaac,,,,regular,True,2,0
+1921769,89,,Ali̇ Kucik,,,,regular,True,3,0
+1921771,19,,Turgut Doğan Şahi̇n,,,,regular,True,1,0
+1921771,38,,Pawel Lukasz Brozek,,,,regular,True,2,0
+1921771,63,,Theo Weeks Lewis,,,,regular,True,3,0
+1921771,66,,Ondřej Čelůstka,45764,,,regular,True,4,0
+1921771,80,,Burak Yılmaz,18864,,,regular,True,5,0
+1921775,44,,Ahmet İlhan Özek,124831,,,regular,False,0,1
+1921775,71,,Koray Arslan,,,,regular,True,1,1
+1921777,19,,Mustafa Pektemek,43643,,,regular,False,0,1
+1921779,51,,Stanislav Šesták,13385,,,regular,True,1,0
+1921779,71,,Burak Yılmaz,18864,,,regular,False,1,1
+1921781,16,,Fatih Tekke,6175,,,regular,False,0,1
+1921781,49,,Sori̇n Bogdan Stancu,,,,regular,True,1,1
+1921783,23,,Florin Cernat,18032,,,regular,True,1,0
+1921783,82,,Bilal Kisa,5914,,,regular,True,2,0
+1921785,2,,"Gökhan Ünal,90+",,,,regular,True,1,0
+1921785,7,,Nordin Amrabat,27714,,,regular,True,2,0
+1921785,27,,Furkan Özçal,43684,,,regular,True,3,0
+1921785,34,,Kamil Grosicki,33689,,,regular,False,3,1
+1921785,67,,Gökhan Ünal,,,,regular,True,4,1
+1921785,76,,Nordin Amrabat,27714,,,regular,True,5,1
+1921785,82,,Okay Yokuşlu,97967,,,regular,True,6,1
+1921785,84,,Ci̇han Yilmaz,,,,regular,True,7,1
+1921787,12,,Muhammet Demir,43543,,,regular,True,1,0
+1921787,43,,Wagner Ferreira Dos Santos,,,,regular,True,2,0
+1921787,57,,Muhammet Demir,43543,,,regular,True,3,0
+1921791,44,,Prince Tagoe,1422787,,,regular,False,0,1
+1921791,89,,Yalçın Ayhan,43507,,,regular,True,1,1
+1921793,71,,Soner Aydoğdu,69351,,,regular,True,1,0
+1921795,35,,Murat Erdogan,5907,,,regular,True,1,0
+1921795,61,,Yigit Ismail Gokoglan,60248,,,regular,True,2,0
+1921797,7,,Selçuk İnan,31253,,,regular,True,1,0
+1921797,33,,Muhammet Demir,43543,,,regular,False,1,1
+1921797,37,,Ivelin Popov,29308,,,regular,False,1,2
+1921797,65,,Johan Elmander,1422568,,,regular,True,2,2
+1921797,68,,Orhan Gulle,114217,,,regular,False,2,3
+1921797,88,,Cenk Tosun,72127,,,regular,False,2,4
+1921799,22,,Michael Eneramo,55026,,,regular,True,1,0
+1921801,12,,Simao Pedro Da Fonseca Sabrosa,,,,regular,True,1,0
+1921801,60,,Alex,12863,,,regular,False,1,1
+1921801,72,,Hugo Almeida,12935,,,regular,True,2,1
+1921801,88,,Cristian Baroni,34158,,,regular,False,2,2
+1921805,39,,Samuel Tobias Holmen,,,,regular,True,1,0
+1921805,52,,Mehmet Yildiz,5489,,,regular,True,2,0
+1921805,88,,Veysel Sarı,98276,,,regular,False,2,1
+1921805,89,,Samuel Tobias Holmen,,,,regular,True,3,1
+1921807,22,,Deniz Baris,5507,,,regular,False,0,1
+1921807,26,,Ali Zitouni,14764,,,regular,False,0,2
+1921807,57,,Burak Yılmaz,18864,,,regular,True,1,2
+1921807,77,,Burak Yılmaz,18864,,,regular,True,2,2
+1921809,26,,Hürri̇yet Gücer,,,,regular,True,1,0
+1921809,43,,Francisco Lima Da Silva,,,,regular,False,1,1
+1921809,85,,Samuel Tobias Holmen,,,,regular,False,1,2
+1921811,11,,Roberto Hilbert,2363,,,regular,True,1,0
+1921811,59,,Kamil Grosicki,33689,,,regular,False,1,1
+1921811,77,,Simao Pedro Da Fonseca Sabrosa,,,,regular,True,2,1
+1921811,89,,Filip Hološko,12232,,,regular,True,3,1
+1921813,90,,Halil Altintop,58,,,regular,False,0,1
+1921815,6,,Sedat Bayrak,31731,,,regular,False,0,1
+1921815,75,,Mehmet Eren Boyraz,42225,,,regular,True,1,1
+1921819,9,,Alper Potuk,55028,,,regular,True,1,0
+1921821,6,,Erman Ozgur,5299,,,regular,True,1,0
+1921821,31,,André Moritz,60277,,,regular,True,2,0
+1921821,89,,Herve Germain Tum,3132,,,regular,False,2,1
+1921823,39,,Johan Elmander,1422568,,,regular,False,0,1
+1921823,72,,Selçuk İnan,31253,,,regular,False,0,2
+1921825,17,,Henri̇ Bi̇envenu Ntsama,,,,regular,True,1,0
+1921829,29,,Burak Yılmaz,18864,,,regular,True,1,0
+1921829,74,,Burak Yılmaz,18864,,,regular,True,2,0
+1921829,88,,James Troisi,18999,,,regular,False,2,1
+1921835,4,,Fabian Ernst,486,,,regular,False,0,1
+1921835,24,,Mustafa Pektemek,43643,,,regular,False,0,2
+1921835,54,,Herve Germain Tum,3132,,,regular,True,1,2
+1921835,55,,Hursut Meric,32215,,,regular,True,2,2
+1921835,77,,Egemen Korkmaz,43711,,,regular,False,2,3
+1921835,89,,Erdal Kılıçaslan,43693,,,regular,True,3,3
+1921837,37,,Michael Eneramo,55026,,,regular,True,1,0
+1921837,72,,Kamil Grosicki,33689,,,regular,True,2,0
+1921839,25,,Veysel Sarı,98276,,,regular,False,0,1
+1921839,51,,Diomansy Kamara,870,,,regular,False,0,2
+1921839,74,,Luton Shelton,15057,,,regular,True,1,2
+1921841,2,,Simon Zenke,27011,,,regular,True,1,0
+1921841,42,,Murat Yildirim,60641,,,regular,True,2,0
+1921841,74,,Hürri̇yet Gücer,,,,regular,True,3,0
+1921841,77,,Aybars Garhan,187637,,,regular,False,3,1
+1921843,80,,Promise Isaac,,,,regular,True,1,0
+1921847,69,,Giray Kacar,35583,,,regular,False,0,1
+1921847,80,,André Moritz,60277,,,regular,True,1,1
+1921849,14,,Henri̇ Bi̇envenu Ntsama,,,,regular,True,1,0
+1921851,27,,Pierre Achille Webo Kouamo,,,,regular,False,0,1
+1921851,41,,Ali Tandogan,5303,,,regular,True,1,1
+1921851,43,,Ekrem Ekşi̇oğlu,,,,regular,True,2,1
+1921853,73,,Michael Basser Chretien,,,,regular,True,1,0
+1921855,7,,Aybars Garhan,187637,,,regular,True,1,0
+1921855,70,,İlhan Parlak,,,,regular,True,2,0
+1921855,74,,Tonia D. Tisdell,,,,regular,True,3,0
+1921857,30,,Ricardo Pedriel Suarez,,,,regular,True,1,0
+1921857,69,,Herve Germain Tum,3132,,,regular,False,1,1
+1921859,35,,Gökhan Ünal,,,,regular,True,1,0
+1921861,2,,Olcan Adın,18767,,,regular,True,1,0
+1921861,88,,Promise Isaac,,,,regular,False,1,1
+1921863,35,,Luton Shelton,15057,,,regular,True,1,0
+1921863,53,,Florin Cernat,18032,,,regular,True,2,0
+1921863,84,,Ibrahim Teteh Bangura,,,,regular,True,3,0
+1921863,88,,Mehmet Cakir,43424,,,regular,True,4,0
+1921865,26,,Francisco Lima Da Silva,,,,regular,True,1,0
+1921865,42,,Cihan Haspolatli,5693,,,regular,True,2,0
+1921865,47,,Olcan Adın,18767,,,regular,False,2,1
+1921865,68,,Francisco Lima Da Silva,,,,regular,True,3,1
+1921867,78,,Ricardo Andrade Quaresma Bernardo,,,,regular,False,0,1
+1921869,63,,Mert Nobre,5498,,,regular,False,0,1
+1921871,45,,Engin Baytar,43642,,,regular,True,1,0
+1921871,59,,Milan Baroš,699,,,regular,True,2,0
+1921871,71,,Erman Kılıç,43664,,,regular,False,2,1
+1921875,28,,Diomansy Kamara,870,,,regular,True,1,0
+1921875,44,,Özgür Çek,,,,regular,True,2,0
+1921875,72,,Aybars Garhan,187637,,,regular,False,2,1
+1921875,75,,Turgut Doğan Şahi̇n,,,,regular,True,3,1
+1921875,89,,Diego Angelo De Oliveira,,,,regular,True,4,1
+1921877,3,,Aristide Bancé,6102,,,regular,True,1,0
+1921879,5,,Murat Erdogan,5907,,,regular,True,1,0
+1921881,38,,Meli̇h Gökçek,,,,regular,True,1,0
+1921881,56,,Uğur İnceman,6216,,,regular,True,2,0
+1921881,89,,Bilal Kisa,5914,,,regular,False,2,1
+1921885,86,,Okay Yokuşlu,97967,,,regular,True,1,0
+1921887,87,,Leonardo De Deus Santos,,,,regular,False,0,1
+1921889,71,,Emmanuel Eboué,533,,,regular,False,0,1
+1921891,23,,Ricardo Pedriel Suarez,,,,regular,True,1,0
+1921891,48,,Paulo Henrique Carneiro Filho,,,,regular,False,1,1
+1921891,69,,Volkan Şen,43533,,,regular,False,1,2
+1921891,75,,Erman Kılıç,43664,,,regular,True,2,2
+1921893,37,,Veli Kavlak,5508,,,regular,True,1,0
+1921893,65,,Juan Emmanuel Culi̇o,,,,regular,True,2,0
+1921893,72,,Fabian Ernst,486,,,regular,True,3,0
+1921895,81,,Muhammet Demir,43543,,,regular,True,1,0
+1921897,18,,Miroslav Stoch,42860,,,regular,True,1,0
+1921897,42,,Murat Duruer,,,,regular,True,2,0
+1921897,51,,Cristian Baroni,34158,,,regular,True,3,0
+1921897,58,,Miroslav Stoch,42860,,,regular,True,4,0
+1921897,83,,Ergin Keleş,43720,,,regular,False,4,1
+1921897,88,,Issiar Dia,17986,,,regular,True,5,1
+1921901,89,,Batuhan Karadeniz,31577,,,regular,True,1,0
+1921903,14,,Soner Aydoğdu,69351,,,regular,False,0,1
+1921903,54,,Yasin Öztekin,21876,,,regular,False,0,2
+1921903,60,,Gustavo Colman,790572,,,regular,True,1,2
+1921905,28,,Miguel Angelo Moita Garcia,,,,regular,True,1,0
+1921905,32,,Mehmet Nas,5783,,,regular,False,1,1
+1921905,35,,Tobias Nickenig,,,,regular,True,2,1
+1921907,33,,Emmanuel Eboué,533,,,regular,True,1,0
+1921907,41,,Johan Elmander,1422568,,,regular,True,2,0
+1921907,66,,Felipe Melo De Carvalho,,,,regular,True,3,0
+1921907,90,,Alex,12863,,,regular,False,3,1
+1921911,1,,James Troisi,18999,,,regular,False,0,1
+1921915,31,,Ricardo Andrade Quaresma Bernardo,,,,regular,False,0,1
+1921915,44,,Mustafa Pektemek,43643,,,regular,False,0,2
+1921915,52,,Tomáš Sivok,12412,,,regular,False,0,3
+1921915,56,,Murat Erdogan,5907,,,regular,True,1,3
+1921915,79,,Manuel Fernandes,12982,,,regular,False,1,4
+1921917,80,,Ali Zitouni,14764,,,regular,True,1,0
+1921919,14,,Milan Cerny,12187,,,regular,True,1,0
+1921919,25,,Promise Isaac,,,,regular,False,1,1
+1921919,63,,Promise Isaac,,,,regular,False,1,2
+1921919,76,,Ricardo Pedriel Suarez,,,,regular,True,2,2
+1921921,44,,Gökhan Ünal,,,,regular,True,1,0
+1921921,82,,Nordin Amrabat,27714,,,regular,True,2,0
+1921923,39,,Semih Şentürk,5511,,,regular,False,0,1
+1921923,83,,Miroslav Stoch,42860,,,regular,False,0,2
+1921925,46,,Juan Emmanuel Culi̇o,,,,regular,True,1,0
+1921925,49,,Yasin Öztekin,21876,,,regular,True,2,0
+1921925,59,,Herve Germain Tum,3132,,,regular,True,3,0
+1921925,89,,Yalçın Ayhan,43507,,,regular,False,3,1
+1921927,71,,Mustafa Pektemek,43643,,,regular,True,1,0
+1921927,87,,Tevfik Köse,14976,,,regular,False,1,1
+1921929,85,,Andre Roberto Soares Da Silva,,,,regular,True,1,0
+1921931,56,,Serdar Özbayraktar,43576,,,regular,False,0,1
+1921933,5,,Johan Elmander,1422568,,,regular,False,0,1
+1921933,44,,Selçuk İnan,31253,,,regular,False,0,2
+1921933,90,,Ceyhun Gülselam,20747,,,regular,False,0,3
+1921935,51,,Veysel Sarı,98276,,,regular,True,1,0
+1921937,21,,Milan Cerny,12187,,,regular,False,0,1
+1921937,24,,Francisco Lima Da Silva,,,,regular,True,1,1
+1921939,24,,Mehmet Topuz,21825,,,regular,True,1,0
+1921941,22,,Milan Baroš,699,,,regular,False,0,1
+1921941,67,,Kazim Kazim,,,,regular,False,0,2
+1921947,3,,İlhan Parlak,,,,regular,True,1,0
+1921947,10,,Bilal Kisa,5914,,,regular,True,2,0
+1921947,16,,André Moritz,60277,,,regular,False,2,1
+1921947,23,,Florin Cernat,18032,,,regular,True,3,1
+1921947,25,,André Moritz,60277,,,regular,False,3,2
+1921947,55,,Andre Roberto Soares Da Silva,,,,regular,False,3,3
+1921947,87,,Wissem Ben Yahia,47262,,,regular,False,3,4
+1921947,90,,Morisson Nduka Ozokwo,31557,,,regular,False,3,5
+1921949,37,,Murat Yildirim,60641,,,regular,True,1,0
+1921949,78,,Eduardo Gonçalves De Oliveira,,,,regular,False,1,1
+1921951,60,,Herve Germain Tum,3132,,,regular,False,0,1
+1921955,37,,Hugo Almeida,12935,,,regular,True,1,0
+1921957,32,,Olcan Adın,18767,,,regular,True,1,0
+1921957,56,,Ibrahim Teteh Bangura,,,,regular,True,2,0
+1921957,65,,Elyasa Süme,6160,,,regular,True,3,0
+1921957,85,,Ozan Ipek,53828,,,regular,False,3,1
+1921959,64,,Selçuk İnan,31253,,,regular,True,1,0
+1921961,8,,Yasin Öztekin,21876,,,regular,True,1,0
+1921961,24,,Herve Germain Tum,3132,,,regular,True,2,0
+1921961,43,,Herve Germain Tum,3132,,,regular,True,3,0
+1921961,72,,Ermin Zec,44279,,,regular,True,4,0
+1921963,15,,Aristide Bancé,6102,,,regular,False,0,1
+1921963,19,,Milan Cerny,12187,,,regular,True,1,1
+1921963,27,,Kamil Grosicki,33689,,,regular,True,2,1
+1921963,57,,Mehmet Nas,5783,,,regular,True,3,1
+1921963,73,,Aristide Bancé,6102,,,regular,False,3,2
+1921967,5,,James Troisi,18999,,,regular,True,1,0
+1921967,21,,James Troisi,18999,,,regular,True,2,0
+1921967,31,,Sefa Yılmaz,39737,,,regular,True,3,0
+1921969,22,,Halil Altintop,58,,,regular,True,1,0
+1921969,33,,Burak Yılmaz,18864,,,regular,True,2,0
+1921969,42,,Burak Yılmaz,18864,,,regular,True,3,0
+1921969,76,,Burak Yılmaz,18864,,,regular,True,4,0
+1921969,89,,Hakan Özmert,43512,,,regular,False,4,1
+1921971,86,,Cenk Tosun,72127,,,regular,True,1,0
+1921973,1,,Ergin Keleş,43720,,,regular,False,0,1
+1921973,67,,Erman Ozgur,5299,,,regular,True,1,1
+1921973,70,,Ergin Keleş,43720,,,regular,False,1,2
+1921975,54,,Tomáš Sivok,12412,,,regular,True,1,0
+1921975,89,,Mustafa Pektemek,43643,,,regular,True,2,0
+1921977,20,,Pablo Batalla,39974,,,regular,False,0,1
+1921977,72,,Milan Stepanov,18470,,,regular,False,0,2
+1921979,11,,Erman Kılıç,43664,,,regular,True,1,0
+1921979,45,,Kadir Bekmezci,43632,,,regular,True,2,0
+1921979,74,,Michael Eneramo,55026,,,regular,True,3,0
+1921981,42,,Murat Yildirim,60641,,,regular,False,0,1
+1921981,44,,Michael Fink,136,,,regular,False,0,2
+1921983,7,,Emre Çolak,68002,,,regular,True,1,0
+1921983,14,,Edin Višća,109779,,,regular,False,1,1
+1921983,51,,Emre Çolak,68002,,,regular,True,2,1
+1921983,72,,Milan Baroš,699,,,regular,True,3,1
+1921983,89,,Selçuk İnan,31253,,,regular,True,4,1
+1921985,40,,Halil Altintop,58,,,regular,True,1,0
+1921985,63,,Promise Isaac,,,,regular,False,1,1
+1921985,81,,Burak Yılmaz,18864,,,regular,True,2,1
+1921987,18,,Sori̇n Bogdan Stancu,,,,regular,True,1,0
+1921987,50,,Emre Belözoğlu,2054,,,regular,False,1,1
+1921989,89,,Pablo Batalla,39974,,,regular,True,1,0
+1921991,80,,Burak Yılmaz,18864,,,regular,False,0,1
+1921991,90,,Burak Yılmaz,18864,,,regular,False,0,2
+1921993,22,,Ehiosun Ekigho,,,,regular,True,1,0
+1921993,32,,Ehiosun Ekigho,,,,regular,True,2,0
+1921993,51,,Semih Kaya,47599,,,regular,False,2,1
+1921993,70,,Selçuk İnan,31253,,,regular,False,2,2
+1921993,78,,Milan Baroš,699,,,regular,False,2,3
+1921993,84,,Sercan Yıldırım,43173,,,regular,False,2,4
+1921995,7,,Luton Shelton,15057,,,regular,True,1,0
+1921995,40,,Herve Germain Tum,3132,,,regular,False,1,1
+1921995,57,,Mustafa Sarp,5289,,,regular,True,2,1
+1921999,55,,Necati Ates,5708,,,regular,True,1,0
+1922001,13,,Bekir Ozan Has,43530,,,regular,False,0,1
+1922001,75,,Miroslav Stoch,42860,,,regular,True,1,1
+1922001,77,,Cristian Baroni,34158,,,regular,True,2,1
+1922001,89,,Mehmet Topuz,21825,,,regular,True,3,1
+1922003,45,,Diomansy Kamara,870,,,regular,True,1,0
+1922003,90,,Ricardo Pedriel Suarez,,,,regular,False,1,1
+1922007,55,,Caner Erkin,15680,,,regular,False,0,1
+1922007,61,,Josh Simpson,10302,,,regular,True,1,1
+1922007,89,,Yi̇ği̇t İncedemi̇r,,,,regular,True,2,1
+1922009,7,,Hugo Almeida,12935,,,regular,True,1,0
+1922009,35,,Pablo Batalla,39974,,,regular,False,1,1
+1922009,38,,Eduardo Gonçalves De Oliveira,,,,regular,True,2,1
+1922009,83,,Mustafa Pektemek,43643,,,regular,True,3,1
+1922011,2,,Milan Baroš,699,,,regular,True,1,0
+1922011,42,,Johan Elmander,1422568,,,regular,True,2,0
+1922011,47,,Felipe Melo De Carvalho,,,,regular,True,3,0
+1922011,66,,Mustafa Sarp,5289,,,regular,False,3,1
+1922011,68,,Johan Elmander,1422568,,,regular,True,4,1
+1922011,87,,Engin Baytar,43642,,,regular,True,5,1
+1922013,12,,Meli̇h Gökçek,,,,regular,False,0,1
+1922013,25,,Ali Zitouni,14764,,,regular,False,0,2
+1922015,14,,Michael Eneramo,55026,,,regular,True,1,0
+1922015,16,,Kamil Grosicki,33689,,,regular,True,2,0
+1922015,66,,Cihan Özkara,90629,,,regular,True,3,0
+1922017,23,,Herve Germain Tum,3132,,,regular,True,1,0
+1922017,25,,Leonardo De Deus Santos,,,,regular,False,1,1
+1922017,53,,Oktay Delibalta,60637,,,regular,True,2,1
+1922019,74,,Hakan Özmert,43512,,,regular,True,1,0
+1922021,44,,Gökhan Ünal,,,,regular,True,1,0
+1922021,56,,Elyasa Süme,6160,,,regular,False,1,1
+1922023,17,,Burak Yılmaz,18864,,,regular,True,1,0
+1922023,63,,Paulo Henrique Carneiro Filho,,,,regular,True,2,0
+1922023,83,,Olcan Adın,18767,,,regular,True,3,0
+1922023,89,,Burak Yılmaz,18864,,,regular,True,4,0
+1922025,19,,Hursut Meric,32215,,,regular,False,0,1
+1922027,3,,"Meli̇h Gökçek,90+",,,,regular,True,1,0
+1922027,63,,Hugo Almeida,12935,,,regular,False,1,1
+1922027,89,,Manuel Fernandes,12982,,,regular,False,1,2
+1922029,10,,Efe Inanc,43672,,,regular,True,1,0
+1922029,15,,Hüseyi̇n Tok,,,,regular,True,2,0
+1922029,19,,Francisco Lima Da Silva,,,,regular,True,3,0
+1922029,33,,Murat Erdogan,5907,,,regular,False,3,1
+1922029,72,,Ahmet İlhan Özek,124831,,,regular,False,3,2
+1922033,24,,Michael Eneramo,55026,,,regular,False,0,1
+1922033,85,,Pablo Batalla,39974,,,regular,True,1,1
+1922033,89,,Cihan Özkara,90629,,,regular,False,1,2
+1922035,8,,Ivelin Popov,29308,,,regular,True,1,0
+1922037,10,,Alex,12863,,,regular,True,1,0
+1922037,66,,Alex,12863,,,regular,True,2,0
+1922037,77,,Miroslav Stoch,42860,,,regular,True,3,0
+1922037,89,,Henri̇ Bi̇envenu Ntsama,,,,regular,True,4,0
+1922039,44,,Florin Cernat,18032,,,regular,True,1,0
+1922039,55,,Sanel Jahic,1856693,,,regular,True,2,0
+1922039,69,,Burak Yılmaz,18864,,,regular,False,2,1
+1922041,20,,Theofanis Gekas,12682,,,regular,True,1,0
+1922041,75,,Theofanis Gekas,12682,,,regular,True,2,0
+1922043,32,,Mehmet Nas,5783,,,regular,True,1,0
+1922043,57,,Erman Kılıç,43664,,,regular,True,2,0
+1922043,63,,Meli̇h Gökçek,,,,regular,False,2,1
+1922045,53,,Spas Delev,80999,,,regular,True,1,0
+1922045,59,,Emir Kujović,22601,,,regular,False,1,1
+1922045,74,,Emir Kujović,22601,,,regular,False,1,2
+1922047,41,,Elyasa Süme,6160,,,regular,False,0,1
+1922047,47,,Hugo Almeida,12935,,,regular,True,1,1
+1922047,67,,Ismael Sosa,37928,,,regular,False,1,2
+1922047,85,,Hugo Almeida,12935,,,regular,True,2,2
+1922047,90,,Egemen Korkmaz,43711,,,regular,True,3,2
+1922049,3,,Samuel Tobias Holmen,,,,regular,True,1,0
+1922049,52,,Emre Belözoğlu,2054,,,regular,False,1,1
+1922049,57,,Pierre Achille Webo Kouamo,,,,regular,True,2,1
+1922049,72,,Samuel Tobias Holmen,,,,regular,True,3,1
+1922049,88,,Alex,12863,,,regular,False,3,2
+1922051,39,,Sebastian Andres Pinto Perurena,,,,regular,False,0,1
+1922051,41,,Alfred John Momar Ndiaye,,,,regular,False,0,2
+1922051,79,,Özgür İleri,81956,,,regular,True,1,2
+1922051,87,,Yasin Öztekin,21876,,,regular,True,2,2
+1922053,4,,Gökhan Zan,5743,,,regular,True,1,0
+1922053,9,,Emre Çolak,68002,,,regular,True,2,0
+1922053,54,,Alberto Riera Ortega,,,,regular,True,3,0
+1922053,76,,Yigit Ismail Gokoglan,60248,,,regular,True,4,0
+1922055,29,,Halil Altintop,58,,,regular,True,1,0
+1922055,40,,Burak Yılmaz,18864,,,regular,True,2,0
+1922055,44,,Marek Cech,12933,,,regular,True,3,0
+1922055,56,,Diego Angelo De Oliveira,,,,regular,False,3,1
+1922055,82,,Olcan Adın,18767,,,regular,True,4,1
+1922057,5,,Ali Çamdalı,8870,,,regular,True,1,0
+1922057,24,,Juan Emmanuel Culi̇o,,,,regular,True,2,0
+1922057,29,,Sori̇n Bogdan Stancu,,,,regular,True,3,0
+1922057,43,,Larrys Mabiala,21556,,,regular,False,3,1
+1922057,57,,Kağan Söylemezgiller,106762,,,regular,False,3,2
+1922059,10,,Promise Isaac,,,,regular,True,1,0
+1922059,83,,Kemal Tokak,1003483,,,regular,False,1,1
+1922061,1,,James Troisi,18999,,,regular,True,1,0
+1922063,7,,Henri̇ Bi̇envenu Ntsama,,,,regular,True,1,0
+1922063,39,,Miroslav Stoch,42860,,,regular,True,2,0
+1922063,57,,Morisson Nduka Ozokwo,31557,,,regular,False,2,1
+1922065,55,,Sori̇n Bogdan Stancu,,,,regular,True,1,0
+1922067,50,,Pablo Batalla,39974,,,regular,True,1,0
+1922069,14,,Meli̇h Gökçek,,,,regular,True,1,0
+1922069,44,,Hursut Meric,32215,,,regular,False,1,1
+1922069,81,,Necati Ates,5708,,,regular,True,2,1
+1922069,87,,Herve Germain Tum,3132,,,regular,False,2,2
+1922071,30,,Michael Eneramo,55026,,,regular,False,0,1
+1922071,52,,Kağan Ti̇murci̇n Konuk,,,,regular,True,1,1
+1922071,73,,Muhammet Demir,43543,,,regular,True,2,1
+1922073,43,,Metin Depe,43662,,,regular,False,0,1
+1922073,52,,Taner Yalçın,38459,,,regular,False,0,2
+1922073,72,,Francisco Lima Da Silva,,,,regular,False,0,3
+1922073,82,,Alvaro Jose Dominguez Cabezas,,,,regular,True,1,3
+1922073,84,,Pierre Achille Webo Kouamo,,,,regular,False,1,4
+1922073,89,,Theofanis Gekas,12682,,,regular,True,2,4
+1922075,51,,Murat Erdogan,5907,,,regular,False,0,1
+1922075,69,,Mehmet Yildiz,5489,,,regular,True,1,1
+1922075,89,,Florin Cernat,18032,,,regular,True,2,1
+1922077,12,,Olcan Adın,18767,,,regular,False,0,1
+1922077,56,,Burak Yılmaz,18864,,,regular,False,0,2
+1922077,76,,İshak Doğan,124331,,,regular,True,1,2
+1922077,77,,Burak Yılmaz,18864,,,regular,False,1,3
+1922079,21,,Emrah Başsan,174141,,,regular,False,0,1
+1922079,35,,Felipe Melo De Carvalho,,,,regular,True,1,1
+1922081,1,,Nemanja Vucicevic,2391,,,regular,True,1,0
+1922081,10,,Veysel Sarı,98276,,,regular,False,1,1
+1922081,30,,Ahmet İlhan Özek,124831,,,regular,True,2,1
+1922081,53,,Diego Angelo De Oliveira,,,,regular,False,2,2
+1922081,81,,Diego Angelo De Oliveira,,,,regular,False,2,3
+1922083,43,,Erdal Kılıçaslan,43693,,,regular,False,0,1
+1922085,30,,Giray Kacar,35583,,,regular,True,1,0
+1922085,54,,Ozan Ipek,53828,,,regular,False,1,1
+1922085,66,,Giray Kacar,35583,,,regular,True,2,1
+1922087,27,,Sori̇n Bogdan Stancu,,,,regular,True,1,0
+1922087,45,,Hasan Kabze,5716,,,regular,True,2,0
+1922091,46,,Michael Eneramo,55026,,,regular,True,1,0
+1922091,64,,James Troisi,18999,,,regular,False,1,1
+1922093,80,,Oktay Delibalta,60637,,,regular,True,1,0
+1922095,6,,Miroslav Stoch,42860,,,regular,False,0,1
+1922095,42,,Theofanis Gekas,12682,,,regular,True,1,1
+1922095,70,,Theofanis Gekas,12682,,,regular,True,2,1
+1922095,75,,Theofanis Gekas,12682,,,regular,True,3,1
+1922099,27,,Aykut Demir,16948,,,regular,False,0,1
+1922099,45,,James Troisi,18999,,,regular,True,1,1
+1922099,57,,Herve Germain Tum,3132,,,regular,False,1,2
+1922099,71,,Cristian Miguel Riveros Nunez,,,,regular,True,2,2
+1922099,89,,Ermin Zec,44279,,,regular,False,2,3
+1922101,60,,Nemanja Vucicevic,2391,,,regular,False,0,1
+1922103,47,,Ivelin Popov,29308,,,regular,True,1,0
+1922103,53,,Necati Ates,5708,,,regular,False,1,1
+1922103,65,,Johan Elmander,1422568,,,regular,False,1,2
+1922105,7,,Kıvanç Karakaş,60349,,,regular,False,0,1
+1922105,48,,Erman Kılıç,43664,,,regular,False,0,2
+1922105,50,,Tonia D. Tisdell,,,,regular,True,1,2
+1922105,56,,Kıvanç Karakaş,60349,,,regular,False,1,3
+1922105,63,,Erman Kılıç,43664,,,regular,False,1,4
+1922105,89,,Jan Rajnoch,12002,,,regular,False,1,5
+1922107,14,,Joseph Yobo,1143,,,regular,True,1,0
+1922107,90,,Moussa Sow,3215,,,regular,True,2,0
+1922109,15,,İlhan Parlak,,,,regular,True,1,0
+1922109,55,,İlhan Parlak,,,,regular,True,2,0
+1922109,87,,Murat Yildirim,60641,,,regular,False,2,1
+1922111,10,,Diomansy Kamara,870,,,regular,True,1,0
+1922111,21,,Diomansy Kamara,870,,,regular,True,2,0
+1922111,27,,Metin Depe,43662,,,regular,False,2,1
+1922111,87,,Bulent Ertugrul,5367,,,regular,True,3,1
+1922113,3,,Mehmet Eren Boyraz,42225,,,regular,True,1,0
+1922113,19,,Mustafa Yumlu,124643,,,regular,False,1,1
+1922113,76,,Meli̇h Gökçek,,,,regular,True,2,1
+1922115,12,,Pierre Achille Webo Kouamo,,,,regular,True,1,0
+1922115,55,,Serol Demirhan,144031,,,regular,False,1,1
+1922115,83,,Pierre Achille Webo Kouamo,,,,regular,True,2,1
+1922117,43,,Tomáš Sivok,12412,,,regular,False,0,1
+1922117,85,,Erman Kılıç,43664,,,regular,True,1,1
+1922119,6,,Ivelin Popov,29308,,,regular,False,0,1
+1922119,56,,Burak Yılmaz,18864,,,regular,True,1,1
+1922119,65,,Mustafa Yumlu,124643,,,regular,True,2,1
+1922119,69,,Marek Sapara,,,,regular,True,3,1
+1922119,79,,Burak Yılmaz,18864,,,regular,True,4,1
+1922121,7,,Hasan Kabze,5716,,,regular,True,1,0
+1922121,17,,Sori̇n Bogdan Stancu,,,,regular,True,2,0
+1922121,44,,Miguel Angelo Moita Garcia,,,,regular,True,3,0
+1922121,70,,Silvino João de Carvalho,5280,,,regular,False,3,1
+1922121,89,,Emrah Başsan,174141,,,regular,False,3,2
+1922123,13,,Murat Erdogan,5907,,,regular,True,1,0
+1922123,21,,Serdar Aziz,43528,,,regular,False,1,1
+1922123,34,,Gokcek Vederson,30133,,,regular,False,1,2
+1922123,89,,Ibrahim Teteh Bangura,,,,regular,True,2,2
+1922125,43,,Theofanis Gekas,12682,,,regular,True,1,0
+1922125,51,,Ehiosun Ekigho,,,,regular,True,2,0
+1922125,62,,Uğur Boral,15683,,,regular,True,3,0
+1922125,84,,Volkan Yaman,5858,,,regular,False,3,1
+1922127,54,,Wissem Ben Yahia,47262,,,regular,False,0,1
+1922127,87,,Mert Nobre,5498,,,regular,False,0,2
+1922127,89,,Randall Azofeifa Corrales,,,,regular,True,1,2
+1922129,32,,Felipe Melo De Carvalho,,,,regular,True,1,0
+1922131,44,,Florin Cernat,18032,,,regular,True,1,0
+1922131,45,,Birol Hikmet,816117,,,regular,True,2,0
+1922131,67,,Alex,12863,,,regular,False,2,1
+1922133,12,,Alfred John Momar Ndiaye,,,,regular,True,1,0
+1922133,68,,Sebastian Andres Pinto Perurena,,,,regular,True,2,0
+1922133,89,,Edin Višća,109779,,,regular,False,2,1
+1922135,1,,Emir Kujović,22601,,,regular,True,1,0
+1922135,33,,Eren Gungor,42279,,,regular,True,2,0
+1922135,62,,Volkan Şen,43533,,,regular,False,2,1
+1922135,63,,Emir Kujović,22601,,,regular,True,3,1
+1922135,78,,Burak Yılmaz,18864,,,regular,False,3,2
+1922135,88,,Burak Yılmaz,18864,,,regular,False,3,3
+1922137,44,,Muhammet Demir,43543,,,regular,True,1,0
+1922139,29,,Necati Ates,5708,,,regular,False,0,1
+1922139,76,,Erhan Guven,43470,,,regular,True,1,1
+1922139,81,,Selçuk İnan,31253,,,regular,False,1,2
+1922139,89,,Necati Ates,5708,,,regular,False,1,3
+1922141,23,,Herve Germain Tum,3132,,,regular,False,0,1
+1922141,48,,Ricardo Andrade Quaresma Bernardo,,,,regular,True,1,1
+1922141,58,,Hugo Almeida,12935,,,regular,True,2,1
+1922141,70,,Randall Azofeifa Corrales,,,,regular,False,2,2
+1922141,73,,Manuel Fernandes,12982,,,regular,True,3,2
+1922143,4,,Emre Belözoğlu,2054,,,regular,True,1,0
+1922143,16,,Kıvanç Karakaş,60349,,,regular,False,1,1
+1922143,43,,Jan Rajnoch,12002,,,regular,False,1,2
+1922143,65,,Alex,12863,,,regular,True,2,2
+1922143,67,,Alex,12863,,,regular,True,3,2
+1922143,73,,Emre Belözoğlu,2054,,,regular,True,4,2
+1922145,25,,Mehmet Yildiz,5489,,,regular,False,0,1
+1922145,63,,Mehmet Yildiz,5489,,,regular,False,0,2
+1922145,89,,Erkan Zengin,7702,,,regular,True,1,2
+1922147,9,,Aristide Bancé,6102,,,regular,False,0,1
+1922147,19,,Ehiosun Ekigho,,,,regular,False,0,2
+1922147,26,,Ehiosun Ekigho,,,,regular,False,0,3
+1922149,5,,Meli̇h Gökçek,,,,regular,True,1,0
+1922149,15,,Promise Isaac,,,,regular,False,1,1
+1922149,65,,Meli̇h Gökçek,,,,regular,True,2,1
+1922151,15,,Johan Elmander,1422568,,,regular,True,1,0
+1922151,49,,Ibrahim Toraman,5314,,,regular,False,1,1
+1922151,52,,Felipe Melo De Carvalho,,,,regular,True,2,1
+1922151,73,,Semih Kaya,47599,,,regular,True,3,1
+1922151,90,,Johan Elmander,1422568,,,regular,True,4,1
+1922153,33,,Mert Nobre,5498,,,regular,False,0,1
+1922153,46,,Mert Nobre,5498,,,regular,False,0,2
+1922153,60,,Halil Altintop,58,,,regular,True,1,2
+1922153,83,,Olcan Adın,18767,,,regular,True,2,2
+1922153,88,,Hasan Ucuncu,54633,,,regular,False,2,3
+1922155,31,,Bulent Ertugrul,5367,,,regular,True,1,0
+1922155,55,,Diomansy Kamara,870,,,regular,True,2,0
+1922155,75,,Moussa Sow,3215,,,regular,False,2,1
+1922157,34,,Eren Aydin,5893,,,regular,True,1,0
+1922157,56,,Francisco Lima Da Silva,,,,regular,True,2,0
+1922157,78,,Tevfik Köse,14976,,,regular,True,3,0
+1922157,88,,Edin Višća,109779,,,regular,True,4,0
+1922159,14,,Pablo Batalla,39974,,,regular,False,0,1
+1922159,63,,Musa Çağıran,60363,,,regular,False,0,2
+1922159,88,,Turgay Bahadir,3845,,,regular,False,0,3
+1922161,20,,Serol Demirhan,144031,,,regular,False,0,1
+1922161,44,,Sanel Jahic,1856693,,,regular,True,1,1
+1922161,65,,Florin Cernat,18032,,,regular,True,2,1
+1922161,68,,Aybars Garhan,187637,,,regular,False,2,2
+1922161,75,,Sanel Jahic,1856693,,,regular,True,3,2
+1922163,2,,Yasin Öztekin,21876,,,regular,True,1,0
+1922163,24,,Herve Germain Tum,3132,,,regular,True,2,0
+1922163,30,,Ricardo Pedriel Suarez,,,,regular,False,2,1
+1922163,56,,Ricardo Pedriel Suarez,,,,regular,False,2,2
+1922163,65,,Randall Azofeifa Corrales,,,,regular,True,3,2
+1922163,89,,Jakub Navratil,12048,,,regular,False,3,3
+1922165,47,,Yalçın Ayhan,43507,,,regular,True,1,0
+1922167,65,,Muhammet Demir,43543,,,regular,False,0,1
+1922167,87,,Cenk Tosun,72127,,,regular,False,0,2
+1922169,24,,Pablo Batalla,39974,,,regular,True,1,0
+1922169,45,,Sebastian Andres Pinto Perurena,,,,regular,True,2,0
+1922169,56,,Alfred John Momar Ndiaye,,,,regular,True,3,0
+1922171,12,,Yasin Pehlivan,47824,,,regular,True,1,0
+1922171,33,,Ivelin Popov,29308,,,regular,True,2,0
+1922171,60,,Muhammet Demir,43543,,,regular,True,3,0
+1922171,72,,Elyasa Süme,6160,,,regular,True,4,0
+1922171,81,,Ismael Sosa,37928,,,regular,True,5,0
+1922173,50,,Hugo Almeida,12935,,,regular,True,1,0
+1922173,63,,Burak Yılmaz,18864,,,regular,False,1,1
+1922173,79,,Gustavo Colman,790572,,,regular,False,1,2
+1922175,16,,Spas Delev,80999,,,regular,True,1,0
+1922177,15,,Necati Ates,5708,,,regular,False,0,1
+1922177,64,,Tomas Ujfalusi,1422728,,,regular,False,0,2
+1922177,81,,Aydin Yilmaz,17797,,,regular,False,0,3
+1922177,90,,Necati Ates,5708,,,regular,False,0,4
+1922179,2,,Miroslav Stoch,42860,,,regular,True,1,0
+1922179,21,,Moussa Sow,3215,,,regular,True,2,0
+1922179,39,,Miroslav Stoch,42860,,,regular,True,3,0
+1922179,56,,Emre Belözoğlu,2054,,,regular,True,4,0
+1922179,59,,Soner Aydoğdu,69351,,,regular,False,4,1
+1922179,63,,Alex,12863,,,regular,True,5,1
+1922179,67,,Issiar Dia,17986,,,regular,True,6,1
+1922181,36,,Aybars Garhan,187637,,,regular,True,1,0
+1922181,38,,Diomansy Kamara,870,,,regular,False,1,1
+1922181,54,,Serol Demirhan,144031,,,regular,True,2,1
+1922181,56,,Erkan Zengin,7702,,,regular,False,2,2
+1922181,61,,Diego Angelo De Oliveira,,,,regular,False,2,3
+1922181,62,,Diomansy Kamara,870,,,regular,False,2,4
+1922181,77,,Alper Potuk,55028,,,regular,False,2,5
+1922183,14,,Theofanis Gekas,12682,,,regular,False,0,1
+1922183,88,,Ehiosun Ekigho,,,,regular,False,0,2
+1922185,78,,Sefa Yılmaz,39737,,,regular,True,1,0
+1922185,86,,Nordin Amrabat,27714,,,regular,True,2,0
+1922187,6,,İlhan Parlak,,,,regular,True,1,0
+1922187,14,,İlhan Parlak,,,,regular,True,2,0
+1922187,30,,Mehmet Eren Boyraz,42225,,,regular,False,2,1
+1922189,70,,Promise Isaac,,,,regular,True,1,0
+1922189,89,,Promise Isaac,,,,regular,True,2,0
+1922191,60,,Pierre Achille Webo Kouamo,,,,regular,True,1,0
+1922193,46,,Ömer Erdoğan,,,,regular,True,1,0
+1922193,71,,Sebastian Andres Pinto Perurena,,,,regular,False,1,1
+1922195,47,,Felipe Melo De Carvalho,,,,regular,True,1,0
+1922195,58,,Selçuk İnan,31253,,,regular,True,2,0
+1922197,36,,Ricardo Pedriel Suarez,,,,regular,False,0,1
+1922197,69,,Alan Carlos Gomes Da Costa,,,,regular,True,1,1
+1922197,81,,Volkan Şen,43533,,,regular,True,2,1
+1922199,44,,Sori̇n Bogdan Stancu,,,,regular,True,1,0
+1922199,70,,Eduardo Gonçalves De Oliveira,,,,regular,False,1,1
+1922203,15,,Moussa Sow,3215,,,regular,False,0,1
+1922203,69,,Mehmet Topuz,21825,,,regular,False,0,2
+1922205,4,,Sebastian Andres Pinto Perurena,,,,regular,True,1,0
+1922205,10,,İshak Doğan,124331,,,regular,False,1,1
+1922205,88,,Sebastian Andres Pinto Perurena,,,,regular,True,2,1
+1922209,28,,Alan Carlos Gomes Da Costa,,,,regular,True,1,0
+1922209,89,,Herve Germain Tum,3132,,,regular,True,2,0
+1922211,23,,Michael Eneramo,55026,,,regular,True,1,0
+1922211,33,,Francisco Javier Peral Periane,,,,regular,False,1,1
+1922213,10,,Moussa Sow,3215,,,regular,True,1,0
+1922213,16,,Alex,12863,,,regular,True,2,0
+1922213,36,,Johan Elmander,1422568,,,regular,False,2,1
+1922213,83,,Hakan Balta,6208,,,regular,False,2,2
+1922215,30,,Cenk Tosun,72127,,,regular,True,1,0
+1922215,68,,Marek Sapara,,,,regular,True,2,0
+1922215,79,,Muhammet Demir,43543,,,regular,True,3,0
+1922217,73,,Emir Kujović,22601,,,regular,True,1,0
+1922217,90,,Nordin Amrabat,27714,,,regular,True,2,0
+1922219,7,,Mert Nobre,5498,,,regular,True,1,0
+1922219,89,,Danilo Petrolli Bueno,215974,,,regular,True,2,0
+1922221,17,,Hugo Almeida,12935,,,regular,True,1,0
+1922221,61,,Ricardo Andrade Quaresma Bernardo,,,,regular,True,2,0
+1922221,65,,Ricardo Andrade Quaresma Bernardo,,,,regular,True,3,0
+1922221,88,,Manuel Fernandes,12982,,,regular,True,4,0
+1922221,90,,Ferhat Cokmus,4507,,,regular,False,4,1
+1922223,9,,Mehmet Eren Boyraz,42225,,,regular,False,0,1
+1922223,34,,Kerem Seras,43653,,,regular,False,0,2
+1922223,60,,Meli̇h Gökçek,,,,regular,False,0,3
+1922225,7,,Kadir Bekmezci,43632,,,regular,False,0,1
+1922225,38,,Ferhat Cokmus,4507,,,regular,True,1,1
+1922225,71,,Erman Kılıç,43664,,,regular,False,1,2
+1922225,87,,Ricardo Pedriel Suarez,,,,regular,False,1,3
+1922227,38,,Larrys Mabiala,21556,,,regular,True,1,0
+1922229,41,,Alex,12863,,,regular,True,1,0
+1922233,6,,Efe Inanc,43672,,,regular,True,1,0
+1922233,36,,Manuel Fernandes,12982,,,regular,False,1,1
+1922233,49,,Mustafa Pektemek,43643,,,regular,False,1,2
+1922233,70,,Edin Višća,109779,,,regular,True,2,2
+1922235,17,,Ehiosun Ekigho,,,,regular,True,1,0
+1922235,67,,Ehiosun Ekigho,,,,regular,True,2,0
+1922237,73,,Marek Sapara,,,,regular,True,1,0
+1922237,89,,Serdar Kurtuluş,18861,,,regular,False,1,1
+1922239,24,,Burak Yılmaz,18864,,,regular,False,0,1
+1922239,83,,Felipe Melo De Carvalho,,,,regular,True,1,1
+1922241,20,,Diomansy Kamara,870,,,regular,False,0,1
+1922241,28,,Diomansy Kamara,870,,,regular,False,0,2
+1922241,43,,Emir Kujović,22601,,,regular,True,1,2
+1922241,89,,James Troisi,18999,,,regular,True,2,2
+1922243,58,,Wellington Brito Da Silva,,,,regular,False,0,1
+1922245,41,,Cristian Baroni,34158,,,regular,False,0,1
+1922245,73,,Burak Yılmaz,18864,,,regular,True,1,1
+1922247,8,,Necati Ates,5708,,,regular,True,1,0
+1922247,66,,Sabri Sarioğlu,5715,,,regular,True,2,0
+1922249,34,,Sebastian Andres Pinto Perurena,,,,regular,False,0,1
+1922249,43,,Pablo Batalla,39974,,,regular,False,0,2
+1922249,78,,Meli̇h Gökçek,,,,regular,True,1,2
+1922249,89,,Ibrahim Teteh Bangura,,,,regular,True,2,2
+1922251,39,,Cenk Tosun,72127,,,regular,True,1,0
+1922253,3,,Mehmet Yildiz,5489,,,regular,False,0,1
+1922253,54,,Mustafa Sarp,5289,,,regular,False,0,2
+1922255,70,,Murat Yildirim,60641,,,regular,False,0,1
+1922257,43,,Hursut Meric,32215,,,regular,True,1,0
+1922257,72,,Ermin Zec,44279,,,regular,True,2,0
+1922257,77,,Herve Germain Tum,3132,,,regular,True,3,0
+1922259,62,,Moussa Sow,3215,,,regular,True,1,0
+1922259,72,,Henri̇ Bi̇envenu Ntsama,,,,regular,True,2,0
+1922261,17,,Filip Hološko,12232,,,regular,False,0,1
+1922261,24,,Mehmet Yildiz,5489,,,regular,True,1,1
+1922263,55,,Muhammet Demir,43543,,,regular,False,0,1
+1922263,82,,Cenk Tosun,72127,,,regular,False,0,2
+1922265,46,,Selçuk İnan,31253,,,regular,False,0,1
+1922265,77,,Selçuk İnan,31253,,,regular,False,0,2
+1922265,82,,Fernando Muslera,28381,,,regular,False,0,3
+1922265,86,,Milan Baroš,699,,,regular,False,0,4
+1922267,75,,Pierre Achille Webo Kouamo,,,,regular,True,1,0
+1922269,23,,Michael Fink,136,,,regular,True,1,0
+1922269,33,,Michael Eneramo,55026,,,regular,False,1,1
+1922269,80,,Erman Kılıç,43664,,,regular,False,1,2
+1922271,20,,Diomansy Kamara,870,,,regular,True,1,0
+1922271,37,,Rodrigo Alvaro Tello Valenzuela,,,,regular,True,2,0
+1922273,13,,Emir Kujović,22601,,,regular,False,0,1
+1922273,34,,Emir Kujović,22601,,,regular,False,0,2
+1922273,37,,James Troisi,18999,,,regular,False,0,3
+1922273,69,,Diego Biseswar,2209,,,regular,False,0,4
+1922273,81,,Diego Biseswar,2209,,,regular,False,0,5
+2371040,32,,Samuel Tobias Holmen,,,,regular,True,1,0
+2371040,43,,Mehmet Yildiz,5489,,,regular,False,1,1
+2371040,61,,Florin Cernat,18032,,,regular,False,1,2
+2371040,81,,Edin Višća,109779,,,regular,True,2,2

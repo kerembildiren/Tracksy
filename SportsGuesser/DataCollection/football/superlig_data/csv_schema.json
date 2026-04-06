@@ -1,0 +1,46 @@
+{
+  "matches.csv": {
+    "description": "SofaScore league fixtures; one row per match_id in the season export.",
+    "columns": [
+      ["match_id", "SofaScore event id (stable primary key)"],
+      ["season_id", "SofaScore season id"],
+      ["round", "Match week / round number"],
+      ["start_timestamp", "Unix kickoff time (UTC as provided by source)"],
+      ["home_team", "Display name home"],
+      ["home_team_id", "SofaScore team id"],
+      ["away_team", "Display name away"],
+      ["away_team_id", "SofaScore team id"],
+      ["home_score", "Final goals home (empty if not played)"],
+      ["away_score", "Final goals away"],
+      ["home_ht", "Half-time home (if available)"],
+      ["away_ht", "Half-time away"],
+      ["winner_code", "SofaScore result code"],
+      ["status", "e.g. Ended, Postponed"],
+      ["status_code", "Numeric status"]
+    ]
+  },
+  "goals.csv": {
+    "description": "One row per goal in a league match; match_id joins to matches.csv.",
+    "columns": [
+      ["match_id", "SofaScore match id"],
+      ["minute", "Regulation minute of the goal"],
+      ["added_time", "Extra minute in stoppage (often empty in older seasons)"],
+      ["scorer", "Display name"],
+      ["scorer_id", "SofaScore player id (empty if not resolved)"],
+      ["assist", "Assist display name"],
+      ["assist_id", "SofaScore player id"],
+      ["goal_type", "e.g. regular, penalty (source-dependent)"],
+      ["is_home", "True if scorer's team was home"],
+      ["home_score", "Running score for home team after this goal"],
+      ["away_score", "Running score for away team after this goal"]
+    ]
+  },
+  "tff_auxiliary": {
+    "location": "archive/11-12_tff/ (not inside season folders; season 11-12 matches other years' CSV set).",
+    "tff_mac_to_match_id.csv": "Maps TFF macId (2011-12 scrape) to SofaScore match_id; round_tff from archive.",
+    "tff_kisi_to_player_id.csv": "Maps TFF person id to SofaScore player_id after merge heuristics.",
+    "tff_kisi_to_player_id_overrides.csv": "Under tff_mappings/: manual overrides tff_kisi_id, player_id (edit and re-run merge script).",
+    "kulup_to_team_id_1112.csv": "TFF kulup id to SofaScore team_id for 2011-12.",
+    "goals_tff_super_final.csv": "Goals from TFF Spor Toto Super Final playoff (not league fixtures)."
+  }
+}
