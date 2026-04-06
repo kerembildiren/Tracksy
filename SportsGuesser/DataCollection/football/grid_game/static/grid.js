@@ -170,9 +170,13 @@ async function refreshSuggest() {
   items.forEach((it) => {
     const li = document.createElement("li");
     li.textContent = it.name;
+    li.addEventListener("mousedown", (e) => {
+      e.preventDefault();
+    });
     li.addEventListener("click", () => {
       el("guess").value = it.name;
       sug.classList.add("hidden");
+      submitGuess();
     });
     sug.appendChild(li);
   });
@@ -321,13 +325,37 @@ async function newGame(playMode) {
   updateTurnBanner();
 }
 
+function gridCelebrate() {
+  const wrap = document.querySelector(".grid-wrap");
+  if (!wrap) return Promise.resolve();
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    return Promise.resolve();
+  }
+  return new Promise((resolve) => {
+    let done = false;
+    const finish = () => {
+      if (done) return;
+      done = true;
+      wrap.classList.remove("grid-celebrate");
+      wrap.removeEventListener("animationend", onEnd);
+      resolve();
+    };
+    const onEnd = (e) => {
+      if (e.target === wrap) finish();
+    };
+    wrap.addEventListener("animationend", onEnd);
+    wrap.classList.add("grid-celebrate");
+    window.setTimeout(finish, 1100);
+  });
+}
+
 function renderSolvedCell(r, c, playerName, mark) {
   const cell = el(`cell-${r}-${c}`);
   cell.classList.add("solved");
   cell.classList.remove("selected");
-  let sym = '<span class="jersey-check">✓</span>';
-  if (mark === "X") sym = '<span class="jersey-mark jersey-mark-x">X</span>';
-  if (mark === "O") sym = '<span class="jersey-mark jersey-mark-o">O</span>';
+  let sym = '<span class="jersey-check jersey-reveal">✓</span>';
+  if (mark === "X") sym = '<span class="jersey-mark jersey-mark-x jersey-reveal">X</span>';
+  if (mark === "O") sym = '<span class="jersey-mark jersey-mark-o jersey-reveal">O</span>';
   cell.innerHTML = `<div class="cell-jersey cell-jersey-solved" aria-hidden="true">${sym}</div>
     <div class="cell-footer cell-footer-solved">
       <span class="cell-solved-name">${escapeHtml(playerName)}</span>
@@ -394,9 +422,11 @@ async function submitGuess() {
       }
     }
     updateTurnBanner();
+    await gridCelebrate();
     renderSolvedCell(r, c, data.player.name, data.mark);
   } else {
     el("msg").textContent = `Doğru: ${data.player.name}`;
+    await gridCelebrate();
     renderSolvedCell(r, c, data.player.name, null);
   }
   el("guess").value = "";
