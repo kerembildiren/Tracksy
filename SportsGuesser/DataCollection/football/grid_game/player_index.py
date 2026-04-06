@@ -22,6 +22,8 @@ class PlayerRecord:
     nationalities: Set[str] = field(default_factory=set)
     positions: Set[str] = field(default_factory=set)
     seasons: Set[str] = field(default_factory=set)
+    # team_id -> season folder names (e.g. "23-24") for Süper Lig roster rows
+    team_seasons: Dict[int, Set[str]] = field(default_factory=dict)
 
     @property
     def season_count(self) -> int:
@@ -136,6 +138,9 @@ def build_player_index(data_root: str) -> Tuple[Dict[int, PlayerRecord], Dict[in
 
                 rec.teams.add(tid)
                 rec.seasons.add(season)
+                if tid not in rec.team_seasons:
+                    rec.team_seasons[tid] = set()
+                rec.team_seasons[tid].add(season)
                 nat = _norm_nat(row.get("nationality", ""))
                 if nat:
                     rec.nationalities.add(nat)
@@ -158,7 +163,7 @@ def build_player_index(data_root: str) -> Tuple[Dict[int, PlayerRecord], Dict[in
 
 def cache_path() -> str:
     here = os.path.dirname(os.path.abspath(__file__))
-    return os.path.join(here, ".player_index_cache_v3.pkl")
+    return os.path.join(here, ".player_index_cache_v4.pkl")
 
 
 def load_or_build_index(data_root: str, use_cache: bool = True):

@@ -13,15 +13,27 @@
   </script>
 </head>
 <body>
-  <div class="wrap">
+  <div id="mode-modal" class="mode-modal" aria-modal="true" role="dialog">
+    <div class="mode-modal-card">
+      <h2 class="mode-modal-title">Nasıl oynamak istersiniz?</h2>
+      <p class="mode-modal-desc">İki kişilik modda doğru tahmin X veya O koyar; yanlışta sıra değişir. Üçlü çizgi kazandırır.</p>
+      <div class="mode-modal-actions">
+        <button type="button" id="mode-solo" class="btn-mode">1 oyuncu</button>
+        <button type="button" id="mode-versus" class="btn-mode btn-mode-primary">2 oyuncu (X / O)</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap" id="main-wrap">
     <div class="toolbar">
       <label class="diff-label">Zorluk
         <select id="difficulty">
-          <option value="easy">Kolay</option>
-          <option value="medium" selected>Orta</option>
+          <option value="easy" selected>Kolay</option>
+          <option value="medium">Orta</option>
           <option value="hard">Zor</option>
         </select>
       </label>
+      <div id="turn-banner" class="turn-banner hidden" aria-live="polite"></div>
       <div class="search-wrap">
         <input id="guess" type="text" placeholder="Oyuncu ara" autocomplete="off" />
         <ul id="suggest" class="suggest-list hidden"></ul>
@@ -43,8 +55,17 @@
             <span class="hint-pop-title">İpuçları</span>
             <button type="button" class="hint-pop-close" data-r="0" data-c="0" aria-label="Kapat">×</button>
           </div>
-          <ol class="hint-pop-list" id="hint-list-0-0"></ol>
+          <p class="hint-carousel-tip">Yana kaydırın veya oklarla olası oyuncular arasında geçin.</p>
+          <div class="hint-carousel-viewport" data-r="0" data-c="0" tabindex="0">
+            <div class="hint-carousel-track" id="hint-track-0-0"></div>
+          </div>
+          <div class="hint-carousel-dots" id="hint-dots-0-0"></div>
+          <div class="hint-carousel-arrows">
+            <button type="button" class="hint-carousel-prev" data-r="0" data-c="0" aria-label="Önceki oyuncu">‹</button>
+            <button type="button" class="hint-carousel-next" data-r="0" data-c="0" aria-label="Sonraki oyuncu">›</button>
+          </div>
           <button type="button" class="hint-pop-next" data-r="0" data-c="0">İpucu al</button>
+          <button type="button" class="hint-switch-player hidden" data-r="0" data-c="0">Oyuncu değiştir</button>
         </aside>
       </div>
       <div class="cell-wrap" id="wrap-0-1">
@@ -54,8 +75,17 @@
             <span class="hint-pop-title">İpuçları</span>
             <button type="button" class="hint-pop-close" data-r="0" data-c="1" aria-label="Kapat">×</button>
           </div>
-          <ol class="hint-pop-list" id="hint-list-0-1"></ol>
+          <p class="hint-carousel-tip">Yana kaydırın veya oklarla olası oyuncular arasında geçin.</p>
+          <div class="hint-carousel-viewport" data-r="0" data-c="1" tabindex="0">
+            <div class="hint-carousel-track" id="hint-track-0-1"></div>
+          </div>
+          <div class="hint-carousel-dots" id="hint-dots-0-1"></div>
+          <div class="hint-carousel-arrows">
+            <button type="button" class="hint-carousel-prev" data-r="0" data-c="1" aria-label="Önceki oyuncu">‹</button>
+            <button type="button" class="hint-carousel-next" data-r="0" data-c="1" aria-label="Sonraki oyuncu">›</button>
+          </div>
           <button type="button" class="hint-pop-next" data-r="0" data-c="1">İpucu al</button>
+          <button type="button" class="hint-switch-player hidden" data-r="0" data-c="1">Oyuncu değiştir</button>
         </aside>
       </div>
       <div class="cell-wrap" id="wrap-0-2">
@@ -65,8 +95,17 @@
             <span class="hint-pop-title">İpuçları</span>
             <button type="button" class="hint-pop-close" data-r="0" data-c="2" aria-label="Kapat">×</button>
           </div>
-          <ol class="hint-pop-list" id="hint-list-0-2"></ol>
+          <p class="hint-carousel-tip">Yana kaydırın veya oklarla olası oyuncular arasında geçin.</p>
+          <div class="hint-carousel-viewport" data-r="0" data-c="2" tabindex="0">
+            <div class="hint-carousel-track" id="hint-track-0-2"></div>
+          </div>
+          <div class="hint-carousel-dots" id="hint-dots-0-2"></div>
+          <div class="hint-carousel-arrows">
+            <button type="button" class="hint-carousel-prev" data-r="0" data-c="2" aria-label="Önceki oyuncu">‹</button>
+            <button type="button" class="hint-carousel-next" data-r="0" data-c="2" aria-label="Sonraki oyuncu">›</button>
+          </div>
           <button type="button" class="hint-pop-next" data-r="0" data-c="2">İpucu al</button>
+          <button type="button" class="hint-switch-player hidden" data-r="0" data-c="2">Oyuncu değiştir</button>
         </aside>
       </div>
 
@@ -78,8 +117,17 @@
             <span class="hint-pop-title">İpuçları</span>
             <button type="button" class="hint-pop-close" data-r="1" data-c="0" aria-label="Kapat">×</button>
           </div>
-          <ol class="hint-pop-list" id="hint-list-1-0"></ol>
+          <p class="hint-carousel-tip">Yana kaydırın veya oklarla olası oyuncular arasında geçin.</p>
+          <div class="hint-carousel-viewport" data-r="1" data-c="0" tabindex="0">
+            <div class="hint-carousel-track" id="hint-track-1-0"></div>
+          </div>
+          <div class="hint-carousel-dots" id="hint-dots-1-0"></div>
+          <div class="hint-carousel-arrows">
+            <button type="button" class="hint-carousel-prev" data-r="1" data-c="0" aria-label="Önceki oyuncu">‹</button>
+            <button type="button" class="hint-carousel-next" data-r="1" data-c="0" aria-label="Sonraki oyuncu">›</button>
+          </div>
           <button type="button" class="hint-pop-next" data-r="1" data-c="0">İpucu al</button>
+          <button type="button" class="hint-switch-player hidden" data-r="1" data-c="0">Oyuncu değiştir</button>
         </aside>
       </div>
       <div class="cell-wrap" id="wrap-1-1">
@@ -89,8 +137,17 @@
             <span class="hint-pop-title">İpuçları</span>
             <button type="button" class="hint-pop-close" data-r="1" data-c="1" aria-label="Kapat">×</button>
           </div>
-          <ol class="hint-pop-list" id="hint-list-1-1"></ol>
+          <p class="hint-carousel-tip">Yana kaydırın veya oklarla olası oyuncular arasında geçin.</p>
+          <div class="hint-carousel-viewport" data-r="1" data-c="1" tabindex="0">
+            <div class="hint-carousel-track" id="hint-track-1-1"></div>
+          </div>
+          <div class="hint-carousel-dots" id="hint-dots-1-1"></div>
+          <div class="hint-carousel-arrows">
+            <button type="button" class="hint-carousel-prev" data-r="1" data-c="1" aria-label="Önceki oyuncu">‹</button>
+            <button type="button" class="hint-carousel-next" data-r="1" data-c="1" aria-label="Sonraki oyuncu">›</button>
+          </div>
           <button type="button" class="hint-pop-next" data-r="1" data-c="1">İpucu al</button>
+          <button type="button" class="hint-switch-player hidden" data-r="1" data-c="1">Oyuncu değiştir</button>
         </aside>
       </div>
       <div class="cell-wrap" id="wrap-1-2">
@@ -100,8 +157,17 @@
             <span class="hint-pop-title">İpuçları</span>
             <button type="button" class="hint-pop-close" data-r="1" data-c="2" aria-label="Kapat">×</button>
           </div>
-          <ol class="hint-pop-list" id="hint-list-1-2"></ol>
+          <p class="hint-carousel-tip">Yana kaydırın veya oklarla olası oyuncular arasında geçin.</p>
+          <div class="hint-carousel-viewport" data-r="1" data-c="2" tabindex="0">
+            <div class="hint-carousel-track" id="hint-track-1-2"></div>
+          </div>
+          <div class="hint-carousel-dots" id="hint-dots-1-2"></div>
+          <div class="hint-carousel-arrows">
+            <button type="button" class="hint-carousel-prev" data-r="1" data-c="2" aria-label="Önceki oyuncu">‹</button>
+            <button type="button" class="hint-carousel-next" data-r="1" data-c="2" aria-label="Sonraki oyuncu">›</button>
+          </div>
           <button type="button" class="hint-pop-next" data-r="1" data-c="2">İpucu al</button>
+          <button type="button" class="hint-switch-player hidden" data-r="1" data-c="2">Oyuncu değiştir</button>
         </aside>
       </div>
 
@@ -113,8 +179,17 @@
             <span class="hint-pop-title">İpuçları</span>
             <button type="button" class="hint-pop-close" data-r="2" data-c="0" aria-label="Kapat">×</button>
           </div>
-          <ol class="hint-pop-list" id="hint-list-2-0"></ol>
+          <p class="hint-carousel-tip">Yana kaydırın veya oklarla olası oyuncular arasında geçin.</p>
+          <div class="hint-carousel-viewport" data-r="2" data-c="0" tabindex="0">
+            <div class="hint-carousel-track" id="hint-track-2-0"></div>
+          </div>
+          <div class="hint-carousel-dots" id="hint-dots-2-0"></div>
+          <div class="hint-carousel-arrows">
+            <button type="button" class="hint-carousel-prev" data-r="2" data-c="0" aria-label="Önceki oyuncu">‹</button>
+            <button type="button" class="hint-carousel-next" data-r="2" data-c="0" aria-label="Sonraki oyuncu">›</button>
+          </div>
           <button type="button" class="hint-pop-next" data-r="2" data-c="0">İpucu al</button>
+          <button type="button" class="hint-switch-player hidden" data-r="2" data-c="0">Oyuncu değiştir</button>
         </aside>
       </div>
       <div class="cell-wrap" id="wrap-2-1">
@@ -124,8 +199,17 @@
             <span class="hint-pop-title">İpuçları</span>
             <button type="button" class="hint-pop-close" data-r="2" data-c="1" aria-label="Kapat">×</button>
           </div>
-          <ol class="hint-pop-list" id="hint-list-2-1"></ol>
+          <p class="hint-carousel-tip">Yana kaydırın veya oklarla olası oyuncular arasında geçin.</p>
+          <div class="hint-carousel-viewport" data-r="2" data-c="1" tabindex="0">
+            <div class="hint-carousel-track" id="hint-track-2-1"></div>
+          </div>
+          <div class="hint-carousel-dots" id="hint-dots-2-1"></div>
+          <div class="hint-carousel-arrows">
+            <button type="button" class="hint-carousel-prev" data-r="2" data-c="1" aria-label="Önceki oyuncu">‹</button>
+            <button type="button" class="hint-carousel-next" data-r="2" data-c="1" aria-label="Sonraki oyuncu">›</button>
+          </div>
           <button type="button" class="hint-pop-next" data-r="2" data-c="1">İpucu al</button>
+          <button type="button" class="hint-switch-player hidden" data-r="2" data-c="1">Oyuncu değiştir</button>
         </aside>
       </div>
       <div class="cell-wrap" id="wrap-2-2">
@@ -135,8 +219,17 @@
             <span class="hint-pop-title">İpuçları</span>
             <button type="button" class="hint-pop-close" data-r="2" data-c="2" aria-label="Kapat">×</button>
           </div>
-          <ol class="hint-pop-list" id="hint-list-2-2"></ol>
+          <p class="hint-carousel-tip">Yana kaydırın veya oklarla olası oyuncular arasında geçin.</p>
+          <div class="hint-carousel-viewport" data-r="2" data-c="2" tabindex="0">
+            <div class="hint-carousel-track" id="hint-track-2-2"></div>
+          </div>
+          <div class="hint-carousel-dots" id="hint-dots-2-2"></div>
+          <div class="hint-carousel-arrows">
+            <button type="button" class="hint-carousel-prev" data-r="2" data-c="2" aria-label="Önceki oyuncu">‹</button>
+            <button type="button" class="hint-carousel-next" data-r="2" data-c="2" aria-label="Sonraki oyuncu">›</button>
+          </div>
           <button type="button" class="hint-pop-next" data-r="2" data-c="2">İpucu al</button>
+          <button type="button" class="hint-switch-player hidden" data-r="2" data-c="2">Oyuncu değiştir</button>
         </aside>
       </div>
     </div>

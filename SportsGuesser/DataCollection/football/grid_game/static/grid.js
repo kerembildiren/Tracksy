@@ -1,4 +1,5 @@
 const SUGGEST_MIN = 3;
+const HINTS_PER_PLAYER = 4;
 
 function apiUrl(path) {
   const b = (typeof window.__GRID_BASE__ === "string" ? window.__GRID_BASE__ : "").replace(
@@ -14,6 +15,10 @@ let state = {
   selected: null,
   grid: null,
   panelCell: null,
+  playMode: null,
+  currentTurn: null,
+  winner: null,
+  hintUi: {},
 };
 
 const el = (id) => document.getElementById(id);
@@ -27,6 +32,16 @@ function escapeHtml(s) {
     .replace(/"/g, "&quot;");
 }
 
+function showModeModal() {
+  const m = el("mode-modal");
+  if (m) m.classList.remove("hidden");
+}
+
+function hideModeModal() {
+  const m = el("mode-modal");
+  if (m) m.classList.add("hidden");
+}
+
 function renderHeaders(rows, cols) {
   for (let c = 0; c < 3; c++) {
     el(`ch-${c}`).innerHTML = `<strong>${escapeHtml(cols[c].label)}</strong>`;
@@ -34,6 +49,31 @@ function renderHeaders(rows, cols) {
   for (let r = 0; r < 3; r++) {
     el(`rh-${r}`).innerHTML = `<strong>${escapeHtml(rows[r].label)}</strong>`;
   }
+}
+
+function updateTurnBanner() {
+  const b = el("turn-banner");
+  if (!b) return;
+  if (!state.grid || state.grid.play_mode !== "versus") {
+    b.classList.add("hidden");
+    b.textContent = "";
+    return;
+  }
+  b.classList.remove("hidden");
+  if (state.winner === 1) {
+    b.textContent = "Kazanan: Oyuncu 1 (X)";
+    return;
+  }
+  if (state.winner === 2) {
+    b.textContent = "Kazanan: Oyuncu 2 (O)";
+    return;
+  }
+  if (state.winner === 0) {
+    b.textContent = "Berabere";
+    return;
+  }
+  const t = state.currentTurn || 1;
+  b.textContent = `Sıra: Oyuncu ${t} (${t === 1 ? "X" : "O"})`;
 }
 
 function hideAllHintPops() {
@@ -73,6 +113,7 @@ function renderCells(grid) {
     node.addEventListener("click", (e) => {
       if (e.target.closest(".hint-open-btn")) return;
       if (node.classList.contains("solved")) return;
+      if (state.grid && state.grid.play_mode === "versus" && state.winner != null) return;
       document.querySelectorAll(".cell.play").forEach((n) => n.classList.remove("selected"));
       node.classList.add("selected");
       const r = +node.dataset.row;
@@ -99,6 +140,11 @@ async function refreshSuggest() {
   const q = (el("guess").value || "").trim();
   const sug = el("suggest");
   if (!state.gameId || !state.selected) {
+    sug.classList.add("hidden");
+    sug.innerHTML = "";
+    return;
+  }
+  if (state.grid && state.grid.play_mode === "versus" && state.winner != null) {
     sug.classList.add("hidden");
     sug.innerHTML = "";
     return;
@@ -133,15 +179,87 @@ async function refreshSuggest() {
   sug.classList.remove("hidden");
 }
 
-function renderHintListFor(r, c, hints) {
-  const ol = el(`hint-list-${r}-${c}`);
-  if (!ol) return;
-  ol.innerHTML = "";
-  (hints || []).forEach((text) => {
-    const li = document.createElement("li");
-    li.textContent = text;
-    ol.appendChild(li);
+function applyHintPanelState(r, c, data) {
+  const qlen = data.hint_queue_length || 0;
+  let pages = data.pages || [];
+  const padded = [];
+  for (let i = 0; i < qlen; i++) {
+    padded.push(pages[i] ? [...pages[i]] : []);
+  }
+  const focus = typeof data.hint_focus === "number" ? data.hint_focus : 0;
+  state.hintUi[`${r}-${c}`] = { focus, qlen };
+
+  const track = el(`hint-track-${r}-${c}`);
+  if (!track) return;
+  track.innerHTML = "";
+  for (let i = 0; i < qlen; i++) {
+    const page = document.createElement("div");
+    page.className = "hint-carousel-page";
+    const tag = document.createElement("div");
+    tag.className = "hint-page-label";
+    tag.textContent = `Olası oyuncu ${i + 1}`;
+    page.appendChild(tag);
+    const ol = document.createElement("ol");
+    ol.className = "hint-page-list";
+    (padded[i] || []).forEach((text) => {
+      const li = document.createElement("li");
+      li.textContent = text;
+      ol.appendChild(li);
+    });
+    page.appendChild(ol);
+    track.appendChild(page);
+  }
+  track.style.transform = `translateX(-${focus * 100}%)`;
+  track.dataset.qlen = String(qlen);
+
+  const dots = el(`hint-dots-${r}-${c}`);
+  if (dots) {
+    dots.innerHTML = "";
+    for (let i = 0; i < qlen; i++) {
+      const d = document.createElement("button");
+      d.type = "button";
+      d.className = "hint-dot" + (i === focus ? " active" : "");
+      d.setAttribute("aria-label", `Oyuncu ${i + 1}`);
+      d.addEventListener("click", () => setHintFocus(r, c, i));
+      dots.appendChild(d);
+    }
+  }
+
+  const cellNode = el(`cell-${r}-${c}`);
+  const solved = cellNode && cellNode.classList.contains("solved");
+  const curHints = padded[focus] || [];
+  const curComplete = curHints.length >= HINTS_PER_PLAYER;
+
+  const nextBtn = document.querySelector(`.hint-pop-next[data-r="${r}"][data-c="${c}"]`);
+  if (nextBtn) nextBtn.disabled = solved || curComplete;
+
+  const sw = document.querySelector(`.hint-switch-player[data-r="${r}"][data-c="${c}"]`);
+  if (sw) {
+    const showSw = Boolean(data.can_switch_player);
+    sw.classList.toggle("hidden", !showSw);
+  }
+}
+
+async function setHintFocus(r, c, focusIdx) {
+  if (!state.gameId) return;
+  const res = await fetch(apiUrl("/api/hint-focus"), {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ game_id: state.gameId, row: r, col: c, focus: focusIdx }),
   });
+  const data = await res.json();
+  if (!res.ok) return;
+  if (state.panelCell && state.panelCell.r === r && state.panelCell.c === c) {
+    applyHintPanelState(r, c, data);
+  }
+}
+
+function bumpHintFocus(r, c, delta) {
+  const ui = state.hintUi[`${r}-${c}`] || { focus: 0, qlen: 0 };
+  const n = ui.qlen || 0;
+  if (n <= 0) return;
+  const next = (ui.focus + delta + n * 10) % n;
+  setHintFocus(r, c, next);
 }
 
 async function openHintPanel(r, c) {
@@ -160,12 +278,7 @@ async function openHintPanel(r, c) {
     body: JSON.stringify({ game_id: state.gameId, row: r, col: c }),
   });
   const data = await res.json();
-  renderHintListFor(r, c, data.hints || []);
-
-  const cell = el(`cell-${r}-${c}`);
-  const solved = cell.classList.contains("solved");
-  const nextBtn = document.querySelector(`.hint-pop-next[data-r="${r}"][data-c="${c}"]`);
-  if (nextBtn) nextBtn.disabled = solved;
+  applyHintPanelState(r, c, data);
 }
 
 async function requestNextHint(r, c) {
@@ -175,36 +288,63 @@ async function requestNextHint(r, c) {
   await doHint(r, c);
 }
 
-async function newGame() {
+async function newGame(playMode) {
   el("msg").textContent = "Oyun yükleniyor…";
   el("msg").classList.remove("err");
   hideAllHintPops();
+  state.hintUi = {};
+  state.winner = null;
   const difficulty = el("difficulty").value;
   const res = await fetch(apiUrl("/api/new-game"), {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ difficulty }),
+    body: JSON.stringify({ difficulty, play_mode: playMode }),
   });
   const data = await res.json();
   if (!res.ok) {
     el("msg").textContent = data.error || "Hata";
     el("msg").classList.add("err");
+    showModeModal();
     return;
   }
   state.gameId = data.game_id;
   state.grid = data;
+  state.playMode = data.play_mode || playMode;
+  state.currentTurn = data.current_turn != null ? data.current_turn : null;
+  state.winner = data.winner != null ? data.winner : null;
   state.selected = null;
   renderHeaders(data.rows, data.cols);
   renderCells(data);
   el("guess").value = "";
   el("suggest").classList.add("hidden");
   el("msg").textContent = "";
+  updateTurnBanner();
+}
+
+function renderSolvedCell(r, c, playerName, mark) {
+  const cell = el(`cell-${r}-${c}`);
+  cell.classList.add("solved");
+  cell.classList.remove("selected");
+  let sym = '<span class="jersey-check">✓</span>';
+  if (mark === "X") sym = '<span class="jersey-mark jersey-mark-x">X</span>';
+  if (mark === "O") sym = '<span class="jersey-mark jersey-mark-o">O</span>';
+  cell.innerHTML = `<div class="cell-jersey cell-jersey-solved" aria-hidden="true">${sym}</div>
+    <div class="cell-footer cell-footer-solved">
+      <span class="cell-solved-name">${escapeHtml(playerName)}</span>
+    </div>`;
+  const nextBtn = document.querySelector(`.hint-pop-next[data-r="${r}"][data-c="${c}"]`);
+  if (nextBtn) nextBtn.disabled = true;
 }
 
 async function submitGuess() {
   const name = el("guess").value;
   if (!state.gameId || !state.selected) {
     el("msg").textContent = "Önce bir kutu seçin.";
+    el("msg").classList.add("err");
+    return;
+  }
+  if (state.grid && state.grid.play_mode === "versus" && state.winner != null) {
+    el("msg").textContent = "Oyun bitti.";
     el("msg").classList.add("err");
     return;
   }
@@ -215,24 +355,52 @@ async function submitGuess() {
     body: JSON.stringify({ game_id: state.gameId, row: r, col: c, name }),
   });
   const data = await res.json();
+
+  if (state.grid && state.grid.play_mode === "versus") {
+    if (data.pass_turn && !data.ok) {
+      el("msg").classList.add("err");
+      el("msg").textContent = data.error || "Yanlış — sıra değişti.";
+      if (data.current_turn != null) {
+        state.currentTurn = data.current_turn;
+        state.grid.current_turn = data.current_turn;
+      }
+      updateTurnBanner();
+      return;
+    }
+  }
+
   if (!data.ok) {
     el("msg").textContent = data.error || "Hatalı";
     el("msg").classList.add("err");
     return;
   }
+
   el("msg").classList.remove("err");
-  el("msg").textContent = `Doğru: ${data.player.name}`;
+  if (data.play_mode === "versus") {
+    el("msg").textContent = `Doğru (${data.mark}): ${data.player.name}`;
+    if (data.current_turn != null) {
+      state.currentTurn = data.current_turn;
+      state.grid.current_turn = data.current_turn;
+    }
+    if (data.winner != null) {
+      state.winner = data.winner;
+      state.grid.winner = data.winner;
+      if (data.winner === 0) {
+        el("msg").textContent = "Berabere!";
+      } else if (data.winner === 1) {
+        el("msg").textContent = "Oyuncu 1 (X) kazandı!";
+      } else if (data.winner === 2) {
+        el("msg").textContent = "Oyuncu 2 (O) kazandı!";
+      }
+    }
+    updateTurnBanner();
+    renderSolvedCell(r, c, data.player.name, data.mark);
+  } else {
+    el("msg").textContent = `Doğru: ${data.player.name}`;
+    renderSolvedCell(r, c, data.player.name, null);
+  }
   el("guess").value = "";
   el("suggest").classList.add("hidden");
-  const cell = el(`cell-${r}-${c}`);
-  cell.classList.add("solved");
-  cell.classList.remove("selected");
-  cell.innerHTML = `<div class="cell-jersey cell-jersey-solved" aria-hidden="true"><span class="jersey-check">✓</span></div>
-    <div class="cell-footer cell-footer-solved">
-      <span class="cell-solved-name">${escapeHtml(data.player.name)}</span>
-    </div>`;
-  const nextBtn = document.querySelector(`.hint-pop-next[data-r="${r}"][data-c="${c}"]`);
-  if (nextBtn) nextBtn.disabled = true;
   hideAllHintPops();
 }
 
@@ -250,11 +418,52 @@ async function doHint(r, c) {
     return;
   }
   if (state.panelCell && state.panelCell.r === r && state.panelCell.c === c) {
-    renderHintListFor(r, c, data.hints || []);
+    applyHintPanelState(r, c, data);
   }
 }
 
-el("btn-new").addEventListener("click", newGame);
+function initHintCarouselTouch() {
+  document.querySelectorAll(".hint-carousel-viewport").forEach((vp) => {
+    let sx = 0;
+    let sy = 0;
+    vp.addEventListener(
+      "touchstart",
+      (e) => {
+        sx = e.touches[0].clientX;
+        sy = e.touches[0].clientY;
+      },
+      { passive: true }
+    );
+    vp.addEventListener(
+      "touchend",
+      (e) => {
+        const ex = e.changedTouches[0].clientX;
+        const ey = e.changedTouches[0].clientY;
+        const dx = ex - sx;
+        const dy = ey - sy;
+        if (Math.abs(dx) < 48 || Math.abs(dx) < Math.abs(dy)) return;
+        const r = +vp.dataset.r;
+        const c = +vp.dataset.c;
+        if (dx < 0) bumpHintFocus(r, c, 1);
+        else bumpHintFocus(r, c, -1);
+      },
+      { passive: true }
+    );
+  });
+}
+
+el("btn-new").addEventListener("click", () => {
+  showModeModal();
+});
+el("mode-solo").addEventListener("click", () => {
+  hideModeModal();
+  newGame("solo");
+});
+el("mode-versus").addEventListener("click", () => {
+  hideModeModal();
+  newGame("versus");
+});
+
 el("btn-go").addEventListener("click", submitGuess);
 el("guess").addEventListener("keydown", (e) => {
   if (e.key === "Enter") {
@@ -278,6 +487,25 @@ document.querySelector(".grid-wrap").addEventListener("click", (e) => {
   if (nextBtn) {
     e.stopPropagation();
     requestNextHint(+nextBtn.dataset.r, +nextBtn.dataset.c);
+    return;
+  }
+  const prevA = e.target.closest(".hint-carousel-prev");
+  if (prevA) {
+    e.stopPropagation();
+    bumpHintFocus(+prevA.dataset.r, +prevA.dataset.c, -1);
+    return;
+  }
+  const nextA = e.target.closest(".hint-carousel-next");
+  if (nextA) {
+    e.stopPropagation();
+    bumpHintFocus(+nextA.dataset.r, +nextA.dataset.c, 1);
+    return;
+  }
+  const sw = e.target.closest(".hint-switch-player");
+  if (sw) {
+    e.stopPropagation();
+    bumpHintFocus(+sw.dataset.r, +sw.dataset.c, 1);
+    return;
   }
 });
 
@@ -286,4 +514,5 @@ document.addEventListener("click", (e) => {
   if (!e.target.closest(".grid-wrap")) hideAllHintPops();
 });
 
-newGame();
+initHintCarouselTouch();
+showModeModal();
