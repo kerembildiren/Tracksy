@@ -348,13 +348,13 @@
     const revealBtn = el("pgRevealBtn");
     if (revealBtn) {
       revealBtn.addEventListener("click", async () => {
-        const res = await fetch(apiUrl("api/demo-reveal"), { credentials: "same-origin" });
+        const res = await fetch(apiUrl("api/reveal-target"), { credentials: "same-origin" });
         const data = await res.json().catch(() => ({}));
         if (!res.ok) {
-          alert(data.error || "Reveal kapalı veya hata.");
+          alert(data.error || "Cevap alınamadı.");
           return;
         }
-        alert(`Günün oyuncusu (demo): ${data.name || "—"}`);
+        alert(data.name ? `Doğru oyuncu: ${data.name}` : "İsim bulunamadı.");
       });
     }
 

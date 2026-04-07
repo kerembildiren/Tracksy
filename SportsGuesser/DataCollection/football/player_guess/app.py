@@ -71,15 +71,6 @@ def seconds_until_turkey_midnight() -> int:
     return max(0, int((next_mid - now).total_seconds()))
 
 
-def demo_reveal_enabled() -> bool:
-    return os.environ.get("PLAYER_GUESS_DEMO_REVEAL", "").strip().lower() in (
-        "1",
-        "true",
-        "yes",
-        "on",
-    )
-
-
 def get_daily_player() -> Optional[Dict[str, Any]]:
     """Daily answer: only players meeting catalog eligibility (G+A / seasons / title)."""
     _ensure_pool()
@@ -235,7 +226,6 @@ def get_game_state() -> Dict[str, Any]:
         "status": b.get("status", "playing"),
         "remaining": 10 - len(b.get("guesses", [])),
         "seconds_until_refresh": seconds_until_turkey_midnight(),
-        "demo_reveal": demo_reveal_enabled(),
     }
 
 
@@ -391,16 +381,15 @@ def api_reset():
     return jsonify(get_game_state())
 
 
+@player_guess_bp.route("/api/reveal-target")
 @player_guess_bp.route("/api/demo-reveal")
-def api_demo_reveal():
-    """Demo: günün hedef ismi. PLAYER_GUESS_DEMO_REVEAL=1 ile açılır."""
-    if not demo_reveal_enabled():
-        return jsonify({"error": "Demo reveal kapalı."}), 403
-    _ensure_pool()
+def api_reveal_target():
+    """Bu oturumdaki bulmacanın doğru oyuncu adı (Reveal butonu)."""
+    get_game_state()
     b = _session_bucket()
     cid = b.get("correct_player_id")
     if cid is None or not _BY_ID:
-        return jsonify({"error": "Aktif oyun yok."}), 400
+        return jsonify({"error": "Aktif bulmaca yok."}), 400
     c = _BY_ID.get(cid)
     if not c:
         return jsonify({"error": "Oyuncu bulunamadı."}), 404
