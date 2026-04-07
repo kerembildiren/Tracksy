@@ -33,6 +33,7 @@ let state = {
   gameId: null,
   activeInput: null,
   teamHint: { side: null, pages: [], focus: 0, hasMore: false },
+  completionPopupShown: false,
 };
 
 function el(id) {
@@ -163,10 +164,14 @@ function buildTimelineRow(ev) {
       </div>`;
   } else {
     icon = cardIcon(ev.card_type);
+    const mask = escapeHtml(ev.name_blank || "—");
     inner = `
-      <div class="ev-input-wrap">
-        <input type="text" class="ev-input ev-input--dashed ev-input--guess" placeholder="Kırmızı kart gören" autocomplete="off" spellcheck="false" />
-        <ul class="suggest-list hidden"></ul>
+      <div class="goal-guess-block">
+        <div class="goal-name-mask" aria-hidden="true">${mask}</div>
+        <div class="ev-input-wrap">
+          <input type="text" class="ev-input ev-input--dashed ev-input--guess" placeholder="Kırmızı kart gören" autocomplete="off" spellcheck="false" />
+          <ul class="suggest-list hidden"></ul>
+        </div>
       </div>`;
   }
 
@@ -569,25 +574,77 @@ async function onRevealRow(row) {
 }
 
 async function checkAutoDone() {
-  if (!state.gameId) return;
+  if (!state.gameId || state.completionPopupShown) return;
   const { res, data } = await post("/api/status", { game_id: state.gameId });
   if (res.ok && data.done) {
-    await doFinish();
+    state.completionPopupShown = true;
+    openGameDoneModal("complete");
   }
 }
 
-async function doFinish() {
+async function finishRemoteSession() {
   if (!state.gameId) return;
   await post("/api/finish", { game_id: state.gameId });
   state.gameId = null;
-  show(el("panel-game"), false);
-  show(el("panel-empty"), false);
-  show(el("panel-result"), true);
-  const rs = el("result-summary");
-  if (rs) rs.textContent = "Skor, goller ve kırmızı kartlar tamamlandı.";
+}
+
+function closeGameDoneModal() {
+  const p = el("game-done-pop");
+  if (p) {
+    p.classList.add("hidden");
+    p.setAttribute("aria-hidden", "true");
+  }
+}
+
+function openGameDoneModal(mode) {
+  const desc = el("game-done-desc");
+  if (desc) {
+    desc.textContent =
+      mode === "complete"
+        ? "Tüm skor, gol ve kırmızı kart tahminleri tamamlandı."
+        : "Bu maçı sonlandırdınız.";
+  }
+  const p = el("game-done-pop");
+  if (p) {
+    p.classList.remove("hidden");
+    p.setAttribute("aria-hidden", "false");
+  }
+}
+
+function wireGameDoneModal() {
+  const ok = el("game-done-ok");
+  const nw = el("game-done-new");
+  const pop = el("game-done-pop");
+  if (ok) {
+    ok.addEventListener("click", async (e) => {
+      e.preventDefault();
+      await finishRemoteSession();
+      state.completionPopupShown = false;
+      closeGameDoneModal();
+    });
+  }
+  if (nw) {
+    nw.addEventListener("click", async (e) => {
+      e.preventDefault();
+      await finishRemoteSession();
+      closeGameDoneModal();
+      state.completionPopupShown = false;
+      await newGame();
+    });
+  }
+  if (pop) {
+    pop.addEventListener("click", (e) => {
+      if (e.target === pop) {
+        e.preventDefault();
+      }
+    });
+  }
 }
 
 async function newGame() {
+  state.completionPopupShown = false;
+  closeGameDoneModal();
+  await finishRemoteSession();
   setMsg("msg-global", "");
   show(el("panel-result"), false);
   show(el("panel-empty"), false);
@@ -619,7 +676,10 @@ async function newGame() {
 
 async function derbyFinishFromToolbar() {
   if (!state.gameId) return;
-  await doFinish();
+  const pop = el("game-done-pop");
+  if (pop && !pop.classList.contains("hidden")) return;
+  state.completionPopupShown = true;
+  openGameDoneModal("manual");
 }
 
 function initDerbyUi() {
@@ -649,6 +709,7 @@ function initDerbyUi() {
   }
 
   wireTeamHintUi();
+  wireGameDoneModal();
 
   show(el("panel-game"), false);
   show(el("panel-result"), false);

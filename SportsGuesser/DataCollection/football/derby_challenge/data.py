@@ -217,6 +217,7 @@ def public_challenge_payload(truth: Dict[str, Any]) -> Dict[str, Any]:
                 "added_time": c.get("added_time"),
                 "card_type": c["card_type"],
                 "is_home": c["is_home"],
+                "name_blank": scorer_name_blank_mask((c.get("player") or "")),
             }
         )
     subs = []

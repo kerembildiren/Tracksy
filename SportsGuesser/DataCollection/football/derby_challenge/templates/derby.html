@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Libre+Baskerville:ital,wght@0,400;0,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{ url_for('derby_challenge.static', filename='derby.css') }}?v=4" />
+  <link rel="stylesheet" href="{{ url_for('derby_challenge.static', filename='derby.css') }}?v=5" />
   <script>
     (function () {
       var p = "{{ url_for('derby_challenge.index') }}";
@@ -79,6 +79,17 @@
     <p class="msg" id="msg-global"></p>
   </div>
 
+  <div id="game-done-pop" class="game-done-pop hidden" aria-hidden="true">
+    <div class="game-done-card" role="dialog" aria-modal="true" aria-labelledby="game-done-title">
+      <h2 id="game-done-title" class="game-done-title">Oyun bitti</h2>
+      <p id="game-done-desc" class="game-done-desc"></p>
+      <div class="game-done-actions">
+        <button type="button" class="btn-ghost" id="game-done-ok">Tamam</button>
+        <button type="button" class="btn-primary" id="game-done-new">Yeni oyun</button>
+      </div>
+    </div>
+  </div>
+
   <div id="team-hint-pop" class="team-hint-pop hidden" aria-hidden="true">
     <div class="team-hint-pop-card" role="dialog" aria-modal="true" aria-labelledby="team-hint-title">
       <div class="team-hint-pop-head">
@@ -97,6 +108,6 @@
     </div>
   </div>
 
-  <script src="{{ url_for('derby_challenge.static', filename='derby.js') }}?v=13"></script>
+  <script src="{{ url_for('derby_challenge.static', filename='derby.js') }}?v=14"></script>
 </body>
 </html>

@@ -707,3 +707,57 @@ body::after {
   font-family: ui-monospace, "Cascadia Code", monospace;
   line-height: 1.2;
 }
+
+/* Oyun bitti — küçük popup */
+.game-done-pop {
+  position: fixed;
+  inset: 0;
+  z-index: 220;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: rgba(5, 10, 20, 0.65);
+  backdrop-filter: blur(3px);
+}
+
+.game-done-pop.hidden {
+  display: none !important;
+}
+
+.game-done-card {
+  width: min(360px, 100%);
+  padding: 1.15rem 1.2rem 1.2rem;
+  background: #1a2838;
+  border: 1px solid rgba(124, 184, 255, 0.38);
+  border-radius: 14px;
+  box-shadow: 0 18px 48px rgba(0, 0, 0, 0.55);
+  text-align: center;
+}
+
+.game-done-title {
+  margin: 0 0 0.5rem;
+  font-family: "Libre Baskerville", Georgia, serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.game-done-desc {
+  margin: 0 0 1.1rem;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  color: var(--muted);
+}
+
+.game-done-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  justify-content: center;
+}
+
+.game-done-actions .btn-primary,
+.game-done-actions .btn-ghost {
+  min-width: 7rem;
+}
