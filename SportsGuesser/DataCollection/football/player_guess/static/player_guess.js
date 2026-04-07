@@ -260,8 +260,6 @@
 
     el("pgResultOk").addEventListener("click", () => {
       hideResult();
-      showHome();
-      window.location.href = "/sportsguesser/football/guess/";
     });
     el("pgResultBackdrop").addEventListener("click", hideResult);
 

@@ -115,6 +115,10 @@ body::after {
   background: var(--border);
 }
 
+a.back-btn {
+  text-decoration: none;
+}
+
 /* Home – sport selection */
 .sport-grid {
   display: grid;
