@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{ url_for('player_guess.static', filename='player_guess.css') }}?v=1" />
+  <link rel="stylesheet" href="{{ url_for('player_guess.static', filename='player_guess.css') }}?v=2" />
   <script>
     window.__PLAYER_GUESS_ROOT__ = new URL("{{ url_for('player_guess.index') }}", window.location.origin).href.replace(/\/?$/, "/");
   </script>
@@ -31,6 +31,7 @@
         <span class="pg-header-title">Süper Lig Guess</span>
         <span class="pg-placeholder"></span>
       </header>
+      <p class="pg-refresh" id="pgRefreshLine" aria-live="polite"><span id="pgRefreshText"></span></p>
       <div class="pg-dots" id="pgDots"></div>
       <div class="pg-search-panel hidden" id="pgSearchPanel">
         <div class="pg-search-row">
@@ -40,6 +41,10 @@
         <ul class="pg-search-results" id="pgSearchResults"></ul>
       </div>
       <div class="pg-guesses" id="pgGuesses"></div>
+      <div class="pg-toolbar-row">
+        <button type="button" class="pg-btn pg-btn--ghost hidden" id="pgDemoReveal" title="Sadece demo (PLAYER_GUESS_DEMO_REVEAL=1)">Reveal (demo)</button>
+        <button type="button" class="pg-btn" id="pgResetGame">Oyunu sıfırla</button>
+      </div>
       <div class="pg-footer-actions">
         <button type="button" class="pg-btn pg-btn--primary pg-btn--block" id="pgActionBtn">Tahmin yap</button>
       </div>
@@ -71,6 +76,6 @@
       </div>
     </div>
   </div>
-  <script src="{{ url_for('player_guess.static', filename='player_guess.js') }}?v=1"></script>
+  <script src="{{ url_for('player_guess.static', filename='player_guess.js') }}?v=2"></script>
 </body>
 </html>

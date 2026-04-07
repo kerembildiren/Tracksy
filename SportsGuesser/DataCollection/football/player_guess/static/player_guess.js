@@ -16,8 +16,34 @@
   let searchTimer = null;
   let createTimer = null;
   let selectedCreateId = null;
+  let refreshDeadlineMs = 0;
 
   const el = (id) => document.getElementById(id);
+
+  function formatHMS(totalSec) {
+    const t = Math.max(0, Math.floor(totalSec));
+    const h = Math.floor(t / 3600);
+    const m = Math.floor((t % 3600) / 60);
+    const s = t % 60;
+    return [h, m, s].map((n) => String(n).padStart(2, "0")).join(":");
+  }
+
+  function syncRefreshDeadline(sec) {
+    if (typeof sec === "number" && sec >= 0) {
+      refreshDeadlineMs = Date.now() + sec * 1000;
+    }
+  }
+
+  function tickRefresh() {
+    const line = el("pgRefreshText");
+    if (!line) return;
+    const leftSec = Math.max(0, Math.floor((refreshDeadlineMs - Date.now()) / 1000));
+    if (leftSec <= 0) {
+      line.textContent = "Günlük oyuncu yenilendi; yeni gün için sayfayı yenileyin.";
+      return;
+    }
+    line.textContent = `Günlük oyuncunun yenilenmesine: ${formatHMS(leftSec)}`;
+  }
 
   function showHome() {
     el("pgHome").classList.remove("hidden");
@@ -33,6 +59,10 @@
     const res = await fetch(apiUrl("api/state"), { credentials: "same-origin" });
     if (!res.ok) throw new Error("state");
     gameState = await res.json();
+    syncRefreshDeadline(gameState.seconds_until_refresh);
+    tickRefresh();
+    const dr = el("pgDemoReveal");
+    if (dr) dr.classList.toggle("hidden", !gameState.demo_reveal);
     renderDots();
     renderGuesses();
     updateAction();
@@ -219,7 +249,6 @@
       window.location.href = "/sportsguesser/football/guess/";
     });
 
-    el("pgActionBtn").addEventListener("click", openSearch);
     el("pgSearchClose").addEventListener("click", closeSearch);
     el("pgSearchInput").addEventListener("input", () => {
       const q = el("pgSearchInput").value.trim();
@@ -289,6 +318,46 @@
       if (!selectedCreateId) return;
       window.location.href = el("pgCreateLink").value;
     });
+
+    setInterval(tickRefresh, 1000);
+
+    const resetBtn = el("pgResetGame");
+    if (resetBtn) {
+      resetBtn.addEventListener("click", async () => {
+        const res = await fetch(apiUrl("api/reset"), {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          credentials: "same-origin",
+          body: "{}",
+        });
+        const data = await res.json().catch(() => ({}));
+        if (!res.ok) {
+          alert(data.error || "Sıfırlanamadı");
+          return;
+        }
+        gameState = data;
+        syncRefreshDeadline(gameState.seconds_until_refresh);
+        tickRefresh();
+        renderDots();
+        renderGuesses();
+        updateAction();
+        const rm = el("pgResultModal");
+        if (rm) rm.classList.add("hidden");
+      });
+    }
+
+    const demoBtn = el("pgDemoReveal");
+    if (demoBtn) {
+      demoBtn.addEventListener("click", async () => {
+        const res = await fetch(apiUrl("api/demo-reveal"), { credentials: "same-origin" });
+        const data = await res.json().catch(() => ({}));
+        if (!res.ok) {
+          alert(data.error || "Reveal kapalı veya hata.");
+          return;
+        }
+        alert(`Günün oyuncusu (demo): ${data.name || "—"}`);
+      });
+    }
 
     const params = new URLSearchParams(window.location.search);
     if (params.get("player")) {

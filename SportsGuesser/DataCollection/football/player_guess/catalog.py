@@ -2,7 +2,7 @@
 Full player list (all seasons in superlig_data) + eligibility for the daily answer.
 
 Daily target must satisfy at least one of:
-  - 30+ career goals+assists (Süper Lig player_stats)
+  - 30+ career goals+assists (player_stats + goals.csv where stats yok)
   - 5+ distinct seasons in the league
   - At least one season with a club that won the league that season
 
@@ -27,7 +27,7 @@ if GRID_ROOT not in sys.path:
 from player_index import load_or_build_index  # noqa: E402
 
 DEFAULT_DATA = os.path.join(ROOT, "..", "superlig_data")
-CACHE_NAME = ".player_guess_catalog_v3.pkl"
+CACHE_NAME = ".player_guess_catalog_v4.pkl"
 
 # Daily answer must pass at least one
 MIN_GA_FOR_ELIGIBLE = 30
@@ -73,6 +73,43 @@ def _load_champions_by_season(data_root: str) -> Dict[str, int]:
     return out
 
 
+def _safe_int(val: Any, default: int = 0) -> int:
+    if val is None:
+        return default
+    s = str(val).strip()
+    if not s or s in ("-", "—", "N/A", "n/a", "null", "None"):
+        return default
+    try:
+        return int(float(s.replace(",", ".")))
+    except (ValueError, TypeError):
+        return default
+
+
+def _aggregate_from_goals_csv(
+    folder: str,
+    goals: Dict[int, int],
+    assists: Dict[int, int],
+) -> None:
+    """
+    player_stats.csv olmayan sezonlarda (ör. 01-02 … 10-11, 12-13) kariyer gol/asist
+    goals.csv üzerinden toplanır. 11-12 ile aynı kolon adları (scorer_id, assist_id).
+    """
+    path = os.path.join(folder, "goals.csv")
+    if not os.path.isfile(path):
+        return
+    with open(path, encoding="utf-8", newline="") as f:
+        reader = csv.DictReader(f)
+        if not reader.fieldnames:
+            return
+        for row in reader:
+            pid = _safe_int(row.get("scorer_id"), -1)
+            if pid > 0:
+                goals[pid] = goals.get(pid, 0) + 1
+            apid = _safe_int(row.get("assist_id"), -1)
+            if apid > 0:
+                assists[apid] = assists.get(apid, 0) + 1
+
+
 def _aggregate(data_root: str) -> Tuple[
     Dict[int, int],
     Dict[int, int],
@@ -106,15 +143,17 @@ def _aggregate(data_root: str) -> Tuple[
                     try:
                         pid = int(row["player_id"])
                         tid = int(row["team_id"])
-                        g = int(float(row.get("goals") or 0))
-                        a = int(float(row.get("assists") or 0))
-                        ap = int(float(row.get("appearances") or 0))
                     except (KeyError, ValueError, TypeError):
                         continue
+                    g = _safe_int(row.get("goals"))
+                    a = _safe_int(row.get("assists"))
+                    ap = _safe_int(row.get("appearances"))
                     goals[pid] = goals.get(pid, 0) + g
                     assists[pid] = assists.get(pid, 0) + a
                     apps_by_team[pid][tid] += ap
                     season_team_pairs.add((pid, season, tid))
+        else:
+            _aggregate_from_goals_csv(folder, goals, assists)
 
         prof = os.path.join(folder, "player_profiles.csv")
         if os.path.isfile(prof):

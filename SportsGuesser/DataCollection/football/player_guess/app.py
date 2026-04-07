@@ -6,7 +6,7 @@ from __future__ import annotations
 
 import os
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import Any, Dict, List, Optional
 
 import pytz
@@ -19,7 +19,7 @@ GRID_GAME = os.path.join(ROOT, "..", "grid_game")
 if GRID_GAME not in sys.path:
     sys.path.insert(0, GRID_GAME)
 
-from catalog import DEFAULT_DATA, load_catalog, player_by_id
+from catalog import DEFAULT_DATA, cache_path, load_catalog, player_by_id
 from search_util import best_match_score, format_suggestion_list, matches_name_query
 from geo import continent_for_nationality
 
@@ -37,6 +37,7 @@ EPOCH_DATE = datetime(2025, 1, 1)
 _POOL: Optional[List[Dict[str, Any]]] = None
 _ELIGIBLE_IDS: Optional[List[int]] = None
 _BY_ID: Optional[Dict[int, Dict[str, Any]]] = None
+_CATALOG_MTIME: Optional[float] = None
 
 
 def get_data_root() -> str:
@@ -44,12 +45,15 @@ def get_data_root() -> str:
 
 
 def _ensure_pool() -> None:
-    global _POOL, _ELIGIBLE_IDS, _BY_ID
-    if _POOL is None:
+    global _POOL, _ELIGIBLE_IDS, _BY_ID, _CATALOG_MTIME
+    cp = cache_path()
+    mtime = os.path.getmtime(cp) if os.path.isfile(cp) else None
+    if _POOL is None or mtime != _CATALOG_MTIME:
         pool, eligible_ids, _ = load_catalog(get_data_root())
         _POOL = pool
         _ELIGIBLE_IDS = eligible_ids
         _BY_ID = player_by_id(pool)
+        _CATALOG_MTIME = os.path.getmtime(cp) if os.path.isfile(cp) else None
 
 
 def get_turkey_now():
@@ -58,6 +62,22 @@ def get_turkey_now():
 
 def get_date_string() -> str:
     return get_turkey_now().strftime("%Y-%m-%d")
+
+
+def seconds_until_turkey_midnight() -> int:
+    """Günlük oyuncu yenilenmesi: Türkiye saatiyle bir sonraki gece yarısına kalan saniye."""
+    now = get_turkey_now()
+    next_mid = now.replace(hour=0, minute=0, second=0, microsecond=0) + timedelta(days=1)
+    return max(0, int((next_mid - now).total_seconds()))
+
+
+def demo_reveal_enabled() -> bool:
+    return os.environ.get("PLAYER_GUESS_DEMO_REVEAL", "").strip().lower() in (
+        "1",
+        "true",
+        "yes",
+        "on",
+    )
 
 
 def get_daily_player() -> Optional[Dict[str, Any]]:
@@ -214,6 +234,8 @@ def get_game_state() -> Dict[str, Any]:
         "guesses": guesses_out,
         "status": b.get("status", "playing"),
         "remaining": 10 - len(b.get("guesses", [])),
+        "seconds_until_refresh": seconds_until_turkey_midnight(),
+        "demo_reveal": demo_reveal_enabled(),
     }
 
 
@@ -356,6 +378,33 @@ def api_guess():
     if "error" in result and "guess" not in result:
         return jsonify(result), 400
     return jsonify(result)
+
+
+@player_guess_bp.route("/api/reset", methods=["POST"])
+def api_reset():
+    """Aynı gün / aynı özel bulmaca için tahminleri sıfırla (hedef oyuncu aynı kalır)."""
+    _ensure_pool()
+    b = _session_bucket()
+    b["guesses"] = []
+    b["status"] = "playing"
+    session.modified = True
+    return jsonify(get_game_state())
+
+
+@player_guess_bp.route("/api/demo-reveal")
+def api_demo_reveal():
+    """Demo: günün hedef ismi. PLAYER_GUESS_DEMO_REVEAL=1 ile açılır."""
+    if not demo_reveal_enabled():
+        return jsonify({"error": "Demo reveal kapalı."}), 403
+    _ensure_pool()
+    b = _session_bucket()
+    cid = b.get("correct_player_id")
+    if cid is None or not _BY_ID:
+        return jsonify({"error": "Aktif oyun yok."}), 400
+    c = _BY_ID.get(cid)
+    if not c:
+        return jsonify({"error": "Oyuncu bulunamadı."}), 404
+    return jsonify({"name": c.get("name") or c.get("short_name") or str(cid)})
 
 
 @player_guess_bp.route("/api/answer")
