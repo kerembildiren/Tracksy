@@ -19,6 +19,9 @@ let state = {
   currentTurn: null,
   winner: null,
   hintUi: {},
+  /** Set only when user picks a row from #suggest; required to submit a guess. */
+  lockedPickId: null,
+  lockedPickName: null,
 };
 
 const el = (id) => document.getElementById(id);
@@ -119,6 +122,8 @@ function renderCells(grid) {
       const r = +node.dataset.row;
       const c = +node.dataset.col;
       state.selected = { r, c };
+      state.lockedPickId = null;
+      state.lockedPickName = null;
       el("guess").focus();
       refreshSuggest();
     });
@@ -174,6 +179,8 @@ async function refreshSuggest() {
       e.preventDefault();
     });
     li.addEventListener("click", () => {
+      state.lockedPickId = it.id;
+      state.lockedPickName = it.name;
       el("guess").value = it.name;
       sug.classList.add("hidden");
       submitGuess();
@@ -317,6 +324,8 @@ async function newGame(playMode) {
   state.currentTurn = data.current_turn != null ? data.current_turn : null;
   state.winner = data.winner != null ? data.winner : null;
   state.selected = null;
+  state.lockedPickId = null;
+  state.lockedPickName = null;
   renderHeaders(data.rows, data.cols);
   renderCells(data);
   el("guess").value = "";
@@ -408,7 +417,7 @@ async function runCellFlipReveal(r, c, playerName, mark) {
 }
 
 async function submitGuess() {
-  const name = el("guess").value;
+  const name = (el("guess").value || "").trim();
   if (!state.gameId || !state.selected) {
     el("msg").textContent = "Önce bir kutu seçin.";
     el("msg").classList.add("err");
@@ -419,11 +428,26 @@ async function submitGuess() {
     el("msg").classList.add("err");
     return;
   }
+  if (
+    state.lockedPickId == null ||
+    !(state.lockedPickName || "").trim() ||
+    name !== (state.lockedPickName || "").trim()
+  ) {
+    el("msg").textContent = "Tahmin için öneri listesinden bir oyuncu seçin.";
+    el("msg").classList.add("err");
+    return;
+  }
   const { r, c } = state.selected;
   const res = await fetch(apiUrl("/api/guess"), {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ game_id: state.gameId, row: r, col: c, name }),
+    body: JSON.stringify({
+      game_id: state.gameId,
+      row: r,
+      col: c,
+      name,
+      player_id: state.lockedPickId,
+    }),
   });
   const data = await res.json();
 
@@ -431,6 +455,8 @@ async function submitGuess() {
     if (data.pass_turn && !data.ok) {
       el("msg").classList.add("err");
       el("msg").textContent = data.error || "Yanlış — sıra değişti.";
+      state.lockedPickId = null;
+      state.lockedPickName = null;
       if (data.current_turn != null) {
         state.currentTurn = data.current_turn;
         state.grid.current_turn = data.current_turn;
@@ -443,6 +469,8 @@ async function submitGuess() {
   if (!data.ok) {
     el("msg").textContent = data.error || "Hatalı";
     el("msg").classList.add("err");
+    state.lockedPickId = null;
+    state.lockedPickName = null;
     return;
   }
 
@@ -471,6 +499,8 @@ async function submitGuess() {
     await runCellFlipReveal(r, c, data.player.name, null);
   }
   el("guess").value = "";
+  state.lockedPickId = null;
+  state.lockedPickName = null;
   el("suggest").classList.add("hidden");
   hideAllHintPops();
 }
@@ -543,6 +573,12 @@ el("guess").addEventListener("keydown", (e) => {
   }
 });
 el("guess").addEventListener("input", () => {
+  const v = (el("guess").value || "").trim();
+  const lock = (state.lockedPickName || "").trim();
+  if (state.lockedPickId != null && v !== lock) {
+    state.lockedPickId = null;
+    state.lockedPickName = null;
+  }
   clearTimeout(suggestTimer);
   suggestTimer = setTimeout(refreshSuggest, 180);
 });

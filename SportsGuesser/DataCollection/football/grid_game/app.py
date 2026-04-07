@@ -107,26 +107,6 @@ def _top_team_seasons(r: PlayerRecord) -> Tuple[Optional[int], int]:
     return tid, n
 
 
-def _match_in_pool(
-    players: Dict[int, PlayerRecord], pool: Set[int], guess: str
-) -> Optional[int]:
-    if not (guess or "").strip():
-        return None
-    best: List[tuple] = []
-    for pid in pool:
-        r = players[pid]
-        for nm in (r.name, r.short_name):
-            if not nm:
-                continue
-            if matches_name_query(nm, guess):
-                sc = best_match_score(nm, guess)
-                best.append((sc, pid))
-    if not best:
-        return None
-    best.sort(key=lambda x: (-x[0], x[1]))
-    return best[0][1]
-
-
 def _position_hint_label(code: Optional[str]) -> str:
     if not code:
         return ""
@@ -281,7 +261,7 @@ def guess():
     body = request.get_json(force=True, silent=True) or {}
     gid = body.get("game_id")
     ri, ci = body.get("row"), body.get("col")
-    name = body.get("name", "")
+    raw_pid = body.get("player_id")
     if gid not in GAMES or ri is None or ci is None:
         return jsonify({"ok": False, "error": "Oyun bulunamadı."}), 400
     try:
@@ -307,23 +287,35 @@ def guess():
         return jsonify({"ok": False, "error": "Bu kutu zaten dolduruldu."})
 
     pool = cell["valid_ids"]
-    pid = _match_in_pool(players, pool, name)
+    if raw_pid is None:
+        return (
+            jsonify(
+                {
+                    "ok": False,
+                    "error": "Oyuncuyu öneri listesinden seçin.",
+                }
+            ),
+            400,
+        )
+    try:
+        pid = int(raw_pid)
+    except (TypeError, ValueError):
+        return (
+            jsonify({"ok": False, "error": "Geçersiz oyuncu seçimi."}),
+            400,
+        )
 
     if play_mode == "versus":
         turn = int(st["current_turn"] or 1)
-        bad = (
-            pid is None
-            or pid not in pool
-            or (pid in st["used_players"])
-        )
+        bad = pid not in pool or (pid in st["used_players"])
         if bad:
             next_turn = 2 if turn == 1 else 1
             st["current_turn"] = next_turn
-            err = "Eşleşen oyuncu yok, havuz dışı veya zaten kullanıldı."
-            if pid is not None and pid in st["used_players"]:
+            err = "Seçilen oyuncu bu kutu için geçerli değil veya zaten kullanıldı."
+            if pid in st["used_players"]:
                 err = "Bu oyuncu başka bir kutuda kullanıldı."
-            elif pid is None:
-                err = "Bu arama ile eşleşen oyuncu yok veya kutu için geçersiz."
+            elif pid not in pool:
+                err = "Seçilen oyuncu bu kutu için geçerli değil."
             return jsonify(
                 {
                     "ok": False,
@@ -359,9 +351,9 @@ def guess():
         )
 
     # solo
-    if pid is None:
+    if pid not in pool:
         return jsonify(
-            {"ok": False, "error": "Bu arama ile eşleşen oyuncu yok veya kutu için geçersiz."}
+            {"ok": False, "error": "Seçilen oyuncu bu kutu için geçerli değil."}
         )
     if pid in st["used_players"]:
         return jsonify({"ok": False, "error": "Bu oyuncu başka bir kutuda kullanıldı."})
