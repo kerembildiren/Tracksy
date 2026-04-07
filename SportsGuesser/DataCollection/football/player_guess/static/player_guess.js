@@ -61,8 +61,6 @@
     gameState = await res.json();
     syncRefreshDeadline(gameState.seconds_until_refresh);
     tickRefresh();
-    const dr = el("pgDemoReveal");
-    if (dr) dr.classList.toggle("hidden", !gameState.demo_reveal);
     renderDots();
     renderGuesses();
     updateAction();
@@ -137,7 +135,8 @@
         </div>`;
       container.appendChild(card);
     });
-    container.scrollTop = 0;
+    const scroll = el("pgGuessesScroll");
+    if (scroll) scroll.scrollTop = 0;
   }
 
   function cell(label, value, hint, noArrow) {
@@ -346,9 +345,9 @@
       });
     }
 
-    const demoBtn = el("pgDemoReveal");
-    if (demoBtn) {
-      demoBtn.addEventListener("click", async () => {
+    const revealBtn = el("pgRevealBtn");
+    if (revealBtn) {
+      revealBtn.addEventListener("click", async () => {
         const res = await fetch(apiUrl("api/demo-reveal"), { credentials: "same-origin" });
         const data = await res.json().catch(() => ({}));
         if (!res.ok) {
