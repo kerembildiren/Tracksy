@@ -450,6 +450,52 @@ function unlockEventsPhase() {
   ph.classList.remove("hidden");
 }
 
+function disableTimelineRow(row, revealText) {
+  const rev = row.querySelector(".ev-reveal");
+  if (rev) rev.textContent = revealText;
+  row.querySelectorAll(".ev-input").forEach((i) => {
+    i.disabled = true;
+  });
+  const gb = row.querySelector(".btn-guess");
+  if (gb) gb.disabled = true;
+  const br = row.querySelector(".btn-reveal");
+  if (br) br.disabled = true;
+}
+
+/**
+ * Sunucudan gelen reveal-all cevabıyla ekranı doldurur (tek tek İpucu basılmış gibi).
+ */
+function applyRevealAllToUi(data) {
+  setMsg(
+    "msg-score",
+    `Skor: ${data.home_score} — ${data.away_score} (özet — oyunu bitir)`,
+    false
+  );
+  el("score-home").value = data.home_score;
+  el("score-away").value = data.away_score;
+  el("score-home").disabled = true;
+  el("score-away").disabled = true;
+  el("btn-guess-score").disabled = true;
+  el("btn-reveal-score").disabled = true;
+  unlockEventsPhase();
+
+  const list = el("timeline-list");
+  if (list) {
+    (data.goals || []).forEach((g) => {
+      const row = list.querySelector(
+        `.timeline-row[data-kind="goal"][data-idx="${g.idx}"]`
+      );
+      if (row) disableTimelineRow(row, g.scorer || "");
+    });
+    (data.red_cards || []).forEach((c) => {
+      const row = list.querySelector(
+        `.timeline-row[data-kind="card"][data-idx="${c.idx}"]`
+      );
+      if (row) disableTimelineRow(row, c.player || "");
+    });
+  }
+}
+
 function wireGame(ch) {
   const list = el("timeline-list");
   const empty = el("timeline-empty");
@@ -599,10 +645,14 @@ function closeGameDoneModal() {
 function openGameDoneModal(mode) {
   const desc = el("game-done-desc");
   if (desc) {
-    desc.textContent =
-      mode === "complete"
-        ? "Tüm skor, gol ve kırmızı kart tahminleri tamamlandı."
-        : "Bu maçı sonlandırdınız.";
+    if (mode === "complete") {
+      desc.textContent = "Tüm skor, gol ve kırmızı kart tahminleri tamamlandı.";
+    } else if (mode === "abandon") {
+      desc.textContent =
+        "Maçın skoru, golleri, kırmızı kartları ve takım ipuçları açıldı; satırlar ipucu kullanılmış gibi dolduruldu.";
+    } else {
+      desc.textContent = "Bu maçı sonlandırdınız.";
+    }
   }
   const p = el("game-done-pop");
   if (p) {
@@ -678,8 +728,17 @@ async function derbyFinishFromToolbar() {
   if (!state.gameId) return;
   const pop = el("game-done-pop");
   if (pop && !pop.classList.contains("hidden")) return;
+  const btn = el("btn-finish");
+  if (btn) btn.disabled = true;
+  const { res, data } = await post("/api/reveal-all", { game_id: state.gameId });
+  if (btn) btn.disabled = false;
+  if (!res.ok || data.ok === false) {
+    setMsg("msg-global", (data && data.error) || "Özet açılamadı", true);
+    return;
+  }
+  applyRevealAllToUi(data);
   state.completionPopupShown = true;
-  openGameDoneModal("manual");
+  openGameDoneModal("abandon");
 }
 
 function initDerbyUi() {

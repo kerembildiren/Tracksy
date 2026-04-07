@@ -388,6 +388,42 @@ def team_hint():
     )
 
 
+@derby_bp.route("/api/reveal-all", methods=["POST"])
+def reveal_all():
+    """Oyunu bitir: skor, tüm gol/kırmızı kart ipuçları ve takım ipucu kuyruklarını tamamen aç."""
+    body = request.get_json(force=True, silent=True) or {}
+    gid = body.get("game_id")
+    if gid not in GAMES:
+        return jsonify({"ok": False, "error": "Oyun yok."}), 400
+    st = GAMES[gid]
+    t = st["truth"]
+
+    st["revealed"]["score"] = True
+    for i in range(len(t["goals"])):
+        st["revealed"]["goals"].add(i)
+    for i in _red_card_indices(t):
+        st["revealed"]["cards"].add(i)
+
+    st["hint_index_home"] = len(st["hint_schedule_home"])
+    st["hint_index_away"] = len(st["hint_schedule_away"])
+
+    goals_out = [{"idx": i, "scorer": g["scorer"]} for i, g in enumerate(t["goals"])]
+    reds = _red_card_indices(t)
+    cards_out = [{"idx": i, "player": t["cards"][i]["player"]} for i in reds]
+
+    return jsonify(
+        {
+            "ok": True,
+            "home_score": t["home_score"],
+            "away_score": t["away_score"],
+            "goals": goals_out,
+            "red_cards": cards_out,
+            "team_hints_home": list(st["hint_schedule_home"]),
+            "team_hints_away": list(st["hint_schedule_away"]),
+        }
+    )
+
+
 @derby_bp.route("/api/finish", methods=["POST"])
 def finish():
     body = request.get_json(force=True, silent=True) or {}
