@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Libre+Baskerville:ital,wght@0,400;0,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{ url_for('derby_challenge.static', filename='derby.css') }}?v=3" />
+  <link rel="stylesheet" href="{{ url_for('derby_challenge.static', filename='derby.css') }}?v=4" />
   <script>
     (function () {
       var p = "{{ url_for('derby_challenge.index') }}";
@@ -24,7 +24,6 @@
       <p class="derby-sub">FB · GS · BJK · TS — Süper Lig derbileri (2001/2002–2024/2025)</p>
       <div class="toolbar">
         <button type="button" id="btn-new-match" class="btn-primary">Yeni maç</button>
-        <span class="points" id="points-total">Puan: 0</span>
       </div>
     </header>
 
@@ -36,10 +35,11 @@
       <div id="match-banner"></div>
 
       <section class="phase-score-block" id="phase-score-block">
-        <p class="hint">Doğru skor: 100 puan. İpucu kullanırsanız bu bölümde puan alamazsınız. Skoru çözdükten sonra olaylar açılır.</p>
+        <p class="hint">Skoru tahmin edin veya skor ipucunu kullanın. Her takımın <strong>İpuçları</strong> butonu, o takıma ait sarı kart ve oyuncu değişikliklerini dakika sırasıyla verir (skoru yazmadan da kullanılabilir). Skor çözülünce gol ve kırmızı kart olayları açılır.</p>
         <div class="scoreboard-row">
           <div class="scoreboard-team scoreboard-team--home">
             <span class="scoreboard-team-name" id="name-home-display"></span>
+            <button type="button" class="btn-ghost btn-sm btn-team-hint" id="btn-hint-home">İpuçları</button>
           </div>
           <div class="scoreboard-center">
             <input type="number" id="score-home" class="scoreboard-input" min="0" max="20" inputmode="numeric" aria-labelledby="name-home-display" />
@@ -48,6 +48,7 @@
           </div>
           <div class="scoreboard-team scoreboard-team--away">
             <span class="scoreboard-team-name" id="name-away-display"></span>
+            <button type="button" class="btn-ghost btn-sm btn-team-hint" id="btn-hint-away">İpuçları</button>
           </div>
         </div>
         <div class="score-actions">
@@ -59,7 +60,7 @@
 
       <section id="events-phase" class="events-phase hidden">
         <h2 class="events-title">Olaylar</h2>
-        <p class="hint">Dakika: erken → geç. Yan taraftaki satırda yazdığınız isim, üstteki takıma aittir. Gol 100 · Kart 200 · Değişiklik 200 puan. Enter ile tahmin.</p>
+        <p class="hint">Dakika sırası: erken → geç. Yalnızca <strong>gol</strong> ve <strong>kırmızı kart</strong> (ikinci sarı dahil) tahmin edilir. Sarı kart ve değişiklikler takım ipuçlarındadır. Enter ile tahmin.</p>
         <div id="timeline-list" class="timeline-list"></div>
         <p id="timeline-empty" class="timeline-empty hidden">Bu maçta tahmin edilecek kayıtlı olay yok.</p>
       </section>
@@ -71,12 +72,31 @@
 
     <div id="panel-result" class="panel result-panel hidden">
       <h2>Oyun bitti</h2>
-      <p class="result-big" id="result-points">Toplam: 0 puan</p>
+      <p class="result-big" id="result-summary">Skor, goller ve kırmızı kartlar tamamlandı.</p>
       <button type="button" class="btn-primary" id="btn-after">Yeni maç</button>
     </div>
 
     <p class="msg" id="msg-global"></p>
   </div>
-  <script src="{{ url_for('derby_challenge.static', filename='derby.js') }}?v=12"></script>
+
+  <div id="team-hint-pop" class="team-hint-pop hidden" aria-hidden="true">
+    <div class="team-hint-pop-card" role="dialog" aria-modal="true" aria-labelledby="team-hint-title">
+      <div class="team-hint-pop-head">
+        <h2 class="team-hint-pop-title" id="team-hint-title">İpuçları</h2>
+        <button type="button" class="team-hint-close" id="team-hint-close" aria-label="Kapat">×</button>
+      </div>
+      <p class="hint-carousel-tip">Sarı kart ve oyuncu değişiklikleri maç dakikasına göre. Oklar veya kaydırma ile sayfalar arasında gezinin; yeni olay için <strong>Sonraki ipucu</strong>.</p>
+      <div class="hint-carousel-viewport" id="team-hint-viewport">
+        <div class="hint-carousel-track" id="team-hint-track"></div>
+      </div>
+      <div class="hint-carousel-arrows">
+        <button type="button" class="hint-carousel-prev" id="team-hint-prev" aria-label="Önceki sayfa">‹</button>
+        <button type="button" class="hint-carousel-next" id="team-hint-next-nav" aria-label="Sonraki sayfa">›</button>
+      </div>
+      <button type="button" class="hint-pop-next" id="team-hint-next-reveal">Sonraki ipucu</button>
+    </div>
+  </div>
+
+  <script src="{{ url_for('derby_challenge.static', filename='derby.js') }}?v=13"></script>
 </body>
 </html>

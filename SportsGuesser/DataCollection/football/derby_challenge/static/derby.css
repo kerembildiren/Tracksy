@@ -106,11 +106,6 @@ body::after {
   margin-bottom: 1rem;
 }
 
-.points {
-  font-weight: 600;
-  color: var(--accent);
-}
-
 .panel {
   background: var(--surface);
   border: 1px solid var(--border);
@@ -171,6 +166,14 @@ body::after {
 
 .scoreboard-team {
   min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.4rem;
+}
+
+.scoreboard-team--away {
+  align-items: flex-end;
 }
 
 .scoreboard-team-name {
@@ -528,4 +531,179 @@ body::after {
   color: #f87171;
   margin-top: 1rem;
   min-height: 1.25rem;
+}
+
+/* Takım ipuçları — Tic Tac Toe tarzı kaydırmalı */
+.team-hint-pop {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: rgba(5, 10, 20, 0.72);
+  backdrop-filter: blur(4px);
+}
+
+.team-hint-pop.hidden {
+  display: none !important;
+}
+
+.team-hint-pop-card {
+  width: min(420px, 100%);
+  max-height: min(85vh, 520px);
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  padding: 0.75rem 0.85rem 0.9rem;
+  background: #1a2838;
+  border: 1px solid rgba(124, 184, 255, 0.35);
+  border-radius: 12px;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.5);
+}
+
+.team-hint-pop-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.team-hint-pop-title {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #b8c9dc;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1.25;
+}
+
+.team-hint-close {
+  border: none;
+  background: transparent;
+  color: #b8c9dc;
+  font-size: 1.35rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0 0.2rem;
+  border-radius: 4px;
+}
+
+.team-hint-close:hover {
+  color: var(--text);
+}
+
+.hint-carousel-tip {
+  margin: 0;
+  font-size: 0.72rem;
+  line-height: 1.4;
+  color: #8fa3b8;
+}
+
+.team-hint-pop .hint-carousel-viewport {
+  overflow: hidden;
+  border-radius: 8px;
+  border: 1px solid rgba(124, 184, 255, 0.15);
+  background: rgba(0, 0, 0, 0.2);
+  touch-action: pan-y;
+  flex: 1;
+  min-height: 5rem;
+}
+
+.team-hint-pop .hint-carousel-track {
+  display: flex;
+  flex-direction: row;
+  transition: transform 0.22s ease-out;
+  will-change: transform;
+}
+
+.team-hint-pop .hint-carousel-page {
+  flex: 0 0 100%;
+  min-width: 100%;
+  padding: 0.5rem 0.55rem 0.55rem;
+  box-sizing: border-box;
+}
+
+.derby-hint-page-text {
+  margin: 0;
+  font-size: 0.88rem;
+  line-height: 1.45;
+  color: #eef3f9;
+}
+
+.derby-hint-empty {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--muted);
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+.team-hint-pop .hint-carousel-arrows {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.35rem;
+}
+
+.team-hint-pop .hint-carousel-prev,
+.team-hint-pop .hint-carousel-next {
+  flex: 1;
+  padding: 0.3rem;
+  border-radius: 6px;
+  border: 1px solid rgba(124, 184, 255, 0.25);
+  background: rgba(0, 0, 0, 0.2);
+  color: #b8c9dc;
+  font-size: 1.15rem;
+  line-height: 1;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.team-hint-pop .hint-carousel-prev:hover:not(:disabled),
+.team-hint-pop .hint-carousel-next:hover:not(:disabled) {
+  color: var(--text);
+  border-color: rgba(124, 184, 255, 0.45);
+}
+
+.team-hint-pop .hint-carousel-prev:disabled,
+.team-hint-pop .hint-carousel-next:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.team-hint-pop .hint-pop-next {
+  margin-top: 0.15rem;
+  padding: 0.45rem 0.55rem;
+  border-radius: 8px;
+  border: 1px solid rgba(124, 184, 255, 0.45);
+  background: #24364a;
+  color: #c8ddfb;
+  font-size: 0.8rem;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.team-hint-pop .hint-pop-next:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.goal-guess-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  width: 100%;
+  min-width: 0;
+}
+
+.goal-name-mask {
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: var(--text);
+  font-family: ui-monospace, "Cascadia Code", monospace;
+  line-height: 1.2;
 }

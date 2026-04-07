@@ -35,11 +35,6 @@ derby_bp = Blueprint(
     template_folder="templates",
 )
 
-POINTS_SCORE = 100
-POINTS_GOAL = 100
-POINTS_CARD = 200
-POINTS_SUB = 200
-
 SUGGEST_MIN = 2
 
 _data_root: Optional[str] = None
@@ -80,6 +75,55 @@ def _score_resolved(st: Dict[str, Any]) -> bool:
     return bool(st["solved"]["score"] or st["revealed"]["score"])
 
 
+def _is_red_like_card(card_type: Optional[str]) -> bool:
+    ct = (card_type or "yellow").strip().lower()
+    return ct in ("red", "yellowred")
+
+
+def _minute_label(ev: Dict[str, Any]) -> str:
+    m = ev.get("minute")
+    at = ev.get("added_time")
+    if at is not None and str(at).strip() != "":
+        return f"{m}' +{at}"
+    return f"{m}'"
+
+
+def _ev_sort_key(ev: Dict[str, Any], kind_prio: int, tie: int) -> tuple:
+    m = int(ev.get("minute") or 0)
+    at = ev.get("added_time")
+    add = int(at) if at is not None and str(at).strip().isdigit() else 0
+    return (m, add, kind_prio, tie)
+
+
+def _build_team_hint_lines(truth: Dict[str, Any], is_home: bool) -> List[str]:
+    rows: List[tuple] = []
+    for i, c in enumerate(truth["cards"]):
+        if bool(c.get("is_home")) != is_home:
+            continue
+        if _is_red_like_card(c.get("card_type")):
+            continue
+        lab = _minute_label(c)
+        who = (c.get("player") or "").strip()
+        rows.append((_ev_sort_key(c, 1, i), f"{lab} · Sarı kart: {who}"))
+    for i, s in enumerate(truth["subs"]):
+        if bool(s.get("is_home")) != is_home:
+            continue
+        lab = _minute_label(s)
+        pin = (s.get("player_in") or "").strip()
+        pout = (s.get("player_out") or "").strip()
+        rows.append((_ev_sort_key(s, 2, i), f"{lab} · Değişiklik: {pout} → {pin}"))
+    rows.sort(key=lambda x: x[0])
+    return [r[1] for r in rows]
+
+
+def _red_card_indices(truth: Dict[str, Any]) -> List[int]:
+    return [
+        i
+        for i, c in enumerate(truth["cards"])
+        if _is_red_like_card(c.get("card_type"))
+    ]
+
+
 @derby_bp.route("/")
 def index():
     return render_template("derby.html")
@@ -113,7 +157,10 @@ def new_game():
             "cards": set(),
             "subs": set(),
         },
-        "points": 0,
+        "hint_index_home": 0,
+        "hint_index_away": 0,
+        "hint_schedule_home": _build_team_hint_lines(truth, True),
+        "hint_schedule_away": _build_team_hint_lines(truth, False),
     }
     pub = public_challenge_payload(truth)
     pub["game_id"] = gid
@@ -132,7 +179,7 @@ def guess_score():
     if st["revealed"]["score"]:
         return jsonify({"ok": False, "error": "Skor alanı ipucu ile açıldı."})
     if st["solved"]["score"]:
-        return jsonify({"ok": True, "correct": True, "points": 0, "message": "Zaten doğru."})
+        return jsonify({"ok": True, "correct": True, "message": "Zaten doğru."})
 
     try:
         h = int(hs)
@@ -142,19 +189,9 @@ def guess_score():
 
     t = st["truth"]
     ok = h == t["home_score"] and a == t["away_score"]
-    pts = 0
     if ok:
         st["solved"]["score"] = True
-        pts = POINTS_SCORE
-        st["points"] += pts
-    return jsonify(
-        {
-            "ok": True,
-            "correct": ok,
-            "points": pts,
-            "total_points": st["points"],
-        }
-    )
+    return jsonify({"ok": True, "correct": ok})
 
 
 @derby_bp.route("/api/guess-goal", methods=["POST"])
@@ -181,23 +218,13 @@ def guess_goal():
     if idx in st["revealed"]["goals"]:
         return jsonify({"ok": False, "error": "Bu gol ipucu ile açıldı."})
     if idx in st["solved"]["goals"]:
-        return jsonify({"ok": True, "correct": True, "points": 0})
+        return jsonify({"ok": True, "correct": True})
 
     truth_name = goals[idx]["scorer"]
     ok = _name_match(truth_name, name)
-    pts = 0
     if ok:
         st["solved"]["goals"].add(idx)
-        pts = POINTS_GOAL
-        st["points"] += pts
-    return jsonify(
-        {
-            "ok": True,
-            "correct": ok,
-            "points": pts,
-            "total_points": st["points"],
-        }
-    )
+    return jsonify({"ok": True, "correct": ok})
 
 
 @derby_bp.route("/api/guess-card", methods=["POST"])
@@ -221,72 +248,36 @@ def guess_card():
     cards = st["truth"]["cards"]
     if idx < 0 or idx >= len(cards):
         return jsonify({"ok": False, "error": "Geçersiz kart."}), 400
+    c = cards[idx]
+    if not _is_red_like_card(c.get("card_type")):
+        return jsonify(
+            {
+                "ok": False,
+                "error": "Sarı kartlar yalnızca takım ipuçlarından görünür; tahmin sadece kırmızı kartlar içindir.",
+            }
+        )
     if idx in st["revealed"]["cards"]:
         return jsonify({"ok": False, "error": "Bu kart ipucu ile açıldı."})
     if idx in st["solved"]["cards"]:
-        return jsonify({"ok": True, "correct": True, "points": 0})
+        return jsonify({"ok": True, "correct": True})
 
-    truth_name = cards[idx]["player"]
+    truth_name = c["player"]
     ok = _name_match(truth_name, name)
-    pts = 0
     if ok:
         st["solved"]["cards"].add(idx)
-        pts = POINTS_CARD
-        st["points"] += pts
-    return jsonify(
-        {
-            "ok": True,
-            "correct": ok,
-            "points": pts,
-            "total_points": st["points"],
-        }
-    )
+    return jsonify({"ok": True, "correct": ok})
 
 
 @derby_bp.route("/api/guess-sub", methods=["POST"])
 def guess_sub():
     body = request.get_json(force=True, silent=True) or {}
     gid = body.get("game_id")
-    idx = body.get("idx")
-    pin = body.get("player_in", "")
-    pout = body.get("player_out", "")
     if gid not in GAMES:
         return jsonify({"ok": False, "error": "Oyun yok."}), 400
-    try:
-        idx = int(idx)
-    except (TypeError, ValueError):
-        return jsonify({"ok": False, "error": "Geçersiz."}), 400
-
-    st = GAMES[gid]
-    if not _score_resolved(st):
-        return jsonify(
-            {"ok": False, "error": "Önce skoru tahmin edin veya skor ipucunu kullanın."}
-        ), 400
-    subs = st["truth"]["subs"]
-    if idx < 0 or idx >= len(subs):
-        return jsonify({"ok": False, "error": "Geçersiz değişiklik."}), 400
-    if idx in st["revealed"]["subs"]:
-        return jsonify({"ok": False, "error": "Bu değişiklik ipucu ile açıldı."})
-    if idx in st["solved"]["subs"]:
-        return jsonify({"ok": True, "correct": True, "points": 0})
-
-    s = subs[idx]
-    ok_in = _name_match(s["player_in"], pin)
-    ok_out = _name_match(s["player_out"], pout)
-    ok = ok_in and ok_out
-    pts = 0
-    if ok:
-        st["solved"]["subs"].add(idx)
-        pts = POINTS_SUB
-        st["points"] += pts
     return jsonify(
         {
-            "ok": True,
-            "correct": ok,
-            "correct_in": ok_in,
-            "correct_out": ok_out,
-            "points": pts,
-            "total_points": st["points"],
+            "ok": False,
+            "error": "Oyuncu değişiklikleri yalnızca takım ipuçlarından görüntülenir.",
         }
     )
 
@@ -338,25 +329,63 @@ def reveal():
     if kind == "card":
         if idx < 0 or idx >= len(t["cards"]):
             return jsonify({"error": "Geçersiz."}), 400
-        st["revealed"]["cards"].add(idx)
         c = t["cards"][idx]
+        if not _is_red_like_card(c.get("card_type")):
+            return jsonify(
+                {"error": "Sarı kart ipuçları takım butonlarından verilir."}
+            ), 400
+        st["revealed"]["cards"].add(idx)
         return jsonify({"kind": "card", "idx": idx, "player": c["player"]})
 
     if kind == "sub":
-        if idx < 0 or idx >= len(t["subs"]):
-            return jsonify({"error": "Geçersiz."}), 400
-        st["revealed"]["subs"].add(idx)
-        s = t["subs"][idx]
         return jsonify(
-            {
-                "kind": "sub",
-                "idx": idx,
-                "player_in": s["player_in"],
-                "player_out": s["player_out"],
-            }
-        )
+            {"error": "Oyuncu değişiklikleri takım ipuçlarından görüntülenir."}
+        ), 400
 
     return jsonify({"error": "Bilinmeyen tür."}), 400
+
+
+@derby_bp.route("/api/team-hint", methods=["POST"])
+def team_hint():
+    body = request.get_json(force=True, silent=True) or {}
+    gid = body.get("game_id")
+    side = (body.get("side") or "").lower()
+    advance = bool(body.get("advance"))
+    if gid not in GAMES:
+        return jsonify({"ok": False, "error": "Oyun yok."}), 400
+    if side not in ("home", "away"):
+        return jsonify({"ok": False, "error": "Geçersiz taraf."}), 400
+    st = GAMES[gid]
+    key = "hint_index_home" if side == "home" else "hint_index_away"
+    sk = "hint_schedule_home" if side == "home" else "hint_schedule_away"
+    sched: List[str] = st[sk]
+    idx = st[key]
+    if advance:
+        if idx >= len(sched):
+            return jsonify(
+                {
+                    "ok": False,
+                    "error": "Bu takım için ipucu kalmadı.",
+                    "pages": sched[:idx],
+                    "focus": max(0, idx - 1) if idx else 0,
+                    "has_more": False,
+                    "total": len(sched),
+                }
+            )
+        idx += 1
+        st[key] = idx
+    pages = sched[: st[key]]
+    foc = max(0, len(pages) - 1) if pages else 0
+    return jsonify(
+        {
+            "ok": True,
+            "side": side,
+            "pages": pages,
+            "focus": foc,
+            "has_more": st[key] < len(sched),
+            "total": len(sched),
+        }
+    )
 
 
 @derby_bp.route("/api/finish", methods=["POST"])
@@ -365,10 +394,8 @@ def finish():
     gid = body.get("game_id")
     if gid not in GAMES:
         return jsonify({"error": "Oyun yok."}), 400
-    st = GAMES[gid]
-    total = st["points"]
     del GAMES[gid]
-    return jsonify({"total_points": total, "message": "Oyun bitti."})
+    return jsonify({"message": "Oyun bitti."})
 
 
 @derby_bp.route("/api/suggest", methods=["POST"])
@@ -405,21 +432,19 @@ def status():
         return jsonify({"done": True})
     st = GAMES[gid]
     t = st["truth"]
-    n_g, n_c, n_s = len(t["goals"]), len(t["cards"]), len(t["subs"])
+    n_g = len(t["goals"])
+    red_ix = _red_card_indices(t)
 
     score_done = st["revealed"]["score"] or st["solved"]["score"]
     goals_done = all(
         i in st["revealed"]["goals"] or i in st["solved"]["goals"] for i in range(n_g)
     )
     cards_done = all(
-        i in st["revealed"]["cards"] or i in st["solved"]["cards"] for i in range(n_c)
-    )
-    subs_done = all(
-        i in st["revealed"]["subs"] or i in st["solved"]["subs"] for i in range(n_s)
+        i in st["revealed"]["cards"] or i in st["solved"]["cards"] for i in red_ix
     )
 
-    done = score_done and goals_done and cards_done and subs_done
-    return jsonify({"done": done, "total_points": st["points"]})
+    done = score_done and goals_done and cards_done
+    return jsonify({"done": done})
 
 
 def create_standalone_app():

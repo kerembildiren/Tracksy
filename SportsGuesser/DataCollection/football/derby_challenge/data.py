@@ -185,6 +185,17 @@ def load_match_truth(data_root: str, season_key: str, match_id: int) -> Dict[str
     return base
 
 
+def scorer_name_blank_mask(scorer: str) -> str:
+    """İsim soyisim: her kelime kendi uzunluğu kadar tire; tek isim tek grup."""
+    s = (scorer or "").strip()
+    if not s:
+        return "—"
+    parts = s.split()
+    if not parts:
+        return "—"
+    return " ".join("-" * len(p) for p in parts)
+
+
 def public_challenge_payload(truth: Dict[str, Any]) -> Dict[str, Any]:
     goals = []
     for i, g in enumerate(truth["goals"]):
@@ -194,6 +205,7 @@ def public_challenge_payload(truth: Dict[str, Any]) -> Dict[str, Any]:
                 "minute": g["minute"],
                 "added_time": g.get("added_time"),
                 "is_home": g["is_home"],
+                "name_blank": scorer_name_blank_mask((g.get("scorer") or "")),
             }
         )
     cards = []

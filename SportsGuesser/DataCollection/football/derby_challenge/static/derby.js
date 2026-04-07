@@ -32,6 +32,7 @@ const KIND_ORDER = { goal: 0, card: 1, sub: 2 };
 let state = {
   gameId: null,
   activeInput: null,
+  teamHint: { side: null, pages: [], focus: 0, hasMore: false },
 };
 
 function el(id) {
@@ -48,10 +49,6 @@ function setMsg(id, text, isErr) {
   if (!n) return;
   n.textContent = text || "";
   n.classList.toggle("err", !!isErr);
-}
-
-function updatePoints(p) {
-  el("points-total").textContent = `Puan: ${p}`;
 }
 
 async function post(path, body) {
@@ -104,6 +101,11 @@ function cardIcon(ct) {
   return "🟨";
 }
 
+function isRedLikeCardType(ct) {
+  const s = String(ct || "yellow").toLowerCase();
+  return s === "red" || s === "yellowred";
+}
+
 function sortKeyFor(ev, kind) {
   const m = Number(ev.minute) || 0;
   const add =
@@ -117,10 +119,8 @@ function mergeEvents(ch) {
     out.push({ kind: "goal", ...g, _sk: sortKeyFor(g, "goal") });
   });
   (ch.cards || []).forEach((c) => {
+    if (!isRedLikeCardType(c.card_type)) return;
     out.push({ kind: "card", ...c, _sk: sortKeyFor(c, "card") });
-  });
-  (ch.subs || []).forEach((s) => {
-    out.push({ kind: "sub", ...s, _sk: sortKeyFor(s, "sub") });
   });
   out.sort((a, b) => {
     if (a._sk !== b._sk) return a._sk - b._sk;
@@ -152,30 +152,21 @@ function buildTimelineRow(ev) {
   let inner = "";
   if (ev.kind === "goal") {
     icon = "⚽";
+    const mask = escapeHtml(ev.name_blank || "—");
     inner = `
-      <div class="ev-input-wrap">
-        <input type="text" class="ev-input ev-input--dashed ev-input--guess" placeholder="Gol atan" autocomplete="off" spellcheck="false" />
-        <ul class="suggest-list hidden"></ul>
+      <div class="goal-guess-block">
+        <div class="goal-name-mask" aria-hidden="true">${mask}</div>
+        <div class="ev-input-wrap">
+          <input type="text" class="ev-input ev-input--dashed ev-input--guess" placeholder="Gol atan" autocomplete="off" spellcheck="false" />
+          <ul class="suggest-list hidden"></ul>
+        </div>
       </div>`;
-  } else if (ev.kind === "card") {
+  } else {
     icon = cardIcon(ev.card_type);
     inner = `
       <div class="ev-input-wrap">
-        <input type="text" class="ev-input ev-input--dashed ev-input--guess" placeholder="Kart gören" autocomplete="off" spellcheck="false" />
+        <input type="text" class="ev-input ev-input--dashed ev-input--guess" placeholder="Kırmızı kart gören" autocomplete="off" spellcheck="false" />
         <ul class="suggest-list hidden"></ul>
-      </div>`;
-  } else {
-    icon = "🔁";
-    inner = `
-      <div class="sub-pair">
-        <div class="ev-input-wrap">
-          <input type="text" class="ev-input ev-input--dashed ev-out" placeholder="Çıkan" autocomplete="off" spellcheck="false" />
-          <ul class="suggest-list hidden"></ul>
-        </div>
-        <div class="ev-input-wrap">
-          <input type="text" class="ev-input ev-input--dashed ev-in" placeholder="Giren" autocomplete="off" spellcheck="false" />
-          <ul class="suggest-list hidden"></ul>
-        </div>
       </div>`;
   }
 
@@ -236,7 +227,7 @@ function wireRowInputs(row) {
   if (guessBtn) guessBtn.addEventListener("click", () => onGuessRow(row));
   if (revBtn) revBtn.addEventListener("click", () => onRevealRow(row));
 
-  row.querySelectorAll(".ev-input--guess, .ev-out, .ev-in").forEach((inp) => {
+  row.querySelectorAll(".ev-input--guess").forEach((inp) => {
     inp.addEventListener("keydown", (e) => {
       if (e.key === "Enter") {
         e.preventDefault();
@@ -244,6 +235,208 @@ function wireRowInputs(row) {
       }
     });
   });
+}
+
+function closeTeamHintPop() {
+  const p = el("team-hint-pop");
+  if (p) {
+    p.classList.add("hidden");
+    p.setAttribute("aria-hidden", "true");
+  }
+}
+
+function syncTeamHintTrack() {
+  const track = el("team-hint-track");
+  const th = state.teamHint;
+  if (!track) return;
+  const n = th.pages.length;
+  if (!n) {
+    track.style.transform = "";
+    return;
+  }
+  th.focus = Math.max(0, Math.min(n - 1, th.focus));
+  track.style.transform = `translateX(-${th.focus * 100}%)`;
+  const prev = el("team-hint-prev");
+  const nextNav = el("team-hint-next-nav");
+  const nextRev = el("team-hint-next-reveal");
+  if (prev) prev.disabled = th.focus <= 0;
+  if (nextNav) nextNav.disabled = th.focus >= n - 1;
+  if (nextRev) nextRev.disabled = !th.hasMore;
+}
+
+function renderTeamHintPages() {
+  const track = el("team-hint-track");
+  if (!track) return;
+  const th = state.teamHint;
+  track.innerHTML = "";
+  if (!th.pages.length) {
+    const page = document.createElement("div");
+    page.className = "hint-carousel-page";
+    page.innerHTML =
+      '<p class="derby-hint-empty">Bu takım için sarı kart veya değişiklik kaydı yok.</p>';
+    track.appendChild(page);
+    track.style.transform = "";
+    const nextRev = el("team-hint-next-reveal");
+    if (nextRev) nextRev.disabled = true;
+    const prev = el("team-hint-prev");
+    const nextNav = el("team-hint-next-nav");
+    if (prev) prev.disabled = true;
+    if (nextNav) nextNav.disabled = true;
+    return;
+  }
+  th.pages.forEach((text) => {
+    const page = document.createElement("div");
+    page.className = "hint-carousel-page";
+    const p = document.createElement("p");
+    p.className = "derby-hint-page-text";
+    p.textContent = text;
+    page.appendChild(p);
+    track.appendChild(page);
+  });
+  syncTeamHintTrack();
+}
+
+function bumpTeamHintFocus(delta) {
+  const th = state.teamHint;
+  if (!th.pages.length) return;
+  th.focus += delta;
+  syncTeamHintTrack();
+}
+
+async function openTeamHint(side) {
+  if (!state.gameId) return;
+  let { res, data } = await post("/api/team-hint", {
+    game_id: state.gameId,
+    side,
+    advance: false,
+  });
+  if (!res.ok) {
+    setMsg("msg-global", (data && data.error) || "İpucu yüklenemedi", true);
+    return;
+  }
+  if (data.ok === false && data.error) {
+    setMsg("msg-global", data.error, true);
+    return;
+  }
+  let pages = data.pages || [];
+  const total = typeof data.total === "number" ? data.total : 0;
+  if (pages.length === 0 && total > 0) {
+    ({ res, data } = await post("/api/team-hint", {
+      game_id: state.gameId,
+      side,
+      advance: true,
+    }));
+    if (!res.ok) {
+      setMsg("msg-global", (data && data.error) || "İpucu alınamadı", true);
+      return;
+    }
+    if (data.ok === false) {
+      setMsg("msg-global", (data && data.error) || "İpucu alınamadı", true);
+      return;
+    }
+    pages = data.pages || [];
+  }
+  const titleEl = side === "home" ? el("name-home-display") : el("name-away-display");
+  const tname = titleEl ? titleEl.textContent.trim() : side;
+  el("team-hint-title").textContent = `${tname} — ipuçları`;
+  state.teamHint = {
+    side,
+    pages,
+    focus:
+      typeof data.focus === "number"
+        ? data.focus
+        : Math.max(0, pages.length - 1),
+    hasMore: !!data.has_more,
+  };
+  renderTeamHintPages();
+  const pop = el("team-hint-pop");
+  if (pop) {
+    pop.classList.remove("hidden");
+    pop.setAttribute("aria-hidden", "false");
+  }
+}
+
+async function onTeamHintNextReveal() {
+  if (!state.gameId || !state.teamHint.side) return;
+  const { res, data } = await post("/api/team-hint", {
+    game_id: state.gameId,
+    side: state.teamHint.side,
+    advance: true,
+  });
+  if (!res.ok) return;
+  if (data.ok === false) {
+    setMsg("msg-global", data.error || "İpucu kalmadı", true);
+    state.teamHint.hasMore = false;
+    const nr = el("team-hint-next-reveal");
+    if (nr) nr.disabled = true;
+    return;
+  }
+  state.teamHint.pages = data.pages || [];
+  state.teamHint.focus =
+    typeof data.focus === "number"
+      ? data.focus
+      : Math.max(0, state.teamHint.pages.length - 1);
+  state.teamHint.hasMore = !!data.has_more;
+  renderTeamHintPages();
+}
+
+function wireTeamHintUi() {
+  const pop = el("team-hint-pop");
+  const closeB = el("team-hint-close");
+  const prev = el("team-hint-prev");
+  const nextNav = el("team-hint-next-nav");
+  const nextRev = el("team-hint-next-reveal");
+  const bh = el("btn-hint-home");
+  const ba = el("btn-hint-away");
+  const vp = el("team-hint-viewport");
+
+  if (bh) {
+    bh.addEventListener("click", (e) => {
+      e.preventDefault();
+      openTeamHint("home");
+    });
+  }
+  if (ba) {
+    ba.addEventListener("click", (e) => {
+      e.preventDefault();
+      openTeamHint("away");
+    });
+  }
+  if (closeB) closeB.addEventListener("click", () => closeTeamHintPop());
+  if (pop) {
+    pop.addEventListener("click", (e) => {
+      if (e.target === pop) closeTeamHintPop();
+    });
+  }
+  if (prev) prev.addEventListener("click", () => bumpTeamHintFocus(-1));
+  if (nextNav) nextNav.addEventListener("click", () => bumpTeamHintFocus(1));
+  if (nextRev) nextRev.addEventListener("click", () => onTeamHintNextReveal());
+
+  if (vp) {
+    let sx = 0;
+    let sy = 0;
+    vp.addEventListener(
+      "touchstart",
+      (e) => {
+        sx = e.touches[0].clientX;
+        sy = e.touches[0].clientY;
+      },
+      { passive: true }
+    );
+    vp.addEventListener(
+      "touchend",
+      (e) => {
+        const ex = e.changedTouches[0].clientX;
+        const ey = e.changedTouches[0].clientY;
+        const dx = ex - sx;
+        const dy = ey - sy;
+        if (Math.abs(dx) < 48 || Math.abs(dx) < Math.abs(dy)) return;
+        if (dx < 0) bumpTeamHintFocus(1);
+        else bumpTeamHintFocus(-1);
+      },
+      { passive: true }
+    );
+  }
 }
 
 function unlockEventsPhase() {
@@ -292,10 +485,8 @@ async function onGuessScore() {
     setMsg("msg-score", data.error || "İşlem yapılamadı", true);
     return;
   }
-  if (data.points) setMsg("msg-score", `Doğru! +${data.points} puan`, false);
-  else if (data.correct) setMsg("msg-score", "Doğru.", false);
+  if (data.correct) setMsg("msg-score", "Doğru.", false);
   else setMsg("msg-score", "Yanlış skor, tekrar deneyin.", true);
-  updatePoints(data.total_points ?? 0);
   if (data.correct) {
     unlockEventsPhase();
   }
@@ -308,7 +499,7 @@ async function onRevealScore() {
   if (!res.ok) return;
   setMsg(
     "msg-score",
-    `Skor: ${data.home_score} — ${data.away_score} (ipucu — bu bölüm için puan yok)`,
+    `Skor: ${data.home_score} — ${data.away_score} (ipucu ile açıldı)`,
     false
   );
   el("score-home").value = data.home_score;
@@ -333,11 +524,8 @@ async function onGuessRow(row) {
   } else if (kind === "card") {
     path = "/api/guess-card";
     body.name = row.querySelector(".ev-input--guess")?.value || "";
-  } else if (kind === "sub") {
-    path = "/api/guess-sub";
-    body.player_out = row.querySelector(".ev-out")?.value || "";
-    body.player_in = row.querySelector(".ev-in")?.value || "";
   }
+  if (!path) return;
   const { res, data } = await post(path, body);
   const rev = row.querySelector(".ev-reveal");
   if (!rev) return;
@@ -349,10 +537,8 @@ async function onGuessRow(row) {
     rev.textContent = data.error || "";
     return;
   }
-  if (data.points > 0) rev.textContent = `+${data.points} puan`;
-  else if (data.correct) rev.textContent = "Doğru";
-  else rev.textContent = kind === "sub" && !data.correct ? "En az biri yanlış" : "Yanlış";
-  updatePoints(data.total_points ?? 0);
+  if (data.correct) rev.textContent = "Doğru";
+  else rev.textContent = "Yanlış";
   await checkAutoDone();
 }
 
@@ -386,20 +572,19 @@ async function checkAutoDone() {
   if (!state.gameId) return;
   const { res, data } = await post("/api/status", { game_id: state.gameId });
   if (res.ok && data.done) {
-    await doFinish(data.total_points);
+    await doFinish();
   }
 }
 
-async function doFinish(knownTotal) {
+async function doFinish() {
   if (!state.gameId) return;
-  const { res, data } = await post("/api/finish", { game_id: state.gameId });
-  const total = res.ok ? data.total_points : knownTotal;
+  await post("/api/finish", { game_id: state.gameId });
   state.gameId = null;
   show(el("panel-game"), false);
   show(el("panel-empty"), false);
   show(el("panel-result"), true);
-  el("result-points").textContent = `Toplam: ${total} puan`;
-  updatePoints(total);
+  const rs = el("result-summary");
+  if (rs) rs.textContent = "Skor, goller ve kırmızı kartlar tamamlandı.";
 }
 
 async function newGame() {
@@ -414,7 +599,7 @@ async function newGame() {
       return;
     }
     state.gameId = data.game_id;
-    updatePoints(0);
+    closeTeamHintPop();
     el("score-home").value = "";
     el("score-away").value = "";
     el("score-home").disabled = false;
@@ -434,9 +619,7 @@ async function newGame() {
 
 async function derbyFinishFromToolbar() {
   if (!state.gameId) return;
-  const { res, data } = await post("/api/status", { game_id: state.gameId });
-  const tp = res.ok ? data.total_points : 0;
-  await doFinish(tp);
+  await doFinish();
 }
 
 function initDerbyUi() {
@@ -464,6 +647,8 @@ function initDerbyUi() {
       derbyFinishFromToolbar();
     });
   }
+
+  wireTeamHintUi();
 
   show(el("panel-game"), false);
   show(el("panel-result"), false);
