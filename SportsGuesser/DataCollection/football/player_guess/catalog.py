@@ -24,10 +24,10 @@ GRID_ROOT = os.path.join(ROOT, "..", "grid_game")
 if GRID_ROOT not in sys.path:
     sys.path.insert(0, GRID_ROOT)
 
-from player_index import load_or_build_index  # noqa: E402
+from player_index import PlayerRecord, load_or_build_index  # noqa: E402
 
 DEFAULT_DATA = os.path.join(ROOT, "..", "superlig_data")
-CACHE_NAME = ".player_guess_catalog_v4.pkl"
+CACHE_NAME = ".player_guess_catalog_v5.pkl"
 
 # Daily answer must pass at least one
 MIN_GA_FOR_ELIGIBLE = 30
@@ -190,23 +190,50 @@ def _won_championship(
     return False
 
 
+def _career_team_ids(
+    pid: int,
+    rec: PlayerRecord,
+    apps_by_team: Dict[int, Dict[int, int]],
+    profile_apps: Dict[int, Dict[int, int]],
+) -> Set[int]:
+    """Süper Lig'de oynadığı tüm takımlar (ipuçlarında sarı için doğru oyuncu tarafında kullanılır)."""
+    out: Set[int] = set(rec.teams)
+    out.update((apps_by_team.get(pid) or {}).keys())
+    out.update((profile_apps.get(pid) or {}).keys())
+    return out
+
+
 def _top_club(
     pid: int,
+    rec: PlayerRecord,
     apps_by_team: Dict[int, Dict[int, int]],
     profile_apps: Dict[int, Dict[int, int]],
     team_names: Dict[int, str],
 ) -> Tuple[int, str, int]:
-    """Returns (team_id, name, apps) using stats appearances, else profile row counts."""
+    """
+    En çok Süper Lig sezonu geçirilen kulüp; eşitlikte istatistik maç sayısı, yoksa profil satır sayısı.
+    (Sadece appearances ile max almak, az maçlı güncel takımı yanlışlıkla öne çıkarabiliyordu.)
+    """
+    ts = rec.team_seasons
     st = apps_by_team.get(pid) or {}
     pr = profile_apps.get(pid) or {}
-    if st:
-        tid, apps = max(st.items(), key=lambda x: (x[1], -x[0]))
-    elif pr:
-        tid, apps = max(pr.items(), key=lambda x: (x[1], -x[0]))
-    else:
+    candidates: Set[int] = set(ts.keys()) | set(st.keys()) | set(pr.keys())
+    if not candidates:
         return 0, "?", 0
-    name = team_names.get(tid) or f"Kulüp #{tid}"
-    return tid, name, apps
+
+    def sort_key(tid: int) -> Tuple[int, int, int, int]:
+        seasons = len(ts.get(tid, frozenset()))
+        a_st = int(st.get(tid, 0) or 0)
+        a_pr = int(pr.get(tid, 0) or 0)
+        apps = a_st if a_st > 0 else a_pr
+        return (seasons, apps, a_st, a_pr)
+
+    best = max(candidates, key=sort_key)
+    a_st = int(st.get(best, 0) or 0)
+    a_pr = int(pr.get(best, 0) or 0)
+    top_apps = a_st if a_st > 0 else a_pr
+    name = team_names.get(best) or f"Kulüp #{best}"
+    return best, name, top_apps
 
 
 def _eligible(
@@ -236,7 +263,10 @@ def build_catalog(data_root: str) -> Tuple[List[Dict[str, Any]], List[int], Dict
         gtot = goals.get(pid, 0)
         atot = assists.get(pid, 0)
         ga = gtot + atot
-        top_tid, top_name, top_apps = _top_club(pid, apps_by_team, profile_apps, team_names)
+        top_tid, top_name, top_apps = _top_club(
+            pid, rec, apps_by_team, profile_apps, team_names
+        )
+        career_ids = _career_team_ids(pid, rec, apps_by_team, profile_apps)
         won = _won_championship(pid, season_team_pairs, champions)
         by = birth_years.get(pid)
         daily_ok = _eligible(ga, rec.season_count, won)
@@ -256,6 +286,7 @@ def build_catalog(data_root: str) -> Tuple[List[Dict[str, Any]], List[int], Dict
                 "top_club_id": top_tid,
                 "top_club_name": top_name,
                 "top_club_apps": top_apps,
+                "career_team_ids": sorted(career_ids),
                 "won_championship": won,
                 "_daily_ok": daily_ok,
             }

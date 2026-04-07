@@ -137,6 +137,32 @@ def compare_exact_ci(guessed: Optional[str], correct: Optional[str]) -> Dict[str
     }
 
 
+def compare_top_club(guessed: Dict[str, Any], correct: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Yeşil: iki oyuncunun da en çok sezon oynadığı kulüp (top_club_id) aynı.
+    Sarı: tahmin satırında gösterilen kulüp (tahmin edilenin top_club_id), doğru oyuncunun
+    kariyerinde geçiyor ama onun birincil kulübü değil. Başka ortak kulüpler (ekranda
+    gösterilmeyen) sarı tetiklemez.
+    """
+    g_id = guessed.get("top_club_id")
+    c_id = correct.get("top_club_id")
+    if g_id is None or c_id is None:
+        return {"result": "unknown"}
+    try:
+        gi = int(g_id)
+        ci = int(c_id)
+    except (TypeError, ValueError):
+        return {"result": "unknown"}
+    if gi <= 0 or ci <= 0:
+        return {"result": "unknown"}
+    if gi == ci:
+        return {"result": "correct"}
+    career = correct.get("career_team_ids") or []
+    if gi in career:
+        return {"result": "close"}
+    return {"result": "incorrect"}
+
+
 def compare_players(guessed: Dict[str, Any], correct: Dict[str, Any]) -> Dict[str, Dict[str, Any]]:
     if guessed["player_id"] == correct["player_id"]:
         return {
@@ -164,9 +190,7 @@ def compare_players(guessed: Dict[str, Any], correct: Dict[str, Any]) -> Dict[st
         "seasons_played": compare_numeric(
             guessed.get("seasons_played"), correct.get("seasons_played"), 3
         ),
-        "top_club": compare_exact_ci(
-            guessed.get("top_club_name"), correct.get("top_club_name")
-        ),
+        "top_club": compare_top_club(guessed, correct),
     }
 
 
