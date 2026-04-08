@@ -185,6 +185,33 @@ body::after {
   margin-bottom: 0.75rem;
 }
 
+.toolbar-game-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  min-width: 8.5rem;
+}
+
+.toolbar-game-actions .btn-primary {
+  width: 100%;
+}
+
+.btn-switch-mode {
+  padding: 0.5rem 0.85rem;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--muted);
+  font-size: 0.86rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn-switch-mode:hover {
+  border-color: rgba(124, 184, 255, 0.35);
+  color: var(--text);
+}
+
 .diff-label {
   font-size: 0.85rem;
   color: var(--muted);

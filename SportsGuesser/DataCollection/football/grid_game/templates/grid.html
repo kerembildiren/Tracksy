@@ -42,7 +42,10 @@
         <ul id="suggest" class="suggest-list hidden"></ul>
       </div>
       <button type="button" id="btn-go" class="btn-primary">Gönder</button>
-      <button type="button" id="btn-new" class="btn-primary">Yeni oyun</button>
+      <div class="toolbar-game-actions">
+        <button type="button" id="btn-new" class="btn-primary">Yeni oyun</button>
+        <button type="button" id="btn-switch-mode" class="btn-switch-mode">İki oyuncu</button>
+      </div>
     </div>
     <div class="grid-wrap">
       <div class="corner brand">SÜPER<br />LİG</div>
@@ -238,6 +241,6 @@
     </div>
     <p class="msg" id="msg"></p>
   </div>
-  <script src="{{ url_for('football_grid.static', filename='grid.js') }}?v=2"></script>
+  <script src="{{ url_for('football_grid.static', filename='grid.js') }}?v=3"></script>
 </body>
 </html>

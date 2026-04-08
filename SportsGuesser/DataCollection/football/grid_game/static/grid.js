@@ -26,6 +26,67 @@ let state = {
 
 const el = (id) => document.getElementById(id);
 
+const STORAGE_MODE = "grid_play_mode";
+const STORAGE_DIFF = "grid_difficulty";
+
+function readStoredPlayMode() {
+  try {
+    const m = sessionStorage.getItem(STORAGE_MODE);
+    return m === "solo" || m === "versus" ? m : null;
+  } catch (_) {
+    return null;
+  }
+}
+
+function readStoredDiff() {
+  try {
+    const d = sessionStorage.getItem(STORAGE_DIFF);
+    return ["easy", "medium", "hard"].includes(d) ? d : null;
+  } catch (_) {
+    return null;
+  }
+}
+
+function applyStoredDifficulty() {
+  const d = readStoredDiff();
+  if (d) el("difficulty").value = d;
+}
+
+function persistGridPrefs(playMode) {
+  const m = playMode || state.playMode;
+  if (m === "solo" || m === "versus") {
+    try {
+      sessionStorage.setItem(STORAGE_MODE, m);
+    } catch (_) {}
+  }
+  const diff = el("difficulty").value;
+  if (["easy", "medium", "hard"].includes(diff)) {
+    try {
+      sessionStorage.setItem(STORAGE_DIFF, diff);
+    } catch (_) {}
+  }
+}
+
+function updateSwitchModeLabel() {
+  const btn = el("btn-switch-mode");
+  if (!btn) return;
+  const mode = state.playMode || readStoredPlayMode() || "solo";
+  btn.textContent = mode === "solo" ? "İki oyuncu" : "Tek oyuncu";
+}
+
+async function bootstrapGrid() {
+  applyStoredDifficulty();
+  updateSwitchModeLabel();
+  const mode = readStoredPlayMode();
+  if (mode === "solo" || mode === "versus") {
+    hideModeModal();
+    await newGame(mode);
+    updateSwitchModeLabel();
+  } else {
+    showModeModal();
+  }
+}
+
 function escapeHtml(s) {
   if (!s) return "";
   return String(s)
@@ -332,6 +393,8 @@ async function newGame(playMode) {
   el("suggest").classList.add("hidden");
   el("msg").textContent = "";
   updateTurnBanner();
+  persistGridPrefs(state.playMode);
+  updateSwitchModeLabel();
 }
 
 function getSolvedCellHtml(playerName, mark) {
@@ -554,14 +617,27 @@ function initHintCarouselTouch() {
 }
 
 el("btn-new").addEventListener("click", () => {
+  const mode = state.playMode || readStoredPlayMode() || "solo";
+  persistGridPrefs(mode);
   window.location.reload();
+});
+el("btn-switch-mode").addEventListener("click", () => {
+  const current = state.playMode || readStoredPlayMode() || "solo";
+  const next = current === "solo" ? "versus" : "solo";
+  persistGridPrefs(next);
+  window.location.reload();
+});
+el("difficulty").addEventListener("change", () => {
+  persistGridPrefs(state.playMode || readStoredPlayMode() || "solo");
 });
 el("mode-solo").addEventListener("click", () => {
   hideModeModal();
+  persistGridPrefs("solo");
   newGame("solo");
 });
 el("mode-versus").addEventListener("click", () => {
   hideModeModal();
+  persistGridPrefs("versus");
   newGame("versus");
 });
 
@@ -622,4 +698,4 @@ document.addEventListener("click", (e) => {
 });
 
 initHintCarouselTouch();
-showModeModal();
+bootstrapGrid();
