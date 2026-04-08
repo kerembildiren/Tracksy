@@ -1,12 +1,13 @@
 """
 Full player list (all seasons in superlig_data) + eligibility for the daily answer.
 
-Daily target must satisfy at least one of:
-  - 30+ career goals+assists (goals.csv when present; else player_stats)
-  - 5+ distinct seasons in the league
-  - At least one season with a club that won the league that season
+Daily target must satisfy all of:
+  (A) At least one of: 30+ career G+A, 5+ Süper Lig sezonu, veya o sezon şampiyonu
+      olduğu bir kulüpte yer almak
+  (B) En az 2 ayrı sezon FB/GS/BJK/TS kadrosunda olmak VEYA toplam 10+ Süper Lig sezonu
 
-Search pool: every player who appears in the aggregated index (player_profiles across seasons).
+Search pool: every player in the aggregated index (player_profiles); günlük çekiliş
+sadece daily_ok oyuncular arasından.
 """
 
 from __future__ import annotations
@@ -27,11 +28,18 @@ if GRID_ROOT not in sys.path:
 from player_index import PlayerRecord, load_or_build_index  # noqa: E402
 
 DEFAULT_DATA = os.path.join(ROOT, "..", "superlig_data")
-CACHE_NAME = ".player_guess_catalog_v6.pkl"
+CACHE_NAME = ".player_guess_catalog_v7.pkl"
 
-# Daily answer must pass at least one
+# Daily answer must pass at least one (geniş havuz)
 MIN_GA_FOR_ELIGIBLE = 30
 MIN_SEASONS_FOR_ELIGIBLE = 5
+
+# Günlük hedef ek daraltma: bilinirlik (ikisi birden gerekmez, biri yeter)
+# - Büyük dörtlüde (BJK, Trabzonspor, Fenerbahçe, Galatasaray) en az 2 ayrı sezon, veya
+# - Süper Lig'de toplam en az 10 sezon
+BIG_FOUR_TEAM_IDS: frozenset = frozenset({3050, 3051, 3052, 3061})  # BJK, TS, FB, GS
+MIN_BIG4_DISTINCT_SEASONS = 2
+MIN_TOTAL_SEASONS_RECOGNIZABLE = 10
 
 
 def _birth_year_from_ts(ts_raw: str) -> Optional[int]:
@@ -254,6 +262,18 @@ def _eligible(
     )
 
 
+def _recognizable_for_daily(rec: PlayerRecord) -> bool:
+    """Günlük cevap: en az 2 sezon dörtlüde veya kariyerde en az 10 Süper Lig sezonu."""
+    big4_seasons: Set[str] = set()
+    for tid in BIG_FOUR_TEAM_IDS:
+        big4_seasons |= rec.team_seasons.get(tid, set())
+    if len(big4_seasons) >= MIN_BIG4_DISTINCT_SEASONS:
+        return True
+    if rec.season_count >= MIN_TOTAL_SEASONS_RECOGNIZABLE:
+        return True
+    return False
+
+
 def build_catalog(data_root: str) -> Tuple[List[Dict[str, Any]], List[int], Dict[int, str]]:
     data_root = os.path.abspath(data_root)
     players, team_names = load_or_build_index(data_root, use_cache=True)
@@ -275,7 +295,7 @@ def build_catalog(data_root: str) -> Tuple[List[Dict[str, Any]], List[int], Dict
         career_ids = _career_team_ids(pid, rec, apps_by_team, profile_apps)
         won = _won_championship(pid, season_team_pairs, champions)
         by = birth_years.get(pid)
-        daily_ok = _eligible(ga, rec.season_count, won)
+        daily_ok = _eligible(ga, rec.season_count, won) and _recognizable_for_daily(rec)
 
         pool.append(
             {
