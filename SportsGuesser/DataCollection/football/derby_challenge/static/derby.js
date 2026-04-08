@@ -634,6 +634,19 @@ async function finishRemoteSession() {
   state.gameId = null;
 }
 
+/** Tam sayfa yenilemesi + sonraki yüklemede otomatik yeni maç (tek tıkta devam). */
+const DERBY_RELOAD_NEW_KEY = "derby_reload_new_match";
+
+async function reloadPageNewMatch() {
+  state.completionPopupShown = false;
+  closeGameDoneModal();
+  await finishRemoteSession();
+  try {
+    sessionStorage.setItem(DERBY_RELOAD_NEW_KEY, "1");
+  } catch (_) {}
+  window.location.reload();
+}
+
 function closeGameDoneModal() {
   const p = el("game-done-pop");
   if (p) {
@@ -676,10 +689,7 @@ function wireGameDoneModal() {
   if (nw) {
     nw.addEventListener("click", async (e) => {
       e.preventDefault();
-      await finishRemoteSession();
-      closeGameDoneModal();
-      state.completionPopupShown = false;
-      await newGame();
+      await reloadPageNewMatch();
     });
   }
   if (pop) {
@@ -749,15 +759,15 @@ function initDerbyUi() {
   const n2 = el("btn-after");
   const fin = el("btn-finish");
   if (n1) {
-    n1.addEventListener("click", (e) => {
+    n1.addEventListener("click", async (e) => {
       e.preventDefault();
-      newGame();
+      await reloadPageNewMatch();
     });
   }
   if (n2) {
-    n2.addEventListener("click", (e) => {
+    n2.addEventListener("click", async (e) => {
       e.preventDefault();
-      newGame();
+      await reloadPageNewMatch();
     });
   }
   if (fin) {
@@ -772,6 +782,15 @@ function initDerbyUi() {
 
   show(el("panel-game"), false);
   show(el("panel-result"), false);
+
+  let autostart = false;
+  try {
+    autostart = sessionStorage.getItem(DERBY_RELOAD_NEW_KEY) === "1";
+    if (autostart) sessionStorage.removeItem(DERBY_RELOAD_NEW_KEY);
+  } catch (_) {}
+  if (autostart) {
+    newGame();
+  }
 }
 
 if (document.readyState === "loading") {

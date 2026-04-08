@@ -554,7 +554,7 @@ function initHintCarouselTouch() {
 }
 
 el("btn-new").addEventListener("click", () => {
-  showModeModal();
+  window.location.reload();
 });
 el("mode-solo").addEventListener("click", () => {
   hideModeModal();
