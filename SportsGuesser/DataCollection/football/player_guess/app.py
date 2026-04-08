@@ -19,7 +19,13 @@ GRID_GAME = os.path.join(ROOT, "..", "grid_game")
 if GRID_GAME not in sys.path:
     sys.path.insert(0, GRID_GAME)
 
-from catalog import DEFAULT_DATA, cache_path, load_catalog, player_by_id
+from catalog import (
+    DEFAULT_DATA,
+    cache_path,
+    format_top_club_seasons_hint_sentence,
+    load_catalog,
+    player_by_id,
+)
 from search_util import best_match_score, format_suggestion_list, matches_name_query
 from geo import continent_for_nationality
 
@@ -464,12 +470,8 @@ def api_hint():
                 "text": "En çok Süper Lig sezonu geçirdiği kulüp için sezon listesi veri setinde yok."
             }
         else:
-            joined = ", ".join(seasons)
             ph[HINT_TOP_CLUB_SEASONS] = {
-                "text": (
-                    "En çok Süper Lig sezonu geçirdiği kulüpte (isim gizli) şu sezonlarda kadroda: "
-                    f"{joined}."
-                )
+                "text": format_top_club_seasons_hint_sentence(seasons)
             }
     elif htype == HINT_CAREER:
         if n_guess < MIN_GUESSES_FOR_CAREER_HINT:

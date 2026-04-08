@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{ url_for('player_guess.static', filename='player_guess.css') }}?v=4" />
+  <link rel="stylesheet" href="{{ url_for('player_guess.static', filename='player_guess.css') }}?v=5" />
   <script>
     window.__PLAYER_GUESS_ROOT__ = new URL("{{ url_for('player_guess.index') }}", window.location.origin).href.replace(/\/?$/, "/");
   </script>
@@ -39,18 +39,9 @@
             <button type="button" class="pg-btn pg-btn--sm" id="pgResetGame">Oyunu sıfırla</button>
             <button type="button" class="pg-btn pg-btn--sm pg-btn--ghost" id="pgRevealBtn" title="Doğru oyuncunun adını göster">Reveal</button>
           </div>
-          <div class="pg-hint-panel" id="pgHintPanel" aria-label="Gizli oyuncu ipuçları">
-            <div class="pg-hint-panel-title">Gizli oyuncu ipuçları</div>
-            <div class="pg-hint-btns">
-              <button type="button" class="pg-btn pg-btn--sm pg-btn--hint" id="pgHintChampionships" disabled>Şampiyonluk sayısı</button>
-              <button type="button" class="pg-btn pg-btn--sm pg-btn--hint" id="pgHintTopClubSeasons" disabled>En çok oynadığı kulüpte sezonlar</button>
-              <button type="button" class="pg-btn pg-btn--sm pg-btn--hint" id="pgHintCareer" disabled>Kariyer tablosu (8+ tahmin)</button>
-            </div>
-            <div class="pg-hint-career-note pg-muted hidden" id="pgHintCareerNote"></div>
-            <div class="pg-hint-revealed" id="pgHintRevealed"></div>
-          </div>
           <div class="pg-action-sticky">
             <button type="button" class="pg-btn pg-btn--primary pg-btn--block" id="pgActionBtn">Tahmin yap</button>
+            <button type="button" class="pg-btn pg-btn--block pg-btn--ghost pg-mt-sm" id="pgHintOpenBtn">İpucu</button>
           </div>
           <div class="pg-search-panel hidden" id="pgSearchPanel">
             <div class="pg-search-row">
@@ -91,7 +82,23 @@
         <button type="button" class="pg-btn pg-btn--primary" id="pgResultOk">Tamam</button>
       </div>
     </div>
+
+    <div class="pg-modal hidden" id="pgHintModal" role="dialog" aria-modal="true" aria-labelledby="pgHintModalTitle">
+      <div class="pg-modal-backdrop" id="pgHintBackdrop"></div>
+      <div class="pg-modal-box pg-modal-box--hints">
+        <h2 id="pgHintModalTitle">Gizli oyuncu ipuçları</h2>
+        <p class="pg-muted">Her tür bir kez kullanılabilir. Kulüp adı verilmez.</p>
+        <div class="pg-hint-btns" role="group" aria-label="İpucu seçenekleri">
+          <button type="button" class="pg-btn pg-btn--sm pg-btn--hint" id="pgHintChampionships" disabled>Şampiyonluk sayısı</button>
+          <button type="button" class="pg-btn pg-btn--sm pg-btn--hint" id="pgHintTopClubSeasons" disabled>En çok oynadığı kulüpte dönemler</button>
+          <button type="button" class="pg-btn pg-btn--sm pg-btn--hint" id="pgHintCareer" disabled>Kariyer tablosu (8+ tahmin)</button>
+        </div>
+        <div class="pg-hint-career-note pg-muted hidden" id="pgHintCareerNote"></div>
+        <div class="pg-hint-revealed" id="pgHintRevealed"></div>
+        <button type="button" class="pg-btn pg-btn--primary pg-mt-sm" id="pgHintClose">Kapat</button>
+      </div>
+    </div>
   </div>
-  <script src="{{ url_for('player_guess.static', filename='player_guess.js') }}?v=4"></script>
+  <script src="{{ url_for('player_guess.static', filename='player_guess.js') }}?v=5"></script>
 </body>
 </html>

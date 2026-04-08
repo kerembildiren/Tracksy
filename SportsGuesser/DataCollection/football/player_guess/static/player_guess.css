@@ -338,6 +338,10 @@ body {
   width: 100%;
 }
 
+.pg-mt-sm {
+  margin-top: 0.55rem;
+}
+
 .pg-modal {
   position: fixed;
   inset: 0;
@@ -365,6 +369,12 @@ body {
   z-index: 1;
 }
 
+.pg-modal-box--hints {
+  max-width: 440px;
+  max-height: min(88vh, 640px);
+  overflow-y: auto;
+}
+
 .pg-modal-box h2 {
   margin: 0 0 0.5rem;
   font-size: 1.15rem;
@@ -384,23 +394,6 @@ body {
   border: 1px solid var(--border);
   background: #0d1525;
   color: var(--text);
-}
-
-.pg-hint-panel {
-  margin-top: 0.75rem;
-  padding: 0.75rem;
-  border-radius: 12px;
-  border: 1px solid rgba(124, 184, 255, 0.2);
-  background: rgba(15, 28, 48, 0.6);
-}
-
-.pg-hint-panel-title {
-  font-size: 0.78rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--muted);
-  margin-bottom: 0.55rem;
 }
 
 .pg-hint-btns {

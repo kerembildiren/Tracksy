@@ -144,12 +144,21 @@
     }
   }
 
-  function renderHintPanel() {
-    const panel = el("pgHintPanel");
-    if (!panel) return;
-    const playing = gameState.status === "playing";
-    panel.style.display = playing || Object.keys(gameState.puzzle_hints || {}).length ? "block" : "none";
+  function showHintModal() {
+    const m = el("pgHintModal");
+    if (m) {
+      renderHintPanel();
+      m.classList.remove("hidden");
+    }
+  }
 
+  function hideHintModal() {
+    const m = el("pgHintModal");
+    if (m) m.classList.add("hidden");
+  }
+
+  function renderHintPanel() {
+    const playing = gameState.status === "playing";
     const hc = gameState.hint_controls || {};
     const chBtn = el("pgHintChampionships");
     const topBtn = el("pgHintTopClubSeasons");
@@ -441,8 +450,18 @@
         updateAction();
         const rm = el("pgResultModal");
         if (rm) rm.classList.add("hidden");
+        hideHintModal();
       });
     }
+
+    const hintOpen = el("pgHintOpenBtn");
+    if (hintOpen) {
+      hintOpen.addEventListener("click", () => showHintModal());
+    }
+    const hintClose = el("pgHintClose");
+    if (hintClose) hintClose.addEventListener("click", () => hideHintModal());
+    const hintBd = el("pgHintBackdrop");
+    if (hintBd) hintBd.addEventListener("click", () => hideHintModal());
 
     const revealBtn = el("pgRevealBtn");
     if (revealBtn) {

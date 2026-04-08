@@ -195,6 +195,72 @@ def _season_sort_key(season_key: str) -> int:
     return int(part) if part.isdigit() else 0
 
 
+def _season_display_calendar_span(season_key: str) -> str:
+    """Veri anahtarı 09-10 -> gösterim 2009-2010 (sezon başlangıç yılı - bitiş yılı)."""
+    part = season_key.split("-")[0] if season_key else ""
+    if not part.isdigit():
+        return season_key
+    y = int(part)
+    year_start = 2000 + y if y < 70 else 1900 + y
+    return f"{year_start}-{year_start + 1}"
+
+
+def _group_consecutive_season_keys(keys: List[str]) -> List[List[str]]:
+    if not keys:
+        return []
+    sk = sorted(keys, key=_season_sort_key)
+    groups: List[List[str]] = []
+    cur = [sk[0]]
+    for i in range(1, len(sk)):
+        if _season_sort_key(sk[i]) == _season_sort_key(sk[i - 1]) + 1:
+            cur.append(sk[i])
+        else:
+            groups.append(cur)
+            cur = [sk[i]]
+    groups.append(cur)
+    return groups
+
+
+def format_top_club_seasons_hint_sentence(sorted_season_keys: List[str]) -> str:
+    """
+    En çok oynanan kulüp için sezonları aralık olarak anlatır (kulüp adı yok).
+    Ardışık sezonlar: '2009-2010 ve 2016-2017 sezonları arasında'
+    Kopuk tek sezonlar: '2014-2015 ve 2017-2018 sezonlarında'
+    """
+    if not sorted_season_keys:
+        return ""
+    groups = _group_consecutive_season_keys(list(sorted_season_keys))
+    bits: List[Tuple[int, str]] = []
+    for g in groups:
+        if len(g) == 1:
+            bits.append((1, _season_display_calendar_span(g[0])))
+        else:
+            a = _season_display_calendar_span(g[0])
+            b = _season_display_calendar_span(g[-1])
+            bits.append((2, f"{a} ve {b} sezonları arasında"))
+
+    if len(bits) == 1:
+        t, s = bits[0]
+        body = f"{s} sezonunda" if t == 1 else s
+    else:
+        if all(t == 1 for t, _ in bits):
+            labels = [s for _, s in bits]
+            if len(labels) == 2:
+                body = f"{labels[0]} ve {labels[1]} sezonlarında"
+            else:
+                body = ", ".join(labels[:-1]) + " ve " + labels[-1] + " sezonlarında"
+        else:
+            parts_out: List[str] = []
+            for t, s in bits:
+                parts_out.append(f"{s} sezonunda" if t == 1 else s)
+            body = ", ".join(parts_out)
+
+    return (
+        "En çok Süper Lig sezonu geçirdiği kulüpte (isim gizli) "
+        f"{body} kadroda."
+    )
+
+
 def _championship_seasons_count(rec: PlayerRecord, champions: Dict[str, int]) -> int:
     """Oyuncunun kadrosunda olduğu ve takımın şampiyon olduğu sezon sayısı (lig şampiyonluğu)."""
     n = 0
