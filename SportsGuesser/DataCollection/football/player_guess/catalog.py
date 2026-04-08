@@ -2,7 +2,7 @@
 Full player list (all seasons in superlig_data) + eligibility for the daily answer.
 
 Daily target must satisfy at least one of:
-  - 30+ career goals+assists (player_stats + goals.csv where stats yok)
+  - 30+ career goals+assists (goals.csv when present; else player_stats)
   - 5+ distinct seasons in the league
   - At least one season with a club that won the league that season
 
@@ -27,7 +27,7 @@ if GRID_ROOT not in sys.path:
 from player_index import PlayerRecord, load_or_build_index  # noqa: E402
 
 DEFAULT_DATA = os.path.join(ROOT, "..", "superlig_data")
-CACHE_NAME = ".player_guess_catalog_v5.pkl"
+CACHE_NAME = ".player_guess_catalog_v6.pkl"
 
 # Daily answer must pass at least one
 MIN_GA_FOR_ELIGIBLE = 30
@@ -91,8 +91,8 @@ def _aggregate_from_goals_csv(
     assists: Dict[int, int],
 ) -> None:
     """
-    player_stats.csv olmayan sezonlarda (ör. 01-02 … 10-11, 12-13) kariyer gol/asist
-    goals.csv üzerinden toplanır. 11-12 ile aynı kolon adları (scorer_id, assist_id).
+    goals.csv varsa o sezonda gol/asist buradan toplanır (tüm scorer/assist kayıtları).
+    Kolonlar: scorer_id, assist_id.
     """
     path = os.path.join(folder, "goals.csv")
     if not os.path.isfile(path):
@@ -119,10 +119,9 @@ def _aggregate(data_root: str) -> Tuple[
     Set[Tuple[int, str, int]],
 ]:
     """
-    goals, assists, apps_by_team[pid][tid],
-    birth_years,
-    profile_apps[pid][tid] (row counts in player_profiles),
-    season_team_pairs (player_id, season_key, team_id) from player_stats.
+    goals, assists: her sezonda goals.csv varsa olaydan; yoksa player_stats.
+    apps_by_team, season_team_pairs: player_stats satırlarından (varsa).
+    birth_years, profile_apps: player_profiles.
     """
     goals: Dict[int, int] = {}
     assists: Dict[int, int] = {}
@@ -136,6 +135,9 @@ def _aggregate(data_root: str) -> Tuple[
         if not os.path.isdir(folder):
             continue
 
+        goals_path = os.path.join(folder, "goals.csv")
+        has_goals_csv = os.path.isfile(goals_path)
+
         pstats = os.path.join(folder, "player_stats.csv")
         if os.path.isfile(pstats):
             with open(pstats, encoding="utf-8", newline="") as f:
@@ -148,11 +150,15 @@ def _aggregate(data_root: str) -> Tuple[
                     g = _safe_int(row.get("goals"))
                     a = _safe_int(row.get("assists"))
                     ap = _safe_int(row.get("appearances"))
-                    goals[pid] = goals.get(pid, 0) + g
-                    assists[pid] = assists.get(pid, 0) + a
+                    # player_stats çoğu sezonda eksik; goals.csv tam olay listesi.
+                    # Çift sayımı önlemek için goals.csv varken G/A'yı stats'tan ekleme.
+                    if not has_goals_csv:
+                        goals[pid] = goals.get(pid, 0) + g
+                        assists[pid] = assists.get(pid, 0) + a
                     apps_by_team[pid][tid] += ap
                     season_team_pairs.add((pid, season, tid))
-        else:
+
+        if has_goals_csv:
             _aggregate_from_goals_csv(folder, goals, assists)
 
         prof = os.path.join(folder, "player_profiles.csv")
