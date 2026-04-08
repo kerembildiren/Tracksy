@@ -223,41 +223,46 @@ def _group_consecutive_season_keys(keys: List[str]) -> List[List[str]]:
 
 def format_top_club_seasons_hint_sentence(sorted_season_keys: List[str]) -> str:
     """
-    En çok oynanan kulüp için sezonları aralık olarak anlatır (kulüp adı yok).
-    Ardışık sezonlar: '2009-2010 ve 2016-2017 sezonları arasında'
-    Kopuk tek sezonlar: '2014-2015 ve 2017-2018 sezonlarında'
+    En çok oynanan kulüp için sezonları anlatır (kulüp adı yok).
+    Üst üste oynanan bloklar: ilk ve son takvim yılı + sezon sayısı.
+    Kopuk tek sezonlar: virgül ve 'aynı kulüpte' vurgusuyla birleştirilir.
     """
     if not sorted_season_keys:
         return ""
     groups = _group_consecutive_season_keys(list(sorted_season_keys))
-    bits: List[Tuple[int, str]] = []
+    run_parts: List[str] = []
+    single_labels: List[str] = []
     for g in groups:
         if len(g) == 1:
-            bits.append((1, _season_display_calendar_span(g[0])))
+            single_labels.append(_season_display_calendar_span(g[0]))
         else:
+            n = len(g)
             a = _season_display_calendar_span(g[0])
             b = _season_display_calendar_span(g[-1])
-            bits.append((2, f"{a} ve {b} sezonları arasında"))
+            run_parts.append(f"{a} ile {b} arasında üst üste {n} sezon")
 
-    if len(bits) == 1:
-        t, s = bits[0]
-        body = f"{s} sezonunda" if t == 1 else s
+    single_phrase = ""
+    if len(single_labels) == 1:
+        single_phrase = f"{single_labels[0]} sezonunda"
+    elif len(single_labels) >= 2:
+        single_phrase = (
+            ", ".join(single_labels[:-1]) + " ve " + single_labels[-1] + " sezonlarında"
+        )
+
+    if not run_parts and not single_phrase:
+        return ""
+
+    if not run_parts:
+        body = single_phrase
+    elif not single_phrase:
+        body = "; ".join(run_parts) if len(run_parts) > 1 else run_parts[0]
     else:
-        if all(t == 1 for t, _ in bits):
-            labels = [s for _, s in bits]
-            if len(labels) == 2:
-                body = f"{labels[0]} ve {labels[1]} sezonlarında"
-            else:
-                body = ", ".join(labels[:-1]) + " ve " + labels[-1] + " sezonlarında"
-        else:
-            parts_out: List[str] = []
-            for t, s in bits:
-                parts_out.append(f"{s} sezonunda" if t == 1 else s)
-            body = ", ".join(parts_out)
+        head = "; ".join(run_parts)
+        body = f"{head}; ayrıca aynı kulüpte {single_phrase}"
 
     return (
         "En çok Süper Lig sezonu geçirdiği kulüpte (isim gizli) "
-        f"{body} kadroda."
+        f"{body} kadroda bulundu."
     )
 
 
