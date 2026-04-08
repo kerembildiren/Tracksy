@@ -11,6 +11,7 @@ from typing import Dict, List, Optional, Set, Tuple
 
 from labels import country_label_turkish
 from player_index import (
+    BIG_FOUR,
     BIG_THREE,
     PlayerRecord,
     nationalities_with_min_players,
@@ -169,21 +170,29 @@ def _sample_mixed_teams(
 ) -> Optional[List[int]]:
     if n_need < 1 or len(tpool) < n_need:
         return None
-    if diff == Difficulty.EASY and n_need >= 3:
-        big = list(BIG_THREE)
-        rest = [t for t in tpool if t not in BIG_THREE]
-        extra = n_need - 3
-        if extra < 0 or len(rest) < extra:
+    four = list(BIG_FOUR)
+    if diff == Difficulty.EASY:
+        rest = [t for t in tpool if t not in BIG_FOUR]
+        if n_need >= 4:
+            extra = n_need - 4
+            if len(rest) < extra:
+                return None
+            picked = four + (rng.sample(rest, k=extra) if extra else [])
+            rng.shuffle(picked)
+            return picked
+        if len(four) < n_need:
             return None
-        picked = big + (rng.sample(rest, k=extra) if extra else [])
+        return rng.sample(four, k=n_need)
+    if diff == Difficulty.MEDIUM:
+        rest = [t for t in tpool if t not in BIG_FOUR]
+        if n_need < 2:
+            return rng.sample(tpool, k=n_need)
+        need_rest = n_need - 2
+        if len(rest) < need_rest:
+            return None
+        picked = rng.sample(four, k=2) + (rng.sample(rest, k=need_rest) if need_rest else [])
         rng.shuffle(picked)
         return picked
-    if diff == Difficulty.MEDIUM:
-        for _ in range(80):
-            picked = rng.sample(tpool, k=n_need)
-            if any(t in BIG_THREE for t in picked):
-                return picked
-        return None
     return rng.sample(tpool, k=n_need)
 
 
@@ -272,7 +281,7 @@ def try_generate(
             k=1,
         )[0]
         if mode == "six_teams":
-            grid = _try_six_teams(players, team_names, non_big, rng, diff)
+            grid = _try_six_teams(players, team_names, team_ids_list, non_big, rng, diff)
         elif mode == "hybrid":
             if len(nats_hi) < 3:
                 nats_use = nats_lo
@@ -292,28 +301,32 @@ def try_generate(
     return None
 
 
-def _pick_teams_six(non_big: List[int], rng: random.Random, diff: Difficulty) -> Optional[List[int]]:
-    big = list(BIG_THREE)
+def _pick_teams_six(
+    team_ids_list: List[int],
+    non_big: List[int],
+    rng: random.Random,
+    diff: Difficulty,
+) -> Optional[List[int]]:
+    non_four = [t for t in team_ids_list if t not in BIG_FOUR]
+    four = list(BIG_FOUR)
     if diff == Difficulty.EASY:
-        extra = rng.sample(non_big, k=min(3, len(non_big)))
-        if len(extra) < 3:
+        if len(non_four) < 2:
             return None
-        six = big + extra
+        extra = rng.sample(non_four, k=2)
+        six = four + extra
         rng.shuffle(six)
         return six
 
     if diff == Difficulty.MEDIUM:
-        k = rng.randint(1, 3)
-        need_other = 6 - k
-        if len(non_big) < need_other:
+        if len(non_four) < 4:
             return None
-        from_big = rng.sample(big, k=k)
-        from_rest = rng.sample(non_big, k=need_other)
-        six = from_big + from_rest
+        from_four = rng.sample(four, k=2)
+        from_rest = rng.sample(non_four, k=4)
+        six = from_four + from_rest
         rng.shuffle(six)
         return six
 
-    # HARD
+    # HARD — değişmedi: büyük üçlü dışı altı takım
     if len(non_big) < 6:
         return None
     six = rng.sample(non_big, k=6)
@@ -324,11 +337,12 @@ def _pick_teams_six(non_big: List[int], rng: random.Random, diff: Difficulty) ->
 def _try_six_teams(
     players: Dict[int, PlayerRecord],
     team_names: Dict[int, str],
+    team_ids_list: List[int],
     non_big: List[int],
     rng: random.Random,
     diff: Difficulty,
 ) -> Optional[GeneratedGrid]:
-    six = _pick_teams_six(non_big, rng, diff)
+    six = _pick_teams_six(team_ids_list, non_big, rng, diff)
     if not six:
         return None
     rows = [_crit_team(six[0], team_names), _crit_team(six[1], team_names), _crit_team(six[2], team_names)]
@@ -337,20 +351,17 @@ def _try_six_teams(
 
 
 def _pick_teams_three(non_big: List[int], rng: random.Random, diff: Difficulty) -> Optional[List[int]]:
-    big = list(BIG_THREE)
+    four = list(BIG_FOUR)
     if diff == Difficulty.EASY:
-        t = big.copy()
-        rng.shuffle(t)
-        return t
+        return rng.sample(four, k=3)
 
     if diff == Difficulty.MEDIUM:
-        k = rng.randint(1, 3)
-        rest = 3 - k
-        if len(non_big) < rest:
+        rest_pool = [t for t in non_big if t not in BIG_FOUR]
+        if len(rest_pool) < 1:
             return None
-        from_big = rng.sample(big, k=k)
-        from_rest = rng.sample(non_big, k=rest)
-        t = from_big + from_rest
+        from_four = rng.sample(four, k=2)
+        from_rest = rng.sample(rest_pool, k=1)
+        t = from_four + from_rest
         rng.shuffle(t)
         return t
 

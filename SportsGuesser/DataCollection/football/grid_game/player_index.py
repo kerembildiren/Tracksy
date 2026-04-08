@@ -11,6 +11,8 @@ from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Set, Tuple
 
 BIG_THREE: Set[int] = {3050, 3052, 3061}
+# Beşiktaş, Trabzonspor, Fenerbahçe, Galatasaray — kolay/orta grid seçimlerinde kullanılır.
+BIG_FOUR: Set[int] = {3050, 3051, 3052, 3061}
 
 
 @dataclass
