@@ -26,6 +26,7 @@
   const FOOTBALL_GAME_URL = '/sportsguesser/football/';
   const DERBY_PAGE_URL = '/sportsguesser/football/derby/';
   const PLAYER_GUESS_URL = '/sportsguesser/football/guess/';
+  const CAREER_GUESS_URL = '/sportsguesser/football/career/';
 
   const scoreEls = {
     1: document.getElementById('score-p1'),
@@ -272,6 +273,9 @@
         }
         if (game === 'player-guess') {
           window.location.assign(new URL(PLAYER_GUESS_URL, window.location.origin).href);
+        }
+        if (game === 'career-guess') {
+          window.location.assign(new URL(CAREER_GUESS_URL, window.location.origin).href);
         }
       });
     });

@@ -1,0 +1,266 @@
+/* Kariyer tahmini — Süper Lig futbol teması (grid / player_guess ile uyumlu) */
+:root {
+  --bg: #0a1628;
+  --surface: rgba(22, 36, 62, 0.92);
+  --border: rgba(96, 165, 250, 0.25);
+  --text: #e8eef7;
+  --muted: #8fa4c4;
+  --accent: #7cb8ff;
+  --ok: #4ade80;
+  --bad: #f87171;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "DM Sans", system-ui, sans-serif;
+  background: linear-gradient(
+    135deg,
+    #0c1422 0%,
+    #132043 35%,
+    #0f1a2e 70%,
+    #0d1525 100%
+  );
+  color: var(--text);
+}
+
+.cg-app {
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 1rem;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+.cg-back {
+  display: inline-block;
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.cg-title {
+  font-size: 1.6rem;
+  margin: 0 0 0.25rem;
+}
+
+.cg-tagline {
+  color: var(--muted);
+  font-size: 0.88rem;
+  margin: 0 0 1rem;
+}
+
+.cg-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-bottom: 0.75rem;
+}
+
+.cg-btn {
+  padding: 0.5rem 0.85rem;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: rgba(30, 45, 75, 0.65);
+  color: var(--text);
+  font: inherit;
+  cursor: pointer;
+}
+
+.cg-btn--primary {
+  background: linear-gradient(180deg, rgba(124, 184, 255, 0.35), rgba(59, 130, 246, 0.2));
+  border-color: rgba(124, 184, 255, 0.45);
+}
+
+.cg-btn--ghost {
+  background: transparent;
+}
+
+.cg-btn--sm {
+  font-size: 0.82rem;
+}
+
+.cg-btn--block {
+  width: 100%;
+}
+
+.cg-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.cg-table-wrap {
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  overflow: hidden;
+  margin-bottom: 0.85rem;
+  max-height: min(45vh, 320px);
+  overflow-y: auto;
+  background: var(--surface);
+}
+
+.cg-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.78rem;
+}
+
+.cg-table th,
+.cg-table td {
+  padding: 0.4rem 0.5rem;
+  text-align: left;
+  border-bottom: 1px solid rgba(96, 165, 250, 0.12);
+}
+
+.cg-table th {
+  position: sticky;
+  top: 0;
+  background: rgba(20, 32, 55, 0.98);
+  color: var(--muted);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.65rem;
+  letter-spacing: 0.04em;
+}
+
+.cg-goals-hidden {
+  color: var(--muted);
+  font-style: italic;
+}
+
+.cg-guess-row {
+  margin-bottom: 0.75rem;
+}
+
+.cg-guesses {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.cg-guess-chip {
+  font-size: 0.82rem;
+  padding: 0.35rem 0.55rem;
+  border-radius: 8px;
+  background: rgba(15, 25, 45, 0.85);
+  border-left: 3px solid var(--border);
+}
+
+.cg-guess-chip.cg-win {
+  border-left-color: var(--ok);
+  background: rgba(74, 222, 128, 0.12);
+}
+
+.cg-guess-chip.cg-miss {
+  border-left-color: var(--bad);
+  opacity: 0.92;
+}
+
+.cg-search-panel {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  background: rgba(8, 14, 28, 0.88);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1rem;
+  padding-top: 12vh;
+}
+
+.cg-search-row {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.cg-search-input {
+  flex: 1;
+  padding: 0.65rem 0.85rem;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: #0d1525;
+  color: var(--text);
+  font: inherit;
+}
+
+.cg-search-results {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 55vh;
+  overflow-y: auto;
+}
+
+.cg-search-results li {
+  padding: 0.65rem 0.75rem;
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+}
+
+.cg-search-results li:hover {
+  background: rgba(124, 184, 255, 0.1);
+}
+
+.cg-search-results .nat {
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+.hidden {
+  display: none !important;
+}
+
+.cg-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.cg-modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.cg-modal-box {
+  position: relative;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 1.1rem;
+  max-width: 340px;
+  width: 100%;
+  z-index: 1;
+}
+
+.cg-modal-title {
+  font-size: 1.1rem;
+  margin: 0 0 0.65rem;
+}
+
+.cg-profile-lines {
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: var(--muted);
+  min-height: 4rem;
+  margin-bottom: 0.75rem;
+}
+
+.cg-profile-lines p {
+  margin: 0 0 0.35rem;
+}
+
+.cg-profile-lines strong {
+  color: var(--text);
+}

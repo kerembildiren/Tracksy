@@ -1,5 +1,5 @@
 """
-Süper Lig daily player guess (Trackzy-style) — blueprint /sportsguesser/football/guess
+Günlük oyuncu tahmini (Süper Lig) — blueprint /sportsguesser/football/guess
 """
 
 from __future__ import annotations

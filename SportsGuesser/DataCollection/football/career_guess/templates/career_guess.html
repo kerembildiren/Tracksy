@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <title>Kariyer tahmini — SportsGuesser</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('career_guess.static', filename='career_guess.css') }}?v=1" />
+  <script>
+    window.__CAREER_GUESS_ROOT__ = new URL("{{ url_for('career_guess.index') }}", window.location.origin).href.replace(/\/?$/, "/");
+  </script>
+</head>
+<body>
+  <div class="cg-app">
+    <header class="cg-header">
+      <a class="cg-back" href="/sportsguesser/">← SportsGuesser</a>
+      <h1 class="cg-title">Kariyer tahmini</h1>
+      <p class="cg-tagline">Tablodan oyuncuyu bul · Sınırsız tahmin</p>
+    </header>
+
+    <div class="cg-toolbar">
+      <button type="button" class="cg-btn cg-btn--ghost cg-btn--sm" id="cgBtnGoals">Golleri göster</button>
+      <button type="button" class="cg-btn cg-btn--ghost cg-btn--sm" id="cgBtnProfile">Profil ipuçları</button>
+      <button type="button" class="cg-btn cg-btn--primary cg-btn--sm" id="cgBtnNew">Yeni oyun</button>
+    </div>
+
+    <div class="cg-table-wrap">
+      <table class="cg-table" aria-label="Süper Lig kariyeri">
+        <thead>
+          <tr>
+            <th>Sezon</th>
+            <th>Kulüp</th>
+            <th>Gol</th>
+          </tr>
+        </thead>
+        <tbody id="cgTableBody"></tbody>
+      </table>
+    </div>
+
+    <div class="cg-guess-row">
+      <button type="button" class="cg-btn cg-btn--primary cg-btn--block" id="cgBtnGuess">Tahmin yap</button>
+    </div>
+
+    <div class="cg-guesses" id="cgGuesses" aria-live="polite"></div>
+
+    <div class="cg-search-panel hidden" id="cgSearchPanel">
+      <div class="cg-search-row">
+        <input type="text" id="cgSearchInput" class="cg-search-input" placeholder="Oyuncu ara…" autocomplete="off" />
+        <button type="button" class="cg-btn cg-btn--primary" id="cgSearchClose">İptal</button>
+      </div>
+      <ul class="cg-search-results" id="cgSearchResults"></ul>
+    </div>
+  </div>
+
+  <div class="cg-modal hidden" id="cgProfileModal" role="dialog" aria-modal="true">
+    <div class="cg-modal-backdrop" id="cgProfileBackdrop"></div>
+    <div class="cg-modal-box">
+      <h2 class="cg-modal-title">Profil ipuçları</h2>
+      <div class="cg-profile-lines" id="cgProfileLines"></div>
+      <button type="button" class="cg-btn cg-btn--primary cg-btn--block" id="cgProfileNext">Sonraki ipucu</button>
+      <button type="button" class="cg-btn cg-btn--ghost cg-btn--block" id="cgProfileClose">Kapat</button>
+    </div>
+  </div>
+
+  <script src="{{ url_for('career_guess.static', filename='career_guess.js') }}?v=1"></script>
+</body>
+</html>
