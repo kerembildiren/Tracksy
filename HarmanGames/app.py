@@ -17,6 +17,19 @@ app.secret_key = os.environ.get('SECRET_KEY', 'harman-games-secret-key-change-in
 # Render / reverse proxy: X-Forwarded-Proto so url_for(https) and cookies work correctly
 app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_proto=1, x_host=1, x_prefix=1)
 
+SITE_DOMAIN = os.environ.get('SITE_DOMAIN', 'harmangaming.com')
+SITE_CONTACT_EMAIL = os.environ.get('SITE_CONTACT_EMAIL', 'info@harmangaming.com')
+
+
+@app.context_processor
+def hub_globals():
+    """Shared template vars (privacy, footer, future analytics placeholders)."""
+    return {
+        'site_domain': SITE_DOMAIN,
+        'site_contact_email': SITE_CONTACT_EMAIL,
+        'site_url': f'https://{SITE_DOMAIN}',
+    }
+
 # ============================================================
 # Paths: HarmanGames is the main project; games are siblings
 # ============================================================
@@ -353,6 +366,13 @@ def make_guess(artist_id):
 def home():
     """Harman Games hub: pick a game (Trackzy, SportsGuesser, …)."""
     return render_template('home.html', sportsguesser_available=sportsguesser_available())
+
+
+@app.route('/privacy')
+@app.route('/gizlilik')
+def privacy():
+    """Privacy policy (AdSense / analytics–ready; English for broad review)."""
+    return render_template('privacy.html')
 
 # ============================================================
 # Routes: Trackzy (sub-content)

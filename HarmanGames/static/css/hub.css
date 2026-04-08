@@ -319,3 +319,140 @@ body {
     font-size: 0.8rem;
     color: var(--hub-text-muted);
 }
+
+.hub-footer-tagline {
+    margin-bottom: 12px;
+}
+
+.hub-footer-disclaimer {
+    max-width: 36rem;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+    font-size: 0.72rem !important;
+    opacity: 0.95;
+}
+
+.hub-footer-meta {
+    margin-top: 14px;
+    font-size: 0.78rem !important;
+}
+
+.hub-footer-meta a {
+    color: var(--hub-accent);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.hub-footer-meta a:hover {
+    text-decoration: underline;
+}
+
+.hub-footer-dot {
+    margin: 0 0.35rem;
+    opacity: 0.5;
+}
+
+.hub-footer-domain {
+    color: var(--hub-text-muted);
+}
+
+/* Privacy / legal page */
+.legal-page {
+    align-items: stretch;
+    max-width: 42rem;
+    margin: 0 auto;
+}
+
+.legal-header {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    padding-bottom: 8px;
+}
+
+.legal-back {
+    display: inline-block;
+    color: var(--hub-accent);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.legal-back:hover {
+    text-decoration: underline;
+}
+
+.legal-title {
+    font-family: 'Outfit', sans-serif;
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 0.25rem;
+}
+
+.legal-site {
+    color: var(--hub-text-muted);
+    font-size: 0.85rem;
+    margin-bottom: 0.35rem;
+}
+
+.legal-updated {
+    font-size: 0.8rem;
+    color: var(--hub-text-muted);
+}
+
+.legal-body {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    text-align: left;
+    padding: 1.25rem 0 2rem;
+}
+
+.legal-body section {
+    margin-bottom: 1.35rem;
+}
+
+.legal-body h2 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: var(--hub-text);
+}
+
+.legal-body p {
+    font-size: 0.88rem;
+    line-height: 1.6;
+    color: var(--hub-text-muted);
+    margin-bottom: 0.65rem;
+}
+
+.legal-body a {
+    color: var(--hub-accent);
+    text-decoration: none;
+}
+
+.legal-body a:hover {
+    text-decoration: underline;
+}
+
+.legal-footer {
+    position: relative;
+    z-index: 1;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.legal-footer a {
+    color: var(--hub-accent);
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.legal-footer a:hover {
+    text-decoration: underline;
+}

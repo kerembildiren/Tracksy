@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/hub.css') }}?v=7">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/hub.css') }}?v=8">
 </head>
 <body>
     <div class="hub">
@@ -51,7 +51,13 @@
         </main>
 
         <footer class="hub-footer">
-            <p>One new puzzle every day. No sign‑up.</p>
+            <p class="hub-footer-tagline">One new puzzle every day. No sign‑up.</p>
+            <p class="hub-footer-disclaimer">Sports and music game data are compiled from publicly available sources for entertainment only. Harman Gaming is not affiliated with any league, club, record label, or streaming service; information may contain errors or be out of date.</p>
+            <p class="hub-footer-meta">
+                <a href="{{ url_for('privacy') }}">Privacy Policy</a>
+                <span class="hub-footer-dot" aria-hidden="true">·</span>
+                <span class="hub-footer-domain">{{ site_domain }}</span>
+            </p>
         </footer>
     </div>
     <script src="{{ url_for('static', filename='js/hub.js') }}"></script>
