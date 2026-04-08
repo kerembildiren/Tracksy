@@ -167,6 +167,10 @@ def get_game_state(for_client: bool = True) -> Dict[str, Any]:
             }
         )
 
+    answer = None
+    if target and tid and b.get("status") == "lost":
+        answer = _public_guess_row(target)
+
     return {
         "status": b.get("status", "playing"),
         "career_rows": career_rows,
@@ -175,6 +179,7 @@ def get_game_state(for_client: bool = True) -> Dict[str, Any]:
         "profile_step": step,
         "profile_max_step": 3,
         "guesses": guesses_out,
+        "answer": answer,
     }
 
 
@@ -255,6 +260,9 @@ def api_guess():
     if tid is None:
         return jsonify({"error": "Hedef yok"}), 400
 
+    if b.get("status") in ("won", "lost"):
+        return jsonify({"error": "Oyun bitti"}), 400
+
     guessed = _BY_ID.get(pid)
     if not guessed:
         return jsonify({"error": "Oyuncu bulunamadı"}), 404
@@ -290,6 +298,20 @@ def api_hint_profile():
     if step < 3:
         b["profile_step"] = step + 1
     session.modified = True
+    return jsonify({"ok": True, **get_game_state()})
+
+
+@career_guess_bp.route("/api/surrender", methods=["POST"])
+def api_surrender():
+    _ensure_pool()
+    b = _session_bucket()
+    if not b.get("target_id"):
+        return jsonify({"error": "Oyun yok"}), 400
+    if b.get("status") == "won":
+        return jsonify({"ok": True, **get_game_state()})
+    if b.get("status") != "lost":
+        b["status"] = "lost"
+        session.modified = True
     return jsonify({"ok": True, **get_game_state()})
 
 

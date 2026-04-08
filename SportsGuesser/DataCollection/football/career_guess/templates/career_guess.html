@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{ url_for('career_guess.static', filename='career_guess.css') }}?v=1" />
+  <link rel="stylesheet" href="{{ url_for('career_guess.static', filename='career_guess.css') }}?v=2" />
   <script>
     window.__CAREER_GUESS_ROOT__ = new URL("{{ url_for('career_guess.index') }}", window.location.origin).href.replace(/\/?$/, "/");
   </script>
@@ -15,7 +15,10 @@
 <body>
   <div class="cg-app">
     <header class="cg-header">
-      <a class="cg-back" href="/sportsguesser/">← SportsGuesser</a>
+      <div class="cg-header-row">
+        <a class="cg-back" href="/sportsguesser/">← SportsGuesser</a>
+        <button type="button" class="cg-info-btn" id="cgBtnInfo" aria-label="Nasıl oynanır" title="Nasıl oynanır">i</button>
+      </div>
       <h1 class="cg-title">Kariyer tahmini</h1>
       <p class="cg-tagline">Tablodan oyuncuyu bul · Sınırsız tahmin</p>
     </header>
@@ -41,7 +44,10 @@
 
     <div class="cg-guess-row">
       <button type="button" class="cg-btn cg-btn--primary cg-btn--block" id="cgBtnGuess">Tahmin yap</button>
+      <button type="button" class="cg-btn cg-btn--ghost cg-btn--block cg-btn--surrender" id="cgBtnSurrender">Pes et</button>
     </div>
+
+    <div class="cg-answer-banner hidden" id="cgAnswerBanner" role="status" aria-live="polite"></div>
 
     <div class="cg-guesses" id="cgGuesses" aria-live="polite"></div>
 
@@ -51,6 +57,26 @@
         <button type="button" class="cg-btn cg-btn--primary" id="cgSearchClose">İptal</button>
       </div>
       <ul class="cg-search-results" id="cgSearchResults"></ul>
+    </div>
+  </div>
+
+  <div class="cg-modal hidden" id="cgInfoModal" role="dialog" aria-modal="true" aria-labelledby="cgInfoTitle">
+    <div class="cg-modal-backdrop" id="cgInfoBackdrop"></div>
+    <div class="cg-modal-box cg-modal-box--wide">
+      <h2 class="cg-modal-title" id="cgInfoTitle">Nasıl oynanır</h2>
+      <div class="cg-info-body">
+        <section class="cg-info-section">
+          <h3 class="cg-info-h">Oynanış</h3>
+          <p>Tabloda yalnızca oyuncunun <strong>Süper Lig’de</strong> oynadığı sezonlar ve o sezonlardaki kulüpleri görünür. İsterseniz <strong>Golleri göster</strong> ve <strong>Profil ipuçları</strong> ile takviye alabilirsiniz.</p>
+          <p><strong>Tahmin yap</strong> ile listeden oyuncu seçin; doğru ismi bulana kadar sınırsız deneyebilirsiniz. <strong>Pes et</strong> derseniz doğru cevap gösterilir. <strong>Yeni oyun</strong> veya sayfayı yenileyerek başka bir oyuncuya geçebilirsiniz.</p>
+        </section>
+        <section class="cg-info-section">
+          <h3 class="cg-info-h">Tablo ve veri</h3>
+          <p>Arada <strong>yazılmayan sezonlar</strong>, oyuncunun o dönemde büyük ihtimalle Süper Lig dışında (başka lig veya ülkede) olduğunu düşündürür; bu ekran yalnızca Süper Lig kariyerini gösterir.</p>
+          <p>Kariyerine <strong>Süper Lig’de başlamadıysa</strong> veya son dönemi başka ligdeyse, bu oyundan <strong>başlangıç / bitiş yılı</strong> hakkında kesin bir şey çıkaramazsınız; bilinen tek şey tablodaki Süper Lig satırlarıdır.</p>
+        </section>
+      </div>
+      <button type="button" class="cg-btn cg-btn--primary cg-btn--block" id="cgInfoClose">Tamam</button>
     </div>
   </div>
 
@@ -64,6 +90,6 @@
     </div>
   </div>
 
-  <script src="{{ url_for('career_guess.static', filename='career_guess.js') }}?v=1"></script>
+  <script src="{{ url_for('career_guess.static', filename='career_guess.js') }}?v=2"></script>
 </body>
 </html>

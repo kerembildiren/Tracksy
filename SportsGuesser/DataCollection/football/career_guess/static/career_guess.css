@@ -36,13 +36,39 @@ body {
   min-height: 100dvh;
 }
 
+.cg-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.35rem;
+}
+
 .cg-back {
   display: inline-block;
   color: var(--accent);
   text-decoration: none;
   font-weight: 600;
   font-size: 0.9rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
+}
+
+.cg-info-btn {
+  flex-shrink: 0;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: rgba(30, 45, 75, 0.65);
+  color: var(--accent);
+  font: 700 0.95rem/1 "DM Sans", system-ui, sans-serif;
+  font-style: italic;
+  cursor: pointer;
+  padding: 0;
+}
+
+.cg-info-btn:hover {
+  background: rgba(124, 184, 255, 0.12);
 }
 
 .cg-title {
@@ -136,6 +162,29 @@ body {
 
 .cg-guess-row {
   margin-bottom: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.cg-btn--surrender {
+  font-size: 0.88rem;
+  color: var(--muted);
+}
+
+.cg-answer-banner {
+  font-size: 0.92rem;
+  padding: 0.65rem 0.75rem;
+  border-radius: 10px;
+  border: 1px solid rgba(248, 113, 113, 0.35);
+  background: rgba(248, 113, 113, 0.1);
+  color: var(--text);
+  margin-bottom: 0.75rem;
+  line-height: 1.45;
+}
+
+.cg-answer-banner strong {
+  color: #fecaca;
 }
 
 .cg-guesses {
@@ -242,6 +291,53 @@ body {
   max-width: 340px;
   width: 100%;
   z-index: 1;
+}
+
+.cg-modal-box--wide {
+  max-width: min(420px, calc(100vw - 2rem));
+  max-height: min(80vh, 520px);
+  display: flex;
+  flex-direction: column;
+}
+
+.cg-info-body {
+  overflow-y: auto;
+  font-size: 0.86rem;
+  line-height: 1.55;
+  color: var(--muted);
+  margin-bottom: 0.85rem;
+  flex: 1;
+  min-height: 0;
+}
+
+.cg-info-section {
+  margin-bottom: 1rem;
+}
+
+.cg-info-section:last-child {
+  margin-bottom: 0;
+}
+
+.cg-info-h {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+  margin: 0 0 0.4rem;
+  font-weight: 700;
+}
+
+.cg-info-section p {
+  margin: 0 0 0.55rem;
+}
+
+.cg-info-section p:last-child {
+  margin-bottom: 0;
+}
+
+.cg-info-section strong {
+  color: var(--text);
+  font-weight: 600;
 }
 
 .cg-modal-title {

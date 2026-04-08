@@ -21,6 +21,7 @@
     profile_max_step: 3,
     guesses: [],
     status: "playing",
+    answer: null,
   };
   let searchTimer = null;
 
@@ -93,9 +94,32 @@
     }
   }
 
+  function renderAnswerBanner() {
+    const ban = el("cgAnswerBanner");
+    if (!ban) return;
+    const ans = gameState.answer;
+    if (ans && gameState.status === "lost") {
+      ban.classList.remove("hidden");
+      ban.innerHTML = `<strong>Doğru cevap:</strong> ${escapeHtml(ans.name)}`;
+    } else {
+      ban.classList.add("hidden");
+      ban.innerHTML = "";
+    }
+  }
+
+  function updatePlayControls() {
+    const playing = gameState.status === "playing";
+    const btnG = el("cgBtnGuess");
+    const btnS = el("cgBtnSurrender");
+    if (btnG) btnG.disabled = !playing;
+    if (btnS) btnS.disabled = !playing;
+  }
+
   function renderAll() {
     renderTable();
     renderGuesses();
+    renderAnswerBanner();
+    updatePlayControls();
     renderProfileModalContent();
   }
 
@@ -156,6 +180,22 @@
     renderAll();
   }
 
+  async function postSurrender() {
+    const res = await fetch(apiUrl("api/surrender"), {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      credentials: "same-origin",
+      body: "{}",
+    });
+    const data = await res.json().catch(() => ({}));
+    if (!res.ok) {
+      alert(data.error || "Hata");
+      return;
+    }
+    gameState = data;
+    renderAll();
+  }
+
   async function postHintProfile() {
     const res = await fetch(apiUrl("api/hint/profile"), {
       method: "POST",
@@ -179,6 +219,14 @@
     el("cgProfileModal").classList.add("hidden");
   }
 
+  function showInfoModal() {
+    el("cgInfoModal").classList.remove("hidden");
+  }
+
+  function hideInfoModal() {
+    el("cgInfoModal").classList.add("hidden");
+  }
+
   function init() {
     fetchState().catch(() => alert("Oyun yüklenemedi."));
 
@@ -200,6 +248,16 @@
     el("cgProfileNext").addEventListener("click", () => postHintProfile());
 
     el("cgBtnNew").addEventListener("click", () => window.location.reload());
+    el("cgBtnSurrender").addEventListener("click", () => postSurrender());
+
+    el("cgBtnInfo").addEventListener("click", () => showInfoModal());
+    el("cgInfoBackdrop").addEventListener("click", hideInfoModal);
+    el("cgInfoClose").addEventListener("click", hideInfoModal);
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key !== "Escape") return;
+      if (!el("cgInfoModal").classList.contains("hidden")) hideInfoModal();
+    });
   }
 
   document.addEventListener("DOMContentLoaded", init);
