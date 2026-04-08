@@ -34,6 +34,11 @@ player_guess_bp = Blueprint(
 TURKEY_TZ = pytz.timezone("Europe/Istanbul")
 EPOCH_DATE = datetime(2025, 1, 1)
 
+HINT_CHAMPIONSHIPS = "championships"
+HINT_TOP_CLUB_SEASONS = "top_club_seasons"
+HINT_CAREER = "career"
+MIN_GUESSES_FOR_CAREER_HINT = 8
+
 _POOL: Optional[List[Dict[str, Any]]] = None
 _ELIGIBLE_IDS: Optional[List[int]] = None
 _BY_ID: Optional[Dict[int, Dict[str, Any]]] = None
@@ -200,6 +205,24 @@ def _session_bucket() -> Dict[str, Any]:
     return session["football_player_guess"]
 
 
+def _hint_controls(b: Dict[str, Any]) -> Dict[str, Any]:
+    """Hedef oyuncuya özel puzzle ipuçları — buton durumu."""
+    ph = b.get("puzzle_hints") or {}
+    n = len(b.get("guesses", []))
+    playing = b.get("status") == "playing"
+    ch_free = ph.get(HINT_CHAMPIONSHIPS) is None
+    top_free = ph.get(HINT_TOP_CLUB_SEASONS) is None
+    car_free = ph.get(HINT_CAREER) is None
+    return {
+        "championships": bool(playing and ch_free),
+        "top_club_seasons": bool(playing and top_free),
+        "career": bool(playing and car_free and n >= MIN_GUESSES_FOR_CAREER_HINT),
+        "career_locked_guesses_remaining": max(0, MIN_GUESSES_FOR_CAREER_HINT - n)
+        if playing and car_free
+        else 0,
+    }
+
+
 def _public_player(p: Dict[str, Any]) -> Dict[str, Any]:
     return {
         "player_id": p["player_id"],
@@ -227,7 +250,11 @@ def get_game_state() -> Dict[str, Any]:
             b["correct_player_id"] = daily["player_id"] if daily else None
             b["guesses"] = []
             b["status"] = "playing"
+            b["puzzle_hints"] = {}
             session.modified = True
+
+    if b.get("puzzle_hints") is None:
+        b["puzzle_hints"] = {}
 
     guesses_out: List[Dict[str, Any]] = []
     for g in b.get("guesses", []):
@@ -244,12 +271,15 @@ def get_game_state() -> Dict[str, Any]:
             }
         )
 
+    ph = b.get("puzzle_hints") or {}
     return {
         "date": b.get("game_date", today),
         "guesses": guesses_out,
         "status": b.get("status", "playing"),
         "remaining": 10 - len(b.get("guesses", [])),
         "seconds_until_refresh": seconds_until_turkey_midnight(),
+        "puzzle_hints": ph,
+        "hint_controls": _hint_controls(b),
     }
 
 
@@ -360,6 +390,7 @@ def index():
             b["correct_player_id"] = pid
             b["guesses"] = []
             b["status"] = "playing"
+            b["puzzle_hints"] = {}
             session.modified = True
     else:
         b = _session_bucket()
@@ -394,6 +425,68 @@ def api_guess():
     return jsonify(result)
 
 
+@player_guess_bp.route("/api/hint", methods=["POST"])
+def api_hint():
+    """Gizli oyuncu için ipucu: şampiyonluk sayısı, gizli kulüp sezonları, (8+ tahmin) kariyer tablosu."""
+    _ensure_pool()
+    data = request.get_json(force=True, silent=True) or {}
+    htype = str(data.get("type", "")).strip()
+    b = _session_bucket()
+    if b.get("status") != "playing":
+        return jsonify({"error": "Oyun aktif değil."}), 400
+    cid = b.get("correct_player_id")
+    if cid is None or not _BY_ID:
+        return jsonify({"error": "Bulmaca yok."}), 400
+    correct = _BY_ID.get(cid)
+    if not correct:
+        return jsonify({"error": "Oyuncu bulunamadı."}), 404
+
+    ph = b.get("puzzle_hints")
+    if ph is None:
+        ph = {}
+        b["puzzle_hints"] = ph
+
+    n_guess = len(b.get("guesses", []))
+
+    if htype == HINT_CHAMPIONSHIPS:
+        if ph.get(HINT_CHAMPIONSHIPS) is not None:
+            return jsonify({"error": "Bu ipucu zaten kullanıldı."}), 400
+        n = int(correct.get("championship_count") or 0)
+        ph[HINT_CHAMPIONSHIPS] = {
+            "text": f"Süper Lig şampiyonluğu yaşadığı sezon sayısı: {n}."
+        }
+    elif htype == HINT_TOP_CLUB_SEASONS:
+        if ph.get(HINT_TOP_CLUB_SEASONS) is not None:
+            return jsonify({"error": "Bu ipucu zaten kullanıldı."}), 400
+        seasons = correct.get("top_club_seasons_sorted") or []
+        if not seasons:
+            ph[HINT_TOP_CLUB_SEASONS] = {
+                "text": "En çok Süper Lig sezonu geçirdiği kulüp için sezon listesi veri setinde yok."
+            }
+        else:
+            joined = ", ".join(seasons)
+            ph[HINT_TOP_CLUB_SEASONS] = {
+                "text": (
+                    "En çok Süper Lig sezonu geçirdiği kulüpte (isim gizli) şu sezonlarda kadroda: "
+                    f"{joined}."
+                )
+            }
+    elif htype == HINT_CAREER:
+        if n_guess < MIN_GUESSES_FOR_CAREER_HINT:
+            return jsonify(
+                {"error": f"Bu ipucu en az {MIN_GUESSES_FOR_CAREER_HINT} tahminden sonra açılır."}
+            ), 400
+        if ph.get(HINT_CAREER) is not None:
+            return jsonify({"error": "Bu ipucu zaten kullanıldı."}), 400
+        rows = correct.get("career_timeline") or []
+        ph[HINT_CAREER] = {"rows": rows}
+    else:
+        return jsonify({"error": "Geçersiz ipucu türü."}), 400
+
+    session.modified = True
+    return jsonify({"ok": True, **get_game_state()})
+
+
 @player_guess_bp.route("/api/reset", methods=["POST"])
 def api_reset():
     """Aynı gün / aynı özel bulmaca için tahminleri sıfırla (hedef oyuncu aynı kalır)."""
@@ -401,6 +494,7 @@ def api_reset():
     b = _session_bucket()
     b["guesses"] = []
     b["status"] = "playing"
+    b["puzzle_hints"] = {}
     session.modified = True
     return jsonify(get_game_state())
 

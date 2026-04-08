@@ -12,7 +12,13 @@
     return new URL(rel, apiRoot()).href;
   }
 
-  let gameState = { guesses: [], status: "playing", remaining: 10 };
+  let gameState = {
+    guesses: [],
+    status: "playing",
+    remaining: 10,
+    puzzle_hints: {},
+    hint_controls: {},
+  };
   let searchTimer = null;
   let createTimer = null;
   let selectedCreateId = null;
@@ -59,10 +65,13 @@
     const res = await fetch(apiUrl("api/state"), { credentials: "same-origin" });
     if (!res.ok) throw new Error("state");
     gameState = await res.json();
+    if (!gameState.puzzle_hints) gameState.puzzle_hints = {};
+    if (!gameState.hint_controls) gameState.hint_controls = {};
     syncRefreshDeadline(gameState.seconds_until_refresh);
     tickRefresh();
     renderDots();
     renderGuesses();
+    renderHintPanel();
     updateAction();
   }
 
@@ -108,6 +117,95 @@
     const d = document.createElement("div");
     d.textContent = s;
     return d.innerHTML;
+  }
+
+  async function requestHint(type) {
+    const res = await fetch(apiUrl("api/hint"), {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      credentials: "same-origin",
+      body: JSON.stringify({ type }),
+    });
+    const data = await res.json().catch(() => ({}));
+    if (!res.ok) {
+      alert(data.error || "İpucu alınamadı.");
+      return;
+    }
+    if (data.guesses) {
+      gameState = data;
+      if (!gameState.puzzle_hints) gameState.puzzle_hints = {};
+      if (!gameState.hint_controls) gameState.hint_controls = {};
+      syncRefreshDeadline(gameState.seconds_until_refresh);
+      tickRefresh();
+      renderDots();
+      renderGuesses();
+      renderHintPanel();
+      updateAction();
+    }
+  }
+
+  function renderHintPanel() {
+    const panel = el("pgHintPanel");
+    if (!panel) return;
+    const playing = gameState.status === "playing";
+    panel.style.display = playing || Object.keys(gameState.puzzle_hints || {}).length ? "block" : "none";
+
+    const hc = gameState.hint_controls || {};
+    const chBtn = el("pgHintChampionships");
+    const topBtn = el("pgHintTopClubSeasons");
+    const carBtn = el("pgHintCareer");
+    const note = el("pgHintCareerNote");
+
+    if (chBtn) {
+      chBtn.disabled = !hc.championships;
+      chBtn.onclick = () => requestHint("championships");
+    }
+    if (topBtn) {
+      topBtn.disabled = !hc.top_club_seasons;
+      topBtn.onclick = () => requestHint("top_club_seasons");
+    }
+    if (carBtn) {
+      carBtn.disabled = !hc.career;
+      carBtn.onclick = () => requestHint("career");
+    }
+
+    if (note) {
+      const rem = hc.career_locked_guesses_remaining;
+      const ph = gameState.puzzle_hints || {};
+      const need = rem > 0 && playing && !ph.career;
+      note.classList.toggle("hidden", !need);
+      if (need) {
+        note.textContent = `Kariyer tablosu ipucu ${rem} tahmin sonra açılır.`;
+      }
+    }
+
+    const box = el("pgHintRevealed");
+    if (!box) return;
+    const ph = gameState.puzzle_hints || {};
+    const parts = [];
+    if (ph.championships && ph.championships.text) {
+      parts.push(
+        `<div class="pg-hint-block"><div class="pg-hint-block-label">Şampiyonluk</div>${escapeHtml(ph.championships.text)}</div>`
+      );
+    }
+    if (ph.top_club_seasons && ph.top_club_seasons.text) {
+      parts.push(
+        `<div class="pg-hint-block"><div class="pg-hint-block-label">En çok oynanan kulüp — sezonlar</div>${escapeHtml(ph.top_club_seasons.text)}</div>`
+      );
+    }
+    if (ph.career && ph.career.rows && ph.career.rows.length) {
+      const rows = ph.career.rows
+        .map(
+          (r) =>
+            `<tr><td>${escapeHtml(r.season || "")}</td><td>${escapeHtml(r.team || "")}</td></tr>`
+        )
+        .join("");
+      parts.push(
+        `<div class="pg-hint-block"><div class="pg-hint-block-label">Kariyer (sezon → takım)</div>` +
+          `<div class="pg-hint-table-wrap"><table class="pg-hint-table"><thead><tr><th>Sezon</th><th>Takım</th></tr></thead><tbody>${rows}</tbody></table></div></div>`
+      );
+    }
+    box.innerHTML = parts.join("");
   }
 
   function renderGuesses() {
@@ -333,10 +431,13 @@
           return;
         }
         gameState = data;
+        if (!gameState.puzzle_hints) gameState.puzzle_hints = {};
+        if (!gameState.hint_controls) gameState.hint_controls = {};
         syncRefreshDeadline(gameState.seconds_until_refresh);
         tickRefresh();
         renderDots();
         renderGuesses();
+        renderHintPanel();
         updateAction();
         const rm = el("pgResultModal");
         if (rm) rm.classList.add("hidden");

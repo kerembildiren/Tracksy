@@ -28,7 +28,7 @@ if GRID_ROOT not in sys.path:
 from player_index import PlayerRecord, load_or_build_index  # noqa: E402
 
 DEFAULT_DATA = os.path.join(ROOT, "..", "superlig_data")
-CACHE_NAME = ".player_guess_catalog_v7.pkl"
+CACHE_NAME = ".player_guess_catalog_v8.pkl"
 
 # Daily answer must pass at least one (geniş havuz)
 MIN_GA_FOR_ELIGIBLE = 30
@@ -190,6 +190,31 @@ def _aggregate(data_root: str) -> Tuple[
     return goals, assists, dict(apps_by_team), birth_years, dict(profile_apps), season_team_pairs
 
 
+def _season_sort_key(season_key: str) -> int:
+    part = season_key.split("-")[0] if season_key else ""
+    return int(part) if part.isdigit() else 0
+
+
+def _championship_seasons_count(rec: PlayerRecord, champions: Dict[str, int]) -> int:
+    """Oyuncunun kadrosunda olduğu ve takımın şampiyon olduğu sezon sayısı (lig şampiyonluğu)."""
+    n = 0
+    for tid, seas in rec.team_seasons.items():
+        for s in seas:
+            if champions.get(s) == tid:
+                n += 1
+    return n
+
+
+def _career_timeline_rows(rec: PlayerRecord, team_names: Dict[int, str]) -> List[Dict[str, str]]:
+    rows: List[Dict[str, str]] = []
+    for tid, seas in rec.team_seasons.items():
+        tname = team_names.get(tid) or f"Kulüp #{tid}"
+        for s in seas:
+            rows.append({"season": s, "team": tname})
+    rows.sort(key=lambda r: (_season_sort_key(r["season"]), r["team"]))
+    return rows
+
+
 def _won_championship(
     pid: int,
     season_team_pairs: Set[Tuple[int, str, int]],
@@ -296,6 +321,11 @@ def build_catalog(data_root: str) -> Tuple[List[Dict[str, Any]], List[int], Dict
         won = _won_championship(pid, season_team_pairs, champions)
         by = birth_years.get(pid)
         daily_ok = _eligible(ga, rec.season_count, won) and _recognizable_for_daily(rec)
+        ch_count = _championship_seasons_count(rec, champions)
+        top_club_seasons_sorted = sorted(
+            rec.team_seasons.get(top_tid, set()), key=_season_sort_key
+        ) if top_tid else []
+        career_timeline = _career_timeline_rows(rec, team_names)
 
         pool.append(
             {
@@ -313,6 +343,9 @@ def build_catalog(data_root: str) -> Tuple[List[Dict[str, Any]], List[int], Dict
                 "top_club_name": top_name,
                 "top_club_apps": top_apps,
                 "career_team_ids": sorted(career_ids),
+                "championship_count": ch_count,
+                "top_club_seasons_sorted": top_club_seasons_sorted,
+                "career_timeline": career_timeline,
                 "won_championship": won,
                 "_daily_ok": daily_ok,
             }

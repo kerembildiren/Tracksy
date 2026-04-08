@@ -385,3 +385,91 @@ body {
   background: #0d1525;
   color: var(--text);
 }
+
+.pg-hint-panel {
+  margin-top: 0.75rem;
+  padding: 0.75rem;
+  border-radius: 12px;
+  border: 1px solid rgba(124, 184, 255, 0.2);
+  background: rgba(15, 28, 48, 0.6);
+}
+
+.pg-hint-panel-title {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  margin-bottom: 0.55rem;
+}
+
+.pg-hint-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.pg-btn--hint:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.pg-hint-career-note {
+  font-size: 0.78rem;
+  margin-top: 0.35rem;
+}
+
+.pg-hint-revealed {
+  margin-top: 0.65rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.pg-hint-block {
+  font-size: 0.82rem;
+  line-height: 1.45;
+  padding: 0.5rem 0.55rem;
+  border-radius: 8px;
+  background: rgba(12, 22, 40, 0.85);
+  border-left: 3px solid rgba(124, 184, 255, 0.45);
+}
+
+.pg-hint-block-label {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  color: var(--muted);
+  letter-spacing: 0.04em;
+  margin-bottom: 0.25rem;
+}
+
+.pg-hint-table-wrap {
+  overflow-x: auto;
+  max-height: 220px;
+  overflow-y: auto;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
+
+.pg-hint-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.78rem;
+}
+
+.pg-hint-table th,
+.pg-hint-table td {
+  padding: 0.35rem 0.5rem;
+  text-align: left;
+  border-bottom: 1px solid rgba(96, 165, 250, 0.12);
+}
+
+.pg-hint-table th {
+  position: sticky;
+  top: 0;
+  background: rgba(20, 35, 60, 0.98);
+  color: var(--muted);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.65rem;
+}
