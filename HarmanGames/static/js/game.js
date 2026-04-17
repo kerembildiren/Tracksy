@@ -19,6 +19,8 @@ let gameState = {
 
 let guessedIds = new Set();
 let searchTimeout = null;
+/** Bumped when the guess modal closes so late /api/search responses are ignored. */
+let guessSearchSeq = 0;
 let countdownSeconds = 0;
 let countdownInterval = null;
 /** @type { { pause?: () => void; destroy?: () => void } | null } */
@@ -468,6 +470,24 @@ function formatGenres(artist) {
 // Search
 // ============================================================
 
+function guessSearchIdleHtml() {
+    return `
+            <div class="empty-state">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M12 18.5a6.5 6.5 0 1 0 0-13 6.5 6.5 0 0 0 0 13ZM12 8v4M12 14h.01"/>
+                </svg>
+                <p>Start typing to search</p>
+            </div>
+        `;
+}
+
+function resetGuessSearchResults() {
+    const resultsContainer = document.getElementById('searchResults');
+    if (resultsContainer) {
+        resultsContainer.innerHTML = guessSearchIdleHtml();
+    }
+}
+
 function initSearch() {
     const input = document.getElementById('searchInput');
     const clearBtn = document.getElementById('clearBtn');
@@ -488,22 +508,19 @@ function initSearch() {
 
 async function searchArtists(query) {
     const resultsContainer = document.getElementById('searchResults');
+    const seq = ++guessSearchSeq;
     
     if (!query.trim()) {
-        resultsContainer.innerHTML = `
-            <div class="empty-state">
-                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                    <path d="M12 18.5a6.5 6.5 0 1 0 0-13 6.5 6.5 0 0 0 0 13ZM12 8v4M12 14h.01"/>
-                </svg>
-                <p>Start typing to search</p>
-            </div>
-        `;
+        resultsContainer.innerHTML = guessSearchIdleHtml();
         return;
     }
     
     try {
         const response = await fetch(`/api/search?q=${encodeURIComponent(query)}`);
         const artists = await response.json();
+        if (seq !== guessSearchSeq) {
+            return;
+        }
         
         if (artists.length === 0) {
             resultsContainer.innerHTML = `
@@ -517,7 +534,7 @@ async function searchArtists(query) {
             `;
             return;
         }
-        
+
         resultsContainer.innerHTML = artists.map(artist => {
             const isGuessed = guessedIds.has(artist.id);
             const thumb = artist.image_url
@@ -537,7 +554,9 @@ async function searchArtists(query) {
         }).join('');
         
     } catch (error) {
-        console.error('Search failed:', error);
+        if (seq === guessSearchSeq) {
+            console.error('Search failed:', error);
+        }
     }
 }
 
@@ -594,24 +613,37 @@ function clearSearch() {
 // Modals
 // ============================================================
 
-function showSearch() {
-    if (gameState.status !== 'playing') return;
-    
-    const modal = document.getElementById('searchModal');
-    modal.classList.add('active');
-    
-    setTimeout(() => {
-        document.getElementById('searchInput').focus();
-    }, 300);
-}
-
 function hideSearch() {
+    guessSearchSeq++;
+    if (searchTimeout) {
+        clearTimeout(searchTimeout);
+        searchTimeout = null;
+    }
     const modal = document.getElementById('searchModal');
     modal.classList.remove('active');
     
     // Clear search
     document.getElementById('searchInput').value = '';
     document.getElementById('clearBtn').classList.remove('visible');
+    resetGuessSearchResults();
+}
+
+function showSearch() {
+    if (gameState.status !== 'playing') return;
+    
+    guessSearchSeq++;
+    if (searchTimeout) {
+        clearTimeout(searchTimeout);
+        searchTimeout = null;
+    }
+    resetGuessSearchResults();
+
+    const modal = document.getElementById('searchModal');
+    modal.classList.add('active');
+    
+    setTimeout(() => {
+        document.getElementById('searchInput').focus();
+    }, 300);
 }
 
 async function showResult() {
